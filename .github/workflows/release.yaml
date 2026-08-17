@@ -409,6 +409,12 @@ jobs:
             exit 1
           fi
 
+      - name: Check Azure Trusted Signing credentials (Windows)
+        if: runner.os == 'Windows'
+        run: echo "azure_signing_configured=$([ -n "$AZURE_TENANT_ID" ] && echo true || echo false)" >> "$GITHUB_ENV"
+        env:
+          AZURE_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
+
       - name: List unpacked binaries to sign (Windows)
         id: sign-list
         if: runner.os == 'Windows'
@@ -442,7 +448,7 @@ jobs:
           } >> "$GITHUB_OUTPUT"
 
       - name: Azure Trusted Signing unpacked binaries (Windows)
-        if: runner.os == 'Windows' && secrets.AZURE_TENANT_ID != ''
+        if: runner.os == 'Windows' && env.azure_signing_configured == 'true'
         uses: azure/artifact-signing-action@v2
         with:
           azure-tenant-id: ${{ secrets.AZURE_TENANT_ID }}
@@ -512,7 +518,7 @@ jobs:
           key: ${{ steps.electron-builder-cache-restore.outputs.cache-primary-key }}
 
       - name: Azure Trusted Signing (Windows)
-        if: runner.os == 'Windows' && secrets.AZURE_TENANT_ID != ''
+        if: runner.os == 'Windows' && env.azure_signing_configured == 'true'
         uses: azure/artifact-signing-action@v2
         with:
           azure-tenant-id: ${{ secrets.AZURE_TENANT_ID }}
