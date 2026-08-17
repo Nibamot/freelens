@@ -10,14 +10,16 @@
   display: grid;
   grid-template-areas:
     "topbar topbar"
+    "top-tabs top-tabs"
     "menu main"
     "status-bar status-bar";
-  grid-template-rows: auto 1fr min-content;
+  grid-template-rows: auto auto 1fr min-content;
   grid-template-columns: min-content 1fr;
 
   &.hotbarAutoHide {
     grid-template-areas:
       "topbar"
+      "top-tabs"
       "main"
       "status-bar";
     grid-template-columns: 1fr;
@@ -37,7 +39,7 @@
     &.autoHide {
       position: fixed;
       left: 0;
-      top: var(--main-layout-header);
+      top: calc(var(--main-layout-header) + var(--top-tabs-height));
       bottom: var(--status-bar-height);
       z-index: 2;
     }
@@ -46,7 +48,7 @@
   .hotbar-trigger-zone {
     position: fixed;
     left: 0;
-    top: var(--main-layout-header);
+    top: calc(var(--main-layout-header) + var(--top-tabs-height));
     bottom: var(--status-bar-height);
     width: 15px;
     z-index: 10;

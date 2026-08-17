@@ -1,0 +1,34 @@
+/**
+ * Copyright (c) Freelens Authors. All rights reserved.
+ * Copyright (c) OpenLens Authors. All rights reserved.
+ * Licensed under MIT License. See LICENSE in root directory for more information.
+ */
+
+.topTabBar {
+  grid-area: top-tabs;
+  background-color: var(--layoutBackground);
+  border-bottom: 1px solid var(--borderFaintColor);
+  height: var(--top-tabs-height);
+  overflow: hidden;
+}
+
+.tabs {
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+
+  &:global(.scrollable) {
+    overflow: auto;
+    overflow-x: overlay;
+
+    &::-webkit-scrollbar-thumb {
+      background-color: transparent;
+    }
+
+    &:hover::-webkit-scrollbar-thumb {
+      border-radius: 0;
+      height: 3px;
+      background-color: rgba(106, 115, 125, 0.2);
+    }
+  }
+}
