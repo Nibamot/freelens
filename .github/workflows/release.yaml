@@ -442,7 +442,7 @@ jobs:
           } >> "$GITHUB_OUTPUT"
 
       - name: Azure Trusted Signing unpacked binaries (Windows)
-        if: runner.os == 'Windows'
+        if: runner.os == 'Windows' && secrets.AZURE_TENANT_ID != ''
         uses: azure/artifact-signing-action@v2
         with:
           azure-tenant-id: ${{ secrets.AZURE_TENANT_ID }}
@@ -512,7 +512,7 @@ jobs:
           key: ${{ steps.electron-builder-cache-restore.outputs.cache-primary-key }}
 
       - name: Azure Trusted Signing (Windows)
-        if: runner.os == 'Windows'
+        if: runner.os == 'Windows' && secrets.AZURE_TENANT_ID != ''
         uses: azure/artifact-signing-action@v2
         with:
           azure-tenant-id: ${{ secrets.AZURE_TENANT_ID }}
