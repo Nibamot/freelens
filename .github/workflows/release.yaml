@@ -411,6 +411,7 @@ jobs:
 
       - name: Check Azure Trusted Signing credentials (Windows)
         if: runner.os == 'Windows'
+        shell: bash
         run: echo "azure_signing_configured=$([ -n "$AZURE_TENANT_ID" ] && echo true || echo false)" >> "$GITHUB_ENV"
         env:
           AZURE_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
