@@ -6,6 +6,7 @@
  * This replaces the webpack-based auto-registration system.
  */
 
+import currentPageTitleInjectable from "./current-page-title.injectable";
 import currentPathInjectable from "./current-path.injectable";
 import currentRouteInjectable from "./current-route.injectable";
 import currentRouteComponentInjectable from "./current-route-component.injectable";
@@ -25,6 +26,11 @@ import siblingTabsInjectable from "./sibling-tabs.injectable";
 import type { DiContainerForInjection } from "@ogre-tools/injectable";
 
 export function registerInjectables(di: DiContainerForInjection): void {
+  try {
+    di.register(currentPageTitleInjectable);
+  } catch (e) {
+    /* Ignore duplicate registration */
+  }
   try {
     di.register(currentPathInjectable);
   } catch (e) {

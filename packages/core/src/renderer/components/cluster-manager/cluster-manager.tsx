@@ -20,6 +20,7 @@ import { DeleteClusterDialog } from "../delete-cluster-dialog";
 import { HotbarMenu } from "../hotbar/hotbar-menu";
 import { TopBar } from "../layout/top-bar/top-bar";
 import { StatusBar } from "../status-bar/status-bar";
+import { TopTabBar } from "../top-tabs/top-tab-bar";
 
 import type { IComputedValue } from "mobx";
 
@@ -73,6 +74,7 @@ class NonInjectedClusterManager extends React.Component<Dependencies> {
     return (
       <div className={cssNames("ClusterManager", { hotbarAutoHide: this.props.userPreferencesState.hotbarAutoHide })}>
         <TopBar />
+        <TopTabBar />
         <main>
           <div id="lens-views" />
           {this.renderMainComponent()}

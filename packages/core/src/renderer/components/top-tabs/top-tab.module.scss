@@ -1,0 +1,56 @@
+/**
+ * Copyright (c) Freelens Authors. All rights reserved.
+ * Copyright (c) OpenLens Authors. All rights reserved.
+ * Licensed under MIT License. See LICENSE in root directory for more information.
+ */
+
+.topTab {
+  --min-tab-width: 120px;
+  --max-tab-width: 200px;
+
+  flex: 0 1 var(--max-tab-width);
+  width: var(--max-tab-width);
+  min-width: var(--min-tab-width);
+  max-width: var(--max-tab-width);
+  overflow: hidden;
+  padding: 0 8px;
+  background-color: var(--layoutBackground);
+  border-right: 1px solid var(--borderColor);
+
+  &:hover {
+    background-color: var(--contentColor);
+  }
+
+  &:global(.active) {
+    background-color: var(--contentColor);
+  }
+
+  :global(.label) {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+  }
+}
+
+.title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 1;
+  min-width: 0;
+}
+
+.close {
+  flex-shrink: 0;
+  opacity: 0;
+  margin-left: 4px;
+
+  .topTab:hover &,
+  .topTab:global(.active) & {
+    opacity: 0.7;
+  }
+
+  &:hover {
+    opacity: 1 !important;
+  }
+}
