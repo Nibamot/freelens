@@ -63,6 +63,21 @@ Run the following command:
 brew install --cask freelens
 ```
 
+#### Without Homebrew
+
+Homebrew is not required. Open the downloaded PKG or DMG directly and follow
+the installer, or drag `Freelens.app` from the DMG into `/Applications`.
+
+If the package is not signed and notarized with an Apple Developer
+certificate (e.g. a locally built or unofficial fork), Gatekeeper will refuse
+to open it with a "damaged" or "unidentified developer" warning. Either
+right-click the app and choose **Open** to approve it once, or clear the
+quarantine attribute from the terminal:
+
+```sh
+xattr -cr /Applications/Freelens.app
+```
+
 ### Linux
 
 Linux with GNU C Library 2.34 or later is required. It is provided ie. by
