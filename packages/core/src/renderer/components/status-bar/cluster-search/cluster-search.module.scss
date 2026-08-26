@@ -1,0 +1,26 @@
+.ClusterSearch {
+  display: flex;
+  align-items: center;
+  gap: calc(var(--padding) / 2);
+  cursor: pointer;
+}
+
+.label {
+  font-size: 0.9em;
+  white-space: nowrap;
+}
+
+.menu {
+  min-width: 220px;
+  max-width: 320px;
+  max-height: 320px;
+  overflow-y: auto;
+}
+
+.searchBox {
+  padding: calc(var(--padding) / 2);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: var(--layoutBackground);
+}
