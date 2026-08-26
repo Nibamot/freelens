@@ -6,7 +6,7 @@
 
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
-import { Fragment } from "react";
+import { Fragment, useEffect } from "react";
 import { Tabs } from "../tabs";
 import topTabsStoreInjectable from "./store.injectable";
 import { TopTab } from "./top-tab";
@@ -18,8 +18,37 @@ interface Dependencies {
   topTabsStore: TopTabsStore;
 }
 
+function isEditableTarget(target: EventTarget | null) {
+  if (!(target instanceof HTMLElement)) {
+    return false;
+  }
+
+  return target.tagName === "INPUT" || target.tagName === "TEXTAREA" || target.isContentEditable;
+}
+
 const NonInjectedTopTabBar = observer(({ topTabsStore }: Dependencies) => {
   const { tabs, activeTab } = topTabsStore;
+
+  useEffect(() => {
+    const onKeyDown = (evt: KeyboardEvent) => {
+      if (evt.code !== "KeyW" || !(evt.ctrlKey || evt.metaKey) || evt.shiftKey) {
+        return;
+      }
+
+      const { activeTabId } = topTabsStore;
+
+      if (!activeTabId || isEditableTarget(evt.target)) {
+        return;
+      }
+
+      evt.preventDefault();
+      topTabsStore.closeTab(activeTabId);
+    };
+
+    document.addEventListener("keydown", onKeyDown);
+
+    return () => document.removeEventListener("keydown", onKeyDown);
+  }, [topTabsStore]);
 
   if (tabs.length === 0) {
     return null;

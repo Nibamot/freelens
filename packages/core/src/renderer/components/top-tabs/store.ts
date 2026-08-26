@@ -5,7 +5,7 @@
  */
 
 import autoBind from "auto-bind";
-import { action, computed, makeObservable, reaction } from "mobx";
+import { action, comparer, computed, makeObservable, reaction } from "mobx";
 import * as uuid from "uuid";
 
 import type { IComputedValue } from "mobx";
@@ -44,6 +44,11 @@ export class TopTabsStore {
       ([path, title]) => this.upsertTab(path, title),
       {
         fireImmediately: true,
+        // the tracked expression returns a fresh array on every recompute, so without a
+        // structural comparer this reaction refires (and resurrects a just-closed tab) whenever
+        // currentPath/currentPageTitle merely recompute with the same values (e.g. unrelated
+        // catalog updates), not only when they actually change
+        equals: comparer.structural,
       },
     );
   }
