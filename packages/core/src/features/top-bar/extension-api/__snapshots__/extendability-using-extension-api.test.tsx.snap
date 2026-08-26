@@ -80,8 +80,8 @@ exports[`extendability-using-extension-api > given an extension with a weakly ty
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-b83d7ddf-09b5-4aae-8a0c-2f137f6486cf"
-            id="top-tab-b83d7ddf-09b5-4aae-8a0c-2f137f6486cf"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -101,7 +101,7 @@ exports[`extendability-using-extension-api > given an extension with a weakly ty
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-b83d7ddf-09b5-4aae-8a0c-2f137f6486cf"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -112,7 +112,7 @@ exports[`extendability-using-extension-api > given an extension with a weakly ty
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-b83d7ddf-09b5-4aae-8a0c-2f137f6486cf"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -122,8 +122,8 @@ exports[`extendability-using-extension-api > given an extension with a weakly ty
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-ed6b78a9-cf6e-4102-9d62-f42fc65be7f0"
-            id="top-tab-ed6b78a9-cf6e-4102-9d62-f42fc65be7f0"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -143,7 +143,7 @@ exports[`extendability-using-extension-api > given an extension with a weakly ty
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-ed6b78a9-cf6e-4102-9d62-f42fc65be7f0"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -154,7 +154,7 @@ exports[`extendability-using-extension-api > given an extension with a weakly ty
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-ed6b78a9-cf6e-4102-9d62-f42fc65be7f0"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -565,6 +565,11 @@ exports[`extendability-using-extension-api > given an extension with a weakly ty
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -667,8 +672,8 @@ exports[`extendability-using-extension-api > given an extension with top-bar ite
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-bf58a2ad-7954-4e39-adcc-6a4d205dd531"
-            id="top-tab-bf58a2ad-7954-4e39-adcc-6a4d205dd531"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -688,7 +693,7 @@ exports[`extendability-using-extension-api > given an extension with top-bar ite
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-bf58a2ad-7954-4e39-adcc-6a4d205dd531"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -699,7 +704,7 @@ exports[`extendability-using-extension-api > given an extension with top-bar ite
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-bf58a2ad-7954-4e39-adcc-6a4d205dd531"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -709,8 +714,8 @@ exports[`extendability-using-extension-api > given an extension with top-bar ite
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-30a478ef-4046-404b-a010-98228f3be163"
-            id="top-tab-30a478ef-4046-404b-a010-98228f3be163"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -730,7 +735,7 @@ exports[`extendability-using-extension-api > given an extension with top-bar ite
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-30a478ef-4046-404b-a010-98228f3be163"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -741,7 +746,7 @@ exports[`extendability-using-extension-api > given an extension with top-bar ite
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-30a478ef-4046-404b-a010-98228f3be163"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -1152,6 +1157,11 @@ exports[`extendability-using-extension-api > given an extension with top-bar ite
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -1245,8 +1255,8 @@ exports[`extendability-using-extension-api > given an extension with top-bar ite
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-c59b50d8-d85d-4e02-9089-e5da2c98fbe5"
-            id="top-tab-c59b50d8-d85d-4e02-9089-e5da2c98fbe5"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -1266,7 +1276,7 @@ exports[`extendability-using-extension-api > given an extension with top-bar ite
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-c59b50d8-d85d-4e02-9089-e5da2c98fbe5"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -1277,7 +1287,7 @@ exports[`extendability-using-extension-api > given an extension with top-bar ite
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-c59b50d8-d85d-4e02-9089-e5da2c98fbe5"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -1287,8 +1297,8 @@ exports[`extendability-using-extension-api > given an extension with top-bar ite
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-227bfbd9-0fc6-4aed-a1ba-8fad283af76c"
-            id="top-tab-227bfbd9-0fc6-4aed-a1ba-8fad283af76c"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -1308,7 +1318,7 @@ exports[`extendability-using-extension-api > given an extension with top-bar ite
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-227bfbd9-0fc6-4aed-a1ba-8fad283af76c"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -1319,7 +1329,7 @@ exports[`extendability-using-extension-api > given an extension with top-bar ite
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-227bfbd9-0fc6-4aed-a1ba-8fad283af76c"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -1730,6 +1740,11 @@ exports[`extendability-using-extension-api > given an extension with top-bar ite
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -1823,8 +1838,8 @@ exports[`extendability-using-extension-api > renders 1`] = `
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-bb95dbac-758d-4eba-96c2-8743ba2c6adf"
-            id="top-tab-bb95dbac-758d-4eba-96c2-8743ba2c6adf"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -1844,7 +1859,7 @@ exports[`extendability-using-extension-api > renders 1`] = `
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-bb95dbac-758d-4eba-96c2-8743ba2c6adf"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -1855,7 +1870,7 @@ exports[`extendability-using-extension-api > renders 1`] = `
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-bb95dbac-758d-4eba-96c2-8743ba2c6adf"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -1865,8 +1880,8 @@ exports[`extendability-using-extension-api > renders 1`] = `
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-a99843c9-9f18-4846-896c-70d98746feb8"
-            id="top-tab-a99843c9-9f18-4846-896c-70d98746feb8"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -1886,7 +1901,7 @@ exports[`extendability-using-extension-api > renders 1`] = `
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-a99843c9-9f18-4846-896c-70d98746feb8"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -1897,7 +1912,7 @@ exports[`extendability-using-extension-api > renders 1`] = `
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-a99843c9-9f18-4846-896c-70d98746feb8"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -2308,6 +2323,11 @@ exports[`extendability-using-extension-api > renders 1`] = `
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>

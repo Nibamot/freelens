@@ -81,8 +81,8 @@ exports[`Deleting a cluster > when an internal kubeconfig cluster is used > when
         >
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-2ea7effb-4800-4947-abec-c8d72fc445bd"
-            id="top-tab-2ea7effb-4800-4947-abec-c8d72fc445bd"
+            data-testid="top-tab-for-/catalog"
+            id="top-tab-/catalog"
             role="tab"
             tabindex="0"
           >
@@ -102,7 +102,7 @@ exports[`Deleting a cluster > when an internal kubeconfig cluster is used > when
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-2ea7effb-4800-4947-abec-c8d72fc445bd"
+                    data-testid="top-tab-close-for-/catalog"
                     tabindex="0"
                   >
                     <span
@@ -113,7 +113,7 @@ exports[`Deleting a cluster > when an internal kubeconfig cluster is used > when
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-2ea7effb-4800-4947-abec-c8d72fc445bd"
+                    data-testid="tooltip-content-for-top-tab-close-for-/catalog"
                   >
                     Close tab
                   </div>
@@ -781,6 +781,11 @@ exports[`Deleting a cluster > when an internal kubeconfig cluster is used > when
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -931,8 +936,8 @@ exports[`Deleting a cluster > when the kubeconfig has multiple clusters > when t
         >
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-bac17047-8e0b-4a08-914b-546f46bf3696"
-            id="top-tab-bac17047-8e0b-4a08-914b-546f46bf3696"
+            data-testid="top-tab-for-/catalog"
+            id="top-tab-/catalog"
             role="tab"
             tabindex="0"
           >
@@ -952,7 +957,7 @@ exports[`Deleting a cluster > when the kubeconfig has multiple clusters > when t
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-bac17047-8e0b-4a08-914b-546f46bf3696"
+                    data-testid="top-tab-close-for-/catalog"
                     tabindex="0"
                   >
                     <span
@@ -963,7 +968,7 @@ exports[`Deleting a cluster > when the kubeconfig has multiple clusters > when t
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-bac17047-8e0b-4a08-914b-546f46bf3696"
+                    data-testid="tooltip-content-for-top-tab-close-for-/catalog"
                   >
                     Close tab
                   </div>
@@ -1631,6 +1636,11 @@ exports[`Deleting a cluster > when the kubeconfig has multiple clusters > when t
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -1814,8 +1824,8 @@ exports[`Deleting a cluster > when the kubeconfig has multiple clusters > when t
         >
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-64d7b266-437e-4c32-8316-594389cd3257"
-            id="top-tab-64d7b266-437e-4c32-8316-594389cd3257"
+            data-testid="top-tab-for-/catalog"
+            id="top-tab-/catalog"
             role="tab"
             tabindex="0"
           >
@@ -1835,7 +1845,7 @@ exports[`Deleting a cluster > when the kubeconfig has multiple clusters > when t
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-64d7b266-437e-4c32-8316-594389cd3257"
+                    data-testid="top-tab-close-for-/catalog"
                     tabindex="0"
                   >
                     <span
@@ -1846,7 +1856,7 @@ exports[`Deleting a cluster > when the kubeconfig has multiple clusters > when t
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-64d7b266-437e-4c32-8316-594389cd3257"
+                    data-testid="tooltip-content-for-top-tab-close-for-/catalog"
                   >
                     Close tab
                   </div>
@@ -2514,6 +2524,11 @@ exports[`Deleting a cluster > when the kubeconfig has multiple clusters > when t
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -2778,8 +2793,8 @@ exports[`Deleting a cluster > when the kubeconfig has multiple clusters > when t
         >
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-47edd1f8-67b7-44cc-a304-4ebf3eacd741"
-            id="top-tab-47edd1f8-67b7-44cc-a304-4ebf3eacd741"
+            data-testid="top-tab-for-/catalog"
+            id="top-tab-/catalog"
             role="tab"
             tabindex="0"
           >
@@ -2799,7 +2814,7 @@ exports[`Deleting a cluster > when the kubeconfig has multiple clusters > when t
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-47edd1f8-67b7-44cc-a304-4ebf3eacd741"
+                    data-testid="top-tab-close-for-/catalog"
                     tabindex="0"
                   >
                     <span
@@ -2810,7 +2825,7 @@ exports[`Deleting a cluster > when the kubeconfig has multiple clusters > when t
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-47edd1f8-67b7-44cc-a304-4ebf3eacd741"
+                    data-testid="tooltip-content-for-top-tab-close-for-/catalog"
                   >
                     Close tab
                   </div>
@@ -3478,6 +3493,11 @@ exports[`Deleting a cluster > when the kubeconfig has multiple clusters > when t
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -3742,8 +3762,8 @@ exports[`Deleting a cluster > when the kubeconfig has only one cluster > when th
         >
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-73fd7628-393a-4fcc-aff7-0573e2d64211"
-            id="top-tab-73fd7628-393a-4fcc-aff7-0573e2d64211"
+            data-testid="top-tab-for-/catalog"
+            id="top-tab-/catalog"
             role="tab"
             tabindex="0"
           >
@@ -3763,7 +3783,7 @@ exports[`Deleting a cluster > when the kubeconfig has only one cluster > when th
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-73fd7628-393a-4fcc-aff7-0573e2d64211"
+                    data-testid="top-tab-close-for-/catalog"
                     tabindex="0"
                   >
                     <span
@@ -3774,7 +3794,7 @@ exports[`Deleting a cluster > when the kubeconfig has only one cluster > when th
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-73fd7628-393a-4fcc-aff7-0573e2d64211"
+                    data-testid="tooltip-content-for-top-tab-close-for-/catalog"
                   >
                     Close tab
                   </div>
@@ -4442,6 +4462,11 @@ exports[`Deleting a cluster > when the kubeconfig has only one cluster > when th
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>

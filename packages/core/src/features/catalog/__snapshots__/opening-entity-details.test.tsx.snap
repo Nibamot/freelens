@@ -80,8 +80,8 @@ exports[`opening catalog entity details panel > renders 1`] = `
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-45f2fec1-fa3d-4e36-bf64-5990f6bbb71c"
-            id="top-tab-45f2fec1-fa3d-4e36-bf64-5990f6bbb71c"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -101,7 +101,7 @@ exports[`opening catalog entity details panel > renders 1`] = `
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-45f2fec1-fa3d-4e36-bf64-5990f6bbb71c"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -112,7 +112,7 @@ exports[`opening catalog entity details panel > renders 1`] = `
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-45f2fec1-fa3d-4e36-bf64-5990f6bbb71c"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -122,8 +122,8 @@ exports[`opening catalog entity details panel > renders 1`] = `
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-b794b5b9-a30c-46b0-bfeb-be374d4441f9"
-            id="top-tab-b794b5b9-a30c-46b0-bfeb-be374d4441f9"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -143,7 +143,7 @@ exports[`opening catalog entity details panel > renders 1`] = `
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-b794b5b9-a30c-46b0-bfeb-be374d4441f9"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -154,7 +154,7 @@ exports[`opening catalog entity details panel > renders 1`] = `
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-b794b5b9-a30c-46b0-bfeb-be374d4441f9"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -565,6 +565,11 @@ exports[`opening catalog entity details panel > renders 1`] = `
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -659,8 +664,8 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-3f1e4316-7ae2-438f-b862-7fde65e18adb"
-            id="top-tab-3f1e4316-7ae2-438f-b862-7fde65e18adb"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -680,7 +685,7 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-3f1e4316-7ae2-438f-b862-7fde65e18adb"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -691,7 +696,7 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-3f1e4316-7ae2-438f-b862-7fde65e18adb"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -701,8 +706,8 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-91450cde-67ae-4333-b9fa-5d750cfa7d2c"
-            id="top-tab-91450cde-67ae-4333-b9fa-5d750cfa7d2c"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -722,7 +727,7 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-91450cde-67ae-4333-b9fa-5d750cfa7d2c"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -733,7 +738,7 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-91450cde-67ae-4333-b9fa-5d750cfa7d2c"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -743,8 +748,8 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-feea7271-5ef4-4b1f-9ce2-9a752ce3c97e"
-            id="top-tab-feea7271-5ef4-4b1f-9ce2-9a752ce3c97e"
+            data-testid="top-tab-for-/catalog"
+            id="top-tab-/catalog"
             role="tab"
             tabindex="0"
           >
@@ -764,7 +769,7 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-feea7271-5ef4-4b1f-9ce2-9a752ce3c97e"
+                    data-testid="top-tab-close-for-/catalog"
                     tabindex="0"
                   >
                     <span
@@ -775,7 +780,7 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-feea7271-5ef4-4b1f-9ce2-9a752ce3c97e"
+                    data-testid="tooltip-content-for-top-tab-close-for-/catalog"
                   >
                     Close tab
                   </div>
@@ -1718,6 +1723,11 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -1812,8 +1822,8 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-807ba02d-9561-4d00-b83a-3194f68fa9b5"
-            id="top-tab-807ba02d-9561-4d00-b83a-3194f68fa9b5"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -1833,7 +1843,7 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-807ba02d-9561-4d00-b83a-3194f68fa9b5"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -1844,7 +1854,7 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-807ba02d-9561-4d00-b83a-3194f68fa9b5"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -1854,8 +1864,8 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-7be770d1-a7bc-4bdb-975a-38b40fb189f8"
-            id="top-tab-7be770d1-a7bc-4bdb-975a-38b40fb189f8"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -1875,7 +1885,7 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-7be770d1-a7bc-4bdb-975a-38b40fb189f8"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -1886,7 +1896,7 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-7be770d1-a7bc-4bdb-975a-38b40fb189f8"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -1896,8 +1906,8 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-0167f49f-fef5-4e52-975f-3e17465d5f01"
-            id="top-tab-0167f49f-fef5-4e52-975f-3e17465d5f01"
+            data-testid="top-tab-for-/catalog"
+            id="top-tab-/catalog"
             role="tab"
             tabindex="0"
           >
@@ -1917,7 +1927,7 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-0167f49f-fef5-4e52-975f-3e17465d5f01"
+                    data-testid="top-tab-close-for-/catalog"
                     tabindex="0"
                   >
                     <span
@@ -1928,7 +1938,7 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-0167f49f-fef5-4e52-975f-3e17465d5f01"
+                    data-testid="tooltip-content-for-top-tab-close-for-/catalog"
                   >
                     Close tab
                   </div>
@@ -2871,6 +2881,11 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -2997,8 +3012,8 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-60d8af90-5a05-4c8a-89a2-4b81043759b3"
-            id="top-tab-60d8af90-5a05-4c8a-89a2-4b81043759b3"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -3018,7 +3033,7 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-60d8af90-5a05-4c8a-89a2-4b81043759b3"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -3029,7 +3044,7 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-60d8af90-5a05-4c8a-89a2-4b81043759b3"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -3039,8 +3054,8 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-9a4419b5-18f4-4fbf-9ee1-f6c972b20647"
-            id="top-tab-9a4419b5-18f4-4fbf-9ee1-f6c972b20647"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -3060,7 +3075,7 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-9a4419b5-18f4-4fbf-9ee1-f6c972b20647"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -3071,7 +3086,7 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-9a4419b5-18f4-4fbf-9ee1-f6c972b20647"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -3081,8 +3096,8 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-a463c0a1-6594-4922-ba71-01bd68d34425"
-            id="top-tab-a463c0a1-6594-4922-ba71-01bd68d34425"
+            data-testid="top-tab-for-/catalog"
+            id="top-tab-/catalog"
             role="tab"
             tabindex="0"
           >
@@ -3102,7 +3117,7 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-a463c0a1-6594-4922-ba71-01bd68d34425"
+                    data-testid="top-tab-close-for-/catalog"
                     tabindex="0"
                   >
                     <span
@@ -3113,7 +3128,7 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-a463c0a1-6594-4922-ba71-01bd68d34425"
+                    data-testid="tooltip-content-for-top-tab-close-for-/catalog"
                   >
                     Close tab
                   </div>
@@ -4056,6 +4071,11 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -4434,8 +4454,8 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-0609fa36-d6e3-4ea4-a6fd-1fcefe93585b"
-            id="top-tab-0609fa36-d6e3-4ea4-a6fd-1fcefe93585b"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -4455,7 +4475,7 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-0609fa36-d6e3-4ea4-a6fd-1fcefe93585b"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -4466,7 +4486,7 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-0609fa36-d6e3-4ea4-a6fd-1fcefe93585b"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -4476,8 +4496,8 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-f79a8143-73d2-4441-9309-ff6f5f33ed03"
-            id="top-tab-f79a8143-73d2-4441-9309-ff6f5f33ed03"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -4497,7 +4517,7 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-f79a8143-73d2-4441-9309-ff6f5f33ed03"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -4508,7 +4528,7 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-f79a8143-73d2-4441-9309-ff6f5f33ed03"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -4518,8 +4538,8 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-e98146bc-b659-4c34-a2fb-188c72dacaad"
-            id="top-tab-e98146bc-b659-4c34-a2fb-188c72dacaad"
+            data-testid="top-tab-for-/catalog"
+            id="top-tab-/catalog"
             role="tab"
             tabindex="0"
           >
@@ -4539,7 +4559,7 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-e98146bc-b659-4c34-a2fb-188c72dacaad"
+                    data-testid="top-tab-close-for-/catalog"
                     tabindex="0"
                   >
                     <span
@@ -4550,7 +4570,7 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-e98146bc-b659-4c34-a2fb-188c72dacaad"
+                    data-testid="tooltip-content-for-top-tab-close-for-/catalog"
                   >
                     Close tab
                   </div>
@@ -5493,6 +5513,11 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -5839,8 +5864,8 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-8287e4c8-ec93-4b3a-9db2-ac8427dabc2a"
-            id="top-tab-8287e4c8-ec93-4b3a-9db2-ac8427dabc2a"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -5860,7 +5885,7 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-8287e4c8-ec93-4b3a-9db2-ac8427dabc2a"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -5871,7 +5896,7 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-8287e4c8-ec93-4b3a-9db2-ac8427dabc2a"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -5881,8 +5906,8 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-cd729c63-ad4f-45c9-a1d2-a41eea463fc5"
-            id="top-tab-cd729c63-ad4f-45c9-a1d2-a41eea463fc5"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -5902,7 +5927,7 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-cd729c63-ad4f-45c9-a1d2-a41eea463fc5"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -5913,7 +5938,7 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-cd729c63-ad4f-45c9-a1d2-a41eea463fc5"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -5923,8 +5948,8 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-61817f00-1aec-41b8-9a8b-742ba5e1f23a"
-            id="top-tab-61817f00-1aec-41b8-9a8b-742ba5e1f23a"
+            data-testid="top-tab-for-/catalog"
+            id="top-tab-/catalog"
             role="tab"
             tabindex="0"
           >
@@ -5944,7 +5969,7 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-61817f00-1aec-41b8-9a8b-742ba5e1f23a"
+                    data-testid="top-tab-close-for-/catalog"
                     tabindex="0"
                   >
                     <span
@@ -5955,7 +5980,7 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-61817f00-1aec-41b8-9a8b-742ba5e1f23a"
+                    data-testid="tooltip-content-for-top-tab-close-for-/catalog"
                   >
                     Close tab
                   </div>
@@ -6898,6 +6923,11 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -7012,8 +7042,8 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-a6a5e69b-57e0-49eb-9e95-2e5252a074b1"
-            id="top-tab-a6a5e69b-57e0-49eb-9e95-2e5252a074b1"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -7033,7 +7063,7 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-a6a5e69b-57e0-49eb-9e95-2e5252a074b1"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -7044,7 +7074,7 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-a6a5e69b-57e0-49eb-9e95-2e5252a074b1"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -7054,8 +7084,8 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-ec282ef2-f95a-4009-afa6-7a69ec5c3948"
-            id="top-tab-ec282ef2-f95a-4009-afa6-7a69ec5c3948"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -7075,7 +7105,7 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-ec282ef2-f95a-4009-afa6-7a69ec5c3948"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -7086,7 +7116,7 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-ec282ef2-f95a-4009-afa6-7a69ec5c3948"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -7096,8 +7126,8 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-c1c117b3-5e66-4442-986a-7ca7c2c4f7ee"
-            id="top-tab-c1c117b3-5e66-4442-986a-7ca7c2c4f7ee"
+            data-testid="top-tab-for-/catalog"
+            id="top-tab-/catalog"
             role="tab"
             tabindex="0"
           >
@@ -7117,7 +7147,7 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-c1c117b3-5e66-4442-986a-7ca7c2c4f7ee"
+                    data-testid="top-tab-close-for-/catalog"
                     tabindex="0"
                   >
                     <span
@@ -7128,7 +7158,7 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-c1c117b3-5e66-4442-986a-7ca7c2c4f7ee"
+                    data-testid="tooltip-content-for-top-tab-close-for-/catalog"
                   >
                     Close tab
                   </div>
@@ -8071,6 +8101,11 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -8356,8 +8391,8 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-89840d4c-3614-4c35-a095-cadcc7d10bc7"
-            id="top-tab-89840d4c-3614-4c35-a095-cadcc7d10bc7"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -8377,7 +8412,7 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-89840d4c-3614-4c35-a095-cadcc7d10bc7"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -8388,7 +8423,7 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-89840d4c-3614-4c35-a095-cadcc7d10bc7"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -8398,8 +8433,8 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-34b4e2b3-6c45-44b3-99eb-b5306c861242"
-            id="top-tab-34b4e2b3-6c45-44b3-99eb-b5306c861242"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -8419,7 +8454,7 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-34b4e2b3-6c45-44b3-99eb-b5306c861242"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -8430,7 +8465,7 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-34b4e2b3-6c45-44b3-99eb-b5306c861242"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -8440,8 +8475,8 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-34a88491-298f-4799-8529-46ea51873287"
-            id="top-tab-34a88491-298f-4799-8529-46ea51873287"
+            data-testid="top-tab-for-/catalog"
+            id="top-tab-/catalog"
             role="tab"
             tabindex="0"
           >
@@ -8461,7 +8496,7 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-34a88491-298f-4799-8529-46ea51873287"
+                    data-testid="top-tab-close-for-/catalog"
                     tabindex="0"
                   >
                     <span
@@ -8472,7 +8507,7 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-34a88491-298f-4799-8529-46ea51873287"
+                    data-testid="tooltip-content-for-top-tab-close-for-/catalog"
                   >
                     Close tab
                   </div>
@@ -9415,6 +9450,11 @@ exports[`opening catalog entity details panel > when navigated to the catalog > 
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -9699,8 +9739,8 @@ exports[`opening catalog entity details panel > when not navigated to the catalo
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-15a37c80-d109-48ad-b508-498b3db9536e"
-            id="top-tab-15a37c80-d109-48ad-b508-498b3db9536e"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -9720,7 +9760,7 @@ exports[`opening catalog entity details panel > when not navigated to the catalo
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-15a37c80-d109-48ad-b508-498b3db9536e"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -9731,7 +9771,7 @@ exports[`opening catalog entity details panel > when not navigated to the catalo
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-15a37c80-d109-48ad-b508-498b3db9536e"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -9741,8 +9781,8 @@ exports[`opening catalog entity details panel > when not navigated to the catalo
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-f6c14e70-34a2-4fd4-8839-354cffa1e43e"
-            id="top-tab-f6c14e70-34a2-4fd4-8839-354cffa1e43e"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -9762,7 +9802,7 @@ exports[`opening catalog entity details panel > when not navigated to the catalo
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-f6c14e70-34a2-4fd4-8839-354cffa1e43e"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -9773,7 +9813,7 @@ exports[`opening catalog entity details panel > when not navigated to the catalo
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-f6c14e70-34a2-4fd4-8839-354cffa1e43e"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -10184,6 +10224,11 @@ exports[`opening catalog entity details panel > when not navigated to the catalo
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>

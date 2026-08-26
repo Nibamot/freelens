@@ -81,8 +81,8 @@ exports[`preferences: URLs of legacy extensions > given extension with both cust
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-514aaa1f-99b8-4a92-acd7-922f288931cd"
-            id="top-tab-514aaa1f-99b8-4a92-acd7-922f288931cd"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -102,7 +102,7 @@ exports[`preferences: URLs of legacy extensions > given extension with both cust
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-514aaa1f-99b8-4a92-acd7-922f288931cd"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -113,7 +113,7 @@ exports[`preferences: URLs of legacy extensions > given extension with both cust
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-514aaa1f-99b8-4a92-acd7-922f288931cd"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -123,8 +123,8 @@ exports[`preferences: URLs of legacy extensions > given extension with both cust
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-cf871270-5b2c-4858-a582-d2fdcf0365c8"
-            id="top-tab-cf871270-5b2c-4858-a582-d2fdcf0365c8"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -144,7 +144,7 @@ exports[`preferences: URLs of legacy extensions > given extension with both cust
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-cf871270-5b2c-4858-a582-d2fdcf0365c8"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -155,7 +155,7 @@ exports[`preferences: URLs of legacy extensions > given extension with both cust
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-cf871270-5b2c-4858-a582-d2fdcf0365c8"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -165,8 +165,8 @@ exports[`preferences: URLs of legacy extensions > given extension with both cust
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-5a944cb4-5012-486f-81b8-4d59f8a1cc7b"
-            id="top-tab-5a944cb4-5012-486f-81b8-4d59f8a1cc7b"
+            data-testid="top-tab-for-/preferences/extension/some-extension/some-preference-tab-id"
+            id="top-tab-/preferences/extension/some-extension/some-preference-tab-id"
             role="tab"
             tabindex="0"
           >
@@ -186,7 +186,7 @@ exports[`preferences: URLs of legacy extensions > given extension with both cust
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-5a944cb4-5012-486f-81b8-4d59f8a1cc7b"
+                    data-testid="top-tab-close-for-/preferences/extension/some-extension/some-preference-tab-id"
                     tabindex="0"
                   >
                     <span
@@ -197,7 +197,7 @@ exports[`preferences: URLs of legacy extensions > given extension with both cust
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-5a944cb4-5012-486f-81b8-4d59f8a1cc7b"
+                    data-testid="tooltip-content-for-top-tab-close-for-/preferences/extension/some-extension/some-preference-tab-id"
                   >
                     Close tab
                   </div>
@@ -616,6 +616,11 @@ exports[`preferences: URLs of legacy extensions > given extension with both cust
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -710,8 +715,8 @@ exports[`preferences: URLs of legacy extensions > given extension with both cust
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-dfcfeb04-e745-47b6-941e-ab24f264587c"
-            id="top-tab-dfcfeb04-e745-47b6-941e-ab24f264587c"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -731,7 +736,7 @@ exports[`preferences: URLs of legacy extensions > given extension with both cust
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-dfcfeb04-e745-47b6-941e-ab24f264587c"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -742,7 +747,7 @@ exports[`preferences: URLs of legacy extensions > given extension with both cust
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-dfcfeb04-e745-47b6-941e-ab24f264587c"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -752,8 +757,8 @@ exports[`preferences: URLs of legacy extensions > given extension with both cust
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-3a291c1e-d85c-45aa-af70-fa706abea051"
-            id="top-tab-3a291c1e-d85c-45aa-af70-fa706abea051"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -773,7 +778,7 @@ exports[`preferences: URLs of legacy extensions > given extension with both cust
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-3a291c1e-d85c-45aa-af70-fa706abea051"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -784,7 +789,7 @@ exports[`preferences: URLs of legacy extensions > given extension with both cust
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-3a291c1e-d85c-45aa-af70-fa706abea051"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -794,8 +799,8 @@ exports[`preferences: URLs of legacy extensions > given extension with both cust
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-166d8c1e-754a-4a5f-8a53-9aa909a0a4cb"
-            id="top-tab-166d8c1e-754a-4a5f-8a53-9aa909a0a4cb"
+            data-testid="top-tab-for-/preferences/extension/some-extension"
+            id="top-tab-/preferences/extension/some-extension"
             role="tab"
             tabindex="0"
           >
@@ -815,7 +820,7 @@ exports[`preferences: URLs of legacy extensions > given extension with both cust
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-166d8c1e-754a-4a5f-8a53-9aa909a0a4cb"
+                    data-testid="top-tab-close-for-/preferences/extension/some-extension"
                     tabindex="0"
                   >
                     <span
@@ -826,7 +831,7 @@ exports[`preferences: URLs of legacy extensions > given extension with both cust
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-166d8c1e-754a-4a5f-8a53-9aa909a0a4cb"
+                    data-testid="tooltip-content-for-top-tab-close-for-/preferences/extension/some-extension"
                   >
                     Close tab
                   </div>
@@ -1245,6 +1250,11 @@ exports[`preferences: URLs of legacy extensions > given extension with both cust
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -1339,8 +1349,8 @@ exports[`preferences: URLs of legacy extensions > given extension with custom pr
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-ad3153ee-f4e4-45dd-9b58-e8e175073207"
-            id="top-tab-ad3153ee-f4e4-45dd-9b58-e8e175073207"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -1360,7 +1370,7 @@ exports[`preferences: URLs of legacy extensions > given extension with custom pr
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-ad3153ee-f4e4-45dd-9b58-e8e175073207"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -1371,7 +1381,7 @@ exports[`preferences: URLs of legacy extensions > given extension with custom pr
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-ad3153ee-f4e4-45dd-9b58-e8e175073207"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -1381,8 +1391,8 @@ exports[`preferences: URLs of legacy extensions > given extension with custom pr
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-a6a7a904-6056-4d54-bc71-e7409d9fbdd3"
-            id="top-tab-a6a7a904-6056-4d54-bc71-e7409d9fbdd3"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -1402,7 +1412,7 @@ exports[`preferences: URLs of legacy extensions > given extension with custom pr
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-a6a7a904-6056-4d54-bc71-e7409d9fbdd3"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -1413,7 +1423,7 @@ exports[`preferences: URLs of legacy extensions > given extension with custom pr
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-a6a7a904-6056-4d54-bc71-e7409d9fbdd3"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -1423,8 +1433,8 @@ exports[`preferences: URLs of legacy extensions > given extension with custom pr
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-27414ac3-786b-42c3-ae4d-e932c1fa30cc"
-            id="top-tab-27414ac3-786b-42c3-ae4d-e932c1fa30cc"
+            data-testid="top-tab-for-/preferences/extension/some-extension/some-preference-tab-id"
+            id="top-tab-/preferences/extension/some-extension/some-preference-tab-id"
             role="tab"
             tabindex="0"
           >
@@ -1444,7 +1454,7 @@ exports[`preferences: URLs of legacy extensions > given extension with custom pr
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-27414ac3-786b-42c3-ae4d-e932c1fa30cc"
+                    data-testid="top-tab-close-for-/preferences/extension/some-extension/some-preference-tab-id"
                     tabindex="0"
                   >
                     <span
@@ -1455,7 +1465,7 @@ exports[`preferences: URLs of legacy extensions > given extension with custom pr
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-27414ac3-786b-42c3-ae4d-e932c1fa30cc"
+                    data-testid="tooltip-content-for-top-tab-close-for-/preferences/extension/some-extension/some-preference-tab-id"
                   >
                     Close tab
                   </div>
@@ -1836,6 +1846,11 @@ exports[`preferences: URLs of legacy extensions > given extension with custom pr
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -1930,8 +1945,8 @@ exports[`preferences: URLs of legacy extensions > given extension with custom pr
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-01613a11-e6a6-4a0a-86f6-cbb19d228f37"
-            id="top-tab-01613a11-e6a6-4a0a-86f6-cbb19d228f37"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -1951,7 +1966,7 @@ exports[`preferences: URLs of legacy extensions > given extension with custom pr
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-01613a11-e6a6-4a0a-86f6-cbb19d228f37"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -1962,7 +1977,7 @@ exports[`preferences: URLs of legacy extensions > given extension with custom pr
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-01613a11-e6a6-4a0a-86f6-cbb19d228f37"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -1972,8 +1987,8 @@ exports[`preferences: URLs of legacy extensions > given extension with custom pr
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-4fb092f0-18cb-4e86-87b3-6767711ca2e0"
-            id="top-tab-4fb092f0-18cb-4e86-87b3-6767711ca2e0"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -1993,7 +2008,7 @@ exports[`preferences: URLs of legacy extensions > given extension with custom pr
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-4fb092f0-18cb-4e86-87b3-6767711ca2e0"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -2004,7 +2019,7 @@ exports[`preferences: URLs of legacy extensions > given extension with custom pr
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-4fb092f0-18cb-4e86-87b3-6767711ca2e0"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -2014,8 +2029,8 @@ exports[`preferences: URLs of legacy extensions > given extension with custom pr
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-21c2959d-3b20-47a0-821c-8743c21862ca"
-            id="top-tab-21c2959d-3b20-47a0-821c-8743c21862ca"
+            data-testid="top-tab-for-/preferences/extension/some-extension"
+            id="top-tab-/preferences/extension/some-extension"
             role="tab"
             tabindex="0"
           >
@@ -2035,7 +2050,7 @@ exports[`preferences: URLs of legacy extensions > given extension with custom pr
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-21c2959d-3b20-47a0-821c-8743c21862ca"
+                    data-testid="top-tab-close-for-/preferences/extension/some-extension"
                     tabindex="0"
                   >
                     <span
@@ -2046,7 +2061,7 @@ exports[`preferences: URLs of legacy extensions > given extension with custom pr
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-21c2959d-3b20-47a0-821c-8743c21862ca"
+                    data-testid="tooltip-content-for-top-tab-close-for-/preferences/extension/some-extension"
                   >
                     Close tab
                   </div>
@@ -2401,6 +2416,11 @@ exports[`preferences: URLs of legacy extensions > given extension with custom pr
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -2495,8 +2515,8 @@ exports[`preferences: URLs of legacy extensions > given extension with custom pr
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-3b2dc60a-19c7-4c7a-8305-6bd8889eda50"
-            id="top-tab-3b2dc60a-19c7-4c7a-8305-6bd8889eda50"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -2516,7 +2536,7 @@ exports[`preferences: URLs of legacy extensions > given extension with custom pr
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-3b2dc60a-19c7-4c7a-8305-6bd8889eda50"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -2527,7 +2547,7 @@ exports[`preferences: URLs of legacy extensions > given extension with custom pr
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-3b2dc60a-19c7-4c7a-8305-6bd8889eda50"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -2537,8 +2557,8 @@ exports[`preferences: URLs of legacy extensions > given extension with custom pr
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-13e1ae9f-158c-4076-af74-ca2b638c5b1f"
-            id="top-tab-13e1ae9f-158c-4076-af74-ca2b638c5b1f"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -2558,7 +2578,7 @@ exports[`preferences: URLs of legacy extensions > given extension with custom pr
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-13e1ae9f-158c-4076-af74-ca2b638c5b1f"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -2569,7 +2589,7 @@ exports[`preferences: URLs of legacy extensions > given extension with custom pr
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-13e1ae9f-158c-4076-af74-ca2b638c5b1f"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -2579,8 +2599,8 @@ exports[`preferences: URLs of legacy extensions > given extension with custom pr
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-bd69a9d7-87db-47c9-9e25-995863f98c35"
-            id="top-tab-bd69a9d7-87db-47c9-9e25-995863f98c35"
+            data-testid="top-tab-for-/preferences/extension/some-extension"
+            id="top-tab-/preferences/extension/some-extension"
             role="tab"
             tabindex="0"
           >
@@ -2600,7 +2620,7 @@ exports[`preferences: URLs of legacy extensions > given extension with custom pr
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-bd69a9d7-87db-47c9-9e25-995863f98c35"
+                    data-testid="top-tab-close-for-/preferences/extension/some-extension"
                     tabindex="0"
                   >
                     <span
@@ -2611,7 +2631,7 @@ exports[`preferences: URLs of legacy extensions > given extension with custom pr
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-bd69a9d7-87db-47c9-9e25-995863f98c35"
+                    data-testid="tooltip-content-for-top-tab-close-for-/preferences/extension/some-extension"
                   >
                     Close tab
                   </div>
@@ -3006,6 +3026,11 @@ exports[`preferences: URLs of legacy extensions > given extension with custom pr
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>

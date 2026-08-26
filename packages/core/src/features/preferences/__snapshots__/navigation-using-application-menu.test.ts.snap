@@ -79,8 +79,8 @@ exports[`preferences - navigation using application menu > renders 1`] = `
       >
         <div
           class="Tab flex gap-2 items-center topTab"
-          data-testid="top-tab-for-1e281d66-e843-4069-8dc8-2670cf40eec0"
-          id="top-tab-1e281d66-e843-4069-8dc8-2670cf40eec0"
+          data-testid="top-tab-for-/"
+          id="top-tab-/"
           role="tab"
           tabindex="0"
         >
@@ -100,7 +100,7 @@ exports[`preferences - navigation using application menu > renders 1`] = `
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-1e281d66-e843-4069-8dc8-2670cf40eec0"
+                  data-testid="top-tab-close-for-/"
                   tabindex="0"
                 >
                   <span
@@ -111,7 +111,7 @@ exports[`preferences - navigation using application menu > renders 1`] = `
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-1e281d66-e843-4069-8dc8-2670cf40eec0"
+                  data-testid="tooltip-content-for-top-tab-close-for-/"
                 >
                   Close tab
                 </div>
@@ -121,8 +121,8 @@ exports[`preferences - navigation using application menu > renders 1`] = `
         </div>
         <div
           class="Tab flex gap-2 items-center topTab active"
-          data-testid="top-tab-for-cc3da892-7f1b-4259-855f-7576ce6cbbf4"
-          id="top-tab-cc3da892-7f1b-4259-855f-7576ce6cbbf4"
+          data-testid="top-tab-for-/welcome"
+          id="top-tab-/welcome"
           role="tab"
           tabindex="0"
         >
@@ -142,7 +142,7 @@ exports[`preferences - navigation using application menu > renders 1`] = `
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-cc3da892-7f1b-4259-855f-7576ce6cbbf4"
+                  data-testid="top-tab-close-for-/welcome"
                   tabindex="0"
                 >
                   <span
@@ -153,7 +153,7 @@ exports[`preferences - navigation using application menu > renders 1`] = `
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-cc3da892-7f1b-4259-855f-7576ce6cbbf4"
+                  data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                 >
                   Close tab
                 </div>
@@ -564,6 +564,11 @@ exports[`preferences - navigation using application menu > renders 1`] = `
                 search
               </span>
             </i>
+            <span
+              class="label"
+            >
+              Search clusters
+            </span>
           </div>
         </div>
       </div>
@@ -656,8 +661,8 @@ exports[`preferences - navigation using application menu > when navigating to pr
       >
         <div
           class="Tab flex gap-2 items-center topTab"
-          data-testid="top-tab-for-88165d01-853e-4cd3-a962-53a3fd972e7d"
-          id="top-tab-88165d01-853e-4cd3-a962-53a3fd972e7d"
+          data-testid="top-tab-for-/"
+          id="top-tab-/"
           role="tab"
           tabindex="0"
         >
@@ -677,7 +682,7 @@ exports[`preferences - navigation using application menu > when navigating to pr
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-88165d01-853e-4cd3-a962-53a3fd972e7d"
+                  data-testid="top-tab-close-for-/"
                   tabindex="0"
                 >
                   <span
@@ -688,7 +693,7 @@ exports[`preferences - navigation using application menu > when navigating to pr
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-88165d01-853e-4cd3-a962-53a3fd972e7d"
+                  data-testid="tooltip-content-for-top-tab-close-for-/"
                 >
                   Close tab
                 </div>
@@ -698,8 +703,8 @@ exports[`preferences - navigation using application menu > when navigating to pr
         </div>
         <div
           class="Tab flex gap-2 items-center topTab"
-          data-testid="top-tab-for-41baf4ea-1894-4f46-b433-b5cd7f642c7c"
-          id="top-tab-41baf4ea-1894-4f46-b433-b5cd7f642c7c"
+          data-testid="top-tab-for-/welcome"
+          id="top-tab-/welcome"
           role="tab"
           tabindex="0"
         >
@@ -719,7 +724,7 @@ exports[`preferences - navigation using application menu > when navigating to pr
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-41baf4ea-1894-4f46-b433-b5cd7f642c7c"
+                  data-testid="top-tab-close-for-/welcome"
                   tabindex="0"
                 >
                   <span
@@ -730,7 +735,7 @@ exports[`preferences - navigation using application menu > when navigating to pr
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-41baf4ea-1894-4f46-b433-b5cd7f642c7c"
+                  data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                 >
                   Close tab
                 </div>
@@ -740,8 +745,8 @@ exports[`preferences - navigation using application menu > when navigating to pr
         </div>
         <div
           class="Tab flex gap-2 items-center topTab active"
-          data-testid="top-tab-for-11622aef-6a9e-4a60-a067-39e435e5f344"
-          id="top-tab-11622aef-6a9e-4a60-a067-39e435e5f344"
+          data-testid="top-tab-for-/preferences"
+          id="top-tab-/preferences"
           role="tab"
           tabindex="0"
         >
@@ -761,7 +766,7 @@ exports[`preferences - navigation using application menu > when navigating to pr
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-11622aef-6a9e-4a60-a067-39e435e5f344"
+                  data-testid="top-tab-close-for-/preferences"
                   tabindex="0"
                 >
                   <span
@@ -772,7 +777,7 @@ exports[`preferences - navigation using application menu > when navigating to pr
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-11622aef-6a9e-4a60-a067-39e435e5f344"
+                  data-testid="tooltip-content-for-top-tab-close-for-/preferences"
                 >
                   Close tab
                 </div>
@@ -1514,6 +1519,11 @@ exports[`preferences - navigation using application menu > when navigating to pr
                 search
               </span>
             </i>
+            <span
+              class="label"
+            >
+              Search clusters
+            </span>
           </div>
         </div>
       </div>

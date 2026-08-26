@@ -81,8 +81,8 @@ exports[`entity running technical tests > when navigated to catalog > renders 1`
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-a25e2684-dc2d-41ee-a897-90f7d45249b0"
-            id="top-tab-a25e2684-dc2d-41ee-a897-90f7d45249b0"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -102,7 +102,7 @@ exports[`entity running technical tests > when navigated to catalog > renders 1`
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-a25e2684-dc2d-41ee-a897-90f7d45249b0"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -113,7 +113,7 @@ exports[`entity running technical tests > when navigated to catalog > renders 1`
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-a25e2684-dc2d-41ee-a897-90f7d45249b0"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -123,8 +123,8 @@ exports[`entity running technical tests > when navigated to catalog > renders 1`
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-59a1c38b-ec01-487f-86ad-9014bc7c75bb"
-            id="top-tab-59a1c38b-ec01-487f-86ad-9014bc7c75bb"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -144,7 +144,7 @@ exports[`entity running technical tests > when navigated to catalog > renders 1`
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-59a1c38b-ec01-487f-86ad-9014bc7c75bb"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -155,7 +155,7 @@ exports[`entity running technical tests > when navigated to catalog > renders 1`
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-59a1c38b-ec01-487f-86ad-9014bc7c75bb"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -165,8 +165,8 @@ exports[`entity running technical tests > when navigated to catalog > renders 1`
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-b9d21626-2e3a-4f96-b880-a25562af5ffe"
-            id="top-tab-b9d21626-2e3a-4f96-b880-a25562af5ffe"
+            data-testid="top-tab-for-/catalog"
+            id="top-tab-/catalog"
             role="tab"
             tabindex="0"
           >
@@ -186,7 +186,7 @@ exports[`entity running technical tests > when navigated to catalog > renders 1`
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-b9d21626-2e3a-4f96-b880-a25562af5ffe"
+                    data-testid="top-tab-close-for-/catalog"
                     tabindex="0"
                   >
                     <span
@@ -197,7 +197,7 @@ exports[`entity running technical tests > when navigated to catalog > renders 1`
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-b9d21626-2e3a-4f96-b880-a25562af5ffe"
+                    data-testid="tooltip-content-for-top-tab-close-for-/catalog"
                   >
                     Close tab
                   </div>
@@ -996,6 +996,11 @@ exports[`entity running technical tests > when navigated to catalog > renders 1`
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -1090,8 +1095,8 @@ exports[`entity running technical tests > when navigated to catalog > when detai
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-c43075d1-28d3-4eb4-92f3-5d72611bd61b"
-            id="top-tab-c43075d1-28d3-4eb4-92f3-5d72611bd61b"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -1111,7 +1116,7 @@ exports[`entity running technical tests > when navigated to catalog > when detai
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-c43075d1-28d3-4eb4-92f3-5d72611bd61b"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -1122,7 +1127,7 @@ exports[`entity running technical tests > when navigated to catalog > when detai
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-c43075d1-28d3-4eb4-92f3-5d72611bd61b"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -1132,8 +1137,8 @@ exports[`entity running technical tests > when navigated to catalog > when detai
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-b93734fc-76ac-4bc9-a6cc-b854a3e0994e"
-            id="top-tab-b93734fc-76ac-4bc9-a6cc-b854a3e0994e"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -1153,7 +1158,7 @@ exports[`entity running technical tests > when navigated to catalog > when detai
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-b93734fc-76ac-4bc9-a6cc-b854a3e0994e"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -1164,7 +1169,7 @@ exports[`entity running technical tests > when navigated to catalog > when detai
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-b93734fc-76ac-4bc9-a6cc-b854a3e0994e"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -1174,8 +1179,8 @@ exports[`entity running technical tests > when navigated to catalog > when detai
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-3cbd92d5-41f7-40d0-b1fd-fd573961d310"
-            id="top-tab-3cbd92d5-41f7-40d0-b1fd-fd573961d310"
+            data-testid="top-tab-for-/catalog"
+            id="top-tab-/catalog"
             role="tab"
             tabindex="0"
           >
@@ -1195,7 +1200,7 @@ exports[`entity running technical tests > when navigated to catalog > when detai
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-3cbd92d5-41f7-40d0-b1fd-fd573961d310"
+                    data-testid="top-tab-close-for-/catalog"
                     tabindex="0"
                   >
                     <span
@@ -1206,7 +1211,7 @@ exports[`entity running technical tests > when navigated to catalog > when detai
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-3cbd92d5-41f7-40d0-b1fd-fd573961d310"
+                    data-testid="tooltip-content-for-top-tab-close-for-/catalog"
                   >
                     Close tab
                   </div>
@@ -2005,6 +2010,11 @@ exports[`entity running technical tests > when navigated to catalog > when detai
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>

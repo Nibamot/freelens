@@ -79,8 +79,8 @@ exports[`welcome - navigation using application menu > renders 1`] = `
       >
         <div
           class="Tab flex gap-2 items-center topTab"
-          data-testid="top-tab-for-addede51-d6f2-4f4d-a96d-19625098b5b0"
-          id="top-tab-addede51-d6f2-4f4d-a96d-19625098b5b0"
+          data-testid="top-tab-for-/"
+          id="top-tab-/"
           role="tab"
           tabindex="0"
         >
@@ -100,7 +100,7 @@ exports[`welcome - navigation using application menu > renders 1`] = `
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-addede51-d6f2-4f4d-a96d-19625098b5b0"
+                  data-testid="top-tab-close-for-/"
                   tabindex="0"
                 >
                   <span
@@ -111,7 +111,7 @@ exports[`welcome - navigation using application menu > renders 1`] = `
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-addede51-d6f2-4f4d-a96d-19625098b5b0"
+                  data-testid="tooltip-content-for-top-tab-close-for-/"
                 >
                   Close tab
                 </div>
@@ -121,8 +121,8 @@ exports[`welcome - navigation using application menu > renders 1`] = `
         </div>
         <div
           class="Tab flex gap-2 items-center topTab active"
-          data-testid="top-tab-for-01edaf60-d1a0-4567-985f-05c0b763029d"
-          id="top-tab-01edaf60-d1a0-4567-985f-05c0b763029d"
+          data-testid="top-tab-for-/welcome"
+          id="top-tab-/welcome"
           role="tab"
           tabindex="0"
         >
@@ -142,7 +142,7 @@ exports[`welcome - navigation using application menu > renders 1`] = `
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-01edaf60-d1a0-4567-985f-05c0b763029d"
+                  data-testid="top-tab-close-for-/welcome"
                   tabindex="0"
                 >
                   <span
@@ -153,7 +153,7 @@ exports[`welcome - navigation using application menu > renders 1`] = `
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-01edaf60-d1a0-4567-985f-05c0b763029d"
+                  data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                 >
                   Close tab
                 </div>
@@ -564,6 +564,11 @@ exports[`welcome - navigation using application menu > renders 1`] = `
                 search
               </span>
             </i>
+            <span
+              class="label"
+            >
+              Search clusters
+            </span>
           </div>
         </div>
       </div>
@@ -657,8 +662,8 @@ exports[`welcome - navigation using application menu > when navigated somewhere 
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-6c4ebecb-d168-494b-aa2d-442a1a9687c3"
-            id="top-tab-6c4ebecb-d168-494b-aa2d-442a1a9687c3"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -678,7 +683,7 @@ exports[`welcome - navigation using application menu > when navigated somewhere 
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-6c4ebecb-d168-494b-aa2d-442a1a9687c3"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -689,7 +694,7 @@ exports[`welcome - navigation using application menu > when navigated somewhere 
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-6c4ebecb-d168-494b-aa2d-442a1a9687c3"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -699,8 +704,8 @@ exports[`welcome - navigation using application menu > when navigated somewhere 
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-cd3ef32d-3b45-4671-a360-30eda168f7a6"
-            id="top-tab-cd3ef32d-3b45-4671-a360-30eda168f7a6"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -720,7 +725,7 @@ exports[`welcome - navigation using application menu > when navigated somewhere 
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-cd3ef32d-3b45-4671-a360-30eda168f7a6"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -731,7 +736,7 @@ exports[`welcome - navigation using application menu > when navigated somewhere 
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-cd3ef32d-3b45-4671-a360-30eda168f7a6"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -741,8 +746,8 @@ exports[`welcome - navigation using application menu > when navigated somewhere 
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-29a7a97b-7149-4c73-8a99-bebd2ee504f0"
-            id="top-tab-29a7a97b-7149-4c73-8a99-bebd2ee504f0"
+            data-testid="top-tab-for-/preferences"
+            id="top-tab-/preferences"
             role="tab"
             tabindex="0"
           >
@@ -762,7 +767,7 @@ exports[`welcome - navigation using application menu > when navigated somewhere 
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-29a7a97b-7149-4c73-8a99-bebd2ee504f0"
+                    data-testid="top-tab-close-for-/preferences"
                     tabindex="0"
                   >
                     <span
@@ -773,7 +778,7 @@ exports[`welcome - navigation using application menu > when navigated somewhere 
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-29a7a97b-7149-4c73-8a99-bebd2ee504f0"
+                    data-testid="tooltip-content-for-top-tab-close-for-/preferences"
                   >
                     Close tab
                   </div>
@@ -1515,6 +1520,11 @@ exports[`welcome - navigation using application menu > when navigated somewhere 
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -1607,8 +1617,8 @@ exports[`welcome - navigation using application menu > when navigated somewhere 
       >
         <div
           class="Tab flex gap-2 items-center topTab"
-          data-testid="top-tab-for-9616704f-b850-4a20-8423-578ab8c75dd5"
-          id="top-tab-9616704f-b850-4a20-8423-578ab8c75dd5"
+          data-testid="top-tab-for-/"
+          id="top-tab-/"
           role="tab"
           tabindex="0"
         >
@@ -1628,7 +1638,7 @@ exports[`welcome - navigation using application menu > when navigated somewhere 
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-9616704f-b850-4a20-8423-578ab8c75dd5"
+                  data-testid="top-tab-close-for-/"
                   tabindex="0"
                 >
                   <span
@@ -1639,7 +1649,7 @@ exports[`welcome - navigation using application menu > when navigated somewhere 
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-9616704f-b850-4a20-8423-578ab8c75dd5"
+                  data-testid="tooltip-content-for-top-tab-close-for-/"
                 >
                   Close tab
                 </div>
@@ -1649,8 +1659,8 @@ exports[`welcome - navigation using application menu > when navigated somewhere 
         </div>
         <div
           class="Tab flex gap-2 items-center topTab active"
-          data-testid="top-tab-for-e439f32a-5811-42ff-9200-779de638061e"
-          id="top-tab-e439f32a-5811-42ff-9200-779de638061e"
+          data-testid="top-tab-for-/welcome"
+          id="top-tab-/welcome"
           role="tab"
           tabindex="0"
         >
@@ -1670,7 +1680,7 @@ exports[`welcome - navigation using application menu > when navigated somewhere 
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-e439f32a-5811-42ff-9200-779de638061e"
+                  data-testid="top-tab-close-for-/welcome"
                   tabindex="0"
                 >
                   <span
@@ -1681,7 +1691,7 @@ exports[`welcome - navigation using application menu > when navigated somewhere 
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-e439f32a-5811-42ff-9200-779de638061e"
+                  data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                 >
                   Close tab
                 </div>
@@ -1691,8 +1701,8 @@ exports[`welcome - navigation using application menu > when navigated somewhere 
         </div>
         <div
           class="Tab flex gap-2 items-center topTab"
-          data-testid="top-tab-for-177b8294-dde8-4550-b1bc-ab93c51f6221"
-          id="top-tab-177b8294-dde8-4550-b1bc-ab93c51f6221"
+          data-testid="top-tab-for-/preferences"
+          id="top-tab-/preferences"
           role="tab"
           tabindex="0"
         >
@@ -1712,7 +1722,7 @@ exports[`welcome - navigation using application menu > when navigated somewhere 
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-177b8294-dde8-4550-b1bc-ab93c51f6221"
+                  data-testid="top-tab-close-for-/preferences"
                   tabindex="0"
                 >
                   <span
@@ -1723,7 +1733,7 @@ exports[`welcome - navigation using application menu > when navigated somewhere 
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-177b8294-dde8-4550-b1bc-ab93c51f6221"
+                  data-testid="tooltip-content-for-top-tab-close-for-/preferences"
                 >
                   Close tab
                 </div>
@@ -2134,6 +2144,11 @@ exports[`welcome - navigation using application menu > when navigated somewhere 
                 search
               </span>
             </i>
+            <span
+              class="label"
+            >
+              Search clusters
+            </span>
           </div>
         </div>
       </div>

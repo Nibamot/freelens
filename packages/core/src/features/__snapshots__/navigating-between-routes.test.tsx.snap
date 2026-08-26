@@ -80,8 +80,8 @@ exports[`navigating between routes > given route with optional path parameters >
       >
         <div
           class="Tab flex gap-2 items-center topTab"
-          data-testid="top-tab-for-0ea9c88f-5f1a-4af0-9f42-16bc5b6f91f7"
-          id="top-tab-0ea9c88f-5f1a-4af0-9f42-16bc5b6f91f7"
+          data-testid="top-tab-for-/"
+          id="top-tab-/"
           role="tab"
           tabindex="0"
         >
@@ -101,7 +101,7 @@ exports[`navigating between routes > given route with optional path parameters >
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-0ea9c88f-5f1a-4af0-9f42-16bc5b6f91f7"
+                  data-testid="top-tab-close-for-/"
                   tabindex="0"
                 >
                   <span
@@ -112,7 +112,7 @@ exports[`navigating between routes > given route with optional path parameters >
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-0ea9c88f-5f1a-4af0-9f42-16bc5b6f91f7"
+                  data-testid="tooltip-content-for-top-tab-close-for-/"
                 >
                   Close tab
                 </div>
@@ -122,8 +122,8 @@ exports[`navigating between routes > given route with optional path parameters >
         </div>
         <div
           class="Tab flex gap-2 items-center topTab"
-          data-testid="top-tab-for-c0ec6cd9-b7f5-4051-a796-ed9a2310bfa3"
-          id="top-tab-c0ec6cd9-b7f5-4051-a796-ed9a2310bfa3"
+          data-testid="top-tab-for-/welcome"
+          id="top-tab-/welcome"
           role="tab"
           tabindex="0"
         >
@@ -143,7 +143,7 @@ exports[`navigating between routes > given route with optional path parameters >
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-c0ec6cd9-b7f5-4051-a796-ed9a2310bfa3"
+                  data-testid="top-tab-close-for-/welcome"
                   tabindex="0"
                 >
                   <span
@@ -154,7 +154,7 @@ exports[`navigating between routes > given route with optional path parameters >
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-c0ec6cd9-b7f5-4051-a796-ed9a2310bfa3"
+                  data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                 >
                   Close tab
                 </div>
@@ -164,8 +164,8 @@ exports[`navigating between routes > given route with optional path parameters >
         </div>
         <div
           class="Tab flex gap-2 items-center topTab active"
-          data-testid="top-tab-for-88a55ee4-8abc-46a1-b2eb-973d7230135f"
-          id="top-tab-88a55ee4-8abc-46a1-b2eb-973d7230135f"
+          data-testid="top-tab-for-/some-path/some-value/some-other-value"
+          id="top-tab-/some-path/some-value/some-other-value"
           role="tab"
           tabindex="0"
         >
@@ -185,7 +185,7 @@ exports[`navigating between routes > given route with optional path parameters >
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-88a55ee4-8abc-46a1-b2eb-973d7230135f"
+                  data-testid="top-tab-close-for-/some-path/some-value/some-other-value"
                   tabindex="0"
                 >
                   <span
@@ -196,7 +196,7 @@ exports[`navigating between routes > given route with optional path parameters >
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-88a55ee4-8abc-46a1-b2eb-973d7230135f"
+                  data-testid="tooltip-content-for-top-tab-close-for-/some-path/some-value/some-other-value"
                 >
                   Close tab
                 </div>
@@ -395,6 +395,11 @@ exports[`navigating between routes > given route with optional path parameters >
                 search
               </span>
             </i>
+            <span
+              class="label"
+            >
+              Search clusters
+            </span>
           </div>
         </div>
       </div>
@@ -487,8 +492,8 @@ exports[`navigating between routes > given route without path parameters > when 
       >
         <div
           class="Tab flex gap-2 items-center topTab"
-          data-testid="top-tab-for-c6469b6d-5764-4422-9136-0144945bfc95"
-          id="top-tab-c6469b6d-5764-4422-9136-0144945bfc95"
+          data-testid="top-tab-for-/"
+          id="top-tab-/"
           role="tab"
           tabindex="0"
         >
@@ -508,7 +513,7 @@ exports[`navigating between routes > given route without path parameters > when 
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-c6469b6d-5764-4422-9136-0144945bfc95"
+                  data-testid="top-tab-close-for-/"
                   tabindex="0"
                 >
                   <span
@@ -519,7 +524,7 @@ exports[`navigating between routes > given route without path parameters > when 
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-c6469b6d-5764-4422-9136-0144945bfc95"
+                  data-testid="tooltip-content-for-top-tab-close-for-/"
                 >
                   Close tab
                 </div>
@@ -529,8 +534,8 @@ exports[`navigating between routes > given route without path parameters > when 
         </div>
         <div
           class="Tab flex gap-2 items-center topTab"
-          data-testid="top-tab-for-ae86946c-fd03-49ac-8930-f95793c00573"
-          id="top-tab-ae86946c-fd03-49ac-8930-f95793c00573"
+          data-testid="top-tab-for-/welcome"
+          id="top-tab-/welcome"
           role="tab"
           tabindex="0"
         >
@@ -550,7 +555,7 @@ exports[`navigating between routes > given route without path parameters > when 
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-ae86946c-fd03-49ac-8930-f95793c00573"
+                  data-testid="top-tab-close-for-/welcome"
                   tabindex="0"
                 >
                   <span
@@ -561,7 +566,7 @@ exports[`navigating between routes > given route without path parameters > when 
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-ae86946c-fd03-49ac-8930-f95793c00573"
+                  data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                 >
                   Close tab
                 </div>
@@ -571,8 +576,8 @@ exports[`navigating between routes > given route without path parameters > when 
         </div>
         <div
           class="Tab flex gap-2 items-center topTab active"
-          data-testid="top-tab-for-02b41c5d-f1d4-4eee-9378-bc6683faf891"
-          id="top-tab-02b41c5d-f1d4-4eee-9378-bc6683faf891"
+          data-testid="top-tab-for-/some-path"
+          id="top-tab-/some-path"
           role="tab"
           tabindex="0"
         >
@@ -592,7 +597,7 @@ exports[`navigating between routes > given route without path parameters > when 
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-02b41c5d-f1d4-4eee-9378-bc6683faf891"
+                  data-testid="top-tab-close-for-/some-path"
                   tabindex="0"
                 >
                   <span
@@ -603,7 +608,7 @@ exports[`navigating between routes > given route without path parameters > when 
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-02b41c5d-f1d4-4eee-9378-bc6683faf891"
+                  data-testid="tooltip-content-for-top-tab-close-for-/some-path"
                 >
                   Close tab
                 </div>
@@ -799,6 +804,11 @@ exports[`navigating between routes > given route without path parameters > when 
                 search
               </span>
             </i>
+            <span
+              class="label"
+            >
+              Search clusters
+            </span>
           </div>
         </div>
       </div>

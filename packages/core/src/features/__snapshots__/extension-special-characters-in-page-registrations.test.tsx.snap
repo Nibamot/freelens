@@ -79,8 +79,8 @@ exports[`extension special characters in page registrations > renders 1`] = `
       >
         <div
           class="Tab flex gap-2 items-center topTab"
-          data-testid="top-tab-for-c5a8e4f4-77ff-4c02-9606-51416e41520b"
-          id="top-tab-c5a8e4f4-77ff-4c02-9606-51416e41520b"
+          data-testid="top-tab-for-/"
+          id="top-tab-/"
           role="tab"
           tabindex="0"
         >
@@ -100,7 +100,7 @@ exports[`extension special characters in page registrations > renders 1`] = `
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-c5a8e4f4-77ff-4c02-9606-51416e41520b"
+                  data-testid="top-tab-close-for-/"
                   tabindex="0"
                 >
                   <span
@@ -111,7 +111,7 @@ exports[`extension special characters in page registrations > renders 1`] = `
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-c5a8e4f4-77ff-4c02-9606-51416e41520b"
+                  data-testid="tooltip-content-for-top-tab-close-for-/"
                 >
                   Close tab
                 </div>
@@ -121,8 +121,8 @@ exports[`extension special characters in page registrations > renders 1`] = `
         </div>
         <div
           class="Tab flex gap-2 items-center topTab active"
-          data-testid="top-tab-for-c393b486-3ec8-4797-8f06-797a5ef817d1"
-          id="top-tab-c393b486-3ec8-4797-8f06-797a5ef817d1"
+          data-testid="top-tab-for-/welcome"
+          id="top-tab-/welcome"
           role="tab"
           tabindex="0"
         >
@@ -142,7 +142,7 @@ exports[`extension special characters in page registrations > renders 1`] = `
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-c393b486-3ec8-4797-8f06-797a5ef817d1"
+                  data-testid="top-tab-close-for-/welcome"
                   tabindex="0"
                 >
                   <span
@@ -153,7 +153,7 @@ exports[`extension special characters in page registrations > renders 1`] = `
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-c393b486-3ec8-4797-8f06-797a5ef817d1"
+                  data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                 >
                   Close tab
                 </div>
@@ -564,6 +564,11 @@ exports[`extension special characters in page registrations > renders 1`] = `
                 search
               </span>
             </i>
+            <span
+              class="label"
+            >
+              Search clusters
+            </span>
           </div>
         </div>
       </div>
@@ -656,8 +661,8 @@ exports[`extension special characters in page registrations > when navigating to
       >
         <div
           class="Tab flex gap-2 items-center topTab"
-          data-testid="top-tab-for-298f33b1-65bd-4d20-857c-a32de13e0d89"
-          id="top-tab-298f33b1-65bd-4d20-857c-a32de13e0d89"
+          data-testid="top-tab-for-/"
+          id="top-tab-/"
           role="tab"
           tabindex="0"
         >
@@ -677,7 +682,7 @@ exports[`extension special characters in page registrations > when navigating to
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-298f33b1-65bd-4d20-857c-a32de13e0d89"
+                  data-testid="top-tab-close-for-/"
                   tabindex="0"
                 >
                   <span
@@ -688,7 +693,7 @@ exports[`extension special characters in page registrations > when navigating to
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-298f33b1-65bd-4d20-857c-a32de13e0d89"
+                  data-testid="tooltip-content-for-top-tab-close-for-/"
                 >
                   Close tab
                 </div>
@@ -698,8 +703,8 @@ exports[`extension special characters in page registrations > when navigating to
         </div>
         <div
           class="Tab flex gap-2 items-center topTab"
-          data-testid="top-tab-for-a08a9dcb-b345-4b37-90b5-e10fcbff2152"
-          id="top-tab-a08a9dcb-b345-4b37-90b5-e10fcbff2152"
+          data-testid="top-tab-for-/welcome"
+          id="top-tab-/welcome"
           role="tab"
           tabindex="0"
         >
@@ -719,7 +724,7 @@ exports[`extension special characters in page registrations > when navigating to
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-a08a9dcb-b345-4b37-90b5-e10fcbff2152"
+                  data-testid="top-tab-close-for-/welcome"
                   tabindex="0"
                 >
                   <span
@@ -730,7 +735,7 @@ exports[`extension special characters in page registrations > when navigating to
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-a08a9dcb-b345-4b37-90b5-e10fcbff2152"
+                  data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                 >
                   Close tab
                 </div>
@@ -740,8 +745,8 @@ exports[`extension special characters in page registrations > when navigating to
         </div>
         <div
           class="Tab flex gap-2 items-center topTab active"
-          data-testid="top-tab-for-f3017c08-26db-4924-bc66-e6fb45ff1bb6"
-          id="top-tab-f3017c08-26db-4924-bc66-e6fb45ff1bb6"
+          data-testid="top-tab-for-/extension/some-extension-name--/some-page-id"
+          id="top-tab-/extension/some-extension-name--/some-page-id"
           role="tab"
           tabindex="0"
         >
@@ -761,7 +766,7 @@ exports[`extension special characters in page registrations > when navigating to
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-f3017c08-26db-4924-bc66-e6fb45ff1bb6"
+                  data-testid="top-tab-close-for-/extension/some-extension-name--/some-page-id"
                   tabindex="0"
                 >
                   <span
@@ -772,7 +777,7 @@ exports[`extension special characters in page registrations > when navigating to
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-f3017c08-26db-4924-bc66-e6fb45ff1bb6"
+                  data-testid="tooltip-content-for-top-tab-close-for-/extension/some-extension-name--/some-page-id"
                 >
                   Close tab
                 </div>
@@ -968,6 +973,11 @@ exports[`extension special characters in page registrations > when navigating to
                 search
               </span>
             </i>
+            <span
+              class="label"
+            >
+              Search clusters
+            </span>
           </div>
         </div>
       </div>

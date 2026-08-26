@@ -81,8 +81,8 @@ exports[`preferences: extension adding preference tabs > given in preferences, w
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-bafff080-8fd4-4951-a61f-ec4b5d57ddab"
-            id="top-tab-bafff080-8fd4-4951-a61f-ec4b5d57ddab"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -102,7 +102,7 @@ exports[`preferences: extension adding preference tabs > given in preferences, w
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-bafff080-8fd4-4951-a61f-ec4b5d57ddab"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -113,7 +113,7 @@ exports[`preferences: extension adding preference tabs > given in preferences, w
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-bafff080-8fd4-4951-a61f-ec4b5d57ddab"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -123,8 +123,8 @@ exports[`preferences: extension adding preference tabs > given in preferences, w
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-ac738021-3fc4-48b0-ac3e-cce5cd556065"
-            id="top-tab-ac738021-3fc4-48b0-ac3e-cce5cd556065"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -144,7 +144,7 @@ exports[`preferences: extension adding preference tabs > given in preferences, w
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-ac738021-3fc4-48b0-ac3e-cce5cd556065"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -155,7 +155,7 @@ exports[`preferences: extension adding preference tabs > given in preferences, w
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-ac738021-3fc4-48b0-ac3e-cce5cd556065"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -165,8 +165,8 @@ exports[`preferences: extension adding preference tabs > given in preferences, w
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-2d39ba4a-d8d9-49a4-97c8-26f4a8dc09b8"
-            id="top-tab-2d39ba4a-d8d9-49a4-97c8-26f4a8dc09b8"
+            data-testid="top-tab-for-/preferences"
+            id="top-tab-/preferences"
             role="tab"
             tabindex="0"
           >
@@ -186,7 +186,7 @@ exports[`preferences: extension adding preference tabs > given in preferences, w
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-2d39ba4a-d8d9-49a4-97c8-26f4a8dc09b8"
+                    data-testid="top-tab-close-for-/preferences"
                     tabindex="0"
                   >
                     <span
@@ -197,7 +197,7 @@ exports[`preferences: extension adding preference tabs > given in preferences, w
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-2d39ba4a-d8d9-49a4-97c8-26f4a8dc09b8"
+                    data-testid="tooltip-content-for-top-tab-close-for-/preferences"
                   >
                     Close tab
                   </div>
@@ -963,6 +963,11 @@ exports[`preferences: extension adding preference tabs > given in preferences, w
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>

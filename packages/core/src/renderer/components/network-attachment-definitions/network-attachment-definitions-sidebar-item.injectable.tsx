@@ -6,9 +6,9 @@
 import { sidebarItemInjectionToken } from "@freelensapp/cluster-sidebar";
 import { Icon } from "@freelensapp/icon";
 import { getInjectable } from "@ogre-tools/injectable";
-import { SidebarMenuItem, sidebarMenuItemIds } from "../../../common/sidebar-menu-items-starting-order";
 import navigateToNetworkAttachmentDefinitionsInjectable from "../../../common/front-end-routing/routes/cluster/custom-resources/network-attachment-definitions/navigate-to-network-attachment-definitions.injectable";
 import networkAttachmentDefinitionsRouteInjectable from "../../../common/front-end-routing/routes/cluster/custom-resources/network-attachment-definitions/network-attachment-definitions-route.injectable";
+import { SidebarMenuItem, sidebarMenuItemIds } from "../../../common/sidebar-menu-items-starting-order";
 import { getClusterPageMenuOrderInjectable } from "../../../features/user-preferences/common/cluster-page-menu-order.injectable";
 import routeIsActiveInjectable from "../../routes/route-is-active.injectable";
 

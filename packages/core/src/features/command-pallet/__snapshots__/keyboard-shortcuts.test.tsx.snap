@@ -171,8 +171,8 @@ exports[`Command Pallet: keyboard shortcut tests > when on linux > renders 1`] =
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-d3e76868-0dc5-423d-86c4-b212c91ccbde"
-            id="top-tab-d3e76868-0dc5-423d-86c4-b212c91ccbde"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -192,7 +192,7 @@ exports[`Command Pallet: keyboard shortcut tests > when on linux > renders 1`] =
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-d3e76868-0dc5-423d-86c4-b212c91ccbde"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -203,7 +203,7 @@ exports[`Command Pallet: keyboard shortcut tests > when on linux > renders 1`] =
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-d3e76868-0dc5-423d-86c4-b212c91ccbde"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -213,8 +213,8 @@ exports[`Command Pallet: keyboard shortcut tests > when on linux > renders 1`] =
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-986c0beb-c374-4985-8e2e-fd1e236bd1a5"
-            id="top-tab-986c0beb-c374-4985-8e2e-fd1e236bd1a5"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -234,7 +234,7 @@ exports[`Command Pallet: keyboard shortcut tests > when on linux > renders 1`] =
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-986c0beb-c374-4985-8e2e-fd1e236bd1a5"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -245,7 +245,7 @@ exports[`Command Pallet: keyboard shortcut tests > when on linux > renders 1`] =
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-986c0beb-c374-4985-8e2e-fd1e236bd1a5"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -656,6 +656,11 @@ exports[`Command Pallet: keyboard shortcut tests > when on linux > renders 1`] =
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -840,8 +845,8 @@ exports[`Command Pallet: keyboard shortcut tests > when on linux > when pressing
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-906674d4-50fe-49f6-ab72-5784f0638f46"
-            id="top-tab-906674d4-50fe-49f6-ab72-5784f0638f46"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -861,7 +866,7 @@ exports[`Command Pallet: keyboard shortcut tests > when on linux > when pressing
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-906674d4-50fe-49f6-ab72-5784f0638f46"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -872,7 +877,7 @@ exports[`Command Pallet: keyboard shortcut tests > when on linux > when pressing
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-906674d4-50fe-49f6-ab72-5784f0638f46"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -882,8 +887,8 @@ exports[`Command Pallet: keyboard shortcut tests > when on linux > when pressing
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-97f78e8d-91cf-4d6a-8841-8a56c76c743f"
-            id="top-tab-97f78e8d-91cf-4d6a-8841-8a56c76c743f"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -903,7 +908,7 @@ exports[`Command Pallet: keyboard shortcut tests > when on linux > when pressing
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-97f78e8d-91cf-4d6a-8841-8a56c76c743f"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -914,7 +919,7 @@ exports[`Command Pallet: keyboard shortcut tests > when on linux > when pressing
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-97f78e8d-91cf-4d6a-8841-8a56c76c743f"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -1325,6 +1330,11 @@ exports[`Command Pallet: keyboard shortcut tests > when on linux > when pressing
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -1509,8 +1519,8 @@ exports[`Command Pallet: keyboard shortcut tests > when on linux > when pressing
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-e6e228c2-5bea-4639-8f5b-26b5c28ee24a"
-            id="top-tab-e6e228c2-5bea-4639-8f5b-26b5c28ee24a"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -1530,7 +1540,7 @@ exports[`Command Pallet: keyboard shortcut tests > when on linux > when pressing
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-e6e228c2-5bea-4639-8f5b-26b5c28ee24a"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -1541,7 +1551,7 @@ exports[`Command Pallet: keyboard shortcut tests > when on linux > when pressing
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-e6e228c2-5bea-4639-8f5b-26b5c28ee24a"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -1551,8 +1561,8 @@ exports[`Command Pallet: keyboard shortcut tests > when on linux > when pressing
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-6d0c4037-83ad-4e95-aa1f-3b5ecce64efc"
-            id="top-tab-6d0c4037-83ad-4e95-aa1f-3b5ecce64efc"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -1572,7 +1582,7 @@ exports[`Command Pallet: keyboard shortcut tests > when on linux > when pressing
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-6d0c4037-83ad-4e95-aa1f-3b5ecce64efc"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -1583,7 +1593,7 @@ exports[`Command Pallet: keyboard shortcut tests > when on linux > when pressing
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-6d0c4037-83ad-4e95-aa1f-3b5ecce64efc"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -1994,6 +2004,11 @@ exports[`Command Pallet: keyboard shortcut tests > when on linux > when pressing
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -2190,8 +2205,8 @@ exports[`Command Pallet: keyboard shortcut tests > when on linux > when pressing
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-d94c8e7f-7d06-4af6-9444-1b3d5ed8ec7e"
-            id="top-tab-d94c8e7f-7d06-4af6-9444-1b3d5ed8ec7e"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -2211,7 +2226,7 @@ exports[`Command Pallet: keyboard shortcut tests > when on linux > when pressing
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-d94c8e7f-7d06-4af6-9444-1b3d5ed8ec7e"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -2222,7 +2237,7 @@ exports[`Command Pallet: keyboard shortcut tests > when on linux > when pressing
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-d94c8e7f-7d06-4af6-9444-1b3d5ed8ec7e"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -2232,8 +2247,8 @@ exports[`Command Pallet: keyboard shortcut tests > when on linux > when pressing
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-8a691db4-148f-480e-9337-37e159b16b1e"
-            id="top-tab-8a691db4-148f-480e-9337-37e159b16b1e"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -2253,7 +2268,7 @@ exports[`Command Pallet: keyboard shortcut tests > when on linux > when pressing
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-8a691db4-148f-480e-9337-37e159b16b1e"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -2264,7 +2279,7 @@ exports[`Command Pallet: keyboard shortcut tests > when on linux > when pressing
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-8a691db4-148f-480e-9337-37e159b16b1e"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -2675,6 +2690,11 @@ exports[`Command Pallet: keyboard shortcut tests > when on linux > when pressing
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -2768,8 +2788,8 @@ exports[`Command Pallet: keyboard shortcut tests > when on macOS > renders 1`] =
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-4e7e68f4-5c37-4c63-a97f-3ba7f1b0ec5c"
-            id="top-tab-4e7e68f4-5c37-4c63-a97f-3ba7f1b0ec5c"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -2789,7 +2809,7 @@ exports[`Command Pallet: keyboard shortcut tests > when on macOS > renders 1`] =
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-4e7e68f4-5c37-4c63-a97f-3ba7f1b0ec5c"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -2800,7 +2820,7 @@ exports[`Command Pallet: keyboard shortcut tests > when on macOS > renders 1`] =
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-4e7e68f4-5c37-4c63-a97f-3ba7f1b0ec5c"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -2810,8 +2830,8 @@ exports[`Command Pallet: keyboard shortcut tests > when on macOS > renders 1`] =
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-e5928a5b-1d67-43d8-aa86-19d3541c044c"
-            id="top-tab-e5928a5b-1d67-43d8-aa86-19d3541c044c"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -2831,7 +2851,7 @@ exports[`Command Pallet: keyboard shortcut tests > when on macOS > renders 1`] =
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-e5928a5b-1d67-43d8-aa86-19d3541c044c"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -2842,7 +2862,7 @@ exports[`Command Pallet: keyboard shortcut tests > when on macOS > renders 1`] =
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-e5928a5b-1d67-43d8-aa86-19d3541c044c"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -3253,6 +3273,11 @@ exports[`Command Pallet: keyboard shortcut tests > when on macOS > renders 1`] =
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -3346,8 +3371,8 @@ exports[`Command Pallet: keyboard shortcut tests > when on macOS > when pressing
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-270ea563-2cba-4490-9452-dc232eb4f151"
-            id="top-tab-270ea563-2cba-4490-9452-dc232eb4f151"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -3367,7 +3392,7 @@ exports[`Command Pallet: keyboard shortcut tests > when on macOS > when pressing
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-270ea563-2cba-4490-9452-dc232eb4f151"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -3378,7 +3403,7 @@ exports[`Command Pallet: keyboard shortcut tests > when on macOS > when pressing
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-270ea563-2cba-4490-9452-dc232eb4f151"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -3388,8 +3413,8 @@ exports[`Command Pallet: keyboard shortcut tests > when on macOS > when pressing
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-f7c8ca8b-557f-417b-b0c0-032aaeb63110"
-            id="top-tab-f7c8ca8b-557f-417b-b0c0-032aaeb63110"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -3409,7 +3434,7 @@ exports[`Command Pallet: keyboard shortcut tests > when on macOS > when pressing
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-f7c8ca8b-557f-417b-b0c0-032aaeb63110"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -3420,7 +3445,7 @@ exports[`Command Pallet: keyboard shortcut tests > when on macOS > when pressing
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-f7c8ca8b-557f-417b-b0c0-032aaeb63110"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -3831,6 +3856,11 @@ exports[`Command Pallet: keyboard shortcut tests > when on macOS > when pressing
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -3924,8 +3954,8 @@ exports[`Command Pallet: keyboard shortcut tests > when on macOS > when pressing
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-6b03909c-5f41-493b-a2cf-98f8f7ff34e3"
-            id="top-tab-6b03909c-5f41-493b-a2cf-98f8f7ff34e3"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -3945,7 +3975,7 @@ exports[`Command Pallet: keyboard shortcut tests > when on macOS > when pressing
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-6b03909c-5f41-493b-a2cf-98f8f7ff34e3"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -3956,7 +3986,7 @@ exports[`Command Pallet: keyboard shortcut tests > when on macOS > when pressing
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-6b03909c-5f41-493b-a2cf-98f8f7ff34e3"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -3966,8 +3996,8 @@ exports[`Command Pallet: keyboard shortcut tests > when on macOS > when pressing
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-d4ff010d-0a94-45ef-abe3-746b2fd610a3"
-            id="top-tab-d4ff010d-0a94-45ef-abe3-746b2fd610a3"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -3987,7 +4017,7 @@ exports[`Command Pallet: keyboard shortcut tests > when on macOS > when pressing
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-d4ff010d-0a94-45ef-abe3-746b2fd610a3"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -3998,7 +4028,7 @@ exports[`Command Pallet: keyboard shortcut tests > when on macOS > when pressing
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-d4ff010d-0a94-45ef-abe3-746b2fd610a3"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -4409,6 +4439,11 @@ exports[`Command Pallet: keyboard shortcut tests > when on macOS > when pressing
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -4514,8 +4549,8 @@ exports[`Command Pallet: keyboard shortcut tests > when on macOS > when pressing
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-41951c5e-0695-42f3-8458-4bb44a3d3ab5"
-            id="top-tab-41951c5e-0695-42f3-8458-4bb44a3d3ab5"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -4535,7 +4570,7 @@ exports[`Command Pallet: keyboard shortcut tests > when on macOS > when pressing
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-41951c5e-0695-42f3-8458-4bb44a3d3ab5"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -4546,7 +4581,7 @@ exports[`Command Pallet: keyboard shortcut tests > when on macOS > when pressing
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-41951c5e-0695-42f3-8458-4bb44a3d3ab5"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -4556,8 +4591,8 @@ exports[`Command Pallet: keyboard shortcut tests > when on macOS > when pressing
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-bdbe712d-40f5-4b9e-a0a9-3b68a94034fb"
-            id="top-tab-bdbe712d-40f5-4b9e-a0a9-3b68a94034fb"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -4577,7 +4612,7 @@ exports[`Command Pallet: keyboard shortcut tests > when on macOS > when pressing
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-bdbe712d-40f5-4b9e-a0a9-3b68a94034fb"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -4588,7 +4623,7 @@ exports[`Command Pallet: keyboard shortcut tests > when on macOS > when pressing
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-bdbe712d-40f5-4b9e-a0a9-3b68a94034fb"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -4999,6 +5034,11 @@ exports[`Command Pallet: keyboard shortcut tests > when on macOS > when pressing
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>

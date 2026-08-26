@@ -80,8 +80,8 @@ exports[`preferences - navigation to proxy preferences > given in preferences, w
       >
         <div
           class="Tab flex gap-2 items-center topTab active"
-          data-testid="top-tab-for-389280f8-3911-4dab-8cc2-f811f75acd5d"
-          id="top-tab-389280f8-3911-4dab-8cc2-f811f75acd5d"
+          data-testid="top-tab-for-/preferences"
+          id="top-tab-/preferences"
           role="tab"
           tabindex="0"
         >
@@ -101,7 +101,7 @@ exports[`preferences - navigation to proxy preferences > given in preferences, w
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-389280f8-3911-4dab-8cc2-f811f75acd5d"
+                  data-testid="top-tab-close-for-/preferences"
                   tabindex="0"
                 >
                   <span
@@ -112,7 +112,7 @@ exports[`preferences - navigation to proxy preferences > given in preferences, w
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-389280f8-3911-4dab-8cc2-f811f75acd5d"
+                  data-testid="tooltip-content-for-top-tab-close-for-/preferences"
                 >
                   Close tab
                 </div>
@@ -854,6 +854,11 @@ exports[`preferences - navigation to proxy preferences > given in preferences, w
                 search
               </span>
             </i>
+            <span
+              class="label"
+            >
+              Search clusters
+            </span>
           </div>
         </div>
       </div>
@@ -946,8 +951,8 @@ exports[`preferences - navigation to proxy preferences > given in preferences, w
       >
         <div
           class="Tab flex gap-2 items-center topTab"
-          data-testid="top-tab-for-3c63e66c-a98c-4eb3-9f2b-2cb72a672895"
-          id="top-tab-3c63e66c-a98c-4eb3-9f2b-2cb72a672895"
+          data-testid="top-tab-for-/preferences"
+          id="top-tab-/preferences"
           role="tab"
           tabindex="0"
         >
@@ -967,7 +972,7 @@ exports[`preferences - navigation to proxy preferences > given in preferences, w
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-3c63e66c-a98c-4eb3-9f2b-2cb72a672895"
+                  data-testid="top-tab-close-for-/preferences"
                   tabindex="0"
                 >
                   <span
@@ -978,7 +983,7 @@ exports[`preferences - navigation to proxy preferences > given in preferences, w
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-3c63e66c-a98c-4eb3-9f2b-2cb72a672895"
+                  data-testid="tooltip-content-for-top-tab-close-for-/preferences"
                 >
                   Close tab
                 </div>
@@ -988,8 +993,8 @@ exports[`preferences - navigation to proxy preferences > given in preferences, w
         </div>
         <div
           class="Tab flex gap-2 items-center topTab active"
-          data-testid="top-tab-for-ea054232-264a-43ea-828d-3b80681d23a5"
-          id="top-tab-ea054232-264a-43ea-828d-3b80681d23a5"
+          data-testid="top-tab-for-/preferences/proxy"
+          id="top-tab-/preferences/proxy"
           role="tab"
           tabindex="0"
         >
@@ -1009,7 +1014,7 @@ exports[`preferences - navigation to proxy preferences > given in preferences, w
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-ea054232-264a-43ea-828d-3b80681d23a5"
+                  data-testid="top-tab-close-for-/preferences/proxy"
                   tabindex="0"
                 >
                   <span
@@ -1020,7 +1025,7 @@ exports[`preferences - navigation to proxy preferences > given in preferences, w
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-ea054232-264a-43ea-828d-3b80681d23a5"
+                  data-testid="tooltip-content-for-top-tab-close-for-/preferences/proxy"
                 >
                   Close tab
                 </div>
@@ -1418,6 +1423,11 @@ exports[`preferences - navigation to proxy preferences > given in preferences, w
                 search
               </span>
             </i>
+            <span
+              class="label"
+            >
+              Search clusters
+            </span>
           </div>
         </div>
       </div>

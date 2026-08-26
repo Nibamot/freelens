@@ -81,8 +81,8 @@ exports[`preferences - navigation to extension specific preferences > given in p
         >
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-e07991b9-030a-4be2-a6c0-ab44fe5ea2a8"
-            id="top-tab-e07991b9-030a-4be2-a6c0-ab44fe5ea2a8"
+            data-testid="top-tab-for-/preferences"
+            id="top-tab-/preferences"
             role="tab"
             tabindex="0"
           >
@@ -102,7 +102,7 @@ exports[`preferences - navigation to extension specific preferences > given in p
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-e07991b9-030a-4be2-a6c0-ab44fe5ea2a8"
+                    data-testid="top-tab-close-for-/preferences"
                     tabindex="0"
                   >
                     <span
@@ -113,7 +113,7 @@ exports[`preferences - navigation to extension specific preferences > given in p
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-e07991b9-030a-4be2-a6c0-ab44fe5ea2a8"
+                    data-testid="tooltip-content-for-top-tab-close-for-/preferences"
                   >
                     Close tab
                   </div>
@@ -867,6 +867,11 @@ exports[`preferences - navigation to extension specific preferences > given in p
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -960,8 +965,8 @@ exports[`preferences - navigation to extension specific preferences > given in p
       >
         <div
           class="Tab flex gap-2 items-center topTab"
-          data-testid="top-tab-for-4e820314-321d-41ba-9acd-304aa5d1dbb2"
-          id="top-tab-4e820314-321d-41ba-9acd-304aa5d1dbb2"
+          data-testid="top-tab-for-/preferences"
+          id="top-tab-/preferences"
           role="tab"
           tabindex="0"
         >
@@ -981,7 +986,7 @@ exports[`preferences - navigation to extension specific preferences > given in p
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-4e820314-321d-41ba-9acd-304aa5d1dbb2"
+                  data-testid="top-tab-close-for-/preferences"
                   tabindex="0"
                 >
                   <span
@@ -992,7 +997,7 @@ exports[`preferences - navigation to extension specific preferences > given in p
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-4e820314-321d-41ba-9acd-304aa5d1dbb2"
+                  data-testid="tooltip-content-for-top-tab-close-for-/preferences"
                 >
                   Close tab
                 </div>
@@ -1002,8 +1007,8 @@ exports[`preferences - navigation to extension specific preferences > given in p
         </div>
         <div
           class="Tab flex gap-2 items-center topTab active"
-          data-testid="top-tab-for-f30b17f6-fe95-4016-be77-dcf8cc0a9af6"
-          id="top-tab-f30b17f6-fe95-4016-be77-dcf8cc0a9af6"
+          data-testid="top-tab-for-/preferences/extension-registered-tab-page-id-metrics-extension-tab"
+          id="top-tab-/preferences/extension-registered-tab-page-id-metrics-extension-tab"
           role="tab"
           tabindex="0"
         >
@@ -1023,7 +1028,7 @@ exports[`preferences - navigation to extension specific preferences > given in p
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-f30b17f6-fe95-4016-be77-dcf8cc0a9af6"
+                  data-testid="top-tab-close-for-/preferences/extension-registered-tab-page-id-metrics-extension-tab"
                   tabindex="0"
                 >
                   <span
@@ -1034,7 +1039,7 @@ exports[`preferences - navigation to extension specific preferences > given in p
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-f30b17f6-fe95-4016-be77-dcf8cc0a9af6"
+                  data-testid="tooltip-content-for-top-tab-close-for-/preferences/extension-registered-tab-page-id-metrics-extension-tab"
                 >
                   Close tab
                 </div>
@@ -1405,6 +1410,11 @@ exports[`preferences - navigation to extension specific preferences > given in p
                 search
               </span>
             </i>
+            <span
+              class="label"
+            >
+              Search clusters
+            </span>
           </div>
         </div>
       </div>
@@ -1497,8 +1507,8 @@ exports[`preferences - navigation to extension specific preferences > given in p
       >
         <div
           class="Tab flex gap-2 items-center topTab"
-          data-testid="top-tab-for-e93db58a-85e4-4f64-93a8-737ba29d6331"
-          id="top-tab-e93db58a-85e4-4f64-93a8-737ba29d6331"
+          data-testid="top-tab-for-/preferences"
+          id="top-tab-/preferences"
           role="tab"
           tabindex="0"
         >
@@ -1518,7 +1528,7 @@ exports[`preferences - navigation to extension specific preferences > given in p
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-e93db58a-85e4-4f64-93a8-737ba29d6331"
+                  data-testid="top-tab-close-for-/preferences"
                   tabindex="0"
                 >
                   <span
@@ -1529,7 +1539,7 @@ exports[`preferences - navigation to extension specific preferences > given in p
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-e93db58a-85e4-4f64-93a8-737ba29d6331"
+                  data-testid="tooltip-content-for-top-tab-close-for-/preferences"
                 >
                   Close tab
                 </div>
@@ -1539,8 +1549,8 @@ exports[`preferences - navigation to extension specific preferences > given in p
         </div>
         <div
           class="Tab flex gap-2 items-center topTab active"
-          data-testid="top-tab-for-e6d5a16d-b40f-4521-9b70-d8b9eaf74004"
-          id="top-tab-e6d5a16d-b40f-4521-9b70-d8b9eaf74004"
+          data-testid="top-tab-for-/preferences/extension-registered-tab-page-id-metrics-extension-tab"
+          id="top-tab-/preferences/extension-registered-tab-page-id-metrics-extension-tab"
           role="tab"
           tabindex="0"
         >
@@ -1560,7 +1570,7 @@ exports[`preferences - navigation to extension specific preferences > given in p
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-e6d5a16d-b40f-4521-9b70-d8b9eaf74004"
+                  data-testid="top-tab-close-for-/preferences/extension-registered-tab-page-id-metrics-extension-tab"
                   tabindex="0"
                 >
                   <span
@@ -1571,7 +1581,7 @@ exports[`preferences - navigation to extension specific preferences > given in p
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-e6d5a16d-b40f-4521-9b70-d8b9eaf74004"
+                  data-testid="tooltip-content-for-top-tab-close-for-/preferences/extension-registered-tab-page-id-metrics-extension-tab"
                 >
                   Close tab
                 </div>
@@ -1954,6 +1964,11 @@ exports[`preferences - navigation to extension specific preferences > given in p
                 search
               </span>
             </i>
+            <span
+              class="label"
+            >
+              Search clusters
+            </span>
           </div>
         </div>
       </div>
@@ -2046,8 +2061,8 @@ exports[`preferences - navigation to extension specific preferences > given in p
       >
         <div
           class="Tab flex gap-2 items-center topTab"
-          data-testid="top-tab-for-66d107a4-408f-4ff9-a4b6-45900da52da3"
-          id="top-tab-66d107a4-408f-4ff9-a4b6-45900da52da3"
+          data-testid="top-tab-for-/preferences"
+          id="top-tab-/preferences"
           role="tab"
           tabindex="0"
         >
@@ -2067,7 +2082,7 @@ exports[`preferences - navigation to extension specific preferences > given in p
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-66d107a4-408f-4ff9-a4b6-45900da52da3"
+                  data-testid="top-tab-close-for-/preferences"
                   tabindex="0"
                 >
                   <span
@@ -2078,7 +2093,7 @@ exports[`preferences - navigation to extension specific preferences > given in p
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-66d107a4-408f-4ff9-a4b6-45900da52da3"
+                  data-testid="tooltip-content-for-top-tab-close-for-/preferences"
                 >
                   Close tab
                 </div>
@@ -2088,8 +2103,8 @@ exports[`preferences - navigation to extension specific preferences > given in p
         </div>
         <div
           class="Tab flex gap-2 items-center topTab active"
-          data-testid="top-tab-for-65ce5fbe-0390-41fb-8202-871f629541a1"
-          id="top-tab-65ce5fbe-0390-41fb-8202-871f629541a1"
+          data-testid="top-tab-for-/preferences/extension-duplicated-tab-page-id-metrics-extension-tab"
+          id="top-tab-/preferences/extension-duplicated-tab-page-id-metrics-extension-tab"
           role="tab"
           tabindex="0"
         >
@@ -2109,7 +2124,7 @@ exports[`preferences - navigation to extension specific preferences > given in p
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-65ce5fbe-0390-41fb-8202-871f629541a1"
+                  data-testid="top-tab-close-for-/preferences/extension-duplicated-tab-page-id-metrics-extension-tab"
                   tabindex="0"
                 >
                   <span
@@ -2120,7 +2135,7 @@ exports[`preferences - navigation to extension specific preferences > given in p
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-65ce5fbe-0390-41fb-8202-871f629541a1"
+                  data-testid="tooltip-content-for-top-tab-close-for-/preferences/extension-duplicated-tab-page-id-metrics-extension-tab"
                 >
                   Close tab
                 </div>
@@ -2503,6 +2518,11 @@ exports[`preferences - navigation to extension specific preferences > given in p
                 search
               </span>
             </i>
+            <span
+              class="label"
+            >
+              Search clusters
+            </span>
           </div>
         </div>
       </div>
@@ -2595,8 +2615,8 @@ exports[`preferences - navigation to extension specific preferences > given in p
       >
         <div
           class="Tab flex gap-2 items-center topTab"
-          data-testid="top-tab-for-e3dd142e-f8be-49dd-891f-e2bd30b5525a"
-          id="top-tab-e3dd142e-f8be-49dd-891f-e2bd30b5525a"
+          data-testid="top-tab-for-/preferences"
+          id="top-tab-/preferences"
           role="tab"
           tabindex="0"
         >
@@ -2616,7 +2636,7 @@ exports[`preferences - navigation to extension specific preferences > given in p
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-e3dd142e-f8be-49dd-891f-e2bd30b5525a"
+                  data-testid="top-tab-close-for-/preferences"
                   tabindex="0"
                 >
                   <span
@@ -2627,7 +2647,7 @@ exports[`preferences - navigation to extension specific preferences > given in p
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-e3dd142e-f8be-49dd-891f-e2bd30b5525a"
+                  data-testid="tooltip-content-for-top-tab-close-for-/preferences"
                 >
                   Close tab
                 </div>
@@ -2637,8 +2657,8 @@ exports[`preferences - navigation to extension specific preferences > given in p
         </div>
         <div
           class="Tab flex gap-2 items-center topTab active"
-          data-testid="top-tab-for-2a394fa0-7c64-4220-a3a7-ba8a0f76c012"
-          id="top-tab-2a394fa0-7c64-4220-a3a7-ba8a0f76c012"
+          data-testid="top-tab-for-/preferences/some-test-extension-id"
+          id="top-tab-/preferences/some-test-extension-id"
           role="tab"
           tabindex="0"
         >
@@ -2658,7 +2678,7 @@ exports[`preferences - navigation to extension specific preferences > given in p
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-2a394fa0-7c64-4220-a3a7-ba8a0f76c012"
+                  data-testid="top-tab-close-for-/preferences/some-test-extension-id"
                   tabindex="0"
                 >
                   <span
@@ -2669,7 +2689,7 @@ exports[`preferences - navigation to extension specific preferences > given in p
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-2a394fa0-7c64-4220-a3a7-ba8a0f76c012"
+                  data-testid="tooltip-content-for-top-tab-close-for-/preferences/some-test-extension-id"
                 >
                   Close tab
                 </div>
@@ -3078,6 +3098,11 @@ exports[`preferences - navigation to extension specific preferences > given in p
                 search
               </span>
             </i>
+            <span
+              class="label"
+            >
+              Search clusters
+            </span>
           </div>
         </div>
       </div>
@@ -3170,8 +3195,8 @@ exports[`preferences - navigation to extension specific preferences > given in p
       >
         <div
           class="Tab flex gap-2 items-center topTab active"
-          data-testid="top-tab-for-9f717afe-79ab-42d6-af7c-747d94474784"
-          id="top-tab-9f717afe-79ab-42d6-af7c-747d94474784"
+          data-testid="top-tab-for-/preferences"
+          id="top-tab-/preferences"
           role="tab"
           tabindex="0"
         >
@@ -3191,7 +3216,7 @@ exports[`preferences - navigation to extension specific preferences > given in p
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-9f717afe-79ab-42d6-af7c-747d94474784"
+                  data-testid="top-tab-close-for-/preferences"
                   tabindex="0"
                 >
                   <span
@@ -3202,7 +3227,7 @@ exports[`preferences - navigation to extension specific preferences > given in p
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-9f717afe-79ab-42d6-af7c-747d94474784"
+                  data-testid="tooltip-content-for-top-tab-close-for-/preferences"
                 >
                   Close tab
                 </div>
@@ -3944,6 +3969,11 @@ exports[`preferences - navigation to extension specific preferences > given in p
                 search
               </span>
             </i>
+            <span
+              class="label"
+            >
+              Search clusters
+            </span>
           </div>
         </div>
       </div>
@@ -4036,8 +4066,8 @@ exports[`preferences - navigation to extension specific preferences > given in p
       >
         <div
           class="Tab flex gap-2 items-center topTab active"
-          data-testid="top-tab-for-dc853b65-ddee-493f-8f3a-1e232834a076"
-          id="top-tab-dc853b65-ddee-493f-8f3a-1e232834a076"
+          data-testid="top-tab-for-/preferences"
+          id="top-tab-/preferences"
           role="tab"
           tabindex="0"
         >
@@ -4057,7 +4087,7 @@ exports[`preferences - navigation to extension specific preferences > given in p
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-dc853b65-ddee-493f-8f3a-1e232834a076"
+                  data-testid="top-tab-close-for-/preferences"
                   tabindex="0"
                 >
                   <span
@@ -4068,7 +4098,7 @@ exports[`preferences - navigation to extension specific preferences > given in p
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-dc853b65-ddee-493f-8f3a-1e232834a076"
+                  data-testid="tooltip-content-for-top-tab-close-for-/preferences"
                 >
                   Close tab
                 </div>
@@ -4848,6 +4878,11 @@ exports[`preferences - navigation to extension specific preferences > given in p
                 search
               </span>
             </i>
+            <span
+              class="label"
+            >
+              Search clusters
+            </span>
           </div>
         </div>
       </div>
@@ -4940,8 +4975,8 @@ exports[`preferences - navigation to extension specific preferences > given in p
       >
         <div
           class="Tab flex gap-2 items-center topTab"
-          data-testid="top-tab-for-d344fa3f-43cd-40f4-9dcf-bf630ebb5e03"
-          id="top-tab-d344fa3f-43cd-40f4-9dcf-bf630ebb5e03"
+          data-testid="top-tab-for-/preferences"
+          id="top-tab-/preferences"
           role="tab"
           tabindex="0"
         >
@@ -4961,7 +4996,7 @@ exports[`preferences - navigation to extension specific preferences > given in p
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-d344fa3f-43cd-40f4-9dcf-bf630ebb5e03"
+                  data-testid="top-tab-close-for-/preferences"
                   tabindex="0"
                 >
                   <span
@@ -4972,7 +5007,7 @@ exports[`preferences - navigation to extension specific preferences > given in p
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-d344fa3f-43cd-40f4-9dcf-bf630ebb5e03"
+                  data-testid="tooltip-content-for-top-tab-close-for-/preferences"
                 >
                   Close tab
                 </div>
@@ -4982,8 +5017,8 @@ exports[`preferences - navigation to extension specific preferences > given in p
         </div>
         <div
           class="Tab flex gap-2 items-center topTab active"
-          data-testid="top-tab-for-fe473faa-371f-4924-ba97-2aeb90f018be"
-          id="top-tab-fe473faa-371f-4924-ba97-2aeb90f018be"
+          data-testid="top-tab-for-/preferences/some-test-extension-id"
+          id="top-tab-/preferences/some-test-extension-id"
           role="tab"
           tabindex="0"
         >
@@ -5003,7 +5038,7 @@ exports[`preferences - navigation to extension specific preferences > given in p
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-fe473faa-371f-4924-ba97-2aeb90f018be"
+                  data-testid="top-tab-close-for-/preferences/some-test-extension-id"
                   tabindex="0"
                 >
                   <span
@@ -5014,7 +5049,7 @@ exports[`preferences - navigation to extension specific preferences > given in p
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-fe473faa-371f-4924-ba97-2aeb90f018be"
+                  data-testid="tooltip-content-for-top-tab-close-for-/preferences/some-test-extension-id"
                 >
                   Close tab
                 </div>
@@ -5411,6 +5446,11 @@ exports[`preferences - navigation to extension specific preferences > given in p
                 search
               </span>
             </i>
+            <span
+              class="label"
+            >
+              Search clusters
+            </span>
           </div>
         </div>
       </div>
@@ -5504,8 +5544,8 @@ exports[`preferences - navigation to extension specific preferences > given in p
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-f5b071ec-2c7d-4e99-8828-d46bf11663f5"
-            id="top-tab-f5b071ec-2c7d-4e99-8828-d46bf11663f5"
+            data-testid="top-tab-for-/preferences"
+            id="top-tab-/preferences"
             role="tab"
             tabindex="0"
           >
@@ -5525,7 +5565,7 @@ exports[`preferences - navigation to extension specific preferences > given in p
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-f5b071ec-2c7d-4e99-8828-d46bf11663f5"
+                    data-testid="top-tab-close-for-/preferences"
                     tabindex="0"
                   >
                     <span
@@ -5536,7 +5576,7 @@ exports[`preferences - navigation to extension specific preferences > given in p
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-f5b071ec-2c7d-4e99-8828-d46bf11663f5"
+                    data-testid="tooltip-content-for-top-tab-close-for-/preferences"
                   >
                     Close tab
                   </div>
@@ -5546,8 +5586,8 @@ exports[`preferences - navigation to extension specific preferences > given in p
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-993725b8-5a6d-4454-aac8-9e2011634518"
-            id="top-tab-993725b8-5a6d-4454-aac8-9e2011634518"
+            data-testid="top-tab-for-/preferences/some-test-extension-id"
+            id="top-tab-/preferences/some-test-extension-id"
             role="tab"
             tabindex="0"
           >
@@ -5567,7 +5607,7 @@ exports[`preferences - navigation to extension specific preferences > given in p
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-993725b8-5a6d-4454-aac8-9e2011634518"
+                    data-testid="top-tab-close-for-/preferences/some-test-extension-id"
                     tabindex="0"
                   >
                     <span
@@ -5578,7 +5618,7 @@ exports[`preferences - navigation to extension specific preferences > given in p
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-993725b8-5a6d-4454-aac8-9e2011634518"
+                    data-testid="tooltip-content-for-top-tab-close-for-/preferences/some-test-extension-id"
                   >
                     Close tab
                   </div>
@@ -5905,6 +5945,11 @@ exports[`preferences - navigation to extension specific preferences > given in p
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>

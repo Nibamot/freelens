@@ -80,8 +80,8 @@ exports[`preferences - navigation to editor preferences > given in preferences, 
       >
         <div
           class="Tab flex gap-2 items-center topTab active"
-          data-testid="top-tab-for-564e3d14-68ff-445f-9241-c3f854379755"
-          id="top-tab-564e3d14-68ff-445f-9241-c3f854379755"
+          data-testid="top-tab-for-/preferences"
+          id="top-tab-/preferences"
           role="tab"
           tabindex="0"
         >
@@ -101,7 +101,7 @@ exports[`preferences - navigation to editor preferences > given in preferences, 
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-564e3d14-68ff-445f-9241-c3f854379755"
+                  data-testid="top-tab-close-for-/preferences"
                   tabindex="0"
                 >
                   <span
@@ -112,7 +112,7 @@ exports[`preferences - navigation to editor preferences > given in preferences, 
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-564e3d14-68ff-445f-9241-c3f854379755"
+                  data-testid="tooltip-content-for-top-tab-close-for-/preferences"
                 >
                   Close tab
                 </div>
@@ -854,6 +854,11 @@ exports[`preferences - navigation to editor preferences > given in preferences, 
                 search
               </span>
             </i>
+            <span
+              class="label"
+            >
+              Search clusters
+            </span>
           </div>
         </div>
       </div>
@@ -946,8 +951,8 @@ exports[`preferences - navigation to editor preferences > given in preferences, 
       >
         <div
           class="Tab flex gap-2 items-center topTab"
-          data-testid="top-tab-for-98afa50e-8109-4ac3-83d7-a37f80ed767f"
-          id="top-tab-98afa50e-8109-4ac3-83d7-a37f80ed767f"
+          data-testid="top-tab-for-/preferences"
+          id="top-tab-/preferences"
           role="tab"
           tabindex="0"
         >
@@ -967,7 +972,7 @@ exports[`preferences - navigation to editor preferences > given in preferences, 
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-98afa50e-8109-4ac3-83d7-a37f80ed767f"
+                  data-testid="top-tab-close-for-/preferences"
                   tabindex="0"
                 >
                   <span
@@ -978,7 +983,7 @@ exports[`preferences - navigation to editor preferences > given in preferences, 
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-98afa50e-8109-4ac3-83d7-a37f80ed767f"
+                  data-testid="tooltip-content-for-top-tab-close-for-/preferences"
                 >
                   Close tab
                 </div>
@@ -988,8 +993,8 @@ exports[`preferences - navigation to editor preferences > given in preferences, 
         </div>
         <div
           class="Tab flex gap-2 items-center topTab active"
-          data-testid="top-tab-for-f97498d7-3d56-40d2-b9a2-2d91938a5ae3"
-          id="top-tab-f97498d7-3d56-40d2-b9a2-2d91938a5ae3"
+          data-testid="top-tab-for-/preferences/editor"
+          id="top-tab-/preferences/editor"
           role="tab"
           tabindex="0"
         >
@@ -1009,7 +1014,7 @@ exports[`preferences - navigation to editor preferences > given in preferences, 
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-f97498d7-3d56-40d2-b9a2-2d91938a5ae3"
+                  data-testid="top-tab-close-for-/preferences/editor"
                   tabindex="0"
                 >
                   <span
@@ -1020,7 +1025,7 @@ exports[`preferences - navigation to editor preferences > given in preferences, 
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-f97498d7-3d56-40d2-b9a2-2d91938a5ae3"
+                  data-testid="tooltip-content-for-top-tab-close-for-/preferences/editor"
                 >
                   Close tab
                 </div>
@@ -1655,6 +1660,11 @@ exports[`preferences - navigation to editor preferences > given in preferences, 
                 search
               </span>
             </i>
+            <span
+              class="label"
+            >
+              Search clusters
+            </span>
           </div>
         </div>
       </div>

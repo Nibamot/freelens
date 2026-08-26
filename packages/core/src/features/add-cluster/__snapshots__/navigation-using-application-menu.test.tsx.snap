@@ -79,8 +79,8 @@ exports[`add-cluster - navigation using application menu > renders 1`] = `
       >
         <div
           class="Tab flex gap-2 items-center topTab"
-          data-testid="top-tab-for-98f6886e-a516-4d55-b7df-bba88b9e9da9"
-          id="top-tab-98f6886e-a516-4d55-b7df-bba88b9e9da9"
+          data-testid="top-tab-for-/"
+          id="top-tab-/"
           role="tab"
           tabindex="0"
         >
@@ -100,7 +100,7 @@ exports[`add-cluster - navigation using application menu > renders 1`] = `
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-98f6886e-a516-4d55-b7df-bba88b9e9da9"
+                  data-testid="top-tab-close-for-/"
                   tabindex="0"
                 >
                   <span
@@ -111,7 +111,7 @@ exports[`add-cluster - navigation using application menu > renders 1`] = `
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-98f6886e-a516-4d55-b7df-bba88b9e9da9"
+                  data-testid="tooltip-content-for-top-tab-close-for-/"
                 >
                   Close tab
                 </div>
@@ -121,8 +121,8 @@ exports[`add-cluster - navigation using application menu > renders 1`] = `
         </div>
         <div
           class="Tab flex gap-2 items-center topTab active"
-          data-testid="top-tab-for-271f24fc-b8b0-4827-b6d1-f9472e1e26af"
-          id="top-tab-271f24fc-b8b0-4827-b6d1-f9472e1e26af"
+          data-testid="top-tab-for-/welcome"
+          id="top-tab-/welcome"
           role="tab"
           tabindex="0"
         >
@@ -142,7 +142,7 @@ exports[`add-cluster - navigation using application menu > renders 1`] = `
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-271f24fc-b8b0-4827-b6d1-f9472e1e26af"
+                  data-testid="top-tab-close-for-/welcome"
                   tabindex="0"
                 >
                   <span
@@ -153,7 +153,7 @@ exports[`add-cluster - navigation using application menu > renders 1`] = `
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-271f24fc-b8b0-4827-b6d1-f9472e1e26af"
+                  data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                 >
                   Close tab
                 </div>
@@ -564,6 +564,11 @@ exports[`add-cluster - navigation using application menu > renders 1`] = `
                 search
               </span>
             </i>
+            <span
+              class="label"
+            >
+              Search clusters
+            </span>
           </div>
         </div>
       </div>
@@ -656,8 +661,8 @@ exports[`add-cluster - navigation using application menu > when navigating to ad
       >
         <div
           class="Tab flex gap-2 items-center topTab"
-          data-testid="top-tab-for-a57f8d3b-8c6a-48bf-a597-932eb7c1d03e"
-          id="top-tab-a57f8d3b-8c6a-48bf-a597-932eb7c1d03e"
+          data-testid="top-tab-for-/"
+          id="top-tab-/"
           role="tab"
           tabindex="0"
         >
@@ -677,7 +682,7 @@ exports[`add-cluster - navigation using application menu > when navigating to ad
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-a57f8d3b-8c6a-48bf-a597-932eb7c1d03e"
+                  data-testid="top-tab-close-for-/"
                   tabindex="0"
                 >
                   <span
@@ -688,7 +693,7 @@ exports[`add-cluster - navigation using application menu > when navigating to ad
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-a57f8d3b-8c6a-48bf-a597-932eb7c1d03e"
+                  data-testid="tooltip-content-for-top-tab-close-for-/"
                 >
                   Close tab
                 </div>
@@ -698,8 +703,8 @@ exports[`add-cluster - navigation using application menu > when navigating to ad
         </div>
         <div
           class="Tab flex gap-2 items-center topTab"
-          data-testid="top-tab-for-0478c81c-9667-4456-8a62-df8adca29084"
-          id="top-tab-0478c81c-9667-4456-8a62-df8adca29084"
+          data-testid="top-tab-for-/welcome"
+          id="top-tab-/welcome"
           role="tab"
           tabindex="0"
         >
@@ -719,7 +724,7 @@ exports[`add-cluster - navigation using application menu > when navigating to ad
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-0478c81c-9667-4456-8a62-df8adca29084"
+                  data-testid="top-tab-close-for-/welcome"
                   tabindex="0"
                 >
                   <span
@@ -730,7 +735,7 @@ exports[`add-cluster - navigation using application menu > when navigating to ad
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-0478c81c-9667-4456-8a62-df8adca29084"
+                  data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                 >
                   Close tab
                 </div>
@@ -740,8 +745,8 @@ exports[`add-cluster - navigation using application menu > when navigating to ad
         </div>
         <div
           class="Tab flex gap-2 items-center topTab active"
-          data-testid="top-tab-for-d61535cf-b01e-4b79-927a-7dbfe0ea64ec"
-          id="top-tab-d61535cf-b01e-4b79-927a-7dbfe0ea64ec"
+          data-testid="top-tab-for-/add-cluster"
+          id="top-tab-/add-cluster"
           role="tab"
           tabindex="0"
         >
@@ -761,7 +766,7 @@ exports[`add-cluster - navigation using application menu > when navigating to ad
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-d61535cf-b01e-4b79-927a-7dbfe0ea64ec"
+                  data-testid="top-tab-close-for-/add-cluster"
                   tabindex="0"
                 >
                   <span
@@ -772,7 +777,7 @@ exports[`add-cluster - navigation using application menu > when navigating to ad
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-d61535cf-b01e-4b79-927a-7dbfe0ea64ec"
+                  data-testid="tooltip-content-for-top-tab-close-for-/add-cluster"
                 >
                   Close tab
                 </div>
@@ -1052,6 +1057,11 @@ exports[`add-cluster - navigation using application menu > when navigating to ad
                 search
               </span>
             </i>
+            <span
+              class="label"
+            >
+              Search clusters
+            </span>
           </div>
         </div>
       </div>

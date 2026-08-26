@@ -80,8 +80,8 @@ exports[`preferences - navigation to kubernetes preferences > given in preferenc
       >
         <div
           class="Tab flex gap-2 items-center topTab active"
-          data-testid="top-tab-for-5a48e229-d2e5-410d-bb20-438bc6219ba5"
-          id="top-tab-5a48e229-d2e5-410d-bb20-438bc6219ba5"
+          data-testid="top-tab-for-/preferences"
+          id="top-tab-/preferences"
           role="tab"
           tabindex="0"
         >
@@ -101,7 +101,7 @@ exports[`preferences - navigation to kubernetes preferences > given in preferenc
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-5a48e229-d2e5-410d-bb20-438bc6219ba5"
+                  data-testid="top-tab-close-for-/preferences"
                   tabindex="0"
                 >
                   <span
@@ -112,7 +112,7 @@ exports[`preferences - navigation to kubernetes preferences > given in preferenc
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-5a48e229-d2e5-410d-bb20-438bc6219ba5"
+                  data-testid="tooltip-content-for-top-tab-close-for-/preferences"
                 >
                   Close tab
                 </div>
@@ -854,6 +854,11 @@ exports[`preferences - navigation to kubernetes preferences > given in preferenc
                 search
               </span>
             </i>
+            <span
+              class="label"
+            >
+              Search clusters
+            </span>
           </div>
         </div>
       </div>
@@ -946,8 +951,8 @@ exports[`preferences - navigation to kubernetes preferences > given in preferenc
       >
         <div
           class="Tab flex gap-2 items-center topTab"
-          data-testid="top-tab-for-d1a1f2a5-ef82-4e2c-87d3-1847f89aad90"
-          id="top-tab-d1a1f2a5-ef82-4e2c-87d3-1847f89aad90"
+          data-testid="top-tab-for-/preferences"
+          id="top-tab-/preferences"
           role="tab"
           tabindex="0"
         >
@@ -967,7 +972,7 @@ exports[`preferences - navigation to kubernetes preferences > given in preferenc
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-d1a1f2a5-ef82-4e2c-87d3-1847f89aad90"
+                  data-testid="top-tab-close-for-/preferences"
                   tabindex="0"
                 >
                   <span
@@ -978,7 +983,7 @@ exports[`preferences - navigation to kubernetes preferences > given in preferenc
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-d1a1f2a5-ef82-4e2c-87d3-1847f89aad90"
+                  data-testid="tooltip-content-for-top-tab-close-for-/preferences"
                 >
                   Close tab
                 </div>
@@ -988,8 +993,8 @@ exports[`preferences - navigation to kubernetes preferences > given in preferenc
         </div>
         <div
           class="Tab flex gap-2 items-center topTab active"
-          data-testid="top-tab-for-136a1045-7b27-4792-8ff7-b4da68cec11b"
-          id="top-tab-136a1045-7b27-4792-8ff7-b4da68cec11b"
+          data-testid="top-tab-for-/preferences/kubernetes"
+          id="top-tab-/preferences/kubernetes"
           role="tab"
           tabindex="0"
         >
@@ -1009,7 +1014,7 @@ exports[`preferences - navigation to kubernetes preferences > given in preferenc
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-136a1045-7b27-4792-8ff7-b4da68cec11b"
+                  data-testid="top-tab-close-for-/preferences/kubernetes"
                   tabindex="0"
                 >
                   <span
@@ -1020,7 +1025,7 @@ exports[`preferences - navigation to kubernetes preferences > given in preferenc
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-136a1045-7b27-4792-8ff7-b4da68cec11b"
+                  data-testid="tooltip-content-for-top-tab-close-for-/preferences/kubernetes"
                 >
                   Close tab
                 </div>
@@ -1806,6 +1811,11 @@ exports[`preferences - navigation to kubernetes preferences > given in preferenc
                 search
               </span>
             </i>
+            <span
+              class="label"
+            >
+              Search clusters
+            </span>
           </div>
         </div>
       </div>

@@ -80,8 +80,8 @@ exports[`status-bar-items-originating-from-extensions > when application starts 
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-e3acfb4f-faaf-42e9-a2ef-864911ed4ce6"
-            id="top-tab-e3acfb4f-faaf-42e9-a2ef-864911ed4ce6"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -101,7 +101,7 @@ exports[`status-bar-items-originating-from-extensions > when application starts 
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-e3acfb4f-faaf-42e9-a2ef-864911ed4ce6"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -112,7 +112,7 @@ exports[`status-bar-items-originating-from-extensions > when application starts 
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-e3acfb4f-faaf-42e9-a2ef-864911ed4ce6"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -122,8 +122,8 @@ exports[`status-bar-items-originating-from-extensions > when application starts 
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-d4e71c61-7a72-4518-9ab0-08ed52bc1cea"
-            id="top-tab-d4e71c61-7a72-4518-9ab0-08ed52bc1cea"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -143,7 +143,7 @@ exports[`status-bar-items-originating-from-extensions > when application starts 
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-d4e71c61-7a72-4518-9ab0-08ed52bc1cea"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -154,7 +154,7 @@ exports[`status-bar-items-originating-from-extensions > when application starts 
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-d4e71c61-7a72-4518-9ab0-08ed52bc1cea"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -565,6 +565,11 @@ exports[`status-bar-items-originating-from-extensions > when application starts 
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
           <div

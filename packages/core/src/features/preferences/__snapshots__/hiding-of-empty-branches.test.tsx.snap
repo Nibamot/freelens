@@ -80,8 +80,8 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page > giv
       >
         <div
           class="Tab flex gap-2 items-center topTab"
-          data-testid="top-tab-for-6a40b49f-de63-4238-8f0e-4b31f7552321"
-          id="top-tab-6a40b49f-de63-4238-8f0e-4b31f7552321"
+          data-testid="top-tab-for-/"
+          id="top-tab-/"
           role="tab"
           tabindex="0"
         >
@@ -101,7 +101,7 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page > giv
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-6a40b49f-de63-4238-8f0e-4b31f7552321"
+                  data-testid="top-tab-close-for-/"
                   tabindex="0"
                 >
                   <span
@@ -112,7 +112,7 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page > giv
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-6a40b49f-de63-4238-8f0e-4b31f7552321"
+                  data-testid="tooltip-content-for-top-tab-close-for-/"
                 >
                   Close tab
                 </div>
@@ -122,8 +122,8 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page > giv
         </div>
         <div
           class="Tab flex gap-2 items-center topTab"
-          data-testid="top-tab-for-b45ed223-9ff3-45ba-afa9-288ac239926f"
-          id="top-tab-b45ed223-9ff3-45ba-afa9-288ac239926f"
+          data-testid="top-tab-for-/welcome"
+          id="top-tab-/welcome"
           role="tab"
           tabindex="0"
         >
@@ -143,7 +143,7 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page > giv
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-b45ed223-9ff3-45ba-afa9-288ac239926f"
+                  data-testid="top-tab-close-for-/welcome"
                   tabindex="0"
                 >
                   <span
@@ -154,7 +154,7 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page > giv
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-b45ed223-9ff3-45ba-afa9-288ac239926f"
+                  data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                 >
                   Close tab
                 </div>
@@ -164,8 +164,8 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page > giv
         </div>
         <div
           class="Tab flex gap-2 items-center topTab active"
-          data-testid="top-tab-for-a73ffc27-234e-4068-8272-799537ad24eb"
-          id="top-tab-a73ffc27-234e-4068-8272-799537ad24eb"
+          data-testid="top-tab-for-/preferences"
+          id="top-tab-/preferences"
           role="tab"
           tabindex="0"
         >
@@ -185,7 +185,7 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page > giv
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-a73ffc27-234e-4068-8272-799537ad24eb"
+                  data-testid="top-tab-close-for-/preferences"
                   tabindex="0"
                 >
                   <span
@@ -196,7 +196,7 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page > giv
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-a73ffc27-234e-4068-8272-799537ad24eb"
+                  data-testid="tooltip-content-for-top-tab-close-for-/preferences"
                 >
                   Close tab
                 </div>
@@ -938,6 +938,11 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page > giv
                 search
               </span>
             </i>
+            <span
+              class="label"
+            >
+              Search clusters
+            </span>
           </div>
         </div>
       </div>
@@ -1030,8 +1035,8 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page > giv
       >
         <div
           class="Tab flex gap-2 items-center topTab"
-          data-testid="top-tab-for-5c8c0156-463f-4834-b705-747a2280379a"
-          id="top-tab-5c8c0156-463f-4834-b705-747a2280379a"
+          data-testid="top-tab-for-/"
+          id="top-tab-/"
           role="tab"
           tabindex="0"
         >
@@ -1051,7 +1056,7 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page > giv
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-5c8c0156-463f-4834-b705-747a2280379a"
+                  data-testid="top-tab-close-for-/"
                   tabindex="0"
                 >
                   <span
@@ -1062,7 +1067,7 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page > giv
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-5c8c0156-463f-4834-b705-747a2280379a"
+                  data-testid="tooltip-content-for-top-tab-close-for-/"
                 >
                   Close tab
                 </div>
@@ -1072,8 +1077,8 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page > giv
         </div>
         <div
           class="Tab flex gap-2 items-center topTab"
-          data-testid="top-tab-for-677ccea0-66df-498a-8811-80aa8377da4b"
-          id="top-tab-677ccea0-66df-498a-8811-80aa8377da4b"
+          data-testid="top-tab-for-/welcome"
+          id="top-tab-/welcome"
           role="tab"
           tabindex="0"
         >
@@ -1093,7 +1098,7 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page > giv
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-677ccea0-66df-498a-8811-80aa8377da4b"
+                  data-testid="top-tab-close-for-/welcome"
                   tabindex="0"
                 >
                   <span
@@ -1104,7 +1109,7 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page > giv
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-677ccea0-66df-498a-8811-80aa8377da4b"
+                  data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                 >
                   Close tab
                 </div>
@@ -1114,8 +1119,8 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page > giv
         </div>
         <div
           class="Tab flex gap-2 items-center topTab active"
-          data-testid="top-tab-for-b1c1fbe5-2878-465e-a8c5-2d300fa5ae40"
-          id="top-tab-b1c1fbe5-2878-465e-a8c5-2d300fa5ae40"
+          data-testid="top-tab-for-/preferences"
+          id="top-tab-/preferences"
           role="tab"
           tabindex="0"
         >
@@ -1135,7 +1140,7 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page > giv
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-b1c1fbe5-2878-465e-a8c5-2d300fa5ae40"
+                  data-testid="top-tab-close-for-/preferences"
                   tabindex="0"
                 >
                   <span
@@ -1146,7 +1151,7 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page > giv
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-b1c1fbe5-2878-465e-a8c5-2d300fa5ae40"
+                  data-testid="tooltip-content-for-top-tab-close-for-/preferences"
                 >
                   Close tab
                 </div>
@@ -1916,6 +1921,11 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page > giv
                 search
               </span>
             </i>
+            <span
+              class="label"
+            >
+              Search clusters
+            </span>
           </div>
         </div>
       </div>
@@ -2008,8 +2018,8 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page > giv
       >
         <div
           class="Tab flex gap-2 items-center topTab"
-          data-testid="top-tab-for-21c60f1a-e9f8-45f4-b06c-ef18fa859ecc"
-          id="top-tab-21c60f1a-e9f8-45f4-b06c-ef18fa859ecc"
+          data-testid="top-tab-for-/"
+          id="top-tab-/"
           role="tab"
           tabindex="0"
         >
@@ -2029,7 +2039,7 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page > giv
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-21c60f1a-e9f8-45f4-b06c-ef18fa859ecc"
+                  data-testid="top-tab-close-for-/"
                   tabindex="0"
                 >
                   <span
@@ -2040,7 +2050,7 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page > giv
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-21c60f1a-e9f8-45f4-b06c-ef18fa859ecc"
+                  data-testid="tooltip-content-for-top-tab-close-for-/"
                 >
                   Close tab
                 </div>
@@ -2050,8 +2060,8 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page > giv
         </div>
         <div
           class="Tab flex gap-2 items-center topTab"
-          data-testid="top-tab-for-bfde5e8b-b539-455d-91c7-336ce0cc8332"
-          id="top-tab-bfde5e8b-b539-455d-91c7-336ce0cc8332"
+          data-testid="top-tab-for-/welcome"
+          id="top-tab-/welcome"
           role="tab"
           tabindex="0"
         >
@@ -2071,7 +2081,7 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page > giv
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-bfde5e8b-b539-455d-91c7-336ce0cc8332"
+                  data-testid="top-tab-close-for-/welcome"
                   tabindex="0"
                 >
                   <span
@@ -2082,7 +2092,7 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page > giv
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-bfde5e8b-b539-455d-91c7-336ce0cc8332"
+                  data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                 >
                   Close tab
                 </div>
@@ -2092,8 +2102,8 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page > giv
         </div>
         <div
           class="Tab flex gap-2 items-center topTab active"
-          data-testid="top-tab-for-dd16cfc9-3ec1-40b1-8ba8-4e24effd06c5"
-          id="top-tab-dd16cfc9-3ec1-40b1-8ba8-4e24effd06c5"
+          data-testid="top-tab-for-/preferences"
+          id="top-tab-/preferences"
           role="tab"
           tabindex="0"
         >
@@ -2113,7 +2123,7 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page > giv
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-dd16cfc9-3ec1-40b1-8ba8-4e24effd06c5"
+                  data-testid="top-tab-close-for-/preferences"
                   tabindex="0"
                 >
                   <span
@@ -2124,7 +2134,7 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page > giv
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-dd16cfc9-3ec1-40b1-8ba8-4e24effd06c5"
+                  data-testid="tooltip-content-for-top-tab-close-for-/preferences"
                 >
                   Close tab
                 </div>
@@ -2906,6 +2916,11 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page > giv
                 search
               </span>
             </i>
+            <span
+              class="label"
+            >
+              Search clusters
+            </span>
           </div>
         </div>
       </div>

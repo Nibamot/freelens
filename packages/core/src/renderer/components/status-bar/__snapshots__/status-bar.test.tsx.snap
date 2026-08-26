@@ -80,8 +80,8 @@ exports[`<StatusBar /> > when StatusBar's status is set to %p > renders 1`] = `
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-384ade01-206b-4998-80bd-ded9cd2c41b1"
-            id="top-tab-384ade01-206b-4998-80bd-ded9cd2c41b1"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -101,7 +101,7 @@ exports[`<StatusBar /> > when StatusBar's status is set to %p > renders 1`] = `
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-384ade01-206b-4998-80bd-ded9cd2c41b1"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -112,7 +112,7 @@ exports[`<StatusBar /> > when StatusBar's status is set to %p > renders 1`] = `
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-384ade01-206b-4998-80bd-ded9cd2c41b1"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -122,8 +122,8 @@ exports[`<StatusBar /> > when StatusBar's status is set to %p > renders 1`] = `
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-756af245-254f-46f4-b175-a4d930db795a"
-            id="top-tab-756af245-254f-46f4-b175-a4d930db795a"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -143,7 +143,7 @@ exports[`<StatusBar /> > when StatusBar's status is set to %p > renders 1`] = `
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-756af245-254f-46f4-b175-a4d930db795a"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -154,7 +154,7 @@ exports[`<StatusBar /> > when StatusBar's status is set to %p > renders 1`] = `
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-756af245-254f-46f4-b175-a4d930db795a"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -565,6 +565,11 @@ exports[`<StatusBar /> > when StatusBar's status is set to %p > renders 1`] = `
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -658,8 +663,8 @@ exports[`<StatusBar /> > when StatusBar's status is set to %p > renders 2`] = `
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-2bbb4bd5-65af-40d8-9fdb-15d6acc08849"
-            id="top-tab-2bbb4bd5-65af-40d8-9fdb-15d6acc08849"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -679,7 +684,7 @@ exports[`<StatusBar /> > when StatusBar's status is set to %p > renders 2`] = `
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-2bbb4bd5-65af-40d8-9fdb-15d6acc08849"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -690,7 +695,7 @@ exports[`<StatusBar /> > when StatusBar's status is set to %p > renders 2`] = `
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-2bbb4bd5-65af-40d8-9fdb-15d6acc08849"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -700,8 +705,8 @@ exports[`<StatusBar /> > when StatusBar's status is set to %p > renders 2`] = `
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-20cff06f-ec13-4680-8a8f-059e11e55e48"
-            id="top-tab-20cff06f-ec13-4680-8a8f-059e11e55e48"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -721,7 +726,7 @@ exports[`<StatusBar /> > when StatusBar's status is set to %p > renders 2`] = `
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-20cff06f-ec13-4680-8a8f-059e11e55e48"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -732,7 +737,7 @@ exports[`<StatusBar /> > when StatusBar's status is set to %p > renders 2`] = `
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-20cff06f-ec13-4680-8a8f-059e11e55e48"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -1143,6 +1148,11 @@ exports[`<StatusBar /> > when StatusBar's status is set to %p > renders 2`] = `
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -1236,8 +1246,8 @@ exports[`<StatusBar /> > when an extension is enabled specifying the side the el
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-d191d760-59f0-4694-a00f-9be2b953cb24"
-            id="top-tab-d191d760-59f0-4694-a00f-9be2b953cb24"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -1257,7 +1267,7 @@ exports[`<StatusBar /> > when an extension is enabled specifying the side the el
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-d191d760-59f0-4694-a00f-9be2b953cb24"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -1268,7 +1278,7 @@ exports[`<StatusBar /> > when an extension is enabled specifying the side the el
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-d191d760-59f0-4694-a00f-9be2b953cb24"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -1278,8 +1288,8 @@ exports[`<StatusBar /> > when an extension is enabled specifying the side the el
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-2cb594e5-b747-48a3-a19a-7a3041ea5359"
-            id="top-tab-2cb594e5-b747-48a3-a19a-7a3041ea5359"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -1299,7 +1309,7 @@ exports[`<StatusBar /> > when an extension is enabled specifying the side the el
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-2cb594e5-b747-48a3-a19a-7a3041ea5359"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -1310,7 +1320,7 @@ exports[`<StatusBar /> > when an extension is enabled specifying the side the el
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-2cb594e5-b747-48a3-a19a-7a3041ea5359"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -1721,6 +1731,11 @@ exports[`<StatusBar /> > when an extension is enabled specifying the side the el
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
           <div
@@ -1855,8 +1870,8 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-39c26949-e675-49d8-b04d-6dd45a5d59cb"
-            id="top-tab-39c26949-e675-49d8-b04d-6dd45a5d59cb"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -1876,7 +1891,7 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-39c26949-e675-49d8-b04d-6dd45a5d59cb"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -1887,7 +1902,7 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-39c26949-e675-49d8-b04d-6dd45a5d59cb"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -1897,8 +1912,8 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-02f508c2-7671-4281-a0de-7733dbe723c6"
-            id="top-tab-02f508c2-7671-4281-a0de-7733dbe723c6"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -1918,7 +1933,7 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-02f508c2-7671-4281-a0de-7733dbe723c6"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -1929,7 +1944,7 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-02f508c2-7671-4281-a0de-7733dbe723c6"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -2340,6 +2355,11 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -2433,8 +2453,8 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-065271ab-70af-493e-ab06-43d04ffe7b41"
-            id="top-tab-065271ab-70af-493e-ab06-43d04ffe7b41"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -2454,7 +2474,7 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-065271ab-70af-493e-ab06-43d04ffe7b41"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -2465,7 +2485,7 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-065271ab-70af-493e-ab06-43d04ffe7b41"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -2475,8 +2495,8 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-5cd4d0f8-d8f2-41c7-87b9-bbd9bfee6ac1"
-            id="top-tab-5cd4d0f8-d8f2-41c7-87b9-bbd9bfee6ac1"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -2496,7 +2516,7 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-5cd4d0f8-d8f2-41c7-87b9-bbd9bfee6ac1"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -2507,7 +2527,7 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-5cd4d0f8-d8f2-41c7-87b9-bbd9bfee6ac1"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -2918,6 +2938,11 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -3011,8 +3036,8 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-015b6527-99dc-4c3a-abe2-5131f968b34c"
-            id="top-tab-015b6527-99dc-4c3a-abe2-5131f968b34c"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -3032,7 +3057,7 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-015b6527-99dc-4c3a-abe2-5131f968b34c"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -3043,7 +3068,7 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-015b6527-99dc-4c3a-abe2-5131f968b34c"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -3053,8 +3078,8 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-7100274b-230d-45bc-aaaf-66499ab24832"
-            id="top-tab-7100274b-230d-45bc-aaaf-66499ab24832"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -3074,7 +3099,7 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-7100274b-230d-45bc-aaaf-66499ab24832"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -3085,7 +3110,7 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-7100274b-230d-45bc-aaaf-66499ab24832"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -3496,6 +3521,11 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -3589,8 +3619,8 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-bd4d56ee-ef5e-4a40-8c8e-4841d775be5f"
-            id="top-tab-bd4d56ee-ef5e-4a40-8c8e-4841d775be5f"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -3610,7 +3640,7 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-bd4d56ee-ef5e-4a40-8c8e-4841d775be5f"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -3621,7 +3651,7 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-bd4d56ee-ef5e-4a40-8c8e-4841d775be5f"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -3631,8 +3661,8 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-e1ee265b-c5fe-4541-810d-737becb1d798"
-            id="top-tab-e1ee265b-c5fe-4541-810d-737becb1d798"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -3652,7 +3682,7 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-e1ee265b-c5fe-4541-810d-737becb1d798"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -3663,7 +3693,7 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-e1ee265b-c5fe-4541-810d-737becb1d798"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -4074,6 +4104,11 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -4167,8 +4202,8 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-9d3a3ad8-723e-4557-bb16-ac5f536bcc4c"
-            id="top-tab-9d3a3ad8-723e-4557-bb16-ac5f536bcc4c"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -4188,7 +4223,7 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-9d3a3ad8-723e-4557-bb16-ac5f536bcc4c"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -4199,7 +4234,7 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-9d3a3ad8-723e-4557-bb16-ac5f536bcc4c"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -4209,8 +4244,8 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-3d9c6f9b-90f4-46f5-b47c-55acd12738c0"
-            id="top-tab-3d9c6f9b-90f4-46f5-b47c-55acd12738c0"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -4230,7 +4265,7 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-3d9c6f9b-90f4-46f5-b47c-55acd12738c0"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -4241,7 +4276,7 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-3d9c6f9b-90f4-46f5-b47c-55acd12738c0"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -4652,6 +4687,11 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -4745,8 +4785,8 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-cd68a099-5b28-47e7-87fb-1089428e3ecf"
-            id="top-tab-cd68a099-5b28-47e7-87fb-1089428e3ecf"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -4766,7 +4806,7 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-cd68a099-5b28-47e7-87fb-1089428e3ecf"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -4777,7 +4817,7 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-cd68a099-5b28-47e7-87fb-1089428e3ecf"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -4787,8 +4827,8 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-237b6ca1-67eb-4724-be46-02c7c5547d5d"
-            id="top-tab-237b6ca1-67eb-4724-be46-02c7c5547d5d"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -4808,7 +4848,7 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-237b6ca1-67eb-4724-be46-02c7c5547d5d"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -4819,7 +4859,7 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-237b6ca1-67eb-4724-be46-02c7c5547d5d"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -5230,6 +5270,11 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -5323,8 +5368,8 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-95c73d36-c2d5-4ae1-af70-f71f7bec1d17"
-            id="top-tab-95c73d36-c2d5-4ae1-af70-f71f7bec1d17"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -5344,7 +5389,7 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-95c73d36-c2d5-4ae1-af70-f71f7bec1d17"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -5355,7 +5400,7 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-95c73d36-c2d5-4ae1-af70-f71f7bec1d17"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -5365,8 +5410,8 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-7c6063ee-c9f4-4372-9ce9-5dc83cc7ae20"
-            id="top-tab-7c6063ee-c9f4-4372-9ce9-5dc83cc7ae20"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -5386,7 +5431,7 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-7c6063ee-c9f4-4372-9ce9-5dc83cc7ae20"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -5397,7 +5442,7 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-7c6063ee-c9f4-4372-9ce9-5dc83cc7ae20"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -5808,6 +5853,11 @@ exports[`<StatusBar /> > when an extension is enabled with an invalid data type,
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -5901,8 +5951,8 @@ exports[`<StatusBar /> > when an extension is enabled with no status items > ren
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-063de15b-7daf-4d83-82f4-6f04506fdcd0"
-            id="top-tab-063de15b-7daf-4d83-82f4-6f04506fdcd0"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -5922,7 +5972,7 @@ exports[`<StatusBar /> > when an extension is enabled with no status items > ren
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-063de15b-7daf-4d83-82f4-6f04506fdcd0"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -5933,7 +5983,7 @@ exports[`<StatusBar /> > when an extension is enabled with no status items > ren
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-063de15b-7daf-4d83-82f4-6f04506fdcd0"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -5943,8 +5993,8 @@ exports[`<StatusBar /> > when an extension is enabled with no status items > ren
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-88bbadf5-a6ca-4875-a3d8-60f5be741fe2"
-            id="top-tab-88bbadf5-a6ca-4875-a3d8-60f5be741fe2"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -5964,7 +6014,7 @@ exports[`<StatusBar /> > when an extension is enabled with no status items > ren
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-88bbadf5-a6ca-4875-a3d8-60f5be741fe2"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -5975,7 +6025,7 @@ exports[`<StatusBar /> > when an extension is enabled with no status items > ren
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-88bbadf5-a6ca-4875-a3d8-60f5be741fe2"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -6386,6 +6436,11 @@ exports[`<StatusBar /> > when an extension is enabled with no status items > ren
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>

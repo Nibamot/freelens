@@ -80,8 +80,8 @@ exports[`show-about-using-tray > renders 1`] = `
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-7bbb4911-f6fe-484f-8ab8-94f2c240c535"
-            id="top-tab-7bbb4911-f6fe-484f-8ab8-94f2c240c535"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -101,7 +101,7 @@ exports[`show-about-using-tray > renders 1`] = `
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-7bbb4911-f6fe-484f-8ab8-94f2c240c535"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -112,7 +112,7 @@ exports[`show-about-using-tray > renders 1`] = `
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-7bbb4911-f6fe-484f-8ab8-94f2c240c535"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -122,8 +122,8 @@ exports[`show-about-using-tray > renders 1`] = `
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-fbdf1a19-0512-4ccf-b9a4-fd32e3a1378a"
-            id="top-tab-fbdf1a19-0512-4ccf-b9a4-fd32e3a1378a"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -143,7 +143,7 @@ exports[`show-about-using-tray > renders 1`] = `
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-fbdf1a19-0512-4ccf-b9a4-fd32e3a1378a"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -154,7 +154,7 @@ exports[`show-about-using-tray > renders 1`] = `
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-fbdf1a19-0512-4ccf-b9a4-fd32e3a1378a"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -565,6 +565,11 @@ exports[`show-about-using-tray > renders 1`] = `
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -659,8 +664,8 @@ exports[`show-about-using-tray > when navigating using tray > renders 1`] = `
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-b40d1cf2-3e80-4f4e-9ec0-675d1aad83d6"
-            id="top-tab-b40d1cf2-3e80-4f4e-9ec0-675d1aad83d6"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -680,7 +685,7 @@ exports[`show-about-using-tray > when navigating using tray > renders 1`] = `
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-b40d1cf2-3e80-4f4e-9ec0-675d1aad83d6"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -691,7 +696,7 @@ exports[`show-about-using-tray > when navigating using tray > renders 1`] = `
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-b40d1cf2-3e80-4f4e-9ec0-675d1aad83d6"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -701,8 +706,8 @@ exports[`show-about-using-tray > when navigating using tray > renders 1`] = `
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-a237e7b4-536e-49a2-b479-ed94a73eb378"
-            id="top-tab-a237e7b4-536e-49a2-b479-ed94a73eb378"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -722,7 +727,7 @@ exports[`show-about-using-tray > when navigating using tray > renders 1`] = `
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-a237e7b4-536e-49a2-b479-ed94a73eb378"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -733,7 +738,7 @@ exports[`show-about-using-tray > when navigating using tray > renders 1`] = `
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-a237e7b4-536e-49a2-b479-ed94a73eb378"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -743,8 +748,8 @@ exports[`show-about-using-tray > when navigating using tray > renders 1`] = `
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-8da939d7-ff1b-42de-a008-cb54018fb4a8"
-            id="top-tab-8da939d7-ff1b-42de-a008-cb54018fb4a8"
+            data-testid="top-tab-for-/preferences"
+            id="top-tab-/preferences"
             role="tab"
             tabindex="0"
           >
@@ -764,7 +769,7 @@ exports[`show-about-using-tray > when navigating using tray > renders 1`] = `
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-8da939d7-ff1b-42de-a008-cb54018fb4a8"
+                    data-testid="top-tab-close-for-/preferences"
                     tabindex="0"
                   >
                     <span
@@ -775,7 +780,7 @@ exports[`show-about-using-tray > when navigating using tray > renders 1`] = `
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-8da939d7-ff1b-42de-a008-cb54018fb4a8"
+                    data-testid="tooltip-content-for-top-tab-close-for-/preferences"
                   >
                     Close tab
                   </div>
@@ -1517,6 +1522,11 @@ exports[`show-about-using-tray > when navigating using tray > renders 1`] = `
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>

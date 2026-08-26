@@ -80,8 +80,8 @@ exports[`Showing correct entity settings > renders 1`] = `
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-c0732212-6144-4acc-966f-e46bd5d15f33"
-            id="top-tab-c0732212-6144-4acc-966f-e46bd5d15f33"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -101,7 +101,7 @@ exports[`Showing correct entity settings > renders 1`] = `
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-c0732212-6144-4acc-966f-e46bd5d15f33"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -112,7 +112,7 @@ exports[`Showing correct entity settings > renders 1`] = `
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-c0732212-6144-4acc-966f-e46bd5d15f33"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -122,8 +122,8 @@ exports[`Showing correct entity settings > renders 1`] = `
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-09d1dcf2-2e4a-4d1b-b330-535814bb157e"
-            id="top-tab-09d1dcf2-2e4a-4d1b-b330-535814bb157e"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -143,7 +143,7 @@ exports[`Showing correct entity settings > renders 1`] = `
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-09d1dcf2-2e4a-4d1b-b330-535814bb157e"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -154,7 +154,7 @@ exports[`Showing correct entity settings > renders 1`] = `
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-09d1dcf2-2e4a-4d1b-b330-535814bb157e"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -565,6 +565,11 @@ exports[`Showing correct entity settings > renders 1`] = `
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -659,8 +664,8 @@ exports[`Showing correct entity settings > when navigating to local cluster enti
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-9d0277b3-543a-43a5-b48d-52aab4f14cbd"
-            id="top-tab-9d0277b3-543a-43a5-b48d-52aab4f14cbd"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -680,7 +685,7 @@ exports[`Showing correct entity settings > when navigating to local cluster enti
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-9d0277b3-543a-43a5-b48d-52aab4f14cbd"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -691,7 +696,7 @@ exports[`Showing correct entity settings > when navigating to local cluster enti
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-9d0277b3-543a-43a5-b48d-52aab4f14cbd"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -701,8 +706,8 @@ exports[`Showing correct entity settings > when navigating to local cluster enti
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-608cbfbd-36a8-4293-b432-018686b05cc1"
-            id="top-tab-608cbfbd-36a8-4293-b432-018686b05cc1"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -722,7 +727,7 @@ exports[`Showing correct entity settings > when navigating to local cluster enti
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-608cbfbd-36a8-4293-b432-018686b05cc1"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -733,7 +738,7 @@ exports[`Showing correct entity settings > when navigating to local cluster enti
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-608cbfbd-36a8-4293-b432-018686b05cc1"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -743,8 +748,8 @@ exports[`Showing correct entity settings > when navigating to local cluster enti
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-da1ba79b-774c-44b6-b08c-42e2790381d5"
-            id="top-tab-da1ba79b-774c-44b6-b08c-42e2790381d5"
+            data-testid="top-tab-for-/entity/some-entity-id-2/settings"
+            id="top-tab-/entity/some-entity-id-2/settings"
             role="tab"
             tabindex="0"
           >
@@ -764,7 +769,7 @@ exports[`Showing correct entity settings > when navigating to local cluster enti
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-da1ba79b-774c-44b6-b08c-42e2790381d5"
+                    data-testid="top-tab-close-for-/entity/some-entity-id-2/settings"
                     tabindex="0"
                   >
                     <span
@@ -775,7 +780,7 @@ exports[`Showing correct entity settings > when navigating to local cluster enti
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-da1ba79b-774c-44b6-b08c-42e2790381d5"
+                    data-testid="tooltip-content-for-top-tab-close-for-/entity/some-entity-id-2/settings"
                   >
                     Close tab
                   </div>
@@ -1127,6 +1132,11 @@ exports[`Showing correct entity settings > when navigating to local cluster enti
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -1221,8 +1231,8 @@ exports[`Showing correct entity settings > when navigating to non-local cluster 
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-86700eb8-bcaa-46dc-b5e9-38b10eb3e8c4"
-            id="top-tab-86700eb8-bcaa-46dc-b5e9-38b10eb3e8c4"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -1242,7 +1252,7 @@ exports[`Showing correct entity settings > when navigating to non-local cluster 
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-86700eb8-bcaa-46dc-b5e9-38b10eb3e8c4"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -1253,7 +1263,7 @@ exports[`Showing correct entity settings > when navigating to non-local cluster 
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-86700eb8-bcaa-46dc-b5e9-38b10eb3e8c4"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -1263,8 +1273,8 @@ exports[`Showing correct entity settings > when navigating to non-local cluster 
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-9892a740-fb3d-4765-8c47-37b8d67a2d55"
-            id="top-tab-9892a740-fb3d-4765-8c47-37b8d67a2d55"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -1284,7 +1294,7 @@ exports[`Showing correct entity settings > when navigating to non-local cluster 
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-9892a740-fb3d-4765-8c47-37b8d67a2d55"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -1295,7 +1305,7 @@ exports[`Showing correct entity settings > when navigating to non-local cluster 
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-9892a740-fb3d-4765-8c47-37b8d67a2d55"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -1305,8 +1315,8 @@ exports[`Showing correct entity settings > when navigating to non-local cluster 
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-150df2ee-25d6-4e5b-a19a-6163c7cd655d"
-            id="top-tab-150df2ee-25d6-4e5b-a19a-6163c7cd655d"
+            data-testid="top-tab-for-/entity/some-entity-id/settings"
+            id="top-tab-/entity/some-entity-id/settings"
             role="tab"
             tabindex="0"
           >
@@ -1326,7 +1336,7 @@ exports[`Showing correct entity settings > when navigating to non-local cluster 
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-150df2ee-25d6-4e5b-a19a-6163c7cd655d"
+                    data-testid="top-tab-close-for-/entity/some-entity-id/settings"
                     tabindex="0"
                   >
                     <span
@@ -1337,7 +1347,7 @@ exports[`Showing correct entity settings > when navigating to non-local cluster 
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-150df2ee-25d6-4e5b-a19a-6163c7cd655d"
+                    data-testid="tooltip-content-for-top-tab-close-for-/entity/some-entity-id/settings"
                   >
                     Close tab
                   </div>
@@ -1710,6 +1720,11 @@ exports[`Showing correct entity settings > when navigating to non-local cluster 
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -1804,8 +1819,8 @@ exports[`Showing correct entity settings > when navigating to weblink entity set
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-d524514b-27c6-4f27-8145-91cc8c09137b"
-            id="top-tab-d524514b-27c6-4f27-8145-91cc8c09137b"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -1825,7 +1840,7 @@ exports[`Showing correct entity settings > when navigating to weblink entity set
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-d524514b-27c6-4f27-8145-91cc8c09137b"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -1836,7 +1851,7 @@ exports[`Showing correct entity settings > when navigating to weblink entity set
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-d524514b-27c6-4f27-8145-91cc8c09137b"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -1846,8 +1861,8 @@ exports[`Showing correct entity settings > when navigating to weblink entity set
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-25510c01-f224-4829-926e-6913cef5670c"
-            id="top-tab-25510c01-f224-4829-926e-6913cef5670c"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -1867,7 +1882,7 @@ exports[`Showing correct entity settings > when navigating to weblink entity set
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-25510c01-f224-4829-926e-6913cef5670c"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -1878,7 +1893,7 @@ exports[`Showing correct entity settings > when navigating to weblink entity set
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-25510c01-f224-4829-926e-6913cef5670c"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -1888,8 +1903,8 @@ exports[`Showing correct entity settings > when navigating to weblink entity set
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-45e0e6d3-942a-446b-b902-0debb1906c44"
-            id="top-tab-45e0e6d3-942a-446b-b902-0debb1906c44"
+            data-testid="top-tab-for-/entity/some-weblink-id/settings"
+            id="top-tab-/entity/some-weblink-id/settings"
             role="tab"
             tabindex="0"
           >
@@ -1909,7 +1924,7 @@ exports[`Showing correct entity settings > when navigating to weblink entity set
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-45e0e6d3-942a-446b-b902-0debb1906c44"
+                    data-testid="top-tab-close-for-/entity/some-weblink-id/settings"
                     tabindex="0"
                   >
                     <span
@@ -1920,7 +1935,7 @@ exports[`Showing correct entity settings > when navigating to weblink entity set
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-45e0e6d3-942a-446b-b902-0debb1906c44"
+                    data-testid="tooltip-content-for-top-tab-close-for-/entity/some-weblink-id/settings"
                   >
                     Close tab
                   </div>
@@ -2194,6 +2209,11 @@ exports[`Showing correct entity settings > when navigating to weblink entity set
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>

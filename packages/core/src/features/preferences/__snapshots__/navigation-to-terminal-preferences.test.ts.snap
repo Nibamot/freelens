@@ -80,8 +80,8 @@ exports[`preferences - navigation to terminal preferences > given in preferences
       >
         <div
           class="Tab flex gap-2 items-center topTab active"
-          data-testid="top-tab-for-8443dcd4-38f3-43d5-a50b-3269ab25aa98"
-          id="top-tab-8443dcd4-38f3-43d5-a50b-3269ab25aa98"
+          data-testid="top-tab-for-/preferences"
+          id="top-tab-/preferences"
           role="tab"
           tabindex="0"
         >
@@ -101,7 +101,7 @@ exports[`preferences - navigation to terminal preferences > given in preferences
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-8443dcd4-38f3-43d5-a50b-3269ab25aa98"
+                  data-testid="top-tab-close-for-/preferences"
                   tabindex="0"
                 >
                   <span
@@ -112,7 +112,7 @@ exports[`preferences - navigation to terminal preferences > given in preferences
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-8443dcd4-38f3-43d5-a50b-3269ab25aa98"
+                  data-testid="tooltip-content-for-top-tab-close-for-/preferences"
                 >
                   Close tab
                 </div>
@@ -854,6 +854,11 @@ exports[`preferences - navigation to terminal preferences > given in preferences
                 search
               </span>
             </i>
+            <span
+              class="label"
+            >
+              Search clusters
+            </span>
           </div>
         </div>
       </div>
@@ -946,8 +951,8 @@ exports[`preferences - navigation to terminal preferences > given in preferences
       >
         <div
           class="Tab flex gap-2 items-center topTab"
-          data-testid="top-tab-for-32229f32-173b-4890-9922-9def831e12c6"
-          id="top-tab-32229f32-173b-4890-9922-9def831e12c6"
+          data-testid="top-tab-for-/preferences"
+          id="top-tab-/preferences"
           role="tab"
           tabindex="0"
         >
@@ -967,7 +972,7 @@ exports[`preferences - navigation to terminal preferences > given in preferences
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-32229f32-173b-4890-9922-9def831e12c6"
+                  data-testid="top-tab-close-for-/preferences"
                   tabindex="0"
                 >
                   <span
@@ -978,7 +983,7 @@ exports[`preferences - navigation to terminal preferences > given in preferences
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-32229f32-173b-4890-9922-9def831e12c6"
+                  data-testid="tooltip-content-for-top-tab-close-for-/preferences"
                 >
                   Close tab
                 </div>
@@ -988,8 +993,8 @@ exports[`preferences - navigation to terminal preferences > given in preferences
         </div>
         <div
           class="Tab flex gap-2 items-center topTab active"
-          data-testid="top-tab-for-12fdd0e0-90bd-45ce-9547-dfb1872ae994"
-          id="top-tab-12fdd0e0-90bd-45ce-9547-dfb1872ae994"
+          data-testid="top-tab-for-/preferences/terminal"
+          id="top-tab-/preferences/terminal"
           role="tab"
           tabindex="0"
         >
@@ -1009,7 +1014,7 @@ exports[`preferences - navigation to terminal preferences > given in preferences
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-12fdd0e0-90bd-45ce-9547-dfb1872ae994"
+                  data-testid="top-tab-close-for-/preferences/terminal"
                   tabindex="0"
                 >
                   <span
@@ -1020,7 +1025,7 @@ exports[`preferences - navigation to terminal preferences > given in preferences
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-12fdd0e0-90bd-45ce-9547-dfb1872ae994"
+                  data-testid="tooltip-content-for-top-tab-close-for-/preferences/terminal"
                 >
                   Close tab
                 </div>
@@ -1629,6 +1634,11 @@ exports[`preferences - navigation to terminal preferences > given in preferences
                 search
               </span>
             </i>
+            <span
+              class="label"
+            >
+              Search clusters
+            </span>
           </div>
         </div>
       </div>

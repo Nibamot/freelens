@@ -81,8 +81,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-d747e954-66cc-4d30-b12f-bb9f6656797a"
-            id="top-tab-d747e954-66cc-4d30-b12f-bb9f6656797a"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -102,7 +102,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-d747e954-66cc-4d30-b12f-bb9f6656797a"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -113,7 +113,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-d747e954-66cc-4d30-b12f-bb9f6656797a"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -123,8 +123,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-97eeca96-53a1-41b1-ba27-ec9838a04faf"
-            id="top-tab-97eeca96-53a1-41b1-ba27-ec9838a04faf"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -144,7 +144,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-97eeca96-53a1-41b1-ba27-ec9838a04faf"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -155,7 +155,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-97eeca96-53a1-41b1-ba27-ec9838a04faf"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -165,8 +165,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-3a8b790c-0efd-411b-8a36-741acb0edfb6"
-            id="top-tab-3a8b790c-0efd-411b-8a36-741acb0edfb6"
+            data-testid="top-tab-for-/preferences"
+            id="top-tab-/preferences"
             role="tab"
             tabindex="0"
           >
@@ -186,7 +186,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-3a8b790c-0efd-411b-8a36-741acb0edfb6"
+                    data-testid="top-tab-close-for-/preferences"
                     tabindex="0"
                   >
                     <span
@@ -197,7 +197,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-3a8b790c-0efd-411b-8a36-741acb0edfb6"
+                    data-testid="tooltip-content-for-top-tab-close-for-/preferences"
                   >
                     Close tab
                   </div>
@@ -207,8 +207,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-e2d3f008-dcb0-46fb-991f-61ef648e6b12"
-            id="top-tab-e2d3f008-dcb0-46fb-991f-61ef648e6b12"
+            data-testid="top-tab-for-/preferences/kubernetes"
+            id="top-tab-/preferences/kubernetes"
             role="tab"
             tabindex="0"
           >
@@ -228,7 +228,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-e2d3f008-dcb0-46fb-991f-61ef648e6b12"
+                    data-testid="top-tab-close-for-/preferences/kubernetes"
                     tabindex="0"
                   >
                     <span
@@ -239,7 +239,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-e2d3f008-dcb0-46fb-991f-61ef648e6b12"
+                    data-testid="tooltip-content-for-top-tab-close-for-/preferences/kubernetes"
                   >
                     Close tab
                   </div>
@@ -1022,6 +1022,11 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -1116,8 +1121,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-2c165afc-d662-4206-8d1a-dd63e746538c"
-            id="top-tab-2c165afc-d662-4206-8d1a-dd63e746538c"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -1137,7 +1142,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-2c165afc-d662-4206-8d1a-dd63e746538c"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -1148,7 +1153,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-2c165afc-d662-4206-8d1a-dd63e746538c"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -1158,8 +1163,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-958cc632-2aee-4940-b93c-331e61ba2d62"
-            id="top-tab-958cc632-2aee-4940-b93c-331e61ba2d62"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -1179,7 +1184,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-958cc632-2aee-4940-b93c-331e61ba2d62"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -1190,7 +1195,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-958cc632-2aee-4940-b93c-331e61ba2d62"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -1200,8 +1205,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-b4399d46-0548-453d-891c-85c19ec3e739"
-            id="top-tab-b4399d46-0548-453d-891c-85c19ec3e739"
+            data-testid="top-tab-for-/preferences"
+            id="top-tab-/preferences"
             role="tab"
             tabindex="0"
           >
@@ -1221,7 +1226,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-b4399d46-0548-453d-891c-85c19ec3e739"
+                    data-testid="top-tab-close-for-/preferences"
                     tabindex="0"
                   >
                     <span
@@ -1232,7 +1237,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-b4399d46-0548-453d-891c-85c19ec3e739"
+                    data-testid="tooltip-content-for-top-tab-close-for-/preferences"
                   >
                     Close tab
                   </div>
@@ -1242,8 +1247,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-02140463-0a0f-495a-9f2e-fe199dda3f41"
-            id="top-tab-02140463-0a0f-495a-9f2e-fe199dda3f41"
+            data-testid="top-tab-for-/preferences/kubernetes"
+            id="top-tab-/preferences/kubernetes"
             role="tab"
             tabindex="0"
           >
@@ -1263,7 +1268,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-02140463-0a0f-495a-9f2e-fe199dda3f41"
+                    data-testid="top-tab-close-for-/preferences/kubernetes"
                     tabindex="0"
                   >
                     <span
@@ -1274,7 +1279,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-02140463-0a0f-495a-9f2e-fe199dda3f41"
+                    data-testid="tooltip-content-for-top-tab-close-for-/preferences/kubernetes"
                   >
                     Close tab
                   </div>
@@ -2095,6 +2100,11 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -2189,8 +2199,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-641173b1-e8c6-40f0-b733-c01a636b7d5d"
-            id="top-tab-641173b1-e8c6-40f0-b733-c01a636b7d5d"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -2210,7 +2220,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-641173b1-e8c6-40f0-b733-c01a636b7d5d"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -2221,7 +2231,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-641173b1-e8c6-40f0-b733-c01a636b7d5d"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -2231,8 +2241,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-9cd7f657-ef8a-45cf-b182-732292019ea3"
-            id="top-tab-9cd7f657-ef8a-45cf-b182-732292019ea3"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -2252,7 +2262,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-9cd7f657-ef8a-45cf-b182-732292019ea3"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -2263,7 +2273,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-9cd7f657-ef8a-45cf-b182-732292019ea3"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -2273,8 +2283,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-0fb7ec69-dbb0-4dab-8e39-a5b69c97d637"
-            id="top-tab-0fb7ec69-dbb0-4dab-8e39-a5b69c97d637"
+            data-testid="top-tab-for-/preferences"
+            id="top-tab-/preferences"
             role="tab"
             tabindex="0"
           >
@@ -2294,7 +2304,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-0fb7ec69-dbb0-4dab-8e39-a5b69c97d637"
+                    data-testid="top-tab-close-for-/preferences"
                     tabindex="0"
                   >
                     <span
@@ -2305,7 +2315,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-0fb7ec69-dbb0-4dab-8e39-a5b69c97d637"
+                    data-testid="tooltip-content-for-top-tab-close-for-/preferences"
                   >
                     Close tab
                   </div>
@@ -2315,8 +2325,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-5baa03d3-91b5-489b-b286-5035177d51dd"
-            id="top-tab-5baa03d3-91b5-489b-b286-5035177d51dd"
+            data-testid="top-tab-for-/preferences/kubernetes"
+            id="top-tab-/preferences/kubernetes"
             role="tab"
             tabindex="0"
           >
@@ -2336,7 +2346,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-5baa03d3-91b5-489b-b286-5035177d51dd"
+                    data-testid="top-tab-close-for-/preferences/kubernetes"
                     tabindex="0"
                   >
                     <span
@@ -2347,7 +2357,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-5baa03d3-91b5-489b-b286-5035177d51dd"
+                    data-testid="tooltip-content-for-top-tab-close-for-/preferences/kubernetes"
                   >
                     Close tab
                   </div>
@@ -3168,6 +3178,11 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -3373,8 +3388,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-8bfe8be1-36dc-45c4-8673-4ddbef14a9b5"
-            id="top-tab-8bfe8be1-36dc-45c4-8673-4ddbef14a9b5"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -3394,7 +3409,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-8bfe8be1-36dc-45c4-8673-4ddbef14a9b5"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -3405,7 +3420,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-8bfe8be1-36dc-45c4-8673-4ddbef14a9b5"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -3415,8 +3430,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-1ba5d783-1879-4c61-a648-4b9f12a96b9b"
-            id="top-tab-1ba5d783-1879-4c61-a648-4b9f12a96b9b"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -3436,7 +3451,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-1ba5d783-1879-4c61-a648-4b9f12a96b9b"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -3447,7 +3462,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-1ba5d783-1879-4c61-a648-4b9f12a96b9b"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -3457,8 +3472,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-ce003346-a462-4e58-a66e-48a547f67a69"
-            id="top-tab-ce003346-a462-4e58-a66e-48a547f67a69"
+            data-testid="top-tab-for-/preferences"
+            id="top-tab-/preferences"
             role="tab"
             tabindex="0"
           >
@@ -3478,7 +3493,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-ce003346-a462-4e58-a66e-48a547f67a69"
+                    data-testid="top-tab-close-for-/preferences"
                     tabindex="0"
                   >
                     <span
@@ -3489,7 +3504,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-ce003346-a462-4e58-a66e-48a547f67a69"
+                    data-testid="tooltip-content-for-top-tab-close-for-/preferences"
                   >
                     Close tab
                   </div>
@@ -3499,8 +3514,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-057933cd-a222-4fb2-9825-3d2f24b331b9"
-            id="top-tab-057933cd-a222-4fb2-9825-3d2f24b331b9"
+            data-testid="top-tab-for-/preferences/kubernetes"
+            id="top-tab-/preferences/kubernetes"
             role="tab"
             tabindex="0"
           >
@@ -3520,7 +3535,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-057933cd-a222-4fb2-9825-3d2f24b331b9"
+                    data-testid="top-tab-close-for-/preferences/kubernetes"
                     tabindex="0"
                   >
                     <span
@@ -3531,7 +3546,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-057933cd-a222-4fb2-9825-3d2f24b331b9"
+                    data-testid="tooltip-content-for-top-tab-close-for-/preferences/kubernetes"
                   >
                     Close tab
                   </div>
@@ -4352,6 +4367,11 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -4454,8 +4474,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-4cf4dd3b-f85f-47bd-b710-85d412ff3171"
-            id="top-tab-4cf4dd3b-f85f-47bd-b710-85d412ff3171"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -4475,7 +4495,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-4cf4dd3b-f85f-47bd-b710-85d412ff3171"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -4486,7 +4506,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-4cf4dd3b-f85f-47bd-b710-85d412ff3171"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -4496,8 +4516,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-21c5abc7-0161-430b-8e44-39a24a8aef1e"
-            id="top-tab-21c5abc7-0161-430b-8e44-39a24a8aef1e"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -4517,7 +4537,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-21c5abc7-0161-430b-8e44-39a24a8aef1e"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -4528,7 +4548,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-21c5abc7-0161-430b-8e44-39a24a8aef1e"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -4538,8 +4558,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-14a78473-f352-482f-a0c2-2df892fbd42b"
-            id="top-tab-14a78473-f352-482f-a0c2-2df892fbd42b"
+            data-testid="top-tab-for-/preferences"
+            id="top-tab-/preferences"
             role="tab"
             tabindex="0"
           >
@@ -4559,7 +4579,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-14a78473-f352-482f-a0c2-2df892fbd42b"
+                    data-testid="top-tab-close-for-/preferences"
                     tabindex="0"
                   >
                     <span
@@ -4570,7 +4590,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-14a78473-f352-482f-a0c2-2df892fbd42b"
+                    data-testid="tooltip-content-for-top-tab-close-for-/preferences"
                   >
                     Close tab
                   </div>
@@ -4580,8 +4600,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-3b776d53-eb12-44eb-9be6-598c743adcdc"
-            id="top-tab-3b776d53-eb12-44eb-9be6-598c743adcdc"
+            data-testid="top-tab-for-/preferences/kubernetes"
+            id="top-tab-/preferences/kubernetes"
             role="tab"
             tabindex="0"
           >
@@ -4601,7 +4621,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-3b776d53-eb12-44eb-9be6-598c743adcdc"
+                    data-testid="top-tab-close-for-/preferences/kubernetes"
                     tabindex="0"
                   >
                     <span
@@ -4612,7 +4632,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-3b776d53-eb12-44eb-9be6-598c743adcdc"
+                    data-testid="tooltip-content-for-top-tab-close-for-/preferences/kubernetes"
                   >
                     Close tab
                   </div>
@@ -5433,6 +5453,11 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -5638,8 +5663,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-f6d78426-0976-4731-962c-dcd3e143e1ef"
-            id="top-tab-f6d78426-0976-4731-962c-dcd3e143e1ef"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -5659,7 +5684,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-f6d78426-0976-4731-962c-dcd3e143e1ef"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -5670,7 +5695,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-f6d78426-0976-4731-962c-dcd3e143e1ef"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -5680,8 +5705,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-3ee26a46-29ec-46c2-816a-1c44e88cae3a"
-            id="top-tab-3ee26a46-29ec-46c2-816a-1c44e88cae3a"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -5701,7 +5726,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-3ee26a46-29ec-46c2-816a-1c44e88cae3a"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -5712,7 +5737,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-3ee26a46-29ec-46c2-816a-1c44e88cae3a"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -5722,8 +5747,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-317d7878-f53e-438a-a760-21d31c922266"
-            id="top-tab-317d7878-f53e-438a-a760-21d31c922266"
+            data-testid="top-tab-for-/preferences"
+            id="top-tab-/preferences"
             role="tab"
             tabindex="0"
           >
@@ -5743,7 +5768,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-317d7878-f53e-438a-a760-21d31c922266"
+                    data-testid="top-tab-close-for-/preferences"
                     tabindex="0"
                   >
                     <span
@@ -5754,7 +5779,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-317d7878-f53e-438a-a760-21d31c922266"
+                    data-testid="tooltip-content-for-top-tab-close-for-/preferences"
                   >
                     Close tab
                   </div>
@@ -5764,8 +5789,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-ab8afdbf-d813-47e2-8cab-72e6c023d87b"
-            id="top-tab-ab8afdbf-d813-47e2-8cab-72e6c023d87b"
+            data-testid="top-tab-for-/preferences/kubernetes"
+            id="top-tab-/preferences/kubernetes"
             role="tab"
             tabindex="0"
           >
@@ -5785,7 +5810,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-ab8afdbf-d813-47e2-8cab-72e6c023d87b"
+                    data-testid="top-tab-close-for-/preferences/kubernetes"
                     tabindex="0"
                   >
                     <span
@@ -5796,7 +5821,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-ab8afdbf-d813-47e2-8cab-72e6c023d87b"
+                    data-testid="tooltip-content-for-top-tab-close-for-/preferences/kubernetes"
                   >
                     Close tab
                   </div>
@@ -6617,6 +6642,11 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -7004,8 +7034,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-7e0ad94a-4320-4a29-8e47-9c6d712202c2"
-            id="top-tab-7e0ad94a-4320-4a29-8e47-9c6d712202c2"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -7025,7 +7055,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-7e0ad94a-4320-4a29-8e47-9c6d712202c2"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -7036,7 +7066,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-7e0ad94a-4320-4a29-8e47-9c6d712202c2"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -7046,8 +7076,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-5d172949-3bfa-4aeb-880c-c61fb72ff5e5"
-            id="top-tab-5d172949-3bfa-4aeb-880c-c61fb72ff5e5"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -7067,7 +7097,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-5d172949-3bfa-4aeb-880c-c61fb72ff5e5"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -7078,7 +7108,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-5d172949-3bfa-4aeb-880c-c61fb72ff5e5"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -7088,8 +7118,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-5f4ecbb4-71d3-4912-a45d-f23a3df014b7"
-            id="top-tab-5f4ecbb4-71d3-4912-a45d-f23a3df014b7"
+            data-testid="top-tab-for-/preferences"
+            id="top-tab-/preferences"
             role="tab"
             tabindex="0"
           >
@@ -7109,7 +7139,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-5f4ecbb4-71d3-4912-a45d-f23a3df014b7"
+                    data-testid="top-tab-close-for-/preferences"
                     tabindex="0"
                   >
                     <span
@@ -7120,7 +7150,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-5f4ecbb4-71d3-4912-a45d-f23a3df014b7"
+                    data-testid="tooltip-content-for-top-tab-close-for-/preferences"
                   >
                     Close tab
                   </div>
@@ -7130,8 +7160,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-75d1639b-afba-4118-aeb7-0b1fb214c904"
-            id="top-tab-75d1639b-afba-4118-aeb7-0b1fb214c904"
+            data-testid="top-tab-for-/preferences/kubernetes"
+            id="top-tab-/preferences/kubernetes"
             role="tab"
             tabindex="0"
           >
@@ -7151,7 +7181,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-75d1639b-afba-4118-aeb7-0b1fb214c904"
+                    data-testid="top-tab-close-for-/preferences/kubernetes"
                     tabindex="0"
                   >
                     <span
@@ -7162,7 +7192,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-75d1639b-afba-4118-aeb7-0b1fb214c904"
+                    data-testid="tooltip-content-for-top-tab-close-for-/preferences/kubernetes"
                   >
                     Close tab
                   </div>
@@ -7983,6 +8013,11 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -8188,8 +8223,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-5de6aa09-0d98-432a-80ee-962faf3a0f16"
-            id="top-tab-5de6aa09-0d98-432a-80ee-962faf3a0f16"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -8209,7 +8244,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-5de6aa09-0d98-432a-80ee-962faf3a0f16"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -8220,7 +8255,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-5de6aa09-0d98-432a-80ee-962faf3a0f16"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -8230,8 +8265,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-54841047-336e-4646-9de6-08184ff2d8cc"
-            id="top-tab-54841047-336e-4646-9de6-08184ff2d8cc"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -8251,7 +8286,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-54841047-336e-4646-9de6-08184ff2d8cc"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -8262,7 +8297,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-54841047-336e-4646-9de6-08184ff2d8cc"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -8272,8 +8307,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-07a33f78-96fd-4575-afeb-441354072394"
-            id="top-tab-07a33f78-96fd-4575-afeb-441354072394"
+            data-testid="top-tab-for-/preferences"
+            id="top-tab-/preferences"
             role="tab"
             tabindex="0"
           >
@@ -8293,7 +8328,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-07a33f78-96fd-4575-afeb-441354072394"
+                    data-testid="top-tab-close-for-/preferences"
                     tabindex="0"
                   >
                     <span
@@ -8304,7 +8339,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-07a33f78-96fd-4575-afeb-441354072394"
+                    data-testid="tooltip-content-for-top-tab-close-for-/preferences"
                   >
                     Close tab
                   </div>
@@ -8314,8 +8349,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-78b4309d-571b-421c-8a6c-15e237bafb0e"
-            id="top-tab-78b4309d-571b-421c-8a6c-15e237bafb0e"
+            data-testid="top-tab-for-/preferences/kubernetes"
+            id="top-tab-/preferences/kubernetes"
             role="tab"
             tabindex="0"
           >
@@ -8335,7 +8370,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-78b4309d-571b-421c-8a6c-15e237bafb0e"
+                    data-testid="top-tab-close-for-/preferences/kubernetes"
                     tabindex="0"
                   >
                     <span
@@ -8346,7 +8381,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-78b4309d-571b-421c-8a6c-15e237bafb0e"
+                    data-testid="tooltip-content-for-top-tab-close-for-/preferences/kubernetes"
                   >
                     Close tab
                   </div>
@@ -9167,6 +9202,11 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -9554,8 +9594,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-36a61be3-08f1-4580-8367-6c737cc95560"
-            id="top-tab-36a61be3-08f1-4580-8367-6c737cc95560"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -9575,7 +9615,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-36a61be3-08f1-4580-8367-6c737cc95560"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -9586,7 +9626,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-36a61be3-08f1-4580-8367-6c737cc95560"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -9596,8 +9636,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-3d70d7cd-3169-4fd0-9e26-572651ff2c1c"
-            id="top-tab-3d70d7cd-3169-4fd0-9e26-572651ff2c1c"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -9617,7 +9657,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-3d70d7cd-3169-4fd0-9e26-572651ff2c1c"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -9628,7 +9668,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-3d70d7cd-3169-4fd0-9e26-572651ff2c1c"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -9638,8 +9678,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-711d391b-1a80-4b5f-be17-ff87702b7dda"
-            id="top-tab-711d391b-1a80-4b5f-be17-ff87702b7dda"
+            data-testid="top-tab-for-/preferences"
+            id="top-tab-/preferences"
             role="tab"
             tabindex="0"
           >
@@ -9659,7 +9699,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-711d391b-1a80-4b5f-be17-ff87702b7dda"
+                    data-testid="top-tab-close-for-/preferences"
                     tabindex="0"
                   >
                     <span
@@ -9670,7 +9710,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-711d391b-1a80-4b5f-be17-ff87702b7dda"
+                    data-testid="tooltip-content-for-top-tab-close-for-/preferences"
                   >
                     Close tab
                   </div>
@@ -9680,8 +9720,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-781b4101-48e2-4a2e-90a8-1f248b942b69"
-            id="top-tab-781b4101-48e2-4a2e-90a8-1f248b942b69"
+            data-testid="top-tab-for-/preferences/kubernetes"
+            id="top-tab-/preferences/kubernetes"
             role="tab"
             tabindex="0"
           >
@@ -9701,7 +9741,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-781b4101-48e2-4a2e-90a8-1f248b942b69"
+                    data-testid="top-tab-close-for-/preferences/kubernetes"
                     tabindex="0"
                   >
                     <span
@@ -9712,7 +9752,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-781b4101-48e2-4a2e-90a8-1f248b942b69"
+                    data-testid="tooltip-content-for-top-tab-close-for-/preferences/kubernetes"
                   >
                     Close tab
                   </div>
@@ -10533,6 +10573,11 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -10738,8 +10783,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-cf24d6b0-7a55-41ff-a7e1-91b662595b73"
-            id="top-tab-cf24d6b0-7a55-41ff-a7e1-91b662595b73"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -10759,7 +10804,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-cf24d6b0-7a55-41ff-a7e1-91b662595b73"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -10770,7 +10815,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-cf24d6b0-7a55-41ff-a7e1-91b662595b73"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -10780,8 +10825,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-2aace2ca-eb33-40d4-ba4a-9e28e3c637d8"
-            id="top-tab-2aace2ca-eb33-40d4-ba4a-9e28e3c637d8"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -10801,7 +10846,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-2aace2ca-eb33-40d4-ba4a-9e28e3c637d8"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -10812,7 +10857,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-2aace2ca-eb33-40d4-ba4a-9e28e3c637d8"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -10822,8 +10867,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-c4da0ba7-49db-4f1d-bfbc-87442a875af7"
-            id="top-tab-c4da0ba7-49db-4f1d-bfbc-87442a875af7"
+            data-testid="top-tab-for-/preferences"
+            id="top-tab-/preferences"
             role="tab"
             tabindex="0"
           >
@@ -10843,7 +10888,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-c4da0ba7-49db-4f1d-bfbc-87442a875af7"
+                    data-testid="top-tab-close-for-/preferences"
                     tabindex="0"
                   >
                     <span
@@ -10854,7 +10899,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-c4da0ba7-49db-4f1d-bfbc-87442a875af7"
+                    data-testid="tooltip-content-for-top-tab-close-for-/preferences"
                   >
                     Close tab
                   </div>
@@ -10864,8 +10909,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-9ca0ea68-2de6-46b8-934e-a5a1dbbdeaed"
-            id="top-tab-9ca0ea68-2de6-46b8-934e-a5a1dbbdeaed"
+            data-testid="top-tab-for-/preferences/kubernetes"
+            id="top-tab-/preferences/kubernetes"
             role="tab"
             tabindex="0"
           >
@@ -10885,7 +10930,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-9ca0ea68-2de6-46b8-934e-a5a1dbbdeaed"
+                    data-testid="top-tab-close-for-/preferences/kubernetes"
                     tabindex="0"
                   >
                     <span
@@ -10896,7 +10941,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-9ca0ea68-2de6-46b8-934e-a5a1dbbdeaed"
+                    data-testid="tooltip-content-for-top-tab-close-for-/preferences/kubernetes"
                   >
                     Close tab
                   </div>
@@ -11717,6 +11762,11 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -11819,8 +11869,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-8cccb0bd-c449-417c-a062-4a2f158cdc22"
-            id="top-tab-8cccb0bd-c449-417c-a062-4a2f158cdc22"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -11840,7 +11890,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-8cccb0bd-c449-417c-a062-4a2f158cdc22"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -11851,7 +11901,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-8cccb0bd-c449-417c-a062-4a2f158cdc22"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -11861,8 +11911,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-c4cd0451-b8cf-4109-94b9-39ab1d8552ce"
-            id="top-tab-c4cd0451-b8cf-4109-94b9-39ab1d8552ce"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -11882,7 +11932,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-c4cd0451-b8cf-4109-94b9-39ab1d8552ce"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -11893,7 +11943,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-c4cd0451-b8cf-4109-94b9-39ab1d8552ce"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -11903,8 +11953,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-f95933e7-3b28-4e6e-acce-dfef9d5be83d"
-            id="top-tab-f95933e7-3b28-4e6e-acce-dfef9d5be83d"
+            data-testid="top-tab-for-/preferences"
+            id="top-tab-/preferences"
             role="tab"
             tabindex="0"
           >
@@ -11924,7 +11974,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-f95933e7-3b28-4e6e-acce-dfef9d5be83d"
+                    data-testid="top-tab-close-for-/preferences"
                     tabindex="0"
                   >
                     <span
@@ -11935,7 +11985,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-f95933e7-3b28-4e6e-acce-dfef9d5be83d"
+                    data-testid="tooltip-content-for-top-tab-close-for-/preferences"
                   >
                     Close tab
                   </div>
@@ -11945,8 +11995,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-a691fb67-9fd6-4cd2-863b-90d15f4a44f4"
-            id="top-tab-a691fb67-9fd6-4cd2-863b-90d15f4a44f4"
+            data-testid="top-tab-for-/preferences/kubernetes"
+            id="top-tab-/preferences/kubernetes"
             role="tab"
             tabindex="0"
           >
@@ -11966,7 +12016,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-a691fb67-9fd6-4cd2-863b-90d15f4a44f4"
+                    data-testid="top-tab-close-for-/preferences/kubernetes"
                     tabindex="0"
                   >
                     <span
@@ -11977,7 +12027,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-a691fb67-9fd6-4cd2-863b-90d15f4a44f4"
+                    data-testid="tooltip-content-for-top-tab-close-for-/preferences/kubernetes"
                   >
                     Close tab
                   </div>
@@ -12788,6 +12838,11 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>
@@ -12890,8 +12945,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
         >
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-4af0daa2-b219-4aef-b364-83c5318c30bb"
-            id="top-tab-4af0daa2-b219-4aef-b364-83c5318c30bb"
+            data-testid="top-tab-for-/"
+            id="top-tab-/"
             role="tab"
             tabindex="0"
           >
@@ -12911,7 +12966,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-4af0daa2-b219-4aef-b364-83c5318c30bb"
+                    data-testid="top-tab-close-for-/"
                     tabindex="0"
                   >
                     <span
@@ -12922,7 +12977,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-4af0daa2-b219-4aef-b364-83c5318c30bb"
+                    data-testid="tooltip-content-for-top-tab-close-for-/"
                   >
                     Close tab
                   </div>
@@ -12932,8 +12987,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-ffe0ff1a-55ff-4d34-b909-072710203caf"
-            id="top-tab-ffe0ff1a-55ff-4d34-b909-072710203caf"
+            data-testid="top-tab-for-/welcome"
+            id="top-tab-/welcome"
             role="tab"
             tabindex="0"
           >
@@ -12953,7 +13008,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-ffe0ff1a-55ff-4d34-b909-072710203caf"
+                    data-testid="top-tab-close-for-/welcome"
                     tabindex="0"
                   >
                     <span
@@ -12964,7 +13019,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-ffe0ff1a-55ff-4d34-b909-072710203caf"
+                    data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                   >
                     Close tab
                   </div>
@@ -12974,8 +13029,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
           </div>
           <div
             class="Tab flex gap-2 items-center topTab"
-            data-testid="top-tab-for-63eae612-c15d-403b-82c7-f16b1f712988"
-            id="top-tab-63eae612-c15d-403b-82c7-f16b1f712988"
+            data-testid="top-tab-for-/preferences"
+            id="top-tab-/preferences"
             role="tab"
             tabindex="0"
           >
@@ -12995,7 +13050,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-63eae612-c15d-403b-82c7-f16b1f712988"
+                    data-testid="top-tab-close-for-/preferences"
                     tabindex="0"
                   >
                     <span
@@ -13006,7 +13061,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-63eae612-c15d-403b-82c7-f16b1f712988"
+                    data-testid="tooltip-content-for-top-tab-close-for-/preferences"
                   >
                     Close tab
                   </div>
@@ -13016,8 +13071,8 @@ exports[`add custom helm repository in preferences > when navigating to preferen
           </div>
           <div
             class="Tab flex gap-2 items-center topTab active"
-            data-testid="top-tab-for-79cd1f6f-0469-4f24-bcaa-b9edea336aef"
-            id="top-tab-79cd1f6f-0469-4f24-bcaa-b9edea336aef"
+            data-testid="top-tab-for-/preferences/kubernetes"
+            id="top-tab-/preferences/kubernetes"
             role="tab"
             tabindex="0"
           >
@@ -13037,7 +13092,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                 >
                   <i
                     class="Icon material interactive focusable small"
-                    data-testid="top-tab-close-for-79cd1f6f-0469-4f24-bcaa-b9edea336aef"
+                    data-testid="top-tab-close-for-/preferences/kubernetes"
                     tabindex="0"
                   >
                     <span
@@ -13048,7 +13103,7 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                     </span>
                   </i>
                   <div
-                    data-testid="tooltip-content-for-top-tab-close-for-79cd1f6f-0469-4f24-bcaa-b9edea336aef"
+                    data-testid="tooltip-content-for-top-tab-close-for-/preferences/kubernetes"
                   >
                     Close tab
                   </div>
@@ -13859,6 +13914,11 @@ exports[`add custom helm repository in preferences > when navigating to preferen
                   search
                 </span>
               </i>
+              <span
+                class="label"
+              >
+                Search clusters
+              </span>
             </div>
           </div>
         </div>

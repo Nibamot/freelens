@@ -6,7 +6,6 @@
 
 import autoBind from "auto-bind";
 import { action, comparer, computed, makeObservable, reaction } from "mobx";
-import * as uuid from "uuid";
 
 import type { IComputedValue } from "mobx";
 
@@ -98,7 +97,7 @@ export class TopTabsStore {
       return;
     }
 
-    const tab: TopTab = { id: uuid.v4(), path, title };
+    const tab: TopTab = { id: path, path, title };
 
     this.tabs = [...this.tabs, tab];
     this.activeTabId = tab.id;

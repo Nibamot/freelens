@@ -79,8 +79,8 @@ exports[`navigate to extension page > renders 1`] = `
       >
         <div
           class="Tab flex gap-2 items-center topTab"
-          data-testid="top-tab-for-87978073-60c0-4971-91f3-42b215129932"
-          id="top-tab-87978073-60c0-4971-91f3-42b215129932"
+          data-testid="top-tab-for-/"
+          id="top-tab-/"
           role="tab"
           tabindex="0"
         >
@@ -100,7 +100,7 @@ exports[`navigate to extension page > renders 1`] = `
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-87978073-60c0-4971-91f3-42b215129932"
+                  data-testid="top-tab-close-for-/"
                   tabindex="0"
                 >
                   <span
@@ -111,7 +111,7 @@ exports[`navigate to extension page > renders 1`] = `
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-87978073-60c0-4971-91f3-42b215129932"
+                  data-testid="tooltip-content-for-top-tab-close-for-/"
                 >
                   Close tab
                 </div>
@@ -121,8 +121,8 @@ exports[`navigate to extension page > renders 1`] = `
         </div>
         <div
           class="Tab flex gap-2 items-center topTab active"
-          data-testid="top-tab-for-7cba8084-a4ce-4911-9b47-d70513bfd39a"
-          id="top-tab-7cba8084-a4ce-4911-9b47-d70513bfd39a"
+          data-testid="top-tab-for-/welcome"
+          id="top-tab-/welcome"
           role="tab"
           tabindex="0"
         >
@@ -142,7 +142,7 @@ exports[`navigate to extension page > renders 1`] = `
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-7cba8084-a4ce-4911-9b47-d70513bfd39a"
+                  data-testid="top-tab-close-for-/welcome"
                   tabindex="0"
                 >
                   <span
@@ -153,7 +153,7 @@ exports[`navigate to extension page > renders 1`] = `
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-7cba8084-a4ce-4911-9b47-d70513bfd39a"
+                  data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                 >
                   Close tab
                 </div>
@@ -564,6 +564,11 @@ exports[`navigate to extension page > renders 1`] = `
                 search
               </span>
             </i>
+            <span
+              class="label"
+            >
+              Search clusters
+            </span>
           </div>
         </div>
       </div>
@@ -656,8 +661,8 @@ exports[`navigate to extension page > when extension navigates to child route > 
       >
         <div
           class="Tab flex gap-2 items-center topTab"
-          data-testid="top-tab-for-0c12147c-2a37-441e-bc9d-6dc5e4bf9980"
-          id="top-tab-0c12147c-2a37-441e-bc9d-6dc5e4bf9980"
+          data-testid="top-tab-for-/"
+          id="top-tab-/"
           role="tab"
           tabindex="0"
         >
@@ -677,7 +682,7 @@ exports[`navigate to extension page > when extension navigates to child route > 
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-0c12147c-2a37-441e-bc9d-6dc5e4bf9980"
+                  data-testid="top-tab-close-for-/"
                   tabindex="0"
                 >
                   <span
@@ -688,7 +693,7 @@ exports[`navigate to extension page > when extension navigates to child route > 
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-0c12147c-2a37-441e-bc9d-6dc5e4bf9980"
+                  data-testid="tooltip-content-for-top-tab-close-for-/"
                 >
                   Close tab
                 </div>
@@ -698,8 +703,8 @@ exports[`navigate to extension page > when extension navigates to child route > 
         </div>
         <div
           class="Tab flex gap-2 items-center topTab"
-          data-testid="top-tab-for-9758a96b-7381-4942-b441-6fdd39ed3335"
-          id="top-tab-9758a96b-7381-4942-b441-6fdd39ed3335"
+          data-testid="top-tab-for-/welcome"
+          id="top-tab-/welcome"
           role="tab"
           tabindex="0"
         >
@@ -719,7 +724,7 @@ exports[`navigate to extension page > when extension navigates to child route > 
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-9758a96b-7381-4942-b441-6fdd39ed3335"
+                  data-testid="top-tab-close-for-/welcome"
                   tabindex="0"
                 >
                   <span
@@ -730,7 +735,7 @@ exports[`navigate to extension page > when extension navigates to child route > 
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-9758a96b-7381-4942-b441-6fdd39ed3335"
+                  data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                 >
                   Close tab
                 </div>
@@ -740,8 +745,8 @@ exports[`navigate to extension page > when extension navigates to child route > 
         </div>
         <div
           class="Tab flex gap-2 items-center topTab active"
-          data-testid="top-tab-for-22bf94f3-e5a3-49c7-8bc8-298dabc9cbe7"
-          id="top-tab-22bf94f3-e5a3-49c7-8bc8-298dabc9cbe7"
+          data-testid="top-tab-for-/extension/some-extension-name/some-child-page-id"
+          id="top-tab-/extension/some-extension-name/some-child-page-id"
           role="tab"
           tabindex="0"
         >
@@ -761,7 +766,7 @@ exports[`navigate to extension page > when extension navigates to child route > 
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-22bf94f3-e5a3-49c7-8bc8-298dabc9cbe7"
+                  data-testid="top-tab-close-for-/extension/some-extension-name/some-child-page-id"
                   tabindex="0"
                 >
                   <span
@@ -772,7 +777,7 @@ exports[`navigate to extension page > when extension navigates to child route > 
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-22bf94f3-e5a3-49c7-8bc8-298dabc9cbe7"
+                  data-testid="tooltip-content-for-top-tab-close-for-/extension/some-extension-name/some-child-page-id"
                 >
                   Close tab
                 </div>
@@ -968,6 +973,11 @@ exports[`navigate to extension page > when extension navigates to child route > 
                 search
               </span>
             </i>
+            <span
+              class="label"
+            >
+              Search clusters
+            </span>
           </div>
         </div>
       </div>
@@ -1060,8 +1070,8 @@ exports[`navigate to extension page > when extension navigates to route with par
       >
         <div
           class="Tab flex gap-2 items-center topTab"
-          data-testid="top-tab-for-08fd9002-8a90-4656-aed9-7fc6bc9d8160"
-          id="top-tab-08fd9002-8a90-4656-aed9-7fc6bc9d8160"
+          data-testid="top-tab-for-/"
+          id="top-tab-/"
           role="tab"
           tabindex="0"
         >
@@ -1081,7 +1091,7 @@ exports[`navigate to extension page > when extension navigates to route with par
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-08fd9002-8a90-4656-aed9-7fc6bc9d8160"
+                  data-testid="top-tab-close-for-/"
                   tabindex="0"
                 >
                   <span
@@ -1092,7 +1102,7 @@ exports[`navigate to extension page > when extension navigates to route with par
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-08fd9002-8a90-4656-aed9-7fc6bc9d8160"
+                  data-testid="tooltip-content-for-top-tab-close-for-/"
                 >
                   Close tab
                 </div>
@@ -1102,8 +1112,8 @@ exports[`navigate to extension page > when extension navigates to route with par
         </div>
         <div
           class="Tab flex gap-2 items-center topTab"
-          data-testid="top-tab-for-a4a28804-adae-4ddf-a74b-c79f4d677b6c"
-          id="top-tab-a4a28804-adae-4ddf-a74b-c79f4d677b6c"
+          data-testid="top-tab-for-/welcome"
+          id="top-tab-/welcome"
           role="tab"
           tabindex="0"
         >
@@ -1123,7 +1133,7 @@ exports[`navigate to extension page > when extension navigates to route with par
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-a4a28804-adae-4ddf-a74b-c79f4d677b6c"
+                  data-testid="top-tab-close-for-/welcome"
                   tabindex="0"
                 >
                   <span
@@ -1134,7 +1144,7 @@ exports[`navigate to extension page > when extension navigates to route with par
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-a4a28804-adae-4ddf-a74b-c79f4d677b6c"
+                  data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                 >
                   Close tab
                 </div>
@@ -1144,8 +1154,8 @@ exports[`navigate to extension page > when extension navigates to route with par
         </div>
         <div
           class="Tab flex gap-2 items-center topTab active"
-          data-testid="top-tab-for-af013893-ef90-4edc-8cf1-4c5724179c5c"
-          id="top-tab-af013893-ef90-4edc-8cf1-4c5724179c5c"
+          data-testid="top-tab-for-/extension/some-extension-name"
+          id="top-tab-/extension/some-extension-name"
           role="tab"
           tabindex="0"
         >
@@ -1165,7 +1175,7 @@ exports[`navigate to extension page > when extension navigates to route with par
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-af013893-ef90-4edc-8cf1-4c5724179c5c"
+                  data-testid="top-tab-close-for-/extension/some-extension-name"
                   tabindex="0"
                 >
                   <span
@@ -1176,7 +1186,7 @@ exports[`navigate to extension page > when extension navigates to route with par
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-af013893-ef90-4edc-8cf1-4c5724179c5c"
+                  data-testid="tooltip-content-for-top-tab-close-for-/extension/some-extension-name"
                 >
                   Close tab
                 </div>
@@ -1388,6 +1398,11 @@ exports[`navigate to extension page > when extension navigates to route with par
                 search
               </span>
             </i>
+            <span
+              class="label"
+            >
+              Search clusters
+            </span>
           </div>
         </div>
       </div>
@@ -1480,8 +1495,8 @@ exports[`navigate to extension page > when extension navigates to route without 
       >
         <div
           class="Tab flex gap-2 items-center topTab"
-          data-testid="top-tab-for-c53c9664-e2be-4a7f-b904-00d88bcecff3"
-          id="top-tab-c53c9664-e2be-4a7f-b904-00d88bcecff3"
+          data-testid="top-tab-for-/"
+          id="top-tab-/"
           role="tab"
           tabindex="0"
         >
@@ -1501,7 +1516,7 @@ exports[`navigate to extension page > when extension navigates to route without 
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-c53c9664-e2be-4a7f-b904-00d88bcecff3"
+                  data-testid="top-tab-close-for-/"
                   tabindex="0"
                 >
                   <span
@@ -1512,7 +1527,7 @@ exports[`navigate to extension page > when extension navigates to route without 
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-c53c9664-e2be-4a7f-b904-00d88bcecff3"
+                  data-testid="tooltip-content-for-top-tab-close-for-/"
                 >
                   Close tab
                 </div>
@@ -1522,8 +1537,8 @@ exports[`navigate to extension page > when extension navigates to route without 
         </div>
         <div
           class="Tab flex gap-2 items-center topTab"
-          data-testid="top-tab-for-8c8bcbf2-7985-4671-bc43-181982a7f83a"
-          id="top-tab-8c8bcbf2-7985-4671-bc43-181982a7f83a"
+          data-testid="top-tab-for-/welcome"
+          id="top-tab-/welcome"
           role="tab"
           tabindex="0"
         >
@@ -1543,7 +1558,7 @@ exports[`navigate to extension page > when extension navigates to route without 
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-8c8bcbf2-7985-4671-bc43-181982a7f83a"
+                  data-testid="top-tab-close-for-/welcome"
                   tabindex="0"
                 >
                   <span
@@ -1554,7 +1569,7 @@ exports[`navigate to extension page > when extension navigates to route without 
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-8c8bcbf2-7985-4671-bc43-181982a7f83a"
+                  data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                 >
                   Close tab
                 </div>
@@ -1564,8 +1579,8 @@ exports[`navigate to extension page > when extension navigates to route without 
         </div>
         <div
           class="Tab flex gap-2 items-center topTab active"
-          data-testid="top-tab-for-b8537aaa-8de4-46b4-8431-f2859cfd6dbb"
-          id="top-tab-b8537aaa-8de4-46b4-8431-f2859cfd6dbb"
+          data-testid="top-tab-for-/extension/some-extension-name"
+          id="top-tab-/extension/some-extension-name"
           role="tab"
           tabindex="0"
         >
@@ -1585,7 +1600,7 @@ exports[`navigate to extension page > when extension navigates to route without 
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-b8537aaa-8de4-46b4-8431-f2859cfd6dbb"
+                  data-testid="top-tab-close-for-/extension/some-extension-name"
                   tabindex="0"
                 >
                   <span
@@ -1596,7 +1611,7 @@ exports[`navigate to extension page > when extension navigates to route without 
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-b8537aaa-8de4-46b4-8431-f2859cfd6dbb"
+                  data-testid="tooltip-content-for-top-tab-close-for-/extension/some-extension-name"
                 >
                   Close tab
                 </div>
@@ -1808,6 +1823,11 @@ exports[`navigate to extension page > when extension navigates to route without 
                 search
               </span>
             </i>
+            <span
+              class="label"
+            >
+              Search clusters
+            </span>
           </div>
         </div>
       </div>
@@ -1900,8 +1920,8 @@ exports[`navigate to extension page > when extension navigates to route without 
       >
         <div
           class="Tab flex gap-2 items-center topTab"
-          data-testid="top-tab-for-88421cf1-5d35-418b-85df-19069fc3a388"
-          id="top-tab-88421cf1-5d35-418b-85df-19069fc3a388"
+          data-testid="top-tab-for-/"
+          id="top-tab-/"
           role="tab"
           tabindex="0"
         >
@@ -1921,7 +1941,7 @@ exports[`navigate to extension page > when extension navigates to route without 
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-88421cf1-5d35-418b-85df-19069fc3a388"
+                  data-testid="top-tab-close-for-/"
                   tabindex="0"
                 >
                   <span
@@ -1932,7 +1952,7 @@ exports[`navigate to extension page > when extension navigates to route without 
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-88421cf1-5d35-418b-85df-19069fc3a388"
+                  data-testid="tooltip-content-for-top-tab-close-for-/"
                 >
                   Close tab
                 </div>
@@ -1942,8 +1962,8 @@ exports[`navigate to extension page > when extension navigates to route without 
         </div>
         <div
           class="Tab flex gap-2 items-center topTab"
-          data-testid="top-tab-for-4152fa32-db17-4ef1-a240-e67acdb685a9"
-          id="top-tab-4152fa32-db17-4ef1-a240-e67acdb685a9"
+          data-testid="top-tab-for-/welcome"
+          id="top-tab-/welcome"
           role="tab"
           tabindex="0"
         >
@@ -1963,7 +1983,7 @@ exports[`navigate to extension page > when extension navigates to route without 
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-4152fa32-db17-4ef1-a240-e67acdb685a9"
+                  data-testid="top-tab-close-for-/welcome"
                   tabindex="0"
                 >
                   <span
@@ -1974,7 +1994,7 @@ exports[`navigate to extension page > when extension navigates to route without 
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-4152fa32-db17-4ef1-a240-e67acdb685a9"
+                  data-testid="tooltip-content-for-top-tab-close-for-/welcome"
                 >
                   Close tab
                 </div>
@@ -1984,8 +2004,8 @@ exports[`navigate to extension page > when extension navigates to route without 
         </div>
         <div
           class="Tab flex gap-2 items-center topTab active"
-          data-testid="top-tab-for-e596fb8c-14cf-445d-ac62-ed6cb3020a02"
-          id="top-tab-e596fb8c-14cf-445d-ac62-ed6cb3020a02"
+          data-testid="top-tab-for-/extension/some-extension-name"
+          id="top-tab-/extension/some-extension-name"
           role="tab"
           tabindex="0"
         >
@@ -2005,7 +2025,7 @@ exports[`navigate to extension page > when extension navigates to route without 
               >
                 <i
                   class="Icon material interactive focusable small"
-                  data-testid="top-tab-close-for-e596fb8c-14cf-445d-ac62-ed6cb3020a02"
+                  data-testid="top-tab-close-for-/extension/some-extension-name"
                   tabindex="0"
                 >
                   <span
@@ -2016,7 +2036,7 @@ exports[`navigate to extension page > when extension navigates to route without 
                   </span>
                 </i>
                 <div
-                  data-testid="tooltip-content-for-top-tab-close-for-e596fb8c-14cf-445d-ac62-ed6cb3020a02"
+                  data-testid="tooltip-content-for-top-tab-close-for-/extension/some-extension-name"
                 >
                   Close tab
                 </div>
@@ -2228,6 +2248,11 @@ exports[`navigate to extension page > when extension navigates to route without 
                 search
               </span>
             </i>
+            <span
+              class="label"
+            >
+              Search clusters
+            </span>
           </div>
         </div>
       </div>
