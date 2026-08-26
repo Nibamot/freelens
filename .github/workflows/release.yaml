@@ -287,7 +287,7 @@ jobs:
         if: runner.os == 'macOS'
         run: |
           if [[ -n $APPLEID && -n $APPLEIDPASS && -n $APPLETEAMID ]]; then
-            pkgname=$(ls -1 freelens/dist/Freelens*.pkg | head -n1)
+            pkgname=$(ls -1 freelens/dist/IMS-Scope*.pkg | head -n1)
             auth="--apple-id $APPLEID --password $APPLEIDPASS --team-id $APPLETEAMID"
             xcrun notarytool submit $pkgname $auth --wait 2>&1 | tee freelens/dist/notarytool.log
             uuid=$(awk '/id: / { print $2; exit; }' freelens/dist/notarytool.log)
@@ -309,7 +309,7 @@ jobs:
         run: |
           if [[ -n $APPLEID && -n $APPLEIDPASS && -n $APPLETEAMID ]]; then
             sleep 600
-            pkgname=$(ls -1 freelens/dist/Freelens*.pkg | head -n1)
+            pkgname=$(ls -1 freelens/dist/IMS-Scope*.pkg | head -n1)
             auth="--apple-id $APPLEID --password $APPLEIDPASS --team-id $APPLETEAMID"
             xcrun notarytool submit $pkgname $auth --wait 2>&1 | tee freelens/dist/notarytool.log
             uuid=$(awk '/id: / { print $2; exit; }' freelens/dist/notarytool.log)
@@ -330,7 +330,7 @@ jobs:
         run: |
           if [[ -n $APPLEID && -n $APPLEIDPASS && -n $APPLETEAMID ]]; then
             sleep 600
-            pkgname=$(ls -1 freelens/dist/Freelens*.pkg | head -n1)
+            pkgname=$(ls -1 freelens/dist/IMS-Scope*.pkg | head -n1)
             auth="--apple-id $APPLEID --password $APPLEIDPASS --team-id $APPLETEAMID"
             xcrun notarytool submit $pkgname $auth --wait 2>&1 | tee freelens/dist/notarytool.log
             uuid=$(awk '/id: / { print $2; exit; }' freelens/dist/notarytool.log)
@@ -544,7 +544,7 @@ jobs:
           chdir "freelens/dist" or die $!;
           my %arch = (x64 => "amd64", arm64 => "arm64");
           my $arch = $arch{$ENV{ARCH}};
-          while (<Freelens*>) {
+          while (<IMS-Scope*>) {
             my $src = $_;
             s/[ _]/-/g;
             if (/\.(dmg|exe|msi|pkg)$/ && !/-(amd64|arm64)\./) {
@@ -572,7 +572,7 @@ jobs:
         if: runner.os == 'Linux' || runner.os == 'Windows'
         shell: bash
         run: |
-          for f in freelens/dist/Freelens*.*; do
+          for f in freelens/dist/IMS-Scope*.*; do
             pushd freelens/dist > /dev/null
             sha256sum $(basename $f) | tee $(basename $f).sha256
             popd > /dev/null
@@ -582,7 +582,7 @@ jobs:
         if: runner.os == 'macOS'
         shell: bash
         run: |
-          for f in freelens/dist/Freelens*.*; do
+          for f in freelens/dist/IMS-Scope*.*; do
             pushd freelens/dist > /dev/null
             shasum -a 256 $(basename $f) | tee $(basename $f).sha256
             popd > /dev/null
@@ -610,7 +610,7 @@ jobs:
           # and the paths as the reported location for npm findings (grype
           # otherwise reports them against pnpm-lock.yaml). --legacy is required
           # because the workspace does not set inject-workspace-packages. The
-          # lowercase repo-name prefix keeps this file out of the Freelens*.*
+          # lowercase repo-name prefix keeps this file out of the IMS-Scope*.*
           # release-upload glob; it travels as a run artifact instead.
           deploy_dir="$RUNNER_TEMP/freelens-prod"
           rm -rf "$deploy_dir"
@@ -647,7 +647,7 @@ jobs:
           os="${{ matrix.os }}"
           arch="${{ matrix.arch == 'x64' && 'amd64' || matrix.arch }}"
           for f in freelens/dist/*-sbom.spdx.json; do
-            newname="freelens/dist/Freelens-${version}-${os}-${arch}-sbom.spdx.json"
+            newname="freelens/dist/IMS-Scope-${version}-${os}-${arch}-sbom.spdx.json"
             mv "$f" "$newname"
             if [ -f "${f}.sha256" ]; then
               mv "${f}.sha256" "${newname}.sha256"
@@ -677,7 +677,7 @@ jobs:
       - name: List files before upload
         shell: bash
         run: |
-          for f in freelens/dist/Freelens*.*; do
+          for f in freelens/dist/IMS-Scope*.*; do
             echo "$(ls -l "$f")" "|" "$(file -b "$f")"
           done
 
@@ -689,12 +689,12 @@ jobs:
         uses: actions/upload-artifact@v7
         with:
           name: "${{ github.event.repository.name }}-${{ matrix.os }}-${{ matrix.arch == 'x64' && 'amd64' || matrix.arch }}-checksums"
-          path: freelens/dist/Freelens-*.sha256
+          path: freelens/dist/IMS-Scope-*.sha256
 
       - name: Upload files
         shell: bash
         run: |
-          gh release upload ${GITHUB_REF_NAME#sign/} freelens/dist/Freelens*.*
+          gh release upload ${GITHUB_REF_NAME#sign/} freelens/dist/IMS-Scope*.*
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -749,7 +749,7 @@ jobs:
         run: |
           set -eo pipefail
           shopt -s nullglob
-          out="Freelens-${GITHUB_REF_NAME#v}-prod-packages.json"
+          out="IMS-Scope-${GITHUB_REF_NAME#v}-prod-packages.json"
           # Union of the per-platform <name>@<version> -> pnpm-store-path maps,
           # the same reduce release-scan.yaml applies to what it downloads.
           yq ea -pj -oj '. as $i ireduce ({}; . * $i)' prod/*-prod-packages.json > "$out"
@@ -764,7 +764,7 @@ jobs:
       - name: Upload files
         shell: bash
         run: |
-          gh release upload ${GITHUB_REF_NAME#sign/} Freelens-*-prod-packages.json*
+          gh release upload ${GITHUB_REF_NAME#sign/} IMS-Scope-*-prod-packages.json*
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -775,7 +775,7 @@ jobs:
         uses: actions/upload-artifact@v7
         with:
           name: "${{ github.event.repository.name }}-prod-packages-checksums"
-          path: Freelens-*-prod-packages.json.sha256
+          path: IMS-Scope-*-prod-packages.json.sha256
 
   attest-artifacts:
     name: attest build provenance
