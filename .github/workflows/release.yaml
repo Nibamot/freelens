@@ -970,6 +970,64 @@ jobs:
         env:
           NPM_CONFIG_PROVENANCE: "true"
 
+  update-homebrew-tap:
+    name: Update Homebrew tap
+
+    # Keeps the Nibamot/homebrew-ims-scope cask in sync with each release, so
+    # `brew install`/`brew upgrade` pick up the new version without a manual
+    # edit. Needs publish-github-release (the .dmg.sha256 files are read back
+    # from the published release, and a tap update before the release is
+    # public would point users at assets that don't exist yet) and build-app
+    # (the macOS matrix legs are what produce those checksums).
+    needs:
+      - build-app
+      - publish-github-release
+
+    runs-on: ubuntu-24.04-arm
+
+    steps:
+      - name: Checkout tap
+        uses: actions/checkout@v7
+        with:
+          repository: Nibamot/homebrew-ims-scope
+          token: ${{ secrets.HOMEBREW_TAP_TOKEN }}
+
+      - name: Download macOS checksums
+        run: |
+          gh release download ${GITHUB_REF_NAME} \
+            -R ${{ github.repository }} \
+            -p "IMS-Scope-*-macos-arm64.dmg.sha256" \
+            -p "IMS-Scope-*-macos-amd64.dmg.sha256"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update cask
+        run: |
+          set -euo pipefail
+          version="${GITHUB_REF_NAME#v}"
+          arm_sha=$(awk '{ print $1 }' IMS-Scope-*-macos-arm64.dmg.sha256)
+          intel_sha=$(awk '{ print $1 }' IMS-Scope-*-macos-amd64.dmg.sha256)
+
+          sed -i \
+            -e "s/^  version \".*\"/  version \"${version}\"/" \
+            -e "s/^  sha256 arm:   \".*\",\$/  sha256 arm:   \"${arm_sha}\",/" \
+            -e "s/^         intel: \".*\"\$/         intel: \"${intel_sha}\"/" \
+            Casks/ims-scope.rb
+
+          cat Casks/ims-scope.rb
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add Casks/ims-scope.rb
+          if git diff --cached --quiet; then
+            echo "No cask changes to commit"
+            exit 0
+          fi
+          git commit -m "Update ims-scope cask to ${GITHUB_REF_NAME#v}"
+          git push
+
   release-apt-repository:
     name: Release APT repository
 
