@@ -38,17 +38,17 @@ const setupLensProxyInjectable = getInjectable({
       const isProduction = di.inject(isProductionInjectable);
 
       try {
-        logger.info("🔌 Starting Freelens Proxy");
+        logger.info("🔌 Starting IMS-Scope Proxy");
         await lensProxy.listen(); // lensProxy.port available
       } catch (error: any) {
-        showErrorPopup("Freelens Error", `Could not start proxy: ${error?.message || "unknown error"}`);
+        showErrorPopup("IMS-Scope Error", `Could not start proxy: ${error?.message || "unknown error"}`);
 
         return forceAppExit();
       }
 
       // test proxy connection
       try {
-        logger.info("🔎 Testing Freelens Proxy connection ...");
+        logger.info("🔎 Testing IMS-Scope Proxy connection ...");
         const versionResponse = await fetch(`https://127.0.0.1:${lensProxyPort.get()}/version`, {
           dispatcher: lensProxyDispatcher(),
         });
@@ -61,19 +61,19 @@ const setupLensProxyInjectable = getInjectable({
           return forceAppExit();
         }
 
-        logger.info("⚡ Freelens Proxy connection OK");
+        logger.info("⚡ IMS-Scope Proxy connection OK");
       } catch (error) {
-        logger.error(`🛑 Freelens Proxy: failed connection test: ${error}`);
+        logger.error(`🛑 IMS-Scope Proxy: failed connection test: ${error}`);
 
         const hostsPath = isWindows ? "C:\\windows\\system32\\drivers\\etc\\hosts" : "/etc/hosts";
         const message = [
           `Failed connection test: ${error}`,
-          "Check to make sure that no other versions of Freelens are running",
+          "Check to make sure that no other versions of IMS-Scope are running",
           `Check ${hostsPath} to make sure that it is clean and that the localhost loopback is at the top and set to 127.0.0.1`,
           "If you have HTTP_PROXY or http_proxy set in your environment, make sure that the localhost and the ipv4 loopback address 127.0.0.1 are added to the NO_PROXY environment variable.",
         ];
 
-        showErrorPopup("Freelens Proxy Error", message.join("\n\n"));
+        showErrorPopup("IMS-Scope Proxy Error", message.join("\n\n"));
 
         return forceAppExit();
       }

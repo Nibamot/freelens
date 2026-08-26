@@ -45,7 +45,7 @@ const initializeExtensionsInjectable = getInjectable({
 
         extensionLoader.initExtensions(extensions);
       } catch (error: any) {
-        showErrorPopup("Freelens Error", `Could not load extensions${error?.message ? `: ${error.message}` : ""}`);
+        showErrorPopup("IMS-Scope Error", `Could not load extensions${error?.message ? `: ${error.message}` : ""}`);
 
         console.error(error);
         console.trace();

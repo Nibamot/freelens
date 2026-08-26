@@ -22,8 +22,8 @@ const setupLensProxyCertificateInjectable = getInjectable({
 
       const cert = await generate(
         [
-          { name: "commonName", value: "Freelens Certificate Authority" },
-          { name: "organizationName", value: "Freelens" },
+          { name: "commonName", value: "IMS-Scope Certificate Authority" },
+          { name: "organizationName", value: "IMS-Scope" },
         ],
         {
           keySize: 2048,

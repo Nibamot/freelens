@@ -23,7 +23,7 @@ const NonInjectedAllowUntrustedCertificates = observer(({ state }: Dependencies)
       Allow untrusted Certificate Authorities
     </Switch>
     <small className="hint">
-      This will make Freelens to trust ANY certificate authority without any validations. Needed with some corporate
+      This will make IMS-Scope to trust ANY certificate authority without any validations. Needed with some corporate
       proxies that do certificate re-writing. Does not affect cluster communications!
     </small>
   </section>

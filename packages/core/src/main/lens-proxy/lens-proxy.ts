@@ -180,7 +180,9 @@ export class LensProxy {
          * through all the ports possible and we will not be able to get a safe
          * port.
          */
-        throw new Error("Failed to start Freelens Proxy due to seeing too many unsafe ports. Please restart Freelens.");
+        throw new Error(
+          "Failed to start IMS-Scope Proxy due to seeing too many unsafe ports. Please restart IMS-Scope.",
+        );
       } else {
         seenPorts.add(port);
       }
