@@ -8,6 +8,7 @@
 
 import { registerInjectables as registerAddClusterInjectables } from "./add-cluster/register-injectables";
 import { registerInjectables as registerBadgeInjectables } from "./badge/register-injectables";
+import { registerInjectables as registerCallSessionControlFunctionsInjectables } from "./call-session-control-functions/register-injectables";
 import { registerInjectables as registerCatalogInjectables } from "./catalog/register-injectables";
 import { registerInjectables as registerClusterInjectables } from "./cluster/register-injectables";
 import { registerInjectables as registerClusterManagerInjectables } from "./cluster-manager/register-injectables";
@@ -52,6 +53,7 @@ import { registerInjectables as registerLayoutInjectables } from "./layout/regis
 import { registerInjectables as registerMonacoEditorInjectables } from "./monaco-editor/register-injectables";
 import { registerInjectables as registerNamespacesInjectables } from "./namespaces/register-injectables";
 import { registerInjectables as registerNetworkInjectables } from "./network/register-injectables";
+import { registerInjectables as registerNetworkAttachmentDefinitionsInjectables } from "./network-attachment-definitions/register-injectables";
 import { registerInjectables as registerNetworkEndpointSlicesInjectables } from "./network-endpoint-slices/register-injectables";
 import { registerInjectables as registerNetworkEndpointsInjectables } from "./network-endpoints/register-injectables";
 import { registerInjectables as registerNetworkIngressesInjectables } from "./network-ingresses/register-injectables";
@@ -92,6 +94,11 @@ export function registerInjectables(di: DiContainerForInjection): void {
   }
   try {
     registerBadgeInjectables(di);
+  } catch (e) {
+    /* Ignore duplicate registration */
+  }
+  try {
+    registerCallSessionControlFunctionsInjectables(di);
   } catch (e) {
     /* Ignore duplicate registration */
   }
@@ -312,6 +319,11 @@ export function registerInjectables(di: DiContainerForInjection): void {
   }
   try {
     registerNetworkInjectables(di);
+  } catch (e) {
+    /* Ignore duplicate registration */
+  }
+  try {
+    registerNetworkAttachmentDefinitionsInjectables(di);
   } catch (e) {
     /* Ignore duplicate registration */
   }

@@ -191,7 +191,7 @@ const userPreferenceDescriptorsInjectable = getInjectable({
         toStore: (val) => (val.location === defaultExtensionRegistryUrlLocation ? undefined : val),
       }),
       clusterPageMenuOrder: getPreferenceDescriptor<ClusterPageMenuOrder | undefined>({
-        fromStore: (val) => val,
+        fromStore: (val) => val ?? {},
         toStore: (val) => val,
       }),
     } as const;

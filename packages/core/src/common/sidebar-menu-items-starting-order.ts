@@ -11,6 +11,8 @@ export enum SidebarMenuItem {
   Helm = "sidebar-item-helm",
   UserManagement = "sidebar-item-user-management",
   CustomResources = "sidebar-item-custom-resources",
+  CallSessionControlFunctions = "sidebar-item-call-session-control-functions",
+  NetworkAttachmentDefinitions = "sidebar-item-network-attachment-definitions",
 }
 
 export const sidebarMenuItemIds: Record<SidebarMenuItem, number> = {
@@ -18,6 +20,8 @@ export const sidebarMenuItemIds: Record<SidebarMenuItem, number> = {
   [SidebarMenuItem.ClusterOverview]: 10,
   [SidebarMenuItem.Nodes]: 20,
   [SidebarMenuItem.Workloads]: 30,
+  [SidebarMenuItem.CallSessionControlFunctions]: 35,
+  [SidebarMenuItem.NetworkAttachmentDefinitions]: 36,
   [SidebarMenuItem.Config]: 40,
   [SidebarMenuItem.Network]: 50,
   [SidebarMenuItem.Storage]: 60,
