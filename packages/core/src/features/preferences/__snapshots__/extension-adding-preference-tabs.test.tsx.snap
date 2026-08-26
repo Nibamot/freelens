@@ -72,6 +72,141 @@ exports[`preferences: extension adding preference tabs > given in preferences, w
           />
         </div>
       </div>
+      <div
+        class="topTabBar"
+        role="tablist"
+      >
+        <div
+          class="Tabs tabs scrollable"
+        >
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-bafff080-8fd4-4951-a61f-ec4b5d57ddab"
+            id="top-tab-bafff080-8fd4-4951-a61f-ec4b5d57ddab"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Overview
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-bafff080-8fd4-4951-a61f-ec4b5d57ddab"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-bafff080-8fd4-4951-a61f-ec4b5d57ddab"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-ac738021-3fc4-48b0-ac3e-cce5cd556065"
+            id="top-tab-ac738021-3fc4-48b0-ac3e-cce5cd556065"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Welcome
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-ac738021-3fc4-48b0-ac3e-cce5cd556065"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-ac738021-3fc4-48b0-ac3e-cce5cd556065"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab active"
+            data-testid="top-tab-for-2d39ba4a-d8d9-49a4-97c8-26f4a8dc09b8"
+            id="top-tab-2d39ba4a-d8d9-49a4-97c8-26f4a8dc09b8"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Preferences
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-2d39ba4a-d8d9-49a4-97c8-26f4a8dc09b8"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-2d39ba4a-d8d9-49a4-97c8-26f4a8dc09b8"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <main>
         <div
           id="lens-views"
@@ -427,7 +562,7 @@ exports[`preferences: extension adding preference tabs > given in preferences, w
                       class="Switch"
                       data-testid="switch"
                     >
-                      Automatically start Freelens on login
+                      Automatically start IMS-Scope on login
                       <input
                         role="switch"
                         type="checkbox"
@@ -809,7 +944,28 @@ exports[`preferences: extension adding preference tabs > given in preferences, w
         <div
           class="leftSide"
           data-testid="status-bar-left"
-        />
+        >
+          <div
+            class="item"
+          >
+            <div
+              class="ClusterSearch"
+              data-testid="status-bar-cluster-search"
+              id="status-bar-cluster-search"
+            >
+              <i
+                class="Icon material focusable small"
+              >
+                <span
+                  class="icon"
+                  data-icon-name="search"
+                >
+                  search
+                </span>
+              </i>
+            </div>
+          </div>
+        </div>
         <div
           class="rightSide"
           data-testid="status-bar-right"

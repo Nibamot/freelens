@@ -72,6 +72,141 @@ exports[`entity running technical tests > when navigated to catalog > renders 1`
           />
         </div>
       </div>
+      <div
+        class="topTabBar"
+        role="tablist"
+      >
+        <div
+          class="Tabs tabs scrollable"
+        >
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-a25e2684-dc2d-41ee-a897-90f7d45249b0"
+            id="top-tab-a25e2684-dc2d-41ee-a897-90f7d45249b0"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Overview
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-a25e2684-dc2d-41ee-a897-90f7d45249b0"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-a25e2684-dc2d-41ee-a897-90f7d45249b0"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-59a1c38b-ec01-487f-86ad-9014bc7c75bb"
+            id="top-tab-59a1c38b-ec01-487f-86ad-9014bc7c75bb"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Welcome
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-59a1c38b-ec01-487f-86ad-9014bc7c75bb"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-59a1c38b-ec01-487f-86ad-9014bc7c75bb"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab active"
+            data-testid="top-tab-for-b9d21626-2e3a-4f96-b880-a25562af5ffe"
+            id="top-tab-b9d21626-2e3a-4f96-b880-a25562af5ffe"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Catalog
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-b9d21626-2e3a-4f96-b880-a25562af5ffe"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-b9d21626-2e3a-4f96-b880-a25562af5ffe"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <main>
         <div
           id="lens-views"
@@ -842,7 +977,28 @@ exports[`entity running technical tests > when navigated to catalog > renders 1`
         <div
           class="leftSide"
           data-testid="status-bar-left"
-        />
+        >
+          <div
+            class="item"
+          >
+            <div
+              class="ClusterSearch"
+              data-testid="status-bar-cluster-search"
+              id="status-bar-cluster-search"
+            >
+              <i
+                class="Icon material focusable small"
+              >
+                <span
+                  class="icon"
+                  data-icon-name="search"
+                >
+                  search
+                </span>
+              </i>
+            </div>
+          </div>
+        </div>
         <div
           class="rightSide"
           data-testid="status-bar-right"
@@ -923,6 +1079,141 @@ exports[`entity running technical tests > when navigated to catalog > when detai
           <div
             class="separator"
           />
+        </div>
+      </div>
+      <div
+        class="topTabBar"
+        role="tablist"
+      >
+        <div
+          class="Tabs tabs scrollable"
+        >
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-c43075d1-28d3-4eb4-92f3-5d72611bd61b"
+            id="top-tab-c43075d1-28d3-4eb4-92f3-5d72611bd61b"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Overview
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-c43075d1-28d3-4eb4-92f3-5d72611bd61b"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-c43075d1-28d3-4eb4-92f3-5d72611bd61b"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-b93734fc-76ac-4bc9-a6cc-b854a3e0994e"
+            id="top-tab-b93734fc-76ac-4bc9-a6cc-b854a3e0994e"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Welcome
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-b93734fc-76ac-4bc9-a6cc-b854a3e0994e"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-b93734fc-76ac-4bc9-a6cc-b854a3e0994e"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab active"
+            data-testid="top-tab-for-3cbd92d5-41f7-40d0-b1fd-fd573961d310"
+            id="top-tab-3cbd92d5-41f7-40d0-b1fd-fd573961d310"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Catalog
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-3cbd92d5-41f7-40d0-b1fd-fd573961d310"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-3cbd92d5-41f7-40d0-b1fd-fd573961d310"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <main>
@@ -1695,7 +1986,28 @@ exports[`entity running technical tests > when navigated to catalog > when detai
         <div
           class="leftSide"
           data-testid="status-bar-left"
-        />
+        >
+          <div
+            class="item"
+          >
+            <div
+              class="ClusterSearch"
+              data-testid="status-bar-cluster-search"
+              id="status-bar-cluster-search"
+            >
+              <i
+                class="Icon material focusable small"
+              >
+                <span
+                  class="icon"
+                  data-icon-name="search"
+                >
+                  search
+                </span>
+              </i>
+            </div>
+          </div>
+        </div>
         <div
           class="rightSide"
           data-testid="status-bar-right"

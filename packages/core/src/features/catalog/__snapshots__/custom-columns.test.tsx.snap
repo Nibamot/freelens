@@ -72,6 +72,141 @@ exports[`custom category columns for catalog > renders 1`] = `
           />
         </div>
       </div>
+      <div
+        class="topTabBar"
+        role="tablist"
+      >
+        <div
+          class="Tabs tabs scrollable"
+        >
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-b3bf5a1e-ce05-4289-b455-2469a3ad2f2a"
+            id="top-tab-b3bf5a1e-ce05-4289-b455-2469a3ad2f2a"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Overview
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-b3bf5a1e-ce05-4289-b455-2469a3ad2f2a"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-b3bf5a1e-ce05-4289-b455-2469a3ad2f2a"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-45a371f7-1a06-4fb1-b0a8-a1e9b8d76b88"
+            id="top-tab-45a371f7-1a06-4fb1-b0a8-a1e9b8d76b88"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Welcome
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-45a371f7-1a06-4fb1-b0a8-a1e9b8d76b88"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-45a371f7-1a06-4fb1-b0a8-a1e9b8d76b88"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab active"
+            data-testid="top-tab-for-7b0cab59-1caf-4c32-a77c-e302fa8ecb05"
+            id="top-tab-7b0cab59-1caf-4c32-a77c-e302fa8ecb05"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Catalog
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-7b0cab59-1caf-4c32-a77c-e302fa8ecb05"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-7b0cab59-1caf-4c32-a77c-e302fa8ecb05"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <main>
         <div
           id="lens-views"
@@ -711,7 +846,28 @@ exports[`custom category columns for catalog > renders 1`] = `
         <div
           class="leftSide"
           data-testid="status-bar-left"
-        />
+        >
+          <div
+            class="item"
+          >
+            <div
+              class="ClusterSearch"
+              data-testid="status-bar-cluster-search"
+              id="status-bar-cluster-search"
+            >
+              <i
+                class="Icon material focusable small"
+              >
+                <span
+                  class="icon"
+                  data-icon-name="search"
+                >
+                  search
+                </span>
+              </i>
+            </div>
+          </div>
+        </div>
         <div
           class="rightSide"
           data-testid="status-bar-right"
@@ -792,6 +948,141 @@ exports[`custom category columns for catalog > when category is added using defa
           <div
             class="separator"
           />
+        </div>
+      </div>
+      <div
+        class="topTabBar"
+        role="tablist"
+      >
+        <div
+          class="Tabs tabs scrollable"
+        >
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-7ece49b8-f5c4-43aa-a7ca-be8660b33553"
+            id="top-tab-7ece49b8-f5c4-43aa-a7ca-be8660b33553"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Overview
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-7ece49b8-f5c4-43aa-a7ca-be8660b33553"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-7ece49b8-f5c4-43aa-a7ca-be8660b33553"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-88e47ec5-e010-412d-8123-60e60269f9b8"
+            id="top-tab-88e47ec5-e010-412d-8123-60e60269f9b8"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Welcome
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-88e47ec5-e010-412d-8123-60e60269f9b8"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-88e47ec5-e010-412d-8123-60e60269f9b8"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab active"
+            data-testid="top-tab-for-d030ec23-2ec4-40b1-8ef0-47d61329cc25"
+            id="top-tab-d030ec23-2ec4-40b1-8ef0-47d61329cc25"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Catalog
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-d030ec23-2ec4-40b1-8ef0-47d61329cc25"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-d030ec23-2ec4-40b1-8ef0-47d61329cc25"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <main>
@@ -1464,7 +1755,28 @@ exports[`custom category columns for catalog > when category is added using defa
         <div
           class="leftSide"
           data-testid="status-bar-left"
-        />
+        >
+          <div
+            class="item"
+          >
+            <div
+              class="ClusterSearch"
+              data-testid="status-bar-cluster-search"
+              id="status-bar-cluster-search"
+            >
+              <i
+                class="Icon material focusable small"
+              >
+                <span
+                  class="icon"
+                  data-icon-name="search"
+                >
+                  search
+                </span>
+              </i>
+            </div>
+          </div>
+        </div>
         <div
           class="rightSide"
           data-testid="status-bar-right"
@@ -1545,6 +1857,183 @@ exports[`custom category columns for catalog > when category is added using defa
           <div
             class="separator"
           />
+        </div>
+      </div>
+      <div
+        class="topTabBar"
+        role="tablist"
+      >
+        <div
+          class="Tabs tabs scrollable"
+        >
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-c45d515e-5069-4ae1-9985-2f1245328afa"
+            id="top-tab-c45d515e-5069-4ae1-9985-2f1245328afa"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Overview
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-c45d515e-5069-4ae1-9985-2f1245328afa"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-c45d515e-5069-4ae1-9985-2f1245328afa"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-008c58e8-cdce-40f0-bed5-e01ec0e7ded9"
+            id="top-tab-008c58e8-cdce-40f0-bed5-e01ec0e7ded9"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Welcome
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-008c58e8-cdce-40f0-bed5-e01ec0e7ded9"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-008c58e8-cdce-40f0-bed5-e01ec0e7ded9"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-4c984f6c-d516-498d-b6f5-7babc8ced3e7"
+            id="top-tab-4c984f6c-d516-498d-b6f5-7babc8ced3e7"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Catalog
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-4c984f6c-d516-498d-b6f5-7babc8ced3e7"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-4c984f6c-d516-498d-b6f5-7babc8ced3e7"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab active"
+            data-testid="top-tab-for-ab4e4754-bb09-4ac4-b3e7-16708ffce4a3"
+            id="top-tab-ab4e4754-bb09-4ac4-b3e7-16708ffce4a3"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Test
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-ab4e4754-bb09-4ac4-b3e7-16708ffce4a3"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-ab4e4754-bb09-4ac4-b3e7-16708ffce4a3"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <main>
@@ -2207,7 +2696,28 @@ exports[`custom category columns for catalog > when category is added using defa
         <div
           class="leftSide"
           data-testid="status-bar-left"
-        />
+        >
+          <div
+            class="item"
+          >
+            <div
+              class="ClusterSearch"
+              data-testid="status-bar-cluster-search"
+              id="status-bar-cluster-search"
+            >
+              <i
+                class="Icon material focusable small"
+              >
+                <span
+                  class="icon"
+                  data-icon-name="search"
+                >
+                  search
+                </span>
+              </i>
+            </div>
+          </div>
+        </div>
         <div
           class="rightSide"
           data-testid="status-bar-right"
@@ -2288,6 +2798,183 @@ exports[`custom category columns for catalog > when category is added using defa
           <div
             class="separator"
           />
+        </div>
+      </div>
+      <div
+        class="topTabBar"
+        role="tablist"
+      >
+        <div
+          class="Tabs tabs scrollable"
+        >
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-ac2292a9-9303-4e05-9f1e-7b5222989d74"
+            id="top-tab-ac2292a9-9303-4e05-9f1e-7b5222989d74"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Overview
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-ac2292a9-9303-4e05-9f1e-7b5222989d74"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-ac2292a9-9303-4e05-9f1e-7b5222989d74"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-2a50f1fe-1d39-465f-b813-834f290956ea"
+            id="top-tab-2a50f1fe-1d39-465f-b813-834f290956ea"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Welcome
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-2a50f1fe-1d39-465f-b813-834f290956ea"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-2a50f1fe-1d39-465f-b813-834f290956ea"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-79efb09c-58fa-4e79-be92-bfccdf504a32"
+            id="top-tab-79efb09c-58fa-4e79-be92-bfccdf504a32"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Catalog
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-79efb09c-58fa-4e79-be92-bfccdf504a32"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-79efb09c-58fa-4e79-be92-bfccdf504a32"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab active"
+            data-testid="top-tab-for-9b3f5f06-a6b5-4aef-a4d1-7b62bc42dae5"
+            id="top-tab-9b3f5f06-a6b5-4aef-a4d1-7b62bc42dae5"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Test
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-9b3f5f06-a6b5-4aef-a4d1-7b62bc42dae5"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-9b3f5f06-a6b5-4aef-a4d1-7b62bc42dae5"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <main>
@@ -2936,7 +3623,28 @@ exports[`custom category columns for catalog > when category is added using defa
         <div
           class="leftSide"
           data-testid="status-bar-left"
-        />
+        >
+          <div
+            class="item"
+          >
+            <div
+              class="ClusterSearch"
+              data-testid="status-bar-cluster-search"
+              id="status-bar-cluster-search"
+            >
+              <i
+                class="Icon material focusable small"
+              >
+                <span
+                  class="icon"
+                  data-icon-name="search"
+                >
+                  search
+                </span>
+              </i>
+            </div>
+          </div>
+        </div>
         <div
           class="rightSide"
           data-testid="status-bar-right"
@@ -3017,6 +3725,141 @@ exports[`custom category columns for catalog > when category is added with custo
           <div
             class="separator"
           />
+        </div>
+      </div>
+      <div
+        class="topTabBar"
+        role="tablist"
+      >
+        <div
+          class="Tabs tabs scrollable"
+        >
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-fa6afa25-14a6-4930-b9bd-3a309252a711"
+            id="top-tab-fa6afa25-14a6-4930-b9bd-3a309252a711"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Overview
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-fa6afa25-14a6-4930-b9bd-3a309252a711"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-fa6afa25-14a6-4930-b9bd-3a309252a711"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-7b107d5f-995e-4749-8bb0-b5d95cc0d51a"
+            id="top-tab-7b107d5f-995e-4749-8bb0-b5d95cc0d51a"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Welcome
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-7b107d5f-995e-4749-8bb0-b5d95cc0d51a"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-7b107d5f-995e-4749-8bb0-b5d95cc0d51a"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab active"
+            data-testid="top-tab-for-f39f82f4-34c9-4912-a048-e468c55eb149"
+            id="top-tab-f39f82f4-34c9-4912-a048-e468c55eb149"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Catalog
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-f39f82f4-34c9-4912-a048-e468c55eb149"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-f39f82f4-34c9-4912-a048-e468c55eb149"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <main>
@@ -3689,7 +4532,28 @@ exports[`custom category columns for catalog > when category is added with custo
         <div
           class="leftSide"
           data-testid="status-bar-left"
-        />
+        >
+          <div
+            class="item"
+          >
+            <div
+              class="ClusterSearch"
+              data-testid="status-bar-cluster-search"
+              id="status-bar-cluster-search"
+            >
+              <i
+                class="Icon material focusable small"
+              >
+                <span
+                  class="icon"
+                  data-icon-name="search"
+                >
+                  search
+                </span>
+              </i>
+            </div>
+          </div>
+        </div>
         <div
           class="rightSide"
           data-testid="status-bar-right"
@@ -3770,6 +4634,183 @@ exports[`custom category columns for catalog > when category is added with custo
           <div
             class="separator"
           />
+        </div>
+      </div>
+      <div
+        class="topTabBar"
+        role="tablist"
+      >
+        <div
+          class="Tabs tabs scrollable"
+        >
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-2cc4a9ec-3ddc-4cf1-a959-1afbd638eecf"
+            id="top-tab-2cc4a9ec-3ddc-4cf1-a959-1afbd638eecf"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Overview
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-2cc4a9ec-3ddc-4cf1-a959-1afbd638eecf"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-2cc4a9ec-3ddc-4cf1-a959-1afbd638eecf"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-4a170918-cb58-4a86-b026-859c0f79cad7"
+            id="top-tab-4a170918-cb58-4a86-b026-859c0f79cad7"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Welcome
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-4a170918-cb58-4a86-b026-859c0f79cad7"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-4a170918-cb58-4a86-b026-859c0f79cad7"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-1315d9bd-cb8d-49d5-b8e1-f9002c5b414d"
+            id="top-tab-1315d9bd-cb8d-49d5-b8e1-f9002c5b414d"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Catalog
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-1315d9bd-cb8d-49d5-b8e1-f9002c5b414d"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-1315d9bd-cb8d-49d5-b8e1-f9002c5b414d"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab active"
+            data-testid="top-tab-for-88040e81-53bc-4305-af61-60c02045492a"
+            id="top-tab-88040e81-53bc-4305-af61-60c02045492a"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Test
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-88040e81-53bc-4305-af61-60c02045492a"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-88040e81-53bc-4305-af61-60c02045492a"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <main>
@@ -4370,7 +5411,28 @@ exports[`custom category columns for catalog > when category is added with custo
         <div
           class="leftSide"
           data-testid="status-bar-left"
-        />
+        >
+          <div
+            class="item"
+          >
+            <div
+              class="ClusterSearch"
+              data-testid="status-bar-cluster-search"
+              id="status-bar-cluster-search"
+            >
+              <i
+                class="Icon material focusable small"
+              >
+                <span
+                  class="icon"
+                  data-icon-name="search"
+                >
+                  search
+                </span>
+              </i>
+            </div>
+          </div>
+        </div>
         <div
           class="rightSide"
           data-testid="status-bar-right"
@@ -4451,6 +5513,141 @@ exports[`custom category columns for catalog > when category is added without de
           <div
             class="separator"
           />
+        </div>
+      </div>
+      <div
+        class="topTabBar"
+        role="tablist"
+      >
+        <div
+          class="Tabs tabs scrollable"
+        >
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-bd6b84e9-f823-40c1-bde6-7077ebb1738e"
+            id="top-tab-bd6b84e9-f823-40c1-bde6-7077ebb1738e"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Overview
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-bd6b84e9-f823-40c1-bde6-7077ebb1738e"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-bd6b84e9-f823-40c1-bde6-7077ebb1738e"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-17bfabfc-eb95-4eae-8d49-680f477e22b4"
+            id="top-tab-17bfabfc-eb95-4eae-8d49-680f477e22b4"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Welcome
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-17bfabfc-eb95-4eae-8d49-680f477e22b4"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-17bfabfc-eb95-4eae-8d49-680f477e22b4"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab active"
+            data-testid="top-tab-for-60e170fc-ee6b-46a0-bcb4-78e0e494af98"
+            id="top-tab-60e170fc-ee6b-46a0-bcb4-78e0e494af98"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Catalog
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-60e170fc-ee6b-46a0-bcb4-78e0e494af98"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-60e170fc-ee6b-46a0-bcb4-78e0e494af98"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <main>
@@ -5123,7 +6320,28 @@ exports[`custom category columns for catalog > when category is added without de
         <div
           class="leftSide"
           data-testid="status-bar-left"
-        />
+        >
+          <div
+            class="item"
+          >
+            <div
+              class="ClusterSearch"
+              data-testid="status-bar-cluster-search"
+              id="status-bar-cluster-search"
+            >
+              <i
+                class="Icon material focusable small"
+              >
+                <span
+                  class="icon"
+                  data-icon-name="search"
+                >
+                  search
+                </span>
+              </i>
+            </div>
+          </div>
+        </div>
         <div
           class="rightSide"
           data-testid="status-bar-right"
@@ -5204,6 +6422,183 @@ exports[`custom category columns for catalog > when category is added without de
           <div
             class="separator"
           />
+        </div>
+      </div>
+      <div
+        class="topTabBar"
+        role="tablist"
+      >
+        <div
+          class="Tabs tabs scrollable"
+        >
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-c7f0f50c-9395-4992-91d7-0b32365f21ee"
+            id="top-tab-c7f0f50c-9395-4992-91d7-0b32365f21ee"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Overview
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-c7f0f50c-9395-4992-91d7-0b32365f21ee"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-c7f0f50c-9395-4992-91d7-0b32365f21ee"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-21106298-c9c1-4bc2-b363-b427bbff062a"
+            id="top-tab-21106298-c9c1-4bc2-b363-b427bbff062a"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Welcome
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-21106298-c9c1-4bc2-b363-b427bbff062a"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-21106298-c9c1-4bc2-b363-b427bbff062a"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-f1ed06b6-90ad-4771-8687-d5540c2b0784"
+            id="top-tab-f1ed06b6-90ad-4771-8687-d5540c2b0784"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Catalog
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-f1ed06b6-90ad-4771-8687-d5540c2b0784"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-f1ed06b6-90ad-4771-8687-d5540c2b0784"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab active"
+            data-testid="top-tab-for-c9245e29-0c8d-408f-ac42-504644390deb"
+            id="top-tab-c9245e29-0c8d-408f-ac42-504644390deb"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Test
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-c9245e29-0c8d-408f-ac42-504644390deb"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-c9245e29-0c8d-408f-ac42-504644390deb"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <main>
@@ -5790,7 +7185,28 @@ exports[`custom category columns for catalog > when category is added without de
         <div
           class="leftSide"
           data-testid="status-bar-left"
-        />
+        >
+          <div
+            class="item"
+          >
+            <div
+              class="ClusterSearch"
+              data-testid="status-bar-cluster-search"
+              id="status-bar-cluster-search"
+            >
+              <i
+                class="Icon material focusable small"
+              >
+                <span
+                  class="icon"
+                  data-icon-name="search"
+                >
+                  search
+                </span>
+              </i>
+            </div>
+          </div>
+        </div>
         <div
           class="rightSide"
           data-testid="status-bar-right"

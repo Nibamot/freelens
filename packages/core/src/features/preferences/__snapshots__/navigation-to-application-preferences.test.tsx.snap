@@ -71,6 +71,57 @@ exports[`preferences - navigation to application preferences > given in preferen
         />
       </div>
     </div>
+    <div
+      class="topTabBar"
+      role="tablist"
+    >
+      <div
+        class="Tabs tabs scrollable"
+      >
+        <div
+          class="Tab flex gap-2 items-center topTab active"
+          data-testid="top-tab-for-5d33ee41-d64e-489a-a4b6-b37e7db89f5a"
+          id="top-tab-5d33ee41-d64e-489a-a4b6-b37e7db89f5a"
+          role="tab"
+          tabindex="0"
+        >
+          <div
+            class="label"
+          >
+            <div
+              class="flex items-center"
+            >
+              <span
+                class="title"
+              >
+                Preferences
+              </span>
+              <div
+                class="close"
+              >
+                <i
+                  class="Icon material interactive focusable small"
+                  data-testid="top-tab-close-for-5d33ee41-d64e-489a-a4b6-b37e7db89f5a"
+                  tabindex="0"
+                >
+                  <span
+                    class="icon"
+                    data-icon-name="close"
+                  >
+                    close
+                  </span>
+                </i>
+                <div
+                  data-testid="tooltip-content-for-top-tab-close-for-5d33ee41-d64e-489a-a4b6-b37e7db89f5a"
+                >
+                  Close tab
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <main>
       <div
         id="lens-views"
@@ -402,7 +453,7 @@ exports[`preferences - navigation to application preferences > given in preferen
                     class="Switch"
                     data-testid="switch"
                   >
-                    Automatically start Freelens on login
+                    Automatically start IMS-Scope on login
                     <input
                       role="switch"
                       type="checkbox"
@@ -784,7 +835,28 @@ exports[`preferences - navigation to application preferences > given in preferen
       <div
         class="leftSide"
         data-testid="status-bar-left"
-      />
+      >
+        <div
+          class="item"
+        >
+          <div
+            class="ClusterSearch"
+            data-testid="status-bar-cluster-search"
+            id="status-bar-cluster-search"
+          >
+            <i
+              class="Icon material focusable small"
+            >
+              <span
+                class="icon"
+                data-icon-name="search"
+              >
+                search
+              </span>
+            </i>
+          </div>
+        </div>
+      </div>
       <div
         class="rightSide"
         data-testid="status-bar-right"
@@ -863,6 +935,57 @@ exports[`preferences - navigation to application preferences > given in preferen
         <div
           class="separator"
         />
+      </div>
+    </div>
+    <div
+      class="topTabBar"
+      role="tablist"
+    >
+      <div
+        class="Tabs tabs scrollable"
+      >
+        <div
+          class="Tab flex gap-2 items-center topTab active"
+          data-testid="top-tab-for-c9dbe7e7-c334-423d-8d12-7f0f53c446d4"
+          id="top-tab-c9dbe7e7-c334-423d-8d12-7f0f53c446d4"
+          role="tab"
+          tabindex="0"
+        >
+          <div
+            class="label"
+          >
+            <div
+              class="flex items-center"
+            >
+              <span
+                class="title"
+              >
+                Preferences
+              </span>
+              <div
+                class="close"
+              >
+                <i
+                  class="Icon material interactive focusable small"
+                  data-testid="top-tab-close-for-c9dbe7e7-c334-423d-8d12-7f0f53c446d4"
+                  tabindex="0"
+                >
+                  <span
+                    class="icon"
+                    data-icon-name="close"
+                  >
+                    close
+                  </span>
+                </i>
+                <div
+                  data-testid="tooltip-content-for-top-tab-close-for-c9dbe7e7-c334-423d-8d12-7f0f53c446d4"
+                >
+                  Close tab
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <main>
@@ -1196,7 +1319,7 @@ exports[`preferences - navigation to application preferences > given in preferen
                     class="Switch"
                     data-testid="switch"
                   >
-                    Automatically start Freelens on login
+                    Automatically start IMS-Scope on login
                     <input
                       role="switch"
                       type="checkbox"
@@ -1609,7 +1732,28 @@ exports[`preferences - navigation to application preferences > given in preferen
       <div
         class="leftSide"
         data-testid="status-bar-left"
-      />
+      >
+        <div
+          class="item"
+        >
+          <div
+            class="ClusterSearch"
+            data-testid="status-bar-cluster-search"
+            id="status-bar-cluster-search"
+          >
+            <i
+              class="Icon material focusable small"
+            >
+              <span
+                class="icon"
+                data-icon-name="search"
+              >
+                search
+              </span>
+            </i>
+          </div>
+        </div>
+      </div>
       <div
         class="rightSide"
         data-testid="status-bar-right"
@@ -1688,6 +1832,57 @@ exports[`preferences - navigation to application preferences > given in some chi
         <div
           class="separator"
         />
+      </div>
+    </div>
+    <div
+      class="topTabBar"
+      role="tablist"
+    >
+      <div
+        class="Tabs tabs scrollable"
+      >
+        <div
+          class="Tab flex gap-2 items-center topTab active"
+          data-testid="top-tab-for-2cb2d301-f03f-47c6-a15e-2c805f7df061"
+          id="top-tab-2cb2d301-f03f-47c6-a15e-2c805f7df061"
+          role="tab"
+          tabindex="0"
+        >
+          <div
+            class="label"
+          >
+            <div
+              class="flex items-center"
+            >
+              <span
+                class="title"
+              >
+                Proxy
+              </span>
+              <div
+                class="close"
+              >
+                <i
+                  class="Icon material interactive focusable small"
+                  data-testid="top-tab-close-for-2cb2d301-f03f-47c6-a15e-2c805f7df061"
+                  tabindex="0"
+                >
+                  <span
+                    class="icon"
+                    data-icon-name="close"
+                  >
+                    close
+                  </span>
+                </i>
+                <div
+                  data-testid="tooltip-content-for-top-tab-close-for-2cb2d301-f03f-47c6-a15e-2c805f7df061"
+                >
+                  Close tab
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <main>
@@ -1857,7 +2052,7 @@ exports[`preferences - navigation to application preferences > given in some chi
                   <small
                     class="hint"
                   >
-                    This will make Freelens to trust ANY certificate authority without any validations. Needed with some corporate proxies that do certificate re-writing. Does not affect cluster communications!
+                    This will make IMS-Scope to trust ANY certificate authority without any validations. Needed with some corporate proxies that do certificate re-writing. Does not affect cluster communications!
                   </small>
                 </section>
               </div>
@@ -2059,7 +2254,28 @@ exports[`preferences - navigation to application preferences > given in some chi
       <div
         class="leftSide"
         data-testid="status-bar-left"
-      />
+      >
+        <div
+          class="item"
+        >
+          <div
+            class="ClusterSearch"
+            data-testid="status-bar-cluster-search"
+            id="status-bar-cluster-search"
+          >
+            <i
+              class="Icon material focusable small"
+            >
+              <span
+                class="icon"
+                data-icon-name="search"
+              >
+                search
+              </span>
+            </i>
+          </div>
+        </div>
+      </div>
       <div
         class="rightSide"
         data-testid="status-bar-right"
@@ -2138,6 +2354,99 @@ exports[`preferences - navigation to application preferences > given in some chi
         <div
           class="separator"
         />
+      </div>
+    </div>
+    <div
+      class="topTabBar"
+      role="tablist"
+    >
+      <div
+        class="Tabs tabs scrollable"
+      >
+        <div
+          class="Tab flex gap-2 items-center topTab"
+          data-testid="top-tab-for-02de65cd-b1bc-439d-b802-ad0bb7c1519f"
+          id="top-tab-02de65cd-b1bc-439d-b802-ad0bb7c1519f"
+          role="tab"
+          tabindex="0"
+        >
+          <div
+            class="label"
+          >
+            <div
+              class="flex items-center"
+            >
+              <span
+                class="title"
+              >
+                Proxy
+              </span>
+              <div
+                class="close"
+              >
+                <i
+                  class="Icon material interactive focusable small"
+                  data-testid="top-tab-close-for-02de65cd-b1bc-439d-b802-ad0bb7c1519f"
+                  tabindex="0"
+                >
+                  <span
+                    class="icon"
+                    data-icon-name="close"
+                  >
+                    close
+                  </span>
+                </i>
+                <div
+                  data-testid="tooltip-content-for-top-tab-close-for-02de65cd-b1bc-439d-b802-ad0bb7c1519f"
+                >
+                  Close tab
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Tab flex gap-2 items-center topTab active"
+          data-testid="top-tab-for-0f301ec8-d5b6-4d64-9f3e-138cf0c44c27"
+          id="top-tab-0f301ec8-d5b6-4d64-9f3e-138cf0c44c27"
+          role="tab"
+          tabindex="0"
+        >
+          <div
+            class="label"
+          >
+            <div
+              class="flex items-center"
+            >
+              <span
+                class="title"
+              >
+                App
+              </span>
+              <div
+                class="close"
+              >
+                <i
+                  class="Icon material interactive focusable small"
+                  data-testid="top-tab-close-for-0f301ec8-d5b6-4d64-9f3e-138cf0c44c27"
+                  tabindex="0"
+                >
+                  <span
+                    class="icon"
+                    data-icon-name="close"
+                  >
+                    close
+                  </span>
+                </i>
+                <div
+                  data-testid="tooltip-content-for-top-tab-close-for-0f301ec8-d5b6-4d64-9f3e-138cf0c44c27"
+                >
+                  Close tab
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <main>
@@ -2471,7 +2780,7 @@ exports[`preferences - navigation to application preferences > given in some chi
                     class="Switch"
                     data-testid="switch"
                   >
-                    Automatically start Freelens on login
+                    Automatically start IMS-Scope on login
                     <input
                       role="switch"
                       type="checkbox"
@@ -2853,7 +3162,28 @@ exports[`preferences - navigation to application preferences > given in some chi
       <div
         class="leftSide"
         data-testid="status-bar-left"
-      />
+      >
+        <div
+          class="item"
+        >
+          <div
+            class="ClusterSearch"
+            data-testid="status-bar-cluster-search"
+            id="status-bar-cluster-search"
+          >
+            <i
+              class="Icon material focusable small"
+            >
+              <span
+                class="icon"
+                data-icon-name="search"
+              >
+                search
+              </span>
+            </i>
+          </div>
+        </div>
+      </div>
       <div
         class="rightSide"
         data-testid="status-bar-right"
@@ -2933,6 +3263,99 @@ exports[`preferences - navigation to application preferences > given in some chi
           <div
             class="separator"
           />
+        </div>
+      </div>
+      <div
+        class="topTabBar"
+        role="tablist"
+      >
+        <div
+          class="Tabs tabs scrollable"
+        >
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-21ac9e17-9a83-4f34-aa6a-e1e08a0bf28f"
+            id="top-tab-21ac9e17-9a83-4f34-aa6a-e1e08a0bf28f"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Proxy
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-21ac9e17-9a83-4f34-aa6a-e1e08a0bf28f"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-21ac9e17-9a83-4f34-aa6a-e1e08a0bf28f"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab active"
+            data-testid="top-tab-for-c7659b02-5d7c-4722-a11f-eaa78a56590d"
+            id="top-tab-c7659b02-5d7c-4722-a11f-eaa78a56590d"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Preferences
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-c7659b02-5d7c-4722-a11f-eaa78a56590d"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-c7659b02-5d7c-4722-a11f-eaa78a56590d"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <main>
@@ -3266,7 +3689,7 @@ exports[`preferences - navigation to application preferences > given in some chi
                       class="Switch"
                       data-testid="switch"
                     >
-                      Automatically start Freelens on login
+                      Automatically start IMS-Scope on login
                       <input
                         role="switch"
                         type="checkbox"
@@ -3648,7 +4071,28 @@ exports[`preferences - navigation to application preferences > given in some chi
         <div
           class="leftSide"
           data-testid="status-bar-left"
-        />
+        >
+          <div
+            class="item"
+          >
+            <div
+              class="ClusterSearch"
+              data-testid="status-bar-cluster-search"
+              id="status-bar-cluster-search"
+            >
+              <i
+                class="Icon material focusable small"
+              >
+                <span
+                  class="icon"
+                  data-icon-name="search"
+                >
+                  search
+                </span>
+              </i>
+            </div>
+          </div>
+        </div>
         <div
           class="rightSide"
           data-testid="status-bar-right"

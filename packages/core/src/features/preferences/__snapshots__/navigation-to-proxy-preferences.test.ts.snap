@@ -71,6 +71,57 @@ exports[`preferences - navigation to proxy preferences > given in preferences, w
         />
       </div>
     </div>
+    <div
+      class="topTabBar"
+      role="tablist"
+    >
+      <div
+        class="Tabs tabs scrollable"
+      >
+        <div
+          class="Tab flex gap-2 items-center topTab active"
+          data-testid="top-tab-for-389280f8-3911-4dab-8cc2-f811f75acd5d"
+          id="top-tab-389280f8-3911-4dab-8cc2-f811f75acd5d"
+          role="tab"
+          tabindex="0"
+        >
+          <div
+            class="label"
+          >
+            <div
+              class="flex items-center"
+            >
+              <span
+                class="title"
+              >
+                Preferences
+              </span>
+              <div
+                class="close"
+              >
+                <i
+                  class="Icon material interactive focusable small"
+                  data-testid="top-tab-close-for-389280f8-3911-4dab-8cc2-f811f75acd5d"
+                  tabindex="0"
+                >
+                  <span
+                    class="icon"
+                    data-icon-name="close"
+                  >
+                    close
+                  </span>
+                </i>
+                <div
+                  data-testid="tooltip-content-for-top-tab-close-for-389280f8-3911-4dab-8cc2-f811f75acd5d"
+                >
+                  Close tab
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <main>
       <div
         id="lens-views"
@@ -402,7 +453,7 @@ exports[`preferences - navigation to proxy preferences > given in preferences, w
                     class="Switch"
                     data-testid="switch"
                   >
-                    Automatically start Freelens on login
+                    Automatically start IMS-Scope on login
                     <input
                       role="switch"
                       type="checkbox"
@@ -784,7 +835,28 @@ exports[`preferences - navigation to proxy preferences > given in preferences, w
       <div
         class="leftSide"
         data-testid="status-bar-left"
-      />
+      >
+        <div
+          class="item"
+        >
+          <div
+            class="ClusterSearch"
+            data-testid="status-bar-cluster-search"
+            id="status-bar-cluster-search"
+          >
+            <i
+              class="Icon material focusable small"
+            >
+              <span
+                class="icon"
+                data-icon-name="search"
+              >
+                search
+              </span>
+            </i>
+          </div>
+        </div>
+      </div>
       <div
         class="rightSide"
         data-testid="status-bar-right"
@@ -863,6 +935,99 @@ exports[`preferences - navigation to proxy preferences > given in preferences, w
         <div
           class="separator"
         />
+      </div>
+    </div>
+    <div
+      class="topTabBar"
+      role="tablist"
+    >
+      <div
+        class="Tabs tabs scrollable"
+      >
+        <div
+          class="Tab flex gap-2 items-center topTab"
+          data-testid="top-tab-for-3c63e66c-a98c-4eb3-9f2b-2cb72a672895"
+          id="top-tab-3c63e66c-a98c-4eb3-9f2b-2cb72a672895"
+          role="tab"
+          tabindex="0"
+        >
+          <div
+            class="label"
+          >
+            <div
+              class="flex items-center"
+            >
+              <span
+                class="title"
+              >
+                Preferences
+              </span>
+              <div
+                class="close"
+              >
+                <i
+                  class="Icon material interactive focusable small"
+                  data-testid="top-tab-close-for-3c63e66c-a98c-4eb3-9f2b-2cb72a672895"
+                  tabindex="0"
+                >
+                  <span
+                    class="icon"
+                    data-icon-name="close"
+                  >
+                    close
+                  </span>
+                </i>
+                <div
+                  data-testid="tooltip-content-for-top-tab-close-for-3c63e66c-a98c-4eb3-9f2b-2cb72a672895"
+                >
+                  Close tab
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Tab flex gap-2 items-center topTab active"
+          data-testid="top-tab-for-ea054232-264a-43ea-828d-3b80681d23a5"
+          id="top-tab-ea054232-264a-43ea-828d-3b80681d23a5"
+          role="tab"
+          tabindex="0"
+        >
+          <div
+            class="label"
+          >
+            <div
+              class="flex items-center"
+            >
+              <span
+                class="title"
+              >
+                Proxy
+              </span>
+              <div
+                class="close"
+              >
+                <i
+                  class="Icon material interactive focusable small"
+                  data-testid="top-tab-close-for-ea054232-264a-43ea-828d-3b80681d23a5"
+                  tabindex="0"
+                >
+                  <span
+                    class="icon"
+                    data-icon-name="close"
+                  >
+                    close
+                  </span>
+                </i>
+                <div
+                  data-testid="tooltip-content-for-top-tab-close-for-ea054232-264a-43ea-828d-3b80681d23a5"
+                >
+                  Close tab
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <main>
@@ -1032,7 +1197,7 @@ exports[`preferences - navigation to proxy preferences > given in preferences, w
                   <small
                     class="hint"
                   >
-                    This will make Freelens to trust ANY certificate authority without any validations. Needed with some corporate proxies that do certificate re-writing. Does not affect cluster communications!
+                    This will make IMS-Scope to trust ANY certificate authority without any validations. Needed with some corporate proxies that do certificate re-writing. Does not affect cluster communications!
                   </small>
                 </section>
               </div>
@@ -1234,7 +1399,28 @@ exports[`preferences - navigation to proxy preferences > given in preferences, w
       <div
         class="leftSide"
         data-testid="status-bar-left"
-      />
+      >
+        <div
+          class="item"
+        >
+          <div
+            class="ClusterSearch"
+            data-testid="status-bar-cluster-search"
+            id="status-bar-cluster-search"
+          >
+            <i
+              class="Icon material focusable small"
+            >
+              <span
+                class="icon"
+                data-icon-name="search"
+              >
+                search
+              </span>
+            </i>
+          </div>
+        </div>
+      </div>
       <div
         class="rightSide"
         data-testid="status-bar-right"

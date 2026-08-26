@@ -71,6 +71,141 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page > giv
         />
       </div>
     </div>
+    <div
+      class="topTabBar"
+      role="tablist"
+    >
+      <div
+        class="Tabs tabs scrollable"
+      >
+        <div
+          class="Tab flex gap-2 items-center topTab"
+          data-testid="top-tab-for-6a40b49f-de63-4238-8f0e-4b31f7552321"
+          id="top-tab-6a40b49f-de63-4238-8f0e-4b31f7552321"
+          role="tab"
+          tabindex="0"
+        >
+          <div
+            class="label"
+          >
+            <div
+              class="flex items-center"
+            >
+              <span
+                class="title"
+              >
+                Overview
+              </span>
+              <div
+                class="close"
+              >
+                <i
+                  class="Icon material interactive focusable small"
+                  data-testid="top-tab-close-for-6a40b49f-de63-4238-8f0e-4b31f7552321"
+                  tabindex="0"
+                >
+                  <span
+                    class="icon"
+                    data-icon-name="close"
+                  >
+                    close
+                  </span>
+                </i>
+                <div
+                  data-testid="tooltip-content-for-top-tab-close-for-6a40b49f-de63-4238-8f0e-4b31f7552321"
+                >
+                  Close tab
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Tab flex gap-2 items-center topTab"
+          data-testid="top-tab-for-b45ed223-9ff3-45ba-afa9-288ac239926f"
+          id="top-tab-b45ed223-9ff3-45ba-afa9-288ac239926f"
+          role="tab"
+          tabindex="0"
+        >
+          <div
+            class="label"
+          >
+            <div
+              class="flex items-center"
+            >
+              <span
+                class="title"
+              >
+                Welcome
+              </span>
+              <div
+                class="close"
+              >
+                <i
+                  class="Icon material interactive focusable small"
+                  data-testid="top-tab-close-for-b45ed223-9ff3-45ba-afa9-288ac239926f"
+                  tabindex="0"
+                >
+                  <span
+                    class="icon"
+                    data-icon-name="close"
+                  >
+                    close
+                  </span>
+                </i>
+                <div
+                  data-testid="tooltip-content-for-top-tab-close-for-b45ed223-9ff3-45ba-afa9-288ac239926f"
+                >
+                  Close tab
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Tab flex gap-2 items-center topTab active"
+          data-testid="top-tab-for-a73ffc27-234e-4068-8272-799537ad24eb"
+          id="top-tab-a73ffc27-234e-4068-8272-799537ad24eb"
+          role="tab"
+          tabindex="0"
+        >
+          <div
+            class="label"
+          >
+            <div
+              class="flex items-center"
+            >
+              <span
+                class="title"
+              >
+                Preferences
+              </span>
+              <div
+                class="close"
+              >
+                <i
+                  class="Icon material interactive focusable small"
+                  data-testid="top-tab-close-for-a73ffc27-234e-4068-8272-799537ad24eb"
+                  tabindex="0"
+                >
+                  <span
+                    class="icon"
+                    data-icon-name="close"
+                  >
+                    close
+                  </span>
+                </i>
+                <div
+                  data-testid="tooltip-content-for-top-tab-close-for-a73ffc27-234e-4068-8272-799537ad24eb"
+                >
+                  Close tab
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <main>
       <div
         id="lens-views"
@@ -402,7 +537,7 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page > giv
                     class="Switch"
                     data-testid="switch"
                   >
-                    Automatically start Freelens on login
+                    Automatically start IMS-Scope on login
                     <input
                       role="switch"
                       type="checkbox"
@@ -784,7 +919,28 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page > giv
       <div
         class="leftSide"
         data-testid="status-bar-left"
-      />
+      >
+        <div
+          class="item"
+        >
+          <div
+            class="ClusterSearch"
+            data-testid="status-bar-cluster-search"
+            id="status-bar-cluster-search"
+          >
+            <i
+              class="Icon material focusable small"
+            >
+              <span
+                class="icon"
+                data-icon-name="search"
+              >
+                search
+              </span>
+            </i>
+          </div>
+        </div>
+      </div>
       <div
         class="rightSide"
         data-testid="status-bar-right"
@@ -863,6 +1019,141 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page > giv
         <div
           class="separator"
         />
+      </div>
+    </div>
+    <div
+      class="topTabBar"
+      role="tablist"
+    >
+      <div
+        class="Tabs tabs scrollable"
+      >
+        <div
+          class="Tab flex gap-2 items-center topTab"
+          data-testid="top-tab-for-5c8c0156-463f-4834-b705-747a2280379a"
+          id="top-tab-5c8c0156-463f-4834-b705-747a2280379a"
+          role="tab"
+          tabindex="0"
+        >
+          <div
+            class="label"
+          >
+            <div
+              class="flex items-center"
+            >
+              <span
+                class="title"
+              >
+                Overview
+              </span>
+              <div
+                class="close"
+              >
+                <i
+                  class="Icon material interactive focusable small"
+                  data-testid="top-tab-close-for-5c8c0156-463f-4834-b705-747a2280379a"
+                  tabindex="0"
+                >
+                  <span
+                    class="icon"
+                    data-icon-name="close"
+                  >
+                    close
+                  </span>
+                </i>
+                <div
+                  data-testid="tooltip-content-for-top-tab-close-for-5c8c0156-463f-4834-b705-747a2280379a"
+                >
+                  Close tab
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Tab flex gap-2 items-center topTab"
+          data-testid="top-tab-for-677ccea0-66df-498a-8811-80aa8377da4b"
+          id="top-tab-677ccea0-66df-498a-8811-80aa8377da4b"
+          role="tab"
+          tabindex="0"
+        >
+          <div
+            class="label"
+          >
+            <div
+              class="flex items-center"
+            >
+              <span
+                class="title"
+              >
+                Welcome
+              </span>
+              <div
+                class="close"
+              >
+                <i
+                  class="Icon material interactive focusable small"
+                  data-testid="top-tab-close-for-677ccea0-66df-498a-8811-80aa8377da4b"
+                  tabindex="0"
+                >
+                  <span
+                    class="icon"
+                    data-icon-name="close"
+                  >
+                    close
+                  </span>
+                </i>
+                <div
+                  data-testid="tooltip-content-for-top-tab-close-for-677ccea0-66df-498a-8811-80aa8377da4b"
+                >
+                  Close tab
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Tab flex gap-2 items-center topTab active"
+          data-testid="top-tab-for-b1c1fbe5-2878-465e-a8c5-2d300fa5ae40"
+          id="top-tab-b1c1fbe5-2878-465e-a8c5-2d300fa5ae40"
+          role="tab"
+          tabindex="0"
+        >
+          <div
+            class="label"
+          >
+            <div
+              class="flex items-center"
+            >
+              <span
+                class="title"
+              >
+                Preferences
+              </span>
+              <div
+                class="close"
+              >
+                <i
+                  class="Icon material interactive focusable small"
+                  data-testid="top-tab-close-for-b1c1fbe5-2878-465e-a8c5-2d300fa5ae40"
+                  tabindex="0"
+                >
+                  <span
+                    class="icon"
+                    data-icon-name="close"
+                  >
+                    close
+                  </span>
+                </i>
+                <div
+                  data-testid="tooltip-content-for-top-tab-close-for-b1c1fbe5-2878-465e-a8c5-2d300fa5ae40"
+                >
+                  Close tab
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <main>
@@ -1224,7 +1515,7 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page > giv
                     class="Switch"
                     data-testid="switch"
                   >
-                    Automatically start Freelens on login
+                    Automatically start IMS-Scope on login
                     <input
                       role="switch"
                       type="checkbox"
@@ -1606,7 +1897,28 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page > giv
       <div
         class="leftSide"
         data-testid="status-bar-left"
-      />
+      >
+        <div
+          class="item"
+        >
+          <div
+            class="ClusterSearch"
+            data-testid="status-bar-cluster-search"
+            id="status-bar-cluster-search"
+          >
+            <i
+              class="Icon material focusable small"
+            >
+              <span
+                class="icon"
+                data-icon-name="search"
+              >
+                search
+              </span>
+            </i>
+          </div>
+        </div>
+      </div>
       <div
         class="rightSide"
         data-testid="status-bar-right"
@@ -1685,6 +1997,141 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page > giv
         <div
           class="separator"
         />
+      </div>
+    </div>
+    <div
+      class="topTabBar"
+      role="tablist"
+    >
+      <div
+        class="Tabs tabs scrollable"
+      >
+        <div
+          class="Tab flex gap-2 items-center topTab"
+          data-testid="top-tab-for-21c60f1a-e9f8-45f4-b06c-ef18fa859ecc"
+          id="top-tab-21c60f1a-e9f8-45f4-b06c-ef18fa859ecc"
+          role="tab"
+          tabindex="0"
+        >
+          <div
+            class="label"
+          >
+            <div
+              class="flex items-center"
+            >
+              <span
+                class="title"
+              >
+                Overview
+              </span>
+              <div
+                class="close"
+              >
+                <i
+                  class="Icon material interactive focusable small"
+                  data-testid="top-tab-close-for-21c60f1a-e9f8-45f4-b06c-ef18fa859ecc"
+                  tabindex="0"
+                >
+                  <span
+                    class="icon"
+                    data-icon-name="close"
+                  >
+                    close
+                  </span>
+                </i>
+                <div
+                  data-testid="tooltip-content-for-top-tab-close-for-21c60f1a-e9f8-45f4-b06c-ef18fa859ecc"
+                >
+                  Close tab
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Tab flex gap-2 items-center topTab"
+          data-testid="top-tab-for-bfde5e8b-b539-455d-91c7-336ce0cc8332"
+          id="top-tab-bfde5e8b-b539-455d-91c7-336ce0cc8332"
+          role="tab"
+          tabindex="0"
+        >
+          <div
+            class="label"
+          >
+            <div
+              class="flex items-center"
+            >
+              <span
+                class="title"
+              >
+                Welcome
+              </span>
+              <div
+                class="close"
+              >
+                <i
+                  class="Icon material interactive focusable small"
+                  data-testid="top-tab-close-for-bfde5e8b-b539-455d-91c7-336ce0cc8332"
+                  tabindex="0"
+                >
+                  <span
+                    class="icon"
+                    data-icon-name="close"
+                  >
+                    close
+                  </span>
+                </i>
+                <div
+                  data-testid="tooltip-content-for-top-tab-close-for-bfde5e8b-b539-455d-91c7-336ce0cc8332"
+                >
+                  Close tab
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Tab flex gap-2 items-center topTab active"
+          data-testid="top-tab-for-dd16cfc9-3ec1-40b1-8ba8-4e24effd06c5"
+          id="top-tab-dd16cfc9-3ec1-40b1-8ba8-4e24effd06c5"
+          role="tab"
+          tabindex="0"
+        >
+          <div
+            class="label"
+          >
+            <div
+              class="flex items-center"
+            >
+              <span
+                class="title"
+              >
+                Preferences
+              </span>
+              <div
+                class="close"
+              >
+                <i
+                  class="Icon material interactive focusable small"
+                  data-testid="top-tab-close-for-dd16cfc9-3ec1-40b1-8ba8-4e24effd06c5"
+                  tabindex="0"
+                >
+                  <span
+                    class="icon"
+                    data-icon-name="close"
+                  >
+                    close
+                  </span>
+                </i>
+                <div
+                  data-testid="tooltip-content-for-top-tab-close-for-dd16cfc9-3ec1-40b1-8ba8-4e24effd06c5"
+                >
+                  Close tab
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <main>
@@ -2058,7 +2505,7 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page > giv
                     class="Switch"
                     data-testid="switch"
                   >
-                    Automatically start Freelens on login
+                    Automatically start IMS-Scope on login
                     <input
                       role="switch"
                       type="checkbox"
@@ -2440,7 +2887,28 @@ exports[`preferences - hiding-of-empty-branches, given in preferences page > giv
       <div
         class="leftSide"
         data-testid="status-bar-left"
-      />
+      >
+        <div
+          class="item"
+        >
+          <div
+            class="ClusterSearch"
+            data-testid="status-bar-cluster-search"
+            id="status-bar-cluster-search"
+          >
+            <i
+              class="Icon material focusable small"
+            >
+              <span
+                class="icon"
+                data-icon-name="search"
+              >
+                search
+              </span>
+            </i>
+          </div>
+        </div>
+      </div>
       <div
         class="rightSide"
         data-testid="status-bar-right"

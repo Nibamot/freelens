@@ -209,6 +209,22 @@ exports[`installing helm chart from new tab > given tab for installing chart was
               role="button"
               style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
               tabindex="0"
+            />
+            <div
+              aria-describedby="DndDescribedBy-0"
+              aria-disabled="false"
+              aria-roledescription="sortable"
+              role="button"
+              style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
+              tabindex="0"
+            />
+            <div
+              aria-describedby="DndDescribedBy-0"
+              aria-disabled="false"
+              aria-roledescription="sortable"
+              role="button"
+              style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
+              tabindex="0"
             >
               <div
                 class="SidebarItem"
@@ -792,6 +808,22 @@ exports[`installing helm chart from new tab > given tab for installing chart was
                 </a>
               </div>
             </div>
+            <div
+              aria-describedby="DndDescribedBy-1"
+              aria-disabled="false"
+              aria-roledescription="sortable"
+              role="button"
+              style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
+              tabindex="0"
+            />
+            <div
+              aria-describedby="DndDescribedBy-1"
+              aria-disabled="false"
+              aria-roledescription="sortable"
+              role="button"
+              style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
+              tabindex="0"
+            />
             <div
               aria-describedby="DndDescribedBy-1"
               aria-disabled="false"
@@ -1887,6 +1919,22 @@ exports[`installing helm chart from new tab > given tab for installing chart was
               role="button"
               style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
               tabindex="0"
+            />
+            <div
+              aria-describedby="DndDescribedBy-2"
+              aria-disabled="false"
+              aria-roledescription="sortable"
+              role="button"
+              style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
+              tabindex="0"
+            />
+            <div
+              aria-describedby="DndDescribedBy-2"
+              aria-disabled="false"
+              aria-roledescription="sortable"
+              role="button"
+              style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
+              tabindex="0"
             >
               <div
                 class="SidebarItem"
@@ -2830,6 +2878,22 @@ exports[`installing helm chart from new tab > given tab for installing chart was
                 </a>
               </div>
             </div>
+            <div
+              aria-describedby="DndDescribedBy-39"
+              aria-disabled="false"
+              aria-roledescription="sortable"
+              role="button"
+              style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
+              tabindex="0"
+            />
+            <div
+              aria-describedby="DndDescribedBy-39"
+              aria-disabled="false"
+              aria-roledescription="sortable"
+              role="button"
+              style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
+              tabindex="0"
+            />
             <div
               aria-describedby="DndDescribedBy-39"
               aria-disabled="false"
@@ -4071,6 +4135,22 @@ exports[`installing helm chart from new tab > given tab for installing chart was
               role="button"
               style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
               tabindex="0"
+            />
+            <div
+              aria-describedby="DndDescribedBy-40"
+              aria-disabled="false"
+              aria-roledescription="sortable"
+              role="button"
+              style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
+              tabindex="0"
+            />
+            <div
+              aria-describedby="DndDescribedBy-40"
+              aria-disabled="false"
+              aria-roledescription="sortable"
+              role="button"
+              style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
+              tabindex="0"
             >
               <div
                 class="SidebarItem"
@@ -5251,6 +5331,22 @@ exports[`installing helm chart from new tab > given tab for installing chart was
                 </a>
               </div>
             </div>
+            <div
+              aria-describedby="DndDescribedBy-46"
+              aria-disabled="false"
+              aria-roledescription="sortable"
+              role="button"
+              style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
+              tabindex="0"
+            />
+            <div
+              aria-describedby="DndDescribedBy-46"
+              aria-disabled="false"
+              aria-roledescription="sortable"
+              role="button"
+              style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
+              tabindex="0"
+            />
             <div
               aria-describedby="DndDescribedBy-46"
               aria-disabled="false"
@@ -6456,6 +6552,22 @@ exports[`installing helm chart from new tab > given tab for installing chart was
               role="button"
               style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
               tabindex="0"
+            />
+            <div
+              aria-describedby="DndDescribedBy-66"
+              aria-disabled="false"
+              aria-roledescription="sortable"
+              role="button"
+              style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
+              tabindex="0"
+            />
+            <div
+              aria-describedby="DndDescribedBy-66"
+              aria-disabled="false"
+              aria-roledescription="sortable"
+              role="button"
+              style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
+              tabindex="0"
             >
               <div
                 class="SidebarItem"
@@ -7631,6 +7743,22 @@ exports[`installing helm chart from new tab > given tab for installing chart was
                 </a>
               </div>
             </div>
+            <div
+              aria-describedby="DndDescribedBy-54"
+              aria-disabled="false"
+              aria-roledescription="sortable"
+              role="button"
+              style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
+              tabindex="0"
+            />
+            <div
+              aria-describedby="DndDescribedBy-54"
+              aria-disabled="false"
+              aria-roledescription="sortable"
+              role="button"
+              style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
+              tabindex="0"
+            />
             <div
               aria-describedby="DndDescribedBy-54"
               aria-disabled="false"
@@ -8843,6 +8971,22 @@ exports[`installing helm chart from new tab > given tab for installing chart was
                 </a>
               </div>
             </div>
+            <div
+              aria-describedby="DndDescribedBy-50"
+              aria-disabled="false"
+              aria-roledescription="sortable"
+              role="button"
+              style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
+              tabindex="0"
+            />
+            <div
+              aria-describedby="DndDescribedBy-50"
+              aria-disabled="false"
+              aria-roledescription="sortable"
+              role="button"
+              style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
+              tabindex="0"
+            />
             <div
               aria-describedby="DndDescribedBy-50"
               aria-disabled="false"
@@ -10084,6 +10228,22 @@ exports[`installing helm chart from new tab > given tab for installing chart was
               role="button"
               style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
               tabindex="0"
+            />
+            <div
+              aria-describedby="DndDescribedBy-51"
+              aria-disabled="false"
+              aria-roledescription="sortable"
+              role="button"
+              style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
+              tabindex="0"
+            />
+            <div
+              aria-describedby="DndDescribedBy-51"
+              aria-disabled="false"
+              aria-roledescription="sortable"
+              role="button"
+              style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
+              tabindex="0"
             >
               <div
                 class="SidebarItem"
@@ -11259,6 +11419,22 @@ exports[`installing helm chart from new tab > given tab for installing chart was
                 </a>
               </div>
             </div>
+            <div
+              aria-describedby="DndDescribedBy-12"
+              aria-disabled="false"
+              aria-roledescription="sortable"
+              role="button"
+              style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
+              tabindex="0"
+            />
+            <div
+              aria-describedby="DndDescribedBy-12"
+              aria-disabled="false"
+              aria-roledescription="sortable"
+              role="button"
+              style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
+              tabindex="0"
+            />
             <div
               aria-describedby="DndDescribedBy-12"
               aria-disabled="false"
@@ -12519,6 +12695,22 @@ exports[`installing helm chart from new tab > given tab for installing chart was
               role="button"
               style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
               tabindex="0"
+            />
+            <div
+              aria-describedby="DndDescribedBy-16"
+              aria-disabled="false"
+              aria-roledescription="sortable"
+              role="button"
+              style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
+              tabindex="0"
+            />
+            <div
+              aria-describedby="DndDescribedBy-16"
+              aria-disabled="false"
+              aria-roledescription="sortable"
+              role="button"
+              style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
+              tabindex="0"
             >
               <div
                 class="SidebarItem"
@@ -13557,6 +13749,22 @@ exports[`installing helm chart from new tab > given tab for installing chart was
               role="button"
               style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
               tabindex="0"
+            />
+            <div
+              aria-describedby="DndDescribedBy-18"
+              aria-disabled="false"
+              aria-roledescription="sortable"
+              role="button"
+              style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
+              tabindex="0"
+            />
+            <div
+              aria-describedby="DndDescribedBy-18"
+              aria-disabled="false"
+              aria-roledescription="sortable"
+              role="button"
+              style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
+              tabindex="0"
             >
               <div
                 class="SidebarItem"
@@ -14527,6 +14735,22 @@ exports[`installing helm chart from new tab > given tab for installing chart was
                 </a>
               </div>
             </div>
+            <div
+              aria-describedby="DndDescribedBy-21"
+              aria-disabled="false"
+              aria-roledescription="sortable"
+              role="button"
+              style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
+              tabindex="0"
+            />
+            <div
+              aria-describedby="DndDescribedBy-21"
+              aria-disabled="false"
+              aria-roledescription="sortable"
+              role="button"
+              style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
+              tabindex="0"
+            />
             <div
               aria-describedby="DndDescribedBy-21"
               aria-disabled="false"
@@ -15578,6 +15802,22 @@ exports[`installing helm chart from new tab > given tab for installing chart was
                 </a>
               </div>
             </div>
+            <div
+              aria-describedby="DndDescribedBy-24"
+              aria-disabled="false"
+              aria-roledescription="sortable"
+              role="button"
+              style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
+              tabindex="0"
+            />
+            <div
+              aria-describedby="DndDescribedBy-24"
+              aria-disabled="false"
+              aria-roledescription="sortable"
+              role="button"
+              style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
+              tabindex="0"
+            />
             <div
               aria-describedby="DndDescribedBy-24"
               aria-disabled="false"
@@ -16996,6 +17236,22 @@ exports[`installing helm chart from new tab > given tab for installing chart was
               role="button"
               style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
               tabindex="0"
+            />
+            <div
+              aria-describedby="DndDescribedBy-25"
+              aria-disabled="false"
+              aria-roledescription="sortable"
+              role="button"
+              style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
+              tabindex="0"
+            />
+            <div
+              aria-describedby="DndDescribedBy-25"
+              aria-disabled="false"
+              aria-roledescription="sortable"
+              role="button"
+              style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
+              tabindex="0"
             >
               <div
                 class="SidebarItem"
@@ -17991,6 +18247,22 @@ exports[`installing helm chart from new tab > given tab for installing chart was
                 </a>
               </div>
             </div>
+            <div
+              aria-describedby="DndDescribedBy-31"
+              aria-disabled="false"
+              aria-roledescription="sortable"
+              role="button"
+              style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
+              tabindex="0"
+            />
+            <div
+              aria-describedby="DndDescribedBy-31"
+              aria-disabled="false"
+              aria-roledescription="sortable"
+              role="button"
+              style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
+              tabindex="0"
+            />
             <div
               aria-describedby="DndDescribedBy-31"
               aria-disabled="false"
@@ -19250,6 +19522,22 @@ exports[`installing helm chart from new tab > given tab for installing chart was
               role="button"
               style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
               tabindex="0"
+            />
+            <div
+              aria-describedby="DndDescribedBy-34"
+              aria-disabled="false"
+              aria-roledescription="sortable"
+              role="button"
+              style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
+              tabindex="0"
+            />
+            <div
+              aria-describedby="DndDescribedBy-34"
+              aria-disabled="false"
+              aria-roledescription="sortable"
+              role="button"
+              style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
+              tabindex="0"
             >
               <div
                 class="SidebarItem"
@@ -20492,6 +20780,22 @@ exports[`installing helm chart from new tab > given tab for installing chart was
               role="button"
               style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
               tabindex="0"
+            />
+            <div
+              aria-describedby="DndDescribedBy-60"
+              aria-disabled="false"
+              aria-roledescription="sortable"
+              role="button"
+              style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
+              tabindex="0"
+            />
+            <div
+              aria-describedby="DndDescribedBy-60"
+              aria-disabled="false"
+              aria-roledescription="sortable"
+              role="button"
+              style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
+              tabindex="0"
             >
               <div
                 class="SidebarItem"
@@ -21682,6 +21986,22 @@ exports[`installing helm chart from new tab > given tab for installing chart was
               role="button"
               style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
               tabindex="0"
+            />
+            <div
+              aria-describedby="DndDescribedBy-8"
+              aria-disabled="false"
+              aria-roledescription="sortable"
+              role="button"
+              style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
+              tabindex="0"
+            />
+            <div
+              aria-describedby="DndDescribedBy-8"
+              aria-disabled="false"
+              aria-roledescription="sortable"
+              role="button"
+              style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
+              tabindex="0"
             >
               <div
                 class="SidebarItem"
@@ -22857,6 +23177,22 @@ exports[`installing helm chart from new tab > given tab for installing chart was
                 </a>
               </div>
             </div>
+            <div
+              aria-describedby="DndDescribedBy-10"
+              aria-disabled="false"
+              aria-roledescription="sortable"
+              role="button"
+              style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
+              tabindex="0"
+            />
+            <div
+              aria-describedby="DndDescribedBy-10"
+              aria-disabled="false"
+              aria-roledescription="sortable"
+              role="button"
+              style="pointer-events: auto; opacity: 1; transition: transform 0ms linear;"
+              tabindex="0"
+            />
             <div
               aria-describedby="DndDescribedBy-10"
               aria-disabled="false"

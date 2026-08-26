@@ -71,6 +71,141 @@ exports[`navigating between routes > given route with optional path parameters >
         />
       </div>
     </div>
+    <div
+      class="topTabBar"
+      role="tablist"
+    >
+      <div
+        class="Tabs tabs scrollable"
+      >
+        <div
+          class="Tab flex gap-2 items-center topTab"
+          data-testid="top-tab-for-0ea9c88f-5f1a-4af0-9f42-16bc5b6f91f7"
+          id="top-tab-0ea9c88f-5f1a-4af0-9f42-16bc5b6f91f7"
+          role="tab"
+          tabindex="0"
+        >
+          <div
+            class="label"
+          >
+            <div
+              class="flex items-center"
+            >
+              <span
+                class="title"
+              >
+                Overview
+              </span>
+              <div
+                class="close"
+              >
+                <i
+                  class="Icon material interactive focusable small"
+                  data-testid="top-tab-close-for-0ea9c88f-5f1a-4af0-9f42-16bc5b6f91f7"
+                  tabindex="0"
+                >
+                  <span
+                    class="icon"
+                    data-icon-name="close"
+                  >
+                    close
+                  </span>
+                </i>
+                <div
+                  data-testid="tooltip-content-for-top-tab-close-for-0ea9c88f-5f1a-4af0-9f42-16bc5b6f91f7"
+                >
+                  Close tab
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Tab flex gap-2 items-center topTab"
+          data-testid="top-tab-for-c0ec6cd9-b7f5-4051-a796-ed9a2310bfa3"
+          id="top-tab-c0ec6cd9-b7f5-4051-a796-ed9a2310bfa3"
+          role="tab"
+          tabindex="0"
+        >
+          <div
+            class="label"
+          >
+            <div
+              class="flex items-center"
+            >
+              <span
+                class="title"
+              >
+                Welcome
+              </span>
+              <div
+                class="close"
+              >
+                <i
+                  class="Icon material interactive focusable small"
+                  data-testid="top-tab-close-for-c0ec6cd9-b7f5-4051-a796-ed9a2310bfa3"
+                  tabindex="0"
+                >
+                  <span
+                    class="icon"
+                    data-icon-name="close"
+                  >
+                    close
+                  </span>
+                </i>
+                <div
+                  data-testid="tooltip-content-for-top-tab-close-for-c0ec6cd9-b7f5-4051-a796-ed9a2310bfa3"
+                >
+                  Close tab
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Tab flex gap-2 items-center topTab active"
+          data-testid="top-tab-for-88a55ee4-8abc-46a1-b2eb-973d7230135f"
+          id="top-tab-88a55ee4-8abc-46a1-b2eb-973d7230135f"
+          role="tab"
+          tabindex="0"
+        >
+          <div
+            class="label"
+          >
+            <div
+              class="flex items-center"
+            >
+              <span
+                class="title"
+              >
+                Some Other Value
+              </span>
+              <div
+                class="close"
+              >
+                <i
+                  class="Icon material interactive focusable small"
+                  data-testid="top-tab-close-for-88a55ee4-8abc-46a1-b2eb-973d7230135f"
+                  tabindex="0"
+                >
+                  <span
+                    class="icon"
+                    data-icon-name="close"
+                  >
+                    close
+                  </span>
+                </i>
+                <div
+                  data-testid="tooltip-content-for-top-tab-close-for-88a55ee4-8abc-46a1-b2eb-973d7230135f"
+                >
+                  Close tab
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <main>
       <div
         id="lens-views"
@@ -241,7 +376,28 @@ exports[`navigating between routes > given route with optional path parameters >
       <div
         class="leftSide"
         data-testid="status-bar-left"
-      />
+      >
+        <div
+          class="item"
+        >
+          <div
+            class="ClusterSearch"
+            data-testid="status-bar-cluster-search"
+            id="status-bar-cluster-search"
+          >
+            <i
+              class="Icon material focusable small"
+            >
+              <span
+                class="icon"
+                data-icon-name="search"
+              >
+                search
+              </span>
+            </i>
+          </div>
+        </div>
+      </div>
       <div
         class="rightSide"
         data-testid="status-bar-right"
@@ -320,6 +476,141 @@ exports[`navigating between routes > given route without path parameters > when 
         <div
           class="separator"
         />
+      </div>
+    </div>
+    <div
+      class="topTabBar"
+      role="tablist"
+    >
+      <div
+        class="Tabs tabs scrollable"
+      >
+        <div
+          class="Tab flex gap-2 items-center topTab"
+          data-testid="top-tab-for-c6469b6d-5764-4422-9136-0144945bfc95"
+          id="top-tab-c6469b6d-5764-4422-9136-0144945bfc95"
+          role="tab"
+          tabindex="0"
+        >
+          <div
+            class="label"
+          >
+            <div
+              class="flex items-center"
+            >
+              <span
+                class="title"
+              >
+                Overview
+              </span>
+              <div
+                class="close"
+              >
+                <i
+                  class="Icon material interactive focusable small"
+                  data-testid="top-tab-close-for-c6469b6d-5764-4422-9136-0144945bfc95"
+                  tabindex="0"
+                >
+                  <span
+                    class="icon"
+                    data-icon-name="close"
+                  >
+                    close
+                  </span>
+                </i>
+                <div
+                  data-testid="tooltip-content-for-top-tab-close-for-c6469b6d-5764-4422-9136-0144945bfc95"
+                >
+                  Close tab
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Tab flex gap-2 items-center topTab"
+          data-testid="top-tab-for-ae86946c-fd03-49ac-8930-f95793c00573"
+          id="top-tab-ae86946c-fd03-49ac-8930-f95793c00573"
+          role="tab"
+          tabindex="0"
+        >
+          <div
+            class="label"
+          >
+            <div
+              class="flex items-center"
+            >
+              <span
+                class="title"
+              >
+                Welcome
+              </span>
+              <div
+                class="close"
+              >
+                <i
+                  class="Icon material interactive focusable small"
+                  data-testid="top-tab-close-for-ae86946c-fd03-49ac-8930-f95793c00573"
+                  tabindex="0"
+                >
+                  <span
+                    class="icon"
+                    data-icon-name="close"
+                  >
+                    close
+                  </span>
+                </i>
+                <div
+                  data-testid="tooltip-content-for-top-tab-close-for-ae86946c-fd03-49ac-8930-f95793c00573"
+                >
+                  Close tab
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Tab flex gap-2 items-center topTab active"
+          data-testid="top-tab-for-02b41c5d-f1d4-4eee-9378-bc6683faf891"
+          id="top-tab-02b41c5d-f1d4-4eee-9378-bc6683faf891"
+          role="tab"
+          tabindex="0"
+        >
+          <div
+            class="label"
+          >
+            <div
+              class="flex items-center"
+            >
+              <span
+                class="title"
+              >
+                Some Path
+              </span>
+              <div
+                class="close"
+              >
+                <i
+                  class="Icon material interactive focusable small"
+                  data-testid="top-tab-close-for-02b41c5d-f1d4-4eee-9378-bc6683faf891"
+                  tabindex="0"
+                >
+                  <span
+                    class="icon"
+                    data-icon-name="close"
+                  >
+                    close
+                  </span>
+                </i>
+                <div
+                  data-testid="tooltip-content-for-top-tab-close-for-02b41c5d-f1d4-4eee-9378-bc6683faf891"
+                >
+                  Close tab
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <main>
@@ -489,7 +780,28 @@ exports[`navigating between routes > given route without path parameters > when 
       <div
         class="leftSide"
         data-testid="status-bar-left"
-      />
+      >
+        <div
+          class="item"
+        >
+          <div
+            class="ClusterSearch"
+            data-testid="status-bar-cluster-search"
+            id="status-bar-cluster-search"
+          >
+            <i
+              class="Icon material focusable small"
+            >
+              <span
+                class="icon"
+                data-icon-name="search"
+              >
+                search
+              </span>
+            </i>
+          </div>
+        </div>
+      </div>
       <div
         class="rightSide"
         data-testid="status-bar-right"

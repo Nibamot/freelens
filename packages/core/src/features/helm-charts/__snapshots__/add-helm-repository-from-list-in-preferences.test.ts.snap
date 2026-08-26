@@ -72,6 +72,183 @@ exports[`add helm repository from list in preferences > when navigating to prefe
           />
         </div>
       </div>
+      <div
+        class="topTabBar"
+        role="tablist"
+      >
+        <div
+          class="Tabs tabs scrollable"
+        >
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-ce93b620-7724-4989-8197-00771cd79ab5"
+            id="top-tab-ce93b620-7724-4989-8197-00771cd79ab5"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Overview
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-ce93b620-7724-4989-8197-00771cd79ab5"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-ce93b620-7724-4989-8197-00771cd79ab5"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-9fc943f1-fdda-491d-9b9d-cc805df3368d"
+            id="top-tab-9fc943f1-fdda-491d-9b9d-cc805df3368d"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Welcome
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-9fc943f1-fdda-491d-9b9d-cc805df3368d"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-9fc943f1-fdda-491d-9b9d-cc805df3368d"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-a86e5d34-9bf2-4935-b70e-ae958aa0166c"
+            id="top-tab-a86e5d34-9bf2-4935-b70e-ae958aa0166c"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Preferences
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-a86e5d34-9bf2-4935-b70e-ae958aa0166c"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-a86e5d34-9bf2-4935-b70e-ae958aa0166c"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab active"
+            data-testid="top-tab-for-5a319a69-e191-40ec-b985-a095ecc45465"
+            id="top-tab-5a319a69-e191-40ec-b985-a095ecc45465"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Kubernetes
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-5a319a69-e191-40ec-b985-a095ecc45465"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-5a319a69-e191-40ec-b985-a095ecc45465"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <main>
         <div
           id="lens-views"
@@ -826,7 +1003,28 @@ exports[`add helm repository from list in preferences > when navigating to prefe
         <div
           class="leftSide"
           data-testid="status-bar-left"
-        />
+        >
+          <div
+            class="item"
+          >
+            <div
+              class="ClusterSearch"
+              data-testid="status-bar-cluster-search"
+              id="status-bar-cluster-search"
+            >
+              <i
+                class="Icon material focusable small"
+              >
+                <span
+                  class="icon"
+                  data-icon-name="search"
+                >
+                  search
+                </span>
+              </i>
+            </div>
+          </div>
+        </div>
         <div
           class="rightSide"
           data-testid="status-bar-right"
@@ -907,6 +1105,183 @@ exports[`add helm repository from list in preferences > when navigating to prefe
           <div
             class="separator"
           />
+        </div>
+      </div>
+      <div
+        class="topTabBar"
+        role="tablist"
+      >
+        <div
+          class="Tabs tabs scrollable"
+        >
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-52770f34-f748-4011-aa7d-6d81c5d52c60"
+            id="top-tab-52770f34-f748-4011-aa7d-6d81c5d52c60"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Overview
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-52770f34-f748-4011-aa7d-6d81c5d52c60"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-52770f34-f748-4011-aa7d-6d81c5d52c60"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-b7b46363-b862-4370-8934-ca81c45f17e1"
+            id="top-tab-b7b46363-b862-4370-8934-ca81c45f17e1"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Welcome
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-b7b46363-b862-4370-8934-ca81c45f17e1"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-b7b46363-b862-4370-8934-ca81c45f17e1"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-86bb0877-32ed-41d8-90af-c6709b579341"
+            id="top-tab-86bb0877-32ed-41d8-90af-c6709b579341"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Preferences
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-86bb0877-32ed-41d8-90af-c6709b579341"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-86bb0877-32ed-41d8-90af-c6709b579341"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab active"
+            data-testid="top-tab-for-c6d8f7c8-0e20-443b-9af4-24a69e475a10"
+            id="top-tab-c6d8f7c8-0e20-443b-9af4-24a69e475a10"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Kubernetes
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-c6d8f7c8-0e20-443b-9af4-24a69e475a10"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-c6d8f7c8-0e20-443b-9af4-24a69e475a10"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <main>
@@ -1701,7 +2076,28 @@ exports[`add helm repository from list in preferences > when navigating to prefe
         <div
           class="leftSide"
           data-testid="status-bar-left"
-        />
+        >
+          <div
+            class="item"
+          >
+            <div
+              class="ClusterSearch"
+              data-testid="status-bar-cluster-search"
+              id="status-bar-cluster-search"
+            >
+              <i
+                class="Icon material focusable small"
+              >
+                <span
+                  class="icon"
+                  data-icon-name="search"
+                >
+                  search
+                </span>
+              </i>
+            </div>
+          </div>
+        </div>
         <div
           class="rightSide"
           data-testid="status-bar-right"
@@ -1782,6 +2178,183 @@ exports[`add helm repository from list in preferences > when navigating to prefe
           <div
             class="separator"
           />
+        </div>
+      </div>
+      <div
+        class="topTabBar"
+        role="tablist"
+      >
+        <div
+          class="Tabs tabs scrollable"
+        >
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-818a5331-6fe1-431d-b281-6055c81a38b1"
+            id="top-tab-818a5331-6fe1-431d-b281-6055c81a38b1"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Overview
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-818a5331-6fe1-431d-b281-6055c81a38b1"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-818a5331-6fe1-431d-b281-6055c81a38b1"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-1eb6b2b4-88f8-415b-acfe-3bc8db4bc0f9"
+            id="top-tab-1eb6b2b4-88f8-415b-acfe-3bc8db4bc0f9"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Welcome
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-1eb6b2b4-88f8-415b-acfe-3bc8db4bc0f9"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-1eb6b2b4-88f8-415b-acfe-3bc8db4bc0f9"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-e7e1004c-997c-4a6d-b028-9db2c191150d"
+            id="top-tab-e7e1004c-997c-4a6d-b028-9db2c191150d"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Preferences
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-e7e1004c-997c-4a6d-b028-9db2c191150d"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-e7e1004c-997c-4a6d-b028-9db2c191150d"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab active"
+            data-testid="top-tab-for-4b273b3d-e8e1-4608-95e3-c0654d66273f"
+            id="top-tab-4b273b3d-e8e1-4608-95e3-c0654d66273f"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Kubernetes
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-4b273b3d-e8e1-4608-95e3-c0654d66273f"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-4b273b3d-e8e1-4608-95e3-c0654d66273f"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <main>
@@ -2577,7 +3150,28 @@ exports[`add helm repository from list in preferences > when navigating to prefe
         <div
           class="leftSide"
           data-testid="status-bar-left"
-        />
+        >
+          <div
+            class="item"
+          >
+            <div
+              class="ClusterSearch"
+              data-testid="status-bar-cluster-search"
+              id="status-bar-cluster-search"
+            >
+              <i
+                class="Icon material focusable small"
+              >
+                <span
+                  class="icon"
+                  data-icon-name="search"
+                >
+                  search
+                </span>
+              </i>
+            </div>
+          </div>
+        </div>
         <div
           class="rightSide"
           data-testid="status-bar-right"
@@ -2715,6 +3309,183 @@ exports[`add helm repository from list in preferences > when navigating to prefe
           <div
             class="separator"
           />
+        </div>
+      </div>
+      <div
+        class="topTabBar"
+        role="tablist"
+      >
+        <div
+          class="Tabs tabs scrollable"
+        >
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-86f4fd95-9835-4ff8-ae5b-bc1e8962af64"
+            id="top-tab-86f4fd95-9835-4ff8-ae5b-bc1e8962af64"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Overview
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-86f4fd95-9835-4ff8-ae5b-bc1e8962af64"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-86f4fd95-9835-4ff8-ae5b-bc1e8962af64"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-03961d18-4918-44ad-bffa-e9c9cc6c8009"
+            id="top-tab-03961d18-4918-44ad-bffa-e9c9cc6c8009"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Welcome
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-03961d18-4918-44ad-bffa-e9c9cc6c8009"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-03961d18-4918-44ad-bffa-e9c9cc6c8009"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-26b497bf-3938-43a7-aadd-7daed5bb5d3c"
+            id="top-tab-26b497bf-3938-43a7-aadd-7daed5bb5d3c"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Preferences
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-26b497bf-3938-43a7-aadd-7daed5bb5d3c"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-26b497bf-3938-43a7-aadd-7daed5bb5d3c"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab active"
+            data-testid="top-tab-for-c92de89e-be68-41b6-a9ab-61d8dcea0312"
+            id="top-tab-c92de89e-be68-41b6-a9ab-61d8dcea0312"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Kubernetes
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-c92de89e-be68-41b6-a9ab-61d8dcea0312"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-c92de89e-be68-41b6-a9ab-61d8dcea0312"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <main>
@@ -3509,7 +4280,28 @@ exports[`add helm repository from list in preferences > when navigating to prefe
         <div
           class="leftSide"
           data-testid="status-bar-left"
-        />
+        >
+          <div
+            class="item"
+          >
+            <div
+              class="ClusterSearch"
+              data-testid="status-bar-cluster-search"
+              id="status-bar-cluster-search"
+            >
+              <i
+                class="Icon material focusable small"
+              >
+                <span
+                  class="icon"
+                  data-icon-name="search"
+                >
+                  search
+                </span>
+              </i>
+            </div>
+          </div>
+        </div>
         <div
           class="rightSide"
           data-testid="status-bar-right"
@@ -3590,6 +4382,183 @@ exports[`add helm repository from list in preferences > when navigating to prefe
           <div
             class="separator"
           />
+        </div>
+      </div>
+      <div
+        class="topTabBar"
+        role="tablist"
+      >
+        <div
+          class="Tabs tabs scrollable"
+        >
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-f06a7229-176d-43c0-9a58-e6078bb90cdc"
+            id="top-tab-f06a7229-176d-43c0-9a58-e6078bb90cdc"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Overview
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-f06a7229-176d-43c0-9a58-e6078bb90cdc"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-f06a7229-176d-43c0-9a58-e6078bb90cdc"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-dab4f6aa-0f02-4c03-ba55-1b195e31a895"
+            id="top-tab-dab4f6aa-0f02-4c03-ba55-1b195e31a895"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Welcome
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-dab4f6aa-0f02-4c03-ba55-1b195e31a895"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-dab4f6aa-0f02-4c03-ba55-1b195e31a895"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-d1822ac6-ab76-44ff-947b-730d82294f57"
+            id="top-tab-d1822ac6-ab76-44ff-947b-730d82294f57"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Preferences
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-d1822ac6-ab76-44ff-947b-730d82294f57"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-d1822ac6-ab76-44ff-947b-730d82294f57"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab active"
+            data-testid="top-tab-for-b538ffe8-a4a4-4594-95e9-217ce2d5a205"
+            id="top-tab-b538ffe8-a4a4-4594-95e9-217ce2d5a205"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Kubernetes
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-b538ffe8-a4a4-4594-95e9-217ce2d5a205"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-b538ffe8-a4a4-4594-95e9-217ce2d5a205"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <main>
@@ -4384,7 +5353,28 @@ exports[`add helm repository from list in preferences > when navigating to prefe
         <div
           class="leftSide"
           data-testid="status-bar-left"
-        />
+        >
+          <div
+            class="item"
+          >
+            <div
+              class="ClusterSearch"
+              data-testid="status-bar-cluster-search"
+              id="status-bar-cluster-search"
+            >
+              <i
+                class="Icon material focusable small"
+              >
+                <span
+                  class="icon"
+                  data-icon-name="search"
+                >
+                  search
+                </span>
+              </i>
+            </div>
+          </div>
+        </div>
         <div
           class="rightSide"
           data-testid="status-bar-right"
@@ -4465,6 +5455,183 @@ exports[`add helm repository from list in preferences > when navigating to prefe
           <div
             class="separator"
           />
+        </div>
+      </div>
+      <div
+        class="topTabBar"
+        role="tablist"
+      >
+        <div
+          class="Tabs tabs scrollable"
+        >
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-050bfb1f-1934-4fdb-9139-6f8d75e430a4"
+            id="top-tab-050bfb1f-1934-4fdb-9139-6f8d75e430a4"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Overview
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-050bfb1f-1934-4fdb-9139-6f8d75e430a4"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-050bfb1f-1934-4fdb-9139-6f8d75e430a4"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-edd367e0-6c70-41ce-b735-1a3aec01cbab"
+            id="top-tab-edd367e0-6c70-41ce-b735-1a3aec01cbab"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Welcome
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-edd367e0-6c70-41ce-b735-1a3aec01cbab"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-edd367e0-6c70-41ce-b735-1a3aec01cbab"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-af3936ac-5ad5-48bc-a889-1af6285e1668"
+            id="top-tab-af3936ac-5ad5-48bc-a889-1af6285e1668"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Preferences
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-af3936ac-5ad5-48bc-a889-1af6285e1668"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-af3936ac-5ad5-48bc-a889-1af6285e1668"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab active"
+            data-testid="top-tab-for-d6a1af85-226c-4933-b71a-55d76450d8d4"
+            id="top-tab-d6a1af85-226c-4933-b71a-55d76450d8d4"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Kubernetes
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-d6a1af85-226c-4933-b71a-55d76450d8d4"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-d6a1af85-226c-4933-b71a-55d76450d8d4"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <main>
@@ -5249,7 +6416,28 @@ exports[`add helm repository from list in preferences > when navigating to prefe
         <div
           class="leftSide"
           data-testid="status-bar-left"
-        />
+        >
+          <div
+            class="item"
+          >
+            <div
+              class="ClusterSearch"
+              data-testid="status-bar-cluster-search"
+              id="status-bar-cluster-search"
+            >
+              <i
+                class="Icon material focusable small"
+              >
+                <span
+                  class="icon"
+                  data-icon-name="search"
+                >
+                  search
+                </span>
+              </i>
+            </div>
+          </div>
+        </div>
         <div
           class="rightSide"
           data-testid="status-bar-right"
@@ -5330,6 +6518,183 @@ exports[`add helm repository from list in preferences > when navigating to prefe
           <div
             class="separator"
           />
+        </div>
+      </div>
+      <div
+        class="topTabBar"
+        role="tablist"
+      >
+        <div
+          class="Tabs tabs scrollable"
+        >
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-16289829-d05b-46dc-ac63-b3ceb4113afd"
+            id="top-tab-16289829-d05b-46dc-ac63-b3ceb4113afd"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Overview
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-16289829-d05b-46dc-ac63-b3ceb4113afd"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-16289829-d05b-46dc-ac63-b3ceb4113afd"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-cda8efdc-83da-4e75-933b-be50bb8fcf4e"
+            id="top-tab-cda8efdc-83da-4e75-933b-be50bb8fcf4e"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Welcome
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-cda8efdc-83da-4e75-933b-be50bb8fcf4e"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-cda8efdc-83da-4e75-933b-be50bb8fcf4e"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-91eba84c-934e-40f5-b435-b33f9a06217a"
+            id="top-tab-91eba84c-934e-40f5-b435-b33f9a06217a"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Preferences
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-91eba84c-934e-40f5-b435-b33f9a06217a"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-91eba84c-934e-40f5-b435-b33f9a06217a"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab active"
+            data-testid="top-tab-for-92583148-c72e-466d-9714-0cab4a8ac4d0"
+            id="top-tab-92583148-c72e-466d-9714-0cab4a8ac4d0"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Kubernetes
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-92583148-c72e-466d-9714-0cab4a8ac4d0"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-92583148-c72e-466d-9714-0cab4a8ac4d0"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <main>
@@ -6158,7 +7523,28 @@ exports[`add helm repository from list in preferences > when navigating to prefe
         <div
           class="leftSide"
           data-testid="status-bar-left"
-        />
+        >
+          <div
+            class="item"
+          >
+            <div
+              class="ClusterSearch"
+              data-testid="status-bar-cluster-search"
+              id="status-bar-cluster-search"
+            >
+              <i
+                class="Icon material focusable small"
+              >
+                <span
+                  class="icon"
+                  data-icon-name="search"
+                >
+                  search
+                </span>
+              </i>
+            </div>
+          </div>
+        </div>
         <div
           class="rightSide"
           data-testid="status-bar-right"
@@ -6239,6 +7625,183 @@ exports[`add helm repository from list in preferences > when navigating to prefe
           <div
             class="separator"
           />
+        </div>
+      </div>
+      <div
+        class="topTabBar"
+        role="tablist"
+      >
+        <div
+          class="Tabs tabs scrollable"
+        >
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-a0e3fda1-36ab-48e4-b86e-ddf3f339aed2"
+            id="top-tab-a0e3fda1-36ab-48e4-b86e-ddf3f339aed2"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Overview
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-a0e3fda1-36ab-48e4-b86e-ddf3f339aed2"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-a0e3fda1-36ab-48e4-b86e-ddf3f339aed2"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-275d498e-c6ab-4793-a3d9-22f11c5752ea"
+            id="top-tab-275d498e-c6ab-4793-a3d9-22f11c5752ea"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Welcome
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-275d498e-c6ab-4793-a3d9-22f11c5752ea"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-275d498e-c6ab-4793-a3d9-22f11c5752ea"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-f9aa21d3-540d-48e3-a906-cfb4e588cd7a"
+            id="top-tab-f9aa21d3-540d-48e3-a906-cfb4e588cd7a"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Preferences
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-f9aa21d3-540d-48e3-a906-cfb4e588cd7a"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-f9aa21d3-540d-48e3-a906-cfb4e588cd7a"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab active"
+            data-testid="top-tab-for-f0c6587b-f85b-48b6-b6b5-8816f323ae67"
+            id="top-tab-f0c6587b-f85b-48b6-b6b5-8816f323ae67"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Kubernetes
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-f0c6587b-f85b-48b6-b6b5-8816f323ae67"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-f0c6587b-f85b-48b6-b6b5-8816f323ae67"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <main>
@@ -7068,7 +8631,28 @@ exports[`add helm repository from list in preferences > when navigating to prefe
         <div
           class="leftSide"
           data-testid="status-bar-left"
-        />
+        >
+          <div
+            class="item"
+          >
+            <div
+              class="ClusterSearch"
+              data-testid="status-bar-cluster-search"
+              id="status-bar-cluster-search"
+            >
+              <i
+                class="Icon material focusable small"
+              >
+                <span
+                  class="icon"
+                  data-icon-name="search"
+                >
+                  search
+                </span>
+              </i>
+            </div>
+          </div>
+        </div>
         <div
           class="rightSide"
           data-testid="status-bar-right"
@@ -7216,6 +8800,183 @@ exports[`add helm repository from list in preferences > when navigating to prefe
           <div
             class="separator"
           />
+        </div>
+      </div>
+      <div
+        class="topTabBar"
+        role="tablist"
+      >
+        <div
+          class="Tabs tabs scrollable"
+        >
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-fe7388e5-e088-4c04-b3ea-62d041f2bb04"
+            id="top-tab-fe7388e5-e088-4c04-b3ea-62d041f2bb04"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Overview
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-fe7388e5-e088-4c04-b3ea-62d041f2bb04"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-fe7388e5-e088-4c04-b3ea-62d041f2bb04"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-b0347112-f5f3-4e76-b90c-01a6ed74e948"
+            id="top-tab-b0347112-f5f3-4e76-b90c-01a6ed74e948"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Welcome
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-b0347112-f5f3-4e76-b90c-01a6ed74e948"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-b0347112-f5f3-4e76-b90c-01a6ed74e948"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-e06ea62d-1ad9-490a-b3e9-5e75dc8e7084"
+            id="top-tab-e06ea62d-1ad9-490a-b3e9-5e75dc8e7084"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Preferences
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-e06ea62d-1ad9-490a-b3e9-5e75dc8e7084"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-e06ea62d-1ad9-490a-b3e9-5e75dc8e7084"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab active"
+            data-testid="top-tab-for-dd52804a-87d9-4dc1-b8dd-ed4972dfdb6c"
+            id="top-tab-dd52804a-87d9-4dc1-b8dd-ed4972dfdb6c"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Kubernetes
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-dd52804a-87d9-4dc1-b8dd-ed4972dfdb6c"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-dd52804a-87d9-4dc1-b8dd-ed4972dfdb6c"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <main>
@@ -8044,7 +9805,28 @@ exports[`add helm repository from list in preferences > when navigating to prefe
         <div
           class="leftSide"
           data-testid="status-bar-left"
-        />
+        >
+          <div
+            class="item"
+          >
+            <div
+              class="ClusterSearch"
+              data-testid="status-bar-cluster-search"
+              id="status-bar-cluster-search"
+            >
+              <i
+                class="Icon material focusable small"
+              >
+                <span
+                  class="icon"
+                  data-icon-name="search"
+                >
+                  search
+                </span>
+              </i>
+            </div>
+          </div>
+        </div>
         <div
           class="rightSide"
           data-testid="status-bar-right"
@@ -8125,6 +9907,183 @@ exports[`add helm repository from list in preferences > when navigating to prefe
           <div
             class="separator"
           />
+        </div>
+      </div>
+      <div
+        class="topTabBar"
+        role="tablist"
+      >
+        <div
+          class="Tabs tabs scrollable"
+        >
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-cf00432e-1f75-491b-bd45-5c57f730f9ac"
+            id="top-tab-cf00432e-1f75-491b-bd45-5c57f730f9ac"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Overview
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-cf00432e-1f75-491b-bd45-5c57f730f9ac"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-cf00432e-1f75-491b-bd45-5c57f730f9ac"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-80f369a4-7a35-4001-9b02-c25b99b4b418"
+            id="top-tab-80f369a4-7a35-4001-9b02-c25b99b4b418"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Welcome
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-80f369a4-7a35-4001-9b02-c25b99b4b418"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-80f369a4-7a35-4001-9b02-c25b99b4b418"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab"
+            data-testid="top-tab-for-f87621bf-8377-45cf-87e4-b0a08066db93"
+            id="top-tab-f87621bf-8377-45cf-87e4-b0a08066db93"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Preferences
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-f87621bf-8377-45cf-87e4-b0a08066db93"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-f87621bf-8377-45cf-87e4-b0a08066db93"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="Tab flex gap-2 items-center topTab active"
+            data-testid="top-tab-for-22aa04cc-97d4-48df-a315-676cac7914d3"
+            id="top-tab-22aa04cc-97d4-48df-a315-676cac7914d3"
+            role="tab"
+            tabindex="0"
+          >
+            <div
+              class="label"
+            >
+              <div
+                class="flex items-center"
+              >
+                <span
+                  class="title"
+                >
+                  Kubernetes
+                </span>
+                <div
+                  class="close"
+                >
+                  <i
+                    class="Icon material interactive focusable small"
+                    data-testid="top-tab-close-for-22aa04cc-97d4-48df-a315-676cac7914d3"
+                    tabindex="0"
+                  >
+                    <span
+                      class="icon"
+                      data-icon-name="close"
+                    >
+                      close
+                    </span>
+                  </i>
+                  <div
+                    data-testid="tooltip-content-for-top-tab-close-for-22aa04cc-97d4-48df-a315-676cac7914d3"
+                  >
+                    Close tab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <main>
@@ -8909,7 +10868,28 @@ exports[`add helm repository from list in preferences > when navigating to prefe
         <div
           class="leftSide"
           data-testid="status-bar-left"
-        />
+        >
+          <div
+            class="item"
+          >
+            <div
+              class="ClusterSearch"
+              data-testid="status-bar-cluster-search"
+              id="status-bar-cluster-search"
+            >
+              <i
+                class="Icon material focusable small"
+              >
+                <span
+                  class="icon"
+                  data-icon-name="search"
+                >
+                  search
+                </span>
+              </i>
+            </div>
+          </div>
+        </div>
         <div
           class="rightSide"
           data-testid="status-bar-right"

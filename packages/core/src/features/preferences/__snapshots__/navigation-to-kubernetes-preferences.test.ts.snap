@@ -71,6 +71,57 @@ exports[`preferences - navigation to kubernetes preferences > given in preferenc
         />
       </div>
     </div>
+    <div
+      class="topTabBar"
+      role="tablist"
+    >
+      <div
+        class="Tabs tabs scrollable"
+      >
+        <div
+          class="Tab flex gap-2 items-center topTab active"
+          data-testid="top-tab-for-5a48e229-d2e5-410d-bb20-438bc6219ba5"
+          id="top-tab-5a48e229-d2e5-410d-bb20-438bc6219ba5"
+          role="tab"
+          tabindex="0"
+        >
+          <div
+            class="label"
+          >
+            <div
+              class="flex items-center"
+            >
+              <span
+                class="title"
+              >
+                Preferences
+              </span>
+              <div
+                class="close"
+              >
+                <i
+                  class="Icon material interactive focusable small"
+                  data-testid="top-tab-close-for-5a48e229-d2e5-410d-bb20-438bc6219ba5"
+                  tabindex="0"
+                >
+                  <span
+                    class="icon"
+                    data-icon-name="close"
+                  >
+                    close
+                  </span>
+                </i>
+                <div
+                  data-testid="tooltip-content-for-top-tab-close-for-5a48e229-d2e5-410d-bb20-438bc6219ba5"
+                >
+                  Close tab
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <main>
       <div
         id="lens-views"
@@ -402,7 +453,7 @@ exports[`preferences - navigation to kubernetes preferences > given in preferenc
                     class="Switch"
                     data-testid="switch"
                   >
-                    Automatically start Freelens on login
+                    Automatically start IMS-Scope on login
                     <input
                       role="switch"
                       type="checkbox"
@@ -784,7 +835,28 @@ exports[`preferences - navigation to kubernetes preferences > given in preferenc
       <div
         class="leftSide"
         data-testid="status-bar-left"
-      />
+      >
+        <div
+          class="item"
+        >
+          <div
+            class="ClusterSearch"
+            data-testid="status-bar-cluster-search"
+            id="status-bar-cluster-search"
+          >
+            <i
+              class="Icon material focusable small"
+            >
+              <span
+                class="icon"
+                data-icon-name="search"
+              >
+                search
+              </span>
+            </i>
+          </div>
+        </div>
+      </div>
       <div
         class="rightSide"
         data-testid="status-bar-right"
@@ -863,6 +935,99 @@ exports[`preferences - navigation to kubernetes preferences > given in preferenc
         <div
           class="separator"
         />
+      </div>
+    </div>
+    <div
+      class="topTabBar"
+      role="tablist"
+    >
+      <div
+        class="Tabs tabs scrollable"
+      >
+        <div
+          class="Tab flex gap-2 items-center topTab"
+          data-testid="top-tab-for-d1a1f2a5-ef82-4e2c-87d3-1847f89aad90"
+          id="top-tab-d1a1f2a5-ef82-4e2c-87d3-1847f89aad90"
+          role="tab"
+          tabindex="0"
+        >
+          <div
+            class="label"
+          >
+            <div
+              class="flex items-center"
+            >
+              <span
+                class="title"
+              >
+                Preferences
+              </span>
+              <div
+                class="close"
+              >
+                <i
+                  class="Icon material interactive focusable small"
+                  data-testid="top-tab-close-for-d1a1f2a5-ef82-4e2c-87d3-1847f89aad90"
+                  tabindex="0"
+                >
+                  <span
+                    class="icon"
+                    data-icon-name="close"
+                  >
+                    close
+                  </span>
+                </i>
+                <div
+                  data-testid="tooltip-content-for-top-tab-close-for-d1a1f2a5-ef82-4e2c-87d3-1847f89aad90"
+                >
+                  Close tab
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Tab flex gap-2 items-center topTab active"
+          data-testid="top-tab-for-136a1045-7b27-4792-8ff7-b4da68cec11b"
+          id="top-tab-136a1045-7b27-4792-8ff7-b4da68cec11b"
+          role="tab"
+          tabindex="0"
+        >
+          <div
+            class="label"
+          >
+            <div
+              class="flex items-center"
+            >
+              <span
+                class="title"
+              >
+                Kubernetes
+              </span>
+              <div
+                class="close"
+              >
+                <i
+                  class="Icon material interactive focusable small"
+                  data-testid="top-tab-close-for-136a1045-7b27-4792-8ff7-b4da68cec11b"
+                  tabindex="0"
+                >
+                  <span
+                    class="icon"
+                    data-icon-name="close"
+                  >
+                    close
+                  </span>
+                </i>
+                <div
+                  data-testid="tooltip-content-for-top-tab-close-for-136a1045-7b27-4792-8ff7-b4da68cec11b"
+                >
+                  Close tab
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <main>
@@ -1622,7 +1787,28 @@ exports[`preferences - navigation to kubernetes preferences > given in preferenc
       <div
         class="leftSide"
         data-testid="status-bar-left"
-      />
+      >
+        <div
+          class="item"
+        >
+          <div
+            class="ClusterSearch"
+            data-testid="status-bar-cluster-search"
+            id="status-bar-cluster-search"
+          >
+            <i
+              class="Icon material focusable small"
+            >
+              <span
+                class="icon"
+                data-icon-name="search"
+              >
+                search
+              </span>
+            </i>
+          </div>
+        </div>
+      </div>
       <div
         class="rightSide"
         data-testid="status-bar-right"
