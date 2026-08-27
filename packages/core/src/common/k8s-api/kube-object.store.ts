@@ -213,13 +213,20 @@ export class KubeObjectStore<
         try {
           return (await res) ?? [];
         } catch (error) {
+          // An aborted request (e.g. the view unmounted before the list arrived)
+          // is not a real failure - propagate it as-is so loadAll's own abort
+          // handling can ignore it without flipping failedLoading.
+          if (isAbortError(error) || reqInit?.signal?.aborted) {
+            throw error;
+          }
+
           onLoadFailure(new Error(`Failed to load ${this.api.apiBase}`, { cause: error }));
 
-          // reset the store because we are loading all, so that nothing is displayed
-          this.items.clear();
-          this.selectedItemsIds.clear();
-
-          return [];
+          // Propagate so loadAll's catch resets the store and marks the load as
+          // failed, instead of this catch swallowing the error and loadAll
+          // treating the resulting empty list as a successful (but empty) load -
+          // which used to render "Item list is empty" instead of a load error.
+          throw error;
         }
       }
 

@@ -282,4 +282,70 @@ describe("KubeObjectStore", () => {
 
     warnSpy.mockRestore();
   });
+
+  // These exercise the real (un-overridden) loadItems, unlike the tests above
+  // which go through FakeKubeObjectStore and never touch the isLoadingAll +
+  // onLoadFailure branch (kube-object.store.ts:205-227).
+  describe("loadItems isLoadingAll branch", () => {
+    function createStore(list: () => Promise<KubeObject[]>) {
+      return new KubeObjectStore(
+        {
+          context: {
+            allNamespaces: [],
+            contextNamespaces: [],
+            hasSelectedAll: false,
+            isGlobalWatchEnabled: () => true,
+            isLoadingAll: () => true,
+          },
+          logger: {
+            debug: noop,
+            error: noop,
+            info: noop,
+            silly: noop,
+            warn: noop,
+          },
+        },
+        {
+          isNamespaced: true,
+          apiBase: "/api/v1/secrets",
+          list,
+        } as unknown as KubeApi<KubeObject>,
+      );
+    }
+
+    it("marks the store as failed, not falsely loaded-empty, when the list request fails", async () => {
+      const warnSpy = vi.spyOn(console, "warn").mockImplementation(noop);
+      const onLoadFailure = vi.fn();
+      const store = createStore(() => Promise.reject(new Error("connection refused")));
+
+      const result = await store.loadAll({ namespaces: [], onLoadFailure });
+
+      expect(result).toBeUndefined();
+      expect(store.items).toHaveLength(0);
+      // the bug: this used to be left `true` with an empty item list, which
+      // renders as "Item list is empty" instead of a load failure.
+      expect(store.isLoaded).toBe(false);
+      expect(store.failedLoading).toBe(true);
+      expect(onLoadFailure).toHaveBeenCalledTimes(1);
+      expect(warnSpy).toHaveBeenCalled();
+
+      warnSpy.mockRestore();
+    });
+
+    it("does not flip failedLoading when the list request is aborted", async () => {
+      const warnSpy = vi.spyOn(console, "warn").mockImplementation(noop);
+      const onLoadFailure = vi.fn();
+      const store = createStore(() => Promise.reject(new DOMException("The operation was aborted.", "AbortError")));
+
+      const result = await store.loadAll({ namespaces: [], onLoadFailure });
+
+      expect(result).toBeUndefined();
+      expect(store.isLoaded).toBe(false);
+      expect(store.failedLoading).toBe(false);
+      expect(onLoadFailure).not.toHaveBeenCalled();
+      expect(warnSpy).not.toHaveBeenCalled();
+
+      warnSpy.mockRestore();
+    });
+  });
 });
