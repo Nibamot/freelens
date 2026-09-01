@@ -72,6 +72,22 @@ Run the application with additional arguments:
 ```
 <!-- markdownlint-enable MD013 -->
 
+#### DEB/RPM
+
+The DEB/RPM postinstall script sets the `chrome-sandbox` binary to setuid
+root, which Chromium's sandbox requires to work without `--no-sandbox`. If the
+app installs but the desktop launcher does nothing when clicked (running the
+binary directly from a terminal works fine), the setuid bit likely didn't get
+applied. Check it and fix it manually if needed:
+
+```sh
+ls -l /opt/IMS-Scope/chrome-sandbox
+# expected: -rwsr-xr-x ... (note the "s")
+
+sudo chmod 4755 /opt/IMS-Scope/chrome-sandbox
+sudo chown root:root /opt/IMS-Scope/chrome-sandbox
+```
+
 ### Windows
 
 Windows 10 or later is required.
@@ -83,6 +99,10 @@ Both the x64 (amd64) and arm64 versions of the Windows binaries are provided.
 However, an EXE installer (NSIS) itself is x86 binary only even if it installs
 arm64 application and then installs to `C:\Program Files (x86)\IMS-Scope` path
 by default.
+
+Windows binaries are code-signed, but Microsoft Defender SmartScreen may still
+show a "Windows protected your PC" warning until the signing certificate
+builds up reputation. Click **More info**, then **Run anyway** to proceed.
 
 #### Portable
 
