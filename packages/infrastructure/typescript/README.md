@@ -1,11 +1,11 @@
-# @freelensapp/typescript
+# @nibamot/typescript
 
 This package contains typescript configurations for Lens packages.
 
 ## Install
 
 ```sh
-npm install @freelensapp/typescript
+npm install @nibamot/typescript
 ```
 
 ## Features
@@ -16,6 +16,6 @@ Base configuration for minimal duplication.
 **tsconfig.json**
 ```json
 {
-  "extends": "@freelensapp/typescript/config/base.json"
+  "extends": "@nibamot/typescript/config/base.json"
 }
 ```

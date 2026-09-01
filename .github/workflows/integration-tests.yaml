@@ -220,7 +220,7 @@ jobs:
           # project-local dirs (see the APT cache step above); dpkg's status stays
           # at the system default, so packages still install into the runner.
           mkdir -p .apt/cache/archives/partial .apt/state/lists/partial
-          sudo tee /etc/apt/apt.conf.d/00freelens-cache >/dev/null <<EOF
+          sudo tee /etc/apt/apt.conf.d/00ims-scope-cache >/dev/null <<EOF
           Dir::Cache::archives "$PWD/.apt/cache/archives";
           Dir::State::lists "$PWD/.apt/state/lists";
           EOF

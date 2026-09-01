@@ -6,7 +6,7 @@
 // Phase 4 (D5): ambient type for the extension API runtime global assigned by
 // the main and renderer entrypoints (`globalThis.IMSScopeExtensionApi`).
 // `Main` is present only in the main process, `Renderer` only in the renderer;
-// `Common` is present in both. This module is picked up by the freelens
+// `Common` is present in both. This module is picked up by the ims-scope
 // tsconfig `include` so the declaration applies across both entrypoints without
 // a `.d.ts` (which the repo `.gitignore` treats as a build artifact).
 

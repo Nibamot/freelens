@@ -1,15 +1,15 @@
-# @freelensapp/spinner
+# @nibamot/spinner
 
 This package contains stuff related to creating Lens-applications. 
 
 ## Usage
 
 ```sh
-npm install @freelensapp/spinner
+npm install @nibamot/spinner
 ```
 
 ```typescript
-import { Spinner } from "@freelensapp/spinner";
+import { Spinner } from "@nibamot/spinner";
 ```
 
 ## Extendability

@@ -8,7 +8,7 @@ import * as utils from "../helpers/utils";
 
 import type { ElectronApplication, Page } from "playwright";
 
-describe("Freelens command palette", () => {
+describe("IMS-Scope command palette", () => {
   let window: Page;
   let cleanup: undefined | (() => Promise<void>);
   let app: ElectronApplication;

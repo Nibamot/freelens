@@ -48,7 +48,7 @@ export async function mapWithConcurrency<T, R>(items: T[], limit: number, task: 
  * so peak disk stays at roughly one artifact per concurrent caller.
  */
 export async function pinArtifact(artifact: Artifact, label?: string): Promise<string> {
-  const workDir = await mkdtemp(path.join(tmpdir(), "freelens-pin-"));
+  const workDir = await mkdtemp(path.join(tmpdir(), "ims-scope-pin-"));
 
   try {
     const artifactPath = path.join(workDir, path.basename(artifact.url));

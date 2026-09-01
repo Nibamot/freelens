@@ -1,15 +1,15 @@
-# @freelensapp/error-boundary
+# @nibamot/error-boundary
 
 This package contains stuff related to creating Lens-applications. 
 
 ## Usage
 
 ```sh
-npm install @freelensapp/error-boundary
+npm install @nibamot/error-boundary
 ```
 
 ```typescript
-import "@freelensapp/error-boundary/styles";
+import "@nibamot/error-boundary/styles";
 ```
 
 ## Extendability

@@ -1,16 +1,16 @@
-# @freelensapp/routing
+# @nibamot/routing
 
 This package contains stuff related to creating Lens-applications. 
 
 ## Usage
 
 ```sh
-npm install @freelensapp/routing
+npm install @nibamot/routing
 ```
 
 ```typescript
-import { observableHistoryInjectable } from "@freelensapp/routing";
-import { searchParamsOptions } from "@freelensapp/routing";
+import { observableHistoryInjectable } from "@nibamot/routing";
+import { searchParamsOptions } from "@nibamot/routing";
 ```
 
 ## Extendability

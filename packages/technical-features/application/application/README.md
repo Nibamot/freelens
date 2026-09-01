@@ -1,16 +1,16 @@
-# @freelensapp/application
+# @nibamot/application
 
 This package contains stuff related to creating Lens-applications. 
 
 ## Usage
 
 ```sh
-npm install @freelensapp/application-for-electron-main
+npm install @nibamot/application-for-electron-main
 ```
 
 ```typescript
-import { applicationFeature, startApplicationInjectionToken } from "@freelensapp/application";
-import { registerFeature } from "@freelensapp/feature-core";
+import { applicationFeature, startApplicationInjectionToken } from "@nibamot/application";
+import { registerFeature } from "@nibamot/feature-core";
 import { createContainer } from "@ogre-tools/injectable";
 
 const di = createContainer("some-container");

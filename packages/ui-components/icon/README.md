@@ -1,19 +1,19 @@
-# @freelensapp/error-boundary
+# @nibamot/error-boundary
 
 This package contains stuff related to creating Lens-applications. 
 
 ## Usage
 
 ```sh
-npm install @freelensapp/icon
+npm install @nibamot/icon
 ```
 
 ```typescript
-import "@freelensapp/icon/styles";
+import "@nibamot/icon/styles";
 
-import type { BaseIconProps } from "@freelensapp/icon";
-import type { IconProps } from "@freelensapp/icon";
-import { Icon } from "@freelensapp/icon";
+import type { BaseIconProps } from "@nibamot/icon";
+import type { IconProps } from "@nibamot/icon";
+import { Icon } from "@nibamot/icon";
 ```
 
 ## Extendability

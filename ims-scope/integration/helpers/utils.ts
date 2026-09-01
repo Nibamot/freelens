@@ -15,9 +15,9 @@ import * as uuid from "uuid";
 import type { ElectronApplication, Frame, Page } from "playwright";
 
 export const appPaths: Partial<Record<NodeJS.Platform, string>> = {
-  win32: `./dist/win${process.arch === "arm64" ? "-arm64" : ""}-unpacked/Freelens.exe`,
-  linux: `./dist/linux${process.arch === "arm64" ? "-arm64" : ""}-unpacked/freelens`,
-  darwin: `./dist/mac${process.arch === "arm64" ? "-arm64" : ""}/Freelens.app/Contents/MacOS/Freelens`,
+  win32: `./dist/win${process.arch === "arm64" ? "-arm64" : ""}-unpacked/IMS-Scope.exe`,
+  linux: `./dist/linux${process.arch === "arm64" ? "-arm64" : ""}-unpacked/ims-scope`,
+  darwin: `./dist/mac${process.arch === "arm64" ? "-arm64" : ""}/IMS-Scope.app/Contents/MacOS/IMS-Scope`,
 };
 
 async function getMainWindow(app: ElectronApplication, timeout = 50_000): Promise<Page> {
@@ -50,7 +50,7 @@ async function getMainWindow(app: ElectronApplication, timeout = 50_000): Promis
     const timeoutId = setTimeout(() => {
       cleanup();
       console.log(stdoutBuf);
-      reject(new Error(`Freelens did not open the main window within ${timeout}ms`));
+      reject(new Error(`IMS-Scope did not open the main window within ${timeout}ms`));
     }, timeout);
 
     cleanup.push(() => clearTimeout(timeoutId));
@@ -58,7 +58,7 @@ async function getMainWindow(app: ElectronApplication, timeout = 50_000): Promis
 }
 
 async function attemptStart() {
-  const IMS_SCOPE_INTEGRATION_TESTING_DIR = path.join(os.tmpdir(), "freelens-integration-testing", uuid.v4());
+  const IMS_SCOPE_INTEGRATION_TESTING_DIR = path.join(os.tmpdir(), "ims-scope-integration-testing", uuid.v4());
   process.env.IMS_SCOPE_INTEGRATION_TESTING_DIR = IMS_SCOPE_INTEGRATION_TESTING_DIR;
 
   // Make sure that the directory is clear

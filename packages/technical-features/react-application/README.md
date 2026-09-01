@@ -1,14 +1,14 @@
-# @freelensapp/react-application
+# @nibamot/react-application
 
 ## Usage
 
 ```sh
-npm install @freelensapp/react-application
+npm install @nibamot/react-application
 ```
 
 ```typescript
-import { reactApplicationFeature } from "@freelensapp/react-application";
-import { registerFeature } from "@freelensapp/feature-core";
+import { reactApplicationFeature } from "@nibamot/react-application";
+import { registerFeature } from "@nibamot/feature-core";
 import { createContainer } from "@ogre-tools/injectable";
 
 const di = createContainer("some-container");

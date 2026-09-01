@@ -15,7 +15,7 @@ growing set of features on top of it, added incrementally as they come up
 from real use: requests, feedback, and bugs hit along the way. There is no
 fixed roadmap; it grows as needs do.
 
-![Screenshot](freelens/build/screenshots/main.png)
+![Screenshot](ims-scope/build/screenshots/main.png)
 
 ## Requirements
 

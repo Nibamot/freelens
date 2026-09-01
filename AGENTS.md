@@ -1,12 +1,12 @@
-# Agent Guide: Freelens Development
+# Agent Guide: IMS-Scope Development
 
 ## Overview
 
-This guide helps AI agents understand the Freelens codebase, common development tasks, troubleshooting patterns, and key architectural decisions. Use this as a reference when working on the project.
+This guide helps AI agents understand the IMS-Scope codebase, common development tasks, troubleshooting patterns, and key architectural decisions. Use this as a reference when working on the project.
 
 For local development environment setup and extra development tips, see DEVELOPMENT.md.
 
-- **`freelens/`** - Main Electron application
+- **`ims-scope/`** - Main Electron application
   - `src/main/` - Main Electron process code
   - `src/renderer/` - Renderer process (UI) code
   - `src/common/` - Shared code between processes
@@ -67,7 +67,7 @@ single-line variant:
 ```
 
 This holds even when the new file's logic is inspired by, or replaces, old
-OpenLens code: inspiration is not continuation. `freelens/electron.vite.config.ts`,
+OpenLens code: inspiration is not continuation. `ims-scope/electron.vite.config.ts`,
 written as a translation of the removed webpack config, is a new file.
 
 **Files that continue code from the fork** keep the two-line variant:
@@ -96,8 +96,8 @@ git log --follow --format= --name-only -- <path> | sort -u
 
 Never add the `OpenLens Authors` line to a file that does not already have it
 just because neighbouring files do. Do not touch legal or license text
-(`LICENSE`, `README.md`, `freelens/license-header.txt`,
-`freelens/static/build/license.txt`) or the upstream copyright notices of
+(`LICENSE`, `README.md`, `ims-scope/license-header.txt`,
+`ims-scope/static/build/license.txt`) or the upstream copyright notices of
 vendored third-party code, which are unrelated to either header variant.
 
 See [#2352](https://github.com/freelensapp/freelens/issues/2352) for the
@@ -122,7 +122,7 @@ This project uses Turbo for caching build artifacts.
 When facing caching issues:
 
 ```bash
-rm -rf .turbo packages/core/dist freelens/dist
+rm -rf .turbo packages/core/dist ims-scope/dist
 pnpm build
 ```
 
@@ -189,8 +189,8 @@ The build process automatically runs this, but you can run it manually to verify
 ### Bundled Binary Versions
 
 The versions of the bundled `freelens-k8s-proxy`, `kubectl` and `helm` live in
-the `config` block of `freelens/package.json`, and their exact digests are
-pinned in `freelens/binaries.lock.json`. The build reads the expected checksum
+the `config` block of `ims-scope/package.json`, and their exact digests are
+pinned in `ims-scope/binaries.lock.json`. The build reads the expected checksum
 from that lock rather than from the vendor, so **a version bump without
 regenerating the lock fails the build**:
 
@@ -226,7 +226,7 @@ map without a pin therefore never gets downloaded**, so the two files are
 regenerated together:
 
 ```sh
-pnpm --filter @freelensapp/kubectl-versions compute-versions
+pnpm --filter @nibamot/kubectl-versions compute-versions
 pnpm update-kubectl-checksums
 ```
 
@@ -265,7 +265,7 @@ verifies added pins and asserts that no existing digest changed.
 - Use React DevTools for component inspection
 - `pnpm dev` also exposes a Chrome DevTools Protocol endpoint on port 9223
   (`--remoteDebuggingPort`). Note that each cluster's UI renders in a
-  cross-origin `<clusterId>.renderer.freelens.app` iframe, so inspecting or
+  cross-origin `<clusterId>.renderer.ims-scope.app` iframe, so inspecting or
   automating cluster views requires a frame-aware CDP client — see the
   AI-agent inspection notes in DEVELOPMENT.md.
 
@@ -279,20 +279,20 @@ verifies added pins and asserts that no existing digest changed.
 The project bundles with electron-vite (Vite + Rollup); the legacy Webpack
 layer was removed in #2118.
 
-- `freelens/electron.vite.config.ts` - main/renderer build and dev-server config
+- `ims-scope/electron.vite.config.ts` - main/renderer build and dev-server config
 - `pnpm dev` runs `electron-vite dev` with Vite HMR; renderer source changes
   hot-reload, main-process changes rebuild and relaunch (via `--watch`)
 - Changes to generated files (e.g. DI registration) require a full rebuild
 
 **Cache issues:** Delete the build output and rebuild
-(`rm -rf .turbo packages/core/dist freelens/dist`)
+(`rm -rf .turbo packages/core/dist ims-scope/dist`)
 
 ## Troubleshooting Patterns
 
 ### Changes Not Appearing
 
 1. Check if file is in ignored directory (`dist/`, `node_modules/`)
-2. Clear the build output: `rm -rf .turbo packages/core/dist freelens/dist`
+2. Clear the build output: `rm -rf .turbo packages/core/dist ims-scope/dist`
 3. Full rebuild: `pnpm build`
 4. Restart application: `pnpm start`
 
@@ -335,7 +335,7 @@ Uses pnpm workspaces for:
 
 ## Styling
 
-Freelens v2 carries four styling systems (theme CSS custom properties, global
+IMS-Scope v2 carries four styling systems (theme CSS custom properties, global
 plain SCSS, CSS Modules, and Tailwind v4). Which one to use is not a matter of
 taste — each has a defined role. Before adding or changing any stylesheet or
 `className`, read [`docs/v2-styling.md`](./docs/v2-styling.md). In short:
@@ -561,10 +561,10 @@ When creating a PR, use the following title conventions:
 ### Pushing Changes from Fork PRs
 
 When you have commits ready to push but the PR originates from a fork
-(different owner than `freelensapp`), you cannot push to the fork's
+(different owner than `Nibamot`), you cannot push to the fork's
 repository. Instead:
 
-1. Create a new branch on `freelensapp/freelens` with the prefix `claude/`
+1. Create a new branch on `Nibamot/ims-scope` with the prefix `claude/`
    followed by the original branch name.
    Push to the `upstream` remote (not `origin`, which points to the fork):
    ```bash
@@ -635,7 +635,7 @@ is actually there before relying on it, and never report a check as passing
 when it did not run — say that it was unavailable instead.
 
 For fork PRs, the `origin` remote points to the contributor's fork. An
-`upstream` remote is configured pointing to `freelensapp/freelens`. Push
+`upstream` remote is configured pointing to `Nibamot/ims-scope`. Push
 new branches to `upstream` (never to `origin`) when the PR originates
 from a fork — this ensures the resulting PR is internal and CI workflows
 run automatically.

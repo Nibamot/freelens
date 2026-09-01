@@ -1,4 +1,4 @@
-# Freelens development
+# IMS-Scope development
 
 ## Build from the source
 
@@ -6,7 +6,7 @@ You can build the application using this repository.
 
 ### Prerequisites
 
-The only native module Freelens uses is
+The only native module IMS-Scope uses is
 [node-pty](https://www.npmjs.com/package/node-pty), which ships prebuilt,
 ABI-stable (N-API) binaries for every platform we support. There is therefore
 no need for a C/C++ compiler, Python, or Visual Studio build tools to build or
@@ -71,7 +71,7 @@ pnpm start
 If you encounter build or runtime issues, try a clean rebuild:
 
 ```sh
-rm -rf .turbo packages/core/dist freelens/dist
+rm -rf .turbo packages/core/dist ims-scope/dist
 pnpm build:di
 pnpm build
 ```
@@ -79,8 +79,8 @@ pnpm build
 ### Bundled binaries
 
 `pnpm build:resources:client` downloads `freelens-k8s-proxy`, `kubectl` and
-`helm`. Their versions live in the `config` block of `freelens/package.json`,
-and their exact digests are pinned in `freelens/binaries.lock.json`. The build
+`helm`. Their versions live in the `config` block of `ims-scope/package.json`,
+and their exact digests are pinned in `ims-scope/binaries.lock.json`. The build
 verifies every download against that lock rather than against a checksum served
 by the same host as the artifact, so bumping a version without regenerating the
 lock fails the build:
@@ -168,8 +168,8 @@ agent (Claude Code, Cursor, …) can attach to it to drive and inspect the app �
 snapshot the accessibility tree, click, read the DOM, capture screenshots —
 which is useful for debugging renderer-side issues that never reach the terminal.
 
-Use a **frame-aware** CDP client. Freelens renders each cluster in a
-cross-origin `<clusterId>.renderer.freelens.app` iframe, so a tool that only
+Use a **frame-aware** CDP client. IMS-Scope renders each cluster in a
+cross-origin `<clusterId>.renderer.ims-scope.app` iframe, so a tool that only
 sees the top document (e.g. `@laststance/electron-mcp-server`) can drive the
 catalog/welcome shell but is blind to everything inside a cluster (Nodes,
 Workloads, Pods, …). Playwright and Puppeteer traverse cross-origin frames and
@@ -192,7 +192,7 @@ Then:
 1. Start the app with `pnpm dev` (it must be running before the agent connects).
 2. In Claude Code, run `/mcp` to confirm the `playwright` server is connected.
 3. Ask the agent to drive the app; to reach a cluster's resources it targets the
-   `…renderer.freelens.app/…` cluster frame, not just the top page.
+   `…renderer.ims-scope.app/…` cluster frame, not just the top page.
 
 Remove it any time with `claude mcp remove playwright --scope local`. Some MCP
 servers write runtime artifacts (screenshots, databases, keys) under `logs/` in
@@ -224,7 +224,7 @@ pnpm build:di
 
 **Changes not appearing:**
 
-1. Clear cache: `rm -rf .turbo packages/core/dist freelens/dist`
+1. Clear cache: `rm -rf .turbo packages/core/dist ims-scope/dist`
 2. Full rebuild: `pnpm build && pnpm build:app:dir`
 3. Restart app: `pnpm start`
 

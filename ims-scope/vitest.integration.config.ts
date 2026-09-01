@@ -7,7 +7,7 @@ import { defineConfig } from "vitest/config";
 // in dist/ and run only via `pnpm test:integration`.
 export default defineConfig({
   test: {
-    name: "freelens-integration",
+    name: "ims-scope-integration",
     globals: true,
     // Playwright >= 1.61 bundles undici, which references `global.Request` at
     // import time; that global is undefined under jsdom, so the node
