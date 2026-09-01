@@ -146,6 +146,4 @@ Copyright (c) 2024-2026 Freelens Authors.
 
 Copyright (c) 2022 OpenLens Authors.
 
-Copyright (c) 2026 IMS-Scope Authors.
-
 [MIT License](https://opensource.org/licenses/MIT)
