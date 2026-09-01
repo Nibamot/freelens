@@ -437,7 +437,7 @@ export class ExtensionLoader {
 
         const style = document.createElement("style");
 
-        style.dataset.freelensExtension = extension.manifest.name;
+        style.dataset.imsScopeExtension = extension.manifest.name;
         style.textContent = css;
         document.head.appendChild(style);
 

@@ -23,9 +23,9 @@ const setupDeepLinkingInjectable = getInjectable({
       const showApplicationWindow = di.inject(showApplicationWindowInjectable);
       const firstInstanceCommandLineArguments = di.inject(commandLineArgumentsInjectable);
 
-      logger.info(`📟 Setting protocol client for freelens://`);
+      logger.info(`📟 Setting protocol client for ims-scope://`);
 
-      if (app.setAsDefaultProtocolClient("freelens")) {
+      if (app.setAsDefaultProtocolClient("ims-scope")) {
         logger.info("📟 Protocol client register succeeded ✅");
       } else {
         logger.info("📟 Protocol client register failed ❗");
@@ -61,4 +61,6 @@ const setupDeepLinkingInjectable = getInjectable({
 export default setupDeepLinkingInjectable;
 
 const getDeepLinkUrl = (commandLineArguments: string[]) =>
-  commandLineArguments.map((argument) => argument.toLowerCase()).find((argument) => argument.startsWith("freelens://"));
+  commandLineArguments
+    .map((argument) => argument.toLowerCase())
+    .find((argument) => argument.startsWith("ims-scope://"));

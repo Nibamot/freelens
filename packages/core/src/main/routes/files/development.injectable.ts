@@ -14,9 +14,9 @@ import type { LensApiRequest, RouteResponse } from "../../router/route";
 // Must match the `server.port` of the Vite dev server started by
 // `electron-vite dev` (freelens/electron.vite.config.ts); both sides read the
 // same environment variable.
-const devServerPort = Number(process.env.FREELENS_DEV_SERVER_PORT) || 9191;
+const devServerPort = Number(process.env.IMS_SCOPE_DEV_SERVER_PORT) || 9191;
 
-assert(Number.isInteger(devServerPort), "FREELENS_DEV_SERVER_PORT environment variable must only be an integer");
+assert(Number.isInteger(devServerPort), "IMS_SCOPE_DEV_SERVER_PORT environment variable must only be an integer");
 
 const devStaticFileRouteHandlerInjectable = getInjectable({
   id: "dev-static-file-route-handler",

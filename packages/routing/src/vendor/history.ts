@@ -22,7 +22,7 @@
  * the following changes were made:
  *   - converted to TypeScript with the declarations from upstream's
  *     `index.d.ts` inlined;
- *   - `createHashHistory` dropped -- nothing in Freelens creates a hash
+ *   - `createHashHistory` dropped -- nothing in IMS-Scope creates a hash
  *     history;
  *   - navigation blocking dropped -- `block()`, `Blocker`, `Transition`, the
  *     `blockers` event list, `allowTx`, `blockedPopTx` and the `beforeunload`

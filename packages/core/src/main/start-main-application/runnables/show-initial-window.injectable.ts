@@ -13,7 +13,7 @@ import createFirstApplicationWindowInjectable from "../lens-window/application-w
 import splashWindowInjectable from "../lens-window/splash-window/splash-window.injectable";
 
 const getDeepLinkUrl = (commandLineArguments: string[]) =>
-  commandLineArguments.map((arg) => arg.toLowerCase()).find((arg) => arg.startsWith("freelens://"));
+  commandLineArguments.map((arg) => arg.toLowerCase()).find((arg) => arg.startsWith("ims-scope://"));
 
 const showInitialWindowInjectable = getInjectable({
   id: "show-initial-window",

@@ -65,7 +65,7 @@ export class LensProtocolRouterMain extends proto.LensProtocolRouter {
     try {
       const url = new URL(rawUrl);
 
-      if (url.protocol.toLowerCase() !== "freelens:") {
+      if (url.protocol.toLowerCase() !== "ims-scope:") {
         throw new proto.RoutingError(proto.RoutingErrorType.INVALID_PROTOCOL, url);
       }
 

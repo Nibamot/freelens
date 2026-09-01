@@ -1,10 +1,10 @@
 /**
- * Copyright (c) Freelens Authors. All rights reserved.
+ * Copyright (c) IMS-Scope Authors. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 /**
- * The subset of `selfsigned`'s generate result that Freelens actually uses.
+ * The subset of `selfsigned`'s generate result that IMS-Scope actually uses.
  *
  * `selfsigned` v5 ships its own types, but its `GenerateResult` interface is
  * not exported and requires fields (e.g. `fingerprint`) that we never consume

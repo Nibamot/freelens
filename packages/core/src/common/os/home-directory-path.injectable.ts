@@ -14,12 +14,12 @@ const homeDirectoryPathInjectable = getInjectable({
   id: "home-directory-path",
   instantiate: (di) => {
     if (
-      process.env.FREELENS_INTEGRATION_TESTING_DIR &&
-      process.env.FREELENS_INTEGRATION_TESTING_DIR.startsWith(os.tmpdir())
+      process.env.IMS_SCOPE_INTEGRATION_TESTING_DIR &&
+      process.env.IMS_SCOPE_INTEGRATION_TESTING_DIR.startsWith(os.tmpdir())
     ) {
       const appName = di.inject(appNameInjectable);
 
-      return path.join(process.env.FREELENS_INTEGRATION_TESTING_DIR, appName, "home");
+      return path.join(process.env.IMS_SCOPE_INTEGRATION_TESTING_DIR, appName, "home");
     }
 
     return di.inject(userInfoInjectable).homedir;

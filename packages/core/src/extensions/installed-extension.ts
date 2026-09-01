@@ -52,11 +52,11 @@ export interface LensExtensionManifest {
   renderer?: string; // path to %ext/dist/renderer.js
 
   /**
-   * Supported Lens version engine by extension could be defined in `manifest.engines.freelens`
+   * Supported IMS-Scope version engine by extension could be defined in `manifest.engines["ims-scope"]`
    * Only MAJOR.MINOR version is taken in consideration.
    */
   engines: {
-    freelens: string; // "semver"-package format
+    "ims-scope": string; // "semver"-package format
     [x: string]: string | undefined;
   };
 }

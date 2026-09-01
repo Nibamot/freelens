@@ -37,7 +37,7 @@ const newVersionNotificationInjectable = getInjectable({
             <div>
               {productName} v{newVersion} is available! Open the{" "}
               <a
-                href={`https://github.com/freelensapp/freelens/releases`}
+                href={`https://github.com/Nibamot/ims-scope/releases`}
                 target="_blank"
                 rel="noreferrer"
                 className="NotificationLink"

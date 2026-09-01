@@ -15,7 +15,7 @@ export const apiPrefix = "/api"; // local router apis
 export const apiKubePrefix = "/api-kube"; // k8s cluster apis
 
 // Links
-export const issuesTrackerUrl = "https://github.com/freelensapp/freelens/issues" as string;
-export const supportUrl = "https://github.com/freelensapp/freelens" as string;
-export const docsUrl = "https://github.com/freelensapp/freelens/wiki" as string;
-export const forumsUrl = "https://github.com/freelensapp/freelens/discussions" as string;
+export const issuesTrackerUrl = "https://github.com/Nibamot/ims-scope/issues" as string;
+export const supportUrl = "https://github.com/Nibamot/ims-scope" as string;
+export const docsUrl = "https://github.com/Nibamot/ims-scope/wiki" as string;
+export const forumsUrl = "https://github.com/Nibamot/ims-scope/discussions" as string;

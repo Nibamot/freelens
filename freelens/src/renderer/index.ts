@@ -74,8 +74,8 @@ export { Mobx, MobxReact, React, ReactDOM, ReactJsxRuntime } from "@nibamot/core
 // Phase 4 (D5): expose the extension API through a runtime global so the
 // published `@nibamot/extensions` shim can re-export it in each process.
 // The renderer gets `{ Common, Renderer }`; main gets `{ Common, Main }`.
-// The global's ambient type lives in `../freelens-extension-api.ts`.
-globalThis.FreelensExtensionApi = { Common, Renderer };
+// The global's ambient type lives in `../ims-scope-extension-api.ts`.
+globalThis.IMSScopeExtensionApi = { Common, Renderer };
 
 export const LensExtensions = {
   Renderer,

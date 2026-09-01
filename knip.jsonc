@@ -60,7 +60,7 @@
         "integration/**/*.ts",
         "src/**/*.ts",
         "src/common/**/*.ts!",
-        "src/freelens-extension-api.ts!",
+        "src/ims-scope-extension-api.ts!",
         "src/main/**/*.ts!"
       ],
       "ignoreBinaries": ["distwin-unpackedFreelens.exe"],

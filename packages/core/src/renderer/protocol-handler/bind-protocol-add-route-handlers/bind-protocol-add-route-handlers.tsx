@@ -58,7 +58,7 @@ export const bindProtocolAddRouteHandlers =
             <p>
               {"Unknown Action for "}
               <code>
-                freelens://app/
+                ims-scope://app/
                 {tail}
               </code>
               . Are you on the latest version?

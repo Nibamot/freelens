@@ -4,7 +4,7 @@
  */
 
 // Compiles the runtime shim (src/runtime-shim.ts) to a single ESM file in
-// dist/. The shim only re-exports `globalThis.FreelensExtensionApi`, so the
+// dist/. The shim only re-exports `globalThis.IMSScopeExtensionApi`, so the
 // emitted file has no runtime dependencies. The matching types are the d.ts
 // rollup of src/extension-api.ts (see rollup.dts.config.mjs).
 

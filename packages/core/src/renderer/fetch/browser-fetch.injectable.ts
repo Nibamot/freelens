@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Freelens Authors. All rights reserved.
+ * Copyright (c) IMS-Scope Authors. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -12,7 +12,7 @@ import type { Fetch } from "@nibamot/json-api";
  * Chromium's `fetch`, which is the client the renderer uses.
  *
  * Not because a Node client is impossible here — the renderer is
- * node-integrated, and Freelens 1.x ran every `KubeJsonApi` call in this very
+ * node-integrated, and IMS-Scope 1.x ran every `KubeJsonApi` call in this very
  * process through a CJS build of `node-fetch`. It is undici specifically that
  * cannot: it needs Node's global `setTimeout` (for `.unref()`) and
  * `performance.markResourceTiming`, and a module required in the renderer

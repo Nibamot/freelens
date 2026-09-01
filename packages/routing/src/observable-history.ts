@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Freelens Authors. All rights reserved.
+ * Copyright (c) IMS-Scope Authors. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -12,7 +12,7 @@ import type { Action, Location, To } from "./vendor/history";
 
 /**
  * The native `history` v5 runtime surface the observable wrapper is built on.
- * Freelens injects a plain `history` v5 instance (`createBrowserHistory()` /
+ * IMS-Scope injects a plain `history` v5 instance (`createBrowserHistory()` /
  * `createMemoryHistory()`), so `back`/`forward` replace v4's
  * `goBack`/`goForward` and `listen` receives a single `{ action, location }`
  * update object. The wrapper re-exposes the v4-style `goBack`/`goForward`/

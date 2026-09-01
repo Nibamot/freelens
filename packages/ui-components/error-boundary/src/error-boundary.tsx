@@ -17,7 +17,7 @@ import type { StrictReactNode } from "@nibamot/utilities";
 
 import type { ErrorInfo } from "react";
 
-const issuesTrackerUrl = "https://github.com/freelensapp/freelens/issues";
+const issuesTrackerUrl = "https://github.com/Nibamot/ims-scope/issues";
 
 export interface ErrorBoundaryProps {
   children?: StrictReactNode;

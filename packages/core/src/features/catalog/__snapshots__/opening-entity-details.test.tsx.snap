@@ -310,7 +310,7 @@ exports[`opening catalog entity details panel > renders 1`] = `
                   If you have any questions or feedback, please join us on our 
                   <a
                     class="link"
-                    href="https://github.com/freelensapp/freelens/discussions"
+                    href="https://github.com/Nibamot/ims-scope/discussions"
                     rel="noreferrer"
                     target="_blank"
                   >
@@ -9969,7 +9969,7 @@ exports[`opening catalog entity details panel > when not navigated to the catalo
                   If you have any questions or feedback, please join us on our 
                   <a
                     class="link"
-                    href="https://github.com/freelensapp/freelens/discussions"
+                    href="https://github.com/Nibamot/ims-scope/discussions"
                     rel="noreferrer"
                     target="_blank"
                   >

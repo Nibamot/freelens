@@ -58,13 +58,13 @@ async function getMainWindow(app: ElectronApplication, timeout = 50_000): Promis
 }
 
 async function attemptStart() {
-  const FREELENS_INTEGRATION_TESTING_DIR = path.join(os.tmpdir(), "freelens-integration-testing", uuid.v4());
-  process.env.FREELENS_INTEGRATION_TESTING_DIR = FREELENS_INTEGRATION_TESTING_DIR;
+  const IMS_SCOPE_INTEGRATION_TESTING_DIR = path.join(os.tmpdir(), "freelens-integration-testing", uuid.v4());
+  process.env.IMS_SCOPE_INTEGRATION_TESTING_DIR = IMS_SCOPE_INTEGRATION_TESTING_DIR;
 
   // Make sure that the directory is clear
-  await remove(FREELENS_INTEGRATION_TESTING_DIR);
+  await remove(IMS_SCOPE_INTEGRATION_TESTING_DIR);
   // We need original .kube/config with kind context
-  const testDir = path.join(FREELENS_INTEGRATION_TESTING_DIR, "home", ".freelens", "extensions");
+  const testDir = path.join(IMS_SCOPE_INTEGRATION_TESTING_DIR, "home", ".freelens", "extensions");
   await mkdirp(testDir);
 
   const app = await electron.launch({
@@ -72,7 +72,7 @@ async function attemptStart() {
     executablePath: appPaths[process.platform],
     bypassCSP: true,
     env: {
-      FREELENS_INTEGRATION_TESTING_DIR,
+      IMS_SCOPE_INTEGRATION_TESTING_DIR,
       LOG_LEVEL: "debug",
       ...process.env,
     },
@@ -88,7 +88,7 @@ async function attemptStart() {
       cleanup: async () => {
         try {
           await app.close();
-          await withTimeout(remove(FREELENS_INTEGRATION_TESTING_DIR), 15_000);
+          await withTimeout(remove(IMS_SCOPE_INTEGRATION_TESTING_DIR), 15_000);
         } catch (_e) {
           // no-op
         }
@@ -97,7 +97,7 @@ async function attemptStart() {
   } catch (error) {
     try {
       await app.close();
-      await withTimeout(remove(FREELENS_INTEGRATION_TESTING_DIR), 15_000);
+      await withTimeout(remove(IMS_SCOPE_INTEGRATION_TESTING_DIR), 15_000);
     } catch (_e) {
       // no-op
     }

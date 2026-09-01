@@ -16,14 +16,14 @@ export const isCompatibleExtension = ({
   extensionApiVersion,
 }: Dependencies): ((manifest: LensExtensionManifest) => boolean) => {
   return (manifest: LensExtensionManifest): boolean => {
-    const manifestLensEngine = manifest.engines.freelens;
+    const manifestLensEngine = manifest.engines["ims-scope"];
     const validVersion = manifestLensEngine.match(/^[\^0-9]\d*\.\d+\b/); // must start from ^ or number
 
     if (!validVersion) {
       const errorInfo = [
-        `Invalid format for "manifest.engines.freelens"="${manifestLensEngine}"`,
+        `Invalid format for "manifest.engines["ims-scope"]"="${manifestLensEngine}"`,
         `Range versions can only be specified starting with '^'.`,
-        `Otherwise it's recommended to use plain %MAJOR.%MINOR to match with supported Freelens version.`,
+        `Otherwise it's recommended to use plain %MAJOR.%MINOR to match with supported IMS-Scope version.`,
       ].join("\n");
 
       throw new Error(errorInfo);

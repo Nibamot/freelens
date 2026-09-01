@@ -70,7 +70,7 @@ const showAboutInjectable = getInjectable({
       );
 
       if (newVersion && returnValue.response === 1) {
-        await openLinkInBrowser(`https://github.com/freelensapp/freelens/releases/tag/v${newVersion}`);
+        await openLinkInBrowser(`https://github.com/Nibamot/ims-scope/releases/tag/v${newVersion}`);
       }
     };
   },

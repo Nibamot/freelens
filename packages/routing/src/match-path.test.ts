@@ -97,7 +97,7 @@ describe("matchPath", () => {
     it("matches with the optional publisher segment present", () => {
       const match = matchPath<{ publisher?: string; name?: string }>("/@nibamot/my-extension", schema);
 
-      expect(match?.params).toEqual({ publisher: "@freelensapp", name: "my-extension" });
+      expect(match?.params).toEqual({ publisher: "@nibamot", name: "my-extension" });
     });
 
     it("matches without the optional publisher segment", () => {

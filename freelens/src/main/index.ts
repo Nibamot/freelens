@@ -56,8 +56,8 @@ export {
 // Phase 4 (D5): expose the extension API through a runtime global so the
 // published `@nibamot/extensions` shim can re-export it in each process.
 // Main gets `{ Common, Main }`; the renderer gets `{ Common, Renderer }`.
-// The global's ambient type lives in `../freelens-extension-api.ts`.
-globalThis.FreelensExtensionApi = { Common, Main };
+// The global's ambient type lives in `../ims-scope-extension-api.ts`.
+globalThis.IMSScopeExtensionApi = { Common, Main };
 
 export const LensExtensions = {
   Main,

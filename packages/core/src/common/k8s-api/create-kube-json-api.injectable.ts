@@ -37,7 +37,7 @@ const createKubeJsonApiInjectable = getInjectable({
             ? {
                 dispatcher,
                 headers: {
-                  "User-Agent": `Freelens/${packageJson.version}`,
+                  "User-Agent": `IMS-Scope/${packageJson.version}`,
                 },
               }
             : {};

@@ -45,7 +45,7 @@ describe("configurable directories for extension files", () => {
             storeName: "some-specific-store-name",
             version: "0",
             engines: {
-              freelens: "0",
+              "ims-scope": "0",
             },
           },
         },
@@ -81,7 +81,7 @@ describe("configurable directories for extension files", () => {
             storeName: undefined,
             version: "0",
             engines: {
-              freelens: "0",
+              "ims-scope": "0",
             },
           },
         },

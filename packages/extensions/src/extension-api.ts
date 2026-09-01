@@ -7,7 +7,7 @@
 // Phase 4 (D5): the type-level entry of `@nibamot/extensions`. The
 // published package pairs the d.ts rollup of this module with the runtime
 // shim (`./runtime-shim.ts`, emitted as `dist/extension-api.js`), which
-// resolves the same members from `globalThis.FreelensExtensionApi` at
+// resolves the same members from `globalThis.IMSScopeExtensionApi` at
 // runtime. The app assigns that global at startup (see
 // `freelens/src/{main,renderer}/index.ts`).
 //
@@ -32,7 +32,7 @@ export { rendererExtensionApi as Renderer } from "@nibamot/core/renderer";
 
 declare global {
   // eslint-disable-next-line no-var
-  var FreelensExtensionApi: {
+  var IMSScopeExtensionApi: {
     Common: typeof commonExtensionApi;
     Main?: typeof mainExtensionApi;
     Renderer?: typeof rendererExtensionApi;

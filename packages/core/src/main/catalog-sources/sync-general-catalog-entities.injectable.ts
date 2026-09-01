@@ -20,7 +20,7 @@ const syncGeneralCatalogEntitiesInjectable = getInjectable({
     const reactiveGeneralCatalogEntities = computed(() => generalCatalogEntities);
 
     return () => {
-      catalogEntityRegistry.addComputedSource("freelens:general", reactiveGeneralCatalogEntities);
+      catalogEntityRegistry.addComputedSource("ims-scope:general", reactiveGeneralCatalogEntities);
     };
   },
 });

@@ -45,7 +45,7 @@ const buildDir = resolve(root, "static", "build"); // == webpack vars.buildDir
 // route (packages/core/src/main/routes/files/development.injectable.ts)
 // proxies renderer requests here, exactly as it did to the webpack dev server
 // before; both sides read the same environment variable.
-const devServerPort = Number(process.env.FREELENS_DEV_SERVER_PORT) || 9191;
+const devServerPort = Number(process.env.IMS_SCOPE_DEV_SERVER_PORT) || 9191;
 
 // Resolve NODE_ENV the same way the old webpack `mode` did
 // (isDevelopment = process.env.NODE_ENV === "development"): anything other than
