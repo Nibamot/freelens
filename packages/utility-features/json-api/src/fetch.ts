@@ -10,7 +10,7 @@
  * The two processes reach lens-proxy differently and cannot share one client:
  *
  * - the **renderer** uses Chromium's `fetch`. Its frame is served from
- *   `https://<clusterId>.renderer.freelens.app:<port>`, which Chromium's
+ *   `https://<clusterId>.renderer.ims-scope.app:<port>`, which Chromium's
  *   host-resolver rules map to 127.0.0.1 and whose certificate the session
  *   already trusts, so a request to the frame's own origin is routed to the
  *   right cluster by the `Host` header the browser sends on its own.

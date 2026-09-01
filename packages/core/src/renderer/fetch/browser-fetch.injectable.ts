@@ -19,7 +19,7 @@ import type { Fetch } from "@nibamot/json-api";
  * shares the page's globals, which are Chromium's.
  *
  * It is also all the renderer needs. Requests go to the frame's own origin
- * (`https://<clusterId>.renderer.freelens.app:<port>`), which Chromium's
+ * (`https://<clusterId>.renderer.ims-scope.app:<port>`), which Chromium's
  * host-resolver rules map to 127.0.0.1 and whose certificate the window's
  * session already trusts, so lens-proxy gets the `Host` header it routes on
  * without anyone setting it.

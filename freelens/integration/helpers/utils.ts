@@ -28,7 +28,7 @@ async function getMainWindow(app: ElectronApplication, timeout = 50_000): Promis
     const onWindow = (page: Page) => {
       console.log(`Page opened: ${page.url()}`);
 
-      if (page.url().startsWith("https://renderer.freelens.app")) {
+      if (page.url().startsWith("https://renderer.ims-scope.app")) {
         cleanup();
         console.log(stdoutBuf);
         resolve(page);

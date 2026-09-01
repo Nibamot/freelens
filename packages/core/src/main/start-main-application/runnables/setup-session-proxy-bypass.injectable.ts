@@ -50,8 +50,8 @@ const setupSessionProxyBypassInjectable = getInjectable({
             proxyRules,
             proxyBypassRules: [
               "<local>",
-              "renderer.freelens.app",
-              ".renderer.freelens.app",
+              "renderer.ims-scope.app",
+              ".renderer.ims-scope.app",
               "127.0.0.1/8",
               "[::1]",
             ].join(","),

@@ -91,7 +91,7 @@ function rewriteElectronNamedImportsPlugin() {
   const electronImportRe = /import\s*\{([^}]*)\}\s*from\s*(["'])electron\2;?/g;
 
   return {
-    name: "freelens:rewrite-electron-named-imports",
+    name: "ims-scope:rewrite-electron-named-imports",
     renderChunk(code: string) {
       let changed = false;
 
@@ -202,7 +202,7 @@ const electronApiNames = [
 const IDENTIFIER_RE = /^[A-Za-z_$][A-Za-z0-9_$]*$/;
 
 function runtimeRequireExternalsPlugin() {
-  const PREFIX = "\0freelens-runtime-external:";
+  const PREFIX = "\0ims-scope-runtime-external:";
   const namedExportsCache = new Map<string, string[]>();
 
   // Enumerable own export names of a builtin, computed once in the build's Node
@@ -231,7 +231,7 @@ function runtimeRequireExternalsPlugin() {
   let isBuild = false;
 
   return {
-    name: "freelens:runtime-require-externals",
+    name: "ims-scope:runtime-require-externals",
     enforce: "pre" as const,
     config(_config: unknown, env: { command: string }) {
       isBuild = env.command === "build";
@@ -303,7 +303,7 @@ function runtimeRequireExternalsPlugin() {
 // Set the renderer's public base path for the packaged build.
 //
 // The packaged app loads the renderer from the lens proxy web root
-// (https://renderer.freelens.app:<port>/), while the built assets live under
+// (https://renderer.ims-scope.app:<port>/), while the built assets live under
 // static/build/. So the production HTML must reference assets with an absolute
 // "/build/" prefix — exactly what webpack's publicPath "/build/" produced. The
 // prod file route (packages/core/src/main/routes/files/production.injectable.ts)
@@ -317,7 +317,7 @@ function runtimeRequireExternalsPlugin() {
 // (development.injectable.ts) relies on, so only the build is overridden.
 function rendererBuildBasePlugin(base: string) {
   return {
-    name: "freelens:renderer-build-base",
+    name: "ims-scope:renderer-build-base",
     enforce: "post" as const,
     config(_config: unknown, env: { command: string }) {
       if (env.command === "build") {
@@ -380,7 +380,7 @@ export default defineConfig({
       port: devServerPort,
       strictPort: true,
       cors: true, // was Access-Control-Allow-Origin: *
-      allowedHosts: [".freelens.app"],
+      allowedHosts: [".ims-scope.app"],
       hmr: {
         protocol: "ws",
         host: "127.0.0.1",

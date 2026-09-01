@@ -19,8 +19,8 @@ const setupHostnamesInjectable = getInjectable({
         "host-resolver-rules",
         [
           "MAP localhost 127.0.0.1",
-          "MAP renderer.freelens.app 127.0.0.1",
-          "MAP *.renderer.freelens.app 127.0.0.1",
+          "MAP renderer.ims-scope.app 127.0.0.1",
+          "MAP *.renderer.ims-scope.app 127.0.0.1",
         ].join(),
       );
 

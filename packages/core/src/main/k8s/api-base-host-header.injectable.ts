@@ -13,7 +13,7 @@ const apiBaseHostHeaderInjectable = getInjectable({
   instantiate: (di) => {
     const lensProxyPort = di.inject(lensProxyPortInjectable);
 
-    return `renderer.freelens.app:${lensProxyPort.get()}`;
+    return `renderer.ims-scope.app:${lensProxyPort.get()}`;
   },
   injectionToken: apiBaseHostHeaderInjectionToken,
 });
