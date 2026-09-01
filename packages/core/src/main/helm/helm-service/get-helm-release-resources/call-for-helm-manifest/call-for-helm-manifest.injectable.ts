@@ -39,9 +39,7 @@ const requestHelmManifestInjectable = getInjectable({
 
       return {
         callWasSuccessful: true,
-        response: yaml
-          .loadAll(result.response, undefined, { json: true })
-          .filter(isObject) as unknown as KubeJsonApiData[],
+        response: yaml.loadAll(result.response, null, { json: true }).filter(isObject) as unknown as KubeJsonApiData[],
       };
     };
   },

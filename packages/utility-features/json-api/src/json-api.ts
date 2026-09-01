@@ -70,7 +70,7 @@ export type GetRequestOptions = () => Promise<RequestInit>;
 // lifecycle and must not be forced onto this default.
 const DEFAULT_REQUEST_TIMEOUT_MS = 30_000;
 
-function withDefaultTimeout(init: RequestInit): RequestInit {
+function withDefaultTimeout<T extends RequestInit>(init: T): T {
   return {
     ...init,
     signal: init.signal ?? AbortSignal.timeout(DEFAULT_REQUEST_TIMEOUT_MS),
