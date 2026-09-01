@@ -44,16 +44,16 @@ files:
 ## Notarization
 afterSign: build/notarize.cjs
 
-## Used to register the app as a handler for the freelens:// protocol
+## Used to register the app as a handler for the ims-scope:// protocol
 protocols:
-  name: Freelens Protocol Handler
+  name: IMS-Scope Protocol Handler
   schemes:
-    - freelens
+    - ims-scope
   role: Viewer
 
 ## For Linux targets
 linux:
-  appId: app.freelens.Freelens
+  appId: io.github.nibamot.ims-scope
   category: Development;Network
   artifactName: ${productName}-${version}.${arch}.${ext}
   target:
@@ -97,10 +97,10 @@ deb:
   afterInstall: ./build/after-install-deb.sh
   afterRemove: ./build/after-remove-deb.sh
   fpm:
-    - ./build/apparmor-profile.aa=/etc/apparmor.d/freelens
-    - ./build/apt/freelens.asc=/etc/apt/keyrings/freelens.asc
-    - ./build/apt/freelens.sources=/etc/apt/sources.list.d/freelens.sources
-    - ./build/metainfo.xml=/usr/share/metainfo/app.freelens.Freelens.metainfo.xml
+    - ./build/apparmor-profile.aa=/etc/apparmor.d/ims-scope
+    - ./build/apt/ims-scope.asc=/etc/apt/keyrings/ims-scope.asc
+    - ./build/apt/ims-scope.sources=/etc/apt/sources.list.d/ims-scope.sources
+    - ./build/metainfo.xml=/usr/share/metainfo/io.github.nibamot.ims-scope.metainfo.xml
   packageCategory: devel
 
 ## Official Flatpak is built from the separate repository
@@ -132,12 +132,12 @@ rpm:
     - --disable-gpu-compositing
   fpm:
     - --rpm-rpmbuild-define=_build_id_links none
-    - ./build/metainfo.xml=/usr/share/metainfo/app.freelens.Freelens.metainfo.xml
+    - ./build/metainfo.xml=/usr/share/metainfo/io.github.nibamot.ims-scope.metainfo.xml
   packageCategory: devel
 
 ## For macOS targets
 mac:
-  appId: app.freelens.Freelens
+  appId: io.github.nibamot.ims-scope
   hardenedRuntime: true
   gatekeeperAssess: false
   category: public.app-category.developer-tools
@@ -158,7 +158,7 @@ pkg:
 
 ## For Windows targets
 win:
-  appId: app.freelens.Freelens
+  appId: io.github.nibamot.ims-scope
   target:
     - nsis
     - portable

@@ -1,0 +1,4 @@
+Types: deb
+URIs: https://github.com/Nibamot/ims-scope/releases/latest/download
+Suites: ./
+Signed-By: /etc/apt/keyrings/ims-scope.asc

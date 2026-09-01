@@ -1,0 +1,1 @@
+deb [signed-by=/etc/apt/keyrings/ims-scope.asc] https://github.com/Nibamot/ims-scope/releases/latest/download ./

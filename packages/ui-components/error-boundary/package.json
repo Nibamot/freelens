@@ -3,19 +3,19 @@
   "version": "2.0.0-5",
   "private": true,
   "description": "Highly extendable error-boundary in the Freelens.",
-  "homepage": "https://freelens.app",
+  "homepage": "https://github.com/Nibamot/ims-scope",
   "bugs": {
-    "url": "https://github.com/freelensapp/freelens/issues"
+    "url": "https://github.com/Nibamot/ims-scope/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/freelensapp/freelens.git"
+    "url": "git+https://github.com/Nibamot/ims-scope.git"
   },
   "license": "MIT",
   "type": "module",
   "author": {
     "name": "Freelens Authors",
-    "email": "freelens@freelens.app"
+    "email": "ims-scope@ims-scope.app"
   },
   "exports": {
     ".": "./index.ts",

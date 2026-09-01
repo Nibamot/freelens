@@ -1,22 +1,22 @@
 {
-  "name": "freelens",
+  "name": "ims-scope",
   "version": "2.0.0-5",
   "private": true,
-  "description": "Freelens - Free IDE for Kubernetes",
+  "description": "IMS-Scope - Free IDE for Kubernetes",
   "keywords": [],
-  "homepage": "https://freelens.app",
+  "homepage": "https://github.com/Nibamot/ims-scope",
   "bugs": {
-    "url": "https://github.com/freelensapp/freelens/issues"
+    "url": "https://github.com/Nibamot/ims-scope/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/freelensapp/freelens.git"
+    "url": "git+https://github.com/Nibamot/ims-scope.git"
   },
   "license": "MIT",
   "type": "module",
   "author": {
     "name": "Freelens Authors",
-    "email": "freelens@freelens.app"
+    "email": "ims-scope@ims-scope.app"
   },
   "main": "static/build/main.js",
   "scripts": {
@@ -38,24 +38,24 @@
     "dev": "ELECTRON_RUN_AS_NODE= NODE_ENV=development electron-vite dev --watch --inspect --remoteDebuggingPort 9223",
     "start": "pnpm dlx run-script-os@1.1.6 --",
     "start:darwin": "pnpm start:darwin:${npm_config_arch:-$(uname -m)}",
-    "start:darwin:arm64": "./dist/mac-arm64/Freelens.app/Contents/MacOS/Freelens",
-    "start:darwin:x64": "./dist/mac/Freelens.app/Contents/MacOS/Freelens",
-    "start:darwin:x86_64": "./dist/mac/Freelens.app/Contents/MacOS/Freelens",
+    "start:darwin:arm64": "./dist/mac-arm64/IMS-Scope.app/Contents/MacOS/IMS-Scope",
+    "start:darwin:x64": "./dist/mac/IMS-Scope.app/Contents/MacOS/IMS-Scope",
+    "start:darwin:x86_64": "./dist/mac/IMS-Scope.app/Contents/MacOS/IMS-Scope",
     "start:default": "exit 1",
     "start:electron": "electron --remote-debugging-port=9223 --inspect .",
     "start:linux": "pnpm start:linux:${npm_config_arch:-$(uname -m)}",
-    "start:linux:arm64": "./dist/linux-arm64-unpacked/freelens",
-    "start:linux:x64": "./dist/linux-unpacked/freelens",
-    "start:linux:x86_64": "./dist/linux-unpacked/freelens",
-    "start:win32:AMD64": "dist\\win-unpacked\\Freelens.exe",
-    "start:win32:ARM64": "dist\\win-arm64-unpacked\\Freelens.exe",
+    "start:linux:arm64": "./dist/linux-arm64-unpacked/ims-scope",
+    "start:linux:x64": "./dist/linux-unpacked/ims-scope",
+    "start:linux:x86_64": "./dist/linux-unpacked/ims-scope",
+    "start:win32:AMD64": "dist\\win-unpacked\\IMS-Scope.exe",
+    "start:win32:ARM64": "dist\\win-arm64-unpacked\\IMS-Scope.exe",
     "start:win32": "echo pnpm start:linux:${npm_config_arch:-${PROCESSOR_ARCHITECTURE}}",
     "test:integration": "vitest run --config vitest.integration.config.ts"
   },
   "config": {
     "bundledHelmVersion": "4.2.3",
     "bundledKubectlVersion": "1.36.3",
-    "contentSecurityPolicy": "script-src 'unsafe-eval' 'self'; frame-src https://*.renderer.freelens.app:*/; img-src * data:",
+    "contentSecurityPolicy": "script-src 'unsafe-eval' 'self'; frame-src https://*.renderer.ims-scope.app:*/; img-src * data:",
     "k8sProxyVersion": "1.8.3",
     "welcomeRoute": "/welcome"
   },

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright (c) 2024-2026 Freelens Authors -->
 <component type="desktop-application">
-  <id>app.freelens.Freelens</id>
+  <id>io.github.nibamot.ims-scope</id>
   <metadata_license>MIT</metadata_license>
   <project_license>MIT</project_license>
-  <name>Freelens</name>
+  <name>IMS-Scope</name>
   <summary>Free IDE for Kubernetes</summary>
   <developer_name>Freelens Authors</developer_name>
-  <url type="homepage">https://freelens.app/</url>
-  <url type="bugtracker">https://github.com/freelensapp/freelens/issues</url>
-  <url type="vcs-browser">https://github.com/freelensapp/freelens</url>
-  <url type="contribute">https://github.com/freelensapp/freelens/blob/main/CONTRIBUTING.md</url>
+  <url type="homepage">https://github.com/Nibamot/ims-scope</url>
+  <url type="bugtracker">https://github.com/Nibamot/ims-scope/issues</url>
+  <url type="vcs-browser">https://github.com/Nibamot/ims-scope</url>
+  <url type="contribute">https://github.com/Nibamot/ims-scope/blob/main/CONTRIBUTING.md</url>
   <description>
-    <p>Freelens is a Kubernetes IDE that provides a graphical interface for managing and monitoring Kubernetes clusters.</p>
+    <p>IMS-Scope is a Kubernetes IDE that provides a graphical interface for managing and monitoring Kubernetes clusters.</p>
     <p>It simplifies cluster operations by offering:</p>
     <ul>
       <li>A dashboard with real-time cluster insights</li>
@@ -21,7 +21,7 @@
       <li>Visualization of workloads, networking, storage, and configurations</li>
       <li>Extension support to add custom functionality</li>
     </ul>
-    <p>Freelens is maintained by the community.</p>
+    <p>IMS-Scope is maintained by the community.</p>
   </description>
   <screenshots>
     <screenshot type="default">
@@ -49,9 +49,9 @@
   <requires>
     <display_length compare="ge">768</display_length>
   </requires>
-  <launchable type="desktop-id">freelens.desktop</launchable>
+  <launchable type="desktop-id">ims-scope.desktop</launchable>
   <provides>
-    <binary>freelens</binary>
+    <binary>ims-scope</binary>
   </provides>
   <categories>
     <category>Development</category>
@@ -65,7 +65,7 @@
     <keyword>ide</keyword>
     <keyword>kubernetes</keyword>
   </keywords>
-  <icon type="stock">freelens</icon>
+  <icon type="stock">ims-scope</icon>
   <icon type="remote">https://freelensapp.github.io/images/freelens-logo-512.png</icon>
   <content_rating type="oars-1.1"></content_rating>
   <releases>

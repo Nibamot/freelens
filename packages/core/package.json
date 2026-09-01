@@ -4,19 +4,19 @@
   "private": true,
   "description": "Freelens Core",
   "keywords": [],
-  "homepage": "https://freelens.app",
+  "homepage": "https://github.com/Nibamot/ims-scope",
   "bugs": {
-    "url": "https://github.com/freelensapp/freelens/issues"
+    "url": "https://github.com/Nibamot/ims-scope/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/freelensapp/freelens.git"
+    "url": "git+https://github.com/Nibamot/ims-scope.git"
   },
   "license": "MIT",
   "type": "module",
   "author": {
     "name": "Freelens Authors",
-    "email": "freelens@freelens.app"
+    "email": "ims-scope@ims-scope.app"
   },
   "exports": {
     "./package.json": "./package.json",

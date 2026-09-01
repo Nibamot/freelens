@@ -269,7 +269,7 @@ jobs:
       - name: Deploy production node_modules
         shell: bash
         run: |
-          pnpm deploy --legacy --prod --filter=freelens freelens/node_modules_prod
+          pnpm deploy --legacy --prod --filter=ims-scope freelens/node_modules_prod
           mv freelens/node_modules freelens/node_modules_dev
           mv freelens/node_modules_prod freelens/node_modules
 
@@ -355,7 +355,7 @@ jobs:
           # workspace does not set inject-workspace-packages.
           deploy_dir="$RUNNER_TEMP/freelens-prod"
           rm -rf "$deploy_dir"
-          pnpm --filter freelens deploy --prod --legacy --ignore-scripts "$deploy_dir"
+          pnpm --filter ims-scope deploy --prod --legacy --ignore-scripts "$deploy_dir"
           os="${{ matrix.os }}"
           arch="${{ matrix.arch == 'x64' && 'amd64' || matrix.arch }}"
           out="freelens/dist/${{ github.event.repository.name }}-${os}-${arch}-prod-packages.json"

@@ -1,18 +1,18 @@
 {
-  "name": "freelens-monorepo",
+  "name": "ims-scope-monorepo",
   "private": true,
-  "homepage": "https://freelens.app",
+  "homepage": "https://github.com/Nibamot/ims-scope",
   "bugs": {
-    "url": "https://github.com/freelensapp/freelens/issues"
+    "url": "https://github.com/Nibamot/ims-scope/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/freelensapp/freelens.git"
+    "url": "git+https://github.com/Nibamot/ims-scope.git"
   },
   "license": "MIT",
   "author": {
     "name": "Freelens Authors",
-    "email": "freelens@freelens.app"
+    "email": "ims-scope@ims-scope.app"
   },
   "workspaces": [
     "packages/**/*",
@@ -24,8 +24,8 @@
     "biome:check": "pnpm biome check",
     "biome:fix": "pnpm biome check --fix",
     "biome:migrate": "pnpm biome migrate --write",
-    "build": "turbo run build --filter=!freelens -- && turbo run build --filter=freelens --",
-    "build:packages": "turbo run build --filter=!freelens --",
+    "build": "turbo run build --filter=!ims-scope -- && turbo run build --filter=ims-scope --",
+    "build:packages": "turbo run build --filter=!ims-scope --",
     "postbuild": "turbo run build:resources --",
     "build:app": "turbo run build:app --",
     "build:app:dir": "pnpm build:app dir",
