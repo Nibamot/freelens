@@ -14,7 +14,7 @@ import { cssNames, disposer } from "@freelensapp/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import autoBindReact from "auto-bind/react";
 import { debounce, merge } from "es-toolkit/compat";
-import { action, makeObservable, observable, reaction } from "mobx";
+import { action, comparer, makeObservable, observable, reaction } from "mobx";
 import { observer } from "mobx-react";
 import { editor, Uri } from "monaco-editor";
 import React from "react";
@@ -104,6 +104,13 @@ class NonInjectedMonacoEditor extends React.Component<MonacoEditorProps & Depend
 
   componentDidUpdate() {
     this.observableProps = this.props;
+  }
+
+  // Stable identity across renders: an inline arrow function in JSX gets a new
+  // identity every render, forcing React to null-then-reassign this ref (and
+  // re-trigger any mobx reaction on `containerElem`) on every single re-render.
+  setContainerElem(elem: HTMLDivElement | null) {
+    this.containerElem = elem;
   }
 
   // These getters read props from the observable snapshot (observableProps), not
@@ -273,6 +280,9 @@ class NonInjectedMonacoEditor extends React.Component<MonacoEditorProps & Depend
       reaction(
         () => this.options,
         (opts) => this.editor.updateOptions(opts),
+        {
+          equals: comparer.structural,
+        },
       ),
 
       () => onDidLayoutChangeDisposer.dispose(),
@@ -339,9 +349,7 @@ class NonInjectedMonacoEditor extends React.Component<MonacoEditorProps & Depend
         data-test-id="monaco-editor"
         className={cssNames(styles.MonacoEditor, className)}
         style={css}
-        ref={(elem) => {
-          this.containerElem = elem;
-        }}
+        ref={this.setContainerElem}
       />
     );
   }
