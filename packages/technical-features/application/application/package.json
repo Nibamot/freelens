@@ -1,6 +1,6 @@
 {
   "name": "@freelensapp/application",
-  "version": "2.0.0-4",
+  "version": "2.0.0-5",
   "private": true,
   "description": "Package for creating Freelens applications",
   "homepage": "https://freelens.app",

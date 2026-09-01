@@ -1,6 +1,6 @@
 {
   "name": "@freelensapp/cluster-settings",
-  "version": "2.0.0-4",
+  "version": "2.0.0-5",
   "private": true,
   "description": "Injection token exporter for cluster settings configuration",
   "homepage": "https://freelens.app",

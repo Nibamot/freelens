@@ -1,6 +1,6 @@
 {
   "name": "@freelensapp/semver",
-  "version": "2.0.0-4",
+  "version": "2.0.0-5",
   "private": true,
   "description": "CLI over semver package for picking parts of a version",
   "homepage": "https://freelens.app",
