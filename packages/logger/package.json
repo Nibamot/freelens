@@ -2,7 +2,7 @@
   "name": "@nibamot/logger",
   "version": "2.0.0-5",
   "private": true,
-  "description": "Highly extendable logger in the Freelens.",
+  "description": "Highly extendable logger in the IMS-Scope.",
   "homepage": "https://github.com/Nibamot/ims-scope",
   "bugs": {
     "url": "https://github.com/Nibamot/ims-scope/issues"

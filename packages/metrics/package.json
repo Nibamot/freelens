@@ -2,7 +2,7 @@
   "name": "@nibamot/metrics",
   "version": "2.0.0-5",
   "private": true,
-  "description": "Injection tokens for implementing metrics for Freelens",
+  "description": "Injection tokens for implementing metrics for IMS-Scope",
   "homepage": "https://github.com/Nibamot/ims-scope",
   "bugs": {
     "url": "https://github.com/Nibamot/ims-scope/issues"

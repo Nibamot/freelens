@@ -2,7 +2,7 @@
   "name": "@nibamot/random",
   "version": "2.0.0-5",
   "private": true,
-  "description": "Highly extendable random in the Freelens.",
+  "description": "Highly extendable random in the IMS-Scope.",
   "homepage": "https://github.com/Nibamot/ims-scope",
   "bugs": {
     "url": "https://github.com/Nibamot/ims-scope/issues"
