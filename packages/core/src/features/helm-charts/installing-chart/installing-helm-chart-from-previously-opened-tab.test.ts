@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { asyncFn } from "@freelensapp/test-utils";
+import { asyncFn } from "@nibamot/test-utils";
 import directoryForLensLocalStorageInjectable from "../../../common/directory-for-lens-local-storage/directory-for-lens-local-storage.injectable";
 import writeJsonFileInjectable from "../../../common/fs/write-json-file.injectable";
 import { HelmChart } from "../../../common/k8s-api/endpoints/helm-charts.api";
@@ -15,7 +15,7 @@ import { TabKind } from "../../../renderer/components/dock/dock/store";
 import getRandomInstallChartTabIdInjectable from "../../../renderer/components/dock/install-chart/get-random-install-chart-tab-id.injectable";
 import { getApplicationBuilder } from "../../../renderer/components/test-utils/get-application-builder";
 
-import type { AsyncFnMock } from "@freelensapp/test-utils";
+import type { AsyncFnMock } from "@nibamot/test-utils";
 
 import type { RenderResult } from "@testing-library/react";
 

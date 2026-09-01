@@ -6,7 +6,7 @@
 
 import { KubeObjectStore } from "../../../common/k8s-api/kube-object.store";
 
-import type { LimitRangeApi } from "@freelensapp/kube-api";
-import type { LimitRange } from "@freelensapp/kube-object";
+import type { LimitRangeApi } from "@nibamot/kube-api";
+import type { LimitRange } from "@nibamot/kube-object";
 
 export class LimitRangeStore extends KubeObjectStore<LimitRange, LimitRangeApi> {}

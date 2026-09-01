@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import type { Subject } from "@freelensapp/kube-object";
+import type { Subject } from "@nibamot/kube-object";
 
 /**
  * Produces a stable, in-memory key used to deduplicate {@link Subject}s inside

@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { stopPropagation } from "@freelensapp/utilities";
+import { stopPropagation } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import apiManagerInjectable from "../../../common/k8s-api/api-manager/manager.injectable";
 import getMaybeDetailsUrlInjectable, {
@@ -12,8 +12,8 @@ import getMaybeDetailsUrlInjectable, {
 import { MaybeLink } from "../maybe-link";
 import { WithTooltip } from "../with-tooltip";
 
-import type { KubeObject, LocalObjectReference, ObjectReference } from "@freelensapp/kube-object";
-import type { StrictReactNode } from "@freelensapp/utilities";
+import type { KubeObject, LocalObjectReference, ObjectReference } from "@nibamot/kube-object";
+import type { StrictReactNode } from "@nibamot/utilities";
 
 import type { ApiManager } from "../../../common/k8s-api/api-manager";
 

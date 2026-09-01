@@ -10,7 +10,7 @@ import { defaultYamlDumpOptions } from "../../../common/kube-helpers";
 import { DrawerItem, DrawerParamToggler } from "../drawer";
 import { MonacoEditor } from "../monaco-editor";
 
-import type { DaemonSet, Deployment, Job, Pod, ReplicaSet, StatefulSet } from "@freelensapp/kube-object";
+import type { DaemonSet, Deployment, Job, Pod, ReplicaSet, StatefulSet } from "@nibamot/kube-object";
 
 export interface PodDetailsAffinitiesProps {
   workload: Pod | Deployment | DaemonSet | StatefulSet | ReplicaSet | Job;

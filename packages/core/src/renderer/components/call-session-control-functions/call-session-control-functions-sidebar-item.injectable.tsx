@@ -3,8 +3,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { sidebarItemInjectionToken } from "@freelensapp/cluster-sidebar";
-import { Icon } from "@freelensapp/icon";
+import { sidebarItemInjectionToken } from "@nibamot/cluster-sidebar";
+import { Icon } from "@nibamot/icon";
 import { getInjectable } from "@ogre-tools/injectable";
 import callSessionControlFunctionsRouteInjectable from "../../../common/front-end-routing/routes/cluster/custom-resources/call-session-control-functions/call-session-control-functions-route.injectable";
 import navigateToCallSessionControlFunctionsInjectable from "../../../common/front-end-routing/routes/cluster/custom-resources/call-session-control-functions/navigate-to-call-session-control-functions.injectable";

@@ -4,11 +4,11 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { bytesToUnits, unitsToBytes } from "@freelensapp/utilities";
+import { bytesToUnits, unitsToBytes } from "@nibamot/utilities";
 import { DrawerItem } from "../drawer";
 import { WithTooltip } from "../with-tooltip";
 
-import type { Node } from "@freelensapp/kube-object";
+import type { Node } from "@nibamot/kube-object";
 
 export interface NodeDetailsResourcesProps {
   node: Node;

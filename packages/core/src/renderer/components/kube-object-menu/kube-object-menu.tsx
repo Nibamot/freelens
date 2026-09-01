@@ -4,9 +4,9 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Icon } from "@freelensapp/icon";
-import { PodStatusPhase } from "@freelensapp/kube-object";
-import { cssNames } from "@freelensapp/utilities";
+import { Icon } from "@nibamot/icon";
+import { PodStatusPhase } from "@nibamot/kube-object";
+import { cssNames } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { identity } from "es-toolkit";
 import { observable, reaction, runInAction } from "mobx";
@@ -23,7 +23,7 @@ import kubeObjectDeleteServiceInjectable from "./kube-object-delete-service.inje
 import kubeObjectMenuItemsInjectable from "./kube-object-menu-items.injectable";
 import onKubeObjectContextMenuOpenInjectable from "./on-context-menu-open.injectable";
 
-import type { KubeObject, Pod } from "@freelensapp/kube-object";
+import type { KubeObject, Pod } from "@nibamot/kube-object";
 
 import type { IComputedValue } from "mobx";
 

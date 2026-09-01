@@ -6,7 +6,7 @@
 
 import "./jobs.scss";
 
-import { formatDuration } from "@freelensapp/utilities";
+import { formatDuration } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
 import { Badge, BadgeBoolean } from "../badge";
@@ -19,7 +19,7 @@ import { NamespaceSelectBadge } from "../namespaces/namespace-select-badge";
 import { WithTooltip } from "../with-tooltip";
 import jobStoreInjectable from "./store.injectable";
 
-import type { Job } from "@freelensapp/kube-object";
+import type { Job } from "@nibamot/kube-object";
 
 import type { EventStore } from "../events/store";
 import type { JobStore } from "./store";

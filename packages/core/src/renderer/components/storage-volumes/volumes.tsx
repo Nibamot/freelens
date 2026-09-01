@@ -6,9 +6,9 @@
 
 import "./volumes.scss";
 
-import { persistentVolumeClaimApiInjectable, storageClassApiInjectable } from "@freelensapp/kube-api-specifics";
-import { Link } from "@freelensapp/routing";
-import { stopPropagation } from "@freelensapp/utilities";
+import { persistentVolumeClaimApiInjectable, storageClassApiInjectable } from "@nibamot/kube-api-specifics";
+import { Link } from "@nibamot/routing";
+import { stopPropagation } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
 import React from "react";
@@ -19,7 +19,7 @@ import { SiblingsInTabLayout } from "../layout/siblings-in-tab-layout";
 import { WithTooltip } from "../with-tooltip";
 import persistentVolumeStoreInjectable from "./store.injectable";
 
-import type { PersistentVolumeClaimApi, StorageClassApi } from "@freelensapp/kube-api";
+import type { PersistentVolumeClaimApi, StorageClassApi } from "@nibamot/kube-api";
 
 import type { GetDetailsUrl } from "../kube-detail-params/get-details-url.injectable";
 import type { PersistentVolumeStore } from "./store";

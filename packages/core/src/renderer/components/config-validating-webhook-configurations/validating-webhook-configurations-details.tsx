@@ -9,7 +9,7 @@ import React from "react";
 import { WebhookConfig } from "../config-mutating-webhook-configurations/webhook-config";
 import { DrawerItem, DrawerTitle } from "../drawer";
 
-import type { ValidatingWebhookConfiguration } from "@freelensapp/kube-object";
+import type { ValidatingWebhookConfiguration } from "@nibamot/kube-object";
 
 import type { KubeObjectDetailsProps } from "../kube-object-details";
 

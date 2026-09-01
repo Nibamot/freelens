@@ -3,8 +3,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Icon } from "@freelensapp/icon";
-import { prevDefault } from "@freelensapp/utilities";
+import { Icon } from "@nibamot/icon";
+import { prevDefault } from "@nibamot/utilities";
 import React from "react";
 import { findOptimalDefaultContainer } from "../dock/logs/default-container-helper";
 import { MenuItem, SubMenu } from "../menu";
@@ -16,7 +16,7 @@ import type {
   ContainerWithType,
   EphemeralContainerWithType,
   PodContainerStatus,
-} from "@freelensapp/kube-object";
+} from "@nibamot/kube-object";
 
 export interface NodePodMenuItemProps {
   material?: string;

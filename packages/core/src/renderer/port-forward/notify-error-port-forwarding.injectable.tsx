@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Button } from "@freelensapp/button";
-import { showErrorNotificationInjectable } from "@freelensapp/notifications";
+import { Button } from "@nibamot/button";
+import { showErrorNotificationInjectable } from "@nibamot/notifications";
 import { getInjectable } from "@ogre-tools/injectable";
 import navigateToPortForwardsInjectable from "../../common/front-end-routing/routes/cluster/network/port-forwards/navigate-to-port-forwards.injectable";
 

@@ -6,7 +6,7 @@
 
 import { powerMonitor } from "electron";
 
-import type { Disposer } from "@freelensapp/utilities";
+import type { Disposer } from "@nibamot/utilities";
 
 /**
  * Event listener for system power events

@@ -8,7 +8,7 @@ import { getDiForUnitTesting } from "../../getDiForUnitTesting";
 import selectedMetricsTimeRangeInjectable from "../cluster/overview/selected-metrics-time-range.injectable";
 import deploymentMetricsInjectable from "./metrics.injectable";
 
-import type { Deployment } from "@freelensapp/kube-object";
+import type { Deployment } from "@nibamot/kube-object";
 
 describe("deployment-metrics injectable", () => {
   it("requests deployment pod metrics with the selected time range", () => {

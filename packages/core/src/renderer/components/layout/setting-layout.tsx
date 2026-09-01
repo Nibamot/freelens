@@ -6,15 +6,15 @@
 
 import "./setting-layout.scss";
 
-import { observableHistoryInjectionToken } from "@freelensapp/routing";
-import { cssNames } from "@freelensapp/utilities";
+import { observableHistoryInjectionToken } from "@nibamot/routing";
+import { cssNames } from "@nibamot/utilities";
 import { observer } from "mobx-react";
 import React from "react";
 import navigateToCatalogInjectable from "../../../common/front-end-routing/routes/catalog/navigate-to-catalog.injectable";
 import { getDiForExtensionApi } from "../../../extensions/extension-api-di";
 import { CloseButton } from "./close-button";
 
-import type { IClassName, StrictReactNode } from "@freelensapp/utilities";
+import type { IClassName, StrictReactNode } from "@nibamot/utilities";
 
 export interface SettingLayoutProps extends React.DOMAttributes<any> {
   className?: IClassName;

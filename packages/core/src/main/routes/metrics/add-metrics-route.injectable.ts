@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { isRequestError, object } from "@freelensapp/utilities";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { isRequestError, object } from "@nibamot/utilities";
 import { isObject } from "es-toolkit/compat";
 import { runInAction } from "mobx";
 import { ClusterMetadataKey, initialFilesystemMountpoints } from "../../../common/cluster-types";

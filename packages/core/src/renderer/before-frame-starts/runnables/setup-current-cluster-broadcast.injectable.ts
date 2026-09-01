@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { sendMessageToChannelInjectionToken } from "@freelensapp/messaging";
+import { sendMessageToChannelInjectionToken } from "@nibamot/messaging";
 import { getInjectable } from "@ogre-tools/injectable";
 import { reaction } from "mobx";
 import { currentClusterMessageChannel } from "../../../common/cluster/current-cluster-channel";

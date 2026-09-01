@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { JsonApi } from "@freelensapp/json-api";
-import { loggerInjectionToken } from "@freelensapp/logger";
+import { JsonApi } from "@nibamot/json-api";
+import { loggerInjectionToken } from "@nibamot/logger";
 import { getInjectable } from "@ogre-tools/injectable";
 import fetchInjectable from "../fetch/fetch.injectable";
 import { lensProxyDispatcherInjectionToken } from "../fetch/lens-proxy-dispatcher-injection-token";
@@ -16,7 +16,7 @@ import type {
   JsonApiData,
   JsonApiDependencies,
   JsonApiParams,
-} from "@freelensapp/json-api";
+} from "@nibamot/json-api";
 
 import type { MainFetchRequestInit } from "../../main/fetch/main-fetch-request-init";
 

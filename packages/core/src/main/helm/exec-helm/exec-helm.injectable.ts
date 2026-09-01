@@ -10,7 +10,7 @@ import helmBinaryPathInjectable from "../helm-binary-path.injectable";
 import execHelmEnvInjectable from "./exec-env.injectable";
 import type { ExecFileException } from "node:child_process";
 
-import type { AsyncResult } from "@freelensapp/utilities";
+import type { AsyncResult } from "@nibamot/utilities";
 
 export type ExecHelm = (args: string[]) => AsyncResult<string, ExecFileException & { stderr: string }>;
 

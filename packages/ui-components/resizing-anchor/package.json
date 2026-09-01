@@ -1,5 +1,5 @@
 {
-  "name": "@freelensapp/resizing-anchor",
+  "name": "@nibamot/resizing-anchor",
   "version": "2.0.0-5",
   "private": true,
   "description": "Highly extendable resizing-anchor in the Freelens.",
@@ -25,14 +25,14 @@
   "types": "./index.ts",
   "scripts": {},
   "dependencies": {
-    "@freelensapp/utilities": "workspace:^",
+    "@nibamot/utilities": "workspace:^",
     "es-toolkit": "catalog:",
     "mobx": "catalog:",
     "mobx-react": "catalog:",
     "react": "catalog:"
   },
   "devDependencies": {
-    "@freelensapp/typescript": "workspace:^",
+    "@nibamot/typescript": "workspace:^",
     "@types/react": "catalog:",
     "typescript": "catalog:",
     "vitest": "catalog:"

@@ -4,11 +4,11 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { requestFromChannelInjectionToken } from "@freelensapp/messaging";
+import { requestFromChannelInjectionToken } from "@nibamot/messaging";
 import { getInjectable } from "@ogre-tools/injectable";
 import { listHelmReleasesChannel } from "../common/channels";
 
-import type { ChannelRequester } from "@freelensapp/messaging";
+import type { ChannelRequester } from "@nibamot/messaging";
 
 export type RequestListHelmReleases = ChannelRequester<typeof listHelmReleasesChannel>;
 

@@ -6,7 +6,7 @@
 
 import "./dialog.scss";
 
-import { showCheckedErrorNotificationInjectable } from "@freelensapp/notifications";
+import { showCheckedErrorNotificationInjectable } from "@nibamot/notifications";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { orderBy } from "es-toolkit/compat";
 import { computed, observable, runInAction } from "mobx";
@@ -19,7 +19,7 @@ import { Wizard, WizardStep } from "../../wizard";
 import rollbackReleaseInjectable from "../rollback-release/rollback-release.injectable";
 import releaseRollbackDialogStateInjectable from "./state.injectable";
 
-import type { ShowCheckedErrorNotification } from "@freelensapp/notifications";
+import type { ShowCheckedErrorNotification } from "@nibamot/notifications";
 
 import type { IObservableValue } from "mobx";
 

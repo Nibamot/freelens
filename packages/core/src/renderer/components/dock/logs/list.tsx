@@ -6,8 +6,8 @@
 
 import "./list.scss";
 
-import { Spinner } from "@freelensapp/spinner";
-import { array, cssNames, formatInTimeZone } from "@freelensapp/utilities";
+import { Spinner } from "@nibamot/spinner";
+import { array, cssNames, formatInTimeZone } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { AnsiUp } from "ansi_up";
 import autoBindReact from "auto-bind/react";

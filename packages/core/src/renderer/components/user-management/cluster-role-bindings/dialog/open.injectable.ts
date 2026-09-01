@@ -9,7 +9,7 @@ import { action } from "mobx";
 import editClusterRoleBindingNameStateInjectable from "./edit-name-state.injectable";
 import clusterRoleBindingDialogStateInjectable from "./state.injectable";
 
-import type { ClusterRoleBinding } from "@freelensapp/kube-object";
+import type { ClusterRoleBinding } from "@nibamot/kube-object";
 
 export type OpenClusterRoleBindingDialog = (clusterRoleBinding?: ClusterRoleBinding) => void;
 

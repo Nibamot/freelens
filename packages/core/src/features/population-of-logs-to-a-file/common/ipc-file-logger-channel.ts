@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import type { MessageChannel } from "@freelensapp/messaging";
+import type { MessageChannel } from "@nibamot/messaging";
 
 export interface IpcFileLogObject {
   fileId: string;

@@ -7,7 +7,7 @@
 import { getInjectable } from "@ogre-tools/injectable";
 import kubeObjectHandlersInjectable from "../../kube-object/handlers.injectable";
 
-import type { KubeObject } from "@freelensapp/kube-object";
+import type { KubeObject } from "@nibamot/kube-object";
 
 import type { KubeObjectOnContextMenuOpenContext } from "../../kube-object/handler";
 

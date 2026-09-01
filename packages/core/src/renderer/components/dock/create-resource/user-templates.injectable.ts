@@ -5,8 +5,8 @@
  */
 
 import { readFile } from "node:fs/promises";
-import { prefixedLoggerInjectable } from "@freelensapp/logger";
-import { delay, getOrInsert, isErrnoException } from "@freelensapp/utilities";
+import { prefixedLoggerInjectable } from "@nibamot/logger";
+import { delay, getOrInsert, isErrnoException } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import { computed, observable } from "mobx";
 import watchInjectable from "../../../../common/fs/watch/watch.injectable";

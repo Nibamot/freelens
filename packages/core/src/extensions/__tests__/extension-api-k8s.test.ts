@@ -1,9 +1,9 @@
-// import { ClusterRoleApi, ClusterRoleBindingApi, ConfigMapApi } from "@freelensapp/kube-api";
+// import { ClusterRoleApi, ClusterRoleBindingApi, ConfigMapApi } from "@nibamot/kube-api";
 // import {
 //   clusterRoleApiInjectable,
 //   clusterRoleBindingApiInjectable,
 //   configMapApiInjectable,
-// } from "@freelensapp/kube-api-specifics";
+// } from "@nibamot/kube-api-specifics";
 // import configMapStoreInjectable from "../../renderer/components/config-maps/store.injectable";
 // import clusterRoleBindingStoreInjectable from "../../renderer/components/user-management/cluster-role-bindings/store.injectable";
 // import clusterRoleStoreInjectable from "../../renderer/components/user-management/cluster-roles/store.injectable";
@@ -43,7 +43,7 @@ import {
   statefulSetApiInjectable,
   storageClassApiInjectable,
   verticalPodAutoscalerApiInjectable,
-} from "@freelensapp/kube-api-specifics";
+} from "@nibamot/kube-api-specifics";
 import horizontalPodAutoscalerStoreInjectable from "../../renderer/components/config-horizontal-pod-autoscalers/store.injectable";
 import limitRangeStoreInjectable from "../../renderer/components/config-limit-ranges/store.injectable";
 import configMapStoreInjectable from "../../renderer/components/config-maps/store.injectable";

@@ -7,7 +7,7 @@
 import assert from "node:assert";
 import { getInjectable, getInjectionToken } from "@ogre-tools/injectable";
 
-import type { Runnable } from "@freelensapp/run-many";
+import type { Runnable } from "@nibamot/run-many";
 
 import type { DiContainerForInjection, Injectable, InjectionToken } from "@ogre-tools/injectable";
 

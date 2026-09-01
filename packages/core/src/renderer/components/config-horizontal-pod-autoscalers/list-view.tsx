@@ -19,7 +19,7 @@ import { WithTooltip } from "../with-tooltip";
 import getHorizontalPodAutoscalerMetrics from "./get-metrics.injectable";
 import horizontalPodAutoscalerStoreInjectable from "./store.injectable";
 
-import type { HorizontalPodAutoscaler } from "@freelensapp/kube-object";
+import type { HorizontalPodAutoscaler } from "@nibamot/kube-object";
 
 import type { HorizontalPodAutoscalerStore } from "./store";
 

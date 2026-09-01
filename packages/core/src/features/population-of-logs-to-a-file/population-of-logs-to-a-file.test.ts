@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { winstonLoggerInjectable } from "@freelensapp/logger";
-import { noop } from "@freelensapp/utilities";
+import { winstonLoggerInjectable } from "@nibamot/logger";
+import { noop } from "@nibamot/utilities";
 import { runInAction } from "mobx";
 import { MESSAGE } from "triple-beam";
 import windowLocationInjectable from "../../common/k8s-api/window-location.injectable";

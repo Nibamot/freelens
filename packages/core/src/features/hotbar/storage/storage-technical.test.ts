@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { loggerInjectionToken } from "@freelensapp/logger";
+import { loggerInjectionToken } from "@nibamot/logger";
 import { computed } from "mobx";
 import { anyObject } from "vitest-mock-extended";
 import directoryForUserDataInjectable from "../../../common/app-paths/directory-for-user-data/directory-for-user-data.injectable";
@@ -20,7 +20,7 @@ import setAsActiveHotbarInjectable from "./common/set-as-active.injectable";
 import hotbarsPersistentStorageInjectable from "./common/storage.injectable";
 import { defaultHotbarCells } from "./common/types";
 
-import type { Logger } from "@freelensapp/logger";
+import type { Logger } from "@nibamot/logger";
 
 import type { DiContainer } from "@ogre-tools/injectable";
 import type { IComputedValue } from "mobx";

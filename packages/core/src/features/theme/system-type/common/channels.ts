@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import type { MessageChannel, RequestChannel } from "@freelensapp/messaging";
+import type { MessageChannel, RequestChannel } from "@nibamot/messaging";
 
 export type SystemThemeType = "dark" | "light";
 

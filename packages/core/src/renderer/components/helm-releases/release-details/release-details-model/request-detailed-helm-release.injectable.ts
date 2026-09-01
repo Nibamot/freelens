@@ -9,7 +9,7 @@ import requestHelmReleaseInjectable from "../../../../../features/helm-releases/
 import requestListHelmReleasesInjectable from "../../../../../features/helm-releases/renderer/request-list-helm-releases.injectable";
 import { toHelmRelease } from "../../to-helm-release";
 
-import type { AsyncResult } from "@freelensapp/utilities";
+import type { AsyncResult } from "@nibamot/utilities";
 
 import type { HelmRelease } from "../../../../../common/k8s-api/endpoints/helm-releases.api";
 import type {

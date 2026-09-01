@@ -1,5 +1,5 @@
-import { onLoadOfApplicationInjectionToken } from "@freelensapp/application";
-import { getMessageChannel, sendMessageToChannelInjectionToken } from "@freelensapp/messaging";
+import { onLoadOfApplicationInjectionToken } from "@nibamot/application";
+import { getMessageChannel, sendMessageToChannelInjectionToken } from "@nibamot/messaging";
 import { getInjectable } from "@ogre-tools/injectable";
 
 export const frameCommunicationAdminChannel = getMessageChannel<undefined>("frame-communication-admin-channel");

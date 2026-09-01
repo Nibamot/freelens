@@ -5,12 +5,12 @@
  */
 
 import EventEmitter from "node:events";
-import { getPromiseStatus } from "@freelensapp/test-utils";
+import { getPromiseStatus } from "@nibamot/test-utils";
 import { getDiForUnitTesting } from "../../../../../getDiForUnitTesting";
 import execFileWithInputInjectable from "./exec-file-with-input.injectable";
 import nonPromiseExecFileInjectable from "./non-promise-exec-file.injectable";
 
-import type { AsyncResult } from "@freelensapp/utilities";
+import type { AsyncResult } from "@nibamot/utilities";
 
 import type { Mock } from "vitest";
 

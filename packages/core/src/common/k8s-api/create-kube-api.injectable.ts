@@ -4,16 +4,16 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { maybeKubeApiInjectable } from "@freelensapp/kube-api-specifics";
+import { maybeKubeApiInjectable } from "@nibamot/kube-api-specifics";
 import {
   logDebugInjectionToken,
   logErrorInjectionToken,
   logInfoInjectionToken,
   logWarningInjectionToken,
-} from "@freelensapp/logger";
+} from "@nibamot/logger";
 import { getInjectable } from "@ogre-tools/injectable";
 
-import type { DerivedKubeApiOptions, KubeApiDependencies } from "@freelensapp/kube-api";
+import type { DerivedKubeApiOptions, KubeApiDependencies } from "@nibamot/kube-api";
 
 export interface CreateKubeApi {
   <Api>(ctor: new (deps: KubeApiDependencies, opts: DerivedKubeApiOptions) => Api, opts?: DerivedKubeApiOptions): Api;

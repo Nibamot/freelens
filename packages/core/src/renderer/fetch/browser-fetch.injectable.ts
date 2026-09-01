@@ -6,7 +6,7 @@
 import { getInjectable, type Injectable } from "@ogre-tools/injectable";
 import { fetchImplementationInjectionToken } from "../../common/fetch/fetch-injection-token";
 
-import type { Fetch } from "@freelensapp/json-api";
+import type { Fetch } from "@nibamot/json-api";
 
 /**
  * Chromium's `fetch`, which is the client the renderer uses.

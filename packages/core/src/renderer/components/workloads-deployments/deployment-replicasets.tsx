@@ -6,8 +6,8 @@
 
 import "./deployment-replicasets.scss";
 
-import { Spinner } from "@freelensapp/spinner";
-import { prevDefault, stopPropagation } from "@freelensapp/utilities";
+import { Spinner } from "@nibamot/spinner";
+import { prevDefault, stopPropagation } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { untracked } from "mobx";
 import { observer } from "mobx-react";
@@ -21,7 +21,7 @@ import { Table, TableCell, TableHead, TableRow } from "../table";
 import { WithTooltip } from "../with-tooltip";
 import replicaSetStoreInjectable from "../workloads-replicasets/store.injectable";
 
-import type { ReplicaSet } from "@freelensapp/kube-object";
+import type { ReplicaSet } from "@nibamot/kube-object";
 
 import type { ShowDetails } from "../kube-detail-params/show-details.injectable";
 import type { ReplicaSetStore } from "../workloads-replicasets/store";

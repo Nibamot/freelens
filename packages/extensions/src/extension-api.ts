@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-// Phase 4 (D5): the type-level entry of `@freelensapp/extensions`. The
+// Phase 4 (D5): the type-level entry of `@nibamot/extensions`. The
 // published package pairs the d.ts rollup of this module with the runtime
 // shim (`./runtime-shim.ts`, emitted as `dist/extension-api.js`), which
 // resolves the same members from `globalThis.FreelensExtensionApi` at
@@ -24,11 +24,11 @@
 
 /// <reference path="../../core/types/mocks.d.ts" />
 
-import type { commonExtensionApi, mainExtensionApi } from "@freelensapp/core/main";
-import type { rendererExtensionApi } from "@freelensapp/core/renderer";
+import type { commonExtensionApi, mainExtensionApi } from "@nibamot/core/main";
+import type { rendererExtensionApi } from "@nibamot/core/renderer";
 
-export { commonExtensionApi as Common, mainExtensionApi as Main } from "@freelensapp/core/main";
-export { rendererExtensionApi as Renderer } from "@freelensapp/core/renderer";
+export { commonExtensionApi as Common, mainExtensionApi as Main } from "@nibamot/core/main";
+export { rendererExtensionApi as Renderer } from "@nibamot/core/renderer";
 
 declare global {
   // eslint-disable-next-line no-var

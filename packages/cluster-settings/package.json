@@ -1,5 +1,5 @@
 {
-  "name": "@freelensapp/cluster-settings",
+  "name": "@nibamot/cluster-settings",
   "version": "2.0.0-5",
   "private": true,
   "description": "Injection token exporter for cluster settings configuration",
@@ -26,7 +26,7 @@
     "@ogre-tools/injectable": "catalog:"
   },
   "devDependencies": {
-    "@freelensapp/typescript": "workspace:^",
+    "@nibamot/typescript": "workspace:^",
     "@types/react": "catalog:"
   },
   "publishConfig": {

@@ -10,7 +10,7 @@ import { observer } from "mobx-react";
 import React from "react";
 import { DrawerItem } from "../drawer";
 
-import type { Lease } from "@freelensapp/kube-object";
+import type { Lease } from "@nibamot/kube-object";
 
 import type { KubeObjectDetailsProps } from "../kube-object-details";
 

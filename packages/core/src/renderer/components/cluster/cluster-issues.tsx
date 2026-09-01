@@ -4,9 +4,9 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Icon } from "@freelensapp/icon";
-import { Spinner } from "@freelensapp/spinner";
-import { cssNames, prevDefault } from "@freelensapp/utilities";
+import { Icon } from "@nibamot/icon";
+import { Spinner } from "@nibamot/spinner";
+import { cssNames, prevDefault } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { makeObservable, observable } from "mobx";
 import { observer } from "mobx-react";

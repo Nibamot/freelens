@@ -1,4 +1,4 @@
-import { byOrderNumber } from "@freelensapp/utilities";
+import { byOrderNumber } from "@nibamot/utilities";
 import { getInjectable, type InjectionInstanceWithMeta } from "@ogre-tools/injectable";
 import { computedInjectManyInjectionToken } from "@ogre-tools/injectable-extension-for-mobx";
 import { computed } from "mobx";

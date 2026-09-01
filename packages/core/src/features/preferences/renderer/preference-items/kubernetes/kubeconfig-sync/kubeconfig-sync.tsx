@@ -4,9 +4,9 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { Spinner } from "@freelensapp/spinner";
-import { iter, tuple } from "@freelensapp/utilities";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { Spinner } from "@nibamot/spinner";
+import { iter, tuple } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { computed, makeObservable, observable, reaction } from "mobx";
 import { observer } from "mobx-react";
@@ -20,7 +20,7 @@ import { RemovableItem } from "../../../removable-item/removable-item";
 import discoverAllKubeconfigSyncKindsInjectable from "./discover-all-sync-kinds.injectable";
 import discoverKubeconfigSyncKindInjectable from "./discover-sync-kind.injectable";
 
-import type { Logger } from "@freelensapp/logger";
+import type { Logger } from "@nibamot/logger";
 
 import type { UserPreferencesState } from "../../../../../user-preferences/common/state.injectable";
 import type { DiscoverAllKubeconfigSyncKinds } from "./discover-all-sync-kinds.injectable";

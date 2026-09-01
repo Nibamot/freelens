@@ -44,7 +44,7 @@ import type {
   Pod,
   ReplicaSet,
   StatefulSet,
-} from "@freelensapp/kube-object";
+} from "@nibamot/kube-object";
 
 import type { AtLeastOneMetricTab, ResourceMetricsProps } from "./resource-metrics";
 

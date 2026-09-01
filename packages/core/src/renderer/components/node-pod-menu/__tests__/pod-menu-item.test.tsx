@@ -4,7 +4,7 @@ import { getDiForUnitTesting } from "../../../getDiForUnitTesting";
 import { type DiRender, renderFor } from "../../test-utils/renderFor";
 import PodMenuItem from "../pod-menu-item";
 
-import type { ContainerWithType } from "@freelensapp/kube-object";
+import type { ContainerWithType } from "@nibamot/kube-object";
 
 import type { DiContainer } from "@ogre-tools/injectable";
 import type { Mock } from "vitest";

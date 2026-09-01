@@ -5,7 +5,7 @@
  */
 
 import assert from "node:assert";
-import { flushPromises } from "@freelensapp/test-utils";
+import { flushPromises } from "@nibamot/test-utils";
 import { act, fireEvent } from "@testing-library/react";
 import { computed, observable, runInAction } from "mobx";
 import directoryForLensLocalStorageInjectable from "../../common/directory-for-lens-local-storage/directory-for-lens-local-storage.injectable";

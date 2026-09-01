@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { winstonLoggerInjectable } from "@freelensapp/logger";
-import { sendMessageToChannelInjectionToken } from "@freelensapp/messaging";
+import { winstonLoggerInjectable } from "@nibamot/logger";
+import { sendMessageToChannelInjectionToken } from "@nibamot/messaging";
 import { getInjectable } from "@ogre-tools/injectable";
 import { closeIpcFileLoggerChannel } from "../common/ipc-file-logger-channel";
 import ipcLogTransportInjectable from "./ipc-transport.injectable";

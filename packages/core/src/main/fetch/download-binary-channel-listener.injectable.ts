@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { getRequestChannelListenerInjectable } from "@freelensapp/messaging";
+import { getRequestChannelListenerInjectable } from "@nibamot/messaging";
 import { downloadBinaryChannel } from "../../common/fetch/download-binary-channel";
 import downloadBinaryInjectable from "./download-binary.injectable";
 

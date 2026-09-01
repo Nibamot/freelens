@@ -8,7 +8,7 @@
 // https://www.electronjs.org/docs/api/ipc-main
 // https://www.electronjs.org/docs/api/ipc-renderer
 
-import { loggerInjectionToken } from "@freelensapp/logger";
+import { loggerInjectionToken } from "@nibamot/logger";
 import { ipcMain, ipcRenderer, webContents } from "electron";
 import { getDiForExtensionApi } from "../../extensions/extension-api-di";
 import ipcRendererInjectable from "../../renderer/utils/channel/ipc-renderer.injectable";
@@ -16,7 +16,7 @@ import clusterFramesInjectable from "../cluster-frames.injectable";
 import { toJS } from "../utils/toJS";
 import ipcMainInjectionToken from "./ipc-main-injection-token";
 
-import type { Disposer } from "@freelensapp/utilities";
+import type { Disposer } from "@nibamot/utilities";
 
 export const broadcastMainChannel = "ipc:broadcast-main";
 

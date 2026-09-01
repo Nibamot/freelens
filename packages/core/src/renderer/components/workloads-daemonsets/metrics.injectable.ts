@@ -7,7 +7,7 @@
 import requestPodMetricsForDaemonSetsInjectable from "../../../common/k8s-api/endpoints/metrics.api/request-pod-metrics-for-daemon-sets.injectable";
 import { createTimeRangedMetricsInjectable } from "../resource-metrics/create-time-ranged-metrics";
 
-import type { DaemonSet } from "@freelensapp/kube-object";
+import type { DaemonSet } from "@nibamot/kube-object";
 
 interface DaemonSetMetricsInjectableParams {
   daemonSet: DaemonSet;

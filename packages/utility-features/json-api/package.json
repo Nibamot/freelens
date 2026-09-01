@@ -1,5 +1,5 @@
 {
-  "name": "@freelensapp/json-api",
+  "name": "@nibamot/json-api",
   "version": "2.0.0-5",
   "private": true,
   "description": "JSON api client",
@@ -23,13 +23,13 @@
     "clean:dist": "pnpm dlx rimraf@6.1.3 dist"
   },
   "dependencies": {
-    "@freelensapp/event-emitter": "workspace:^",
-    "@freelensapp/utilities": "workspace:^",
+    "@nibamot/event-emitter": "workspace:^",
+    "@nibamot/utilities": "workspace:^",
     "es-toolkit": "catalog:"
   },
   "devDependencies": {
-    "@freelensapp/logger": "workspace:^",
-    "@freelensapp/typescript": "workspace:^",
+    "@nibamot/logger": "workspace:^",
+    "@nibamot/typescript": "workspace:^",
     "@types/node": "catalog:",
     "rfc6902": "catalog:",
     "type-fest": "catalog:"

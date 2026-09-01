@@ -6,10 +6,10 @@
 
 import "./icon.scss";
 
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { NavLink } from "@freelensapp/routing";
-import { withTooltip } from "@freelensapp/tooltip";
-import { cssNames } from "@freelensapp/utilities";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { NavLink } from "@nibamot/routing";
+import { withTooltip } from "@nibamot/tooltip";
+import { cssNames } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import React, { createRef } from "react";
 import Configuration from "../assets/configuration.svg?raw";
@@ -34,9 +34,9 @@ import Users from "../assets/users.svg?raw";
 import Wheel from "../assets/wheel.svg?raw";
 import Workloads from "../assets/workloads.svg?raw";
 
-import type { Logger } from "@freelensapp/logger";
-import type { To } from "@freelensapp/routing";
-import type { StrictReactNode } from "@freelensapp/utilities";
+import type { Logger } from "@nibamot/logger";
+import type { To } from "@nibamot/routing";
+import type { StrictReactNode } from "@nibamot/utilities";
 
 const hrefValidation = /https?:\/\//;
 
@@ -106,7 +106,7 @@ export interface BaseIconProps {
   svg?: NamedSvg | string;
 
   /**
-   * render icon as an in-app navigation link (see `@freelensapp/routing`)
+   * render icon as an in-app navigation link (see `@nibamot/routing`)
    */
   link?: To;
 

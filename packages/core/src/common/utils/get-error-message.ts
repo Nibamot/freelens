@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { JsonApiErrorParsed } from "@freelensapp/json-api";
+import { JsonApiErrorParsed } from "@nibamot/json-api";
 
 export const getErrorMessage = (error: unknown): string => {
   if (typeof error === "string") {

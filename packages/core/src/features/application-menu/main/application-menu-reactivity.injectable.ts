@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { getStartableStoppable } from "@freelensapp/startable-stoppable";
+import { getStartableStoppable } from "@nibamot/startable-stoppable";
 import { getInjectable } from "@ogre-tools/injectable";
 import { autorun } from "mobx";
 import applicationMenuItemCompositeInjectable from "./application-menu-item-composite.injectable";

@@ -19,7 +19,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { cssNames } from "@freelensapp/utilities";
+import { cssNames } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import isLinuxInjectable from "../../../../../../common/vars/is-linux.injectable";
 import toggleMaximizeWindowInjectable from "../../toggle-maximize-window/toggle-maximize-window.injectable";

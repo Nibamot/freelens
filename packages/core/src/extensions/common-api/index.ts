@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { loggerInjectionToken } from "@freelensapp/logger";
+import { loggerInjectionToken } from "@nibamot/logger";
 import { asLazyInjectedForExtensionApi } from "../extension-api-di";
 
 // APIs
@@ -17,7 +17,7 @@ export * as Store from "./stores";
 export * as Types from "./types";
 export { Util } from "./utils";
 
-export type { Logger } from "@freelensapp/logger";
+export type { Logger } from "@nibamot/logger";
 
 export type { InstalledExtension, LensExtensionManifest } from "../installed-extension";
 

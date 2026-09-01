@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Icon } from "@freelensapp/icon";
-import { Tooltip } from "@freelensapp/tooltip";
+import { Icon } from "@nibamot/icon";
+import { Tooltip } from "@nibamot/tooltip";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observable } from "mobx";
 import { observer } from "mobx-react";

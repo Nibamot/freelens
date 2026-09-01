@@ -7,7 +7,7 @@
 import { getInjectable } from "@ogre-tools/injectable";
 import requestMetricsInjectable from "./request-metrics.injectable";
 
-import type { Container, Pod } from "@freelensapp/kube-object";
+import type { Container, Pod } from "@nibamot/kube-object";
 
 import type { MetricData } from "../metrics.api";
 

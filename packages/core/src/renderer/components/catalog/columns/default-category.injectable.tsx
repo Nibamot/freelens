@@ -9,7 +9,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { KubeObject } from "@freelensapp/kube-object";
+import { KubeObject } from "@nibamot/kube-object";
 import { getInjectable } from "@ogre-tools/injectable";
 import styles from "../catalog.module.scss";
 import getLabelBadgesInjectable from "../get-label-badges.injectable";

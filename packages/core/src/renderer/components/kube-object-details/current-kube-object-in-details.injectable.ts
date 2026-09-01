@@ -9,7 +9,7 @@ import apiManagerInjectable from "../../../common/k8s-api/api-manager/manager.in
 import { asyncComputed } from "../../../common/utils/async-computed";
 import kubeDetailsUrlParamInjectable from "../kube-detail-params/kube-details-url.injectable";
 
-import type { KubeObject } from "@freelensapp/kube-object";
+import type { KubeObject } from "@nibamot/kube-object";
 
 export type CurrentKubeObject =
   | undefined

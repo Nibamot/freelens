@@ -4,10 +4,10 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { StorageClass } from "@freelensapp/kube-object";
+import { StorageClass } from "@nibamot/kube-object";
 import { KubeApi } from "../kube-api";
 
-import type { StorageClassData } from "@freelensapp/kube-object";
+import type { StorageClassData } from "@nibamot/kube-object";
 
 import type { DerivedKubeApiOptions, KubeApiDependencies } from "../kube-api";
 

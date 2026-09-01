@@ -4,12 +4,12 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { showCheckedErrorNotificationInjectable } from "@freelensapp/notifications";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { showCheckedErrorNotificationInjectable } from "@nibamot/notifications";
 import { getInjectable } from "@ogre-tools/injectable";
 import kubeconfigDialogStateInjectable from "./state.injectable";
 
-import type { StrictReactNode } from "@freelensapp/utilities";
+import type { StrictReactNode } from "@nibamot/utilities";
 
 export interface OpenKubeconfigDialogArgs {
   title?: StrictReactNode;

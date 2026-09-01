@@ -6,8 +6,8 @@
 
 import { KubeObjectStore } from "../kube-object.store";
 
-import type { KubeApi } from "@freelensapp/kube-api";
-import type { KubeObject } from "@freelensapp/kube-object";
+import type { KubeApi } from "@nibamot/kube-api";
+import type { KubeObject } from "@nibamot/kube-object";
 
 import type { KubeObjectStoreDependencies } from "../kube-object.store";
 

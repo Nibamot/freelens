@@ -5,14 +5,14 @@
  */
 
 import assert from "node:assert";
-import { parseKubeApi } from "@freelensapp/kube-api";
-import { KubeStatus } from "@freelensapp/kube-object";
-import { includes, isAbortError, object, rejectPromiseBy, waitUntilDefined } from "@freelensapp/utilities";
+import { parseKubeApi } from "@nibamot/kube-api";
+import { KubeStatus } from "@nibamot/kube-object";
+import { includes, isAbortError, object, rejectPromiseBy, waitUntilDefined } from "@nibamot/utilities";
 import autoBind from "auto-bind";
 import { action, computed, makeObservable, observable, reaction } from "mobx";
 import { ItemStore } from "../item.store";
 
-import type { FetchRequestInit as RequestInit } from "@freelensapp/json-api";
+import type { FetchRequestInit as RequestInit } from "@nibamot/json-api";
 import type {
   DeleteOptions,
   IKubeWatchEvent,
@@ -20,10 +20,10 @@ import type {
   KubeApiPatchType,
   KubeApiQueryParams,
   KubeApiWatchCallback,
-} from "@freelensapp/kube-api";
-import type { KubeJsonApiDataFor, KubeObject } from "@freelensapp/kube-object";
-import type { Logger } from "@freelensapp/logger";
-import type { Disposer } from "@freelensapp/utilities";
+} from "@nibamot/kube-api";
+import type { KubeJsonApiDataFor, KubeObject } from "@nibamot/kube-object";
+import type { Logger } from "@nibamot/logger";
+import type { Disposer } from "@nibamot/utilities";
 
 import type { Patch } from "rfc6902";
 import type { PartialDeep } from "type-fest";

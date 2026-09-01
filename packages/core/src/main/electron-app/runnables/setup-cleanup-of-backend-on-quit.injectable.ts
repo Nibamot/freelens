@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { beforeElectronIsReadyInjectionToken } from "@freelensapp/application-for-electron-main";
-import { runManyFor } from "@freelensapp/run-many";
+import { beforeElectronIsReadyInjectionToken } from "@nibamot/application-for-electron-main";
+import { runManyFor } from "@nibamot/run-many";
 import { getInjectable } from "@ogre-tools/injectable";
 import { once } from "es-toolkit";
 import { onQuitOfBackEndInjectionToken } from "../../start-main-application/runnable-tokens/phases";

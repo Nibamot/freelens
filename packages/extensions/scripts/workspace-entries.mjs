@@ -3,9 +3,9 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-// Enumerates the TypeScript entry points of every `@freelensapp/*` workspace
+// Enumerates the TypeScript entry points of every `@nibamot/*` workspace
 // package as (specifier, sourcePath) pairs, e.g.
-// ("@freelensapp/core/main", "<repo>/packages/core/src/main/library.ts").
+// ("@nibamot/core/main", "<repo>/packages/core/src/main/library.ts").
 //
 // The d.ts build uses this twice with the same data so the two stay in sync:
 // - `generate-dts-tsconfig.mjs` turns it into tsconfig `paths`, which makes
@@ -37,7 +37,7 @@ export const enumerateWorkspaceEntries = (repoRoot) => {
     const packageDir = path.join(repoRoot, path.dirname(manifestPath));
     const manifest = JSON.parse(readFileSync(path.join(repoRoot, manifestPath), "utf8"));
 
-    if (!manifest.name?.startsWith("@freelensapp/") || manifest.name === "@freelensapp/extensions") {
+    if (!manifest.name?.startsWith("@nibamot/") || manifest.name === "@nibamot/extensions") {
       continue;
     }
 

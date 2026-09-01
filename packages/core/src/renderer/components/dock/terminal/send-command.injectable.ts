@@ -4,9 +4,9 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { showSuccessNotificationInjectable } from "@freelensapp/notifications";
-import { noop, waitUntilDefined } from "@freelensapp/utilities";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { showSuccessNotificationInjectable } from "@nibamot/notifications";
+import { noop, waitUntilDefined } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import { when } from "mobx";
 import { TerminalChannels } from "../../../../common/terminal/channels";

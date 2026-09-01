@@ -4,14 +4,14 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { showErrorNotificationInjectable } from "@freelensapp/notifications";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { showErrorNotificationInjectable } from "@nibamot/notifications";
 import { getInjectable } from "@ogre-tools/injectable";
 import openSaveFileDialogInjectable from "../../../utils/save-file.injectable";
 import callForLogsInjectable from "./call-for-logs.injectable";
 
-import type { ResourceDescriptor } from "@freelensapp/kube-api";
-import type { PodLogsQuery } from "@freelensapp/kube-object";
+import type { ResourceDescriptor } from "@nibamot/kube-api";
+import type { PodLogsQuery } from "@nibamot/kube-object";
 
 const downloadAllLogsInjectable = getInjectable({
   id: "download-all-logs",

@@ -16,7 +16,7 @@ import { NamespaceSelectBadge } from "../namespaces/namespace-select-badge";
 import { WithTooltip } from "../with-tooltip";
 import podDisruptionBudgetStoreInjectable from "./store.injectable";
 
-import type { PodDisruptionBudget } from "@freelensapp/kube-object";
+import type { PodDisruptionBudget } from "@nibamot/kube-object";
 
 import type { KubeObjectDetailsProps } from "../kube-object-details";
 import type { PodDisruptionBudgetStore } from "./store";

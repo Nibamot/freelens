@@ -4,9 +4,9 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Icon } from "@freelensapp/icon";
-import { Spinner } from "@freelensapp/spinner";
-import { bytesToUnits, cssNames } from "@freelensapp/utilities";
+import { Icon } from "@nibamot/icon";
+import { Spinner } from "@nibamot/spinner";
+import { bytesToUnits, cssNames } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
 import { useRef } from "react";
@@ -20,7 +20,7 @@ import selectedMetricsTimeRangeInjectable from "./overview/selected-metrics-time
 import selectedNodeRoleForMetricsInjectable from "./overview/selected-node-role-for-metrics.injectable";
 import { createMetricsTimeRangeKey } from "./overview/time-range-key";
 
-import type { Node } from "@freelensapp/kube-object";
+import type { Node } from "@nibamot/kube-object";
 
 import type { IComputedValue } from "mobx";
 

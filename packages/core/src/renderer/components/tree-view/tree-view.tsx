@@ -4,12 +4,12 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Icon } from "@freelensapp/icon";
-import { cssNames } from "@freelensapp/utilities";
+import { Icon } from "@nibamot/icon";
+import { cssNames } from "@nibamot/utilities";
 import { useState } from "react";
 import styles from "./tree-view.module.scss";
 
-import type { StrictReactNode } from "@freelensapp/utilities";
+import type { StrictReactNode } from "@nibamot/utilities";
 
 import type { JSX, MouseEventHandler } from "react";
 

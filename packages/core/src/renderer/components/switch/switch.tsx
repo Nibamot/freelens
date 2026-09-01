@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { cssNames } from "@freelensapp/utilities";
+import { cssNames } from "@nibamot/utilities";
 import styles from "./switch.module.scss";
 
 import type { ChangeEvent, HTMLProps } from "react";

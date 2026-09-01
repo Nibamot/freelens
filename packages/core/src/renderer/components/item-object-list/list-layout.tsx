@@ -6,7 +6,7 @@
 
 import "./item-list-layout.scss";
 
-import { cssNames, noop } from "@freelensapp/utilities";
+import { cssNames, noop } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import autoBindReact from "auto-bind/react";
 import { groupBy } from "es-toolkit";
@@ -25,8 +25,8 @@ import { FilterType } from "./page-filters/store";
 import pageFiltersStoreInjectable from "./page-filters/store.injectable";
 import itemListLayoutStorageInjectable from "./storage.injectable";
 
-import type { ItemObject, TableCellProps } from "@freelensapp/list-layout";
-import type { IClassName, SingleOrMany, StrictReactNode } from "@freelensapp/utilities";
+import type { ItemObject, TableCellProps } from "@nibamot/list-layout";
+import type { IClassName, SingleOrMany, StrictReactNode } from "@nibamot/utilities";
 
 import type { IComputedValue } from "mobx";
 import type { Primitive } from "type-fest";

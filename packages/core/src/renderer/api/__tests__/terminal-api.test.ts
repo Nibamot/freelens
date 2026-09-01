@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { loggerInjectionToken } from "@freelensapp/logger";
+import { loggerInjectionToken } from "@nibamot/logger";
 import { TerminalChannels } from "../../../common/terminal/channels";
 import { getDiForUnitTesting } from "../../getDiForUnitTesting";
 import defaultWebsocketApiParamsInjectable from "../default-websocket-api-params.injectable";

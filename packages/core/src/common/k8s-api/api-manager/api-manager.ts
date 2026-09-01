@@ -4,12 +4,12 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { createKubeApiURL, parseKubeApi } from "@freelensapp/kube-api";
-import { getOrInsertWith, iter, lowerAndPluralize } from "@freelensapp/utilities";
+import { createKubeApiURL, parseKubeApi } from "@nibamot/kube-api";
+import { getOrInsertWith, iter, lowerAndPluralize } from "@nibamot/utilities";
 import { action, autorun, observable } from "mobx";
 
-import type { KubeApi } from "@freelensapp/kube-api";
-import type { KubeObject, ObjectReference } from "@freelensapp/kube-object";
+import type { KubeApi } from "@nibamot/kube-api";
+import type { KubeObject, ObjectReference } from "@nibamot/kube-object";
 
 import type { IComputedValue } from "mobx";
 

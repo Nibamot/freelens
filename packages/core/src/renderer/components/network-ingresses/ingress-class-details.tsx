@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Link } from "@freelensapp/routing";
-import { stopPropagation } from "@freelensapp/utilities";
+import { Link } from "@nibamot/routing";
+import { stopPropagation } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { makeObservable } from "mobx";
 import { observer } from "mobx-react";
@@ -16,7 +16,7 @@ import { DrawerItem, DrawerTitle } from "../drawer";
 import getDetailsUrlInjectable, { type GetDetailsUrl } from "../kube-detail-params/get-details-url.injectable";
 import styles from "./ingress-class-details.module.scss";
 
-import type { IngressClass } from "@freelensapp/kube-object";
+import type { IngressClass } from "@nibamot/kube-object";
 
 import type { ApiManager } from "../../../common/k8s-api/api-manager";
 import type { KubeObjectDetailsProps } from "../kube-object-details";

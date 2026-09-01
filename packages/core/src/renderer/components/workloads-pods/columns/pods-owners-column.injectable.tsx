@@ -4,9 +4,9 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { podListLayoutColumnInjectionToken } from "@freelensapp/list-layout";
-import { Link } from "@freelensapp/routing";
-import { stopPropagation } from "@freelensapp/utilities";
+import { podListLayoutColumnInjectionToken } from "@nibamot/list-layout";
+import { Link } from "@nibamot/routing";
+import { stopPropagation } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import apiManagerInjectable from "../../../../common/k8s-api/api-manager/manager.injectable";
 import { Badge } from "../../badge";

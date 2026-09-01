@@ -9,7 +9,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { cssNames, prevDefault } from "@freelensapp/utilities";
+import { cssNames, prevDefault } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { Badge } from "../badge";
 import styles from "./namespace-select-badge.module.scss";

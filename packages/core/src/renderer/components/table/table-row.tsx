@@ -6,7 +6,7 @@
 
 import "./table-row.scss";
 
-import { cssNames } from "@freelensapp/utilities";
+import { cssNames } from "@nibamot/utilities";
 import React from "react";
 
 import type { CSSProperties } from "react";

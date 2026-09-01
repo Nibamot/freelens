@@ -1,5 +1,5 @@
 {
-  "name": "@freelensapp/routing",
+  "name": "@nibamot/routing",
   "version": "2.0.0-5",
   "private": true,
   "description": "Highly extendable routing in the Freelens.",
@@ -21,7 +21,7 @@
   "types": "./index.ts",
   "scripts": {},
   "dependencies": {
-    "@freelensapp/feature-core": "workspace:^",
+    "@nibamot/feature-core": "workspace:^",
     "@ogre-tools/fp": "catalog:",
     "@ogre-tools/injectable": "catalog:",
     "@ogre-tools/injectable-react": "catalog:",
@@ -30,7 +30,7 @@
     "react": "catalog:"
   },
   "devDependencies": {
-    "@freelensapp/typescript": "workspace:^",
+    "@nibamot/typescript": "workspace:^",
     "@ogre-tools/injectable-extension-for-mobx": "catalog:",
     "@testing-library/jest-dom": "catalog:",
     "@testing-library/react": "catalog:",

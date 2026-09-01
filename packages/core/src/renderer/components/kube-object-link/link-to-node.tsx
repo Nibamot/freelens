@@ -3,8 +3,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { nodeApiInjectable } from "@freelensapp/kube-api-specifics";
-import { stopPropagation } from "@freelensapp/utilities";
+import { nodeApiInjectable } from "@nibamot/kube-api-specifics";
+import { stopPropagation } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import getMaybeDetailsUrlInjectable, {
   type GetMaybeDetailsUrl,
@@ -12,7 +12,7 @@ import getMaybeDetailsUrlInjectable, {
 import { MaybeLink } from "../maybe-link";
 import { WithTooltip } from "../with-tooltip";
 
-import type { NodeApi } from "@freelensapp/kube-api";
+import type { NodeApi } from "@nibamot/kube-api";
 
 interface Dependencies {
   getMaybeDetailsUrl: GetMaybeDetailsUrl;

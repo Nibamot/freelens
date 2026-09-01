@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { hasTypedProperty, isDefined } from "@freelensapp/utilities";
+import { hasTypedProperty, isDefined } from "@nibamot/utilities";
 
 export function getMessageFromError(error: unknown): string {
   if (!error || typeof error !== "object") {

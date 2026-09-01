@@ -3,10 +3,10 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { kubectlChecksums } from "@freelensapp/kubectl-versions";
+import { kubectlChecksums } from "@nibamot/kubectl-versions";
 import { getInjectable } from "@ogre-tools/injectable";
 
-import type { KubectlChecksum } from "@freelensapp/kubectl-versions";
+import type { KubectlChecksum } from "@nibamot/kubectl-versions";
 
 import type { NormalizedPlatform } from "../../common/vars/normalized-platform.injectable";
 

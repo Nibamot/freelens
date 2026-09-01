@@ -1,4 +1,4 @@
-import { noop } from "@freelensapp/utilities";
+import { noop } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import { reaction } from "mobx";
 import { clusterRefreshAccessibilityChannel } from "../../../common/ipc/cluster";

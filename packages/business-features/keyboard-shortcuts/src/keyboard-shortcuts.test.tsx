@@ -1,7 +1,7 @@
-import { startApplicationInjectionToken } from "@freelensapp/application";
-import { registerFeature } from "@freelensapp/feature-core";
-import { reactApplicationChildrenInjectionToken, renderInjectionToken } from "@freelensapp/react-application";
-import { Discover, discoverFor } from "@freelensapp/react-testing-library-discovery";
+import { startApplicationInjectionToken } from "@nibamot/application";
+import { registerFeature } from "@nibamot/feature-core";
+import { reactApplicationChildrenInjectionToken, renderInjectionToken } from "@nibamot/react-application";
+import { Discover, discoverFor } from "@nibamot/react-testing-library-discovery";
 import { createContainer, DiContainer, getInjectable } from "@ogre-tools/injectable";
 import { registerMobX } from "@ogre-tools/injectable-extension-for-mobx";
 import { render } from "@testing-library/react";

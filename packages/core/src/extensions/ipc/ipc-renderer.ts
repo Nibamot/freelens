@@ -9,7 +9,7 @@ import { once } from "es-toolkit";
 import { Disposers } from "../lens-extension";
 import { IpcPrefix, IpcRegistrar } from "./ipc-registrar";
 
-import type { Disposer } from "@freelensapp/utilities";
+import type { Disposer } from "@nibamot/utilities";
 
 import type { LensRendererExtension } from "../lens-renderer-extension";
 

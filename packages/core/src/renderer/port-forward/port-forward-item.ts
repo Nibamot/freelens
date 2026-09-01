@@ -6,7 +6,7 @@
 
 import autoBind from "auto-bind";
 
-import type { ItemObject } from "@freelensapp/list-layout";
+import type { ItemObject } from "@nibamot/list-layout";
 
 export type ForwardedPortStatus = "Active" | "Disabled";
 export interface ForwardedPort {

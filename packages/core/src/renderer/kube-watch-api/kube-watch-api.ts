@@ -4,12 +4,12 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { disposer, getOrInsert, isAbortError, noop, WrappedAbortController } from "@freelensapp/utilities";
+import { disposer, getOrInsert, isAbortError, noop, WrappedAbortController } from "@nibamot/utilities";
 import { once } from "es-toolkit";
 import { comparer, reaction } from "mobx";
 
-import type { Logger } from "@freelensapp/logger";
-import type { Disposer } from "@freelensapp/utilities";
+import type { Logger } from "@nibamot/logger";
+import type { Disposer } from "@nibamot/utilities";
 
 import type {
   KubeObjectStoreLoadAllParams,

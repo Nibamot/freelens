@@ -7,7 +7,7 @@
 import { useState } from "react";
 import { Menu } from "../menu";
 
-import type { StrictReactNode } from "@freelensapp/utilities";
+import type { StrictReactNode } from "@nibamot/utilities";
 
 import type { HTMLAttributes } from "react";
 

@@ -7,10 +7,10 @@
 import "./helm-chart-details.scss";
 
 import assert from "node:assert";
-import { Button } from "@freelensapp/button";
-import { Spinner } from "@freelensapp/spinner";
-import { stopPropagation } from "@freelensapp/utilities";
 import { styled, Tooltip } from "@mui/material";
+import { Button } from "@nibamot/button";
+import { Spinner } from "@nibamot/spinner";
+import { stopPropagation } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import autoBindReact from "auto-bind/react";
 import { observer } from "mobx-react";

@@ -4,7 +4,7 @@
  */
 
 import "@testing-library/jest-dom/vitest";
-import { showErrorNotificationInjectable } from "@freelensapp/notifications";
+import { showErrorNotificationInjectable } from "@nibamot/notifications";
 import { act, fireEvent, screen } from "@testing-library/react";
 import { computed, observable } from "mobx";
 import { getDiForUnitTesting } from "../../getDiForUnitTesting";

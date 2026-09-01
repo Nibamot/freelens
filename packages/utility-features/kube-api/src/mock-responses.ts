@@ -6,7 +6,7 @@
 
 import { type Mocked, vi } from "vitest";
 
-import type { FetchResponse as Response } from "@freelensapp/json-api";
+import type { FetchResponse as Response } from "@nibamot/json-api";
 
 /**
  * A `ReadableStream` a test can push to, standing in for the WHATWG body undici

@@ -4,10 +4,10 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { RoleBinding } from "@freelensapp/kube-object";
+import { RoleBinding } from "@nibamot/kube-object";
 import { KubeApi } from "../kube-api";
 
-import type { RoleBindingData } from "@freelensapp/kube-object";
+import type { RoleBindingData } from "@nibamot/kube-object";
 
 import type { DerivedKubeApiOptions, KubeApiDependencies } from "../kube-api";
 

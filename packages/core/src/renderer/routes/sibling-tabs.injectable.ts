@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { sidebarItemsInjectable } from "@freelensapp/cluster-sidebar";
+import { sidebarItemsInjectable } from "@nibamot/cluster-sidebar";
 import { getInjectable } from "@ogre-tools/injectable";
 import { computed } from "mobx";
 

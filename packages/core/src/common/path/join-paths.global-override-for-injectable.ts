@@ -5,7 +5,7 @@
  */
 
 import path from "node:path";
-import { getGlobalOverride } from "@freelensapp/test-utils";
+import { getGlobalOverride } from "@nibamot/test-utils";
 import joinPathsInjectable from "./join-paths.injectable";
 
 export default getGlobalOverride(joinPathsInjectable, () => path.posix.join);

@@ -4,15 +4,15 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { disposer } from "@freelensapp/utilities";
+import { disposer } from "@nibamot/utilities";
 import autoBind from "auto-bind";
 import { action, makeObservable, observable, reaction } from "mobx";
 import { waitUntilFree } from "tcp-port-used";
 import { ItemStore } from "../../../common/item.store";
 import { PortForwardItem } from "../port-forward-item";
 
-import type { JsonApi } from "@freelensapp/json-api";
-import type { Logger } from "@freelensapp/logger";
+import type { JsonApi } from "@nibamot/json-api";
+import type { Logger } from "@nibamot/logger";
 
 import type { StorageLayer } from "../../utils/storage-helper";
 import type { ForwardedPort } from "../port-forward-item";

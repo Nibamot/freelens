@@ -5,8 +5,8 @@
  */
 
 import asyncFn from "@async-fn/vitest";
-import { Secret, SecretType } from "@freelensapp/kube-object";
-import { base64 } from "@freelensapp/utilities";
+import { Secret, SecretType } from "@nibamot/kube-object";
+import { base64 } from "@nibamot/utilities";
 import { act } from "@testing-library/react";
 import { getDiForUnitTesting } from "../../getDiForUnitTesting";
 import secretStoreInjectable from "../config-secrets/store.injectable";

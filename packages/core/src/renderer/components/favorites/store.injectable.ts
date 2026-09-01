@@ -3,14 +3,14 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { sidebarItemsInjectable } from "@freelensapp/cluster-sidebar";
+import { sidebarItemsInjectable } from "@nibamot/cluster-sidebar";
 import { getInjectable } from "@ogre-tools/injectable";
 import { action, computed, IObservableValue, makeObservable } from "mobx";
 import favoritesStateInjectable from "../../../features/favorites/common/state.injectable";
 import favoritesSidebarItemInjectable from "./sidebar-item.injectable";
 import { flattenSidebarItems } from "./utils";
 
-import type { SidebarItemDeclaration } from "@freelensapp/cluster-sidebar";
+import type { SidebarItemDeclaration } from "@nibamot/cluster-sidebar";
 
 import type { FavoriteItem, FavoritesStorageState } from "../../../features/favorites/common/storage.injectable";
 

@@ -3,8 +3,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { sidebarItemInjectionToken } from "@freelensapp/cluster-sidebar";
-import { noop } from "@freelensapp/utilities";
+import { sidebarItemInjectionToken } from "@nibamot/cluster-sidebar";
+import { noop } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import { computed, runInAction } from "mobx";
 import React from "react";

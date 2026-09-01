@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { prefixedLoggerInjectable } from "@freelensapp/logger";
+import { prefixedLoggerInjectable } from "@nibamot/logger";
 import { getInjectable } from "@ogre-tools/injectable";
 import shellSessionProcessesInjectable from "../../shell-session/processes.injectable";
 import { onQuitOfBackEndInjectionToken } from "../runnable-tokens/phases";

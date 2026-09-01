@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { requestFromChannelInjectionToken } from "@freelensapp/messaging";
-import { showErrorNotificationInjectable } from "@freelensapp/notifications";
+import { requestFromChannelInjectionToken } from "@nibamot/messaging";
+import { showErrorNotificationInjectable } from "@nibamot/notifications";
 import { getInjectable } from "@ogre-tools/injectable";
 import { runInAction } from "mobx";
 import { getActiveHelmRepositoriesChannel } from "../../../../../common/helm/get-active-helm-repositories-channel";

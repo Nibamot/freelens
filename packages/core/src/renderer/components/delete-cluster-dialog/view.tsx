@@ -4,9 +4,9 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Button } from "@freelensapp/button";
-import { Icon } from "@freelensapp/icon";
-import { showErrorNotificationInjectable } from "@freelensapp/notifications";
+import { Button } from "@nibamot/button";
+import { Icon } from "@nibamot/icon";
+import { showErrorNotificationInjectable } from "@nibamot/notifications";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { runInAction } from "mobx";
 import { observer } from "mobx-react";
@@ -24,7 +24,7 @@ import saveKubeconfigInjectable from "./save-kubeconfig.injectable";
 import deleteClusterDialogStateInjectable from "./state.injectable";
 import styles from "./view.module.scss";
 
-import type { ShowNotification } from "@freelensapp/notifications";
+import type { ShowNotification } from "@nibamot/notifications";
 
 import type { IObservableValue } from "mobx";
 

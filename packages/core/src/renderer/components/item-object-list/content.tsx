@@ -6,8 +6,8 @@
 
 import "./item-list-layout.scss";
 
-import { Spinner } from "@freelensapp/spinner";
-import { cssNames, isDefined, isReactNode, noop, prevDefault, stopPropagation } from "@freelensapp/utilities";
+import { Spinner } from "@nibamot/spinner";
+import { cssNames, isDefined, isReactNode, noop, prevDefault, stopPropagation } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import autoBindReact from "auto-bind/react";
 import { action, makeObservable, observable } from "mobx";
@@ -26,8 +26,8 @@ import { Table, TableCell, TableHead, TableRow } from "../table";
 import columnResizeStorageInjectable from "./column-resize-storage/storage.injectable";
 import pageFiltersStoreInjectable from "./page-filters/store.injectable";
 
-import type { ItemObject, TableCellProps } from "@freelensapp/list-layout";
-import type { IClassName, StrictReactNode } from "@freelensapp/utilities";
+import type { ItemObject, TableCellProps } from "@nibamot/list-layout";
+import type { IClassName, StrictReactNode } from "@nibamot/utilities";
 
 import type { IComputedValue } from "mobx";
 

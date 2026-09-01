@@ -1,5 +1,5 @@
 {
-  "name": "@freelensapp/run-many",
+  "name": "@nibamot/run-many",
   "version": "2.0.0-5",
   "private": true,
   "description": "A package containing runMany and runManySync",
@@ -21,16 +21,16 @@
   "types": "./index.ts",
   "scripts": {
     "clean:dist": "pnpm dlx rimraf@6.1.3 dist",
-    "test:unit": "vitest run -c ../../../vitest.config.ts --project @freelensapp/run-many"
+    "test:unit": "vitest run -c ../../../vitest.config.ts --project @nibamot/run-many"
   },
   "dependencies": {
-    "@freelensapp/utilities": "workspace:^",
+    "@nibamot/utilities": "workspace:^",
     "uuid": "catalog:"
   },
   "devDependencies": {
     "@async-fn/vitest": "catalog:",
-    "@freelensapp/test-utils": "workspace:^",
-    "@freelensapp/typescript": "workspace:^",
+    "@nibamot/test-utils": "workspace:^",
+    "@nibamot/typescript": "workspace:^",
     "@ogre-tools/fp": "catalog:",
     "@ogre-tools/injectable": "catalog:",
     "@types/node": "catalog:",

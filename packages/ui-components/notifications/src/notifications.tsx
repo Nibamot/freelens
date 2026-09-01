@@ -6,17 +6,17 @@
 
 import "./notifications.scss";
 
-import { Animate } from "@freelensapp/animate";
-import { Icon } from "@freelensapp/icon";
-import { JsonApiErrorParsed } from "@freelensapp/json-api";
-import { cssNames, prevDefault } from "@freelensapp/utilities";
+import { Animate } from "@nibamot/animate";
+import { Icon } from "@nibamot/icon";
+import { JsonApiErrorParsed } from "@nibamot/json-api";
+import { cssNames, prevDefault } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { reaction } from "mobx";
 import { observer } from "mobx-react";
 import React from "react";
 import { notificationsStoreInjectable } from "./notifications-store.injectable";
 
-import type { Disposer } from "@freelensapp/utilities";
+import type { Disposer } from "@nibamot/utilities";
 
 import type {
   CreateNotificationOptions,

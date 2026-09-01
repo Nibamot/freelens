@@ -141,7 +141,7 @@ catalog:
   zod: 4.4.3
 
 catalogs:
-  # Runtime dependencies of the published @freelensapp/extensions package.
+  # Runtime dependencies of the published @nibamot/extensions package.
   # pnpm inlines the catalog specifier verbatim into the published
   # package.json, so these must stay ranges: an exact pin would force every
   # extension author onto one patch release and can end up with duplicated

@@ -6,7 +6,7 @@
 
 import "./overview-workload-status.scss";
 
-import { object } from "@freelensapp/utilities";
+import { object } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { capitalize } from "es-toolkit";
 import { observer } from "mobx-react";

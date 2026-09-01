@@ -8,7 +8,7 @@ import { fetch as undiciFetch } from "undici";
 import { withHostHeaderPreserved } from "./host-header-dispatcher";
 import type { AddressInfo } from "node:net";
 
-import type { FetchRequestInit as RequestInit } from "@freelensapp/json-api";
+import type { FetchRequestInit as RequestInit } from "@nibamot/json-api";
 
 import type { RequestInit as UndiciRequestInit } from "undici";
 

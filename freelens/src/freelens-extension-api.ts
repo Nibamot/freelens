@@ -10,8 +10,8 @@
 // tsconfig `include` so the declaration applies across both entrypoints without
 // a `.d.ts` (which the repo `.gitignore` treats as a build artifact).
 
-import type { commonExtensionApi, mainExtensionApi } from "@freelensapp/core/main";
-import type { rendererExtensionApi } from "@freelensapp/core/renderer";
+import type { commonExtensionApi, mainExtensionApi } from "@nibamot/core/main";
+import type { rendererExtensionApi } from "@nibamot/core/renderer";
 
 declare global {
   // eslint-disable-next-line no-var

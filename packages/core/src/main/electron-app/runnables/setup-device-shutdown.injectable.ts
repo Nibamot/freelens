@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { onLoadOfApplicationInjectionToken } from "@freelensapp/application";
+import { onLoadOfApplicationInjectionToken } from "@nibamot/application";
 import { getInjectable } from "@ogre-tools/injectable";
 import forceAppExitInjectable from "../features/force-app-exit.injectable";
 import powerMonitorInjectable from "../features/power-monitor.injectable";

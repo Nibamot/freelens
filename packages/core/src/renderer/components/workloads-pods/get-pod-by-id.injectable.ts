@@ -7,7 +7,7 @@
 import { getInjectable } from "@ogre-tools/injectable";
 import podStoreInjectable from "./store.injectable";
 
-import type { Pod } from "@freelensapp/kube-object";
+import type { Pod } from "@nibamot/kube-object";
 
 export type GetPodById = (id: string) => Pod | undefined;
 

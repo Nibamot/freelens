@@ -9,7 +9,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { cssNames } from "@freelensapp/utilities";
+import { cssNames } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
 import statusBarCurrentStatusInjectable from "./current-status.injectable";

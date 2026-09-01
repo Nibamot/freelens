@@ -8,7 +8,7 @@ import { getDiForUnitTesting } from "../../getDiForUnitTesting";
 import selectedMetricsTimeRangeInjectable from "../cluster/overview/selected-metrics-time-range.injectable";
 import replicaSetMetricsInjectable from "./metrics.injectable";
 
-import type { ReplicaSet } from "@freelensapp/kube-object";
+import type { ReplicaSet } from "@nibamot/kube-object";
 
 describe("replica-set-metrics injectable", () => {
   it("requests replica set pod metrics with the selected time range", () => {

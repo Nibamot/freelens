@@ -7,7 +7,7 @@
 import requestClusterMetricsByNodeNamesInjectable from "../../../common/k8s-api/endpoints/metrics.api/request-cluster-metrics-by-node-names.injectable";
 import { createTimeRangedMetricsInjectable } from "../resource-metrics/create-time-ranged-metrics";
 
-import type { Node } from "@freelensapp/kube-object";
+import type { Node } from "@nibamot/kube-object";
 
 import type { ClusterMetricData } from "../../../common/k8s-api/endpoints/metrics.api/request-cluster-metrics-by-node-names.injectable";
 

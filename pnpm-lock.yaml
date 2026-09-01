@@ -461,33 +461,6 @@ importers:
       '@astronautlabs/jsonpath':
         specifier: 'catalog:'
         version: 1.1.2
-      '@freelensapp/application':
-        specifier: workspace:^
-        version: link:../packages/technical-features/application/application
-      '@freelensapp/application-for-electron-main':
-        specifier: workspace:^
-        version: link:../packages/technical-features/application/application-for-electron-main
-      '@freelensapp/core':
-        specifier: workspace:^
-        version: link:../packages/core
-      '@freelensapp/feature-core':
-        specifier: workspace:^
-        version: link:../packages/technical-features/feature-core
-      '@freelensapp/kube-api-specifics':
-        specifier: workspace:^
-        version: link:../packages/utility-features/kube-api-specifics
-      '@freelensapp/logger':
-        specifier: workspace:^
-        version: link:../packages/logger
-      '@freelensapp/messaging-for-main':
-        specifier: workspace:^
-        version: link:../packages/technical-features/messaging/messaging-for-main
-      '@freelensapp/prometheus':
-        specifier: workspace:^
-        version: link:../packages/technical-features/prometheus
-      '@freelensapp/random':
-        specifier: workspace:^
-        version: link:../packages/random
       '@hapi/call':
         specifier: 'catalog:'
         version: 9.0.1
@@ -497,6 +470,33 @@ importers:
       '@kubernetes/client-node':
         specifier: 'catalog:'
         version: 2.0.0-rc.1(supports-color@8.1.1)
+      '@nibamot/application':
+        specifier: workspace:^
+        version: link:../packages/technical-features/application/application
+      '@nibamot/application-for-electron-main':
+        specifier: workspace:^
+        version: link:../packages/technical-features/application/application-for-electron-main
+      '@nibamot/core':
+        specifier: workspace:^
+        version: link:../packages/core
+      '@nibamot/feature-core':
+        specifier: workspace:^
+        version: link:../packages/technical-features/feature-core
+      '@nibamot/kube-api-specifics':
+        specifier: workspace:^
+        version: link:../packages/utility-features/kube-api-specifics
+      '@nibamot/logger':
+        specifier: workspace:^
+        version: link:../packages/logger
+      '@nibamot/messaging-for-main':
+        specifier: workspace:^
+        version: link:../packages/technical-features/messaging/messaging-for-main
+      '@nibamot/prometheus':
+        specifier: workspace:^
+        version: link:../packages/technical-features/prometheus
+      '@nibamot/random':
+        specifier: workspace:^
+        version: link:../packages/random
       '@ogre-tools/fp':
         specifier: 'catalog:'
         version: 23.2.0
@@ -594,58 +594,58 @@ importers:
       '@electron/notarize':
         specifier: 'catalog:'
         version: 3.1.1(supports-color@8.1.1)
-      '@freelensapp/animate':
+      '@nibamot/animate':
         specifier: workspace:^
         version: link:../packages/ui-components/animate
-      '@freelensapp/button':
+      '@nibamot/button':
         specifier: workspace:^
         version: link:../packages/ui-components/button
-      '@freelensapp/cluster-sidebar':
+      '@nibamot/cluster-sidebar':
         specifier: workspace:^
         version: link:../packages/cluster-sidebar
-      '@freelensapp/ensure-binaries':
+      '@nibamot/ensure-binaries':
         specifier: workspace:^
         version: link:../packages/ensure-binaries
-      '@freelensapp/error-boundary':
+      '@nibamot/error-boundary':
         specifier: workspace:^
         version: link:../packages/ui-components/error-boundary
-      '@freelensapp/generate-license':
+      '@nibamot/generate-license':
         specifier: workspace:^
         version: link:../packages/generate-license
-      '@freelensapp/generate-tray-icons':
+      '@nibamot/generate-tray-icons':
         specifier: workspace:^
         version: link:../packages/generate-tray-icons
-      '@freelensapp/icon':
+      '@nibamot/icon':
         specifier: workspace:^
         version: link:../packages/ui-components/icon
-      '@freelensapp/keyboard-shortcuts':
+      '@nibamot/keyboard-shortcuts':
         specifier: workspace:^
         version: link:../packages/business-features/keyboard-shortcuts
-      '@freelensapp/messaging-for-renderer':
+      '@nibamot/messaging-for-renderer':
         specifier: workspace:^
         version: link:../packages/technical-features/messaging/messaging-for-renderer
-      '@freelensapp/notifications':
+      '@nibamot/notifications':
         specifier: workspace:^
         version: link:../packages/ui-components/notifications
-      '@freelensapp/react-application':
+      '@nibamot/react-application':
         specifier: workspace:^
         version: link:../packages/technical-features/react-application
-      '@freelensapp/resizing-anchor':
+      '@nibamot/resizing-anchor':
         specifier: workspace:^
         version: link:../packages/ui-components/resizing-anchor
-      '@freelensapp/routing':
+      '@nibamot/routing':
         specifier: workspace:^
         version: link:../packages/routing
-      '@freelensapp/spinner':
+      '@nibamot/spinner':
         specifier: workspace:^
         version: link:../packages/ui-components/spinner
-      '@freelensapp/test-utils':
+      '@nibamot/test-utils':
         specifier: workspace:^
         version: link:../packages/utility-features/test-utils
-      '@freelensapp/tooltip':
+      '@nibamot/tooltip':
         specifier: workspace:^
         version: link:../packages/ui-components/tooltip
-      '@freelensapp/utilities':
+      '@nibamot/utilities':
         specifier: workspace:^
         version: link:../packages/utility-features/utilities
       '@tailwindcss/postcss':
@@ -693,10 +693,10 @@ importers:
 
   packages/business-features/keyboard-shortcuts:
     dependencies:
-      '@freelensapp/feature-core':
+      '@nibamot/feature-core':
         specifier: workspace:^
         version: link:../../technical-features/feature-core
-      '@freelensapp/react-application':
+      '@nibamot/react-application':
         specifier: workspace:^
         version: link:../../technical-features/react-application
       '@ogre-tools/injectable':
@@ -709,16 +709,16 @@ importers:
         specifier: 'catalog:'
         version: 19.2.8
     devDependencies:
-      '@freelensapp/application':
+      '@nibamot/application':
         specifier: workspace:^
         version: link:../../technical-features/application/application
-      '@freelensapp/react-testing-library-discovery':
+      '@nibamot/react-testing-library-discovery':
         specifier: workspace:^
         version: link:../../utility-features/react-testing-library-discovery
-      '@freelensapp/typescript':
+      '@nibamot/typescript':
         specifier: workspace:^
         version: link:../../infrastructure/typescript
-      '@freelensapp/utilities':
+      '@nibamot/utilities':
         specifier: workspace:^
         version: link:../../utility-features/utilities
       '@ogre-tools/injectable-extension-for-mobx':
@@ -752,7 +752,7 @@ importers:
         specifier: 'catalog:'
         version: 23.2.0(@ogre-tools/fp@23.2.0)
     devDependencies:
-      '@freelensapp/typescript':
+      '@nibamot/typescript':
         specifier: workspace:^
         version: link:../infrastructure/typescript
       '@types/react':
@@ -761,10 +761,10 @@ importers:
 
   packages/cluster-sidebar:
     dependencies:
-      '@freelensapp/feature-core':
+      '@nibamot/feature-core':
         specifier: workspace:^
         version: link:../technical-features/feature-core
-      '@freelensapp/utilities':
+      '@nibamot/utilities':
         specifier: workspace:^
         version: link:../utility-features/utilities
       '@ogre-tools/injectable':
@@ -777,7 +777,7 @@ importers:
         specifier: 'catalog:'
         version: 6.15.0
     devDependencies:
-      '@freelensapp/typescript':
+      '@nibamot/typescript':
         specifier: workspace:^
         version: link:../infrastructure/typescript
       es-toolkit:
@@ -801,99 +801,6 @@ importers:
       '@dnd-kit/utilities':
         specifier: 'catalog:'
         version: 3.2.2(react@19.2.8)
-      '@freelensapp/animate':
-        specifier: workspace:^
-        version: link:../ui-components/animate
-      '@freelensapp/application':
-        specifier: workspace:^
-        version: link:../technical-features/application/application
-      '@freelensapp/application-for-electron-main':
-        specifier: workspace:^
-        version: link:../technical-features/application/application-for-electron-main
-      '@freelensapp/button':
-        specifier: workspace:^
-        version: link:../ui-components/button
-      '@freelensapp/cluster-settings':
-        specifier: workspace:^
-        version: link:../cluster-settings
-      '@freelensapp/cluster-sidebar':
-        specifier: workspace:^
-        version: link:../cluster-sidebar
-      '@freelensapp/error-boundary':
-        specifier: workspace:^
-        version: link:../ui-components/error-boundary
-      '@freelensapp/event-emitter':
-        specifier: workspace:^
-        version: link:../utility-features/event-emitter
-      '@freelensapp/feature-core':
-        specifier: workspace:^
-        version: link:../technical-features/feature-core
-      '@freelensapp/icon':
-        specifier: workspace:^
-        version: link:../ui-components/icon
-      '@freelensapp/json-api':
-        specifier: workspace:^
-        version: link:../utility-features/json-api
-      '@freelensapp/kube-api':
-        specifier: workspace:^
-        version: link:../utility-features/kube-api
-      '@freelensapp/kube-api-specifics':
-        specifier: workspace:^
-        version: link:../utility-features/kube-api-specifics
-      '@freelensapp/kube-object':
-        specifier: workspace:^
-        version: link:../kube-object
-      '@freelensapp/kubectl-versions':
-        specifier: workspace:^
-        version: link:../kubectl-versions
-      '@freelensapp/list-layout':
-        specifier: workspace:^
-        version: link:../list-layout
-      '@freelensapp/logger':
-        specifier: workspace:^
-        version: link:../logger
-      '@freelensapp/messaging':
-        specifier: workspace:^
-        version: link:../technical-features/messaging/messaging
-      '@freelensapp/metrics':
-        specifier: workspace:^
-        version: link:../metrics
-      '@freelensapp/notifications':
-        specifier: workspace:^
-        version: link:../ui-components/notifications
-      '@freelensapp/prometheus':
-        specifier: workspace:^
-        version: link:../technical-features/prometheus
-      '@freelensapp/random':
-        specifier: workspace:^
-        version: link:../random
-      '@freelensapp/react-application':
-        specifier: workspace:^
-        version: link:../technical-features/react-application
-      '@freelensapp/resizing-anchor':
-        specifier: workspace:^
-        version: link:../ui-components/resizing-anchor
-      '@freelensapp/resource-templates':
-        specifier: workspace:^
-        version: link:../resource-templates
-      '@freelensapp/routing':
-        specifier: workspace:^
-        version: link:../routing
-      '@freelensapp/run-many':
-        specifier: workspace:^
-        version: link:../utility-features/run-many
-      '@freelensapp/spinner':
-        specifier: workspace:^
-        version: link:../ui-components/spinner
-      '@freelensapp/startable-stoppable':
-        specifier: workspace:^
-        version: link:../utility-features/startable-stoppable
-      '@freelensapp/tooltip':
-        specifier: workspace:^
-        version: link:../ui-components/tooltip
-      '@freelensapp/utilities':
-        specifier: workspace:^
-        version: link:../utility-features/utilities
       '@hapi/call':
         specifier: 'catalog:'
         version: 9.0.1
@@ -906,6 +813,99 @@ importers:
       '@mui/material':
         specifier: 'catalog:'
         version: 9.2.0(@emotion/react@11.14.0(@types/react@19.2.17)(react@19.2.8)(supports-color@8.1.1))(@emotion/styled@11.14.0(@emotion/react@11.14.0(@types/react@19.2.17)(react@19.2.8)(supports-color@8.1.1))(@types/react@19.2.17)(react@19.2.8)(supports-color@8.1.1))(@types/react@19.2.17)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+      '@nibamot/animate':
+        specifier: workspace:^
+        version: link:../ui-components/animate
+      '@nibamot/application':
+        specifier: workspace:^
+        version: link:../technical-features/application/application
+      '@nibamot/application-for-electron-main':
+        specifier: workspace:^
+        version: link:../technical-features/application/application-for-electron-main
+      '@nibamot/button':
+        specifier: workspace:^
+        version: link:../ui-components/button
+      '@nibamot/cluster-settings':
+        specifier: workspace:^
+        version: link:../cluster-settings
+      '@nibamot/cluster-sidebar':
+        specifier: workspace:^
+        version: link:../cluster-sidebar
+      '@nibamot/error-boundary':
+        specifier: workspace:^
+        version: link:../ui-components/error-boundary
+      '@nibamot/event-emitter':
+        specifier: workspace:^
+        version: link:../utility-features/event-emitter
+      '@nibamot/feature-core':
+        specifier: workspace:^
+        version: link:../technical-features/feature-core
+      '@nibamot/icon':
+        specifier: workspace:^
+        version: link:../ui-components/icon
+      '@nibamot/json-api':
+        specifier: workspace:^
+        version: link:../utility-features/json-api
+      '@nibamot/kube-api':
+        specifier: workspace:^
+        version: link:../utility-features/kube-api
+      '@nibamot/kube-api-specifics':
+        specifier: workspace:^
+        version: link:../utility-features/kube-api-specifics
+      '@nibamot/kube-object':
+        specifier: workspace:^
+        version: link:../kube-object
+      '@nibamot/kubectl-versions':
+        specifier: workspace:^
+        version: link:../kubectl-versions
+      '@nibamot/list-layout':
+        specifier: workspace:^
+        version: link:../list-layout
+      '@nibamot/logger':
+        specifier: workspace:^
+        version: link:../logger
+      '@nibamot/messaging':
+        specifier: workspace:^
+        version: link:../technical-features/messaging/messaging
+      '@nibamot/metrics':
+        specifier: workspace:^
+        version: link:../metrics
+      '@nibamot/notifications':
+        specifier: workspace:^
+        version: link:../ui-components/notifications
+      '@nibamot/prometheus':
+        specifier: workspace:^
+        version: link:../technical-features/prometheus
+      '@nibamot/random':
+        specifier: workspace:^
+        version: link:../random
+      '@nibamot/react-application':
+        specifier: workspace:^
+        version: link:../technical-features/react-application
+      '@nibamot/resizing-anchor':
+        specifier: workspace:^
+        version: link:../ui-components/resizing-anchor
+      '@nibamot/resource-templates':
+        specifier: workspace:^
+        version: link:../resource-templates
+      '@nibamot/routing':
+        specifier: workspace:^
+        version: link:../routing
+      '@nibamot/run-many':
+        specifier: workspace:^
+        version: link:../utility-features/run-many
+      '@nibamot/spinner':
+        specifier: workspace:^
+        version: link:../ui-components/spinner
+      '@nibamot/startable-stoppable':
+        specifier: workspace:^
+        version: link:../utility-features/startable-stoppable
+      '@nibamot/tooltip':
+        specifier: workspace:^
+        version: link:../ui-components/tooltip
+      '@nibamot/utilities':
+        specifier: workspace:^
+        version: link:../utility-features/utilities
       '@ogre-tools/injectable':
         specifier: 'catalog:'
         version: 23.2.0(@ogre-tools/fp@23.2.0)
@@ -1060,13 +1060,13 @@ importers:
       '@async-fn/vitest':
         specifier: 'catalog:'
         version: 1.8.0(patch_hash=86478f697e61e0e2ca0274a6b255c31c05d0dd83078743e9e755910710d597ef)(vitest@4.1.10)
-      '@freelensapp/messaging-fake-bridge':
+      '@nibamot/messaging-fake-bridge':
         specifier: workspace:^
         version: link:../technical-features/messaging/messaging-fake-bridge
-      '@freelensapp/react-testing-library-discovery':
+      '@nibamot/react-testing-library-discovery':
         specifier: workspace:^
         version: link:../utility-features/react-testing-library-discovery
-      '@freelensapp/test-utils':
+      '@nibamot/test-utils':
         specifier: workspace:^
         version: link:../utility-features/test-utils
       '@tailwindcss/postcss':
@@ -1263,7 +1263,7 @@ importers:
         specifier: catalog:extensions
         version: 5.6.0
     devDependencies:
-      '@freelensapp/core':
+      '@nibamot/core':
         specifier: workspace:^
         version: link:../core
       rollup:
@@ -1307,7 +1307,7 @@ importers:
         specifier: 'catalog:'
         version: 0.35.3(@types/node@24.12.4)
     devDependencies:
-      '@freelensapp/icon':
+      '@nibamot/icon':
         specifier: workspace:^
         version: link:../ui-components/icon
       '@types/jsdom':
@@ -1331,7 +1331,7 @@ importers:
 
   packages/kube-object:
     dependencies:
-      '@freelensapp/utilities':
+      '@nibamot/utilities':
         specifier: workspace:^
         version: link:../utility-features/utilities
       auto-bind:
@@ -1341,7 +1341,7 @@ importers:
         specifier: 'catalog:'
         version: 1.49.0
     devDependencies:
-      '@freelensapp/typescript':
+      '@nibamot/typescript':
         specifier: workspace:^
         version: link:../infrastructure/typescript
       jsdom:
@@ -1356,10 +1356,10 @@ importers:
 
   packages/kubectl-versions:
     devDependencies:
-      '@freelensapp/ensure-binaries':
+      '@nibamot/ensure-binaries':
         specifier: workspace:^
         version: link:../ensure-binaries
-      '@freelensapp/typescript':
+      '@nibamot/typescript':
         specifier: workspace:^
         version: link:../infrastructure/typescript
       '@types/semver':
@@ -1384,19 +1384,19 @@ importers:
         specifier: 'catalog:'
         version: 23.2.0(@ogre-tools/fp@23.2.0)
     devDependencies:
-      '@freelensapp/kube-object':
+      '@nibamot/kube-object':
         specifier: workspace:^
         version: link:../kube-object
-      '@freelensapp/typescript':
+      '@nibamot/typescript':
         specifier: workspace:^
         version: link:../infrastructure/typescript
-      '@freelensapp/utilities':
+      '@nibamot/utilities':
         specifier: workspace:^
         version: link:../utility-features/utilities
 
   packages/logger:
     dependencies:
-      '@freelensapp/feature-core':
+      '@nibamot/feature-core':
         specifier: workspace:^
         version: link:../technical-features/feature-core
       '@ogre-tools/injectable':
@@ -1409,7 +1409,7 @@ importers:
         specifier: 'catalog:'
         version: 3.19.0
     devDependencies:
-      '@freelensapp/typescript':
+      '@nibamot/typescript':
         specifier: workspace:^
         version: link:../infrastructure/typescript
       jsdom:
@@ -1428,10 +1428,10 @@ importers:
         specifier: 'catalog:'
         version: 23.2.0(@ogre-tools/fp@23.2.0)
     devDependencies:
-      '@freelensapp/kube-object':
+      '@nibamot/kube-object':
         specifier: workspace:^
         version: link:../kube-object
-      '@freelensapp/typescript':
+      '@nibamot/typescript':
         specifier: workspace:^
         version: link:../infrastructure/typescript
       '@types/react':
@@ -1443,7 +1443,7 @@ importers:
 
   packages/random:
     dependencies:
-      '@freelensapp/feature-core':
+      '@nibamot/feature-core':
         specifier: workspace:^
         version: link:../technical-features/feature-core
       '@ogre-tools/injectable':
@@ -1453,7 +1453,7 @@ importers:
         specifier: 'catalog:'
         version: 14.0.1
     devDependencies:
-      '@freelensapp/typescript':
+      '@nibamot/typescript':
         specifier: workspace:^
         version: link:../infrastructure/typescript
 
@@ -1461,7 +1461,7 @@ importers:
 
   packages/routing:
     dependencies:
-      '@freelensapp/feature-core':
+      '@nibamot/feature-core':
         specifier: workspace:^
         version: link:../technical-features/feature-core
       '@ogre-tools/fp':
@@ -1483,7 +1483,7 @@ importers:
         specifier: 'catalog:'
         version: 19.2.8
     devDependencies:
-      '@freelensapp/typescript':
+      '@nibamot/typescript':
         specifier: workspace:^
         version: link:../infrastructure/typescript
       '@ogre-tools/injectable-extension-for-mobx':
@@ -1535,10 +1535,10 @@ importers:
 
   packages/technical-features/application/application:
     dependencies:
-      '@freelensapp/feature-core':
+      '@nibamot/feature-core':
         specifier: workspace:^
         version: link:../../feature-core
-      '@freelensapp/run-many':
+      '@nibamot/run-many':
         specifier: workspace:^
         version: link:../../../utility-features/run-many
       '@ogre-tools/fp':
@@ -1551,10 +1551,10 @@ importers:
       '@async-fn/vitest':
         specifier: 'catalog:'
         version: 1.8.0(patch_hash=86478f697e61e0e2ca0274a6b255c31c05d0dd83078743e9e755910710d597ef)(vitest@4.1.10)
-      '@freelensapp/test-utils':
+      '@nibamot/test-utils':
         specifier: workspace:^
         version: link:../../../utility-features/test-utils
-      '@freelensapp/typescript':
+      '@nibamot/typescript':
         specifier: workspace:^
         version: link:../../../infrastructure/typescript
       typescript:
@@ -1566,13 +1566,13 @@ importers:
 
   packages/technical-features/application/application-for-electron-main:
     dependencies:
-      '@freelensapp/application':
+      '@nibamot/application':
         specifier: workspace:^
         version: link:../application
-      '@freelensapp/feature-core':
+      '@nibamot/feature-core':
         specifier: workspace:^
         version: link:../../feature-core
-      '@freelensapp/run-many':
+      '@nibamot/run-many':
         specifier: workspace:^
         version: link:../../../utility-features/run-many
       '@ogre-tools/injectable':
@@ -1582,7 +1582,7 @@ importers:
       '@async-fn/vitest':
         specifier: 'catalog:'
         version: 1.8.0(patch_hash=86478f697e61e0e2ca0274a6b255c31c05d0dd83078743e9e755910710d597ef)(vitest@4.1.10)
-      '@freelensapp/typescript':
+      '@nibamot/typescript':
         specifier: workspace:^
         version: link:../../../infrastructure/typescript
       '@ogre-tools/test-utils':
@@ -1604,7 +1604,7 @@ importers:
         specifier: 'catalog:'
         version: 23.2.0(@ogre-tools/fp@23.2.0)
     devDependencies:
-      '@freelensapp/typescript':
+      '@nibamot/typescript':
         specifier: workspace:^
         version: link:../../infrastructure/typescript
       jsdom:
@@ -1616,7 +1616,7 @@ importers:
 
   packages/technical-features/messaging/computed-channel:
     dependencies:
-      '@freelensapp/messaging':
+      '@nibamot/messaging':
         specifier: workspace:^
         version: link:../messaging
       '@ogre-tools/injectable':
@@ -1626,19 +1626,19 @@ importers:
         specifier: 'catalog:'
         version: 6.15.0
     devDependencies:
-      '@freelensapp/application':
+      '@nibamot/application':
         specifier: workspace:^
         version: link:../../application/application
-      '@freelensapp/feature-core':
+      '@nibamot/feature-core':
         specifier: workspace:^
         version: link:../../feature-core
-      '@freelensapp/messaging-fake-bridge':
+      '@nibamot/messaging-fake-bridge':
         specifier: workspace:^
         version: link:../messaging-fake-bridge
-      '@freelensapp/test-utils':
+      '@nibamot/test-utils':
         specifier: workspace:^
         version: link:../../../utility-features/test-utils
-      '@freelensapp/typescript':
+      '@nibamot/typescript':
         specifier: workspace:^
         version: link:../../../infrastructure/typescript
       '@ogre-tools/injectable-extension-for-mobx':
@@ -1674,13 +1674,13 @@ importers:
 
   packages/technical-features/messaging/messaging:
     dependencies:
-      '@freelensapp/application':
+      '@nibamot/application':
         specifier: workspace:^
         version: link:../../application/application
-      '@freelensapp/feature-core':
+      '@nibamot/feature-core':
         specifier: workspace:^
         version: link:../../feature-core
-      '@freelensapp/startable-stoppable':
+      '@nibamot/startable-stoppable':
         specifier: workspace:^
         version: link:../../../utility-features/startable-stoppable
       '@ogre-tools/injectable':
@@ -1693,10 +1693,10 @@ importers:
         specifier: 'catalog:'
         version: 6.15.0
     devDependencies:
-      '@freelensapp/typescript':
+      '@nibamot/typescript':
         specifier: workspace:^
         version: link:../../../infrastructure/typescript
-      '@freelensapp/utilities':
+      '@nibamot/utilities':
         specifier: workspace:^
         version: link:../../../utility-features/utilities
       es-toolkit:
@@ -1717,23 +1717,23 @@ importers:
       '@async-fn/vitest':
         specifier: 'catalog:'
         version: 1.8.0(patch_hash=86478f697e61e0e2ca0274a6b255c31c05d0dd83078743e9e755910710d597ef)(vitest@4.1.10)
-      '@freelensapp/messaging':
+      '@nibamot/messaging':
         specifier: workspace:^
         version: link:../messaging
       '@ogre-tools/fp':
         specifier: 'catalog:'
         version: 23.2.0
     devDependencies:
-      '@freelensapp/application':
+      '@nibamot/application':
         specifier: workspace:^
         version: link:../../application/application
-      '@freelensapp/feature-core':
+      '@nibamot/feature-core':
         specifier: workspace:^
         version: link:../../feature-core
-      '@freelensapp/test-utils':
+      '@nibamot/test-utils':
         specifier: workspace:^
         version: link:../../../utility-features/test-utils
-      '@freelensapp/typescript':
+      '@nibamot/typescript':
         specifier: workspace:^
         version: link:../../../infrastructure/typescript
       '@ogre-tools/injectable':
@@ -1760,10 +1760,10 @@ importers:
 
   packages/technical-features/messaging/messaging-for-main:
     dependencies:
-      '@freelensapp/feature-core':
+      '@nibamot/feature-core':
         specifier: workspace:^
         version: link:../../feature-core
-      '@freelensapp/messaging':
+      '@nibamot/messaging':
         specifier: workspace:^
         version: link:../messaging
       '@ogre-tools/injectable':
@@ -1773,10 +1773,10 @@ importers:
       '@async-fn/vitest':
         specifier: 'catalog:'
         version: 1.8.0(patch_hash=86478f697e61e0e2ca0274a6b255c31c05d0dd83078743e9e755910710d597ef)(vitest@4.1.10)
-      '@freelensapp/test-utils':
+      '@nibamot/test-utils':
         specifier: workspace:^
         version: link:../../../utility-features/test-utils
-      '@freelensapp/typescript':
+      '@nibamot/typescript':
         specifier: workspace:^
         version: link:../../../infrastructure/typescript
       electron:
@@ -1791,13 +1791,13 @@ importers:
 
   packages/technical-features/messaging/messaging-for-renderer:
     dependencies:
-      '@freelensapp/application':
+      '@nibamot/application':
         specifier: workspace:^
         version: link:../../application/application
-      '@freelensapp/feature-core':
+      '@nibamot/feature-core':
         specifier: workspace:^
         version: link:../../feature-core
-      '@freelensapp/messaging':
+      '@nibamot/messaging':
         specifier: workspace:^
         version: link:../messaging
       '@ogre-tools/injectable':
@@ -1807,7 +1807,7 @@ importers:
       '@async-fn/vitest':
         specifier: 'catalog:'
         version: 1.8.0(patch_hash=86478f697e61e0e2ca0274a6b255c31c05d0dd83078743e9e755910710d597ef)(vitest@4.1.10)
-      '@freelensapp/typescript':
+      '@nibamot/typescript':
         specifier: workspace:^
         version: link:../../../infrastructure/typescript
       '@ogre-tools/injectable-extension-for-mobx':
@@ -1828,25 +1828,25 @@ importers:
 
   packages/technical-features/prometheus:
     dependencies:
-      '@freelensapp/application':
+      '@nibamot/application':
         specifier: workspace:^
         version: link:../application/application
-      '@freelensapp/feature-core':
+      '@nibamot/feature-core':
         specifier: workspace:^
         version: link:../feature-core
-      '@freelensapp/utilities':
+      '@nibamot/utilities':
         specifier: workspace:^
         version: link:../../utility-features/utilities
       '@ogre-tools/injectable':
         specifier: 'catalog:'
         version: 23.2.0(@ogre-tools/fp@23.2.0)
     devDependencies:
-      '@freelensapp/typescript':
-        specifier: workspace:^
-        version: link:../../infrastructure/typescript
       '@kubernetes/client-node':
         specifier: 'catalog:'
         version: 2.0.0-rc.1(supports-color@8.1.1)
+      '@nibamot/typescript':
+        specifier: workspace:^
+        version: link:../../infrastructure/typescript
       '@ogre-tools/fp':
         specifier: 'catalog:'
         version: 23.2.0
@@ -1856,10 +1856,10 @@ importers:
 
   packages/technical-features/react-application:
     dependencies:
-      '@freelensapp/application':
+      '@nibamot/application':
         specifier: workspace:^
         version: link:../application/application
-      '@freelensapp/feature-core':
+      '@nibamot/feature-core':
         specifier: workspace:^
         version: link:../feature-core
       '@ogre-tools/injectable':
@@ -1884,13 +1884,13 @@ importers:
         specifier: 'catalog:'
         version: 19.2.8(react@19.2.8)
     devDependencies:
-      '@freelensapp/react-testing-library-discovery':
+      '@nibamot/react-testing-library-discovery':
         specifier: workspace:^
         version: link:../../utility-features/react-testing-library-discovery
-      '@freelensapp/typescript':
+      '@nibamot/typescript':
         specifier: workspace:^
         version: link:../../infrastructure/typescript
-      '@freelensapp/utilities':
+      '@nibamot/utilities':
         specifier: workspace:^
         version: link:../../utility-features/utilities
       '@ogre-tools/fp':
@@ -1917,10 +1917,10 @@ importers:
 
   packages/ui-components/animate:
     dependencies:
-      '@freelensapp/feature-core':
+      '@nibamot/feature-core':
         specifier: workspace:^
         version: link:../../technical-features/feature-core
-      '@freelensapp/utilities':
+      '@nibamot/utilities':
         specifier: workspace:^
         version: link:../../utility-features/utilities
       '@ogre-tools/injectable':
@@ -1933,7 +1933,7 @@ importers:
         specifier: 'catalog:'
         version: 19.2.8
     devDependencies:
-      '@freelensapp/typescript':
+      '@nibamot/typescript':
         specifier: workspace:^
         version: link:../../infrastructure/typescript
       '@types/react':
@@ -1948,17 +1948,17 @@ importers:
 
   packages/ui-components/button:
     dependencies:
-      '@freelensapp/tooltip':
+      '@nibamot/tooltip':
         specifier: workspace:^
         version: link:../tooltip
-      '@freelensapp/utilities':
+      '@nibamot/utilities':
         specifier: workspace:^
         version: link:../../utility-features/utilities
       react:
         specifier: 'catalog:'
         version: 19.2.8
     devDependencies:
-      '@freelensapp/typescript':
+      '@nibamot/typescript':
         specifier: workspace:^
         version: link:../../infrastructure/typescript
       '@types/react':
@@ -1973,10 +1973,10 @@ importers:
 
   packages/ui-components/error-boundary:
     dependencies:
-      '@freelensapp/button':
+      '@nibamot/button':
         specifier: workspace:^
         version: link:../button
-      '@freelensapp/routing':
+      '@nibamot/routing':
         specifier: workspace:^
         version: link:../../routing
       '@ogre-tools/injectable':
@@ -1995,10 +1995,10 @@ importers:
         specifier: 'catalog:'
         version: 19.2.8
     devDependencies:
-      '@freelensapp/typescript':
+      '@nibamot/typescript':
         specifier: workspace:^
         version: link:../../infrastructure/typescript
-      '@freelensapp/utilities':
+      '@nibamot/utilities':
         specifier: workspace:^
         version: link:../../utility-features/utilities
       '@types/react':
@@ -2013,16 +2013,16 @@ importers:
 
   packages/ui-components/icon:
     dependencies:
-      '@freelensapp/logger':
+      '@nibamot/logger':
         specifier: workspace:^
         version: link:../../logger
-      '@freelensapp/routing':
+      '@nibamot/routing':
         specifier: workspace:^
         version: link:../../routing
-      '@freelensapp/tooltip':
+      '@nibamot/tooltip':
         specifier: workspace:^
         version: link:../tooltip
-      '@freelensapp/utilities':
+      '@nibamot/utilities':
         specifier: workspace:^
         version: link:../../utility-features/utilities
       '@ogre-tools/injectable':
@@ -2041,13 +2041,13 @@ importers:
         specifier: 'catalog:'
         version: 19.2.8
     devDependencies:
-      '@freelensapp/feature-core':
+      '@nibamot/feature-core':
         specifier: workspace:^
         version: link:../../technical-features/feature-core
-      '@freelensapp/test-utils':
+      '@nibamot/test-utils':
         specifier: workspace:^
         version: link:../../utility-features/test-utils
-      '@freelensapp/typescript':
+      '@nibamot/typescript':
         specifier: workspace:^
         version: link:../../infrastructure/typescript
       '@ogre-tools/injectable-extension-for-mobx':
@@ -2068,25 +2068,25 @@ importers:
 
   packages/ui-components/notifications:
     dependencies:
-      '@freelensapp/animate':
+      '@nibamot/animate':
         specifier: workspace:^
         version: link:../animate
-      '@freelensapp/feature-core':
+      '@nibamot/feature-core':
         specifier: workspace:^
         version: link:../../technical-features/feature-core
-      '@freelensapp/icon':
+      '@nibamot/icon':
         specifier: workspace:^
         version: link:../icon
-      '@freelensapp/json-api':
+      '@nibamot/json-api':
         specifier: workspace:^
         version: link:../../utility-features/json-api
-      '@freelensapp/logger':
+      '@nibamot/logger':
         specifier: workspace:^
         version: link:../../logger
-      '@freelensapp/react-application':
+      '@nibamot/react-application':
         specifier: workspace:^
         version: link:../../technical-features/react-application
-      '@freelensapp/utilities':
+      '@nibamot/utilities':
         specifier: workspace:^
         version: link:../../utility-features/utilities
       '@ogre-tools/fp':
@@ -2114,7 +2114,7 @@ importers:
         specifier: 'catalog:'
         version: 19.2.8
     devDependencies:
-      '@freelensapp/typescript':
+      '@nibamot/typescript':
         specifier: workspace:^
         version: link:../../infrastructure/typescript
       '@types/react':
@@ -2132,7 +2132,7 @@ importers:
 
   packages/ui-components/resizing-anchor:
     dependencies:
-      '@freelensapp/utilities':
+      '@nibamot/utilities':
         specifier: workspace:^
         version: link:../../utility-features/utilities
       es-toolkit:
@@ -2148,7 +2148,7 @@ importers:
         specifier: 'catalog:'
         version: 19.2.8
     devDependencies:
-      '@freelensapp/typescript':
+      '@nibamot/typescript':
         specifier: workspace:^
         version: link:../../infrastructure/typescript
       '@types/react':
@@ -2163,14 +2163,14 @@ importers:
 
   packages/ui-components/spinner:
     dependencies:
-      '@freelensapp/utilities':
+      '@nibamot/utilities':
         specifier: workspace:^
         version: link:../../utility-features/utilities
       react:
         specifier: 'catalog:'
         version: 19.2.8
     devDependencies:
-      '@freelensapp/typescript':
+      '@nibamot/typescript':
         specifier: workspace:^
         version: link:../../infrastructure/typescript
       '@types/react':
@@ -2185,7 +2185,7 @@ importers:
 
   packages/ui-components/tooltip:
     dependencies:
-      '@freelensapp/utilities':
+      '@nibamot/utilities':
         specifier: workspace:^
         version: link:../../utility-features/utilities
       auto-bind:
@@ -2207,7 +2207,7 @@ importers:
         specifier: 'catalog:'
         version: 19.2.8(react@19.2.8)
     devDependencies:
-      '@freelensapp/typescript':
+      '@nibamot/typescript':
         specifier: workspace:^
         version: link:../../infrastructure/typescript
       '@testing-library/jest-dom':
@@ -2237,7 +2237,7 @@ importers:
 
   packages/utility-features/event-emitter:
     devDependencies:
-      '@freelensapp/typescript':
+      '@nibamot/typescript':
         specifier: workspace:^
         version: link:../../infrastructure/typescript
       jsdom:
@@ -2249,20 +2249,20 @@ importers:
 
   packages/utility-features/json-api:
     dependencies:
-      '@freelensapp/event-emitter':
+      '@nibamot/event-emitter':
         specifier: workspace:^
         version: link:../event-emitter
-      '@freelensapp/utilities':
+      '@nibamot/utilities':
         specifier: workspace:^
         version: link:../utilities
       es-toolkit:
         specifier: 'catalog:'
         version: 1.49.0
     devDependencies:
-      '@freelensapp/logger':
+      '@nibamot/logger':
         specifier: workspace:^
         version: link:../../logger
-      '@freelensapp/typescript':
+      '@nibamot/typescript':
         specifier: workspace:^
         version: link:../../infrastructure/typescript
       '@types/node':
@@ -2277,13 +2277,13 @@ importers:
 
   packages/utility-features/kube-api:
     dependencies:
-      '@freelensapp/json-api':
+      '@nibamot/json-api':
         specifier: workspace:^
         version: link:../json-api
-      '@freelensapp/kube-object':
+      '@nibamot/kube-object':
         specifier: workspace:^
         version: link:../../kube-object
-      '@freelensapp/utilities':
+      '@nibamot/utilities':
         specifier: workspace:^
         version: link:../utilities
       '@ogre-tools/fp':
@@ -2302,13 +2302,13 @@ importers:
       '@async-fn/vitest':
         specifier: 'catalog:'
         version: 1.8.0(patch_hash=86478f697e61e0e2ca0274a6b255c31c05d0dd83078743e9e755910710d597ef)(vitest@4.1.10)
-      '@freelensapp/logger':
+      '@nibamot/logger':
         specifier: workspace:^
         version: link:../../logger
-      '@freelensapp/test-utils':
+      '@nibamot/test-utils':
         specifier: workspace:^
         version: link:../test-utils
-      '@freelensapp/typescript':
+      '@nibamot/typescript':
         specifier: workspace:^
         version: link:../../infrastructure/typescript
       rfc6902:
@@ -2326,20 +2326,20 @@ importers:
 
   packages/utility-features/kube-api-specifics:
     dependencies:
-      '@freelensapp/feature-core':
+      '@nibamot/feature-core':
         specifier: workspace:^
         version: link:../../technical-features/feature-core
-      '@freelensapp/kube-api':
+      '@nibamot/kube-api':
         specifier: workspace:^
         version: link:../kube-api
-      '@freelensapp/logger':
+      '@nibamot/logger':
         specifier: workspace:^
         version: link:../../logger
       '@ogre-tools/injectable':
         specifier: 'catalog:'
         version: 23.2.0(@ogre-tools/fp@23.2.0)
     devDependencies:
-      '@freelensapp/typescript':
+      '@nibamot/typescript':
         specifier: workspace:^
         version: link:../../infrastructure/typescript
 
@@ -2349,7 +2349,7 @@ importers:
         specifier: 'catalog:'
         version: 10.4.1
     devDependencies:
-      '@freelensapp/typescript':
+      '@nibamot/typescript':
         specifier: workspace:^
         version: link:../../infrastructure/typescript
       '@testing-library/react':
@@ -2358,7 +2358,7 @@ importers:
 
   packages/utility-features/run-many:
     dependencies:
-      '@freelensapp/utilities':
+      '@nibamot/utilities':
         specifier: workspace:^
         version: link:../utilities
       uuid:
@@ -2368,10 +2368,10 @@ importers:
       '@async-fn/vitest':
         specifier: 'catalog:'
         version: 1.8.0(patch_hash=86478f697e61e0e2ca0274a6b255c31c05d0dd83078743e9e755910710d597ef)(vitest@4.1.10)
-      '@freelensapp/test-utils':
+      '@nibamot/test-utils':
         specifier: workspace:^
         version: link:../test-utils
-      '@freelensapp/typescript':
+      '@nibamot/typescript':
         specifier: workspace:^
         version: link:../../infrastructure/typescript
       '@ogre-tools/fp':
@@ -2398,7 +2398,7 @@ importers:
 
   packages/utility-features/startable-stoppable:
     devDependencies:
-      '@freelensapp/typescript':
+      '@nibamot/typescript':
         specifier: workspace:^
         version: link:../../infrastructure/typescript
       jsdom:
@@ -2432,7 +2432,7 @@ importers:
         specifier: 'catalog:'
         version: 19.2.8
     devDependencies:
-      '@freelensapp/typescript':
+      '@nibamot/typescript':
         specifier: workspace:^
         version: link:../../infrastructure/typescript
       '@types/node':
@@ -2472,7 +2472,7 @@ importers:
         specifier: 'catalog:'
         version: 7.5.21
     devDependencies:
-      '@freelensapp/typescript':
+      '@nibamot/typescript':
         specifier: workspace:^
         version: link:../../infrastructure/typescript
       '@types/node':

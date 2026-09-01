@@ -4,9 +4,9 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { sidebarItemInjectionToken } from "@freelensapp/cluster-sidebar";
-import { Icon } from "@freelensapp/icon";
-import { noop } from "@freelensapp/utilities";
+import { sidebarItemInjectionToken } from "@nibamot/cluster-sidebar";
+import { Icon } from "@nibamot/icon";
+import { noop } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import { SidebarMenuItem, sidebarMenuItemIds } from "../../../common/sidebar-menu-items-starting-order";
 import { getClusterPageMenuOrderInjectable } from "../../../features/user-preferences/common/cluster-page-menu-order.injectable";

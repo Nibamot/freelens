@@ -6,8 +6,8 @@
 
 import assert from "node:assert";
 import { createRequire } from "node:module";
-import { EventEmitter } from "@freelensapp/event-emitter";
-import { isDefined, iter } from "@freelensapp/utilities";
+import { EventEmitter } from "@nibamot/event-emitter";
+import { isDefined, iter } from "@nibamot/utilities";
 import { ipcMain, ipcRenderer } from "electron";
 import { isEqual } from "es-toolkit";
 import { action, computed, observable, reaction, runInAction, toJS, when } from "mobx";
@@ -18,7 +18,7 @@ import {
 } from "../../common/ipc/extension-handling";
 import { requestExtensionLoaderInitialState } from "../../renderer/ipc";
 
-import type { Logger } from "@freelensapp/logger";
+import type { Logger } from "@nibamot/logger";
 
 import type { ObservableMap } from "mobx";
 

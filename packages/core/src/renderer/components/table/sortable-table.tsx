@@ -3,13 +3,13 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Icon } from "@freelensapp/icon";
-import { cssNames } from "@freelensapp/utilities";
+import { Icon } from "@nibamot/icon";
+import { cssNames } from "@nibamot/utilities";
 import { observer } from "mobx-react";
 import { useState } from "react";
 import styles from "./sortable-table.module.scss";
 
-import type { StrictReactNode } from "@freelensapp/utilities";
+import type { StrictReactNode } from "@nibamot/utilities";
 
 import type { ReactElement } from "react";
 

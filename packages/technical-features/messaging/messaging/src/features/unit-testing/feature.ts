@@ -1,4 +1,4 @@
-import { getFeature } from "@freelensapp/feature-core";
+import { getFeature } from "@nibamot/feature-core";
 import { messagingFeature } from "../actual/feature";
 import { registerInjectables } from "./register-injectables";
 

@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { object } from "@freelensapp/utilities";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { object } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import { contentTypes } from "./router-content-types";
 import type { ServerResponse } from "node:http";

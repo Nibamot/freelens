@@ -7,7 +7,7 @@ import { observer } from "mobx-react";
 import React from "react";
 import { DrawerItem, DrawerTitle } from "../drawer";
 
-import type { ValidatingAdmissionPolicy } from "@freelensapp/kube-object";
+import type { ValidatingAdmissionPolicy } from "@nibamot/kube-object";
 
 import type { KubeObjectDetailsProps } from "../kube-object-details";
 

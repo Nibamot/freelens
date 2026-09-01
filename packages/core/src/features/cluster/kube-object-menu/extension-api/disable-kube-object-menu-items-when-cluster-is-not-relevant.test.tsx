@@ -5,7 +5,7 @@
  */
 
 import asyncFn from "@async-fn/vitest";
-import { KubeObject } from "@freelensapp/kube-object";
+import { KubeObject } from "@nibamot/kube-object";
 import { getInjectable } from "@ogre-tools/injectable";
 import { computed, runInAction } from "mobx";
 import { frontEndRouteInjectionToken } from "../../../../common/front-end-routing/front-end-route-injection-token";

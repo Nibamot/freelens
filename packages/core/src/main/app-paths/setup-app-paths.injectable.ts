@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { beforeAnythingInjectionToken } from "@freelensapp/application-for-electron-main";
+import { beforeAnythingInjectionToken } from "@nibamot/application-for-electron-main";
 import { getInjectable } from "@ogre-tools/injectable";
 import { pathNames } from "../../common/app-paths/app-path-names";
 import appPathsStateInjectable from "../../common/app-paths/app-paths-state.injectable";

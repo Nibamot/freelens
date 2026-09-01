@@ -6,7 +6,7 @@
 
 // Metrics api
 
-import { isDefined, object } from "@freelensapp/utilities";
+import { isDefined, object } from "@nibamot/utilities";
 
 export interface MetricData {
   status: string;

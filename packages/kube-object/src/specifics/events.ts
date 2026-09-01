@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { formatDuration } from "@freelensapp/utilities";
+import { formatDuration } from "@nibamot/utilities";
 import { KubeObject } from "../kube-object";
 
 import type { KubeJsonApiData, KubeObjectMetadata, KubeObjectScope, ObjectReference } from "../api-types";

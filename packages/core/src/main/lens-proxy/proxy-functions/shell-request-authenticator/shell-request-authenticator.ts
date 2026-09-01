@@ -6,7 +6,7 @@
 
 import crypto from "node:crypto";
 import { promisify } from "node:util";
-import { getOrInsertMap } from "@freelensapp/utilities";
+import { getOrInsertMap } from "@nibamot/utilities";
 import { ipcMainHandle } from "../../../../common/ipc";
 
 import type { ClusterId } from "../../../../common/cluster-types";

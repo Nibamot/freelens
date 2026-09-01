@@ -7,7 +7,7 @@
 import "./terminal-window.scss";
 
 import assert from "node:assert";
-import { cssNames } from "@freelensapp/utilities";
+import { cssNames } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
 import React from "react";

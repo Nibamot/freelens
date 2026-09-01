@@ -1,5 +1,5 @@
 {
-  "name": "@freelensapp/animate",
+  "name": "@nibamot/animate",
   "version": "2.0.0-5",
   "private": true,
   "description": "Highly extendable animate in the Freelens.",
@@ -25,14 +25,14 @@
   "types": "./index.ts",
   "scripts": {},
   "dependencies": {
-    "@freelensapp/feature-core": "workspace:^",
-    "@freelensapp/utilities": "workspace:^",
+    "@nibamot/feature-core": "workspace:^",
+    "@nibamot/utilities": "workspace:^",
     "@ogre-tools/injectable": "catalog:",
     "@ogre-tools/injectable-react": "catalog:",
     "react": "catalog:"
   },
   "devDependencies": {
-    "@freelensapp/typescript": "workspace:^",
+    "@nibamot/typescript": "workspace:^",
     "@types/react": "catalog:",
     "typescript": "catalog:",
     "vitest": "catalog:"

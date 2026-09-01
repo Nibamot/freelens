@@ -5,7 +5,7 @@
  */
 
 import { constants } from "node:fs";
-import { bytesToUnits, noop } from "@freelensapp/utilities";
+import { bytesToUnits, noop } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import createReadFileStreamInjectable from "../../../common/fs/create-read-file-stream.injectable";
 import computeKubeconfigDiffInjectable from "./compute-diff.injectable";
@@ -13,7 +13,7 @@ import kubeconfigSyncLoggerInjectable from "./logger.injectable";
 import type { Stats } from "node:fs";
 import type { Readable } from "node:stream";
 
-import type { Disposer } from "@freelensapp/utilities";
+import type { Disposer } from "@nibamot/utilities";
 
 import type { ObservableMap } from "mobx";
 

@@ -6,8 +6,8 @@
 
 import "./cluster-manager.scss";
 
-import { Redirect } from "@freelensapp/routing";
-import { buildURL, cssNames } from "@freelensapp/utilities";
+import { Redirect } from "@nibamot/routing";
+import { buildURL, cssNames } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
 import React from "react";

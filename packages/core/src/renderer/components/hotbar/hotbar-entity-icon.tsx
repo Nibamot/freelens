@@ -9,8 +9,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Icon } from "@freelensapp/icon";
-import { cssNames } from "@freelensapp/utilities";
+import { Icon } from "@nibamot/icon";
+import { cssNames } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observable } from "mobx";
 import { observer } from "mobx-react";
@@ -23,7 +23,7 @@ import navigateInjectable from "../../navigation/navigate.injectable";
 import styles from "./hotbar-entity-icon.module.scss";
 import { HotbarIcon } from "./hotbar-icon";
 
-import type { IClassName } from "@freelensapp/utilities";
+import type { IClassName } from "@nibamot/utilities";
 
 import type { IComputedValue } from "mobx";
 

@@ -7,7 +7,7 @@
 import { HorizontalLine } from "../../../../renderer/components/horizontal-line/horizontal-line";
 import styles from "./preference-tab-root.module.scss";
 
-import type { Orderable } from "@freelensapp/utilities";
+import type { Orderable } from "@nibamot/utilities";
 
 import type { Discriminable } from "../../../../common/utils/composable-responsibilities/discriminable/discriminable";
 import type { RootComposite } from "../../../../common/utils/composite/interfaces";

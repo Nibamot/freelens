@@ -7,7 +7,7 @@ import { EventEmitter } from "node:events";
 import { beforeEach, describe, expect, it, vi } from "vitest";
 import { ignoreBrokenPipeErrors } from "./ignore-broken-pipe-errors";
 
-import type { LogFunction } from "@freelensapp/logger";
+import type { LogFunction } from "@nibamot/logger";
 
 const errorWithCode = (code: string) => Object.assign(new Error(`write ${code}`), { code });
 

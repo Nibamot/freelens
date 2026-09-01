@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import * as utilities from "@freelensapp/utilities";
+import * as utilities from "@nibamot/utilities";
 import openLinkInBrowserInjectable, {
   type OpenLinkInBrowser,
 } from "../../common/utils/open-link-in-browser.injectable";

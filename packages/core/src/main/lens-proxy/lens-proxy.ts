@@ -11,7 +11,7 @@ import { apiKubePrefix, apiPrefix } from "../../common/vars";
 import { getBoolean } from "../utils/parse-query";
 import type http from "node:http";
 
-import type { Logger } from "@freelensapp/logger";
+import type { Logger } from "@nibamot/logger";
 
 import type httpProxy from "http-proxy-node16";
 import type { SetRequired } from "type-fest";

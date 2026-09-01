@@ -4,10 +4,10 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { namedCaptures } from "@freelensapp/utilities";
+import { namedCaptures } from "@nibamot/utilities";
 import fse from "fs-extra";
 
-import type { StrictReactNode } from "@freelensapp/utilities";
+import type { StrictReactNode } from "@nibamot/utilities";
 
 import type { SetRequired } from "type-fest";
 

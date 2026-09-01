@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import type { KubeApiPatchType } from "@freelensapp/kube-api";
+import type { KubeApiPatchType } from "@nibamot/kube-api";
 
 import type { ClusterId } from "../../../../common/cluster-types";
 

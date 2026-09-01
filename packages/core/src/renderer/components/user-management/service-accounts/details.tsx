@@ -6,9 +6,9 @@
 
 import "./details.scss";
 
-import { Icon } from "@freelensapp/icon";
-import { Link } from "@freelensapp/routing";
-import { Spinner } from "@freelensapp/spinner";
+import { Icon } from "@nibamot/icon";
+import { Link } from "@nibamot/routing";
+import { Spinner } from "@nibamot/spinner";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { autorun, observable, runInAction } from "mobx";
 import { observer } from "mobx-react";
@@ -18,7 +18,7 @@ import { DrawerItem, DrawerTitle } from "../../drawer";
 import getDetailsUrlInjectable from "../../kube-detail-params/get-details-url.injectable";
 import { ServiceAccountsSecret } from "./secret";
 
-import type { Secret, ServiceAccount } from "@freelensapp/kube-object";
+import type { Secret, ServiceAccount } from "@nibamot/kube-object";
 
 import type { SecretStore } from "../../config-secrets/store";
 import type { GetDetailsUrl } from "../../kube-detail-params/get-details-url.injectable";

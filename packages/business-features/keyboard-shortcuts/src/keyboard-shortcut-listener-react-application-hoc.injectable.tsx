@@ -1,4 +1,4 @@
-import { reactApplicationHigherOrderComponentInjectionToken } from "@freelensapp/react-application";
+import { reactApplicationHigherOrderComponentInjectionToken } from "@nibamot/react-application";
 import { getInjectable } from "@ogre-tools/injectable";
 import { KeyboardShortcutListener } from "./keyboard-shortcut-listener";
 

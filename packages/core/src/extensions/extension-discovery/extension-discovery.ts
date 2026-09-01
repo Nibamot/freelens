@@ -5,7 +5,7 @@
  */
 
 import { EventEmitter } from "node:events";
-import { isErrnoException } from "@freelensapp/utilities";
+import { isErrnoException } from "@nibamot/utilities";
 import { ipcRenderer } from "electron";
 import { makeObservable, observable, reaction, when } from "mobx";
 import { broadcastMessage, ipcMainHandle, ipcRendererOn } from "../../common/ipc";
@@ -15,8 +15,8 @@ import AwaitLock from "../../common/utils/await-lock";
 import { requestInitialExtensionDiscovery } from "../../renderer/ipc";
 import type { Stats } from "node:fs";
 
-import type { Logger } from "@freelensapp/logger";
-import type { TypedEventEmitter } from "@freelensapp/utilities";
+import type { Logger } from "@nibamot/logger";
+import type { TypedEventEmitter } from "@nibamot/utilities";
 
 import type { AccessPath } from "../../common/fs/access-path.injectable";
 import type { Copy } from "../../common/fs/copy.injectable";

@@ -6,16 +6,16 @@
 
 import "./limit-range-details.scss";
 
-import { LimitPart, LimitRange, Resource } from "@freelensapp/kube-object";
-import { loggerInjectionToken } from "@freelensapp/logger";
+import { LimitPart, LimitRange, Resource } from "@nibamot/kube-object";
+import { loggerInjectionToken } from "@nibamot/logger";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
 import React from "react";
 import { Badge } from "../badge";
 import { DrawerItem } from "../drawer/drawer-item";
 
-import type { LimitRangeItem } from "@freelensapp/kube-object";
-import type { Logger } from "@freelensapp/logger";
+import type { LimitRangeItem } from "@nibamot/kube-object";
+import type { Logger } from "@nibamot/logger";
 
 import type { KubeObjectDetailsProps } from "../kube-object-details";
 

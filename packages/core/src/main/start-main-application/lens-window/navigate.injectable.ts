@@ -5,7 +5,7 @@
  */
 
 import assert from "node:assert";
-import { iter } from "@freelensapp/utilities";
+import { iter } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import clusterFramesInjectable from "../../../common/cluster-frames.injectable";
 import { IpcRendererNavigationEvents } from "../../../common/ipc/navigation-events";

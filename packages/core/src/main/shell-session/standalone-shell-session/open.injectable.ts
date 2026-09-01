@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { loggerInjectionToken } from "@freelensapp/logger";
+import { loggerInjectionToken } from "@nibamot/logger";
 import { getInjectable } from "@ogre-tools/injectable";
 import emitAppEventInjectable from "../../../common/app-event-bus/emit-event.injectable";
 import directoryForBinariesInjectable from "../../../common/app-paths/directory-for-binaries/directory-for-binaries.injectable";

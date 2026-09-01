@@ -11,7 +11,7 @@ import {
   showInfoNotificationInjectable,
   showShortInfoNotificationInjectable,
   showSuccessNotificationInjectable,
-} from "@freelensapp/notifications";
+} from "@nibamot/notifications";
 import commandOverlayInjectable from "../../renderer/components/command-palette/command-overlay.injectable";
 import { ConfirmDialog as _ConfirmDialog } from "../../renderer/components/confirm-dialog";
 import confirmInjectable from "../../renderer/components/confirm-dialog/confirm.injectable";
@@ -32,8 +32,8 @@ import type {
   ConfirmDialogProps,
 } from "../../renderer/components/confirm-dialog";
 
-export * from "@freelensapp/button";
-export * from "@freelensapp/icon";
+export * from "@nibamot/button";
+export * from "@nibamot/icon";
 export {
   type CreateNotificationOptions,
   type Notification,
@@ -42,9 +42,9 @@ export {
   NotificationStatus,
   type NotificationsStore,
   type ShowNotification,
-} from "@freelensapp/notifications";
-export * from "@freelensapp/spinner";
-export * from "@freelensapp/tooltip";
+} from "@nibamot/notifications";
+export * from "@nibamot/spinner";
+export * from "@nibamot/tooltip";
 export * from "../../renderer/components/add-remove-buttons";
 export * from "../../renderer/components/avatar";
 export * from "../../renderer/components/badge";

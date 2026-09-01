@@ -4,11 +4,11 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { podApiInjectable } from "@freelensapp/kube-api-specifics";
+import { podApiInjectable } from "@nibamot/kube-api-specifics";
 import { getInjectable } from "@ogre-tools/injectable";
 
-import type { ResourceDescriptor } from "@freelensapp/kube-api";
-import type { PodLogsQuery } from "@freelensapp/kube-object";
+import type { ResourceDescriptor } from "@nibamot/kube-api";
+import type { PodLogsQuery } from "@nibamot/kube-object";
 
 export type CallForLogs = (params: ResourceDescriptor, query?: PodLogsQuery) => Promise<string>;
 

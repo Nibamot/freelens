@@ -1,5 +1,5 @@
 {
-  "name": "@freelensapp/react-testing-library-discovery",
+  "name": "@nibamot/react-testing-library-discovery",
   "version": "2.0.0-5",
   "private": true,
   "description": "A way to discover HTML-elements using react-testing-library",
@@ -26,7 +26,7 @@
     "@testing-library/dom": "catalog:"
   },
   "devDependencies": {
-    "@freelensapp/typescript": "workspace:^",
+    "@nibamot/typescript": "workspace:^",
     "@testing-library/react": "catalog:"
   },
   "publishConfig": {

@@ -9,7 +9,7 @@ import os from "node:os";
 import path from "node:path";
 import { Kubectl } from "./kubectl";
 
-import type { Logger } from "@freelensapp/logger";
+import type { Logger } from "@nibamot/logger";
 
 import type { DownloadProgress } from "../fetch/download-binary.injectable";
 import type { KubectlDependencies } from "./kubectl";

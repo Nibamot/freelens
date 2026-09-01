@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { showErrorNotificationInjectable } from "@freelensapp/notifications";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { showErrorNotificationInjectable } from "@nibamot/notifications";
 import { getInjectable } from "@ogre-tools/injectable";
 import getBasenameOfPathInjectable from "../../../common/path/get-basename.injectable";
 import extensionInstallationStateStoreInjectable from "../../../extensions/extension-installation-state-store/extension-installation-state-store.injectable";
@@ -16,7 +16,7 @@ import attemptInstallByInfoInjectable from "./attempt-install-by-info.injectable
 import { getMessageFromError } from "./get-message-from-error/get-message-from-error";
 import readFileNotifyInjectable from "./read-file-notify/read-file-notify.injectable";
 
-import type { ExtendableDisposer } from "@freelensapp/utilities";
+import type { ExtendableDisposer } from "@nibamot/utilities";
 
 export type InstallExtensionFromInput = (input: string) => Promise<void>;
 

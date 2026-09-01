@@ -3,15 +3,15 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { createKubeApiURL, type KubeApiPatchType, patchTypeHeaders } from "@freelensapp/kube-api";
-import { logWarningInjectionToken } from "@freelensapp/logger";
-import { lowerAndPluralize } from "@freelensapp/utilities";
+import { createKubeApiURL, type KubeApiPatchType, patchTypeHeaders } from "@nibamot/kube-api";
+import { logWarningInjectionToken } from "@nibamot/logger";
+import { lowerAndPluralize } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import createKubeJsonApiInjectable from "../../../../common/k8s-api/create-kube-json-api.injectable";
 import loadProxyKubeconfigInjectable from "../../../../main/cluster/load-proxy-kubeconfig.injectable";
 import getClusterByIdInjectable from "../../storage/common/get-by-id.injectable";
 
-import type { KubeJsonApiData } from "@freelensapp/kube-object";
+import type { KubeJsonApiData } from "@nibamot/kube-object";
 
 import type { Patch as JsonPatch } from "rfc6902";
 import type { PartialDeep } from "type-fest";

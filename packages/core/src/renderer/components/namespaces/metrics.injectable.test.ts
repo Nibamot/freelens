@@ -8,7 +8,7 @@ import { getDiForUnitTesting } from "../../getDiForUnitTesting";
 import selectedMetricsTimeRangeInjectable from "../cluster/overview/selected-metrics-time-range.injectable";
 import namespaceMetricsInjectable from "./metrics.injectable";
 
-import type { Namespace } from "@freelensapp/kube-object";
+import type { Namespace } from "@nibamot/kube-object";
 
 describe("namespace-metrics injectable", () => {
   it("requests namespace pod metrics with the selected time range", () => {

@@ -5,7 +5,7 @@
  */
 
 import assert from "node:assert";
-import { bytesToUnits, cssNames, isObject } from "@freelensapp/utilities";
+import { bytesToUnits, cssNames, isObject } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import Color from "color";
 import { merge } from "es-toolkit/compat";

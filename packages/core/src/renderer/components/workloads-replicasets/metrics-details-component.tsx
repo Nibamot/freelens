@@ -10,7 +10,7 @@ import { TimeRangedResourceMetrics } from "../resource-metrics";
 import { PodCharts, podMetricTabs } from "../workloads-pods/pod-charts";
 import replicaSetMetricsInjectable from "./metrics.injectable";
 
-import type { ReplicaSet } from "@freelensapp/kube-object";
+import type { ReplicaSet } from "@nibamot/kube-object";
 
 import type { ReplicaSetPodMetricData } from "../../../common/k8s-api/endpoints/metrics.api/request-pod-metrics-for-replica-sets.injectable";
 import type { IAsyncComputed } from "../../../common/utils/async-computed";

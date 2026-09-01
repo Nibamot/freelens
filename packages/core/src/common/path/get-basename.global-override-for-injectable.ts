@@ -5,7 +5,7 @@
  */
 
 import path from "node:path";
-import { getGlobalOverride } from "@freelensapp/test-utils";
+import { getGlobalOverride } from "@nibamot/test-utils";
 import getBasenameOfPathInjectable from "./get-basename.injectable";
 
 export default getGlobalOverride(getBasenameOfPathInjectable, () => path.posix.basename);

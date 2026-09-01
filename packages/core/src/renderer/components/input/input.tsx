@@ -6,17 +6,17 @@
 
 import "./input.scss";
 
-import { Icon } from "@freelensapp/icon";
-import { Tooltip } from "@freelensapp/tooltip";
-import { cssNames, debouncePromise, isPromiseSettledFulfilled } from "@freelensapp/utilities";
+import { Icon } from "@nibamot/icon";
+import { Tooltip } from "@nibamot/tooltip";
+import { cssNames, debouncePromise, isPromiseSettledFulfilled } from "@nibamot/utilities";
 import autoBindReact from "auto-bind/react";
 import { debounce, uniqueId } from "es-toolkit/compat";
 import React from "react";
 import * as uuid from "uuid";
 import * as Validators from "./input_validators";
 
-import type { TooltipProps } from "@freelensapp/tooltip";
-import type { SingleOrMany, StrictReactNode } from "@freelensapp/utilities";
+import type { TooltipProps } from "@nibamot/tooltip";
+import type { SingleOrMany, StrictReactNode } from "@nibamot/utilities";
 
 import type { DOMAttributes, InputHTMLAttributes, TextareaHTMLAttributes } from "react";
 

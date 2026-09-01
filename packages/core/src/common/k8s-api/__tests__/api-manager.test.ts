@@ -5,16 +5,16 @@
  */
 
 import assert from "node:assert";
-import { KubeApi } from "@freelensapp/kube-api";
-import { maybeKubeApiInjectable } from "@freelensapp/kube-api-specifics";
-import { KubeObject } from "@freelensapp/kube-object";
+import { KubeApi } from "@nibamot/kube-api";
+import { maybeKubeApiInjectable } from "@nibamot/kube-api-specifics";
+import { KubeObject } from "@nibamot/kube-object";
 import {
   logDebugInjectionToken,
   logErrorInjectionToken,
   loggerInjectionToken,
   logInfoInjectionToken,
   logWarningInjectionToken,
-} from "@freelensapp/logger";
+} from "@nibamot/logger";
 import { getInjectable } from "@ogre-tools/injectable";
 import { runInAction } from "mobx";
 import { KubeApi as ExternalKubeApi } from "../../../extensions/common-api/k8s-api";

@@ -6,10 +6,10 @@
 
 import "./sub-title.scss";
 
-import { cssNames } from "@freelensapp/utilities";
+import { cssNames } from "@nibamot/utilities";
 import React from "react";
 
-import type { StrictReactNode } from "@freelensapp/utilities";
+import type { StrictReactNode } from "@nibamot/utilities";
 
 export interface SubTitleProps {
   className?: string;

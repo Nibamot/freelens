@@ -6,8 +6,8 @@
 
 import { KubeObjectStore } from "../../../../common/k8s-api/kube-object.store";
 
-import type { ClusterRoleApi } from "@freelensapp/kube-api";
-import type { ClusterRole, ClusterRoleData } from "@freelensapp/kube-object";
+import type { ClusterRoleApi } from "@nibamot/kube-api";
+import type { ClusterRole, ClusterRoleData } from "@nibamot/kube-object";
 
 export class ClusterRoleStore extends KubeObjectStore<ClusterRole, ClusterRoleApi, ClusterRoleData> {
   protected sortItems(items: ClusterRole[]) {

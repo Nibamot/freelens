@@ -8,7 +8,7 @@ import { fetch as undiciFetch } from "undici";
 import { fetchImplementationInjectionToken } from "../../common/fetch/fetch-injection-token";
 import { withHostHeaderPreserved } from "./host-header-dispatcher";
 
-import type { Fetch } from "@freelensapp/json-api";
+import type { Fetch } from "@nibamot/json-api";
 
 import type { RequestInit as UndiciRequestInit, Response as UndiciResponse } from "undici";
 

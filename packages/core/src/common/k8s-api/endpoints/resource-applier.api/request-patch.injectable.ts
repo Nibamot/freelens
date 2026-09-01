@@ -7,8 +7,8 @@
 import { getInjectable } from "@ogre-tools/injectable";
 import apiBaseInjectable from "../../api-base.injectable";
 
-import type { KubeJsonApiData } from "@freelensapp/kube-object";
-import type { AsyncResult, Result } from "@freelensapp/utilities";
+import type { KubeJsonApiData } from "@nibamot/kube-object";
+import type { AsyncResult, Result } from "@nibamot/utilities";
 
 import type { Patch } from "rfc6902";
 

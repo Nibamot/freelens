@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Button } from "@freelensapp/button";
+import { Button } from "@nibamot/button";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import showDialogForAddingCustomHelmRepositoryInjectable from "./dialog-visibility/show-dialog-for-adding-custom-helm-repository.injectable";
 

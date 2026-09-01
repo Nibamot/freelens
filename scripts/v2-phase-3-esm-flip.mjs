@@ -2,7 +2,7 @@
 // Freelens v2 — Phase 3 codemod: ESM flip (plan D2/D3).
 //
 // Sets `"type": "module"` on the application manifest (freelens/package.json)
-// and on every `@freelensapp/*` workspace package under packages/, so the whole
+// and on every `@nibamot/*` workspace package under packages/, so the whole
 // workspace ships as ES modules. Any explicit `"type": "commonjs"` is replaced.
 //
 // The `"type"` key is inserted right after `"license"` when present (matching

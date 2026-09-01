@@ -5,8 +5,8 @@
  */
 
 import assert from "node:assert";
-import { showCheckedErrorNotificationInjectable, showSuccessNotificationInjectable } from "@freelensapp/notifications";
-import { waitUntilDefined } from "@freelensapp/utilities";
+import { showCheckedErrorNotificationInjectable, showSuccessNotificationInjectable } from "@nibamot/notifications";
+import { waitUntilDefined } from "@nibamot/utilities";
 import { getInjectable, lifecycleEnum } from "@ogre-tools/injectable";
 import { groupBy } from "es-toolkit";
 import { action, computed, observable, runInAction } from "mobx";
@@ -20,8 +20,8 @@ import updateReleaseInjectable from "../../update-release/update-release.injecta
 import getResourceDetailsUrlInjectable from "./get-resource-details-url.injectable";
 import requestDetailedHelmReleaseInjectable from "./request-detailed-helm-release.injectable";
 
-import type { KubeJsonApiData } from "@freelensapp/kube-object";
-import type { ShowCheckedErrorNotification, ShowNotification } from "@freelensapp/notifications";
+import type { KubeJsonApiData } from "@nibamot/kube-object";
+import type { ShowCheckedErrorNotification, ShowNotification } from "@nibamot/notifications";
 
 import type { IComputedValue, IObservableValue } from "mobx";
 

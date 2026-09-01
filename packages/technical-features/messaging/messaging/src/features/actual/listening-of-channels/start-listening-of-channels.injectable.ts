@@ -1,4 +1,4 @@
-import { onLoadOfApplicationInjectionToken } from "@freelensapp/application";
+import { onLoadOfApplicationInjectionToken } from "@nibamot/application";
 import { getInjectable } from "@ogre-tools/injectable";
 import { listeningOfChannelsInjectionToken } from "./listening-of-channels.injectable";
 

@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { HorizontalPodAutoscaler } from "@freelensapp/kube-object";
+import { HorizontalPodAutoscaler } from "@nibamot/kube-object";
 import { getDiForUnitTesting } from "../../getDiForUnitTesting";
 import getHorizontalPodAutoscalerMetrics from "./get-metrics.injectable";
 

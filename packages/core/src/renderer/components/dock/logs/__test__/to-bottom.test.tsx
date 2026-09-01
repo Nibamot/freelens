@@ -6,7 +6,7 @@
 
 import "@testing-library/jest-dom/vitest";
 
-import { noop } from "@freelensapp/utilities";
+import { noop } from "@nibamot/utilities";
 import { fireEvent } from "@testing-library/react";
 import { getDiForUnitTesting } from "../../../../getDiForUnitTesting";
 import { renderFor } from "../../../test-utils/renderFor";

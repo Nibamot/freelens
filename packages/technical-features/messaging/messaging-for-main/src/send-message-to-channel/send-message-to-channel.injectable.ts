@@ -1,4 +1,4 @@
-import { SendMessageToChannel, sendMessageToChannelInjectionToken } from "@freelensapp/messaging";
+import { SendMessageToChannel, sendMessageToChannelInjectionToken } from "@nibamot/messaging";
 import { getInjectable } from "@ogre-tools/injectable";
 import frameIdsInjectable from "./frameIds.injectable";
 import getWebContentsInjectable from "./get-web-contents.injectable";

@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Pod } from "@freelensapp/kube-object";
+import { Pod } from "@nibamot/kube-object";
 
 describe("Pod tests", () => {
   it("getAllContainers() should never throw", () => {

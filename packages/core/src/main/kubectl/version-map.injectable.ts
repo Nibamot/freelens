@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { kubectlVersions } from "@freelensapp/kubectl-versions";
+import { kubectlVersions } from "@nibamot/kubectl-versions";
 import { getInjectable } from "@ogre-tools/injectable";
 import { SemVer } from "semver";
 import bundledKubectlVersionInjectable from "../../common/vars/bundled-kubectl-version.injectable";

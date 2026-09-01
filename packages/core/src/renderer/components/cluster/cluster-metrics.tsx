@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Spinner } from "@freelensapp/spinner";
-import { bytesToUnits, cssNames } from "@freelensapp/utilities";
+import { Spinner } from "@nibamot/spinner";
+import { bytesToUnits, cssNames } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
 import { useRef, useState } from "react";

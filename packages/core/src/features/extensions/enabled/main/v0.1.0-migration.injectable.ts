@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { isObject } from "@freelensapp/utilities";
+import { isObject } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import { enabledExtensionsMigrationDeclarationInjectionToken } from "./migrations";
 

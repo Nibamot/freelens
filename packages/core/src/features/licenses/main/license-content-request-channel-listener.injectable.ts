@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { getRequestChannelListenerInjectable } from "@freelensapp/messaging";
+import { getRequestChannelListenerInjectable } from "@nibamot/messaging";
 import readFileInjectable from "../../../common/fs/read-file.injectable";
 import joinPathsInjectable from "../../../common/path/join-paths.injectable";
 import staticFilesDirectoryInjectable from "../../../common/vars/static-files-directory.injectable";

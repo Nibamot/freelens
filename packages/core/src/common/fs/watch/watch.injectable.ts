@@ -8,7 +8,7 @@ import { getInjectable } from "@ogre-tools/injectable";
 import { watch } from "chokidar";
 import type { Stats } from "node:fs";
 
-import type { SingleOrMany, TypedEventEmitter } from "@freelensapp/utilities";
+import type { SingleOrMany, TypedEventEmitter } from "@nibamot/utilities";
 
 export type AlwaysStatWatcherEvents = {
   add: (path: string, stats: Stats) => void;

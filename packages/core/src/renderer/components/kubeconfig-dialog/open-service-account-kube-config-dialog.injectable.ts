@@ -4,12 +4,12 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { urlBuilderFor } from "@freelensapp/utilities";
+import { urlBuilderFor } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import apiBaseInjectable from "../../../common/k8s-api/api-base.injectable";
 import openKubeconfigDialogInjectable from "./open.injectable";
 
-import type { ServiceAccount } from "@freelensapp/kube-object";
+import type { ServiceAccount } from "@nibamot/kube-object";
 
 export type OpenServiceAccountKubeConfigDialog = (account: ServiceAccount) => void;
 

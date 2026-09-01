@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { buildURL } from "@freelensapp/utilities";
+import { buildURL } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import terminalRouteInjectable from "../../../front-end-routing/routes/terminal/terminal-route.injectable";
 import { GeneralEntity } from "../../index";

@@ -1,4 +1,4 @@
-import { getStartableStoppable, type StartableStoppable } from "@freelensapp/startable-stoppable";
+import { getStartableStoppable, type StartableStoppable } from "@nibamot/startable-stoppable";
 import { getInjectable, getInjectionToken } from "@ogre-tools/injectable";
 import { computedInjectManyInjectionToken } from "@ogre-tools/injectable-extension-for-mobx";
 import { type IComputedValue, reaction } from "mobx";

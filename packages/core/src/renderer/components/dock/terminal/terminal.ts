@@ -5,7 +5,7 @@
  */
 
 import assert from "node:assert";
-import { disposer } from "@freelensapp/utilities";
+import { disposer } from "@nibamot/utilities";
 import { FitAddon } from "@xterm/addon-fit";
 import { WebLinksAddon } from "@xterm/addon-web-links";
 import { Terminal as XTerm } from "@xterm/xterm";
@@ -17,7 +17,7 @@ import { TerminalChannels } from "../../../../common/terminal/channels";
 import { eraseTerminalLine } from "../../../api/terminal-api";
 import { handleMacNaturalTextEditingKey } from "./terminal-key-mapping";
 
-import type { Logger } from "@freelensapp/logger";
+import type { Logger } from "@nibamot/logger";
 
 import type { IComputedValue } from "mobx";
 

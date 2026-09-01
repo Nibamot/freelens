@@ -4,13 +4,13 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { isObject } from "@freelensapp/utilities";
+import { isObject } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import * as yaml from "js-yaml";
 import execHelmInjectable from "../../../exec-helm/exec-helm.injectable";
 
-import type { KubeJsonApiData, KubeJsonApiDataList } from "@freelensapp/kube-object";
-import type { AsyncResult } from "@freelensapp/utilities";
+import type { KubeJsonApiData, KubeJsonApiDataList } from "@nibamot/kube-object";
+import type { AsyncResult } from "@nibamot/utilities";
 
 const requestHelmManifestInjectable = getInjectable({
   id: "request-helm-manifest",

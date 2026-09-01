@@ -7,7 +7,7 @@
 import { getInjectable } from "@ogre-tools/injectable";
 import { observable } from "mobx";
 
-import type { RoleBinding } from "@freelensapp/kube-object";
+import type { RoleBinding } from "@nibamot/kube-object";
 
 export type RoleBindingDialogState =
   | {

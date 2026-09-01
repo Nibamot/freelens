@@ -1,5 +1,5 @@
-import { getFeature } from "@freelensapp/feature-core";
-import { messagingFeature } from "@freelensapp/messaging";
+import { getFeature } from "@nibamot/feature-core";
+import { messagingFeature } from "@nibamot/messaging";
 import { registerInjectables } from "./register-injectables";
 export const messagingFeatureForRenderer = getFeature({
   id: "messaging-for-renderer",

@@ -6,7 +6,7 @@
 
 import { getInjectionToken } from "@ogre-tools/injectable";
 
-import type { Orderable } from "@freelensapp/utilities";
+import type { Orderable } from "@nibamot/utilities";
 
 import type {
   BaseWindow,

@@ -4,12 +4,12 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Icon } from "@freelensapp/icon";
+import { Icon } from "@nibamot/icon";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import openServiceAccountKubeConfigDialogInjectable from "../../kubeconfig-dialog/open-service-account-kube-config-dialog.injectable";
 import { MenuItem } from "../../menu";
 
-import type { ServiceAccount } from "@freelensapp/kube-object";
+import type { ServiceAccount } from "@nibamot/kube-object";
 
 import type { KubeObjectMenuProps } from "../../kube-object-menu";
 import type { OpenServiceAccountKubeConfigDialog } from "../../kubeconfig-dialog/open-service-account-kube-config-dialog.injectable";

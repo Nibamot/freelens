@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Icon } from "@freelensapp/icon";
-import { observableCrate } from "@freelensapp/utilities";
+import { Icon } from "@nibamot/icon";
+import { observableCrate } from "@nibamot/utilities";
 import { action, comparer, computed, observable } from "mobx";
 import React from "react";
 

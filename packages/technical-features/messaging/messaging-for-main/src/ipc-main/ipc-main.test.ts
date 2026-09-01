@@ -1,4 +1,4 @@
-import { registerFeature } from "@freelensapp/feature-core";
+import { registerFeature } from "@nibamot/feature-core";
 import { createContainer, DiContainer } from "@ogre-tools/injectable";
 import { ipcMain } from "electron";
 import { messagingFeatureForMain } from "../feature";

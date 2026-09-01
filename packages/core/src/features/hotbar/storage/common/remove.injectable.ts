@@ -5,7 +5,7 @@
  */
 
 import assert from "node:assert";
-import { iter } from "@freelensapp/utilities";
+import { iter } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import { action } from "mobx";
 import activeHotbarIdInjectable from "./active-id.injectable";

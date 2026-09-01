@@ -1,4 +1,4 @@
-import { runManyFor } from "@freelensapp/run-many";
+import { runManyFor } from "@nibamot/run-many";
 import { getInjectable, getInjectionToken } from "@ogre-tools/injectable";
 import * as timeSlots from "./time-slots";
 

@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import type { LogFunction } from "@freelensapp/logger";
+import type { LogFunction } from "@nibamot/logger";
 
 /**
  * The subset of `NodeJS.WriteStream` this module needs. Keeping it structural

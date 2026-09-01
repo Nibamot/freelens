@@ -4,11 +4,11 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { isObject } from "@freelensapp/utilities";
+import { isObject } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import execHelmInjectable from "./exec-helm/exec-helm.injectable";
 
-import type { AsyncResult } from "@freelensapp/utilities";
+import type { AsyncResult } from "@nibamot/utilities";
 
 import type { ListedHelmRelease } from "../../features/helm-releases/common/channels";
 

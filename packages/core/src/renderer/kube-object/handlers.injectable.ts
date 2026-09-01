@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { getOrInsert, getOrInsertMap, readonly } from "@freelensapp/utilities";
+import { getOrInsert, getOrInsertMap, readonly } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import { computed } from "mobx";
 import rendererExtensionsInjectable from "../../extensions/renderer-extensions.injectable";

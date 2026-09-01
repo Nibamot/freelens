@@ -9,7 +9,7 @@ import defaultShellInjectable from "../../../common/vars/default-shell.injectabl
 import isWindowsInjectable from "../../../common/vars/is-windows.injectable";
 import computeUnixShellEnvironmentInjectable from "./compute-unix-shell-environment.injectable";
 
-import type { AsyncResult } from "@freelensapp/utilities";
+import type { AsyncResult } from "@nibamot/utilities";
 
 export type EnvironmentVariables = Partial<Record<string, string>>;
 export type ComputeShellEnvironment = (shell?: string | null) => AsyncResult<EnvironmentVariables | undefined, string>;

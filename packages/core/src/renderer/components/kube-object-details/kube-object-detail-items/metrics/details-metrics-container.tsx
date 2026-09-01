@@ -6,8 +6,8 @@
 
 import { observer } from "mobx-react";
 
-import type { KubeObject } from "@freelensapp/kube-object";
-import type { KubeObjectDetailMetrics } from "@freelensapp/metrics";
+import type { KubeObject } from "@nibamot/kube-object";
+import type { KubeObjectDetailMetrics } from "@nibamot/metrics";
 
 import type { IComputedValue } from "mobx";
 

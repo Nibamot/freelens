@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Icon } from "@freelensapp/icon";
+import { Icon } from "@nibamot/icon";
 import { useState } from "react";
 import { act } from "react-dom/test-utils";
 import { Dropdown } from "../../dropdown/dropdown";

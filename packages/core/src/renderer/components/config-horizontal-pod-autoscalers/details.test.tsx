@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { HorizontalPodAutoscaler } from "@freelensapp/kube-object";
+import { HorizontalPodAutoscaler } from "@nibamot/kube-object";
 import directoryForKubeConfigsInjectable from "../../../common/app-paths/directory-for-kube-configs/directory-for-kube-configs.injectable";
 import directoryForUserDataInjectable from "../../../common/app-paths/directory-for-user-data/directory-for-user-data.injectable";
 import { Cluster } from "../../../common/cluster/cluster";
@@ -14,14 +14,14 @@ import storesAndApisCanBeCreatedInjectable from "../../stores-apis-can-be-create
 import { renderFor } from "../test-utils/renderFor";
 import { HorizontalPodAutoscalerDetails } from "./details";
 
-import type { StrictReactNode } from "@freelensapp/utilities";
+import type { StrictReactNode } from "@nibamot/utilities";
 
 import type { RenderResult } from "@testing-library/react";
 
 import type { DiRender } from "../test-utils/renderFor";
 
-vi.mock("@freelensapp/routing", async (importOriginal) => ({
-  ...(await importOriginal<typeof import("@freelensapp/routing")>()),
+vi.mock("@nibamot/routing", async (importOriginal) => ({
+  ...(await importOriginal<typeof import("@nibamot/routing")>()),
   Link: ({ children }: { children: StrictReactNode }) => children,
 }));
 

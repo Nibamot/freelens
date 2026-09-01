@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { getMessageChannelListenerInjectable } from "@freelensapp/messaging";
+import { getMessageChannelListenerInjectable } from "@nibamot/messaging";
 import { closeIpcFileLoggerChannel } from "../common/ipc-file-logger-channel";
 import ipcFileLoggerInjectable from "./ipc-file-logger.injectable";
 

@@ -16,7 +16,7 @@ import { SiblingsInTabLayout } from "../layout/siblings-in-tab-layout";
 import { WithTooltip } from "../with-tooltip";
 import priorityClassStoreInjectable from "./store.injectable";
 
-import type { PriorityClass } from "@freelensapp/kube-object";
+import type { PriorityClass } from "@nibamot/kube-object";
 
 import type { KubeObjectDetailsProps } from "../kube-object-details";
 import type { PriorityClassStore } from "./store";

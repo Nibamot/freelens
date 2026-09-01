@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { IngressClass } from "@freelensapp/kube-object";
+import { IngressClass } from "@nibamot/kube-object";
 import { KubeApi } from "../kube-api";
 
 import type { KubeApiDependencies, ResourceDescriptor } from "../kube-api";

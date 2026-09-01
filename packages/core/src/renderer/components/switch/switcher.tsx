@@ -7,7 +7,7 @@
 import React from "react";
 import { Switch } from "./switch";
 
-import type { StrictReactNode } from "@freelensapp/utilities";
+import type { StrictReactNode } from "@nibamot/utilities";
 
 export interface SwitcherProps {
   disabled?: boolean;

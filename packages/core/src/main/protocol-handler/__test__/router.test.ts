@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { noop } from "@freelensapp/utilities";
+import { noop } from "@nibamot/utilities";
 import { runInAction } from "mobx";
 import * as uuid from "uuid";
 import directoryForUserDataInjectable from "../../../common/app-paths/directory-for-user-data/directory-for-user-data.injectable";

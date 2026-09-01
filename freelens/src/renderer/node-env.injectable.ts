@@ -1,4 +1,4 @@
-import { nodeEnvInjectionToken } from "@freelensapp/core/renderer";
+import { nodeEnvInjectionToken } from "@nibamot/core/renderer";
 import { getInjectable } from "@ogre-tools/injectable";
 
 export const nodeEnvInjectable = getInjectable({

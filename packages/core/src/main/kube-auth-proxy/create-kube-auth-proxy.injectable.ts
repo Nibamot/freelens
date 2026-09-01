@@ -5,7 +5,7 @@
  */
 
 import assert from "node:assert";
-import { loggerInjectionToken } from "@freelensapp/logger";
+import { loggerInjectionToken } from "@nibamot/logger";
 import { getInjectable, lifecycleEnum } from "@ogre-tools/injectable";
 import { observable, when } from "mobx";
 import getDirnameOfPathInjectable from "../../common/path/get-dirname.injectable";

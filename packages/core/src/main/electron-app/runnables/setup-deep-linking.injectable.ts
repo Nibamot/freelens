@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { onLoadOfApplicationInjectionToken } from "@freelensapp/application";
-import { loggerInjectionToken } from "@freelensapp/logger";
+import { onLoadOfApplicationInjectionToken } from "@nibamot/application";
+import { loggerInjectionToken } from "@nibamot/logger";
 import { getInjectable } from "@ogre-tools/injectable";
 import openDeepLinkInjectable from "../../protocol-handler/lens-protocol-router-main/open-deep-link-for-url/open-deep-link.injectable";
 import showApplicationWindowInjectable from "../../start-main-application/lens-window/show-application-window.injectable";

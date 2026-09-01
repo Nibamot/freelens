@@ -6,18 +6,18 @@
 
 import "./menu.scss";
 
-import { Animate, requestAnimationFrameInjectable } from "@freelensapp/animate";
-import { Icon } from "@freelensapp/icon";
-import { cssNames, noop } from "@freelensapp/utilities";
+import { Animate, requestAnimationFrameInjectable } from "@nibamot/animate";
+import { Icon } from "@nibamot/icon";
+import { cssNames, noop } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import autoBindReact from "auto-bind/react";
 import { isEqual } from "es-toolkit";
 import React, { Fragment } from "react";
 import { createPortal } from "react-dom";
 
-import type { RequestAnimationFrame } from "@freelensapp/animate";
-import type { IconProps } from "@freelensapp/icon";
-import type { StrictReactNode } from "@freelensapp/utilities";
+import type { RequestAnimationFrame } from "@nibamot/animate";
+import type { IconProps } from "@nibamot/icon";
+import type { StrictReactNode } from "@nibamot/utilities";
 
 import type { ReactElement } from "react";
 

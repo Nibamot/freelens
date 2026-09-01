@@ -6,10 +6,10 @@
 
 import "./details.scss";
 
-import { Icon } from "@freelensapp/icon";
-import { CustomResourceDefinition } from "@freelensapp/kube-object";
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { Link } from "@freelensapp/routing";
+import { Icon } from "@nibamot/icon";
+import { CustomResourceDefinition } from "@nibamot/kube-object";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { Link } from "@nibamot/routing";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
 import React from "react";
@@ -21,7 +21,7 @@ import { MonacoEditor } from "../monaco-editor";
 import { Table, TableCell, TableHead, TableRow } from "../table";
 import { WithTooltip } from "../with-tooltip";
 
-import type { Logger } from "@freelensapp/logger";
+import type { Logger } from "@nibamot/logger";
 
 import type { KubeObjectDetailsProps } from "../kube-object-details";
 

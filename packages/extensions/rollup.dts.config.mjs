@@ -6,10 +6,10 @@
 // Bundles the declaration tree emitted by `tsc -p tsconfig.dts.generated.json`
 // (see `dist-types/`) into a single self-contained `dist/extension-api.d.ts`.
 //
-// The emitted declarations keep bare `@freelensapp/*` specifiers exactly as
+// The emitted declarations keep bare `@nibamot/*` specifiers exactly as
 // written in the sources. Those packages are private workspace packages in v2
 // and must be inlined into the bundle, so this config maps every workspace
-// package specifier (including subpath exports like `@freelensapp/core/main`)
+// package specifier (including subpath exports like `@nibamot/core/main`)
 // to its emitted `.d.ts` path. Anything else (react, mobx, electron, ...)
 // stays an external type import.
 
@@ -21,7 +21,7 @@ const packageRoot = import.meta.dirname;
 const repoRoot = path.resolve(packageRoot, "../..");
 const outRoot = path.join(packageRoot, "dist-types");
 
-/** Maps a bare specifier ("@freelensapp/core/main") to an emitted .d.ts path. */
+/** Maps a bare specifier ("@nibamot/core/main") to an emitted .d.ts path. */
 const workspaceAliases = new Map();
 
 for (const [specifier, sourcePath] of enumerateWorkspaceEntries(repoRoot)) {
@@ -48,7 +48,7 @@ const workspaceDtsAlias = {
       return emptyModuleId;
     }
 
-    if (source.startsWith("@freelensapp/")) {
+    if (source.startsWith("@nibamot/")) {
       this.warn(`no emitted declaration mapped for workspace specifier "${source}"; leaving it external`);
     }
 

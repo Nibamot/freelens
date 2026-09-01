@@ -1,5 +1,5 @@
 {
-  "name": "@freelensapp/button",
+  "name": "@nibamot/button",
   "version": "2.0.0-5",
   "private": true,
   "description": "Highly extendable button in the Freelens.",
@@ -25,12 +25,12 @@
   "types": "./src/index.ts",
   "scripts": {},
   "dependencies": {
-    "@freelensapp/tooltip": "workspace:^",
-    "@freelensapp/utilities": "workspace:^",
+    "@nibamot/tooltip": "workspace:^",
+    "@nibamot/utilities": "workspace:^",
     "react": "catalog:"
   },
   "devDependencies": {
-    "@freelensapp/typescript": "workspace:^",
+    "@nibamot/typescript": "workspace:^",
     "@types/react": "catalog:",
     "typescript": "catalog:",
     "vitest": "catalog:"

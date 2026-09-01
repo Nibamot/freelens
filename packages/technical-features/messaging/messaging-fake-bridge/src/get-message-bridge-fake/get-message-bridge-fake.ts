@@ -4,7 +4,7 @@ import {
   enlistRequestChannelListenerInjectionToken,
   requestFromChannelInjectionToken,
   sendMessageToChannelInjectionToken,
-} from "@freelensapp/messaging";
+} from "@nibamot/messaging";
 import { pipeline } from "@ogre-tools/fp";
 
 import type {
@@ -14,7 +14,7 @@ import type {
   RequestChannel,
   RequestChannelHandler,
   RequestFromChannel,
-} from "@freelensapp/messaging";
+} from "@nibamot/messaging";
 
 import type { DiContainer } from "@ogre-tools/injectable";
 import type { act } from "@testing-library/react";

@@ -6,7 +6,7 @@
 
 import "./stepper.scss";
 
-import { cssNames } from "@freelensapp/utilities";
+import { cssNames } from "@nibamot/utilities";
 import React from "react";
 
 export interface StepperProps extends React.HTMLProps<any> {

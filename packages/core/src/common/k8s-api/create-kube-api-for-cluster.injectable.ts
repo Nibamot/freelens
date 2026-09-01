@@ -4,21 +4,21 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { KubeApi } from "@freelensapp/kube-api";
+import { KubeApi } from "@nibamot/kube-api";
 import {
   logDebugInjectionToken,
   logErrorInjectionToken,
   logInfoInjectionToken,
   logWarningInjectionToken,
-} from "@freelensapp/logger";
+} from "@nibamot/logger";
 import { getInjectable } from "@ogre-tools/injectable";
 import { apiKubePrefix } from "../vars";
 import isDevelopmentInjectable from "../vars/is-development.injectable";
 import { clusterApiAddressInjectionToken } from "./cluster-api-address-injection-token";
 import createKubeJsonApiInjectable from "./create-kube-json-api.injectable";
 
-import type { KubeApiOptions } from "@freelensapp/kube-api";
-import type { KubeJsonApiDataFor, KubeObject, KubeObjectConstructor } from "@freelensapp/kube-object";
+import type { KubeApiOptions } from "@nibamot/kube-api";
+import type { KubeJsonApiDataFor, KubeObject, KubeObjectConstructor } from "@nibamot/kube-object";
 
 export type KubeApiConstructor<Object extends KubeObject, Api extends KubeApi<Object>> = new (
   apiOpts: KubeApiOptions<Object>,

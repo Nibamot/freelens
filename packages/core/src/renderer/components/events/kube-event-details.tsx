@@ -9,9 +9,9 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { type KubeEvent, KubeObject } from "@freelensapp/kube-object";
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { cssNames } from "@freelensapp/utilities";
+import { type KubeEvent, KubeObject } from "@nibamot/kube-object";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { cssNames } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
 import React from "react";
@@ -21,7 +21,7 @@ import { DurationAbsoluteTimestamp } from "./duration-absolute";
 import styles from "./kube-event-details.module.scss";
 import eventStoreInjectable from "./store.injectable";
 
-import type { Logger } from "@freelensapp/logger";
+import type { Logger } from "@nibamot/logger";
 
 import type { SubscribeStores } from "../../kube-watch-api/kube-watch-api";
 import type { EventStore } from "./store";

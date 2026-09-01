@@ -4,10 +4,10 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Button } from "@freelensapp/button";
-import { Icon } from "@freelensapp/icon";
-import { Spinner } from "@freelensapp/spinner";
-import { cssNames, hasTypedProperty, isObject, isString } from "@freelensapp/utilities";
+import { Button } from "@nibamot/button";
+import { Icon } from "@nibamot/icon";
+import { Spinner } from "@nibamot/spinner";
+import { cssNames, hasTypedProperty, isObject, isString } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { computed, makeObservable, observable } from "mobx";
 import { observer } from "mobx-react";
@@ -18,7 +18,7 @@ import requestClusterActivationInjectable from "../../../features/cluster/activa
 import catalogEntityRegistryInjectable from "../../api/catalog/entity/registry.injectable";
 import styles from "./cluster-status.module.scss";
 
-import type { IClassName } from "@freelensapp/utilities";
+import type { IClassName } from "@nibamot/utilities";
 
 import type { Cluster } from "../../../common/cluster/cluster";
 import type { KubeAuthUpdate } from "../../../common/cluster-types";

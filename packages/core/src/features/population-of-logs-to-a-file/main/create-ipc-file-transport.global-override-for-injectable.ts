@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { getGlobalOverride } from "@freelensapp/test-utils";
-import { noop } from "@freelensapp/utilities";
+import { getGlobalOverride } from "@nibamot/test-utils";
+import { noop } from "@nibamot/utilities";
 import createIpcFileLoggerTransportInjectable from "./create-ipc-file-transport.injectable";
 
 import type { transports } from "winston";

@@ -1,5 +1,5 @@
 {
-  "name": "@freelensapp/typescript",
+  "name": "@nibamot/typescript",
   "version": "2.0.0-5",
   "private": true,
   "description": "Typescript configuration for Freelens packages.",

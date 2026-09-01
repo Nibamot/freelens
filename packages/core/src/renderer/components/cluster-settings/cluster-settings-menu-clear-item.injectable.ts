@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { clusterIconSettingsMenuInjectionToken } from "@freelensapp/cluster-settings";
+import { clusterIconSettingsMenuInjectionToken } from "@nibamot/cluster-settings";
 import { getInjectable } from "@ogre-tools/injectable";
 
 const clusterIconSettingsMenuClearItem = getInjectable({

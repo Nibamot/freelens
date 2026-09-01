@@ -4,12 +4,12 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { HashSet } from "@freelensapp/utilities";
+import { HashSet } from "@nibamot/utilities";
 import { KubeObjectStore } from "../../../../common/k8s-api/kube-object.store";
 import { hashSubject } from "../hashers";
 
-import type { ClusterRoleBindingApi } from "@freelensapp/kube-api";
-import type { ClusterRoleBinding, ClusterRoleBindingData, Subject } from "@freelensapp/kube-object";
+import type { ClusterRoleBindingApi } from "@nibamot/kube-api";
+import type { ClusterRoleBinding, ClusterRoleBindingData, Subject } from "@nibamot/kube-object";
 
 export class ClusterRoleBindingStore extends KubeObjectStore<
   ClusterRoleBinding,

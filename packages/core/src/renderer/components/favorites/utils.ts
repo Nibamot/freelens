@@ -1,4 +1,4 @@
-import { SidebarItemDeclaration } from "@freelensapp/cluster-sidebar";
+import { SidebarItemDeclaration } from "@nibamot/cluster-sidebar";
 
 export const flattenSidebarItems = (items: SidebarItemDeclaration[]): SidebarItemDeclaration[] => {
   return items.reduce((acc, item) => {

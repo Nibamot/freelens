@@ -1,5 +1,5 @@
 {
-  "name": "@freelensapp/cluster-sidebar",
+  "name": "@nibamot/cluster-sidebar",
   "version": "2.0.0-5",
   "private": true,
   "description": "Injection tokens for adding new sidebar items within the Cluster View",
@@ -21,17 +21,17 @@
   "types": "./index.ts",
   "scripts": {
     "clean:dist": "pnpm dlx rimraf@6.1.3 dist",
-    "test:unit": "vitest run -c ../../vitest.config.ts --project @freelensapp/cluster-sidebar"
+    "test:unit": "vitest run -c ../../vitest.config.ts --project @nibamot/cluster-sidebar"
   },
   "dependencies": {
-    "@freelensapp/feature-core": "workspace:^",
-    "@freelensapp/utilities": "workspace:^",
+    "@nibamot/feature-core": "workspace:^",
+    "@nibamot/utilities": "workspace:^",
     "@ogre-tools/injectable": "catalog:",
     "@ogre-tools/injectable-extension-for-mobx": "catalog:",
     "mobx": "catalog:"
   },
   "devDependencies": {
-    "@freelensapp/typescript": "workspace:^",
+    "@nibamot/typescript": "workspace:^",
     "es-toolkit": "catalog:",
     "jsdom": "catalog:",
     "vitest": "catalog:"

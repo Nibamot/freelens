@@ -4,9 +4,9 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Icon } from "@freelensapp/icon";
-import { showErrorNotificationInjectable } from "@freelensapp/notifications";
-import { Spinner } from "@freelensapp/spinner";
+import { Icon } from "@nibamot/icon";
+import { showErrorNotificationInjectable } from "@nibamot/notifications";
+import { Spinner } from "@nibamot/spinner";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { action, runInAction } from "mobx";
 import { observer } from "mobx-react";
@@ -19,7 +19,7 @@ import { Input } from "../input";
 import { SubTitle } from "../layout/sub-title";
 import localTerminalSettingPresenterInjectable from "./local-terminal-setting-presenter.injectable";
 
-import type { ShowNotification } from "@freelensapp/notifications";
+import type { ShowNotification } from "@nibamot/notifications";
 
 import type { Cluster } from "../../../common/cluster/cluster";
 import type { ValidateDirectory } from "../../../common/fs/validate-directory.injectable";

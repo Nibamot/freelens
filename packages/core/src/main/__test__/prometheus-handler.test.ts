@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { prometheusProviderInjectionToken } from "@freelensapp/prometheus";
+import { prometheusProviderInjectionToken } from "@nibamot/prometheus";
 import { getInjectable } from "@ogre-tools/injectable";
 import { runInAction } from "mobx";
 import directoryForTempInjectable from "../../common/app-paths/directory-for-temp/directory-for-temp.injectable";
@@ -15,7 +15,7 @@ import { getDiForUnitTesting } from "../getDiForUnitTesting";
 import createKubeAuthProxyInjectable from "../kube-auth-proxy/create-kube-auth-proxy.injectable";
 import lensProxyPortInjectable from "../lens-proxy/lens-proxy-port.injectable";
 
-import type { PrometheusProvider } from "@freelensapp/prometheus";
+import type { PrometheusProvider } from "@nibamot/prometheus";
 
 import type { DiContainer } from "@ogre-tools/injectable";
 

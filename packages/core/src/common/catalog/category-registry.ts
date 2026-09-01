@@ -4,11 +4,11 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { getOrInsertMap, iter, strictSet } from "@freelensapp/utilities";
+import { getOrInsertMap, iter, strictSet } from "@nibamot/utilities";
 import { once } from "es-toolkit";
 import { action, computed, makeObservable, observable } from "mobx";
 
-import type { Disposer } from "@freelensapp/utilities";
+import type { Disposer } from "@nibamot/utilities";
 
 import type { CatalogCategory, CatalogEntityData, CatalogEntityKindData } from "./catalog-entity";
 

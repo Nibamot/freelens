@@ -4,9 +4,9 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { maybeKubeApiInjectable } from "@freelensapp/kube-api-specifics";
-import { PodDisruptionBudget } from "@freelensapp/kube-object";
-import { loggerInjectionToken } from "@freelensapp/logger";
+import { maybeKubeApiInjectable } from "@nibamot/kube-api-specifics";
+import { PodDisruptionBudget } from "@nibamot/kube-object";
+import { loggerInjectionToken } from "@nibamot/logger";
 import { Cluster } from "../../../../common/cluster/cluster";
 import selectedNamespacesStorageInjectable from "../../../../features/namespace-filtering/renderer/storage.injectable";
 import userPreferencesStateInjectable from "../../../../features/user-preferences/common/state.injectable";

@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { isRequestError } from "@freelensapp/utilities";
+import { isRequestError } from "@nibamot/utilities";
 import { getInjectionToken } from "@ogre-tools/injectable";
 
 import type { CoreV1Api } from "@kubernetes/client-node";

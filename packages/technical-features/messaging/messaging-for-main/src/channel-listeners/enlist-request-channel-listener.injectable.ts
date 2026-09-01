@@ -1,8 +1,8 @@
-import { enlistRequestChannelListenerInjectionToken } from "@freelensapp/messaging";
+import { enlistRequestChannelListenerInjectionToken } from "@nibamot/messaging";
 import { getInjectable } from "@ogre-tools/injectable";
 import ipcMainInjectable from "../ipc-main/ipc-main.injectable";
 
-import type { RequestChannel, RequestChannelListener } from "@freelensapp/messaging";
+import type { RequestChannel, RequestChannelListener } from "@nibamot/messaging";
 
 import type { IpcMainInvokeEvent } from "electron";
 

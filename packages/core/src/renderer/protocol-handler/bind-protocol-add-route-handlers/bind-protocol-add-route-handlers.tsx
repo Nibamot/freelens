@@ -7,7 +7,7 @@
 import assert from "node:assert";
 import { EXTENSION_NAME_MATCH, EXTENSION_PUBLISHER_MATCH, LensProtocolRouter } from "../../../common/protocol-handler";
 
-import type { ShowNotification } from "@freelensapp/notifications";
+import type { ShowNotification } from "@nibamot/notifications";
 
 import type { NavigateToCatalog } from "../../../common/front-end-routing/routes/catalog/navigate-to-catalog.injectable";
 import type { NavigateToClusterView } from "../../../common/front-end-routing/routes/cluster-view/navigate-to-cluster-view.injectable";

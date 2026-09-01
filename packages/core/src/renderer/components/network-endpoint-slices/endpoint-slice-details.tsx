@@ -5,9 +5,9 @@
 
 import "./endpoint-slice-details.scss";
 
-import { EndpointSlice } from "@freelensapp/kube-object";
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { Link } from "@freelensapp/routing";
+import { EndpointSlice } from "@nibamot/kube-object";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { Link } from "@nibamot/routing";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
 import React from "react";
@@ -19,7 +19,7 @@ import getDetailsUrlInjectable from "../kube-detail-params/get-details-url.injec
 import { Table, TableCell, TableHead, TableRow } from "../table";
 import { WithTooltip } from "../with-tooltip";
 
-import type { Logger } from "@freelensapp/logger";
+import type { Logger } from "@nibamot/logger";
 
 import type { GetDetailsUrl } from "../kube-detail-params/get-details-url.injectable";
 import type { KubeObjectDetailsProps } from "../kube-object-details";

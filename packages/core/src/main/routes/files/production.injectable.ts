@@ -5,7 +5,7 @@
  */
 
 import path from "node:path";
-import { prefixedLoggerInjectable } from "@freelensapp/logger";
+import { prefixedLoggerInjectable } from "@nibamot/logger";
 import { getInjectable } from "@ogre-tools/injectable";
 import readFileBufferInjectable from "../../../common/fs/read-file-buffer.injectable";
 import joinPathsInjectable from "../../../common/path/join-paths.injectable";

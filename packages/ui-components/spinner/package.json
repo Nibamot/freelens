@@ -1,5 +1,5 @@
 {
-  "name": "@freelensapp/spinner",
+  "name": "@nibamot/spinner",
   "version": "2.0.0-5",
   "private": true,
   "description": "Highly extendable spinner in the Freelens.",
@@ -25,11 +25,11 @@
   "types": "./index.ts",
   "scripts": {},
   "dependencies": {
-    "@freelensapp/utilities": "workspace:^",
+    "@nibamot/utilities": "workspace:^",
     "react": "catalog:"
   },
   "devDependencies": {
-    "@freelensapp/typescript": "workspace:^",
+    "@nibamot/typescript": "workspace:^",
     "@types/react": "catalog:",
     "typescript": "catalog:",
     "vitest": "catalog:"

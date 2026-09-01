@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { podListLayoutColumnInjectionToken } from "@freelensapp/list-layout";
-import { object } from "@freelensapp/utilities";
+import { podListLayoutColumnInjectionToken } from "@nibamot/list-layout";
+import { object } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import { startCase } from "es-toolkit";
 import React from "react";
@@ -21,7 +21,7 @@ import type {
   EphemeralContainerWithType,
   Pod,
   PodContainerStatus,
-} from "@freelensapp/kube-object";
+} from "@nibamot/kube-object";
 
 const renderState = (container: ContainerWithType | EphemeralContainerWithType, status?: PodContainerStatus) => {
   const state = status ? Object.keys(status?.state ?? {})[0] : "";

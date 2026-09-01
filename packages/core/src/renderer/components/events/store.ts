@@ -4,14 +4,14 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Pod } from "@freelensapp/kube-object";
+import { Pod } from "@nibamot/kube-object";
 import autoBind from "auto-bind";
 import { compact, groupBy } from "es-toolkit";
 import { computed, makeObservable } from "mobx";
 import { KubeObjectStore } from "../../../common/k8s-api/kube-object.store";
 
-import type { KubeEventApi } from "@freelensapp/kube-api";
-import type { KubeEvent, KubeObject } from "@freelensapp/kube-object";
+import type { KubeEventApi } from "@nibamot/kube-api";
+import type { KubeEvent, KubeObject } from "@nibamot/kube-object";
 
 import type { KubeObjectStoreDependencies, KubeObjectStoreOptions } from "../../../common/k8s-api/kube-object.store";
 import type { GetPodById } from "../workloads-pods/get-pod-by-id.injectable";

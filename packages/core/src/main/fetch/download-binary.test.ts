@@ -7,7 +7,7 @@ import { getDiForUnitTesting } from "../getDiForUnitTesting";
 import downloadBinaryInjectable from "./download-binary.injectable";
 import proxyFetchInjectable from "./proxy-fetch.injectable";
 
-import type { FetchResponse } from "@freelensapp/json-api";
+import type { FetchResponse } from "@nibamot/json-api";
 
 import type { DiContainer } from "@ogre-tools/injectable";
 

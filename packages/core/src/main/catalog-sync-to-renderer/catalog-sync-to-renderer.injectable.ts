@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { getStartableStoppable } from "@freelensapp/startable-stoppable";
-import { disposer } from "@freelensapp/utilities";
+import { getStartableStoppable } from "@nibamot/startable-stoppable";
+import { disposer } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import { reaction } from "mobx";
 import { catalogInitChannel } from "../../common/ipc/catalog";

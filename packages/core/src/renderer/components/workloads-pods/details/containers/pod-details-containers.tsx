@@ -8,7 +8,7 @@ import { observer } from "mobx-react";
 import { DrawerTitle } from "../../../drawer";
 import { PodDetailsContainer } from "../../pod-details-container";
 
-import type { Pod } from "@freelensapp/kube-object";
+import type { Pod } from "@nibamot/kube-object";
 
 interface PodDetailsContainersProps {
   pod: Pod;

@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { computedOr } from "@freelensapp/utilities";
+import { computedOr } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import { shouldShowResourceInjectionToken } from "../../../../../../features/cluster/showing-kube-resources/common/allowed-resources-injection-token";
 import { frontEndRouteInjectionToken } from "../../../../front-end-route-injection-token";

@@ -5,7 +5,7 @@
  */
 
 import asyncFn from "@async-fn/vitest";
-import { getPromiseStatus } from "@freelensapp/test-utils";
+import { getPromiseStatus } from "@nibamot/test-utils";
 import { resolveSystemProxyInjectionToken } from "../../common/utils/resolve-system-proxy/resolve-system-proxy-injection-token";
 import resolveSystemProxyFromElectronInjectable from "../../main/utils/resolve-system-proxy/resolve-system-proxy-from-electron.injectable";
 import { getApplicationBuilder } from "../../renderer/components/test-utils/get-application-builder";

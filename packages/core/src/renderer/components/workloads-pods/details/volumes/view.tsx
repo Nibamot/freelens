@@ -4,12 +4,12 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Icon } from "@freelensapp/icon";
+import { Icon } from "@nibamot/icon";
 import { observer } from "mobx-react";
 import { DrawerTitle } from "../../../drawer";
 import { VolumeVariant } from "./variant";
 
-import type { Pod } from "@freelensapp/kube-object";
+import type { Pod } from "@nibamot/kube-object";
 
 export interface PodVolumesProps {
   pod: Pod;

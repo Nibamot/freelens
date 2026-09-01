@@ -1,4 +1,4 @@
-import { afterApplicationIsLoadedInjectionToken } from "@freelensapp/application";
+import { afterApplicationIsLoadedInjectionToken } from "@nibamot/application";
 import { getInjectable } from "@ogre-tools/injectable";
 import { ReactApplication } from "../react-application/react-application";
 import renderInjectable from "./render.injectable";

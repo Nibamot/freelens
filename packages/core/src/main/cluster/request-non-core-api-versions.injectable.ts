@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { iter } from "@freelensapp/utilities";
+import { iter } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import k8sRequestInjectable from "../k8s-request.injectable";
 import { apiVersionsRequesterInjectionToken } from "./api-versions-requester";

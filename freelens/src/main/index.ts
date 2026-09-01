@@ -1,12 +1,12 @@
-import { applicationFeature, startApplicationInjectionToken } from "@freelensapp/application";
-import { applicationFeatureForElectronMain } from "@freelensapp/application-for-electron-main";
-import { commonExtensionApi as Common, mainExtensionApi as Main, registerLensCore } from "@freelensapp/core/main";
-import { registerFeature } from "@freelensapp/feature-core";
-import { kubeApiSpecificsFeature } from "@freelensapp/kube-api-specifics";
-import { loggerFeature } from "@freelensapp/logger";
-import { messagingFeatureForMain } from "@freelensapp/messaging-for-main";
-import { prometheusFeature } from "@freelensapp/prometheus";
-import { randomFeature } from "@freelensapp/random";
+import { applicationFeature, startApplicationInjectionToken } from "@nibamot/application";
+import { applicationFeatureForElectronMain } from "@nibamot/application-for-electron-main";
+import { commonExtensionApi as Common, mainExtensionApi as Main, registerLensCore } from "@nibamot/core/main";
+import { registerFeature } from "@nibamot/feature-core";
+import { kubeApiSpecificsFeature } from "@nibamot/kube-api-specifics";
+import { loggerFeature } from "@nibamot/logger";
+import { messagingFeatureForMain } from "@nibamot/messaging-for-main";
+import { prometheusFeature } from "@nibamot/prometheus";
+import { randomFeature } from "@nibamot/random";
 import { createContainer } from "@ogre-tools/injectable";
 import { registerMobX } from "@ogre-tools/injectable-extension-for-mobx";
 import { runInAction } from "mobx";
@@ -51,10 +51,10 @@ startApplication().catch((error) => {
 export {
   Mobx,
   Pty,
-} from "@freelensapp/core/main";
+} from "@nibamot/core/main";
 
 // Phase 4 (D5): expose the extension API through a runtime global so the
-// published `@freelensapp/extensions` shim can re-export it in each process.
+// published `@nibamot/extensions` shim can re-export it in each process.
 // Main gets `{ Common, Main }`; the renderer gets `{ Common, Renderer }`.
 // The global's ambient type lives in `../freelens-extension-api.ts`.
 globalThis.FreelensExtensionApi = { Common, Main };

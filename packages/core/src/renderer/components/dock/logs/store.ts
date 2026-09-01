@@ -4,11 +4,11 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { getOrInsertWith, interval, waitUntilDefined } from "@freelensapp/utilities";
+import { getOrInsertWith, interval, waitUntilDefined } from "@nibamot/utilities";
 import { observable } from "mobx";
 
-import type { Pod, PodLogsQuery } from "@freelensapp/kube-object";
-import type { IntervalFn } from "@freelensapp/utilities";
+import type { Pod, PodLogsQuery } from "@nibamot/kube-object";
+import type { IntervalFn } from "@nibamot/utilities";
 
 import type { IComputedValue } from "mobx";
 

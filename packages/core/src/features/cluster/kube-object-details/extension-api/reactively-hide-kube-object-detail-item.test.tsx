@@ -5,14 +5,14 @@
  */
 
 import assert from "node:assert";
-import { KubeObject } from "@freelensapp/kube-object";
+import { KubeObject } from "@nibamot/kube-object";
 import { act } from "@testing-library/react";
 import { computed, observable, runInAction } from "mobx";
 import apiManagerInjectable from "../../../../common/k8s-api/api-manager/manager.injectable";
 import showDetailsInjectable from "../../../../renderer/components/kube-detail-params/show-details.injectable";
 import { getApplicationBuilder } from "../../../../renderer/components/test-utils/get-application-builder";
 
-import type { KubeApi } from "@freelensapp/kube-api";
+import type { KubeApi } from "@nibamot/kube-api";
 
 import type { RenderResult } from "@testing-library/react";
 import type { IObservableValue } from "mobx";

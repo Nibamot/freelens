@@ -4,11 +4,11 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { requestFromChannelInjectionToken } from "@freelensapp/messaging";
+import { requestFromChannelInjectionToken } from "@nibamot/messaging";
 import { getInjectable } from "@ogre-tools/injectable";
 import { initialSystemThemeTypeChannel } from "../common/channels";
 
-import type { RequestChannelHandler } from "@freelensapp/messaging";
+import type { RequestChannelHandler } from "@nibamot/messaging";
 
 export type RequestInitialSystemThemeType = RequestChannelHandler<typeof initialSystemThemeTypeChannel>;
 

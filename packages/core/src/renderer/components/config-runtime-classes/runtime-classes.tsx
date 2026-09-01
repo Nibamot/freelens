@@ -16,7 +16,7 @@ import { SiblingsInTabLayout } from "../layout/siblings-in-tab-layout";
 import { WithTooltip } from "../with-tooltip";
 import runtimeClassStoreInjectable from "./store.injectable";
 
-import type { RuntimeClass } from "@freelensapp/kube-object";
+import type { RuntimeClass } from "@nibamot/kube-object";
 
 import type { KubeObjectDetailsProps } from "../kube-object-details";
 import type { RuntimeClassStore } from "./store";

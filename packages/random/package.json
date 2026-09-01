@@ -1,5 +1,5 @@
 {
-  "name": "@freelensapp/random",
+  "name": "@nibamot/random",
   "version": "2.0.0-5",
   "private": true,
   "description": "Highly extendable random in the Freelens.",
@@ -24,12 +24,12 @@
   "types": "./index.ts",
   "scripts": {},
   "dependencies": {
-    "@freelensapp/feature-core": "workspace:^",
+    "@nibamot/feature-core": "workspace:^",
     "@ogre-tools/injectable": "catalog:",
     "uuid": "catalog:"
   },
   "devDependencies": {
-    "@freelensapp/typescript": "workspace:^"
+    "@nibamot/typescript": "workspace:^"
   },
   "publishConfig": {
     "access": "public",

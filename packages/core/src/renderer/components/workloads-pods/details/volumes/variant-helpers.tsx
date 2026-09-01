@@ -4,14 +4,14 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Link } from "@freelensapp/routing";
+import { Link } from "@nibamot/routing";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import React from "react";
 import { DrawerItem } from "../../../drawer";
 import getDetailsUrlInjectable from "../../../kube-detail-params/get-details-url.injectable";
 
-import type { KubeApiQueryParams, ResourceDescriptor } from "@freelensapp/kube-api";
-import type { LocalObjectReference, Pod, PodVolumeVariants, SecretReference } from "@freelensapp/kube-object";
+import type { KubeApiQueryParams, ResourceDescriptor } from "@nibamot/kube-api";
+import type { LocalObjectReference, Pod, PodVolumeVariants, SecretReference } from "@nibamot/kube-object";
 
 import type { GetDetailsUrl } from "../../../kube-detail-params/get-details-url.injectable";
 

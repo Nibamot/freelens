@@ -1,5 +1,5 @@
 {
-  "name": "@freelensapp/list-layout",
+  "name": "@nibamot/list-layout",
   "version": "2.0.0-5",
   "private": true,
   "description": "Injection tokens for list layout",
@@ -26,9 +26,9 @@
     "@ogre-tools/injectable": "catalog:"
   },
   "devDependencies": {
-    "@freelensapp/kube-object": "workspace:^",
-    "@freelensapp/typescript": "workspace:^",
-    "@freelensapp/utilities": "workspace:^"
+    "@nibamot/kube-object": "workspace:^",
+    "@nibamot/typescript": "workspace:^",
+    "@nibamot/utilities": "workspace:^"
   },
   "publishConfig": {
     "access": "public",

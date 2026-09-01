@@ -1,5 +1,5 @@
 {
-  "name": "@freelensapp/prometheus",
+  "name": "@nibamot/prometheus",
   "version": "2.0.0-5",
   "private": true,
   "description": "Prometheus support for Freelens",
@@ -23,13 +23,13 @@
     "clean:dist": "pnpm dlx rimraf@6.1.3 dist"
   },
   "dependencies": {
-    "@freelensapp/application": "workspace:^",
-    "@freelensapp/feature-core": "workspace:^",
-    "@freelensapp/utilities": "workspace:^",
+    "@nibamot/application": "workspace:^",
+    "@nibamot/feature-core": "workspace:^",
+    "@nibamot/utilities": "workspace:^",
     "@ogre-tools/injectable": "catalog:"
   },
   "devDependencies": {
-    "@freelensapp/typescript": "workspace:^",
+    "@nibamot/typescript": "workspace:^",
     "@kubernetes/client-node": "catalog:",
     "@ogre-tools/fp": "catalog:",
     "typescript": "catalog:"

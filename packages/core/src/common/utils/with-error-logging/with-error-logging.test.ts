@@ -5,7 +5,7 @@
  */
 
 import asyncFn from "@async-fn/vitest";
-import { getPromiseStatus } from "@freelensapp/test-utils";
+import { getPromiseStatus } from "@nibamot/test-utils";
 import { getDiForUnitTesting } from "../../../main/getDiForUnitTesting";
 import logErrorInjectable from "../../log-error.injectable";
 import withErrorLoggingInjectable from "./with-error-logging.injectable";

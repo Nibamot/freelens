@@ -4,10 +4,10 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { JsonApiErrorParsed } from "@freelensapp/json-api";
-import { Namespace } from "@freelensapp/kube-object";
-import { showErrorNotificationInjectable, showSuccessNotificationInjectable } from "@freelensapp/notifications";
-import { asyncFn } from "@freelensapp/test-utils";
+import { JsonApiErrorParsed } from "@nibamot/json-api";
+import { Namespace } from "@nibamot/kube-object";
+import { showErrorNotificationInjectable, showSuccessNotificationInjectable } from "@nibamot/notifications";
+import { asyncFn } from "@nibamot/test-utils";
 import { act, fireEvent } from "@testing-library/react";
 import directoryForLensLocalStorageInjectable from "../../../common/directory-for-lens-local-storage/directory-for-lens-local-storage.injectable";
 import navigateToNamespacesInjectable from "../../../common/front-end-routing/routes/cluster/namespaces/navigate-to-namespaces.injectable";
@@ -20,9 +20,9 @@ import { getApplicationBuilder } from "../../../renderer/components/test-utils/g
 import apiKubeGetInjectable from "../../../renderer/k8s/api-kube-get.injectable";
 import apiKubePatchInjectable from "../../../renderer/k8s/api-kube-patch.injectable";
 
-import type { BaseKubeJsonApiObjectMetadata, KubeJsonApiData, KubeObjectScope } from "@freelensapp/kube-object";
-import type { ShowNotification } from "@freelensapp/notifications";
-import type { AsyncFnMock } from "@freelensapp/test-utils";
+import type { BaseKubeJsonApiObjectMetadata, KubeJsonApiData, KubeObjectScope } from "@nibamot/kube-object";
+import type { ShowNotification } from "@nibamot/notifications";
+import type { AsyncFnMock } from "@nibamot/test-utils";
 
 import type { DiContainer } from "@ogre-tools/injectable";
 import type { RenderResult } from "@testing-library/react";

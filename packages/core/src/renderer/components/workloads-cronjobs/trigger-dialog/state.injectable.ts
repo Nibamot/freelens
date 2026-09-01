@@ -7,7 +7,7 @@
 import { getInjectable } from "@ogre-tools/injectable";
 import { observable } from "mobx";
 
-import type { CronJob } from "@freelensapp/kube-object";
+import type { CronJob } from "@nibamot/kube-object";
 
 const cronJobTriggerDialogStateInjectable = getInjectable({
   id: "cron-job-trigger-dialog-state",

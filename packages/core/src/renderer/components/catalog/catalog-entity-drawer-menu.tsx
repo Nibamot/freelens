@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Icon } from "@freelensapp/icon";
-import { cssNames, hasDefiniteField } from "@freelensapp/utilities";
+import { Icon } from "@nibamot/icon";
+import { cssNames, hasDefiniteField } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observable } from "mobx";
 import { observer } from "mobx-react";
@@ -17,7 +17,7 @@ import { MenuItem } from "../menu";
 import { MenuActions } from "../menu/menu-actions";
 import { HotbarToggleMenuItem } from "./hotbar-toggle-menu-item";
 
-import type { StrictReactNode } from "@freelensapp/utilities";
+import type { StrictReactNode } from "@nibamot/utilities";
 
 import type { VisitEntityContextMenu } from "../../../common/catalog/visit-entity-context-menu.injectable";
 import type { CatalogEntity, CatalogEntityContextMenu } from "../../api/catalog-entity";

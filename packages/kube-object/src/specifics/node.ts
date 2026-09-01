@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { cpuUnitsToNumber, isObject, namedCaptures, unitsToBytes } from "@freelensapp/utilities";
+import { cpuUnitsToNumber, isObject, namedCaptures, unitsToBytes } from "@nibamot/utilities";
 import { KubeObject } from "../kube-object";
 
 import type { BaseKubeObjectCondition, ClusterScopedMetadata } from "../api-types";

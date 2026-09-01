@@ -4,12 +4,12 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { MutatingWebhookConfiguration } from "@freelensapp/kube-object";
+import { MutatingWebhookConfiguration } from "@nibamot/kube-object";
 import { getDiForUnitTesting } from "../../getDiForUnitTesting";
 import { renderFor } from "../test-utils/renderFor";
 import { MutatingWebhookDetails } from "./mutating-webhook-configurations-details";
 
-import type { MutatingWebhookConfigurationData } from "@freelensapp/kube-object";
+import type { MutatingWebhookConfigurationData } from "@nibamot/kube-object";
 
 import type { RenderResult } from "@testing-library/react";
 

@@ -447,7 +447,7 @@ ${registrations.map((r) => `  try { di.register(${r}); } catch (e) { /* Ignore d
  * Check if a package is the core package (needs special per-directory handling)
  */
 function isCorePackage(packageName) {
-  return packageName === "@freelensapp/core";
+  return packageName === "@nibamot/core";
 }
 
 /**

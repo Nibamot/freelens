@@ -6,9 +6,9 @@
 
 import "./details.scss";
 
-import { HorizontalPodAutoscaler } from "@freelensapp/kube-object";
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { Link } from "@freelensapp/routing";
+import { HorizontalPodAutoscaler } from "@nibamot/kube-object";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { Link } from "@nibamot/routing";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
 import React from "react";
@@ -20,8 +20,8 @@ import { Table, TableCell, TableHead, TableRow } from "../table";
 import { getMetricName } from "./get-metric-name";
 import getHorizontalPodAutoscalerMetrics from "./get-metrics.injectable";
 
-import type { HorizontalPodAutoscalerMetricSpec, HorizontalPodAutoscalerMetricTarget } from "@freelensapp/kube-object";
-import type { Logger } from "@freelensapp/logger";
+import type { HorizontalPodAutoscalerMetricSpec, HorizontalPodAutoscalerMetricTarget } from "@nibamot/kube-object";
+import type { Logger } from "@nibamot/logger";
 
 import type { ApiManager } from "../../../common/k8s-api/api-manager";
 import type { GetDetailsUrl } from "../kube-detail-params/get-details-url.injectable";

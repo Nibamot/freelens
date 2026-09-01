@@ -8,7 +8,7 @@ import { spawn } from "node:child_process";
 import * as tcpPortUsed from "tcp-port-used";
 import type { ChildProcessWithoutNullStreams } from "node:child_process";
 
-import type { Logger } from "@freelensapp/logger";
+import type { Logger } from "@nibamot/logger";
 
 import type { GetPortFromStream } from "../../../utils/get-port-from-stream.injectable";
 

@@ -1,5 +1,5 @@
-import { registerFeature } from "@freelensapp/feature-core";
-import { getFeature } from "@freelensapp/feature-core/src/feature";
+import { registerFeature } from "@nibamot/feature-core";
+import { getFeature } from "@nibamot/feature-core/src/feature";
 import { createContainer, getInjectable } from "@ogre-tools/injectable";
 import TransportStream from "winston-transport";
 import { loggerFeature } from "./feature";

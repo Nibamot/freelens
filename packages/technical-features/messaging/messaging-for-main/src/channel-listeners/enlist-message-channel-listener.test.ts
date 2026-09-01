@@ -1,5 +1,5 @@
-import { registerFeature } from "@freelensapp/feature-core";
-import { type EnlistMessageChannelListener, enlistMessageChannelListenerInjectionToken } from "@freelensapp/messaging";
+import { registerFeature } from "@nibamot/feature-core";
+import { type EnlistMessageChannelListener, enlistMessageChannelListenerInjectionToken } from "@nibamot/messaging";
 import { createContainer } from "@ogre-tools/injectable";
 import { messagingFeatureForMain } from "../feature";
 import ipcMainInjectable from "../ipc-main/ipc-main.injectable";

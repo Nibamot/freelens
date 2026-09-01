@@ -1,5 +1,5 @@
 {
-  "name": "@freelensapp/logger",
+  "name": "@nibamot/logger",
   "version": "2.0.0-5",
   "private": true,
   "description": "Highly extendable logger in the Freelens.",
@@ -20,16 +20,16 @@
   "main": "./index.ts",
   "types": "./index.ts",
   "scripts": {
-    "test:unit": "vitest run -c ../../vitest.config.ts --project @freelensapp/logger"
+    "test:unit": "vitest run -c ../../vitest.config.ts --project @nibamot/logger"
   },
   "dependencies": {
-    "@freelensapp/feature-core": "workspace:^",
+    "@nibamot/feature-core": "workspace:^",
     "@ogre-tools/injectable": "catalog:",
     "es-toolkit": "catalog:",
     "winston": "catalog:"
   },
   "devDependencies": {
-    "@freelensapp/typescript": "workspace:^",
+    "@nibamot/typescript": "workspace:^",
     "jsdom": "catalog:",
     "vitest": "catalog:",
     "winston-transport": "catalog:"

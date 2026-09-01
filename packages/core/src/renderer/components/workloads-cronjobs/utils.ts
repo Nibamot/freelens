@@ -5,7 +5,7 @@
 
 import cronstrue from "cronstrue";
 
-import type { CronJob } from "@freelensapp/kube-object";
+import type { CronJob } from "@nibamot/kube-object";
 
 export function humanizeSchedule(schedule: string): string {
   try {

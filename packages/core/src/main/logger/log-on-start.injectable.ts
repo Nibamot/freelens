@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { beforeApplicationIsLoadingInjectionToken } from "@freelensapp/application";
-import { loggerInjectionToken } from "@freelensapp/logger";
+import { beforeApplicationIsLoadingInjectionToken } from "@nibamot/application";
+import { loggerInjectionToken } from "@nibamot/logger";
 import { getInjectable } from "@ogre-tools/injectable";
 import appNameInjectable from "../../common/vars/app-name.injectable";
 import { buildVersionInitializable } from "../../features/vars/build-version/common/token";

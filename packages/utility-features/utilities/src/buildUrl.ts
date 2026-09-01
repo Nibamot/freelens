@@ -8,9 +8,9 @@ import { isDefined } from "./type-narrowing";
 
 /**
  * The subset of `react-router` v5's `RouteProps` that URL building relies on,
- * inlined so `@freelensapp/utilities` no longer depends on `react-router`
+ * inlined so `@nibamot/utilities` no longer depends on `react-router`
  * (dropped in the Phase 2 routing modernization; the route-schema dialect is
- * now owned in-house by `@freelensapp/routing`).
+ * now owned in-house by `@nibamot/routing`).
  */
 export interface UrlRouteProps {
   path: string;

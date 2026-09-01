@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { getMessageChannelListenerInjectable } from "@freelensapp/messaging";
+import { getMessageChannelListenerInjectable } from "@nibamot/messaging";
 import { reloadPageChannel } from "../common/channel";
 
 const reloadPageChannelListenerInjectable = getMessageChannelListenerInjectable({

@@ -6,12 +6,12 @@
 
 import "./tabs.scss";
 
-import { Icon } from "@freelensapp/icon";
-import { cssNames } from "@freelensapp/utilities";
+import { Icon } from "@nibamot/icon";
+import { cssNames } from "@nibamot/utilities";
 import autoBindReact from "auto-bind/react";
 import React from "react";
 
-import type { StrictReactNode } from "@freelensapp/utilities";
+import type { StrictReactNode } from "@nibamot/utilities";
 
 import type { DOMAttributes } from "react";
 

@@ -6,16 +6,16 @@
 
 import "./logs-dialog.scss";
 
-import { Button } from "@freelensapp/button";
-import { Icon } from "@freelensapp/icon";
-import { showSuccessNotificationInjectable } from "@freelensapp/notifications";
+import { Button } from "@nibamot/button";
+import { Icon } from "@nibamot/icon";
+import { showSuccessNotificationInjectable } from "@nibamot/notifications";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { clipboard } from "electron";
 import { kebabCase } from "es-toolkit";
 import { Dialog } from "../dialog";
 import { Wizard, WizardStep } from "../wizard";
 
-import type { ShowNotification } from "@freelensapp/notifications";
+import type { ShowNotification } from "@nibamot/notifications";
 
 import type { DialogProps } from "../dialog";
 

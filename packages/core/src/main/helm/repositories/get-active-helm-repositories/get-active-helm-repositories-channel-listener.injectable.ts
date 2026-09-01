@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { getRequestChannelListenerInjectable } from "@freelensapp/messaging";
+import { getRequestChannelListenerInjectable } from "@nibamot/messaging";
 import { getActiveHelmRepositoriesChannel } from "../../../../common/helm/get-active-helm-repositories-channel";
 import getActiveHelmRepositoriesInjectable from "./get-active-helm-repositories.injectable";
 

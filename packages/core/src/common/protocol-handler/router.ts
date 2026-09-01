@@ -4,14 +4,14 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { compileRoutePath, matchPath } from "@freelensapp/routing";
-import { isDefined, iter } from "@freelensapp/utilities";
+import { compileRoutePath, matchPath } from "@nibamot/routing";
+import { isDefined, iter } from "@nibamot/utilities";
 import { ipcRenderer } from "electron";
 import { when } from "mobx";
 import { RoutingError, RoutingErrorType } from "./error";
 
-import type { Logger } from "@freelensapp/logger";
-import type { Match } from "@freelensapp/routing";
+import type { Logger } from "@nibamot/logger";
+import type { Match } from "@nibamot/routing";
 
 import type { ExtensionLoader } from "../../extensions/extension-loader";
 import type { LensExtension } from "../../extensions/lens-extension";

@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { showErrorNotificationInjectable } from "@freelensapp/notifications";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { showErrorNotificationInjectable } from "@nibamot/notifications";
 import { getInjectable } from "@ogre-tools/injectable";
 import execFileInjectable from "../../../../common/fs/exec-file.injectable";
 import { defaultExtensionRegistryUrl } from "../../../../features/user-preferences/common/preferences-helpers";

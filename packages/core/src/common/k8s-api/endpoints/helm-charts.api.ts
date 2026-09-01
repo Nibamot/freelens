@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { array } from "@freelensapp/utilities";
+import { array } from "@nibamot/utilities";
 import autoBind from "auto-bind";
 import Joi from "joi";
 

@@ -4,14 +4,14 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { disposer } from "@freelensapp/utilities";
+import { disposer } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import { computed, observable, reaction } from "mobx";
 import catalogCategoryRegistryInjectable from "../../../common/catalog/category-registry.injectable";
 import catalogEntityRegistryInjectable from "../../api/catalog/entity/registry.injectable";
 import selectedCatalogEntityParamInjectable from "./entity-details/selected-uid.injectable";
 
-import type { Disposer } from "@freelensapp/utilities";
+import type { Disposer } from "@nibamot/utilities";
 
 import type { IComputedValue, IObservableValue } from "mobx";
 

@@ -4,10 +4,10 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { ConfigMap } from "@freelensapp/kube-object";
+import { ConfigMap } from "@nibamot/kube-object";
 import { KubeApi } from "../kube-api";
 
-import type { ConfigMapData } from "@freelensapp/kube-object";
+import type { ConfigMapData } from "@nibamot/kube-object";
 
 import type { DerivedKubeApiOptions, KubeApiDependencies } from "../kube-api";
 

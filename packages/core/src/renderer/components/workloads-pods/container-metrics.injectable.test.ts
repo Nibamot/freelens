@@ -8,7 +8,7 @@ import { getDiForUnitTesting } from "../../getDiForUnitTesting";
 import selectedMetricsTimeRangeInjectable from "../cluster/overview/selected-metrics-time-range.injectable";
 import podContainerMetricsInjectable from "./container-metrics.injectable";
 
-import type { Container, Pod } from "@freelensapp/kube-object";
+import type { Container, Pod } from "@nibamot/kube-object";
 
 describe("pod-container-metrics injectable", () => {
   it("requests container metrics and keys instances by pod and container name", () => {

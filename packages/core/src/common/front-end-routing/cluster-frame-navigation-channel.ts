@@ -6,7 +6,7 @@
 
 import { IpcRendererNavigationEvents } from "../ipc/navigation-events";
 
-import type { MessageChannel } from "@freelensapp/messaging";
+import type { MessageChannel } from "@nibamot/messaging";
 
 export type ClusterFrameNavigationChannel = MessageChannel<string>;
 

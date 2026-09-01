@@ -7,7 +7,7 @@
 import { createHash } from "node:crypto";
 import * as os from "node:os";
 import * as path from "node:path";
-import { disposer } from "@freelensapp/utilities";
+import { disposer } from "@nibamot/utilities";
 import { mkdirp, remove } from "fs-extra";
 import { _electron as electron } from "playwright";
 import * as uuid from "uuid";

@@ -8,7 +8,7 @@
 //
 // Differences from the webpack setup that are intentional:
 //
-// - Workspace @freelensapp/* packages are bundled from TypeScript source
+// - Workspace @nibamot/* packages are bundled from TypeScript source
 //   (Phase 2, single transpilation shot) instead of being externalized and
 //   consumed from dist/. Everything else in dependencies stays external in
 //   the main process, like webpack-node-externals did.
@@ -19,7 +19,7 @@
 //   packages and are simply bundled.
 // - monaco-editor-webpack-plugin is replaced by MonacoEnvironment.getWorker
 //   with module workers (packages/core/src/renderer/monaco/setup-monaco-environment.ts).
-// - CopyPlugin for @freelensapp/core fonts is dropped: the fonts are now
+// - CopyPlugin for @nibamot/core fonts is dropped: the fonts are now
 //   reached through the source app.scss, so Vite emits them as assets.
 // - fork-ts-checker / CircularDependencyPlugin are out of the bundler
 //   (plan D1); type-checking is a separate `tsc --noEmit` step.
@@ -60,7 +60,7 @@ const packageJson = JSON.parse(readFileSync(resolve(root, "package.json"), "utf-
 
 // Workspace packages resolve to .ts sources (Phase 2), so they must be
 // bundled rather than externalized.
-const workspacePackages = Object.keys(packageJson.dependencies).filter((name) => name.startsWith("@freelensapp/"));
+const workspacePackages = Object.keys(packageJson.dependencies).filter((name) => name.startsWith("@nibamot/"));
 
 // CommonJS dependencies that must be bundled into the ESM main process
 // because Node cannot consume them as externals at runtime:

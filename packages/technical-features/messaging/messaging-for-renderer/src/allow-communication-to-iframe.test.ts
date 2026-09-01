@@ -1,6 +1,6 @@
-import { startApplicationInjectionToken } from "@freelensapp/application";
-import { registerFeature } from "@freelensapp/feature-core";
-import { sendMessageToChannelInjectionToken } from "@freelensapp/messaging";
+import { startApplicationInjectionToken } from "@nibamot/application";
+import { registerFeature } from "@nibamot/feature-core";
+import { sendMessageToChannelInjectionToken } from "@nibamot/messaging";
 import { createContainer, DiContainer } from "@ogre-tools/injectable";
 import { registerMobX } from "@ogre-tools/injectable-extension-for-mobx";
 import { runInAction } from "mobx";

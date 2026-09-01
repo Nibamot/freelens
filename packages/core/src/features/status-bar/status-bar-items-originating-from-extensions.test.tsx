@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { getRandomIdInjectionToken } from "@freelensapp/random";
+import { getRandomIdInjectionToken } from "@nibamot/random";
 import { computed } from "mobx";
 import { getApplicationBuilder } from "../../renderer/components/test-utils/get-application-builder";
 

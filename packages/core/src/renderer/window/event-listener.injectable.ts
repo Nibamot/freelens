@@ -6,7 +6,7 @@
 
 import { getInjectable } from "@ogre-tools/injectable";
 
-import type { Disposer } from "@freelensapp/utilities";
+import type { Disposer } from "@nibamot/utilities";
 
 export type AddWindowEventListener = typeof addWindowEventListener;
 export type WindowEventListener<K extends keyof WindowEventMap> = (this: Window, ev: WindowEventMap[K]) => any;

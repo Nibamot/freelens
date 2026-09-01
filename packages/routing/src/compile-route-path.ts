@@ -13,7 +13,7 @@ import type { RegExpOptions } from "./vendor/path-to-regexp";
  *
  * This is the public, purpose-named entry point over the vendored
  * `path-to-regexp` v1 engine, so the raw engine stays encapsulated in
- * `@freelensapp/routing`. Consumers use it to validate a schema (it throws on
+ * `@nibamot/routing`. Consumers use it to validate a schema (it throws on
  * an invalid pattern) without depending on `path-to-regexp` directly.
  *
  * @param path a route-path schema in the v1 dialect (`/:param?` optionals and

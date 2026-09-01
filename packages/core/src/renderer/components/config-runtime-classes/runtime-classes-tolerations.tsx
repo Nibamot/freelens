@@ -8,7 +8,7 @@ import "./runtime-classes-tolerations.scss";
 
 import { Table, TableCell, TableHead, TableRow } from "../table";
 
-import type { Toleration } from "@freelensapp/kube-object";
+import type { Toleration } from "@nibamot/kube-object";
 
 export interface RuntimeClassTolerationsProps {
   tolerations: Toleration[];

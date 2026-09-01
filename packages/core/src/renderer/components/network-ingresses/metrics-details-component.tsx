@@ -10,7 +10,7 @@ import { TimeRangedResourceMetrics } from "../resource-metrics";
 import { IngressCharts } from "./ingress-charts";
 import ingressMetricsInjectable from "./metrics.injectable";
 
-import type { Ingress } from "@freelensapp/kube-object";
+import type { Ingress } from "@nibamot/kube-object";
 
 import type { IngressMetricData } from "../../../common/k8s-api/endpoints/metrics.api/request-ingress-metrics.injectable";
 import type { IAsyncComputed } from "../../../common/utils/async-computed";

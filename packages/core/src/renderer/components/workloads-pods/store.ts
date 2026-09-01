@@ -4,13 +4,13 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { cpuUnitsToNumber, unitsToBytes } from "@freelensapp/utilities";
+import { cpuUnitsToNumber, unitsToBytes } from "@nibamot/utilities";
 import { countBy } from "es-toolkit/compat";
 import { computed, makeObservable, observable } from "mobx";
 import { KubeObjectStore } from "../../../common/k8s-api/kube-object.store";
 
-import type { PodApi, PodMetricsApi } from "@freelensapp/kube-api";
-import type { KubeObject, NamespaceScopedMetadata, Pod, PodMetrics } from "@freelensapp/kube-object";
+import type { PodApi, PodMetricsApi } from "@nibamot/kube-api";
+import type { KubeObject, NamespaceScopedMetadata, Pod, PodMetrics } from "@nibamot/kube-object";
 
 import type { KubeObjectStoreDependencies, KubeObjectStoreOptions } from "../../../common/k8s-api/kube-object.store";
 

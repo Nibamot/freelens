@@ -12,10 +12,10 @@ import type { Mock } from "vitest";
 import type { ApplicationBuilder } from "../../renderer/components/test-utils/get-application-builder";
 import "@testing-library/jest-dom/vitest";
 
-import { discoverFor } from "@freelensapp/react-testing-library-discovery";
+import { discoverFor } from "@nibamot/react-testing-library-discovery";
 import logErrorInjectable from "../../common/log-error.injectable";
 
-import type { Discover } from "@freelensapp/react-testing-library-discovery";
+import type { Discover } from "@nibamot/react-testing-library-discovery";
 
 import type { FakeExtensionOptions } from "../../renderer/components/test-utils/get-extension-fake";
 

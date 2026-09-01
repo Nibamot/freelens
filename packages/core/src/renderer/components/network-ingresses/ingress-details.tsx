@@ -6,16 +6,16 @@
 
 import "./ingress-details.scss";
 
-import { computeRuleDeclarations, Ingress } from "@freelensapp/kube-object";
-import { loggerInjectionToken } from "@freelensapp/logger";
+import { computeRuleDeclarations, Ingress } from "@nibamot/kube-object";
+import { loggerInjectionToken } from "@nibamot/logger";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
 import React from "react";
 import { DrawerItem, DrawerTitle } from "../drawer";
 import { Table, TableCell, TableHead, TableRow } from "../table";
 
-import type { ILoadBalancerIngress } from "@freelensapp/kube-object";
-import type { Logger } from "@freelensapp/logger";
+import type { ILoadBalancerIngress } from "@nibamot/kube-object";
+import type { Logger } from "@nibamot/logger";
 
 import type { KubeObjectDetailsProps } from "../kube-object-details";
 

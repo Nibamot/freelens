@@ -1,5 +1,5 @@
 {
-  "name": "@freelensapp/generate-tray-icons",
+  "name": "@nibamot/generate-tray-icons",
   "version": "2.0.0-5",
   "private": true,
   "description": "CLI generating tray icons for building a lens-like application",
@@ -36,7 +36,7 @@
     "sharp": "catalog:"
   },
   "devDependencies": {
-    "@freelensapp/icon": "workspace:^",
+    "@nibamot/icon": "workspace:^",
     "@types/jsdom": "catalog:",
     "@types/node": "catalog:",
     "typescript": "catalog:"

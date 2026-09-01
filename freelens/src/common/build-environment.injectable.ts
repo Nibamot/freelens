@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { lensBuildEnvironmentInjectionToken } from "@freelensapp/application";
+import { lensBuildEnvironmentInjectionToken } from "@nibamot/application";
 import { getInjectable } from "@ogre-tools/injectable";
 
 const lensBuildEnvironmentInjectable = getInjectable({

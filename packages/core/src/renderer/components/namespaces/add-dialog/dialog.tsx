@@ -6,7 +6,7 @@
 
 import "./dialog.scss";
 
-import { showCheckedErrorNotificationInjectable } from "@freelensapp/notifications";
+import { showCheckedErrorNotificationInjectable } from "@nibamot/notifications";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import autoBindReact from "auto-bind/react";
 import { action, makeObservable, observable } from "mobx";
@@ -19,8 +19,8 @@ import { Wizard, WizardStep } from "../../wizard";
 import namespaceStoreInjectable from "../store.injectable";
 import addNamespaceDialogStateInjectable from "./state.injectable";
 
-import type { Namespace } from "@freelensapp/kube-object";
-import type { ShowCheckedErrorNotification } from "@freelensapp/notifications";
+import type { Namespace } from "@nibamot/kube-object";
+import type { ShowCheckedErrorNotification } from "@nibamot/notifications";
 
 import type { IObservableValue } from "mobx";
 

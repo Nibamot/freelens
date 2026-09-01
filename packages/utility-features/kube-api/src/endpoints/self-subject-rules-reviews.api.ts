@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { SelfSubjectRulesReview } from "@freelensapp/kube-object";
+import { SelfSubjectRulesReview } from "@nibamot/kube-object";
 import { KubeApi } from "../kube-api";
 
 import type { DerivedKubeApiOptions, KubeApiDependencies } from "../kube-api";

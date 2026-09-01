@@ -4,12 +4,12 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { JsonApiErrorParsed } from "@freelensapp/json-api";
-import { loggerInjectionToken } from "@freelensapp/logger";
+import { JsonApiErrorParsed } from "@nibamot/json-api";
+import { loggerInjectionToken } from "@nibamot/logger";
 import { getInjectable } from "@ogre-tools/injectable";
 import { showErrorNotificationInjectable } from "./show-error-notification.injectable";
 
-import type { Disposer } from "@freelensapp/utilities";
+import type { Disposer } from "@nibamot/utilities";
 
 import type { CreateNotificationOptions } from "./notifications.store";
 

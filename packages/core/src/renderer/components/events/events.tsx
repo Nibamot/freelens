@@ -6,9 +6,9 @@
 
 import "./events.scss";
 
-import { Icon } from "@freelensapp/icon";
-import { Link } from "@freelensapp/routing";
-import { cssNames, stopPropagation } from "@freelensapp/utilities";
+import { Icon } from "@nibamot/icon";
+import { Link } from "@nibamot/routing";
+import { cssNames, stopPropagation } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { orderBy } from "es-toolkit/compat";
 import { makeObservable, observable } from "mobx";
@@ -25,9 +25,9 @@ import { NamespaceSelectBadge } from "../namespaces/namespace-select-badge";
 import { WithTooltip } from "../with-tooltip";
 import eventStoreInjectable from "./store.injectable";
 
-import type { KubeEventApi } from "@freelensapp/kube-api";
-import type { KubeEvent, KubeEventData } from "@freelensapp/kube-object";
-import type { IClassName } from "@freelensapp/utilities";
+import type { KubeEventApi } from "@nibamot/kube-api";
+import type { KubeEvent, KubeEventData } from "@nibamot/kube-object";
+import type { IClassName } from "@nibamot/utilities";
 
 import type { ApiManager } from "../../../common/k8s-api/api-manager";
 import type { HeaderCustomizer, ListLayoutItemsFilter } from "../item-object-list";

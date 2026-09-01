@@ -4,10 +4,10 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Role } from "@freelensapp/kube-object";
+import { Role } from "@nibamot/kube-object";
 import { KubeApi } from "../kube-api";
 
-import type { RoleData } from "@freelensapp/kube-object";
+import type { RoleData } from "@nibamot/kube-object";
 
 import type { DerivedKubeApiOptions, KubeApiDependencies } from "../kube-api";
 

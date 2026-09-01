@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { showErrorNotificationInjectable } from "@freelensapp/notifications";
+import { showErrorNotificationInjectable } from "@nibamot/notifications";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
 import React, { useEffect, useMemo, useState } from "react";
@@ -15,7 +15,7 @@ import selectedMetricsTimeRangeInjectable, {
   timeRangeOptions,
 } from "./overview/selected-metrics-time-range.injectable";
 
-import type { ShowNotification } from "@freelensapp/notifications";
+import type { ShowNotification } from "@nibamot/notifications";
 
 import type { SingleValue } from "react-select";
 

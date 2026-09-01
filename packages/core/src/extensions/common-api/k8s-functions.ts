@@ -5,7 +5,7 @@
 
 import { ClusterConnectionStatus } from "./cluster-types";
 
-import type { KubeJsonApiData } from "@freelensapp/kube-object";
+import type { KubeJsonApiData } from "@nibamot/kube-object";
 
 import type {
   ClusterId,

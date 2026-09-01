@@ -7,8 +7,8 @@
 import {
   clusterIconSettingsComponentInjectionToken,
   clusterIconSettingsMenuInjectionToken,
-} from "@freelensapp/cluster-settings";
-import { showErrorNotificationInjectable } from "@freelensapp/notifications";
+} from "@nibamot/cluster-settings";
+import { showErrorNotificationInjectable } from "@nibamot/notifications";
 import { computedInjectManyInjectionToken } from "@ogre-tools/injectable-extension-for-mobx";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
@@ -17,8 +17,8 @@ import { Avatar } from "../avatar";
 import { FilePicker, OverSizeLimitStyle } from "../file-picker";
 import { MenuActions, MenuItem } from "../menu";
 
-import type { ClusterIconMenuItem, ClusterIconSettingsComponent } from "@freelensapp/cluster-settings";
-import type { ShowNotification } from "@freelensapp/notifications";
+import type { ClusterIconMenuItem, ClusterIconSettingsComponent } from "@nibamot/cluster-settings";
+import type { ShowNotification } from "@nibamot/notifications";
 
 import type { IComputedValue } from "mobx";
 

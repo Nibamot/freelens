@@ -5,8 +5,8 @@
  */
 
 import assert from "node:assert";
-import { namespaceApiInjectable, storesAndApisCanBeCreatedInjectionToken } from "@freelensapp/kube-api-specifics";
-import { loggerInjectionToken } from "@freelensapp/logger";
+import { namespaceApiInjectable, storesAndApisCanBeCreatedInjectionToken } from "@nibamot/kube-api-specifics";
+import { loggerInjectionToken } from "@nibamot/logger";
 import { getInjectable } from "@ogre-tools/injectable";
 import { kubeObjectStoreInjectionToken } from "../../../common/k8s-api/api-manager/kube-object-store-token";
 import selectedNamespacesStorageInjectable from "../../../features/namespace-filtering/renderer/storage.injectable";

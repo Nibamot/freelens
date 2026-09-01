@@ -6,8 +6,8 @@
 
 import "./catalog-add-button.scss";
 import { EventEmitter } from "node:events";
-import { Icon } from "@freelensapp/icon";
 import { SpeedDial, SpeedDialAction } from "@mui/material";
+import { Icon } from "@nibamot/icon";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import autoBindReact from "auto-bind/react";
 import { action, makeObservable, observable } from "mobx";

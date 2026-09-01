@@ -3,13 +3,13 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { podListLayoutColumnInjectionToken } from "@freelensapp/list-layout";
+import { podListLayoutColumnInjectionToken } from "@nibamot/list-layout";
 import { getInjectable } from "@ogre-tools/injectable";
 import { observer } from "mobx-react";
 import podStoreInjectable from "../../workloads-pods/store.injectable";
 import { COLUMN_PRIORITY } from "./column-priority";
 
-import type { Pod } from "@freelensapp/kube-object";
+import type { Pod } from "@nibamot/kube-object";
 
 import type { PodStore } from "../store";
 

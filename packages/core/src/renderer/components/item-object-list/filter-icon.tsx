@@ -4,10 +4,10 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Icon } from "@freelensapp/icon";
+import { Icon } from "@nibamot/icon";
 import { FilterType } from "./page-filters/store";
 
-import type { IconProps } from "@freelensapp/icon";
+import type { IconProps } from "@nibamot/icon";
 
 export interface FilterIconProps extends Partial<IconProps> {
   type: FilterType;

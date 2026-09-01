@@ -6,7 +6,7 @@
 
 import "./view.scss";
 
-import { showCheckedErrorNotificationInjectable } from "@freelensapp/notifications";
+import { showCheckedErrorNotificationInjectable } from "@nibamot/notifications";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
 import React from "react";
@@ -21,7 +21,7 @@ import serviceAccountStoreInjectable from "../store.injectable";
 import closeCreateServiceAccountDialogInjectable from "./close.injectable";
 import createServiceAccountDialogStateInjectable from "./state.injectable";
 
-import type { ShowCheckedErrorNotification } from "@freelensapp/notifications";
+import type { ShowCheckedErrorNotification } from "@nibamot/notifications";
 
 import type { DialogProps } from "../../../dialog";
 import type { ShowDetails } from "../../../kube-detail-params/show-details.injectable";

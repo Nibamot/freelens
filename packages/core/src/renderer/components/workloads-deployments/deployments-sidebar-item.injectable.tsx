@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { sidebarItemInjectionToken } from "@freelensapp/cluster-sidebar";
+import { sidebarItemInjectionToken } from "@nibamot/cluster-sidebar";
 import { getInjectable } from "@ogre-tools/injectable";
 import deploymentsRouteInjectable from "../../../common/front-end-routing/routes/cluster/workloads/deployments/deployments-route.injectable";
 import navigateToDeploymentsInjectable from "../../../common/front-end-routing/routes/cluster/workloads/deployments/navigate-to-deployments.injectable";

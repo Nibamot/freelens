@@ -4,9 +4,9 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { showErrorNotificationInjectable } from "@freelensapp/notifications";
-import { isObject } from "@freelensapp/utilities";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { showErrorNotificationInjectable } from "@nibamot/notifications";
+import { isObject } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import { reduce } from "es-toolkit/compat";
 import { SemVer } from "semver";

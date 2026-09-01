@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { clusterSidebarFeature, sidebarItemInjectionToken } from "@freelensapp/cluster-sidebar";
+import { clusterSidebarFeature, sidebarItemInjectionToken } from "@nibamot/cluster-sidebar";
 import { createContainer, type DiContainer, getInjectable } from "@ogre-tools/injectable";
 import { registerMobX } from "@ogre-tools/injectable-extension-for-mobx";
 import { noop } from "es-toolkit";

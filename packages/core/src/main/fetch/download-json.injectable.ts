@@ -7,8 +7,8 @@ import { getInjectable, type Injectable } from "@ogre-tools/injectable";
 import { withTimeout } from "../../common/fetch/timeout-controller";
 import proxyFetchInjectable from "./proxy-fetch.injectable";
 
-import type { FetchRequestInit, FetchResponse } from "@freelensapp/json-api";
-import type { AsyncResult } from "@freelensapp/utilities";
+import type { FetchRequestInit, FetchResponse } from "@nibamot/json-api";
+import type { AsyncResult } from "@nibamot/utilities";
 
 export interface DownloadJsonOptions {
   timeout?: number;

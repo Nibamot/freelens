@@ -36,7 +36,7 @@ describe.skip("extensions page tests", () => {
   const extensions =
     extensionPath && !skipInstallExtensionTests
       ? extensionPath.split(",").map((ext) => ext.trim())
-      : ["@freelensapp/example-extension@1.3.0"];
+      : ["@nibamot/example-extension@1.3.0"];
 
   (skipInstallExtensionTests ? it.skip : it).each(extensions)(
     "installs an extension %s",

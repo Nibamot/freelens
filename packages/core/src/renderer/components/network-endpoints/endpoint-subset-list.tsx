@@ -6,7 +6,7 @@
 
 import "./endpoint-subset-list.scss";
 
-import { Link } from "@freelensapp/routing";
+import { Link } from "@nibamot/routing";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import autoBindReact from "auto-bind/react";
 import { makeObservable, observable } from "mobx";
@@ -16,7 +16,7 @@ import apiManagerInjectable from "../../../common/k8s-api/api-manager/manager.in
 import getDetailsUrlInjectable from "../kube-detail-params/get-details-url.injectable";
 import { Table, TableCell, TableHead, TableRow } from "../table";
 
-import type { EndpointAddress, EndpointSubset, Endpoints } from "@freelensapp/kube-object";
+import type { EndpointAddress, EndpointSubset, Endpoints } from "@nibamot/kube-object";
 
 import type { ApiManager } from "../../../common/k8s-api/api-manager";
 import type { GetDetailsUrl } from "../kube-detail-params/get-details-url.injectable";

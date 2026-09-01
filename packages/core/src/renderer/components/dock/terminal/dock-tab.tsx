@@ -6,8 +6,8 @@
 
 import "./terminal-dock-tab.scss";
 
-import { Icon } from "@freelensapp/icon";
-import { cssNames } from "@freelensapp/utilities";
+import { Icon } from "@nibamot/icon";
+import { cssNames } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import autoBindReact from "auto-bind/react";
 import { reaction } from "mobx";

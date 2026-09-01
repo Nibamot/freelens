@@ -8,7 +8,7 @@ import { RenderResult, render } from "@testing-library/react";
 import userEvent, { UserEvent } from "@testing-library/user-event";
 import { withTooltip } from "./withTooltip";
 
-import type { StrictReactNode } from "@freelensapp/utilities";
+import type { StrictReactNode } from "@nibamot/utilities";
 import "@testing-library/jest-dom/vitest";
 
 type MyComponentProps = {

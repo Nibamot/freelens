@@ -1,4 +1,4 @@
-import { enlistMessageChannelListenerInjectionToken } from "@freelensapp/messaging";
+import { enlistMessageChannelListenerInjectionToken } from "@nibamot/messaging";
 import { getInjectable } from "@ogre-tools/injectable";
 import ipcRendererInjectable from "../ipc/ipc-renderer.injectable";
 

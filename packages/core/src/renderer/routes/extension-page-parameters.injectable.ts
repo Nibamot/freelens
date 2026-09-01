@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { object } from "@freelensapp/utilities";
+import { object } from "@nibamot/utilities";
 import { getInjectable, lifecycleEnum } from "@ogre-tools/injectable";
 import createPageParamInjectable from "../navigation/create-page-param.injectable";
 

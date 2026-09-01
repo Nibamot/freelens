@@ -5,8 +5,8 @@
  */
 
 import assert from "node:assert";
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { showErrorNotificationInjectable } from "@freelensapp/notifications";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { showErrorNotificationInjectable } from "@nibamot/notifications";
 import { getInjectable } from "@ogre-tools/injectable";
 import emitAppEventInjectable from "../../../../common/app-event-bus/emit-event.injectable";
 import catalogEntityRegistryInjectable from "../../../api/catalog/entity/registry.injectable";

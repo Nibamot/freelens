@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { bytesToUnits } from "@freelensapp/utilities";
+import { bytesToUnits } from "@nibamot/utilities";
 import { throttle } from "es-toolkit/compat";
 import { TerminalChannels } from "../../common/terminal/channels";
 

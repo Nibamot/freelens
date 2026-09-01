@@ -16,7 +16,7 @@ import { NamespaceSelectBadge } from "../namespaces/namespace-select-badge";
 import { WithTooltip } from "../with-tooltip";
 import leaseStoreInjectable from "./store.injectable";
 
-import type { Lease } from "@freelensapp/kube-object";
+import type { Lease } from "@nibamot/kube-object";
 
 import type { KubeObjectDetailsProps } from "../kube-object-details";
 import type { LeaseStore } from "./store";

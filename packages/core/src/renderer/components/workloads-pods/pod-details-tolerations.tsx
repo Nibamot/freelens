@@ -9,7 +9,7 @@ import "./pod-details-tolerations.scss";
 import { DrawerItem, DrawerParamToggler } from "../drawer";
 import { PodTolerations } from "./pod-tolerations";
 
-import type { KubeObject, Toleration } from "@freelensapp/kube-object";
+import type { KubeObject, Toleration } from "@nibamot/kube-object";
 
 export interface KubeObjectWithTolerations extends KubeObject {
   getTolerations(): Toleration[];

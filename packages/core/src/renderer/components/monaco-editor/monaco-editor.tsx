@@ -9,8 +9,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { cssNames, disposer } from "@freelensapp/utilities";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { cssNames, disposer } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import autoBindReact from "auto-bind/react";
 import { debounce, merge } from "es-toolkit/compat";
@@ -24,7 +24,7 @@ import getEditorHeightFromLinesCountInjectable from "./get-editor-height-from-li
 import styles from "./monaco-editor.module.scss";
 import { type MonacoValidator, monacoValidators } from "./monaco-validators";
 
-import type { Logger } from "@freelensapp/logger";
+import type { Logger } from "@nibamot/logger";
 
 import type { IComputedValue } from "mobx";
 

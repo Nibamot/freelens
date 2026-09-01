@@ -4,9 +4,9 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { winstonLoggerInjectable } from "@freelensapp/logger";
-import { getGlobalOverride } from "@freelensapp/test-utils";
-import { noop } from "@freelensapp/utilities";
+import { winstonLoggerInjectable } from "@nibamot/logger";
+import { getGlobalOverride } from "@nibamot/test-utils";
+import { noop } from "@nibamot/utilities";
 
 import type winston from "winston";
 

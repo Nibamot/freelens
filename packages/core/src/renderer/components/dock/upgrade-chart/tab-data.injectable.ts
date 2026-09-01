@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { waitUntilDefined } from "@freelensapp/utilities";
+import { waitUntilDefined } from "@nibamot/utilities";
 import { getInjectable, lifecycleEnum } from "@ogre-tools/injectable";
 import upgradeChartTabStoreInjectable from "./store.injectable";
 

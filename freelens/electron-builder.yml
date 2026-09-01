@@ -17,7 +17,7 @@ files:
   - static
   ## Workspace packages are bundled from TypeScript source into
   ## static/build by electron-vite and never required at runtime
-  - "!node_modules/@freelensapp/**"
+  - "!node_modules/@nibamot/**"
   - "!node_modules/electron"
   ## Source maps and TS build info are only useful when debugging local builds
   - "!**/*.map"

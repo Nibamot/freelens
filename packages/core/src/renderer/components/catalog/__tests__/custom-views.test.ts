@@ -9,7 +9,7 @@ import rendererExtensionsInjectable from "../../../../extensions/renderer-extens
 import { getDiForUnitTesting } from "../../../getDiForUnitTesting";
 import customCategoryViewsInjectable from "../custom-views.injectable";
 
-import type { StrictReactNode } from "@freelensapp/utilities";
+import type { StrictReactNode } from "@nibamot/utilities";
 
 import type { DiContainer } from "@ogre-tools/injectable";
 

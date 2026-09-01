@@ -9,7 +9,7 @@ import { Badge } from "../badge";
 import { DrawerItem } from "../drawer";
 import styles from "./webhook-config.module.css";
 
-import type { Webhook } from "@freelensapp/kube-object";
+import type { Webhook } from "@nibamot/kube-object";
 
 interface WebhookProps {
   webhook: Webhook;

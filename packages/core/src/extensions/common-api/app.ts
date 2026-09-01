@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { lensBuildEnvironmentInjectionToken } from "@freelensapp/application";
+import { lensBuildEnvironmentInjectionToken } from "@nibamot/application";
 import { issuesTrackerUrl } from "../../common/vars";
 import appNameInjectable from "../../common/vars/app-name.injectable";
 import isFlatpakPackageInjectable from "../../common/vars/is-flatpak-package.injectable";

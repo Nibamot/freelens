@@ -1,5 +1,5 @@
 {
-  "name": "@freelensapp/notifications",
+  "name": "@nibamot/notifications",
   "version": "2.0.0-5",
   "private": true,
   "description": "Highly extendable notifications in the Freelens.",
@@ -25,13 +25,13 @@
   "types": "./index.ts",
   "scripts": {},
   "dependencies": {
-    "@freelensapp/animate": "workspace:^",
-    "@freelensapp/feature-core": "workspace:^",
-    "@freelensapp/icon": "workspace:^",
-    "@freelensapp/json-api": "workspace:^",
-    "@freelensapp/logger": "workspace:^",
-    "@freelensapp/react-application": "workspace:^",
-    "@freelensapp/utilities": "workspace:^",
+    "@nibamot/animate": "workspace:^",
+    "@nibamot/feature-core": "workspace:^",
+    "@nibamot/icon": "workspace:^",
+    "@nibamot/json-api": "workspace:^",
+    "@nibamot/logger": "workspace:^",
+    "@nibamot/react-application": "workspace:^",
+    "@nibamot/utilities": "workspace:^",
     "@ogre-tools/fp": "catalog:",
     "@ogre-tools/injectable": "catalog:",
     "@ogre-tools/injectable-react": "catalog:",
@@ -42,7 +42,7 @@
     "react": "catalog:"
   },
   "devDependencies": {
-    "@freelensapp/typescript": "workspace:^",
+    "@nibamot/typescript": "workspace:^",
     "@types/react": "catalog:",
     "type-fest": "catalog:",
     "typescript": "catalog:",

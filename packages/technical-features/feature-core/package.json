@@ -1,5 +1,5 @@
 {
-  "name": "@freelensapp/feature-core",
+  "name": "@nibamot/feature-core",
   "version": "2.0.0-5",
   "private": true,
   "description": "Code that is common to all Features and those registering them.",
@@ -21,13 +21,13 @@
   "types": "./index.ts",
   "scripts": {
     "clean:dist": "pnpm dlx rimraf@6.1.3 dist",
-    "test:unit": "vitest run -c ../../../vitest.config.ts --project @freelensapp/feature-core"
+    "test:unit": "vitest run -c ../../../vitest.config.ts --project @nibamot/feature-core"
   },
   "dependencies": {
     "@ogre-tools/injectable": "catalog:"
   },
   "devDependencies": {
-    "@freelensapp/typescript": "workspace:^",
+    "@nibamot/typescript": "workspace:^",
     "jsdom": "catalog:",
     "vitest": "catalog:"
   },

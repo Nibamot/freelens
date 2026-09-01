@@ -6,7 +6,7 @@
 
 import "./pie-chart.scss";
 
-import { cssNames } from "@freelensapp/utilities";
+import { cssNames } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
 import activeThemeInjectable from "../../themes/active.injectable";

@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { sidebarItemInjectionToken } from "@freelensapp/cluster-sidebar";
-import { computedAnd, iter, noop } from "@freelensapp/utilities";
+import { sidebarItemInjectionToken } from "@nibamot/cluster-sidebar";
+import { computedAnd, iter, noop } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import { matches } from "es-toolkit/compat";
 import { computed } from "mobx";
@@ -17,8 +17,8 @@ import routePathParametersInjectable from "../../routes/route-path-parameters.in
 import customResourcesSidebarItemInjectable from "../custom-resources/sidebar-item.injectable";
 import customResourceDefinitionsInjectable from "./definitions.injectable";
 
-import type { SidebarItemRegistration } from "@freelensapp/cluster-sidebar";
-import type { CustomResourceDefinition } from "@freelensapp/kube-object";
+import type { SidebarItemRegistration } from "@nibamot/cluster-sidebar";
+import type { CustomResourceDefinition } from "@nibamot/kube-object";
 
 export const sideBarItemCustomResourcePrefix = "sidebar-item-custom-resource-group";
 

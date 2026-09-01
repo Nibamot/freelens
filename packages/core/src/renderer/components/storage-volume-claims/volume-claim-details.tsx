@@ -6,11 +6,11 @@
 
 import "./volume-claim-details.scss";
 
-import { storageClassApiInjectable } from "@freelensapp/kube-api-specifics";
-import { PersistentVolumeClaim } from "@freelensapp/kube-object";
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { Link } from "@freelensapp/routing";
-import { stopPropagation } from "@freelensapp/utilities";
+import { storageClassApiInjectable } from "@nibamot/kube-api-specifics";
+import { PersistentVolumeClaim } from "@nibamot/kube-object";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { Link } from "@nibamot/routing";
+import { stopPropagation } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
 import React, { Fragment } from "react";
@@ -19,8 +19,8 @@ import { DrawerItem, DrawerTitle } from "../drawer";
 import getDetailsUrlInjectable from "../kube-detail-params/get-details-url.injectable";
 import podStoreInjectable from "../workloads-pods/store.injectable";
 
-import type { StorageClassApi } from "@freelensapp/kube-api";
-import type { Logger } from "@freelensapp/logger";
+import type { StorageClassApi } from "@nibamot/kube-api";
+import type { Logger } from "@nibamot/logger";
 
 import type { GetDetailsUrl } from "../kube-detail-params/get-details-url.injectable";
 import type { KubeObjectDetailsProps } from "../kube-object-details";

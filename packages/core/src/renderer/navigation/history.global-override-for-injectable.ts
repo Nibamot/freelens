@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { createMemoryHistory, historyInjectionToken } from "@freelensapp/routing";
-import { getGlobalOverride } from "@freelensapp/test-utils";
+import { createMemoryHistory, historyInjectionToken } from "@nibamot/routing";
+import { getGlobalOverride } from "@nibamot/test-utils";
 
 export default getGlobalOverride(historyInjectionToken, () => createMemoryHistory());

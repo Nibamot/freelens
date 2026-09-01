@@ -6,13 +6,13 @@
 
 import "./tab-layout.scss";
 
-import { ErrorBoundary } from "@freelensapp/error-boundary";
-import { cssNames } from "@freelensapp/utilities";
+import { ErrorBoundary } from "@nibamot/error-boundary";
+import { cssNames } from "@nibamot/utilities";
 import { observer } from "mobx-react";
 import { Tab, Tabs } from "../tabs";
 
-import type { SidebarItemDeclaration } from "@freelensapp/cluster-sidebar";
-import type { StrictReactNode } from "@freelensapp/utilities";
+import type { SidebarItemDeclaration } from "@nibamot/cluster-sidebar";
+import type { StrictReactNode } from "@nibamot/utilities";
 
 export interface TabLayoutProps {
   tabs?: SidebarItemDeclaration[];

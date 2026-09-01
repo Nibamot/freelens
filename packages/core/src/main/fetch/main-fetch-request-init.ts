@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import type { FetchRequestInit, FetchResponse } from "@freelensapp/json-api";
+import type { FetchRequestInit, FetchResponse } from "@nibamot/json-api";
 
 import type { Dispatcher } from "undici";
 
@@ -11,7 +11,7 @@ import type { Dispatcher } from "undici";
  * A request init as the **main** process makes it: the shared structural
  * contract plus the one undici extension main needs.
  *
- * `dispatcher` lives here rather than in `@freelensapp/json-api` because it is
+ * `dispatcher` lives here rather than in `@nibamot/json-api` because it is
  * meaningless anywhere else. The renderer has no dispatchers at all, and an
  * extension cannot fill the slot without depending on undici itself — which is
  * the dependency the published surface exists to spare it. Extensions that

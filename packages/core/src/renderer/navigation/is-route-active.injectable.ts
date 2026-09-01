@@ -7,7 +7,7 @@
 import { getInjectable } from "@ogre-tools/injectable";
 import matchRouteInjectable from "./match-route.injectable";
 
-import type { MatchPathOptions } from "@freelensapp/routing";
+import type { MatchPathOptions } from "@nibamot/routing";
 
 export type IsRouteActive = (route: string | string[] | MatchPathOptions) => boolean;
 

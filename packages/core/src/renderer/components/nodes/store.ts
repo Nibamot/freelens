@@ -4,14 +4,14 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { cpuUnitsToNumber, unitsToBytes } from "@freelensapp/utilities";
+import { cpuUnitsToNumber, unitsToBytes } from "@nibamot/utilities";
 import autoBind from "auto-bind";
 import { sum } from "es-toolkit";
 import { computed, makeObservable, observable } from "mobx";
 import { KubeObjectStore } from "../../../common/k8s-api/kube-object.store";
 
-import type { NodeApi, NodeMetricsApi } from "@freelensapp/kube-api";
-import type { Node, NodeMetrics } from "@freelensapp/kube-object";
+import type { NodeApi, NodeMetricsApi } from "@nibamot/kube-api";
+import type { Node, NodeMetrics } from "@nibamot/kube-object";
 
 import type { KubeObjectStoreDependencies, KubeObjectStoreOptions } from "../../../common/k8s-api/kube-object.store";
 

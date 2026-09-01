@@ -4,10 +4,10 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { RuntimeClass } from "@freelensapp/kube-object";
+import { RuntimeClass } from "@nibamot/kube-object";
 import { KubeApi } from "../kube-api";
 
-import type { RuntimeClassData } from "@freelensapp/kube-object";
+import type { RuntimeClassData } from "@nibamot/kube-object";
 
 import type { DerivedKubeApiOptions, KubeApiDependencies } from "../kube-api";
 

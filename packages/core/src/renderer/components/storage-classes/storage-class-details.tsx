@@ -6,8 +6,8 @@
 
 import "./storage-class-details.scss";
 
-import { StorageClass } from "@freelensapp/kube-object";
-import { loggerInjectionToken } from "@freelensapp/logger";
+import { StorageClass } from "@nibamot/kube-object";
+import { loggerInjectionToken } from "@nibamot/logger";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { startCase } from "es-toolkit";
 import { observer } from "mobx-react";
@@ -19,7 +19,7 @@ import persistentVolumeStoreInjectable from "../storage-volumes/store.injectable
 import { VolumeDetailsList } from "../storage-volumes/volume-details-list";
 import storageClassStoreInjectable from "./store.injectable";
 
-import type { Logger } from "@freelensapp/logger";
+import type { Logger } from "@nibamot/logger";
 
 import type { SubscribeStores } from "../../kube-watch-api/kube-watch-api";
 import type { KubeObjectDetailsProps } from "../kube-object-details";

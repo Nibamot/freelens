@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { applicationInformationToken } from "@freelensapp/application";
-import { loggerInjectionToken } from "@freelensapp/logger";
+import { applicationInformationToken } from "@nibamot/application";
+import { loggerInjectionToken } from "@nibamot/logger";
 import { getInjectable } from "@ogre-tools/injectable";
 import { BrowserWindow } from "electron";
 import pathExistsSyncInjectable from "../../../../common/fs/path-exists-sync.injectable";

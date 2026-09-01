@@ -6,8 +6,8 @@
 
 import "./resource-quota-details.scss";
 
-import { ResourceQuota } from "@freelensapp/kube-object";
-import { loggerInjectionToken } from "@freelensapp/logger";
+import { ResourceQuota } from "@nibamot/kube-object";
+import { loggerInjectionToken } from "@nibamot/logger";
 import {
   cpuUnitsToNumber,
   cssNames,
@@ -15,7 +15,7 @@ import {
   metricUnitsToNumber,
   object,
   unitsToBytes,
-} from "@freelensapp/utilities";
+} from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { kebabCase } from "es-toolkit";
 import { observer } from "mobx-react";
@@ -24,7 +24,7 @@ import { DrawerItem, DrawerTitle } from "../drawer";
 import { LineProgress } from "../line-progress";
 import { Table, TableCell, TableHead, TableRow } from "../table";
 
-import type { Logger } from "@freelensapp/logger";
+import type { Logger } from "@nibamot/logger";
 
 import type { KubeObjectDetailsProps } from "../kube-object-details";
 

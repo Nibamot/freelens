@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Container, EphemeralContainer, Pod } from "@freelensapp/kube-object";
+import { Container, EphemeralContainer, Pod } from "@nibamot/kube-object";
 
 export function findOptimalDefaultContainerOfPod(pod: Pod): Container | EphemeralContainer {
   return findOptimalDefaultContainer(pod.getAllContainers(), pod.getAnnotations(true));

@@ -5,7 +5,7 @@ import { defineConfig } from "vitest/config";
 
 // Phase 6 of the v2 plan (docs/v2-plan.md, D8): a single root Vitest config
 // with per-package `projects`, replacing the per-package jest.config.js files
-// and the shared @freelensapp/jest package. Per-package projects preserve the
+// and the shared @nibamot/jest package. Per-package projects preserve the
 // ability to run and isolate each package's tests separately (relevant to
 // D4's optional future package collapse).
 
@@ -23,7 +23,7 @@ const projectDirs = globSync("{packages/**,freelens}/package.json", { cwd: root 
   .map((p) => join(root, dirname(p)))
   .filter((dir) => existsSync(join(dir, "package.json")));
 
-// Every project runs under jsdom (the old @freelensapp/jest configForReact)
+// Every project runs under jsdom (the old @nibamot/jest configForReact)
 // except freelens itself, whose tests are Playwright-driven integration tests
 // that need the node environment. Vitest resolves CSS/asset imports natively,
 // so the old moduleNameMapper entries (identity-obj-proxy, assetMock) were

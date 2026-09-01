@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { deploymentApiInjectable } from "@freelensapp/kube-api-specifics";
-import { Deployment } from "@freelensapp/kube-object";
+import { deploymentApiInjectable } from "@nibamot/kube-api-specifics";
+import { Deployment } from "@nibamot/kube-object";
 import { fireEvent, waitFor } from "@testing-library/react";
 import { getDiForUnitTesting } from "../../../getDiForUnitTesting";
 import storesAndApisCanBeCreatedInjectable from "../../../stores-apis-can-be-created.injectable";
@@ -13,7 +13,7 @@ import { renderFor } from "../../test-utils/renderFor";
 import { DeploymentScaleDialog } from "./dialog";
 import openDeploymentScaleDialogInjectable from "./open.injectable";
 
-import type { DeploymentApi } from "@freelensapp/kube-api";
+import type { DeploymentApi } from "@nibamot/kube-api";
 
 import type { DiRender } from "../../test-utils/renderFor";
 import type { OpenDeploymentScaleDialog } from "./open.injectable";

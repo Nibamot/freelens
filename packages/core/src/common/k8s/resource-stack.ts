@@ -4,15 +4,15 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { hasTypedProperty, isObject } from "@freelensapp/utilities";
+import { hasTypedProperty, isObject } from "@nibamot/utilities";
 import hb from "handlebars";
 import * as yaml from "js-yaml";
 import { getDiForExtensionApi } from "../../extensions/extension-api-di";
 import { defaultYamlDumpOptions } from "../kube-helpers";
 import productNameInjectable from "../vars/product-name.injectable";
 
-import type { Logger } from "@freelensapp/logger";
-import type { AsyncResult } from "@freelensapp/utilities";
+import type { Logger } from "@nibamot/logger";
+import type { AsyncResult } from "@nibamot/utilities";
 
 import type { KubernetesCluster } from "../catalog-entities";
 import type { ReadDirectory } from "../fs/read-directory.injectable";

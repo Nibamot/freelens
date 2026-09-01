@@ -3,8 +3,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { getRequestChannelListenerInjectable } from "@freelensapp/messaging";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { getRequestChannelListenerInjectable } from "@nibamot/messaging";
 import { getLatestVersionChannel } from "../../common/utils/get-latest-version-channel";
 import getLatestVersionInjectable from "./get-latest-version.injectable";
 
@@ -17,7 +17,7 @@ const getLatestVersionChannelListenerInjectable = getRequestChannelListenerInjec
 
     return async () => {
       try {
-        return await getLatestVersion("@freelensapp/core");
+        return await getLatestVersion("@nibamot/core");
       } catch (error) {
         logger.error(`[GET-LATEST-VERSION]: Failed to fetch latest version`, { error });
 

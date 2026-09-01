@@ -4,13 +4,13 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Namespace } from "@freelensapp/kube-object";
-import { noop, toggle } from "@freelensapp/utilities";
+import { Namespace } from "@nibamot/kube-object";
+import { noop, toggle } from "@nibamot/utilities";
 import autoBind from "auto-bind";
 import { action, comparer, computed, makeObservable, reaction } from "mobx";
 import { KubeObjectStore } from "../../../common/k8s-api/kube-object.store";
 
-import type { NamespaceApi } from "@freelensapp/kube-api";
+import type { NamespaceApi } from "@nibamot/kube-api";
 
 import type { IComputedValue, IReactionDisposer } from "mobx";
 

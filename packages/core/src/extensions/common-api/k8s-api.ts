@@ -15,16 +15,16 @@ import {
   NodeApi,
   PersistentVolumeClaimApi,
   PodApi,
-} from "@freelensapp/kube-api";
-import { maybeKubeApiInjectable, storesAndApisCanBeCreatedInjectionToken } from "@freelensapp/kube-api-specifics";
-import { KubeJsonApiDataFor, KubeObject, KubeObjectMetadata } from "@freelensapp/kube-object";
+} from "@nibamot/kube-api";
+import { maybeKubeApiInjectable, storesAndApisCanBeCreatedInjectionToken } from "@nibamot/kube-api-specifics";
+import { KubeJsonApiDataFor, KubeObject, KubeObjectMetadata } from "@nibamot/kube-object";
 import {
   logDebugInjectionToken,
   logErrorInjectionToken,
   loggerInjectionToken,
   logInfoInjectionToken,
   logWarningInjectionToken,
-} from "@freelensapp/logger";
+} from "@nibamot/logger";
 import createResourceStackInjectable from "../../common/k8s/create-resource-stack.injectable";
 import apiManagerInjectable from "../../common/k8s-api/api-manager/manager.injectable";
 import createKubeApiForClusterInjectable from "../../common/k8s-api/create-kube-api-for-cluster.injectable";
@@ -39,13 +39,13 @@ import {
   getDiForExtensionApi,
 } from "../extension-api-di";
 
-import type { FetchRequestInit, JsonApiConfig } from "@freelensapp/json-api";
+import type { FetchRequestInit, JsonApiConfig } from "@nibamot/json-api";
 import type {
   DerivedKubeApiOptions,
   KubeJsonApi as InternalKubeJsonApi,
   KubeApiDependencies,
   KubeApiOptions,
-} from "@freelensapp/kube-api";
+} from "@nibamot/kube-api";
 
 import type { KubeApiDataFrom, KubeObjectStoreOptions } from "../../common/k8s-api/kube-object.store";
 
@@ -120,7 +120,7 @@ export {
   KubeObject,
   KubeStatus,
   stringifyLabels,
-} from "@freelensapp/kube-object";
+} from "@nibamot/kube-object";
 
 export type {
   BaseKubeJsonApiObjectMetadata,
@@ -132,7 +132,7 @@ export type {
   KubeStatusData,
   NamespaceScopedMetadata,
   OwnerReference,
-} from "@freelensapp/kube-object";
+} from "@nibamot/kube-object";
 
 export type { CreateKubeApiForLocalClusterConfig as ILocalKubeApiConfig } from "../../common/k8s-api/create-kube-api-for-cluster.injectable";
 
@@ -261,7 +261,7 @@ export {
   ServiceAccount,
   StatefulSet,
   StorageClass,
-} from "@freelensapp/kube-object";
+} from "@nibamot/kube-object";
 
 /**
  * The `KubeObject` that can be used in extensions with additional property to

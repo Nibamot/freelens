@@ -8,7 +8,7 @@ import autoBind from "auto-bind";
 import { orderBy } from "es-toolkit/compat";
 import { action, computed, makeObservable, observable, when } from "mobx";
 
-import type { ItemObject } from "@freelensapp/list-layout";
+import type { ItemObject } from "@nibamot/list-layout";
 
 export abstract class ItemStore<Item extends ItemObject> {
   protected defaultSorting = (item: Item) => item.getName();

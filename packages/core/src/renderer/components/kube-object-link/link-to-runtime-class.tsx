@@ -3,8 +3,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { runtimeClassApiInjectable } from "@freelensapp/kube-api-specifics";
-import { stopPropagation } from "@freelensapp/utilities";
+import { runtimeClassApiInjectable } from "@nibamot/kube-api-specifics";
+import { stopPropagation } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import getMaybeDetailsUrlInjectable, {
   type GetMaybeDetailsUrl,
@@ -12,7 +12,7 @@ import getMaybeDetailsUrlInjectable, {
 import { MaybeLink } from "../maybe-link";
 import { WithTooltip } from "../with-tooltip";
 
-import type { RuntimeClassApi } from "@freelensapp/kube-api";
+import type { RuntimeClassApi } from "@nibamot/kube-api";
 
 interface Dependencies {
   getMaybeDetailsUrl: GetMaybeDetailsUrl;

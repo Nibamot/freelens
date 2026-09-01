@@ -9,7 +9,7 @@ import { useState } from "react";
 import activeHotbarInjectable from "../../../features/hotbar/storage/common/active.injectable";
 import { MenuItem } from "../menu";
 
-import type { StrictReactNode } from "@freelensapp/utilities";
+import type { StrictReactNode } from "@nibamot/utilities";
 
 import type { IComputedValue } from "mobx";
 

@@ -1,4 +1,4 @@
-import type { StrictReactNode } from "@freelensapp/utilities";
+import type { StrictReactNode } from "@nibamot/utilities";
 
 export interface KeyboardShortcutScopeProps {
   id: string;

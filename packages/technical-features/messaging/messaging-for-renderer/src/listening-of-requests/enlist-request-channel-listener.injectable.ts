@@ -1,4 +1,4 @@
-import { enlistRequestChannelListenerInjectionToken } from "@freelensapp/messaging";
+import { enlistRequestChannelListenerInjectionToken } from "@nibamot/messaging";
 /* c8 ignore start */
 import { getInjectable } from "@ogre-tools/injectable";
 

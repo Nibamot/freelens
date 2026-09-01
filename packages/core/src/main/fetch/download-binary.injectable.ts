@@ -8,8 +8,8 @@ import { getInjectable } from "@ogre-tools/injectable";
 import { withStallTimeout, withTimeout } from "../../common/fetch/timeout-controller";
 import proxyFetchInjectable from "./proxy-fetch.injectable";
 
-import type { FetchRequestInit, FetchResponse } from "@freelensapp/json-api";
-import type { AsyncResult } from "@freelensapp/utilities";
+import type { FetchRequestInit, FetchResponse } from "@nibamot/json-api";
+import type { AsyncResult } from "@nibamot/utilities";
 
 /**
  * The payload of {@link downloadBinaryChannel}, so it must stay serializable.

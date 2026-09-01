@@ -5,15 +5,15 @@
  */
 
 import asyncFn from "@async-fn/vitest";
-import { Deployment, Pod } from "@freelensapp/kube-object";
-import { flushPromises } from "@freelensapp/test-utils";
+import { Deployment, Pod } from "@nibamot/kube-object";
+import { flushPromises } from "@nibamot/test-utils";
 import { DeploymentApi, NamespaceApi, PodApi } from "./endpoints";
 import { KubeJsonApi } from "./kube-json-api";
 import { createMockResponseFromStream, createMockResponseFromString, MockResponseStream } from "./mock-responses";
 
-import type { Fetch as JsonApiFetch } from "@freelensapp/json-api";
-import type { KubeJsonApiData, KubeJsonApiDataFor } from "@freelensapp/kube-object";
-import type { Logger } from "@freelensapp/logger";
+import type { Fetch as JsonApiFetch } from "@nibamot/json-api";
+import type { KubeJsonApiData, KubeJsonApiDataFor } from "@nibamot/kube-object";
+import type { Logger } from "@nibamot/logger";
 
 import type { AsyncFnMock } from "@async-fn/vitest";
 import type { MockedFunction } from "vitest";

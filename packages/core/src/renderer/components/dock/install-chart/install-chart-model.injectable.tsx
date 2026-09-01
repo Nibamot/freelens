@@ -5,7 +5,7 @@
  */
 
 import assert from "node:assert";
-import { waitUntilDefined } from "@freelensapp/utilities";
+import { waitUntilDefined } from "@nibamot/utilities";
 import { getInjectable, lifecycleEnum } from "@ogre-tools/injectable";
 import { action, computed, observable, runInAction } from "mobx";
 import navigateToHelmReleasesInjectable from "../../../../common/front-end-routing/routes/cluster/helm/releases/navigate-to-helm-releases.injectable";

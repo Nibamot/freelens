@@ -1,6 +1,6 @@
 import asyncFn, { AsyncFnMock } from "@async-fn/vitest";
-import { startApplicationInjectionToken } from "@freelensapp/application";
-import { registerFeature } from "@freelensapp/feature-core";
+import { startApplicationInjectionToken } from "@nibamot/application";
+import { registerFeature } from "@nibamot/feature-core";
 import {
   getMessageChannel,
   getMessageChannelListenerInjectable,
@@ -11,8 +11,8 @@ import {
   requestFromChannelInjectionToken,
   sendMessageToChannelInjectionToken,
   testUtils,
-} from "@freelensapp/messaging";
-import { getPromiseStatus } from "@freelensapp/test-utils";
+} from "@nibamot/messaging";
+import { getPromiseStatus } from "@nibamot/test-utils";
 import { createContainer, DiContainer, Injectable } from "@ogre-tools/injectable";
 import { registerMobX } from "@ogre-tools/injectable-extension-for-mobx";
 import { runInAction } from "mobx";

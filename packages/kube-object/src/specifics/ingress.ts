@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { hasTypedProperty, isString, iter } from "@freelensapp/utilities";
+import { hasTypedProperty, isString, iter } from "@nibamot/utilities";
 import { KubeObject } from "../kube-object";
 
 import type { RequireExactlyOne } from "type-fest";

@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { bytesToUnits, isDefined } from "@freelensapp/utilities";
+import { bytesToUnits, isDefined } from "@nibamot/utilities";
 
 import type { ChartOptions, TooltipItem } from "chart.js";
 

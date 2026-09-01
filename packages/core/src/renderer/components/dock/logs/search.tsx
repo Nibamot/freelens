@@ -6,7 +6,7 @@
 
 import "./search.scss";
 
-import { Icon } from "@freelensapp/icon";
+import { Icon } from "@nibamot/icon";
 import { debounce } from "es-toolkit/compat";
 import { observer } from "mobx-react";
 import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";

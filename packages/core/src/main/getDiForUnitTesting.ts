@@ -4,12 +4,12 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { registerFeature } from "@freelensapp/feature-core";
-import { kubeApiSpecificsFeature } from "@freelensapp/kube-api-specifics";
-import { loggerFeature } from "@freelensapp/logger";
-import { messagingFeature, testUtils as messagingTestUtils } from "@freelensapp/messaging";
-import { notificationsFeature } from "@freelensapp/notifications";
-import { randomFeature } from "@freelensapp/random";
+import { registerFeature } from "@nibamot/feature-core";
+import { kubeApiSpecificsFeature } from "@nibamot/kube-api-specifics";
+import { loggerFeature } from "@nibamot/logger";
+import { messagingFeature, testUtils as messagingTestUtils } from "@nibamot/messaging";
+import { notificationsFeature } from "@nibamot/notifications";
+import { randomFeature } from "@nibamot/random";
 import { createContainer, isInjectable } from "@ogre-tools/injectable";
 import { registerMobX } from "@ogre-tools/injectable-extension-for-mobx";
 import { chunk } from "es-toolkit";
@@ -31,7 +31,7 @@ import initializeExtensionsInjectable from "./start-main-application/runnables/i
 import setupLensProxyInjectable from "./start-main-application/runnables/setup-lens-proxy.injectable";
 import setupSessionProxyBypassInjectable from "./start-main-application/runnables/setup-session-proxy-bypass.injectable";
 
-import type { GlobalOverride } from "@freelensapp/test-utils";
+import type { GlobalOverride } from "@nibamot/test-utils";
 
 import type { DiContainer } from "@ogre-tools/injectable";
 

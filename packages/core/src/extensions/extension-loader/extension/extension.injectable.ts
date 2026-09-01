@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { disposer } from "@freelensapp/utilities";
+import { disposer } from "@nibamot/utilities";
 import { getInjectable, lifecycleEnum } from "@ogre-tools/injectable";
 import { reaction, runInAction } from "mobx";
 import { injectableDifferencingRegistratorWith } from "../../../common/utils/registrator-helper";

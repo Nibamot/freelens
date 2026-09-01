@@ -4,9 +4,9 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Button } from "@freelensapp/button";
-import { showErrorNotificationInjectable, showSuccessNotificationInjectable } from "@freelensapp/notifications";
-import { isDefined, iter } from "@freelensapp/utilities";
+import { Button } from "@nibamot/button";
+import { showErrorNotificationInjectable, showSuccessNotificationInjectable } from "@nibamot/notifications";
+import { isDefined, iter } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { debounce } from "es-toolkit/compat";
 import fse from "fs-extra";
@@ -23,7 +23,7 @@ import { SettingLayout } from "../layout/setting-layout";
 import { MonacoEditor } from "../monaco-editor";
 import styles from "./add-cluster.module.scss";
 
-import type { ShowNotification } from "@freelensapp/notifications";
+import type { ShowNotification } from "@nibamot/notifications";
 
 import type { KubeConfig } from "@kubernetes/client-node";
 

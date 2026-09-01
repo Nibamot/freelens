@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { delay } from "@freelensapp/utilities";
+import { delay } from "@nibamot/utilities";
 import { runInAction } from "mobx";
 import directoryForUserDataInjectable from "../../common/app-paths/directory-for-user-data/directory-for-user-data.injectable";
 import enabledExtensionsStateInjectable from "../../features/extensions/enabled/common/state.injectable";

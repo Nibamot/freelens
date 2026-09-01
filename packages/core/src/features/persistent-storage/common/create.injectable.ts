@@ -5,9 +5,9 @@
  */
 
 import { nextTick } from "node:process";
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { enlistMessageChannelListenerInjectionToken, sendMessageToChannelInjectionToken } from "@freelensapp/messaging";
-import { disposer, isPromiseLike } from "@freelensapp/utilities";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { enlistMessageChannelListenerInjectionToken, sendMessageToChannelInjectionToken } from "@nibamot/messaging";
+import { disposer, isPromiseLike } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import { isEqual, kebabCase } from "es-toolkit";
 import { reaction } from "mobx";
@@ -18,7 +18,7 @@ import { persistentStorageIpcChannelPrefixesInjectionToken } from "./channel-pre
 import { shouldPersistentStorageDisableSyncInIpcListenerInjectionToken } from "./disable-sync";
 import { persistStateToConfigInjectionToken } from "./save-to-file";
 
-import type { MessageChannel } from "@freelensapp/messaging";
+import type { MessageChannel } from "@nibamot/messaging";
 
 import type Config from "conf";
 import type { Options } from "conf";

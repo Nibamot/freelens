@@ -3,8 +3,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { beforeApplicationIsLoadingInjectionToken } from "@freelensapp/application";
-import { loggerInjectionToken } from "@freelensapp/logger";
+import { beforeApplicationIsLoadingInjectionToken } from "@nibamot/application";
+import { loggerInjectionToken } from "@nibamot/logger";
 import { getInjectable } from "@ogre-tools/injectable";
 import { session } from "electron";
 

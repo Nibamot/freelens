@@ -6,19 +6,19 @@
 
 import "./info-panel.scss";
 
-import { Button } from "@freelensapp/button";
-import { Icon } from "@freelensapp/icon";
-import { showCheckedErrorNotificationInjectable, showSuccessNotificationInjectable } from "@freelensapp/notifications";
-import { Spinner } from "@freelensapp/spinner";
-import { cssNames } from "@freelensapp/utilities";
+import { Button } from "@nibamot/button";
+import { Icon } from "@nibamot/icon";
+import { showCheckedErrorNotificationInjectable, showSuccessNotificationInjectable } from "@nibamot/notifications";
+import { Spinner } from "@nibamot/spinner";
+import { cssNames } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { makeObservable, observable } from "mobx";
 import { observer } from "mobx-react";
 import React, { Component } from "react";
 import dockStoreInjectable from "./dock/store.injectable";
 
-import type { ShowCheckedErrorNotification, ShowNotification } from "@freelensapp/notifications";
-import type { StrictReactNode } from "@freelensapp/utilities";
+import type { ShowCheckedErrorNotification, ShowNotification } from "@nibamot/notifications";
+import type { StrictReactNode } from "@nibamot/utilities";
 
 import type { DockStore, TabId } from "./dock/store";
 

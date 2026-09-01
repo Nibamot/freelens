@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { requestFromChannelInjectionToken } from "@freelensapp/messaging";
+import { requestFromChannelInjectionToken } from "@nibamot/messaging";
 import { getInjectablesForInitializable } from "../../../../common/initializable-state/create";
 import { beforeFrameStartsSecondInjectionToken } from "../../../../renderer/before-frame-starts/tokens";
 import {

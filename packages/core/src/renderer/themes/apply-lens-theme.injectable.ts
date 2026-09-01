@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { object } from "@freelensapp/utilities";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { object } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import resetThemeInjectable from "../../features/user-preferences/common/reset-theme.injectable";
 

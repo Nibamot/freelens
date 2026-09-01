@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { setAndGet } from "@freelensapp/utilities";
+import { setAndGet } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import { action } from "mobx";
 import emitAppEventInjectable from "../../../../common/app-event-bus/emit-event.injectable";

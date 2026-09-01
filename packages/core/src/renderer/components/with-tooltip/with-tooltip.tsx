@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { StrictReactNode } from "@freelensapp/utilities";
+import { StrictReactNode } from "@nibamot/utilities";
 import React from "react";
 import { Badge } from "../badge/badge";
 import { LocaleDate } from "../locale-date";

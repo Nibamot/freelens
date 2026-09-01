@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { NetworkPolicy } from "@freelensapp/kube-object";
-import { loggerInjectionToken } from "@freelensapp/logger";
+import { NetworkPolicy } from "@nibamot/kube-object";
+import { loggerInjectionToken } from "@nibamot/logger";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { isEmpty } from "es-toolkit/compat";
 import { observer } from "mobx-react";
@@ -21,8 +21,8 @@ import type {
   NetworkPolicyPeer,
   NetworkPolicyPort,
   PolicyIpBlock,
-} from "@freelensapp/kube-object";
-import type { Logger } from "@freelensapp/logger";
+} from "@nibamot/kube-object";
+import type { Logger } from "@nibamot/logger";
 
 import type { KubeObjectDetailsProps } from "../kube-object-details";
 

@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { matchPath } from "@freelensapp/routing";
+import { matchPath } from "@nibamot/routing";
 import { getInjectable } from "@ogre-tools/injectable";
 import { computed } from "mobx";
 import currentPathInjectable from "./current-path.injectable";

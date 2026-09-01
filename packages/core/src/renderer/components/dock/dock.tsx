@@ -6,10 +6,10 @@
 
 import "./dock.scss";
 
-import { ErrorBoundary } from "@freelensapp/error-boundary";
-import { Icon } from "@freelensapp/icon";
-import { ResizeDirection, ResizingAnchor } from "@freelensapp/resizing-anchor";
-import { cssNames } from "@freelensapp/utilities";
+import { ErrorBoundary } from "@nibamot/error-boundary";
+import { Icon } from "@nibamot/icon";
+import { ResizeDirection, ResizingAnchor } from "@nibamot/resizing-anchor";
+import { cssNames } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
 import React from "react";

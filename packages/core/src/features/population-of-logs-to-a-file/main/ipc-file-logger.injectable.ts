@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { getOrInsertWith } from "@freelensapp/utilities";
+import { getOrInsertWith } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import createIpcFileLoggerTransportInjectable from "./create-ipc-file-transport.injectable";
 

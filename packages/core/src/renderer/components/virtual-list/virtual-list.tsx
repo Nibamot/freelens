@@ -8,7 +8,7 @@
 // API docs: https://react-window.vercel.app
 import "./virtual-list.scss";
 
-import { cssNames } from "@freelensapp/utilities";
+import { cssNames } from "@nibamot/utilities";
 import { isEqual } from "es-toolkit";
 import { observer } from "mobx-react";
 import React, { useCallback, useEffect, useImperativeHandle, useRef, useState } from "react";

@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { requestFromChannelInjectionToken } from "@freelensapp/messaging";
+import { requestFromChannelInjectionToken } from "@nibamot/messaging";
 import { runInAction } from "mobx";
 import { KubernetesCluster } from "../../../../../common/catalog-entities/kubernetes-cluster";
 import catalogEntityRegistryInjectable from "../../../../../renderer/api/catalog/entity/registry.injectable";

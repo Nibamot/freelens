@@ -5,7 +5,7 @@
  */
 
 import asyncFn from "@async-fn/vitest";
-import { showErrorNotificationInjectable, showSuccessNotificationInjectable } from "@freelensapp/notifications";
+import { showErrorNotificationInjectable, showSuccessNotificationInjectable } from "@nibamot/notifications";
 import { fireEvent, waitFor } from "@testing-library/react";
 import execFileInjectable from "../../common/fs/exec-file.injectable";
 import helmBinaryPathInjectable from "../../main/helm/helm-binary-path.injectable";
@@ -15,7 +15,7 @@ import { getApplicationBuilder } from "../../renderer/components/test-utils/get-
 import { testUsingFakeTime } from "../../test-utils/use-fake-time";
 import requestPublicHelmRepositoriesInjectable from "./child-features/preferences/renderer/adding-of-public-helm-repository/public-helm-repositories/request-public-helm-repositories.injectable";
 
-import type { AsyncResult } from "@freelensapp/utilities";
+import type { AsyncResult } from "@nibamot/utilities";
 
 import type { AsyncFnMock } from "@async-fn/vitest";
 import type { RenderResult } from "@testing-library/react";

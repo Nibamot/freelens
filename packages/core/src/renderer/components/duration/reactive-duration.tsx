@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { formatDuration } from "@freelensapp/utilities";
+import { formatDuration } from "@nibamot/utilities";
 import { observer } from "mobx-react";
 import { reactiveNow } from "../../../common/utils/reactive-now/reactive-now";
 

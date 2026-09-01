@@ -6,7 +6,7 @@
 
 import "./kube-object-details.scss";
 
-import { Spinner } from "@freelensapp/spinner";
+import { Spinner } from "@nibamot/spinner";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
 import React from "react";
@@ -17,7 +17,7 @@ import { KubeObjectMenu } from "../kube-object-menu";
 import currentKubeObjectInDetailsInjectable from "./current-kube-object-in-details.injectable";
 import kubeObjectDetailItemsInjectable from "./kube-object-detail-items/kube-object-detail-items.injectable";
 
-import type { KubeObject } from "@freelensapp/kube-object";
+import type { KubeObject } from "@nibamot/kube-object";
 
 import type { IComputedValue } from "mobx";
 

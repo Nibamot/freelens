@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { hasOptionalTypedProperty, hasTypedProperty, isNumber, isObject, isString } from "@freelensapp/utilities";
+import { hasOptionalTypedProperty, hasTypedProperty, isNumber, isObject, isString } from "@nibamot/utilities";
 
 import type { KubeStatusData } from "./api-types";
 

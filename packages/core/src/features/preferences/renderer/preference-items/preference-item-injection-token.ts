@@ -6,7 +6,7 @@
 
 import { getInjectionToken } from "@ogre-tools/injectable";
 
-import type { MaybeOrderable, Orderable } from "@freelensapp/utilities";
+import type { MaybeOrderable, Orderable } from "@nibamot/utilities";
 
 import type React from "react";
 
