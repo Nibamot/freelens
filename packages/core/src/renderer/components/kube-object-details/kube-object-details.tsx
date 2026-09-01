@@ -50,11 +50,13 @@ const NonInjectedKubeObjectDetails = observer((props: Dependencies) => {
   // state, which flashed an empty details drawer open on startup (React 17's
   // legacy renderer never painted it). Gating on the URL param avoids the flash.
   const hasSelectedObject = Boolean(kubeDetailsUrlParam.get());
+  const open = hasSelectedObject && Boolean(isLoading || currentKubeObject);
+  const components = detailComponents.get();
 
   return (
     <Drawer
       className="KubeObjectDetails flex flex-col"
-      open={hasSelectedObject && Boolean(isLoading || currentKubeObject)}
+      open={open}
       title={currentKubeObject?.object ? `${currentKubeObject.object.kind}: ${currentKubeObject.object.getName()}` : ""}
       toolbar={currentKubeObject?.object && <KubeObjectMenu object={currentKubeObject.object} toolbar={true} />}
       onClose={hideDetails}
@@ -68,7 +70,7 @@ const NonInjectedKubeObjectDetails = observer((props: Dependencies) => {
       )}
       {currentKubeObject?.object && (
         <>
-          {detailComponents.get().map((Component, index) => (
+          {components.map((Component, index) => (
             <Component key={index} object={currentKubeObject.object} />
           ))}
         </>

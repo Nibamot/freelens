@@ -49,12 +49,22 @@ export function asyncComputed<T>({
 
       invalidateAtom.reportObserved();
 
-      runInAction(() => {
-        pendingBox.set(true);
+      // Defer these writes to a microtask instead of running them inline: this
+      // derivation runs while whatever reaction is reading `.value`/`.pending`
+      // (e.g. a React `observer` render) is still actively tracking its
+      // dependencies, and mobx computed values must not have side effects.
+      // Writing `pendingBox`/`syncValueBox` synchronously here invalidates that
+      // reaction mid-read, forcing it to restart - which for a React 18
+      // synchronous root manifests as a repeated render-restart loop pinning
+      // the CPU (observed when opening a resource's details drawer).
+      queueMicrotask(() => {
+        runInAction(() => {
+          pendingBox.set(true);
 
-        if (betweenUpdates === "show-pending-value") {
-          syncValueBox.set(valueWhenPending);
-        }
+          if (betweenUpdates === "show-pending-value") {
+            syncValueBox.set(valueWhenPending);
+          }
+        });
       });
 
       return Promise.race([
