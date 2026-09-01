@@ -58,10 +58,12 @@
     word-break: break-all;
     position: relative;
     min-height: 54px;
+    flex-wrap: wrap;
 
     .drawer-title-text {
       font-weight: bold;
       flex-grow: 2;
+      min-width: 6em;
       padding-right: $padding;
     }
 
