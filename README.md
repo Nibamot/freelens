@@ -32,8 +32,14 @@ download the right package for your system.
 macOS 12 or later is required.
 
 Download either the PKG (installer) or DMG (image) package from the
-[releases](https://github.com/Nibamot/ims-scope/releases) page. Both arm64
-(M1 chip or newer) and amd64 (Intel) variants are available.
+[releases](https://github.com/Nibamot/ims-scope/releases) page, or install
+with Homebrew:
+
+```sh
+brew install --cask nibamot/ims-scope/ims-scope
+```
+
+Both arm64 (M1 chip or newer) and amd64 (Intel) variants are available.
 
 These builds are not signed and notarized with an Apple Developer
 certificate, so Gatekeeper will refuse to open them with a "damaged" or
@@ -44,6 +50,19 @@ terminal:
 ```sh
 xattr -cr /Applications/IMS-Scope.app
 ```
+
+The Homebrew cask hits the same Gatekeeper warning, since `brew install`
+neither signs nor notarizes the app — it just downloads the same DMG. Run the
+`xattr -cr` command above (Homebrew installs to `/Applications` by default),
+or reinstall with `--no-quarantine` to skip setting the attribute in the
+first place:
+
+```sh
+brew install --cask --no-quarantine nibamot/ims-scope/ims-scope
+```
+
+`--no-quarantine` requires either `brew` running as root or passwordless
+`sudo`, since removing the quarantine attribute needs elevated privileges.
 
 ### Linux
 
