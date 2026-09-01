@@ -14,7 +14,7 @@ const root = dirname(fileURLToPath(import.meta.url));
 // A workspace package is a Vitest project when it declares vitest as a
 // devDependency; this reproduces exactly the project set the deleted
 // jest.config.js markers used to define.
-const projectDirs = globSync("{packages/**,freelens}/package.json", { cwd: root })
+const projectDirs = globSync("{packages/**,ims-scope}/package.json", { cwd: root })
   .filter((p) => !p.includes("node_modules"))
   .filter((p) => {
     const pkg = JSON.parse(readFileSync(join(root, p), "utf8")) as { devDependencies?: Record<string, string> };
@@ -24,11 +24,11 @@ const projectDirs = globSync("{packages/**,freelens}/package.json", { cwd: root 
   .filter((dir) => existsSync(join(dir, "package.json")));
 
 // Every project runs under jsdom (the old @nibamot/jest configForReact)
-// except freelens itself, whose tests are Playwright-driven integration tests
+// except ims-scope itself, whose tests are Playwright-driven integration tests
 // that need the node environment. Vitest resolves CSS/asset imports natively,
 // so the old moduleNameMapper entries (identity-obj-proxy, assetMock) were
 // dropped rather than migrated.
-const nodeEnvironmentDirs = new Set([join(root, "freelens")]);
+const nodeEnvironmentDirs = new Set([join(root, "ims-scope")]);
 
 // Per-package setup files.
 const setupCandidates = ["src/vitest.setup.tsx", "src/vitest-after-env.setup.ts"];
@@ -61,7 +61,7 @@ export default defineConfig({
       return {
         // The shared Jest config mapped "^electron$" to identity-obj-proxy for
         // every monorepo package; vitest.electron-stub.ts keeps that behaviour
-        // for the package projects. The freelens project is excluded: its
+        // for the package projects. The ims-scope project is excluded: its
         // tests are Playwright-driven and talk to a real Electron binary.
         ...(nodeEnvironmentDirs.has(dir)
           ? {}

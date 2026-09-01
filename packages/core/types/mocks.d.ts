@@ -36,7 +36,7 @@ declare module "*.ttf" {
   export = content;
 }
 
-// Vite-specific import qualifiers (v2 build; see freelens/electron.vite.config.ts)
+// Vite-specific import qualifiers (v2 build; see ims-scope/electron.vite.config.ts)
 declare module "*.svg?raw" {
   const content: string;
   export default content;

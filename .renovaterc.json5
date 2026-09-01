@@ -129,7 +129,7 @@
       "customType": "regex",
       "extractVersionTemplate": "^(?<version>.*)$",
       "managerFilePatterns": [
-        "/^freelens/package\\.json$/"
+        "/^ims-scope/package\\.json$/"
       ],
       "matchStrings": [
         "\"k8sProxyVersion\":\\s*\"(?<currentValue>\\d+\\.\\d+\\.\\d+)\""
@@ -143,7 +143,7 @@
       "customType": "regex",
       "extractVersionTemplate": "^(?<version>.*)$",
       "managerFilePatterns": [
-        "/^freelens/package\\.json$/"
+        "/^ims-scope/package\\.json$/"
       ],
       "matchStrings": [
         "\"bundledHelmVersion\":\\s*\"(?<currentValue>\\d+\\.\\d+\\.\\d+)\""
@@ -173,7 +173,7 @@
         "/^\\.github/workflows/.*\\.ya?ml$/",
         "/^\\.trunk/trunk.yaml/",
         "/^\\.tool-versions$/",
-        "/^freelens/electron-builder\\.yml$/"
+        "/^ims-scope/electron-builder\\.yml$/"
       ],
       "matchStrings": [
         "(\\s+|.*?@)(?<currentValue>\\S+?)!?\\s*#\\s*datasource=(?<datasource>\\S+)\\s+depName=(?<depName>\\S+)(\\s+versioning=(?<versioning>\\S+))?(\\s+registryUrl=(?<registryUrl>\\S+))?\\s*\\n"

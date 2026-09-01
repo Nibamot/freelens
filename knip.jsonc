@@ -8,7 +8,7 @@
   // written against the enabled globals never import it directly.
   "ignoreDependencies": ["vitest"],
 
-  // Note: several ignoreDependencies entries below (electron for freelens,
+  // Note: several ignoreDependencies entries below (electron for ims-scope,
   // core, and the technical-feature packages; @nibamot/core for extensions;
   // react for the button package) are only needed in --production --strict
   // mode, where devDependency imports in production files count as unlisted. In
@@ -42,7 +42,7 @@
     // field, which is how the third-party packages externalized from the ESM
     // main bundle by electron-vite's externalizeDepsPlugin are detected as
     // used dependencies.
-    "freelens": {
+    "ims-scope": {
       "entry": [
         "build/notarize.cjs",
         "electron.vite.config.ts",
@@ -165,7 +165,7 @@
 
     // electron is provided by the host app at runtime, so it is declared only
     // as a devDependency; production code in these packages imports it, which
-    // the --production --strict pass reports as unlisted (same as freelens and
+    // the --production --strict pass reports as unlisted (same as ims-scope and
     // packages/core above)
     "packages/technical-features/application/application-for-electron-main": {
       "ignoreDependencies": ["electron"]

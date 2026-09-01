@@ -46,7 +46,7 @@ jobs:
       - name: Get version from package.json
         id: package-json
         run: |
-          echo "version=$(yq -pj -oy -r .version freelens/package.json)" >> $GITHUB_OUTPUT
+          echo "version=$(yq -pj -oy -r .version ims-scope/package.json)" >> $GITHUB_OUTPUT
 
       - name: Check if version is release
         id: check-version

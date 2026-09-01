@@ -9,7 +9,7 @@
 // shim (`./runtime-shim.ts`, emitted as `dist/extension-api.js`), which
 // resolves the same members from `globalThis.IMSScopeExtensionApi` at
 // runtime. The app assigns that global at startup (see
-// `freelens/src/{main,renderer}/index.ts`).
+// `ims-scope/src/{main,renderer}/index.ts`).
 //
 // `Common`, `Main`, and `Renderer` are re-exported as namespaces (not consts)
 // so extension authors can use them in type positions —

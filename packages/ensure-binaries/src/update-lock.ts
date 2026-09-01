@@ -28,7 +28,7 @@ const options = arg({
 // Relative paths resolve against the working directory, which pnpm sets to the
 // package running the script. INIT_CWD would not do: it holds the directory
 // pnpm was invoked from, so `pnpm -r update-binaries-lock` at the repository
-// root would look for the root package.json instead of freelens/package.json.
+// root would look for the root package.json instead of ims-scope/package.json.
 const pathToPackage = path.resolve(options["--package"] ?? "package.json");
 const pathToLock = path.resolve(
   options["--lock"] ?? path.join(path.dirname(options["--package"] ?? "."), "binaries.lock.json"),

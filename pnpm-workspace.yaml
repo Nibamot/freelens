@@ -1,5 +1,5 @@
 packages:
-  - freelens
+  - ims-scope
   - packages/**
 
 # Versions here are pinned exactly. Every workspace package resolves its

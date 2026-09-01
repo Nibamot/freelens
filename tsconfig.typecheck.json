@@ -54,9 +54,9 @@
     "packages/**/*.ts",
     "packages/**/*.tsx",
     "packages/core/types/*.d.ts",
-    "freelens/src/**/*",
-    "freelens/integration/**/*.ts",
-    "freelens/vitest.integration.config.ts"
+    "ims-scope/src/**/*",
+    "ims-scope/integration/**/*.ts",
+    "ims-scope/vitest.integration.config.ts"
   ],
   "exclude": ["**/node_modules/**", "**/dist/**", "**/dist-types/**", "**/static/**", "**/binaries/**"]
 }

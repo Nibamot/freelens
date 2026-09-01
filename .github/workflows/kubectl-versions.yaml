@@ -86,7 +86,7 @@ jobs:
         run: |
           cat packages/kubectl-versions/build/versions.json | yq -pj -oy '.[-1][-1]' > .github/version.log
           version=$(cat .github/version.log)
-          yq -pj -oj -i '.config.bundledKubectlVersion="'"$version"'"' freelens/package.json
+          yq -pj -oj -i '.config.bundledKubectlVersion="'"$version"'"' ims-scope/package.json
           echo "Bundled kubectl version $version" > .github/pr_body.log
 
       # The build verifies every download against binaries.lock.json, so the

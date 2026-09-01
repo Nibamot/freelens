@@ -132,8 +132,8 @@ jobs:
           # Read the <name>@<version> -> pnpm-store-path map published with the
           # release (reduced, so several of them merge). Only runtime
           # findings are reported: npm packages in this map, plus non-npm
-          # packages (Go modules, native binaries) shipped under freelens/dist or
-          # freelens/binaries. This drops build-time dev tools (esbuild,
+          # packages (Go modules, native binaries) shipped under ims-scope/dist or
+          # ims-scope/binaries. This drops build-time dev tools (esbuild,
           # typescript, ...) and the Go binaries bundled with them, which never
           # reach users.
           yq ea -pj -oj '. as $i ireduce ({}; . * $i)' prod/*-prod-packages.json > prod-set.json
@@ -145,7 +145,7 @@ jobs:
             name=$(basename "$sbom" .spdx.json)
             # Reduce the SBOM to runtime packages before scanning.
             # sub("\x5c"; "/"): the Windows SBOM records sourceInfo paths with
-            # backslashes, which the /freelens/... test below would never match -
+            # backslashes, which the /ims-scope/... test below would never match -
             # every shipped non-npm package (Electron DLLs, node-pty, the bundled
             # Go CLIs) would silently drop out of the scan. \x5c rather than a
             # literal backslash because yq unescapes the string first, leaving
@@ -159,7 +159,7 @@ jobs:
                 select(
                   (($purl | test("^pkg:npm/")) and ($set[$key] != null))
                   or
-                  (($purl | test("^pkg:npm/") | not) and ($path | test("^/freelens/(dist|binaries)/")))
+                  (($purl | test("^pkg:npm/") | not) and ($path | test("^/ims-scope/(dist|binaries)/")))
                 )
               )
             ' "$sbom" > "runtime-${name}.spdx.json"

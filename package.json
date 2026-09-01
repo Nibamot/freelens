@@ -16,7 +16,7 @@
   },
   "workspaces": [
     "packages/**/*",
-    "freelens"
+    "ims-scope"
   ],
   "scripts": {
     "asar": "pnpm dlx @electron/asar@4.2.1",

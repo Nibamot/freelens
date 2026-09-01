@@ -12,7 +12,7 @@ import httpProxy from "http-proxy-node16";
 import type { LensApiRequest, RouteResponse } from "../../router/route";
 
 // Must match the `server.port` of the Vite dev server started by
-// `electron-vite dev` (freelens/electron.vite.config.ts); both sides read the
+// `electron-vite dev` (ims-scope/electron.vite.config.ts); both sides read the
 // same environment variable.
 const devServerPort = Number(process.env.IMS_SCOPE_DEV_SERVER_PORT) || 9191;
 
