@@ -1,6 +1,6 @@
 {
   "name": "freelens",
-  "version": "2.0.0-3",
+  "version": "2.0.0-4",
   "private": true,
   "description": "Freelens - Free IDE for Kubernetes",
   "keywords": [],
@@ -88,7 +88,6 @@
     "joi": "catalog:",
     "js-yaml": "catalog:",
     "mobx": "catalog:",
-    "undici": "catalog:",
     "node-pty": "catalog:",
     "p-limit": "catalog:",
     "pnpm": "catalog:",
@@ -100,6 +99,7 @@
     "tcp-port-used": "catalog:",
     "tempy": "catalog:",
     "triple-beam": "catalog:",
+    "undici": "catalog:",
     "uuid": "catalog:",
     "winston": "catalog:",
     "ws": "catalog:",

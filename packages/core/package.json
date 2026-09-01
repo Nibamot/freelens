@@ -1,6 +1,6 @@
 {
   "name": "@freelensapp/core",
-  "version": "2.0.0-3",
+  "version": "2.0.0-4",
   "private": true,
   "description": "Freelens Core",
   "keywords": [],
@@ -121,7 +121,6 @@
     "mobx-react-lite": "catalog:",
     "mobx-utils": "catalog:",
     "monaco-editor": "catalog:",
-    "undici": "catalog:",
     "node-pty": "catalog:",
     "pnpm": "catalog:",
     "proper-lockfile": "catalog:",
@@ -136,6 +135,7 @@
     "tcp-port-used": "catalog:",
     "tempy": "catalog:",
     "triple-beam": "catalog:",
+    "undici": "catalog:",
     "uuid": "catalog:",
     "winston": "catalog:",
     "winston-transport": "catalog:",
