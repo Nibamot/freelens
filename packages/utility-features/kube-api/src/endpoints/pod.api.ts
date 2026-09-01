@@ -16,6 +16,10 @@ import type {
   ResourceDescriptor,
 } from "../kube-api";
 
+// Pod log requests go through the API server's proxy to the kubelet, which can stall
+// indefinitely on a broken connection without ever erroring; bound it so the UI can recover.
+const POD_LOGS_TIMEOUT_MS = 30_000;
+
 export class PodApi extends KubeApi<Pod> {
   constructor(deps: KubeApiDependencies, opts?: DerivedKubeApiOptions) {
     super(deps, {
@@ -86,7 +90,7 @@ export class PodApi extends KubeApi<Pod> {
   async getLogs(params: ResourceDescriptor, query?: PodLogsQuery): Promise<string> {
     const path = `${this.getUrl(params)}/log`;
 
-    const logs = await this.request.get(path, { query });
+    const logs = await this.request.get(path, { query }, { signal: AbortSignal.timeout(POD_LOGS_TIMEOUT_MS) });
 
     if (typeof logs !== "string") {
       return "";

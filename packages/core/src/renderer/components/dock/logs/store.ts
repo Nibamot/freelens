@@ -20,6 +20,10 @@ type PodLogLine = string;
 
 const logLinesToLoad = 500;
 
+// If the pod/tab data never becomes available (e.g. dropped from the watch stream), bound the
+// wait so load()/loadMore() reject and clear isLoading instead of hanging forever.
+const podDataWaitTimeoutMs = 30_000;
+
 interface Dependencies {
   callForLogs: CallForLogs;
 }
@@ -130,16 +134,19 @@ export class LogStore {
     const {
       pod,
       tabData: { selectedContainer, showPrevious },
-    } = await waitUntilDefined(() => {
-      const pod = computedPod.get();
-      const tabData = logTabData.get();
+    } = await waitUntilDefined(
+      () => {
+        const pod = computedPod.get();
+        const tabData = logTabData.get();
 
-      if (pod && tabData) {
-        return { pod, tabData };
-      }
+        if (pod && tabData) {
+          return { pod, tabData };
+        }
 
-      return undefined;
-    });
+        return undefined;
+      },
+      { timeout: podDataWaitTimeoutMs },
+    );
     const namespace = pod.getNs();
     const name = pod.getName();
 

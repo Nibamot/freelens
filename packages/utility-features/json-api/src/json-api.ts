@@ -63,6 +63,20 @@ export interface JsonApiLog {
 
 export type GetRequestOptions = () => Promise<RequestInit>;
 
+// Requests can stall indefinitely on a broken connection (dead proxy, stale port) without ever
+// erroring, leaving callers awaiting forever. Bound requests that have no signal of their own so
+// callers can recover. Callers that already supply a signal (e.g. a Kubernetes watch's long-lived
+// abortController, meant to stay open indefinitely) are taking responsibility for their own
+// lifecycle and must not be forced onto this default.
+const DEFAULT_REQUEST_TIMEOUT_MS = 30_000;
+
+function withDefaultTimeout(init: RequestInit): RequestInit {
+  return {
+    ...init,
+    signal: init.signal ?? AbortSignal.timeout(DEFAULT_REQUEST_TIMEOUT_MS),
+  };
+}
+
 export interface JsonApiConfig {
   apiBase: string;
   serverAddress: string;
@@ -144,7 +158,7 @@ export class JsonApi<Data = JsonApiData, Params extends JsonApiParams<Data> = Js
     let reqUrl = `${this.config.serverAddress}${this.config.apiBase}${path}`;
     // No keep-alive agent is supplied: undici pools per dispatcher and Chromium
     // pools on its own, so neither client needs one per request.
-    const reqInit = merge({ method: "GET" }, this.reqInit, await this.getRequestOptions(), init);
+    const reqInit = withDefaultTimeout(merge({ method: "GET" }, this.reqInit, await this.getRequestOptions(), init));
     const { query } = params ?? {};
 
     if (query && Object.keys(query).length > 0) {
@@ -202,7 +216,7 @@ export class JsonApi<Data = JsonApiData, Params extends JsonApiParams<Data> = Js
     init: Defaulted<RequestInit, "method">,
   ) {
     let reqUrl = `${this.config.serverAddress}${this.config.apiBase}${path}`;
-    const reqInit = merge({}, this.reqInit, await this.getRequestOptions(), init);
+    const reqInit = withDefaultTimeout(merge({}, this.reqInit, await this.getRequestOptions(), init));
     const { data, query } = params || {};
 
     if (data && !reqInit.body) {

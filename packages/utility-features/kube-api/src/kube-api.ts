@@ -171,6 +171,11 @@ const not =
   (val: T) =>
     !fn(val);
 
+// getLatestApiPrefixGroup() issues these discovery requests outside of any caller-supplied
+// reqInit/AbortSignal, so a stalled connection to the API server would otherwise hang the
+// enclosing list()/get() call forever with no way to recover short of a full app reload.
+const API_DISCOVERY_TIMEOUT_MS = 10_000;
+
 const getOrderedVersions = (
   list: KubeApiResourceVersionList,
   allowedUsableVersions: string[] | undefined,
@@ -449,13 +454,15 @@ export class KubeApi<
 
       try {
         const { apiPrefix, apiGroup, resource } = parsedApi;
-        const list = (await this.request.get(`${apiPrefix}/${apiGroup}`)) as KubeApiResourceVersionList;
+        const list = (await this.request.get(`${apiPrefix}/${apiGroup}`, undefined, {
+          signal: AbortSignal.timeout(API_DISCOVERY_TIMEOUT_MS),
+        })) as KubeApiResourceVersionList;
         const resourceVersions = getOrderedVersions(list, this.allowedUsableVersions?.[apiGroup]);
 
         for (const resourceVersion of resourceVersions) {
-          const { resources } = (await this.request.get(
-            `${apiPrefix}/${resourceVersion.groupVersion}`,
-          )) as KubeApiResourceList;
+          const { resources } = (await this.request.get(`${apiPrefix}/${resourceVersion.groupVersion}`, undefined, {
+            signal: AbortSignal.timeout(API_DISCOVERY_TIMEOUT_MS),
+          })) as KubeApiResourceList;
 
           if (resources.some(({ name }) => name === resource)) {
             return {
