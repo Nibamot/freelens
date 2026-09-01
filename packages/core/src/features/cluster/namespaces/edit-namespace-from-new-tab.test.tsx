@@ -224,7 +224,7 @@ metadata:
                         op: "add",
                         path: "/metadata/annotations",
                         value: {
-                          "freelens.app/resource-version": "some-api-version",
+                          "ims-scope.app/resource-version": "some-api-version",
                         },
                       },
                     ],
@@ -555,7 +555,7 @@ metadata:
                           op: "add",
                           path: "/metadata/annotations",
                           value: {
-                            "freelens.app/resource-version": "some-api-version",
+                            "ims-scope.app/resource-version": "some-api-version",
                           },
                         },
                         {
@@ -781,7 +781,7 @@ metadata:
                           op: "add",
                           path: "/metadata/annotations",
                           value: {
-                            "freelens.app/resource-version": "some-api-version",
+                            "ims-scope.app/resource-version": "some-api-version",
                           },
                         },
                       ],
@@ -858,7 +858,7 @@ metadata:
                             op: "add",
                             path: "/metadata/annotations",
                             value: {
-                              "freelens.app/resource-version": "some-api-version",
+                              "ims-scope.app/resource-version": "some-api-version",
                             },
                           },
                         ],
