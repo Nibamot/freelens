@@ -1,6 +1,6 @@
 {
   "name": "@nibamot/prometheus",
-  "version": "2.0.0-5",
+  "version": "2.0.0-6",
   "private": true,
   "description": "Prometheus support for IMS-Scope",
   "homepage": "https://github.com/Nibamot/ims-scope",
@@ -29,8 +29,8 @@
     "@ogre-tools/injectable": "catalog:"
   },
   "devDependencies": {
-    "@nibamot/typescript": "workspace:^",
     "@kubernetes/client-node": "catalog:",
+    "@nibamot/typescript": "workspace:^",
     "@ogre-tools/fp": "catalog:",
     "typescript": "catalog:"
   },

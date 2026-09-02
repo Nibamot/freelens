@@ -1,6 +1,6 @@
 {
   "name": "ims-scope",
-  "version": "2.0.0-5",
+  "version": "2.0.0-6",
   "private": true,
   "description": "IMS-Scope - Free IDE for Kubernetes",
   "keywords": [],
@@ -61,6 +61,9 @@
   },
   "dependencies": {
     "@astronautlabs/jsonpath": "catalog:",
+    "@hapi/call": "catalog:",
+    "@hapi/subtext": "catalog:",
+    "@kubernetes/client-node": "catalog:",
     "@nibamot/application": "workspace:^",
     "@nibamot/application-for-electron-main": "workspace:^",
     "@nibamot/core": "workspace:^",
@@ -70,9 +73,6 @@
     "@nibamot/messaging-for-main": "workspace:^",
     "@nibamot/prometheus": "workspace:^",
     "@nibamot/random": "workspace:^",
-    "@hapi/call": "catalog:",
-    "@hapi/subtext": "catalog:",
-    "@kubernetes/client-node": "catalog:",
     "@ogre-tools/fp": "catalog:",
     "@ogre-tools/injectable": "catalog:",
     "@ogre-tools/injectable-extension-for-mobx": "catalog:",
