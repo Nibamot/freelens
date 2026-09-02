@@ -5,7 +5,7 @@
  */
 
 import asyncFn from "@async-fn/vitest";
-import { flushPromises, getPromiseStatus } from "@freelensapp/test-utils";
+import { flushPromises, getPromiseStatus } from "@nibamot/test-utils";
 import { createContainer, getInjectable, getInjectionToken } from "@ogre-tools/injectable";
 import { runInAction } from "mobx";
 import { runManyFor } from "./run-many-for";

@@ -1,37 +1,37 @@
 {
-  "name": "@freelensapp/messaging-for-renderer",
+  "name": "@nibamot/messaging-for-renderer",
   "version": "2.0.0-5",
   "private": true,
   "description": "Implementations for 'messaging' in Electron renderer",
-  "homepage": "https://freelens.app",
+  "homepage": "https://github.com/Nibamot/ims-scope",
   "bugs": {
-    "url": "https://github.com/freelensapp/freelens/issues"
+    "url": "https://github.com/Nibamot/ims-scope/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/freelensapp/freelens.git"
+    "url": "git+https://github.com/Nibamot/ims-scope.git"
   },
   "license": "MIT",
   "type": "module",
   "author": {
     "name": "Freelens Authors",
-    "email": "freelens@freelens.app"
+    "email": "ims-scope@ims-scope.app"
   },
   "main": "./index.ts",
   "types": "./index.ts",
   "scripts": {
     "clean:dist": "pnpm dlx rimraf@6.1.3 dist",
-    "test:unit": "vitest run -c ../../../../vitest.config.ts --project @freelensapp/messaging-for-renderer"
+    "test:unit": "vitest run -c ../../../../vitest.config.ts --project @nibamot/messaging-for-renderer"
   },
   "dependencies": {
-    "@freelensapp/application": "workspace:^",
-    "@freelensapp/feature-core": "workspace:^",
-    "@freelensapp/messaging": "workspace:^",
+    "@nibamot/application": "workspace:^",
+    "@nibamot/feature-core": "workspace:^",
+    "@nibamot/messaging": "workspace:^",
     "@ogre-tools/injectable": "catalog:"
   },
   "devDependencies": {
     "@async-fn/vitest": "catalog:",
-    "@freelensapp/typescript": "workspace:^",
+    "@nibamot/typescript": "workspace:^",
     "@ogre-tools/injectable-extension-for-mobx": "catalog:",
     "electron": "catalog:",
     "mobx": "catalog:",

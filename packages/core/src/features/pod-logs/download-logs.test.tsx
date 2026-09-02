@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { showErrorNotificationInjectable } from "@freelensapp/notifications";
+import { showErrorNotificationInjectable } from "@nibamot/notifications";
 import { act, waitFor } from "@testing-library/react";
 import dockStoreInjectable from "../../renderer/components/dock/dock/store.injectable";
 import { dockerPod } from "../../renderer/components/dock/logs/__test__/pod.mock";
@@ -25,7 +25,7 @@ import getPodByIdInjectable from "../../renderer/components/workloads-pods/get-p
 import getPodsByOwnerIdInjectable from "../../renderer/components/workloads-pods/get-pods-by-owner-id.injectable";
 import openSaveFileDialogInjectable from "../../renderer/utils/save-file.injectable";
 
-import type { Container } from "@freelensapp/kube-object";
+import type { Container } from "@nibamot/kube-object";
 
 import type { DiContainer } from "@ogre-tools/injectable";
 import type { RenderResult } from "@testing-library/react";

@@ -6,7 +6,7 @@
 
 import assert from "node:assert";
 import * as path from "node:path";
-import { getOrInsertWith } from "@freelensapp/utilities";
+import { getOrInsertWith } from "@nibamot/utilities";
 import directoryForUserDataInjectable from "../common/app-paths/directory-for-user-data/directory-for-user-data.injectable";
 import createPersistentStorageInjectable, {
   type PersistentStorage,

@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { isDefined } from "@freelensapp/utilities";
+import { isDefined } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import { action, toJS } from "mobx";
 import z from "zod";

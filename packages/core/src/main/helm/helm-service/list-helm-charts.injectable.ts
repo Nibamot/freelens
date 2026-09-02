@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { object } from "@freelensapp/utilities";
+import { object } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import helmChartManagerInjectable from "../helm-chart-manager.injectable";
 import getActiveHelmRepositoriesInjectable from "../repositories/get-active-helm-repositories/get-active-helm-repositories.injectable";

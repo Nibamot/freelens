@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { noop } from "@freelensapp/utilities";
+import { noop } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import { persistStateToConfigInjectionToken } from "../common/save-to-file";
 

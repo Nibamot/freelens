@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import type { KubeStatusData } from "@freelensapp/kube-object";
+import type { KubeStatusData } from "@nibamot/kube-object";
 
 export type IKubeWatchEvent<T> =
   | {

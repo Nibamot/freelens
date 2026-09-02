@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { onLoadOfApplicationInjectionToken } from "@freelensapp/application";
-import { iter } from "@freelensapp/utilities";
+import { onLoadOfApplicationInjectionToken } from "@nibamot/application";
+import { iter } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import { computed } from "mobx";
 import catalogEntityRegistryInjectable from "../../../main/catalog/entity-registry.injectable";

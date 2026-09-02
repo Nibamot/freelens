@@ -4,13 +4,13 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Icon } from "@freelensapp/icon";
-import { base64, cssNames, isObject } from "@freelensapp/utilities";
+import { Icon } from "@nibamot/icon";
+import { base64, cssNames, isObject } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import React, { useState } from "react";
 import secretStoreInjectable from "../config-secrets/store.injectable";
 
-import type { EnvVarKeySelector } from "@freelensapp/kube-object";
+import type { EnvVarKeySelector } from "@nibamot/kube-object";
 
 import type { SetRequired } from "type-fest";
 

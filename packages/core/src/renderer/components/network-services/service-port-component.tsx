@@ -6,11 +6,11 @@
 
 import "./service-port-component.scss";
 
-import { Button } from "@freelensapp/button";
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { showErrorNotificationInjectable } from "@freelensapp/notifications";
-import { Spinner } from "@freelensapp/spinner";
-import { cssNames } from "@freelensapp/utilities";
+import { Button } from "@nibamot/button";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { showErrorNotificationInjectable } from "@nibamot/notifications";
+import { Spinner } from "@nibamot/spinner";
+import { cssNames } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { action, makeObservable, observable } from "mobx";
 import { observer } from "mobx-react";
@@ -22,9 +22,9 @@ import openPortForwardInjectable from "../../port-forward/open-port-forward.inje
 import portForwardDialogModelInjectable from "../../port-forward/port-forward-dialog-model/port-forward-dialog-model.injectable";
 import portForwardStoreInjectable from "../../port-forward/port-forward-store/port-forward-store.injectable";
 
-import type { Service, ServicePort } from "@freelensapp/kube-object";
-import type { Logger } from "@freelensapp/logger";
-import type { ShowNotification } from "@freelensapp/notifications";
+import type { Service, ServicePort } from "@nibamot/kube-object";
+import type { Logger } from "@nibamot/logger";
+import type { ShowNotification } from "@nibamot/notifications";
 
 import type { ForwardedPort, PortForwardStore } from "../../port-forward";
 import type { OpenPortForward } from "../../port-forward/open-port-forward.injectable";

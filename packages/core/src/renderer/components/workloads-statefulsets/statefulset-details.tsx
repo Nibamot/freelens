@@ -6,8 +6,8 @@
 
 import "./statefulset-details.scss";
 
-import { StatefulSet } from "@freelensapp/kube-object";
-import { loggerInjectionToken } from "@freelensapp/logger";
+import { StatefulSet } from "@nibamot/kube-object";
+import { loggerInjectionToken } from "@nibamot/logger";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
 import React from "react";
@@ -21,7 +21,7 @@ import { PodDetailsTolerations } from "../workloads-pods/pod-details-tolerations
 import podStoreInjectable from "../workloads-pods/store.injectable";
 import statefulSetStoreInjectable from "./store.injectable";
 
-import type { Logger } from "@freelensapp/logger";
+import type { Logger } from "@nibamot/logger";
 
 import type { SubscribeStores } from "../../kube-watch-api/kube-watch-api";
 import type { KubeObjectDetailsProps } from "../kube-object-details";

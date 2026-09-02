@@ -7,7 +7,7 @@
 import requestPodMetricsForDeploymentsInjectable from "../../../common/k8s-api/endpoints/metrics.api/request-pod-metrics-for-deployments.injectable";
 import { createTimeRangedMetricsInjectable } from "../resource-metrics/create-time-ranged-metrics";
 
-import type { Deployment } from "@freelensapp/kube-object";
+import type { Deployment } from "@nibamot/kube-object";
 
 interface DeploymentMetricsInjectableParams {
   deployment: Deployment;

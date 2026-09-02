@@ -6,10 +6,10 @@
 
 import "./view.scss";
 
-import { Icon } from "@freelensapp/icon";
-import { roleApiInjectable } from "@freelensapp/kube-api-specifics";
-import { showCheckedErrorNotificationInjectable } from "@freelensapp/notifications";
-import { iter, ObservableHashSet } from "@freelensapp/utilities";
+import { Icon } from "@nibamot/icon";
+import { roleApiInjectable } from "@nibamot/kube-api-specifics";
+import { showCheckedErrorNotificationInjectable } from "@nibamot/notifications";
+import { iter, ObservableHashSet } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { action, computed, makeObservable, observable } from "mobx";
 import { observer } from "mobx-react";
@@ -29,9 +29,9 @@ import roleBindingStoreInjectable from "../store.injectable";
 import closeRoleBindingDialogInjectable from "./close.injectable";
 import roleBindingDialogStateInjectable from "./state.injectable";
 
-import type { RoleApi } from "@freelensapp/kube-api";
-import type { ClusterRole, Role, ServiceAccount, Subject } from "@freelensapp/kube-object";
-import type { ShowCheckedErrorNotification } from "@freelensapp/notifications";
+import type { RoleApi } from "@nibamot/kube-api";
+import type { ClusterRole, Role, ServiceAccount, Subject } from "@nibamot/kube-object";
+import type { ShowCheckedErrorNotification } from "@nibamot/notifications";
 
 import type { IObservableValue } from "mobx";
 

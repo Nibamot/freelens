@@ -4,15 +4,15 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { animateFeature, requestAnimationFrameInjectable } from "@freelensapp/animate";
-import { clusterSidebarFeature } from "@freelensapp/cluster-sidebar";
-import { registerFeature } from "@freelensapp/feature-core";
-import { kubeApiSpecificsFeature } from "@freelensapp/kube-api-specifics";
-import { loggerFeature } from "@freelensapp/logger";
-import { messagingFeature, testUtils as messagingTestUtils } from "@freelensapp/messaging";
-import { notificationsFeature } from "@freelensapp/notifications";
-import { randomFeature } from "@freelensapp/random";
-import { routingFeature } from "@freelensapp/routing";
+import { animateFeature, requestAnimationFrameInjectable } from "@nibamot/animate";
+import { clusterSidebarFeature } from "@nibamot/cluster-sidebar";
+import { registerFeature } from "@nibamot/feature-core";
+import { kubeApiSpecificsFeature } from "@nibamot/kube-api-specifics";
+import { loggerFeature } from "@nibamot/logger";
+import { messagingFeature, testUtils as messagingTestUtils } from "@nibamot/messaging";
+import { notificationsFeature } from "@nibamot/notifications";
+import { randomFeature } from "@nibamot/random";
+import { routingFeature } from "@nibamot/routing";
 import { createContainer, isInjectable } from "@ogre-tools/injectable";
 import { registerMobX } from "@ogre-tools/injectable-extension-for-mobx";
 import { chunk, noop } from "es-toolkit";
@@ -26,7 +26,7 @@ import startTopbarStateSyncInjectable from "./components/layout/top-bar/start-st
 import legacyOnChannelListenInjectable from "./ipc/legacy-channel-listen.injectable";
 import watchHistoryStateInjectable from "./remote-helpers/watch-history-state.injectable";
 
-import type { GlobalOverride } from "@freelensapp/test-utils";
+import type { GlobalOverride } from "@nibamot/test-utils";
 
 // The injectable files must be loaded through Vite's transform pipeline
 // (import.meta.glob), not native require(path): the source-only workspace

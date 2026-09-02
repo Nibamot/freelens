@@ -1,0 +1,183 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/electron-userland/electron-builder/refs/heads/master/packages/app-builder-lib/scheme.json
+
+electronVersion: 42.7.1 # datasource=npm depName=electron
+
+## node-pty is our only native module and it is a N-API (node-addon-api)
+## addon, so its bundled prebuilt binaries are ABI-stable and load as-is on
+## every Electron version we ship. No native rebuild is needed at pack time.
+npmRebuild: false
+
+## There is no support in app for autoupdates yet
+detectUpdateChannel: false
+generateUpdatesFilesForAllChannels: true
+publish: []
+
+## Files in app.asar
+files:
+  - static
+  ## Workspace packages are bundled from TypeScript source into
+  ## static/build by electron-vite and never required at runtime
+  - "!node_modules/@nibamot/**"
+  - "!node_modules/electron"
+  ## Source maps and TS build info are only useful when debugging local builds
+  - "!**/*.map"
+  - "!**/*.tsbuildinfo"
+  ## Monaco is bundled into the renderer by Vite and never required at runtime
+  - "!node_modules/monaco-editor/**"
+  ## node-pty ships vendor-provided prebuilt binaries under prebuilds/ that we
+  ## load as-is (see npmRebuild above). A local build/ directory would only ever
+  ## contain unsigned binaries that some antivirus engines flag as false
+  ## positives (see issue #2021), so exclude it: node-pty's loader then falls
+  ## back to the vendor prebuilds at runtime (lib/utils.js checks build/Release
+  ## first, then prebuilds/<platform>-<arch>).
+  - "!node_modules/node-pty/build"
+  ## Native binaries for other platforms/arches are never loaded at runtime, so
+  ## exclude them at pack time. Doing this here (instead of deleting them from
+  ## app.asar.unpacked afterwards) keeps the app.asar header consistent with the
+  ## files actually present. ${platform} expands to darwin/linux/win32 and ${arch}
+  ## to x64/arm64, matching node-pty's prebuild directory names (e.g. darwin-arm64)
+  ## and the pnpm reflink binary names (e.g. reflink.linux-x64-<hash>.node).
+  - "!node_modules/node-pty/prebuilds/!(${platform}-${arch})"
+  - "!node_modules/node-pty/prebuilds/!(${platform}-${arch})/**"
+  - "!node_modules/pnpm/dist/reflink.!(${platform}-${arch}*).node"
+
+## Notarization
+afterSign: build/notarize.cjs
+
+## Used to register the app as a handler for the ims-scope:// protocol
+protocols:
+  name: IMS-Scope Protocol Handler
+  schemes:
+    - ims-scope
+  role: Viewer
+
+## For Linux targets
+linux:
+  appId: io.github.nibamot.ims-scope
+  category: Development;Network
+  artifactName: ${productName}-${version}.${arch}.${ext}
+  target:
+    - AppImage
+  extraResources:
+    - from: binaries/client/linux/${arch}/kubectl
+      to: ./${arch}/kubectl
+    - from: binaries/client/linux/${arch}/freelens-k8s-proxy
+      to: ./${arch}/freelens-k8s-proxy
+    - from: binaries/client/linux/${arch}/helm
+      to: ./${arch}/helm
+  publish: null
+
+appImage:
+  executableArgs:
+    - --ozone-platform-hint=auto
+    - --enable-features=WebRTCPipeWireCapturer
+    - --enable-features=WaylandWindowDecorations
+    - --disable-gpu-compositing
+    - --no-sandbox
+  license: static/build/license.txt
+
+deb:
+  depends:
+    - libgtk-3-0
+    - libnotify4
+    - libnss3
+    - libxss1
+    - libxtst6
+    - xdg-utils
+    - libatspi2.0-0
+    - libuuid1
+    - libsecret-1-0
+    - libasound2
+    - libgbm1
+  executableArgs:
+    - --ozone-platform-hint=auto
+    - --enable-features=WebRTCPipeWireCapturer
+    - --enable-features=WaylandWindowDecorations
+    - --disable-gpu-compositing
+  afterInstall: ./build/after-install-deb.sh
+  afterRemove: ./build/after-remove-deb.sh
+  fpm:
+    - ./build/apparmor-profile.aa=/etc/apparmor.d/ims-scope
+    - ./build/apt/ims-scope.asc=/etc/apt/keyrings/ims-scope.asc
+    - ./build/apt/ims-scope.sources=/etc/apt/sources.list.d/ims-scope.sources
+    - ./build/metainfo.xml=/usr/share/metainfo/io.github.nibamot.ims-scope.metainfo.xml
+  packageCategory: devel
+
+## Official Flatpak is built from the separate repository
+flatpak:
+  useWaylandFlags: true
+  license: static/build/license.txt
+
+## Official Snap is built from the separate repository
+snap:
+  allowNativeWayland: true
+  confinement: classic
+
+rpm:
+  depends:
+    - gtk3
+    - libnotify
+    - nss
+    - libXScrnSaver
+    - (libXtst or libXtst6)
+    - xdg-utils
+    - at-spi2-core
+    - (libdrm2 or libdrm)
+    - (libgbm1 or libgmb or mesa-libgbm)
+    - (alsa-lib or libalsa2 or libasound2)
+  executableArgs:
+    - --ozone-platform-hint=auto
+    - --enable-features=WebRTCPipeWireCapturer
+    - --enable-features=WaylandWindowDecorations
+    - --disable-gpu-compositing
+  fpm:
+    - --rpm-rpmbuild-define=_build_id_links none
+    - ./build/metainfo.xml=/usr/share/metainfo/io.github.nibamot.ims-scope.metainfo.xml
+  packageCategory: devel
+
+## For macOS targets
+mac:
+  appId: io.github.nibamot.ims-scope
+  hardenedRuntime: true
+  gatekeeperAssess: false
+  category: public.app-category.developer-tools
+  darkModeSupport: true
+  entitlements: build/entitlements.mac.plist
+  entitlementsInherit: build/entitlements.mac.plist
+  extraResources:
+    - from: binaries/client/darwin/${arch}/kubectl
+      to: ./${arch}/kubectl
+    - from: binaries/client/darwin/${arch}/freelens-k8s-proxy
+      to: ./${arch}/freelens-k8s-proxy
+    - from: binaries/client/darwin/${arch}/helm
+      to: ./${arch}/helm
+  publish: null
+
+pkg:
+  license: static/build/license.txt
+
+## For Windows targets
+win:
+  appId: io.github.nibamot.ims-scope
+  target:
+    - nsis
+    - portable
+  extraResources:
+    - from: binaries/client/windows/${arch}/kubectl.exe
+      to: ./${arch}/kubectl.exe
+    - from: binaries/client/windows/${arch}/freelens-k8s-proxy.exe
+      to: ./${arch}/freelens-k8s-proxy.exe
+    - from: binaries/client/windows/${arch}/helm.exe
+      to: ./${arch}/helm.exe
+  publish: null
+
+msi:
+  perMachine: false
+
+nsis:
+  include: build/installer.nsh
+  oneClick: false
+  allowElevation: true
+  createStartMenuShortcut: true
+  allowToChangeInstallationDirectory: true
+  license: static/build/license.txt

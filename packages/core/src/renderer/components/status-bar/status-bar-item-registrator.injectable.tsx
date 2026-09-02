@@ -4,15 +4,15 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { getRandomIdInjectionToken } from "@freelensapp/random";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { getRandomIdInjectionToken } from "@nibamot/random";
 import { getInjectable } from "@ogre-tools/injectable";
 import { computed } from "mobx";
 import React from "react";
 import { extensionRegistratorInjectionToken } from "../../../extensions/extension-loader/extension-registrator-injection-token";
 import { statusBarItemInjectionToken } from "./status-bar-item-injection-token";
 
-import type { Logger } from "@freelensapp/logger";
+import type { Logger } from "@nibamot/logger";
 
 import type { Injectable } from "@ogre-tools/injectable";
 

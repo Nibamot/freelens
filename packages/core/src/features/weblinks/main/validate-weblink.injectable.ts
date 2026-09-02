@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { chainSignal } from "@freelensapp/utilities";
+import { chainSignal } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import fetchInjectable from "../../../common/fetch/fetch.injectable";
 import { withTimeout } from "../../../common/fetch/timeout-controller";

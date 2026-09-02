@@ -4,10 +4,10 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { ClusterRoleBinding } from "@freelensapp/kube-object";
+import { ClusterRoleBinding } from "@nibamot/kube-object";
 import { KubeApi } from "../kube-api";
 
-import type { ClusterRoleBindingData } from "@freelensapp/kube-object";
+import type { ClusterRoleBindingData } from "@nibamot/kube-object";
 
 import type { DerivedKubeApiOptions, KubeApiDependencies } from "../kube-api";
 

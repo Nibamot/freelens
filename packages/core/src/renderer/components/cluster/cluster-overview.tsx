@@ -4,9 +4,9 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { clusterOverviewUIBlockInjectionToken } from "@freelensapp/metrics";
-import { Spinner } from "@freelensapp/spinner";
-import { byOrderNumber } from "@freelensapp/utilities";
+import { clusterOverviewUIBlockInjectionToken } from "@nibamot/metrics";
+import { Spinner } from "@nibamot/spinner";
+import { byOrderNumber } from "@nibamot/utilities";
 import { computedInjectManyInjectionToken } from "@ogre-tools/injectable-extension-for-mobx";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
@@ -21,7 +21,7 @@ import podStoreInjectable from "../workloads-pods/store.injectable";
 import { ClusterIssues } from "./cluster-issues";
 import styles from "./cluster-overview.module.scss";
 
-import type { ClusterOverviewUIBlock } from "@freelensapp/metrics";
+import type { ClusterOverviewUIBlock } from "@nibamot/metrics";
 
 import type { IComputedValue } from "mobx";
 

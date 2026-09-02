@@ -6,7 +6,7 @@
 
 import "./ingress-classes.scss";
 
-import { Icon } from "@freelensapp/icon";
+import { Icon } from "@nibamot/icon";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
 import { KubeObjectAge } from "../kube-object";
@@ -15,7 +15,7 @@ import { SiblingsInTabLayout } from "../layout/siblings-in-tab-layout";
 import { WithTooltip } from "../with-tooltip";
 import ingressClassStoreInjectable from "./ingress-class-store.injectable";
 
-import type { IngressClass } from "@freelensapp/kube-object";
+import type { IngressClass } from "@nibamot/kube-object";
 
 import type { IngressClassStore } from "./ingress-class-store";
 

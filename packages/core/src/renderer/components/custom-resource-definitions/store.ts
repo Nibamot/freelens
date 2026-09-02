@@ -8,8 +8,8 @@ import autoBind from "auto-bind";
 import { computed, makeObservable } from "mobx";
 import { KubeObjectStore } from "../../../common/k8s-api/kube-object.store";
 
-import type { CustomResourceDefinitionApi } from "@freelensapp/kube-api";
-import type { CustomResourceDefinition, KubeObject } from "@freelensapp/kube-object";
+import type { CustomResourceDefinitionApi } from "@nibamot/kube-api";
+import type { CustomResourceDefinition, KubeObject } from "@nibamot/kube-object";
 
 import type { KubeObjectStoreDependencies, KubeObjectStoreOptions } from "../../../common/k8s-api/kube-object.store";
 

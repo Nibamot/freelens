@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { getMessageChannelListenerInjectable } from "@freelensapp/messaging";
-import { runManyFor } from "@freelensapp/run-many";
+import { getMessageChannelListenerInjectable } from "@nibamot/messaging";
+import { runManyFor } from "@nibamot/run-many";
 import { rootFrameHasRenderedChannel } from "../../../../common/root-frame/root-frame-rendered-channel";
 import { afterRootFrameIsReadyInjectionToken } from "../../runnable-tokens/phases";
 

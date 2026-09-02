@@ -9,7 +9,7 @@
 //
 // Deliberately NOT handled here (behaviour-bearing, left for local iteration,
 // CI red allowed on v2 per D9):
-//   - deleting the 33 jest.config.js files and the shared @freelensapp/jest
+//   - deleting the 33 jest.config.js files and the shared @nibamot/jest
 //     package, and swapping devDependencies + the pnpm lockfile;
 //   - repointing per-package `test:unit` scripts from `jest` to `vitest run`;
 //   - wiring setupFiles and regenerating snapshots per package (§6 risk);

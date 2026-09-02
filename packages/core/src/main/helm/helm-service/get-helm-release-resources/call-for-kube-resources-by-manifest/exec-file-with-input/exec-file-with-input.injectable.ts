@@ -5,12 +5,12 @@
  */
 
 import assert from "node:assert";
-import { isNumber } from "@freelensapp/utilities";
+import { isNumber } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import nonPromiseExecFileInjectable from "./non-promise-exec-file.injectable";
 import type { ChildProcess } from "node:child_process";
 
-import type { AsyncResult } from "@freelensapp/utilities";
+import type { AsyncResult } from "@nibamot/utilities";
 
 export type ExecFileWithInput = (options: {
   filePath: string;

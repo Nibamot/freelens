@@ -6,7 +6,7 @@
 
 import "./pod-container-env.scss";
 
-import { cpuUnitsToNumber, metricUnitsToNumber, object, unitsToBytes } from "@freelensapp/utilities";
+import { cpuUnitsToNumber, metricUnitsToNumber, object, unitsToBytes } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { ceil, get, last, round, sortBy, toPath } from "es-toolkit/compat";
 import { autorun } from "mobx";
@@ -17,7 +17,7 @@ import secretStoreInjectable from "../config-secrets/store.injectable";
 import { DrawerItem } from "../drawer";
 import { SecretKey } from "./secret-key";
 
-import type { Container, Pod, ResourceRequirements } from "@freelensapp/kube-object";
+import type { Container, Pod, ResourceRequirements } from "@nibamot/kube-object";
 
 import type { ConfigMapStore } from "../config-maps/store";
 import type { SecretStore } from "../config-secrets/store";

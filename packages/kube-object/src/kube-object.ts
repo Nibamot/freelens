@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { formatDuration, formatRelativeTime, isObject, isString } from "@freelensapp/utilities";
+import { formatDuration, formatRelativeTime, isObject, isString } from "@nibamot/utilities";
 import autoBind from "auto-bind";
 import { omit } from "es-toolkit/compat";
 import { KubeCreationError } from "./api-types";

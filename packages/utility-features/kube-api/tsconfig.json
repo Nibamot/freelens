@@ -1,4 +1,4 @@
 {
-  "extends": "@freelensapp/typescript/config/base.json",
+  "extends": "@nibamot/typescript/config/base.json",
   "include": ["**/*.ts", "../kube-api-specifics/src/token.ts"]
 }

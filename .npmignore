@@ -28,6 +28,6 @@ site/
 *.md
 pnpm-workspace.yaml
 .??*
-freelens
+ims-scope
 packages
 scripts

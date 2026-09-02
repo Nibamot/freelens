@@ -6,7 +6,7 @@
 
 import "./tooltip.scss";
 
-import { cssNames } from "@freelensapp/utilities";
+import { cssNames } from "@nibamot/utilities";
 import autoBindReact from "auto-bind/react";
 import { action, makeObservable, observable, runInAction } from "mobx";
 import { observer } from "mobx-react";
@@ -14,7 +14,7 @@ import React from "react";
 import { createPortal } from "react-dom";
 import { computeNextPosition } from "./helpers";
 
-import type { IClassName, StrictReactNode } from "@freelensapp/utilities";
+import type { IClassName, StrictReactNode } from "@nibamot/utilities";
 
 export enum TooltipPosition {
   TOP = "top",

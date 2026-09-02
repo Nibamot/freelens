@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { CustomResourceDefinition, KubeObject } from "@freelensapp/kube-object";
+import { CustomResourceDefinition, KubeObject } from "@nibamot/kube-object";
 import { getDiForUnitTesting } from "../../../getDiForUnitTesting";
 import { renderFor } from "../../test-utils/renderFor";
 import { CustomResourceDetails } from "../details";

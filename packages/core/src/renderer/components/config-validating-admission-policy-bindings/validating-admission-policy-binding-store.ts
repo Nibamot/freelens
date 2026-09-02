@@ -6,8 +6,8 @@
 
 import { KubeObjectStore } from "../../../common/k8s-api/kube-object.store";
 
-import type { ValidatingAdmissionPolicyBindingApi } from "@freelensapp/kube-api";
-import type { ValidatingAdmissionPolicyBinding } from "@freelensapp/kube-object";
+import type { ValidatingAdmissionPolicyBindingApi } from "@nibamot/kube-api";
+import type { ValidatingAdmissionPolicyBinding } from "@nibamot/kube-object";
 
 export class ValidatingAdmissionPolicyBindingStore extends KubeObjectStore<
   ValidatingAdmissionPolicyBinding,

@@ -6,9 +6,9 @@
 
 import "./menu-actions.scss";
 
-import { Icon } from "@freelensapp/icon";
-import { getRandomIdInjectionToken } from "@freelensapp/random";
-import { cssNames } from "@freelensapp/utilities";
+import { Icon } from "@nibamot/icon";
+import { getRandomIdInjectionToken } from "@nibamot/random";
+import { cssNames } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import autoBindReact from "auto-bind/react";
 import { makeObservable, observable, reaction } from "mobx";
@@ -17,9 +17,9 @@ import React, { isValidElement } from "react";
 import openConfirmDialogInjectable from "../confirm-dialog/open.injectable";
 import { Menu, MenuItem } from "./menu";
 
-import type { IconProps } from "@freelensapp/icon";
-import type { TooltipDecoratorProps } from "@freelensapp/tooltip";
-import type { StrictReactNode } from "@freelensapp/utilities";
+import type { IconProps } from "@nibamot/icon";
+import type { TooltipDecoratorProps } from "@nibamot/tooltip";
+import type { StrictReactNode } from "@nibamot/utilities";
 
 import type { OpenConfirmDialog } from "../confirm-dialog/open.injectable";
 import type { MenuProps } from "./menu";

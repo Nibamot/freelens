@@ -7,7 +7,7 @@ import { noop } from "es-toolkit";
 import { computed, type IObservableValue, observable } from "mobx";
 import { FavoritesStore } from "./store.injectable";
 
-import type { SidebarItemDeclaration } from "@freelensapp/cluster-sidebar";
+import type { SidebarItemDeclaration } from "@nibamot/cluster-sidebar";
 
 import type { FavoritesStorageState } from "../../../features/favorites/common/storage.injectable";
 

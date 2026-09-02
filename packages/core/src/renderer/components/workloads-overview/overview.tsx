@@ -6,8 +6,8 @@
 
 import "./overview.scss";
 
-import { Icon } from "@freelensapp/icon";
-import { TooltipPosition } from "@freelensapp/tooltip";
+import { Icon } from "@nibamot/icon";
+import { TooltipPosition } from "@nibamot/tooltip";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { makeObservable, observable, reaction } from "mobx";
 import { observer } from "mobx-react";

@@ -1,5 +1,5 @@
 import asyncFn from "@async-fn/vitest";
-import { registerFeature } from "@freelensapp/feature-core";
+import { registerFeature } from "@nibamot/feature-core";
 import { createContainer, DiContainer } from "@ogre-tools/injectable";
 import { getPromiseStatus } from "@ogre-tools/test-utils";
 import electronAppInjectable from "../electron/electron-app.injectable";

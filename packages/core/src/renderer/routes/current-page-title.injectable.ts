@@ -4,14 +4,14 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { sidebarItemsInjectable } from "@freelensapp/cluster-sidebar";
+import { sidebarItemsInjectable } from "@nibamot/cluster-sidebar";
 import { getInjectable } from "@ogre-tools/injectable";
 import { computed } from "mobx";
 import catalogEntitiesInjectable from "../api/catalog/entity/entities.injectable";
 import getEntityByIdInjectable from "../api/catalog/entity/get-by-id.injectable";
 import currentPathInjectable from "./current-path.injectable";
 
-import type { SidebarItemDeclaration } from "@freelensapp/cluster-sidebar";
+import type { SidebarItemDeclaration } from "@nibamot/cluster-sidebar";
 
 function findActiveLeaf(items: SidebarItemDeclaration[]): SidebarItemDeclaration | undefined {
   for (const item of items) {

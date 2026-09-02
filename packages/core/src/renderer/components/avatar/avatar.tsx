@@ -4,12 +4,12 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { cssNames } from "@freelensapp/utilities";
+import { cssNames } from "@nibamot/utilities";
 import { computeDefaultShortName } from "../../../common/catalog/helpers";
 import styles from "./avatar.module.scss";
 import { seededColor } from "./seeded-color";
 
-import type { StrictReactNode } from "@freelensapp/utilities";
+import type { StrictReactNode } from "@nibamot/utilities";
 
 import type { ImgHTMLAttributes, MouseEventHandler } from "react";
 

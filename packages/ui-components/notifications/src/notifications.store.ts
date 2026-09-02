@@ -8,7 +8,7 @@ import autoBind from "auto-bind";
 import { uniqueId } from "es-toolkit/compat";
 import { action, makeObservable, observable } from "mobx";
 
-import type { JsonApiErrorParsed } from "@freelensapp/json-api";
+import type { JsonApiErrorParsed } from "@nibamot/json-api";
 
 import type React from "react";
 import type { SetRequired } from "type-fest";

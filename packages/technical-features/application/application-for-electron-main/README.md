@@ -1,16 +1,16 @@
-# @freelensapp/application-for-electron-main
+# @nibamot/application-for-electron-main
 
-This Feature extends `@freelensapp/application` with Electron specifics.
+This Feature extends `@nibamot/application` with Electron specifics.
 
 ## Usage
 ```sh
-npm install @freelensapp/application-for-electron-main
+npm install @nibamot/application-for-electron-main
 ```
 
 ```typescript
-import { applicationFeature, startApplicationInjectionToken } from "@freelensapp/application";
-import { applicationFeatureForElectronMain } from "@freelensapp/application-for-electron-main";
-import { registerFeature } from "@freelensapp/feature-core";
+import { applicationFeature, startApplicationInjectionToken } from "@nibamot/application";
+import { applicationFeatureForElectronMain } from "@nibamot/application-for-electron-main";
+import { registerFeature } from "@nibamot/feature-core";
 import { createContainer } from "@ogre-tools/injectable";
 
 const di = createContainer("some-container");

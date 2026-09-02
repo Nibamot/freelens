@@ -5,9 +5,9 @@
  */
 
 import path from "node:path";
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { showErrorNotificationInjectable, showInfoNotificationInjectable } from "@freelensapp/notifications";
-import { noop } from "@freelensapp/utilities";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { showErrorNotificationInjectable, showInfoNotificationInjectable } from "@nibamot/notifications";
+import { noop } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import fse from "fs-extra";
 import { when } from "mobx";
@@ -18,7 +18,7 @@ import { extensionDisplayName } from "../../../../extensions/lens-extension";
 import { getMessageFromError } from "../get-message-from-error/get-message-from-error";
 import getExtensionDestFolderInjectable from "./get-extension-dest-folder.injectable";
 
-import type { Disposer } from "@freelensapp/utilities";
+import type { Disposer } from "@nibamot/utilities";
 
 import type { InstallRequestValidated } from "./create-temp-files-and-validate.injectable";
 

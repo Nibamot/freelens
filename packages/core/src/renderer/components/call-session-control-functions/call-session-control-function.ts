@@ -3,9 +3,9 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { KubeObject } from "@freelensapp/kube-object";
+import { KubeObject } from "@nibamot/kube-object";
 
-import type { KubeObjectStatus, NamespaceScopedMetadata } from "@freelensapp/kube-object";
+import type { KubeObjectStatus, NamespaceScopedMetadata } from "@nibamot/kube-object";
 
 export interface CallSessionControlFunctionSpec {
   replicas?: number;

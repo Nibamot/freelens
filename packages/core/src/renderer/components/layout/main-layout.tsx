@@ -9,16 +9,16 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { ErrorBoundary } from "@freelensapp/error-boundary";
-import { ResizeDirection, ResizeGrowthDirection, ResizeSide, ResizingAnchor } from "@freelensapp/resizing-anchor";
-import { cssNames } from "@freelensapp/utilities";
+import { ErrorBoundary } from "@nibamot/error-boundary";
+import { ResizeDirection, ResizeGrowthDirection, ResizeSide, ResizingAnchor } from "@nibamot/resizing-anchor";
+import { cssNames } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
 import React from "react";
 import styles from "./main-layout.module.scss";
 import sidebarStorageInjectable, { defaultSidebarWidth } from "./sidebar-storage/sidebar-storage.injectable";
 
-import type { StrictReactNode } from "@freelensapp/utilities";
+import type { StrictReactNode } from "@nibamot/utilities";
 
 import type { StorageLayer } from "../../utils/storage-helper";
 import type { SidebarStorageState } from "./sidebar-storage/sidebar-storage.injectable";

@@ -24,7 +24,7 @@ describe("lens extension", () => {
       manifest: {
         name: "foo-bar",
         version: "0.1.1",
-        engines: { freelens: "^0.1.0" },
+        engines: { "ims-scope": "^0.1.0" },
       },
       id: "/this/is/fake/package.json",
       absolutePath: "/absolute/fake/",

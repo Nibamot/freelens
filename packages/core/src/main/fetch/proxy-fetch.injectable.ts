@@ -9,7 +9,7 @@ import { fetch as undiciFetch } from "undici";
 import { withHostHeaderPreserved } from "./host-header-dispatcher";
 import httpsAgentInjectable from "./https-agent.injectable";
 
-import type { Fetch } from "@freelensapp/json-api";
+import type { Fetch } from "@nibamot/json-api";
 
 import type { RequestInit as UndiciRequestInit, Response as UndiciResponse } from "undici";
 

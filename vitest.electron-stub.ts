@@ -4,7 +4,7 @@
  */
 
 // Replicates the Jest moduleNameMapper `"^electron$": "identity-obj-proxy"`
-// from the removed @freelensapp/jest shared config: every named import from
+// from the removed @nibamot/jest shared config: every named import from
 // "electron" resolves to its own name as a string. Unit tests never talk to a
 // real Electron; they only need stable, non-undefined placeholders they can
 // compare against (e.g. `expect(di.inject(ipcRendererInjectable)).toBe(ipcRenderer)`).

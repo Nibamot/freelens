@@ -6,7 +6,7 @@
 
 import { getInjectionToken } from "@ogre-tools/injectable";
 
-import type { KubeObject } from "@freelensapp/kube-object";
+import type { KubeObject } from "@nibamot/kube-object";
 
 import type { IComputedValue } from "mobx";
 import type React from "react";

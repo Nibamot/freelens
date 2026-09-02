@@ -9,7 +9,7 @@ import kubeconfigManagerInjectable from "../../kubeconfig-manager/kubeconfig-man
 import getHelmReleaseDataInjectable from "./get-helm-release-data.injectable";
 import getHelmReleaseResourcesInjectable from "./get-helm-release-resources/get-helm-release-resources.injectable";
 
-import type { AsyncResult } from "@freelensapp/utilities";
+import type { AsyncResult } from "@nibamot/utilities";
 
 import type { Cluster } from "../../../common/cluster/cluster";
 import type { HelmReleaseDataWithResources } from "../../../features/helm-releases/common/channels";

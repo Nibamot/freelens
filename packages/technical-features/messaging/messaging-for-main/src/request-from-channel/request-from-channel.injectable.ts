@@ -1,4 +1,4 @@
-import { RequestChannel, RequestFromChannel, requestFromChannelInjectionToken } from "@freelensapp/messaging";
+import { RequestChannel, RequestFromChannel, requestFromChannelInjectionToken } from "@nibamot/messaging";
 /* c8 ignore start */
 import { getInjectable } from "@ogre-tools/injectable";
 

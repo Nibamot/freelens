@@ -11,7 +11,7 @@ import { Badge } from "../../badge";
 import { Select } from "../../select";
 import { findOptimalDefaultContainerOfPod } from "./default-container-helper";
 
-import type { Container, Pod } from "@freelensapp/kube-object";
+import type { Container, Pod } from "@nibamot/kube-object";
 
 import type { SingleValue } from "react-select";
 

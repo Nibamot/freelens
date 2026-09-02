@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Freelens Authors. All rights reserved.
+ * Copyright (c) IMS-Scope Authors. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -19,7 +19,7 @@ import type { Location, To } from "./vendor/history";
  *
  * `react-router` 5 is unmaintained and blocks the React 19 upgrade (see
  * `docs/v2-routing-modernization.md`). These components reproduce the small
- * `<Link>` / `<NavLink>` surface Freelens actually uses, driving navigation
+ * `<Link>` / `<NavLink>` surface IMS-Scope actually uses, driving navigation
  * through the in-house observable history (behind `observableHistoryInjectionToken`)
  * and computing the active state with the in-house `matchPath`, so the
  * `react-router-dom` import can be dropped from the call sites while behavior

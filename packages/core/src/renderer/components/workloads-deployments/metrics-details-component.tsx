@@ -10,7 +10,7 @@ import { TimeRangedResourceMetrics } from "../resource-metrics";
 import { PodCharts, podMetricTabs } from "../workloads-pods/pod-charts";
 import deploymentMetricsInjectable from "./metrics.injectable";
 
-import type { Deployment } from "@freelensapp/kube-object";
+import type { Deployment } from "@nibamot/kube-object";
 
 import type { DeploymentPodMetricData } from "../../../common/k8s-api/endpoints/metrics.api/request-pod-metrics-for-deployments.injectable";
 import type { IAsyncComputed } from "../../../common/utils/async-computed";

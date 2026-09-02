@@ -7,7 +7,7 @@
 import { createHash, randomBytes } from "node:crypto";
 import fs from "node:fs";
 import { setTimeout as delay } from "node:timers/promises";
-import { hasTypedProperty, isObject, isString, json } from "@freelensapp/utilities";
+import { hasTypedProperty, isObject, isString, json } from "@nibamot/utilities";
 import { noop } from "es-toolkit";
 import { ensureDir, pathExists } from "fs-extra";
 import * as lockFile from "proper-lockfile";
@@ -18,7 +18,7 @@ import {
   packageMirrors,
 } from "../../features/user-preferences/common/preferences-helpers";
 
-import type { Logger } from "@freelensapp/logger";
+import type { Logger } from "@nibamot/logger";
 
 import type { ExecFile, ExecFileError } from "../../common/fs/exec-file.injectable";
 import type { Unlink } from "../../common/fs/unlink.injectable";

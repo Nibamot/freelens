@@ -1,6 +1,6 @@
 import asyncFn, { AsyncFnMock } from "@async-fn/vitest";
-import { beforeApplicationIsLoadingInjectionToken, startApplicationInjectionToken } from "@freelensapp/application";
-import { registerFeature } from "@freelensapp/feature-core";
+import { beforeApplicationIsLoadingInjectionToken, startApplicationInjectionToken } from "@nibamot/application";
+import { registerFeature } from "@nibamot/feature-core";
 import { createContainer, DiContainer, getInjectable } from "@ogre-tools/injectable";
 import { applicationFeatureForElectronMain } from "./feature";
 import * as timeSlots from "./start-application/time-slots";

@@ -10,7 +10,7 @@ import { TimeRangedResourceMetrics } from "../resource-metrics";
 import { PodCharts, podMetricTabs } from "../workloads-pods/pod-charts";
 import statefulSetMetricsInjectable from "./metrics.injectable";
 
-import type { StatefulSet } from "@freelensapp/kube-object";
+import type { StatefulSet } from "@nibamot/kube-object";
 
 import type { StatefulSetPodMetricData } from "../../../common/k8s-api/endpoints/metrics.api/request-pod-metrics-for-stateful-sets.injectable";
 import type { IAsyncComputed } from "../../../common/utils/async-computed";

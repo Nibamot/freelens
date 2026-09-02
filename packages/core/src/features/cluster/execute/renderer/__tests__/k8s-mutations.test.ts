@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { requestFromChannelInjectionToken } from "@freelensapp/messaging";
+import { requestFromChannelInjectionToken } from "@nibamot/messaging";
 import { getDiForUnitTesting } from "../../../../../renderer/getDiForUnitTesting";
 import executeOnClusterInjectable from "../execute-on-cluster.injectable";
 

@@ -4,9 +4,9 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { isDefined } from "@freelensapp/utilities";
 import { KubeConfig } from "@kubernetes/client-node";
 import { newClusters, newContexts, newUsers } from "@kubernetes/client-node/dist/config_types.js";
+import { isDefined } from "@nibamot/utilities";
 import Joi from "joi";
 import * as yaml from "js-yaml";
 

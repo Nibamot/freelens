@@ -6,13 +6,13 @@
 
 import "./item-list-layout.scss";
 
-import { cssNames, isDefined } from "@freelensapp/utilities";
+import { cssNames, isDefined } from "@nibamot/utilities";
 import { observer } from "mobx-react";
 import React from "react";
 import { SearchInputUrl } from "../input";
 
-import type { ItemObject } from "@freelensapp/list-layout";
-import type { IClassName, StrictReactNode } from "@freelensapp/utilities";
+import type { ItemObject } from "@nibamot/list-layout";
+import type { IClassName, StrictReactNode } from "@nibamot/utilities";
 
 import type { HeaderCustomizer, HeaderPlaceholders, ItemListStore, ListLayoutSearchFilter } from "./list-layout";
 import type { Filter } from "./page-filters/store";

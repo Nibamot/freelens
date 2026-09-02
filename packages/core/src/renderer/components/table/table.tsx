@@ -7,7 +7,7 @@
 import "./table.scss";
 
 import assert from "node:assert";
-import { cssNames, isDefined } from "@freelensapp/utilities";
+import { cssNames, isDefined } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import autoBindReact from "auto-bind/react";
 import { observer } from "mobx-react";
@@ -20,8 +20,8 @@ import { TableHead } from "./table-head";
 import tableModelInjectable from "./table-model/table-model.injectable";
 import { TableRow } from "./table-row";
 
-import type { ItemObject } from "@freelensapp/list-layout";
-import type { StrictReactNode } from "@freelensapp/utilities";
+import type { ItemObject } from "@nibamot/list-layout";
+import type { StrictReactNode } from "@nibamot/utilities";
 
 import type { PageParam } from "../../navigation/page-param";
 import type { TableCellElem } from "./table-cell";

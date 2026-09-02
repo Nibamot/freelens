@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { loggerInjectionToken } from "@freelensapp/logger";
+import { loggerInjectionToken } from "@nibamot/logger";
 import { ipcMain } from "electron";
 import { once } from "es-toolkit";
 import { ipcMainHandle } from "../../common/ipc";
@@ -12,8 +12,8 @@ import { getEnvironmentSpecificDiForExtensionApi } from "../extension-api-di";
 import { Disposers } from "../lens-extension";
 import { IpcPrefix, IpcRegistrar } from "./ipc-registrar";
 
-import type { Logger } from "@freelensapp/logger";
-import type { Disposer } from "@freelensapp/utilities";
+import type { Logger } from "@nibamot/logger";
+import type { Disposer } from "@nibamot/utilities";
 
 import type { LensMainExtension } from "../lens-main-extension";
 

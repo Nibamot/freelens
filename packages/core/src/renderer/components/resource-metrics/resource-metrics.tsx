@@ -6,14 +6,14 @@
 
 import "./resource-metrics.scss";
 
-import { Spinner } from "@freelensapp/spinner";
-import { cssNames } from "@freelensapp/utilities";
+import { Spinner } from "@nibamot/spinner";
+import { cssNames } from "@nibamot/utilities";
 import { isComputed } from "mobx";
 import { observer } from "mobx-react-lite";
 import React, { createContext, useRef, useState } from "react";
 import { Radio, RadioGroup } from "../radio";
 
-import type { KubeObject } from "@freelensapp/kube-object";
+import type { KubeObject } from "@nibamot/kube-object";
 
 import type { MetricData } from "../../../common/k8s-api/endpoints/metrics.api";
 import type { IAsyncComputed } from "../../../common/utils/async-computed";

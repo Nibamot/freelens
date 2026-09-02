@@ -9,8 +9,8 @@ import { computedInjectManyInjectionToken } from "@ogre-tools/injectable-extensi
 import metricsDetailsComponentEnabledInjectable from "../../../../api/catalog/entity/metrics-details-component-enabled.injectable";
 import { DetailsMetricsContainer } from "./details-metrics-container";
 
-import type { KubeObject } from "@freelensapp/kube-object";
-import type { KubeObjectDetailMetrics } from "@freelensapp/metrics";
+import type { KubeObject } from "@nibamot/kube-object";
+import type { KubeObjectDetailMetrics } from "@nibamot/metrics";
 
 import type { InjectionToken } from "@ogre-tools/injectable";
 

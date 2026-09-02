@@ -119,7 +119,7 @@ describe("Extensions API", () => {
         expect(typeof extensions.Common.Util.getAppVersion).toBe("function");
       });
 
-      it("should export utility functions from @freelensapp/utilities", () => {
+      it("should export utility functions from @nibamot/utilities", () => {
         expect(extensions.Common.Util).toHaveProperty("debouncePromise");
         expect(typeof extensions.Common.Util.debouncePromise).toBe("function");
         expect(extensions.Common.Util).toHaveProperty("delay");

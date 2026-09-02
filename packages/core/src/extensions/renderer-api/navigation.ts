@@ -29,7 +29,7 @@ import isActiveRouteInjectable, { type IsRouteActive } from "../../renderer/navi
 import navigateInjectable, { type Navigate } from "../../renderer/navigation/navigate.injectable";
 import { asLazyInjectedFunctionForExtensionApi } from "../extension-api-di";
 
-export type { URLParams } from "@freelensapp/utilities";
+export type { URLParams } from "@nibamot/utilities";
 
 export type { PageParam, PageParamInit } from "../../renderer/navigation/page-param";
 export type {

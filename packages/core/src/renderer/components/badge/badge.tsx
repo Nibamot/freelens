@@ -4,14 +4,14 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { withTooltip } from "@freelensapp/tooltip";
-import { cssNames } from "@freelensapp/utilities";
+import { withTooltip } from "@nibamot/tooltip";
+import { cssNames } from "@nibamot/utilities";
 import { action, observable } from "mobx";
 import { observer } from "mobx-react";
 import React, { useEffect, useRef, useState } from "react";
 import styles from "./badge.module.scss";
 
-import type { StrictReactNode } from "@freelensapp/utilities";
+import type { StrictReactNode } from "@nibamot/utilities";
 
 export interface BadgeProps extends React.HTMLAttributes<HTMLDivElement> {
   small?: boolean;

@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { beforeElectronIsReadyInjectionToken } from "@freelensapp/application-for-electron-main";
+import { beforeElectronIsReadyInjectionToken } from "@nibamot/application-for-electron-main";
 import { getInjectable } from "@ogre-tools/injectable";
 import * as Mobx from "mobx";
 

@@ -4,13 +4,13 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { patchTypeHeaders } from "@freelensapp/kube-api";
+import { patchTypeHeaders } from "@nibamot/kube-api";
 import { getInjectable } from "@ogre-tools/injectable";
 import { getErrorMessage } from "../../../../../common/utils/get-error-message";
 import apiKubePatchInjectable from "../../../../k8s/api-kube-patch.injectable";
 
-import type { KubeApiPatchType } from "@freelensapp/kube-api";
-import type { AsyncResult } from "@freelensapp/utilities";
+import type { KubeApiPatchType } from "@nibamot/kube-api";
+import type { AsyncResult } from "@nibamot/utilities";
 
 import type { JsonPatch } from "../../../../../common/k8s-api/kube-object.store";
 

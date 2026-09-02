@@ -8,8 +8,8 @@ import * as yaml from "js-yaml";
 import { temporaryDirectory, temporaryFile } from "tempy";
 import { defaultYamlDumpOptions } from "../../common/kube-helpers";
 
-import type { Logger } from "@freelensapp/logger";
-import type { AsyncResult } from "@freelensapp/utilities";
+import type { Logger } from "@nibamot/logger";
+import type { AsyncResult } from "@nibamot/utilities";
 
 import type { KubernetesObject } from "@kubernetes/client-node";
 import type { Patch } from "rfc6902";

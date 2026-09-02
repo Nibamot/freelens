@@ -6,7 +6,7 @@
 
 import "@testing-library/jest-dom/vitest";
 
-import { Icon } from "@freelensapp/icon";
+import { Icon } from "@nibamot/icon";
 import { getDiForUnitTesting } from "../../../getDiForUnitTesting";
 import { type DiRender, renderFor } from "../../test-utils/renderFor";
 import { Avatar } from "../avatar";

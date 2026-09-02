@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { waitUntilDefined } from "@freelensapp/utilities";
+import { waitUntilDefined } from "@nibamot/utilities";
 import { getInjectable, lifecycleEnum } from "@ogre-tools/injectable";
 import { action, computed, observable, when } from "mobx";
 import requestHelmReleaseConfigurationInjectable from "../../../../common/k8s-api/endpoints/helm-releases.api/request-configuration.injectable";
@@ -14,7 +14,7 @@ import releasesInjectable from "../../helm-releases/releases.injectable";
 import updateReleaseInjectable from "../../helm-releases/update-release/update-release.injectable";
 import upgradeChartTabDataInjectable from "./tab-data.injectable";
 
-import type { AsyncResult } from "@freelensapp/utilities";
+import type { AsyncResult } from "@nibamot/utilities";
 
 import type { IComputedValue } from "mobx";
 import type { SingleValue } from "react-select";

@@ -9,7 +9,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Spinner } from "@freelensapp/spinner";
+import { Spinner } from "@nibamot/spinner";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
 import { RemovableItem } from "../../../../preferences/renderer/removable-item/removable-item";

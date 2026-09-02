@@ -1,22 +1,22 @@
 {
-  "name": "freelens-monorepo",
+  "name": "ims-scope-monorepo",
   "private": true,
-  "homepage": "https://freelens.app",
+  "homepage": "https://github.com/Nibamot/ims-scope",
   "bugs": {
-    "url": "https://github.com/freelensapp/freelens/issues"
+    "url": "https://github.com/Nibamot/ims-scope/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/freelensapp/freelens.git"
+    "url": "git+https://github.com/Nibamot/ims-scope.git"
   },
   "license": "MIT",
   "author": {
     "name": "Freelens Authors",
-    "email": "freelens@freelens.app"
+    "email": "ims-scope@ims-scope.app"
   },
   "workspaces": [
     "packages/**/*",
-    "freelens"
+    "ims-scope"
   ],
   "scripts": {
     "asar": "pnpm dlx @electron/asar@4.2.1",
@@ -24,8 +24,8 @@
     "biome:check": "pnpm biome check",
     "biome:fix": "pnpm biome check --fix",
     "biome:migrate": "pnpm biome migrate --write",
-    "build": "turbo run build --filter=!freelens -- && turbo run build --filter=freelens --",
-    "build:packages": "turbo run build --filter=!freelens --",
+    "build": "turbo run build --filter=!ims-scope -- && turbo run build --filter=ims-scope --",
+    "build:packages": "turbo run build --filter=!ims-scope --",
     "postbuild": "turbo run build:resources --",
     "build:app": "turbo run build:app --",
     "build:app:dir": "pnpm build:app dir",
@@ -33,7 +33,7 @@
     "build:dev": "NODE_ENV=development turbo run build:dev --",
     "postbuild:dev": "turbo run build:resources --",
     "build:di": "node scripts/generate-explicit-di-registration.mjs",
-    "build:freelens": "cd freelens && pnpm build",
+    "build:ims-scope": "cd ims-scope && pnpm build",
     "build:resources": "turbo run build:resources --",
     "bump-version": "pnpm version --no-commit-hooks --no-git-tag-version --workspaces --no-workspaces-update",
     "clean": "pnpm run clean:dist && pnpm purge",
@@ -54,15 +54,15 @@
     "prettier": "pnpm dlx prettier@3.8.5",
     "prettier:check": "pnpm prettier --check .",
     "prettier:fix": "pnpm prettier --write .",
-    "start": "cd freelens && pnpm start",
+    "start": "cd ims-scope && pnpm start",
     "start:os": "pnpm dlx run-script-os@1.1.6 --",
-    "start:os:darwin": "open --stdout $(tty) --stderr $(tty) freelens:",
-    "start:os:linux": "xdg-open freelens:",
-    "start:os:win32": "powershell -NoProfile -Command \"Start-Process freelens:\"",
-    "test:integration": "cd freelens && pnpm test:integration",
+    "start:os:darwin": "open --stdout $(tty) --stderr $(tty) ims-scope:",
+    "start:os:linux": "xdg-open ims-scope:",
+    "start:os:win32": "powershell -NoProfile -Command \"Start-Process ims-scope:\"",
+    "test:integration": "cd ims-scope && pnpm test:integration",
     "test:unit": "TZ=UTC vitest run -c vitest.config.ts",
-    "test:unit:core": "TZ=UTC vitest run -c vitest.config.ts --project @freelensapp/core",
-    "test:unit:core:updatesnapshot": "TZ=UTC vitest run -c vitest.config.ts --project @freelensapp/core -u",
+    "test:unit:core": "TZ=UTC vitest run -c vitest.config.ts --project @nibamot/core",
+    "test:unit:core:updatesnapshot": "TZ=UTC vitest run -c vitest.config.ts --project @nibamot/core -u",
     "test:unit:updatesnapshot": "TZ=UTC vitest run -c vitest.config.ts -u",
     "type:check": "tsc -p tsconfig.typecheck.json",
     "trunk": "pnpm dlx @trunkio/launcher@1.3.4",

@@ -4,12 +4,12 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { HashSet } from "@freelensapp/utilities";
+import { HashSet } from "@nibamot/utilities";
 import { KubeObjectStore } from "../../../../common/k8s-api/kube-object.store";
 import { hashSubject } from "../hashers";
 
-import type { RoleBindingApi } from "@freelensapp/kube-api";
-import type { RoleBinding, RoleBindingData, Subject } from "@freelensapp/kube-object";
+import type { RoleBindingApi } from "@nibamot/kube-api";
+import type { RoleBinding, RoleBindingData, Subject } from "@nibamot/kube-object";
 
 export class RoleBindingStore extends KubeObjectStore<RoleBinding, RoleBindingApi, RoleBindingData> {
   protected sortItems(items: RoleBinding[]) {

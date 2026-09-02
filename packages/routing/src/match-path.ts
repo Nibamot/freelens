@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Freelens Authors. All rights reserved.
+ * Copyright (c) IMS-Scope Authors. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -12,7 +12,7 @@ import type { Key, RegExpOptions } from "./vendor/path-to-regexp";
  *
  * `react-router` 5 is unmaintained and blocks the React 19 upgrade (see
  * `docs/v2-routing-modernization.md`). Its `matchPath` is a thin wrapper over
- * `path-to-regexp` v1 — the very engine Freelens' route schemas are authored
+ * `path-to-regexp` v1 — the very engine IMS-Scope' route schemas are authored
  * against (`/:param?` optionals and inline `/:param(regex)` patterns, neither of
  * which the workspace's `path-to-regexp` v8 supports). This is a faithful port
  * so matching behavior stays identical while the `react-router` dependency is

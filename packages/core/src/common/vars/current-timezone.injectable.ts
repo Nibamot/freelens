@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { guessUserTimezone } from "@freelensapp/utilities";
+import { guessUserTimezone } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 
 const currentTimezoneInjectable = getInjectable({

@@ -6,9 +6,9 @@
 
 import "./nodes.scss";
 
-import { formatNodeTaint } from "@freelensapp/kube-object";
-import { Tooltip, TooltipPosition } from "@freelensapp/tooltip";
-import { bytesToUnits, cpuUnitsToNumber, interval, unitsToBytes } from "@freelensapp/utilities";
+import { formatNodeTaint } from "@nibamot/kube-object";
+import { Tooltip, TooltipPosition } from "@nibamot/tooltip";
+import { bytesToUnits, cpuUnitsToNumber, interval, unitsToBytes } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { makeObservable, observable } from "mobx";
 import { observer } from "mobx-react";
@@ -27,7 +27,7 @@ import loadPodsFromAllNamespacesInjectable from "../workloads-pods/load-pods-fro
 import podStoreInjectable from "../workloads-pods/store.injectable";
 import nodeStoreInjectable from "./store.injectable";
 
-import type { Node, Pod } from "@freelensapp/kube-object";
+import type { Node, Pod } from "@nibamot/kube-object";
 
 import type {
   NodeMetricData,

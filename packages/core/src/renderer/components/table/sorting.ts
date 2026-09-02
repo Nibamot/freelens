@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Ordering, rectifyOrdering, sortCompare, tuple } from "@freelensapp/utilities";
+import { Ordering, rectifyOrdering, sortCompare, tuple } from "@nibamot/utilities";
 
 import type { TableOrderBy, TableSortCallback } from "./table";
 

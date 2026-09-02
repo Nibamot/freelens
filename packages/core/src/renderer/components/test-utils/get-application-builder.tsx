@@ -5,18 +5,18 @@
  */
 
 import assert from "node:assert";
-import { applicationFeature, startApplicationInjectionToken } from "@freelensapp/application";
+import { applicationFeature, startApplicationInjectionToken } from "@nibamot/application";
 import {
   applicationFeatureForElectronMain,
   testUtils as applicationForElectronTestUtils,
-} from "@freelensapp/application-for-electron-main";
-import { registerFeature } from "@freelensapp/feature-core";
-import { namespaceApiInjectable } from "@freelensapp/kube-api-specifics";
-import { Namespace } from "@freelensapp/kube-object";
-import { sendMessageToChannelInjectionToken } from "@freelensapp/messaging";
-import { getMessageBridgeFake } from "@freelensapp/messaging-fake-bridge";
-import { discoverFor } from "@freelensapp/react-testing-library-discovery";
-import { renderFor } from "@freelensapp/test-utils";
+} from "@nibamot/application-for-electron-main";
+import { registerFeature } from "@nibamot/feature-core";
+import { namespaceApiInjectable } from "@nibamot/kube-api-specifics";
+import { Namespace } from "@nibamot/kube-object";
+import { sendMessageToChannelInjectionToken } from "@nibamot/messaging";
+import { getMessageBridgeFake } from "@nibamot/messaging-fake-bridge";
+import { discoverFor } from "@nibamot/react-testing-library-discovery";
+import { renderFor } from "@nibamot/test-utils";
 import { getInjectable } from "@ogre-tools/injectable";
 import { act, fireEvent, queryByText } from "@testing-library/react";
 import { action, computed, observable, runInAction } from "mobx";

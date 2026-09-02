@@ -1,21 +1,21 @@
 {
-  "name": "@freelensapp/tooltip",
+  "name": "@nibamot/tooltip",
   "version": "2.0.0-5",
   "private": true,
-  "description": "Highly extendable tooltip in the Freelens.",
-  "homepage": "https://freelens.app",
+  "description": "Highly extendable tooltip in the IMS-Scope.",
+  "homepage": "https://github.com/Nibamot/ims-scope",
   "bugs": {
-    "url": "https://github.com/freelensapp/freelens/issues"
+    "url": "https://github.com/Nibamot/ims-scope/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/freelensapp/freelens.git"
+    "url": "git+https://github.com/Nibamot/ims-scope.git"
   },
   "license": "MIT",
   "type": "module",
   "author": {
     "name": "Freelens Authors",
-    "email": "freelens@freelens.app"
+    "email": "ims-scope@ims-scope.app"
   },
   "exports": {
     ".": "./src/index.ts",
@@ -24,10 +24,10 @@
   "main": "./src/index.ts",
   "types": "./src/index.ts",
   "scripts": {
-    "test:unit": "vitest run -c ../../../vitest.config.ts --project @freelensapp/tooltip"
+    "test:unit": "vitest run -c ../../../vitest.config.ts --project @nibamot/tooltip"
   },
   "dependencies": {
-    "@freelensapp/utilities": "workspace:^",
+    "@nibamot/utilities": "workspace:^",
     "auto-bind": "catalog:",
     "es-toolkit": "catalog:",
     "mobx": "catalog:",
@@ -36,7 +36,7 @@
     "react-dom": "catalog:"
   },
   "devDependencies": {
-    "@freelensapp/typescript": "workspace:^",
+    "@nibamot/typescript": "workspace:^",
     "@testing-library/jest-dom": "catalog:",
     "@testing-library/react": "catalog:",
     "@testing-library/user-event": "catalog:",

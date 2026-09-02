@@ -6,8 +6,8 @@
 
 import "./pod-details-container.scss";
 
-import { podDetailsContainerMetricsInjectionToken } from "@freelensapp/metrics";
-import { cssNames, isDefined } from "@freelensapp/utilities";
+import { podDetailsContainerMetricsInjectionToken } from "@nibamot/metrics";
+import { cssNames, isDefined } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
 import React from "react";
@@ -22,8 +22,8 @@ import { containerStatusClassName } from "./container-status-class-name";
 import { ContainerEnvironment } from "./pod-container-env";
 import { PodContainerPort } from "./pod-container-port";
 
-import type { ContainerWithType, EphemeralContainerWithType, Pod, PodContainerStatus } from "@freelensapp/kube-object";
-import type { PodDetailsContainerMetricsComponent } from "@freelensapp/metrics";
+import type { ContainerWithType, EphemeralContainerWithType, Pod, PodContainerStatus } from "@nibamot/kube-object";
+import type { PodDetailsContainerMetricsComponent } from "@nibamot/metrics";
 
 import type { IComputedValue } from "mobx";
 

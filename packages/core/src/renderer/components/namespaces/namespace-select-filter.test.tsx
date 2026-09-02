@@ -5,8 +5,8 @@
  */
 
 import asyncFn from "@async-fn/vitest";
-import { Namespace } from "@freelensapp/kube-object";
-import { disposer } from "@freelensapp/utilities";
+import { Namespace } from "@nibamot/kube-object";
+import { disposer } from "@nibamot/utilities";
 import { fireEvent } from "@testing-library/react";
 import directoryForKubeConfigsInjectable from "../../../common/app-paths/directory-for-kube-configs/directory-for-kube-configs.injectable";
 import directoryForUserDataInjectable from "../../../common/app-paths/directory-for-user-data/directory-for-user-data.injectable";
@@ -21,8 +21,8 @@ import { renderFor } from "../test-utils/renderFor";
 import { NamespaceSelectFilter } from "./namespace-select-filter";
 import namespaceStoreInjectable from "./store.injectable";
 
-import type { Fetch } from "@freelensapp/json-api";
-import type { Disposer } from "@freelensapp/utilities";
+import type { Fetch } from "@nibamot/json-api";
+import type { Disposer } from "@nibamot/utilities";
 
 import type { AsyncFnMock } from "@async-fn/vitest";
 import type { DiContainer } from "@ogre-tools/injectable";

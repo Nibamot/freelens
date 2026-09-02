@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Icon } from "@freelensapp/icon";
+import { Icon } from "@nibamot/icon";
 import styles from "./close-button.module.scss";
 
 import type { HTMLAttributes } from "react";

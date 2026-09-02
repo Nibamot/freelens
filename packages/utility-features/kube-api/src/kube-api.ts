@@ -14,13 +14,13 @@ import {
   isKubeStatusData,
   isPartialJsonApiData,
   KubeStatus,
-} from "@freelensapp/kube-object";
-import { isDefined, noop, WrappedAbortController } from "@freelensapp/utilities";
+} from "@nibamot/kube-object";
+import { isDefined, noop, WrappedAbortController } from "@nibamot/utilities";
 import { matches, merge } from "es-toolkit/compat";
 import { makeObservable, observable } from "mobx";
 import { createKubeApiURL, parseKubeApi } from "./kube-api-parse";
 
-import type { FetchRequestInit as RequestInit, FetchResponse as Response } from "@freelensapp/json-api";
+import type { FetchRequestInit as RequestInit, FetchResponse as Response } from "@nibamot/json-api";
 import type {
   KubeJsonApiData,
   KubeJsonApiDataFor,
@@ -30,9 +30,9 @@ import type {
   KubeObjectScope,
   Scale,
   ScaleCreateOptions,
-} from "@freelensapp/kube-object";
-import type { LogFunction } from "@freelensapp/logger";
-import type { Disposer } from "@freelensapp/utilities";
+} from "@nibamot/kube-object";
+import type { LogFunction } from "@nibamot/logger";
+import type { Disposer } from "@nibamot/utilities";
 
 import type { Patch } from "rfc6902";
 import type { PartialDeep } from "type-fest";

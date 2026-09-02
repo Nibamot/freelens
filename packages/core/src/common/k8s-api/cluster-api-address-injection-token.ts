@@ -24,7 +24,7 @@ export interface ClusterApiAddress {
  * so Chromium would drop it and the request would land on whatever origin the
  * frame is on — silently querying the wrong cluster. It has to address the
  * cluster in the URL instead, which works because Chromium's host-resolver
- * rules map every `*.renderer.freelens.app` to 127.0.0.1 and the lens-proxy
+ * rules map every `*.renderer.ims-scope.app` to 127.0.0.1 and the lens-proxy
  * certificate covers them all.
  */
 export const clusterApiAddressInjectionToken = getInjectionToken<(clusterId: ClusterId) => ClusterApiAddress>({

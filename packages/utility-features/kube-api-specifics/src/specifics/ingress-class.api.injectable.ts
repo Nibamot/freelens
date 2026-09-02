@@ -5,13 +5,13 @@
  */
 
 import assert from "node:assert";
-import { IngressClassApi } from "@freelensapp/kube-api";
+import { IngressClassApi } from "@nibamot/kube-api";
 import {
   logDebugInjectionToken,
   logErrorInjectionToken,
   logInfoInjectionToken,
   logWarningInjectionToken,
-} from "@freelensapp/logger";
+} from "@nibamot/logger";
 import { getInjectable } from "@ogre-tools/injectable";
 import { storesAndApisCanBeCreatedInjectionToken } from "./can-be-created-token";
 import { maybeKubeApiInjectable } from "./maybe-kube-api.injectable";

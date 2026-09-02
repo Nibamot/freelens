@@ -6,8 +6,8 @@
 
 import "./deployment-details.scss";
 
-import { Deployment } from "@freelensapp/kube-object";
-import { loggerInjectionToken } from "@freelensapp/logger";
+import { Deployment } from "@nibamot/kube-object";
+import { loggerInjectionToken } from "@nibamot/logger";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
 import React from "react";
@@ -22,7 +22,7 @@ import replicaSetStoreInjectable from "../workloads-replicasets/store.injectable
 import { DeploymentReplicaSets } from "./deployment-replicasets";
 import deploymentStoreInjectable from "./store.injectable";
 
-import type { Logger } from "@freelensapp/logger";
+import type { Logger } from "@nibamot/logger";
 
 import type { SubscribeStores } from "../../kube-watch-api/kube-watch-api";
 import type { KubeObjectDetailsProps } from "../kube-object-details";

@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { loggerInjectionToken } from "@freelensapp/logger";
+import { loggerInjectionToken } from "@nibamot/logger";
 import { isObservableArray } from "mobx";
 import catalogEntityRegistryInjectable from "../main/catalog/entity-registry.injectable";
 import navigateForExtensionInjectable from "../main/start-main-application/lens-window/navigate-for-extension.injectable";

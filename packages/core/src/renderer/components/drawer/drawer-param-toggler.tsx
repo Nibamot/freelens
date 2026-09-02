@@ -6,11 +6,11 @@
 
 import "./drawer-param-toggler.scss";
 
-import { Icon } from "@freelensapp/icon";
-import { cssNames } from "@freelensapp/utilities";
+import { Icon } from "@nibamot/icon";
+import { cssNames } from "@nibamot/utilities";
 import React from "react";
 
-import type { StrictReactNode } from "@freelensapp/utilities";
+import type { StrictReactNode } from "@nibamot/utilities";
 
 export interface DrawerParamTogglerProps {
   label: string | number | StrictReactNode;

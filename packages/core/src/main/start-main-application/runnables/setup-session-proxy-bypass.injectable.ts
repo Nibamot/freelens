@@ -3,8 +3,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { beforeApplicationIsLoadingInjectionToken } from "@freelensapp/application";
-import { loggerInjectionToken } from "@freelensapp/logger";
+import { beforeApplicationIsLoadingInjectionToken } from "@nibamot/application";
+import { loggerInjectionToken } from "@nibamot/logger";
 import { getInjectable } from "@ogre-tools/injectable";
 import { session } from "electron";
 
@@ -50,8 +50,8 @@ const setupSessionProxyBypassInjectable = getInjectable({
             proxyRules,
             proxyBypassRules: [
               "<local>",
-              "renderer.freelens.app",
-              ".renderer.freelens.app",
+              "renderer.ims-scope.app",
+              ".renderer.ims-scope.app",
               "127.0.0.1/8",
               "[::1]",
             ].join(","),

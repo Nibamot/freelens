@@ -4,14 +4,14 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { winstonLoggerInjectable } from "@freelensapp/logger";
-import { sendMessageToChannelInjectionToken } from "@freelensapp/messaging";
+import { winstonLoggerInjectable } from "@nibamot/logger";
+import { sendMessageToChannelInjectionToken } from "@nibamot/messaging";
 import { getDiForUnitTesting } from "../../../renderer/getDiForUnitTesting";
 import closeRendererLogFileInjectable from "./close-renderer-log-file.injectable";
 import ipcLogTransportInjectable from "./ipc-transport.injectable";
 import rendererLogFileIdInjectable from "./renderer-log-file-id.injectable";
 
-import type { SendMessageToChannel } from "@freelensapp/messaging";
+import type { SendMessageToChannel } from "@nibamot/messaging";
 
 import type { DiContainer } from "@ogre-tools/injectable";
 import type winston from "winston";

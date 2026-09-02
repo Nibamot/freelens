@@ -6,9 +6,9 @@
 
 import "./view.scss";
 
-import { jobApiInjectable } from "@freelensapp/kube-api-specifics";
-import { showCheckedErrorNotificationInjectable, showErrorNotificationInjectable } from "@freelensapp/notifications";
-import { cssNames } from "@freelensapp/utilities";
+import { jobApiInjectable } from "@nibamot/kube-api-specifics";
+import { showCheckedErrorNotificationInjectable, showErrorNotificationInjectable } from "@nibamot/notifications";
+import { cssNames } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { makeObservable, observable } from "mobx";
 import { observer } from "mobx-react";
@@ -20,9 +20,9 @@ import { Wizard, WizardStep } from "../../wizard";
 import closeCronJobTriggerDialogInjectable from "./close.injectable";
 import cronJobTriggerDialogStateInjectable from "./state.injectable";
 
-import type { JobApi } from "@freelensapp/kube-api";
-import type { CronJob } from "@freelensapp/kube-object";
-import type { ShowCheckedErrorNotification, ShowNotification } from "@freelensapp/notifications";
+import type { JobApi } from "@nibamot/kube-api";
+import type { CronJob } from "@nibamot/kube-object";
+import type { ShowCheckedErrorNotification, ShowNotification } from "@nibamot/notifications";
 
 import type { IObservableValue } from "mobx";
 

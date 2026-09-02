@@ -16,7 +16,7 @@ import type {
   V2Beta1PodsMetricStatus,
   V2Beta1ResourceMetricSource,
   V2Beta1ResourceMetricStatus,
-} from "@freelensapp/kube-object";
+} from "@nibamot/kube-object";
 
 export class HorizontalPodAutoscalerV1MetricParser {
   public getResource({

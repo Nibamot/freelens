@@ -4,10 +4,10 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Secret } from "@freelensapp/kube-object";
+import { Secret } from "@nibamot/kube-object";
 import { KubeApi } from "../kube-api";
 
-import type { SecretData } from "@freelensapp/kube-object";
+import type { SecretData } from "@nibamot/kube-object";
 
 import type { DerivedKubeApiOptions, KubeApiDependencies } from "../kube-api";
 

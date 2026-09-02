@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { beforeApplicationIsLoadingInjectionToken } from "@freelensapp/application";
-import { requestFromChannelInjectionToken } from "@freelensapp/messaging";
+import { beforeApplicationIsLoadingInjectionToken } from "@nibamot/application";
+import { requestFromChannelInjectionToken } from "@nibamot/messaging";
 import { getInjectable } from "@ogre-tools/injectable";
 import { appPathsChannel } from "../../common/app-paths/app-paths-channel";
 import appPathsStateInjectable from "../../common/app-paths/app-paths-state.injectable";

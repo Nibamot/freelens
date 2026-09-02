@@ -5,12 +5,12 @@
  */
 
 import assert from "node:assert";
-import { isDefined } from "@freelensapp/utilities";
+import { isDefined } from "@nibamot/utilities";
 import { computed } from "mobx";
 import { defaultLogViewerPreferences } from "../../../../features/user-preferences/common/preferences-helpers";
 
-import type { ResourceDescriptor } from "@freelensapp/kube-api";
-import type { Pod, PodLogsQuery } from "@freelensapp/kube-object";
+import type { ResourceDescriptor } from "@nibamot/kube-api";
+import type { Pod, PodLogsQuery } from "@nibamot/kube-object";
 
 import type { IComputedValue } from "mobx";
 

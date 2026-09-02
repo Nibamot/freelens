@@ -8,7 +8,7 @@ import { getDiForUnitTesting } from "../../getDiForUnitTesting";
 import selectedMetricsTimeRangeInjectable from "../cluster/overview/selected-metrics-time-range.injectable";
 import statefulSetMetricsInjectable from "./metrics.injectable";
 
-import type { StatefulSet } from "@freelensapp/kube-object";
+import type { StatefulSet } from "@nibamot/kube-object";
 
 describe("stateful-set-metrics injectable", () => {
   it("requests stateful set pod metrics with the selected time range", () => {

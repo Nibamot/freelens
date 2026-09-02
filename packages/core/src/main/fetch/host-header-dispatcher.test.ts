@@ -8,7 +8,7 @@ import { fetch as undiciFetch } from "undici";
 import { withHostHeaderPreserved } from "./host-header-dispatcher";
 import type { AddressInfo } from "node:net";
 
-import type { FetchRequestInit as RequestInit } from "@freelensapp/json-api";
+import type { FetchRequestInit as RequestInit } from "@nibamot/json-api";
 
 import type { RequestInit as UndiciRequestInit } from "undici";
 
@@ -44,26 +44,26 @@ describe("withHostHeaderPreserved", () => {
   // cluster view. undici's `fetch` drops it on its own: it is a forbidden
   // header name.
   it("sends a Host header given as a record", async () => {
-    expect(await request({ headers: { Host: "some-cluster-id.renderer.freelens.app" } })).toBe(
-      "some-cluster-id.renderer.freelens.app",
+    expect(await request({ headers: { Host: "some-cluster-id.renderer.ims-scope.app" } })).toBe(
+      "some-cluster-id.renderer.ims-scope.app",
     );
   });
 
   it("sends a lower-cased host header given as a record", async () => {
-    expect(await request({ headers: { host: "some-cluster-id.renderer.freelens.app" } })).toBe(
-      "some-cluster-id.renderer.freelens.app",
+    expect(await request({ headers: { host: "some-cluster-id.renderer.ims-scope.app" } })).toBe(
+      "some-cluster-id.renderer.ims-scope.app",
     );
   });
 
   it("sends a Host header given as a list of entries", async () => {
-    expect(await request({ headers: [["Host", "some-cluster-id.renderer.freelens.app"]] })).toBe(
-      "some-cluster-id.renderer.freelens.app",
+    expect(await request({ headers: [["Host", "some-cluster-id.renderer.ims-scope.app"]] })).toBe(
+      "some-cluster-id.renderer.ims-scope.app",
     );
   });
 
   it("sends a Host header given as a Headers instance", async () => {
-    expect(await request({ headers: new Headers({ Host: "some-cluster-id.renderer.freelens.app" }) })).toBe(
-      "some-cluster-id.renderer.freelens.app",
+    expect(await request({ headers: new Headers({ Host: "some-cluster-id.renderer.ims-scope.app" }) })).toBe(
+      "some-cluster-id.renderer.ims-scope.app",
     );
   });
 
@@ -79,9 +79,9 @@ describe("withHostHeaderPreserved", () => {
 
     expect(
       await request({
-        headers: { Host: "some-cluster-id.renderer.freelens.app", "content-type": "application/json" },
+        headers: { Host: "some-cluster-id.renderer.ims-scope.app", "content-type": "application/json" },
       }),
-    ).toBe("some-cluster-id.renderer.freelens.app");
+    ).toBe("some-cluster-id.renderer.ims-scope.app");
     expect(contentType).toBe("application/json");
   });
 

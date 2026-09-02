@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { afterApplicationIsLoadedInjectionToken } from "@freelensapp/application";
+import { afterApplicationIsLoadedInjectionToken } from "@nibamot/application";
 import { getInjectable } from "@ogre-tools/injectable";
 import catalogEntityRegistryInjectable from "../../../catalog/entity-registry.injectable";
 import kubeconfigSyncManagerInjectable from "../../../catalog-sources/kubeconfig-sync/manager.injectable";

@@ -12,7 +12,7 @@ import { getDiForUnitTesting } from "../../../getDiForUnitTesting";
 import { renderFor } from "../../test-utils/renderFor";
 import { PodTolerations } from "../pod-tolerations";
 
-import type { Toleration } from "@freelensapp/kube-object";
+import type { Toleration } from "@nibamot/kube-object";
 
 import type { DiRender } from "../../test-utils/renderFor";
 

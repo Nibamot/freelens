@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { podListLayoutColumnInjectionToken } from "@freelensapp/list-layout";
+import { podListLayoutColumnInjectionToken } from "@nibamot/list-layout";
 import { getInjectable } from "@ogre-tools/injectable";
 import { LinkToNode } from "../../kube-object-link";
 import { WithTooltip } from "../../with-tooltip";

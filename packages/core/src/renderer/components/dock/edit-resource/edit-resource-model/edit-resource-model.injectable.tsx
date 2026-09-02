@@ -5,9 +5,9 @@
  */
 
 import assert from "node:assert";
-import { createKubeApiURL, parseKubeApi } from "@freelensapp/kube-api";
-import { showErrorNotificationInjectable, showSuccessNotificationInjectable } from "@freelensapp/notifications";
-import { waitUntilDefined } from "@freelensapp/utilities";
+import { createKubeApiURL, parseKubeApi } from "@nibamot/kube-api";
+import { showErrorNotificationInjectable, showSuccessNotificationInjectable } from "@nibamot/notifications";
+import { waitUntilDefined } from "@nibamot/utilities";
 import { getInjectable, lifecycleEnum } from "@ogre-tools/injectable";
 import * as yaml from "js-yaml";
 import { action, computed, observable, runInAction } from "mobx";
@@ -17,8 +17,8 @@ import editResourceTabStoreInjectable from "../store.injectable";
 import requestKubeResourceInjectable from "./request-kube-resource.injectable";
 import requestPatchKubeResourceInjectable from "./request-patch-kube-resource.injectable";
 
-import type { Container, KubeObject, KubeObjectMetadata, PodSpec, RawKubeObject } from "@freelensapp/kube-object";
-import type { ShowNotification } from "@freelensapp/notifications";
+import type { Container, KubeObject, KubeObjectMetadata, PodSpec, RawKubeObject } from "@nibamot/kube-object";
+import type { ShowNotification } from "@nibamot/notifications";
 
 import type { EditingResource, EditResourceTabStore } from "../store";
 import type { RequestKubeResource } from "./request-kube-resource.injectable";
@@ -187,7 +187,7 @@ function getEditSelfLinkFor(object: RawKubeObject): string | undefined {
 /**
  * The annotation name that Lens uses to receive the desired api version
  */
-export const EditResourceAnnotationName = "freelens.app/resource-version";
+export const EditResourceAnnotationName = "ims-scope.app/resource-version";
 
 export class EditResourceModel {
   constructor(protected readonly dependencies: Dependencies) {}

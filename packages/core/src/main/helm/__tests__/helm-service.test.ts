@@ -4,13 +4,13 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { sortBySemverVersion } from "@freelensapp/utilities";
+import { sortBySemverVersion } from "@nibamot/utilities";
 import { getDiForUnitTesting } from "../../getDiForUnitTesting";
 import helmChartManagerInjectable from "../helm-chart-manager.injectable";
 import listHelmChartsInjectable from "../helm-service/list-helm-charts.injectable";
 import getActiveHelmRepositoriesInjectable from "../repositories/get-active-helm-repositories/get-active-helm-repositories.injectable";
 
-import type { AsyncResult } from "@freelensapp/utilities";
+import type { AsyncResult } from "@nibamot/utilities";
 
 import type { Mock } from "vitest";
 

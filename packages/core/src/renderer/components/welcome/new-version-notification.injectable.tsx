@@ -3,8 +3,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { showInfoNotificationInjectable } from "@freelensapp/notifications";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { showInfoNotificationInjectable } from "@nibamot/notifications";
 import { getInjectable } from "@ogre-tools/injectable";
 import * as semver from "semver";
 import productNameInjectable from "../../../common/vars/product-name.injectable";
@@ -37,7 +37,7 @@ const newVersionNotificationInjectable = getInjectable({
             <div>
               {productName} v{newVersion} is available! Open the{" "}
               <a
-                href={`https://github.com/freelensapp/freelens/releases`}
+                href={`https://github.com/Nibamot/ims-scope/releases`}
                 target="_blank"
                 rel="noreferrer"
                 className="NotificationLink"

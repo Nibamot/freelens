@@ -1,4 +1,4 @@
-import { getMessageChannel, getMessageChannelListenerInjectable } from "@freelensapp/messaging";
+import { getMessageChannel, getMessageChannelListenerInjectable } from "@nibamot/messaging";
 import frameIdsInjectable from "./frameIds.injectable";
 
 const frameCommunicationAdminChannel = getMessageChannel<undefined>("frame-communication-admin-channel");

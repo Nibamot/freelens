@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { podListLayoutColumnInjectionToken } from "@freelensapp/list-layout";
+import { podListLayoutColumnInjectionToken } from "@nibamot/list-layout";
 import { getInjectable } from "@ogre-tools/injectable";
 import { kebabCase } from "es-toolkit";
 import { COLUMN_PRIORITY } from "./column-priority";

@@ -10,7 +10,7 @@ import { isDraft, produce } from "immer";
 // Helper for working with storages (e.g. window.localStorage, NodeJS/file-system, etc.)
 import { action, comparer, computed, makeObservable, observable, observe, toJS } from "mobx";
 
-import type { Logger } from "@freelensapp/logger";
+import type { Logger } from "@nibamot/logger";
 
 import type { Draft } from "immer";
 

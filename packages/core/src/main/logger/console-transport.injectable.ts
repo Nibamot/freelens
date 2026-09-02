@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { loggerTransportInjectionToken } from "@freelensapp/logger";
+import { loggerTransportInjectionToken } from "@nibamot/logger";
 import { getInjectable } from "@ogre-tools/injectable";
 import { format, transports } from "winston";
 import { ConsoleFormat } from "./console-format";

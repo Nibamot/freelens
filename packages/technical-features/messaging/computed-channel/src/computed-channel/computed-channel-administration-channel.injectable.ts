@@ -2,7 +2,7 @@ import {
   getMessageChannel,
   getMessageChannelListenerInjectable,
   sendMessageToChannelInjectionToken,
-} from "@freelensapp/messaging";
+} from "@nibamot/messaging";
 import { reaction } from "mobx";
 import { computedChannelObserverInjectionToken } from "./computed-channel.injectable";
 

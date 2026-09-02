@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { statefulSetApiInjectable } from "@freelensapp/kube-api-specifics";
-import { StatefulSet } from "@freelensapp/kube-object";
+import { statefulSetApiInjectable } from "@nibamot/kube-api-specifics";
+import { StatefulSet } from "@nibamot/kube-object";
 import { fireEvent, waitFor } from "@testing-library/react";
 import { getDiForUnitTesting } from "../../../getDiForUnitTesting";
 import storesAndApisCanBeCreatedInjectable from "../../../stores-apis-can-be-created.injectable";
@@ -13,7 +13,7 @@ import { type DiRender, renderFor } from "../../test-utils/renderFor";
 import { StatefulSetScaleDialog } from "./dialog";
 import openStatefulSetScaleDialogInjectable from "./open-dialog.injectable";
 
-import type { StatefulSetApi } from "@freelensapp/kube-api";
+import type { StatefulSetApi } from "@nibamot/kube-api";
 
 import type { OpenStatefulSetScaleDialog } from "./open-dialog.injectable";
 

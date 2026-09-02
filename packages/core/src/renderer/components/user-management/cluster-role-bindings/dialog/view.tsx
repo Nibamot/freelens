@@ -6,10 +6,10 @@
 
 import "./view.scss";
 
-import { Icon } from "@freelensapp/icon";
-import { showCheckedErrorNotificationInjectable } from "@freelensapp/notifications";
-import { TooltipPosition } from "@freelensapp/tooltip";
-import { iter, ObservableHashSet } from "@freelensapp/utilities";
+import { Icon } from "@nibamot/icon";
+import { showCheckedErrorNotificationInjectable } from "@nibamot/notifications";
+import { TooltipPosition } from "@nibamot/tooltip";
+import { iter, ObservableHashSet } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { action, computed, makeObservable, observable } from "mobx";
 import { observer } from "mobx-react";
@@ -29,8 +29,8 @@ import editClusterRoleBindingNameStateInjectable from "./edit-name-state.injecta
 import openClusterRoleBindingDialogInjectable from "./open.injectable";
 import clusterRoleBindingDialogStateInjectable from "./state.injectable";
 
-import type { ClusterRole, ServiceAccount, Subject } from "@freelensapp/kube-object";
-import type { ShowCheckedErrorNotification } from "@freelensapp/notifications";
+import type { ClusterRole, ServiceAccount, Subject } from "@nibamot/kube-object";
+import type { ShowCheckedErrorNotification } from "@nibamot/notifications";
 
 import type { IObservableValue } from "mobx";
 

@@ -4,10 +4,10 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { getRequestChannel } from "@freelensapp/messaging";
+import { getRequestChannel } from "@nibamot/messaging";
 
-import type { KubeJsonApiData } from "@freelensapp/kube-object";
-import type { Result } from "@freelensapp/utilities";
+import type { KubeJsonApiData } from "@nibamot/kube-object";
+import type { Result } from "@nibamot/utilities";
 
 export interface GetHelmReleaseArgs {
   clusterId: string;

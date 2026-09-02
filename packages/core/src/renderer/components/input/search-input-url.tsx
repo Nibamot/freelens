@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Icon } from "@freelensapp/icon";
-import { storesAndApisCanBeCreatedInjectionToken } from "@freelensapp/kube-api-specifics";
+import { Icon } from "@nibamot/icon";
+import { storesAndApisCanBeCreatedInjectionToken } from "@nibamot/kube-api-specifics";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { debounce } from "es-toolkit/compat";
 import { comparer, makeObservable, observable, reaction } from "mobx";

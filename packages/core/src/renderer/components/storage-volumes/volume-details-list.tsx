@@ -6,8 +6,8 @@
 
 import "./volume-details-list.scss";
 
-import { Spinner } from "@freelensapp/spinner";
-import { cssNames, prevDefault } from "@freelensapp/utilities";
+import { Spinner } from "@nibamot/spinner";
+import { cssNames, prevDefault } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { kebabCase } from "es-toolkit";
 import { makeObservable, observable } from "mobx";
@@ -21,7 +21,7 @@ import { TableHead } from "../table/table-head";
 import { TableRow } from "../table/table-row";
 import persistentVolumeStoreInjectable from "./store.injectable";
 
-import type { PersistentVolume } from "@freelensapp/kube-object";
+import type { PersistentVolume } from "@nibamot/kube-object";
 
 import type { ShowDetails } from "../kube-detail-params/show-details.injectable";
 import type { PersistentVolumeStore } from "./store";

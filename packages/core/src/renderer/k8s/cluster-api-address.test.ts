@@ -24,18 +24,18 @@ describe("cluster-api-address in the renderer", () => {
   // not fail loudly: the request lands on the frame's own origin and silently
   // answers for the wrong cluster.
   it("addresses the cluster in the URL, from the root frame", () => {
-    expect(addressFor("renderer.freelens.app:12345", "some-cluster-id")).toEqual({
-      serverAddress: "https://some-cluster-id.renderer.freelens.app:12345",
+    expect(addressFor("renderer.ims-scope.app:12345", "some-cluster-id")).toEqual({
+      serverAddress: "https://some-cluster-id.renderer.ims-scope.app:12345",
     });
   });
 
   it("addresses another cluster from inside a cluster frame", () => {
-    expect(addressFor("current-cluster-id.renderer.freelens.app:12345", "other-cluster-id")).toEqual({
-      serverAddress: "https://other-cluster-id.renderer.freelens.app:12345",
+    expect(addressFor("current-cluster-id.renderer.ims-scope.app:12345", "other-cluster-id")).toEqual({
+      serverAddress: "https://other-cluster-id.renderer.ims-scope.app:12345",
     });
   });
 
   it("sets no Host header, which Chromium would refuse to send", () => {
-    expect(addressFor("renderer.freelens.app:12345", "some-cluster-id").hostHeader).toBeUndefined();
+    expect(addressFor("renderer.ims-scope.app:12345", "some-cluster-id").hostHeader).toBeUndefined();
   });
 });

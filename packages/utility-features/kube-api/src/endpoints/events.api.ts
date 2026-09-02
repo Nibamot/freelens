@@ -4,10 +4,10 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { KubeEvent } from "@freelensapp/kube-object";
+import { KubeEvent } from "@nibamot/kube-object";
 import { KubeApi } from "../kube-api";
 
-import type { KubeEventData } from "@freelensapp/kube-object";
+import type { KubeEventData } from "@nibamot/kube-object";
 
 import type { DerivedKubeApiOptions, KubeApiDependencies } from "../kube-api";
 

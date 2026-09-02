@@ -8,7 +8,7 @@ import { getDiForUnitTesting } from "../../getDiForUnitTesting";
 import selectedMetricsTimeRangeInjectable from "../cluster/overview/selected-metrics-time-range.injectable";
 import persistentVolumeClaimMetricsInjectable from "./metrics.injectable";
 
-import type { PersistentVolumeClaim } from "@freelensapp/kube-object";
+import type { PersistentVolumeClaim } from "@nibamot/kube-object";
 
 describe("persistent-volume-claim-metrics injectable", () => {
   it("requests pvc metrics with the selected time range", () => {

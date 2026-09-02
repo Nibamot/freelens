@@ -6,9 +6,9 @@
 
 import "./details.scss";
 
-import { CustomResourceDefinition, KubeObject } from "@freelensapp/kube-object";
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { cssNames, safeJSONPathValue } from "@freelensapp/utilities";
+import { CustomResourceDefinition, KubeObject } from "@nibamot/kube-object";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { cssNames, safeJSONPathValue } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { startCase } from "es-toolkit";
 import { observer } from "mobx-react";
@@ -18,9 +18,9 @@ import { DrawerItem } from "../drawer";
 import { Input } from "../input";
 import { KubeObjectConditionsDrawer } from "../kube-object-conditions";
 
-import type { AdditionalPrinterColumnsV1 } from "@freelensapp/kube-object";
-import type { Logger } from "@freelensapp/logger";
-import type { StrictReactNode } from "@freelensapp/utilities";
+import type { AdditionalPrinterColumnsV1 } from "@nibamot/kube-object";
+import type { Logger } from "@nibamot/logger";
+import type { StrictReactNode } from "@nibamot/utilities";
 
 import type { KubeObjectDetailsProps } from "../kube-object-details";
 

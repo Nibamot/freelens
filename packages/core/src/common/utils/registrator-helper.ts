@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { iter } from "@freelensapp/utilities";
+import { iter } from "@nibamot/utilities";
 
 import type { DiContainerForInjection, Injectable } from "@ogre-tools/injectable";
 

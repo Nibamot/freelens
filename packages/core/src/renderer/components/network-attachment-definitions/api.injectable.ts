@@ -8,13 +8,13 @@ import {
   kubeApiInjectionToken,
   maybeKubeApiInjectable,
   storesAndApisCanBeCreatedInjectionToken,
-} from "@freelensapp/kube-api-specifics";
+} from "@nibamot/kube-api-specifics";
 import {
   logDebugInjectionToken,
   logErrorInjectionToken,
   logInfoInjectionToken,
   logWarningInjectionToken,
-} from "@freelensapp/logger";
+} from "@nibamot/logger";
 import { getInjectable } from "@ogre-tools/injectable";
 import { NetworkAttachmentDefinitionApi } from "./network-attachment-definition.api";
 

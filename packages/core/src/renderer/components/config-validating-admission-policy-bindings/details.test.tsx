@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { ValidatingAdmissionPolicyBinding } from "@freelensapp/kube-object";
+import { ValidatingAdmissionPolicyBinding } from "@nibamot/kube-object";
 import { getDiForUnitTesting } from "../../getDiForUnitTesting";
 import { renderFor } from "../test-utils/renderFor";
 import { ValidatingAdmissionPolicyBindingDetails } from "./validating-admission-policy-bindings-details";
@@ -13,7 +13,7 @@ import type {
   KubeObjectMetadata,
   KubeObjectScope,
   ValidatingAdmissionPolicyBindingSpec,
-} from "@freelensapp/kube-object";
+} from "@nibamot/kube-object";
 
 import type { RenderResult } from "@testing-library/react";
 

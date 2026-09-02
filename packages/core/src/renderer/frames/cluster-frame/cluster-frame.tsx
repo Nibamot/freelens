@@ -4,9 +4,9 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { ErrorBoundary } from "@freelensapp/error-boundary";
-import { clusterFrameChildComponentInjectionToken } from "@freelensapp/react-application";
-import { disposer } from "@freelensapp/utilities";
+import { ErrorBoundary } from "@nibamot/error-boundary";
+import { clusterFrameChildComponentInjectionToken } from "@nibamot/react-application";
+import { disposer } from "@nibamot/utilities";
 import { computedInjectManyInjectionToken } from "@ogre-tools/injectable-extension-for-mobx";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { Observer, observer } from "mobx-react";
@@ -15,7 +15,7 @@ import namespaceStoreInjectable from "../../components/namespaces/store.injectab
 import subscribeStoresInjectable from "../../kube-watch-api/subscribe-stores.injectable";
 import watchHistoryStateInjectable from "../../remote-helpers/watch-history-state.injectable";
 
-import type { ClusterFrameChildComponent } from "@freelensapp/react-application";
+import type { ClusterFrameChildComponent } from "@nibamot/react-application";
 
 import type { IComputedValue } from "mobx";
 

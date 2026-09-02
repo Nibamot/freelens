@@ -6,7 +6,7 @@
 
 import "./resizing-anchor.scss";
 
-import { cssNames, noop } from "@freelensapp/utilities";
+import { cssNames, noop } from "@nibamot/utilities";
 import { throttle } from "es-toolkit";
 import { action, makeObservable, observable } from "mobx";
 import { observer } from "mobx-react";

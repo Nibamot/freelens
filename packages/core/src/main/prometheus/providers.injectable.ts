@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { prometheusProviderInjectionToken } from "@freelensapp/prometheus";
+import { prometheusProviderInjectionToken } from "@nibamot/prometheus";
 import { getInjectable } from "@ogre-tools/injectable";
 import { computedInjectManyInjectionToken } from "@ogre-tools/injectable-extension-for-mobx";
 

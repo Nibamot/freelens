@@ -6,7 +6,7 @@
 
 import { KubeObjectStore } from "../../../common/k8s-api/kube-object.store";
 
-import type { ReplicationControllerApi } from "@freelensapp/kube-api";
-import type { ReplicationController } from "@freelensapp/kube-object";
+import type { ReplicationControllerApi } from "@nibamot/kube-api";
+import type { ReplicationController } from "@nibamot/kube-object";
 
 export class ReplicationControllerStore extends KubeObjectStore<ReplicationController, ReplicationControllerApi> {}

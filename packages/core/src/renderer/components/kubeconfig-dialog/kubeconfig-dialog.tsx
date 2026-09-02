@@ -9,10 +9,10 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Button } from "@freelensapp/button";
-import { Icon } from "@freelensapp/icon";
-import { showSuccessNotificationInjectable } from "@freelensapp/notifications";
-import { cssNames } from "@freelensapp/utilities";
+import { Button } from "@nibamot/button";
+import { Icon } from "@nibamot/icon";
+import { showSuccessNotificationInjectable } from "@nibamot/notifications";
+import { cssNames } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { clipboard } from "electron";
 import { observer } from "mobx-react";
@@ -24,8 +24,8 @@ import { Wizard, WizardStep } from "../wizard";
 import styles from "./kubeconfig-dialog.module.scss";
 import kubeconfigDialogStateInjectable from "./state.injectable";
 
-import type { ShowNotification } from "@freelensapp/notifications";
-import type { StrictReactNode } from "@freelensapp/utilities";
+import type { ShowNotification } from "@nibamot/notifications";
+import type { StrictReactNode } from "@nibamot/utilities";
 
 import type { IObservableValue } from "mobx";
 

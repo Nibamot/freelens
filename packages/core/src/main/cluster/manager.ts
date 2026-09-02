@@ -15,7 +15,7 @@ import {
 } from "../../common/catalog-entities/kubernetes-cluster";
 import { ipcMainOn } from "../../common/ipc";
 
-import type { Logger } from "@freelensapp/logger";
+import type { Logger } from "@nibamot/logger";
 
 import type { IComputedValue, IObservableValue, ObservableSet } from "mobx";
 

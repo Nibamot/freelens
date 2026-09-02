@@ -4,13 +4,13 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { podListLayoutColumnInjectionToken } from "@freelensapp/list-layout";
-import { getConvertedParts } from "@freelensapp/utilities";
+import { podListLayoutColumnInjectionToken } from "@nibamot/list-layout";
+import { getConvertedParts } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import { WithTooltip } from "../../with-tooltip";
 import { COLUMN_PRIORITY } from "./column-priority";
 
-import type { Pod } from "@freelensapp/kube-object";
+import type { Pod } from "@nibamot/kube-object";
 
 const columnId = "name";
 

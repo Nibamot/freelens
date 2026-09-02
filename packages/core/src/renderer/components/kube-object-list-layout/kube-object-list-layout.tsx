@@ -6,10 +6,10 @@
 
 import "./kube-object-list-layout.scss";
 
-import { Icon } from "@freelensapp/icon";
-import { kubeObjectListLayoutColumnInjectionToken } from "@freelensapp/list-layout";
-import { TooltipPosition } from "@freelensapp/tooltip";
-import { cssNames, hasTypedProperty, isDefined, isObject, isString } from "@freelensapp/utilities";
+import { Icon } from "@nibamot/icon";
+import { kubeObjectListLayoutColumnInjectionToken } from "@nibamot/list-layout";
+import { TooltipPosition } from "@nibamot/tooltip";
+import { cssNames, hasTypedProperty, isDefined, isObject, isString } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { sortBy } from "es-toolkit/compat";
 import { observable, reaction } from "mobx";
@@ -25,10 +25,10 @@ import { KubeObjectMenu } from "../kube-object-menu";
 import { MenuControls } from "../menu";
 import { NamespaceSelectFilter } from "../namespaces/namespace-select-filter";
 
-import type { KubeApi } from "@freelensapp/kube-api";
-import type { KubeJsonApiDataFor, KubeObject } from "@freelensapp/kube-object";
-import type { GeneralKubeObjectListLayoutColumn, SpecificKubeListLayoutColumn } from "@freelensapp/list-layout";
-import type { Disposer } from "@freelensapp/utilities";
+import type { KubeApi } from "@nibamot/kube-api";
+import type { KubeJsonApiDataFor, KubeObject } from "@nibamot/kube-object";
+import type { GeneralKubeObjectListLayoutColumn, SpecificKubeListLayoutColumn } from "@nibamot/list-layout";
+import type { Disposer } from "@nibamot/utilities";
 
 import type { ClusterContext } from "../../cluster-frame-context/cluster-frame-context";
 import type { SubscribableStore, SubscribeStores } from "../../kube-watch-api/kube-watch-api";

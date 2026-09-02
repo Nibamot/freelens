@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { byValue } from "@freelensapp/utilities";
+import { byValue } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import { computedInjectManyInjectionToken } from "@ogre-tools/injectable-extension-for-mobx";
 import { computed } from "mobx";

@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { byOrderNumber } from "@freelensapp/utilities";
+import { byOrderNumber } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import { computed } from "mobx";
 import logErrorInjectable from "../../../common/log-error.injectable";
@@ -12,7 +12,7 @@ import { isShown } from "../../../common/utils/composable-responsibilities/showa
 import { getCompositeFor } from "../../../common/utils/composite/get-composite/get-composite";
 import applicationMenuItemsInjectable from "./application-menu-items.injectable";
 
-import type { Orderable } from "@freelensapp/utilities";
+import type { Orderable } from "@nibamot/utilities";
 
 import type { Discriminable } from "../../../common/utils/composable-responsibilities/discriminable/discriminable";
 import type { RootComposite } from "../../../common/utils/composite/interfaces";

@@ -1,4 +1,4 @@
-import { registerFeature } from "@freelensapp/feature-core";
+import { registerFeature } from "@nibamot/feature-core";
 import { createContainer } from "@ogre-tools/injectable";
 import { app } from "electron";
 import { applicationFeatureForElectronMain } from "../feature";

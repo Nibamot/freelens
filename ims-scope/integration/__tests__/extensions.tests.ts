@@ -1,0 +1,82 @@
+/**
+ * Copyright (c) Freelens Authors. All rights reserved.
+ * Licensed under MIT License. See LICENSE in root directory for more information.
+ */
+
+import * as utils from "../helpers/utils";
+
+import type { ElectronApplication, Page } from "playwright";
+
+// Temporarily disabled: the example extension used here has not been migrated
+// to v2 yet, so installing it does not work under the ESM-main packaged app.
+// Re-enable (drop `.skip`) once the extension is available for v2.
+describe.skip("extensions page tests", () => {
+  let window: Page;
+  let cleanup: undefined | (() => Promise<void>);
+  let app: ElectronApplication;
+
+  beforeEach(
+    async () => {
+      ({ window, cleanup, app } = await utils.start());
+      await utils.clickWelcomeButton(window);
+    },
+    10 * 60 * 1000,
+  );
+
+  afterEach(
+    async () => {
+      await cleanup?.();
+    },
+    10 * 60 * 1000,
+  );
+
+  const extensionPath = process.env.EXTENSION_PATH;
+  const skipInstallExtensionTests = extensionPath === "skip";
+
+  const extensions =
+    extensionPath && !skipInstallExtensionTests
+      ? extensionPath.split(",").map((ext) => ext.trim())
+      : ["@nibamot/example-extension@1.3.0"];
+
+  (skipInstallExtensionTests ? it.skip : it).each(extensions)(
+    "installs an extension %s",
+    async (extension) => {
+      // Navigate to extensions page
+      console.log("await app.evaluate");
+
+      await app.evaluate(async ({ app }) => {
+        await app.applicationMenu
+          ?.getMenuItemById(process.platform === "darwin" ? "mac" : "file")
+          ?.submenu?.getMenuItemById("navigate-to-extensions")
+          ?.click();
+      });
+
+      // Trigger extension install
+      const textbox = window.getByPlaceholder("Name or file path or URL");
+
+      await textbox.fill(extension);
+
+      const install_button_selector = 'button[class*="Button install-module__button--"]';
+
+      await window.click(install_button_selector.concat("[data-waiting=false]"));
+
+      // Expect extension to be listed in installed list and enabled
+      const installedExtensionName = await (
+        await window.waitForSelector('div[class*="installed-extensions-module__extensionName--"]')
+      ).textContent();
+
+      expect(installedExtensionName).toBeTruthy();
+
+      const installedExtensionState = await (
+        await window.waitForSelector('div[class*="installed-extensions-module__enabled--"]')
+      ).textContent();
+
+      expect(installedExtensionState).toBe("Enabled");
+
+      await window.click('i[data-testid*="close-notification-for-notification_"]');
+
+      await window.click('div[class*="close-button-module__closeButton--"][aria-label="Close"]');
+    },
+    100 * 60 * 1000,
+  );
+});

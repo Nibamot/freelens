@@ -6,7 +6,7 @@
 
 import { KubeObjectStore } from "../../../common/k8s-api/kube-object.store";
 
-import type { SecretApi } from "@freelensapp/kube-api";
-import type { Secret, SecretData } from "@freelensapp/kube-object";
+import type { SecretApi } from "@nibamot/kube-api";
+import type { Secret, SecretData } from "@nibamot/kube-object";
 
 export class SecretStore extends KubeObjectStore<Secret, SecretApi, SecretData> {}

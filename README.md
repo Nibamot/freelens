@@ -15,7 +15,7 @@ growing set of features on top of it, added incrementally as they come up
 from real use: requests, feedback, and bugs hit along the way. There is no
 fixed roadmap; it grows as needs do.
 
-![Screenshot](freelens/build/screenshots/main.png)
+![Screenshot](ims-scope/build/screenshots/main.png)
 
 ## Requirements
 
@@ -145,7 +145,5 @@ core of [Lens Desktop](https://k8slens.dev).
 Copyright (c) 2024-2026 Freelens Authors.
 
 Copyright (c) 2022 OpenLens Authors.
-
-Copyright (c) 2026 IMS-Scope Authors.
 
 [MIT License](https://opensource.org/licenses/MIT)

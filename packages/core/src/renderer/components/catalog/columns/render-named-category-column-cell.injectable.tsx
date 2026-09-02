@@ -9,8 +9,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Icon } from "@freelensapp/icon";
-import { prevDefault } from "@freelensapp/utilities";
+import { Icon } from "@nibamot/icon";
+import { prevDefault } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import activeHotbarInjectable from "../../../../features/hotbar/storage/common/active.injectable";
 import { Avatar } from "../../avatar";

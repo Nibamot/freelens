@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { onLoadOfApplicationInjectionToken } from "@freelensapp/application";
+import { onLoadOfApplicationInjectionToken } from "@nibamot/application";
 import { getInjectable } from "@ogre-tools/injectable";
 import startTrayInjectable from "../electron-tray/start-tray.injectable";
 import reactiveTrayMenuIconInjectable from "./reactive.injectable";

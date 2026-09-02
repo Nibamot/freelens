@@ -12,10 +12,10 @@ import {
   ResourceName,
   UpdateMode,
   VerticalPodAutoscaler,
-} from "@freelensapp/kube-object";
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { Link } from "@freelensapp/routing";
-import { cssNames } from "@freelensapp/utilities";
+} from "@nibamot/kube-object";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { Link } from "@nibamot/routing";
+import { cssNames } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { startCase } from "es-toolkit";
 import { observer } from "mobx-react";
@@ -25,8 +25,8 @@ import { Badge } from "../badge";
 import { DrawerItem, DrawerTitle } from "../drawer";
 import getDetailsUrlInjectable from "../kube-detail-params/get-details-url.injectable";
 
-import type { PodResourcePolicy, PodUpdatePolicy, VerticalPodAutoscalerStatus } from "@freelensapp/kube-object";
-import type { Logger } from "@freelensapp/logger";
+import type { PodResourcePolicy, PodUpdatePolicy, VerticalPodAutoscalerStatus } from "@nibamot/kube-object";
+import type { Logger } from "@nibamot/logger";
 
 import type { ApiManager } from "../../../common/k8s-api/api-manager";
 import type { GetDetailsUrl } from "../kube-detail-params/get-details-url.injectable";

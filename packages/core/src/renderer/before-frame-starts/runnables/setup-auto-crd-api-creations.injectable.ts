@@ -4,15 +4,15 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { KubeApi } from "@freelensapp/kube-api";
-import { maybeKubeApiInjectable } from "@freelensapp/kube-api-specifics";
-import { KubeObject } from "@freelensapp/kube-object";
+import { KubeApi } from "@nibamot/kube-api";
+import { maybeKubeApiInjectable } from "@nibamot/kube-api-specifics";
+import { KubeObject } from "@nibamot/kube-object";
 import {
   logDebugInjectionToken,
   logErrorInjectionToken,
   logInfoInjectionToken,
   logWarningInjectionToken,
-} from "@freelensapp/logger";
+} from "@nibamot/logger";
 import { getInjectable } from "@ogre-tools/injectable";
 import { reaction } from "mobx";
 import dependencyInjectionContainerInjectable from "../../../common/dependency-injection/dependency-injection-container.injectable";
@@ -21,7 +21,7 @@ import { injectableDifferencingRegistratorWith } from "../../../common/utils/reg
 import customResourceDefinitionStoreInjectable from "../../components/custom-resource-definitions/store.injectable";
 import { beforeClusterFrameStartsSecondInjectionToken } from "../tokens";
 
-import type { CustomResourceDefinition } from "@freelensapp/kube-object";
+import type { CustomResourceDefinition } from "@nibamot/kube-object";
 
 const setupAutoCrdApiCreationsInjectable = getInjectable({
   id: "setup-auto-crd-api-creations",

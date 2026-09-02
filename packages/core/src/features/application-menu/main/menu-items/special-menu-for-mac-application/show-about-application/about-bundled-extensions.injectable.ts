@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { applicationInformationToken } from "@freelensapp/application";
-import { object } from "@freelensapp/utilities";
+import { applicationInformationToken } from "@nibamot/application";
+import { object } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import semanticBuildVersionInjectable from "../../../../../vars/common/semantic-build-version.injectable";
 
@@ -21,7 +21,7 @@ const specificVersionsInjectable = getInjectable({
 
     const corePackageVersions = object
       .entries(applicationInformation.dependencies)
-      .filter(([name]) => name.startsWith("@freelensapp/"))
+      .filter(([name]) => name.startsWith("@nibamot/"))
       .map(([name, version]) => `${name}: ${version}`);
 
     return corePackageVersions;

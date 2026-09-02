@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { afterApplicationIsLoadedInjectionToken } from "@freelensapp/application";
+import { afterApplicationIsLoadedInjectionToken } from "@nibamot/application";
 import { getInjectable } from "@ogre-tools/injectable";
 import shouldStartHiddenInjectable from "../../electron-app/features/should-start-hidden.injectable";
 import openDeepLinkInjectable from "../../protocol-handler/lens-protocol-router-main/open-deep-link-for-url/open-deep-link.injectable";
@@ -13,7 +13,7 @@ import createFirstApplicationWindowInjectable from "../lens-window/application-w
 import splashWindowInjectable from "../lens-window/splash-window/splash-window.injectable";
 
 const getDeepLinkUrl = (commandLineArguments: string[]) =>
-  commandLineArguments.map((arg) => arg.toLowerCase()).find((arg) => arg.startsWith("freelens://"));
+  commandLineArguments.map((arg) => arg.toLowerCase()).find((arg) => arg.startsWith("ims-scope://"));
 
 const showInitialWindowInjectable = getInjectable({
   id: "show-initial-window",

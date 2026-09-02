@@ -1,21 +1,21 @@
 {
-  "name": "@freelensapp/prometheus",
+  "name": "@nibamot/prometheus",
   "version": "2.0.0-5",
   "private": true,
-  "description": "Prometheus support for Freelens",
-  "homepage": "https://freelens.app",
+  "description": "Prometheus support for IMS-Scope",
+  "homepage": "https://github.com/Nibamot/ims-scope",
   "bugs": {
-    "url": "https://github.com/freelensapp/freelens/issues"
+    "url": "https://github.com/Nibamot/ims-scope/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/freelensapp/freelens.git"
+    "url": "git+https://github.com/Nibamot/ims-scope.git"
   },
   "license": "MIT",
   "type": "module",
   "author": {
     "name": "Freelens Authors",
-    "email": "freelens@freelens.app"
+    "email": "ims-scope@ims-scope.app"
   },
   "main": "./index.ts",
   "types": "./index.ts",
@@ -23,13 +23,13 @@
     "clean:dist": "pnpm dlx rimraf@6.1.3 dist"
   },
   "dependencies": {
-    "@freelensapp/application": "workspace:^",
-    "@freelensapp/feature-core": "workspace:^",
-    "@freelensapp/utilities": "workspace:^",
+    "@nibamot/application": "workspace:^",
+    "@nibamot/feature-core": "workspace:^",
+    "@nibamot/utilities": "workspace:^",
     "@ogre-tools/injectable": "catalog:"
   },
   "devDependencies": {
-    "@freelensapp/typescript": "workspace:^",
+    "@nibamot/typescript": "workspace:^",
     "@kubernetes/client-node": "catalog:",
     "@ogre-tools/fp": "catalog:",
     "typescript": "catalog:"

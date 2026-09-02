@@ -3,11 +3,11 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { requestFromChannelInjectionToken } from "@freelensapp/messaging";
+import { requestFromChannelInjectionToken } from "@nibamot/messaging";
 import { getInjectable, type Injectable } from "@ogre-tools/injectable";
 import { downloadBinaryChannel } from "../../common/fetch/download-binary-channel";
 
-import type { AsyncResult } from "@freelensapp/utilities";
+import type { AsyncResult } from "@nibamot/utilities";
 
 import type { DownloadBinaryOptions } from "../../main/fetch/download-binary.injectable";
 

@@ -3,8 +3,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Icon } from "@freelensapp/icon";
-import { Node } from "@freelensapp/kube-object";
+import { Icon } from "@nibamot/icon";
+import { Node } from "@nibamot/kube-object";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import React from "react";
 import { App } from "../../../extensions/common-api";

@@ -1,15 +1,15 @@
-# @freelensapp/random
+# @nibamot/random
 
 This package contains stuff related to creating Lens-applications. 
 
 ## Usage
 
 ```sh
-npm install @freelensapp/random
+npm install @nibamot/random
 ```
 
 ```typescript
-export type { ... } from "@freelensapp/random";
+export type { ... } from "@nibamot/random";
 ```
 
 ## Extendability

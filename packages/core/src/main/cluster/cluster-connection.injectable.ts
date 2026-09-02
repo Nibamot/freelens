@@ -4,9 +4,9 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { disposer, isDefined, isRequestError, withConcurrencyLimit } from "@freelensapp/utilities";
 import { ApiException, type KubeConfig } from "@kubernetes/client-node";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { disposer, isDefined, isRequestError, withConcurrencyLimit } from "@nibamot/utilities";
 import { getInjectable, lifecycleEnum } from "@ogre-tools/injectable";
 import { comparer, reaction, runInAction } from "mobx";
 import createAuthorizationApiInjectable from "../../common/cluster/create-authorization-api.injectable";
@@ -28,7 +28,7 @@ import prometheusHandlerInjectable from "./prometheus-handler/prometheus-handler
 import removeProxyKubeconfigInjectable from "./remove-proxy-kubeconfig.injectable";
 import requestApiResourcesInjectable from "./request-api-resources.injectable";
 
-import type { Logger } from "@freelensapp/logger";
+import type { Logger } from "@nibamot/logger";
 
 import type { Cluster } from "../../common/cluster/cluster";
 import type { CreateAuthorizationApi } from "../../common/cluster/create-authorization-api.injectable";

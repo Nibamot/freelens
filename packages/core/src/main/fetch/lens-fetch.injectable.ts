@@ -9,7 +9,7 @@ import fetchInjectable from "../../common/fetch/fetch.injectable";
 import { lensProxyDispatcherInjectionToken } from "../../common/fetch/lens-proxy-dispatcher-injection-token";
 import lensProxyPortInjectable from "../../main/lens-proxy/lens-proxy-port.injectable";
 
-import type { FetchRequestInit, FetchResponse } from "@freelensapp/json-api";
+import type { FetchRequestInit, FetchResponse } from "@nibamot/json-api";
 
 import type { MainFetch } from "./main-fetch-request-init";
 

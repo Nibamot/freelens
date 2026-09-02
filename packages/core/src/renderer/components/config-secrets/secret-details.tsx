@@ -6,12 +6,12 @@
 
 import "./secret-details.scss";
 
-import { Button } from "@freelensapp/button";
-import { Icon } from "@freelensapp/icon";
-import { Secret } from "@freelensapp/kube-object";
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { showCheckedErrorNotificationInjectable, showSuccessNotificationInjectable } from "@freelensapp/notifications";
-import { base64, toggle } from "@freelensapp/utilities";
+import { Button } from "@nibamot/button";
+import { Icon } from "@nibamot/icon";
+import { Secret } from "@nibamot/kube-object";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { showCheckedErrorNotificationInjectable, showSuccessNotificationInjectable } from "@nibamot/notifications";
+import { base64, toggle } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { autorun, makeObservable, observable } from "mobx";
 import { observer } from "mobx-react";
@@ -20,8 +20,8 @@ import { DrawerItem, DrawerTitle } from "../drawer";
 import { Input } from "../input";
 import secretStoreInjectable from "./store.injectable";
 
-import type { Logger } from "@freelensapp/logger";
-import type { ShowCheckedErrorNotification, ShowNotification } from "@freelensapp/notifications";
+import type { Logger } from "@nibamot/logger";
+import type { ShowCheckedErrorNotification, ShowNotification } from "@nibamot/notifications";
 
 import type { KubeObjectDetailsProps } from "../kube-object-details";
 import type { SecretStore } from "./store";

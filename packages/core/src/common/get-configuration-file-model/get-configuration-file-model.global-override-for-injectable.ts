@@ -6,7 +6,7 @@
 
 import assert from "node:assert";
 import path from "node:path";
-import { getGlobalOverride } from "@freelensapp/test-utils";
+import { getGlobalOverride } from "@nibamot/test-utils";
 import { get, has, set } from "es-toolkit/compat";
 import semver from "semver";
 import readJsonSyncInjectable from "../fs/read-json-sync.injectable";

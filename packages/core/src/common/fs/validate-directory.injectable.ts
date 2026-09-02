@@ -4,12 +4,12 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { isErrnoException } from "@freelensapp/utilities";
+import { isErrnoException } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import { lowerFirst } from "es-toolkit";
 import statInjectable from "./stat.injectable";
 
-import type { AsyncResult } from "@freelensapp/utilities";
+import type { AsyncResult } from "@nibamot/utilities";
 
 import type { Stats } from "fs-extra";
 

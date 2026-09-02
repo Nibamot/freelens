@@ -1,3 +1,3 @@
-# @freelensapp/run-many
+# @nibamot/run-many
 
 This package contains the functions `runMany` and `runManySync`

@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { getRequestChannelListenerInjectable } from "@freelensapp/messaging";
+import { getRequestChannelListenerInjectable } from "@nibamot/messaging";
 import clustersInjectable from "../../storage/common/clusters.injectable";
 import { initialClusterStatesChannel } from "../common/channels";
 

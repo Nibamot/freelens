@@ -9,7 +9,7 @@ import os from "node:os";
 import path from "node:path";
 import { Kubectl } from "./kubectl";
 
-import type { Logger } from "@freelensapp/logger";
+import type { Logger } from "@nibamot/logger";
 
 import type { DownloadProgress } from "../fetch/download-binary.injectable";
 import type { KubectlDependencies } from "./kubectl";
@@ -27,7 +27,7 @@ describe("kubectl", () => {
   let downloaded: Buffer;
 
   beforeEach(async () => {
-    directory = await fs.mkdtemp(path.join(os.tmpdir(), "freelens-kubectl-"));
+    directory = await fs.mkdtemp(path.join(os.tmpdir(), "ims-scope-kubectl-"));
     downloaded = content;
 
     dependencies = {

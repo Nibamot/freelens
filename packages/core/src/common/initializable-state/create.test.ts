@@ -5,11 +5,11 @@
  */
 
 import asyncFn from "@async-fn/vitest";
-import { runManyFor } from "@freelensapp/run-many";
+import { runManyFor } from "@nibamot/run-many";
 import { createContainer, getInjectionToken } from "@ogre-tools/injectable";
 import { getInitializable, getInjectablesForInitializable } from "./create";
 
-import type { Runnable } from "@freelensapp/run-many";
+import type { Runnable } from "@nibamot/run-many";
 
 import type { AsyncFnMock } from "@async-fn/vitest";
 import type { DiContainer, InjectionToken } from "@ogre-tools/injectable";

@@ -6,7 +6,7 @@
 
 import "./ingresses.scss";
 
-import { type ComputedIngressRoute, computeRouteDeclarations } from "@freelensapp/kube-object";
+import { type ComputedIngressRoute, computeRouteDeclarations } from "@nibamot/kube-object";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
 import { KubeObjectAge } from "../kube-object/age";

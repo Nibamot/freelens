@@ -1,6 +1,6 @@
 import { getInjectionToken } from "@ogre-tools/injectable";
 
-import type { StrictReactNode } from "@freelensapp/utilities";
+import type { StrictReactNode } from "@nibamot/utilities";
 
 import type React from "react";
 

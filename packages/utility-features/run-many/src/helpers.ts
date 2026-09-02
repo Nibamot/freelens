@@ -5,7 +5,7 @@
  */
 
 import assert from "node:assert";
-import { getOrInsertSetFor, isDefined } from "@freelensapp/utilities";
+import { getOrInsertSetFor, isDefined } from "@nibamot/utilities";
 import * as uuid from "uuid";
 
 import type { DiContainerForInjection, InjectionInstanceWithMeta } from "@ogre-tools/injectable";

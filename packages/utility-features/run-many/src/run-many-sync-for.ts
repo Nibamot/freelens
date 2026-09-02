@@ -7,7 +7,7 @@
 import EventEmitter from "node:events";
 import { convertToWithIdWith, verifyRunnablesAreDAG } from "./helpers";
 
-import type { Disposer, TypedEventEmitter } from "@freelensapp/utilities";
+import type { Disposer, TypedEventEmitter } from "@nibamot/utilities";
 
 import type { DiContainerForInjection, InjectionToken } from "@ogre-tools/injectable";
 

@@ -1,11 +1,11 @@
 import asyncFn from "@async-fn/vitest";
-import { registerFeature } from "@freelensapp/feature-core";
-import { sendMessageToChannelInjectionToken } from "@freelensapp/messaging";
+import { registerFeature } from "@nibamot/feature-core";
+import { sendMessageToChannelInjectionToken } from "@nibamot/messaging";
 import { createContainer, DiContainer } from "@ogre-tools/injectable";
 import { messagingFeatureForRenderer } from "../feature";
 import sendToIpcInjectable from "./send-to-ipc.injectable";
 
-import type { MessageChannel } from "@freelensapp/messaging";
+import type { MessageChannel } from "@nibamot/messaging";
 
 import type { AsyncFnMock } from "@async-fn/vitest";
 

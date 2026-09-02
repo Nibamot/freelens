@@ -1,4 +1,4 @@
-import { Link } from "@freelensapp/routing";
+import { Link } from "@nibamot/routing";
 import React from "react";
 
 type MaybeLinkProps = Omit<React.ComponentProps<typeof Link>, "to"> & {

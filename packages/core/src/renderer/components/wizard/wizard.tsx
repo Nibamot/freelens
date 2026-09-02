@@ -6,15 +6,15 @@
 
 import "./wizard.scss";
 
-import { Button } from "@freelensapp/button";
-import { Spinner } from "@freelensapp/spinner";
-import { cssNames, prevDefault } from "@freelensapp/utilities";
+import { Button } from "@nibamot/button";
+import { Spinner } from "@nibamot/spinner";
+import { cssNames, prevDefault } from "@nibamot/utilities";
 import { debounce } from "es-toolkit/compat";
 import React from "react";
 import { SubTitle } from "../layout/sub-title";
 import { Stepper } from "../stepper";
 
-import type { StrictReactNode } from "@freelensapp/utilities";
+import type { StrictReactNode } from "@nibamot/utilities";
 
 export interface WizardCommonProps<D> {
   data?: Partial<D>;

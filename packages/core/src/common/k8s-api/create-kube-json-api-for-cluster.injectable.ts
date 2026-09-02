@@ -10,7 +10,7 @@ import isDebuggingInjectable from "../vars/is-debugging.injectable";
 import { clusterApiAddressInjectionToken } from "./cluster-api-address-injection-token";
 import createKubeJsonApiInjectable from "./create-kube-json-api.injectable";
 
-import type { KubeJsonApi } from "@freelensapp/kube-api";
+import type { KubeJsonApi } from "@nibamot/kube-api";
 
 export type CreateKubeJsonApiForCluster = (clusterId: string) => KubeJsonApi;
 

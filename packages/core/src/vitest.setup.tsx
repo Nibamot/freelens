@@ -9,7 +9,7 @@ import { enableMapSet, setAutoFreeze } from "immer";
 import { configure } from "mobx";
 import { fetch as undiciFetch } from "undici";
 
-import type * as K8slensTooltip from "@freelensapp/tooltip";
+import type * as K8slensTooltip from "@nibamot/tooltip";
 
 configure({
   // Needed because we want to use vi.spyOn()
@@ -37,7 +37,7 @@ global.ResizeObserver = class {
 };
 
 vi.mock("./renderer/components/monaco-editor/monaco-editor");
-vi.mock("@freelensapp/tooltip", async (importOriginal) => ({
+vi.mock("@nibamot/tooltip", async (importOriginal) => ({
   ...(await importOriginal<typeof K8slensTooltip>()),
   withTooltip: ((Target) =>
     ({ tooltip, tooltipOverrideDisabled, ...props }: any) => {

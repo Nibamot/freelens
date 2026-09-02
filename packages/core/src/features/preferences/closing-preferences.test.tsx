@@ -9,7 +9,7 @@ import {
   createObservableHistory,
   observableHistoryInjectionToken,
   searchParamsOptions,
-} from "@freelensapp/routing";
+} from "@nibamot/routing";
 import { getInjectable } from "@ogre-tools/injectable";
 import { computed, runInAction } from "mobx";
 import { frontEndRouteInjectionToken } from "../../common/front-end-routing/front-end-route-injection-token";

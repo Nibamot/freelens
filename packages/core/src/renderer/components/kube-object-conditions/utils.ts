@@ -1,4 +1,4 @@
-import type { Condition } from "@freelensapp/kube-object";
+import type { Condition } from "@nibamot/kube-object";
 
 function timeToUnix(dateStr?: string): number {
   if (!dateStr) return 0;

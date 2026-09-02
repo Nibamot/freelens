@@ -9,8 +9,8 @@ import { observer } from "mobx-react";
 import siblingTabsInjectable from "../../routes/sibling-tabs.injectable";
 import { TabLayout } from "./tab-layout-2";
 
-import type { SidebarItemDeclaration } from "@freelensapp/cluster-sidebar";
-import type { StrictReactNode } from "@freelensapp/utilities";
+import type { SidebarItemDeclaration } from "@nibamot/cluster-sidebar";
+import type { StrictReactNode } from "@nibamot/utilities";
 
 import type { IComputedValue } from "mobx";
 

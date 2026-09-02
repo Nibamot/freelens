@@ -6,8 +6,8 @@
 
 import { KubeObjectStore } from "../../../common/k8s-api/kube-object.store";
 
-import type { ValidatingAdmissionPolicyApi } from "@freelensapp/kube-api";
-import type { ValidatingAdmissionPolicy } from "@freelensapp/kube-object";
+import type { ValidatingAdmissionPolicyApi } from "@nibamot/kube-api";
+import type { ValidatingAdmissionPolicy } from "@nibamot/kube-object";
 
 export class ValidatingAdmissionPolicyStore extends KubeObjectStore<
   ValidatingAdmissionPolicy,

@@ -9,7 +9,7 @@ import { orderBy } from "es-toolkit/compat";
 import browseAllColumnsInjectable from "./browse-all.injectable";
 import getColumnsForCategoryInjectable from "./specific-category.injectable";
 
-import type { StrictReactNode } from "@freelensapp/utilities";
+import type { StrictReactNode } from "@nibamot/utilities";
 
 import type { CatalogCategory, CatalogEntity } from "../../../../common/catalog";
 import type { ItemListLayoutProps } from "../../item-object-list";

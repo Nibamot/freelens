@@ -4,14 +4,14 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { disposer } from "@freelensapp/utilities";
+import { disposer } from "@nibamot/utilities";
 import { ipcRenderer } from "electron";
 import { action, computed, observable } from "mobx";
 import * as uuid from "uuid";
 import { broadcastMessage } from "../../common/ipc";
 
-import type { Logger } from "@freelensapp/logger";
-import type { ExtendableDisposer } from "@freelensapp/utilities";
+import type { Logger } from "@nibamot/logger";
+import type { ExtendableDisposer } from "@nibamot/utilities";
 
 export enum ExtensionInstallationState {
   INSTALLING = "installing",

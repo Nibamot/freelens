@@ -4,10 +4,10 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { isKubeStatusData, KubeStatus, Pod } from "@freelensapp/kube-object";
+import { isKubeStatusData, KubeStatus, Pod } from "@nibamot/kube-object";
 import { KubeApi } from "../kube-api";
 
-import type { KubeStatusData, PodLogsQuery } from "@freelensapp/kube-object";
+import type { KubeStatusData, PodLogsQuery } from "@nibamot/kube-object";
 
 import type {
   DeleteResourceDescriptor,

@@ -18,14 +18,14 @@ import type {
   CatalogEntityStatus,
 } from "../../../../common/catalog";
 import "../../../../common/catalog-entities";
-import { iter } from "@freelensapp/utilities";
+import { iter } from "@nibamot/utilities";
 import { ipcRenderer } from "electron";
 import { once } from "es-toolkit";
 import { CatalogRunEvent } from "../../../../common/catalog/catalog-run-event";
 import { catalogEntityRunListener, catalogInitChannel, catalogItemsChannel } from "../../../../common/ipc/catalog";
 
-import type { Logger } from "@freelensapp/logger";
-import type { Disposer } from "@freelensapp/utilities";
+import type { Logger } from "@nibamot/logger";
+import type { Disposer } from "@nibamot/utilities";
 
 import type { Navigate } from "../../../navigation/navigate.injectable";
 

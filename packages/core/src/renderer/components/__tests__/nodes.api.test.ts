@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { formatNodeTaint } from "@freelensapp/kube-object";
+import { formatNodeTaint } from "@nibamot/kube-object";
 
 describe("formatNodeTaint tests", () => {
   it("should use value if defined", () => {

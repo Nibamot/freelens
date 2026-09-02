@@ -4,7 +4,7 @@
  */
 
 import { fork } from "node:child_process";
-import { prefixedLoggerInjectable } from "@freelensapp/logger";
+import { prefixedLoggerInjectable } from "@nibamot/logger";
 import { getInjectable } from "@ogre-tools/injectable";
 import directoryForUserDataInjectable from "../../common/app-paths/directory-for-user-data/directory-for-user-data.injectable";
 import pathToPnpmCliInjectable from "../../common/app-paths/path-to-pnpm-cli.injectable";

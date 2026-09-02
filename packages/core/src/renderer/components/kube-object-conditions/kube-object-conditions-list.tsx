@@ -3,13 +3,13 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { KubeObject } from "@freelensapp/kube-object";
-import { Tooltip } from "@freelensapp/tooltip";
+import { KubeObject } from "@nibamot/kube-object";
+import { Tooltip } from "@nibamot/tooltip";
 import { observer } from "mobx-react";
 import { getClassName, getTooltip } from "./components";
 import { sortConditions } from "./utils";
 
-import type { KubeObjectMetadata, KubeObjectStatus } from "@freelensapp/kube-object";
+import type { KubeObjectMetadata, KubeObjectStatus } from "@nibamot/kube-object";
 
 export interface KubeObjectConditionsListProps {
   object: KubeObject;

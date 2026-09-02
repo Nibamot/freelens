@@ -6,8 +6,8 @@
 
 import "./pod-details-list.scss";
 
-import { Spinner } from "@freelensapp/spinner";
-import { bytesToUnits, cssNames, interval, prevDefault } from "@freelensapp/utilities";
+import { Spinner } from "@nibamot/spinner";
+import { bytesToUnits, cssNames, interval, prevDefault } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import autoBindReact from "auto-bind/react";
 import { kebabCase } from "es-toolkit";
@@ -22,7 +22,7 @@ import { Table, TableCell, TableHead, TableRow } from "../table";
 import { WithTooltip } from "../with-tooltip";
 import podStoreInjectable from "./store.injectable";
 
-import type { KubeObject, Pod } from "@freelensapp/kube-object";
+import type { KubeObject, Pod } from "@nibamot/kube-object";
 
 import type { ShowDetails } from "../kube-detail-params/show-details.injectable";
 import type { PodStore } from "./store";

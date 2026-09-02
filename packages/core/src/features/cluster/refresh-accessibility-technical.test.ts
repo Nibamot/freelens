@@ -10,7 +10,7 @@
  */
 
 import asyncFn from "@async-fn/vitest";
-import { flushPromises } from "@freelensapp/test-utils";
+import { flushPromises } from "@nibamot/test-utils";
 import { PartialDeep } from "type-fest";
 import { anyObject } from "vitest-mock-extended";
 import createAuthorizationApiInjectable from "../../common/cluster/create-authorization-api.injectable";

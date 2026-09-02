@@ -5,16 +5,16 @@
  */
 
 import asyncFn from "@async-fn/vitest";
-import { HorizontalPodAutoscalerApi } from "@freelensapp/kube-api";
-import { ingressApiInjectable, maybeKubeApiInjectable } from "@freelensapp/kube-api-specifics";
-import { Ingress } from "@freelensapp/kube-object";
+import { HorizontalPodAutoscalerApi } from "@nibamot/kube-api";
+import { ingressApiInjectable, maybeKubeApiInjectable } from "@nibamot/kube-api-specifics";
+import { Ingress } from "@nibamot/kube-object";
 import {
   logDebugInjectionToken,
   logErrorInjectionToken,
   logInfoInjectionToken,
   logWarningInjectionToken,
-} from "@freelensapp/logger";
-import { flushPromises } from "@freelensapp/test-utils";
+} from "@nibamot/logger";
+import { flushPromises } from "@nibamot/test-utils";
 import setupAutoRegistrationInjectable from "../../../renderer/before-frame-starts/runnables/setup-auto-registration.injectable";
 import hostedClusterInjectable from "../../../renderer/cluster-frame-context/hosted-cluster.injectable";
 import { getDiForUnitTesting } from "../../../renderer/getDiForUnitTesting";
@@ -26,8 +26,8 @@ import { Cluster } from "../../cluster/cluster";
 import fetchInjectable from "../../fetch/fetch.injectable";
 import apiManagerInjectable from "../api-manager/manager.injectable";
 
-import type { Fetch } from "@freelensapp/json-api";
-import type { IngressApi } from "@freelensapp/kube-api";
+import type { Fetch } from "@nibamot/json-api";
+import type { IngressApi } from "@nibamot/kube-api";
 
 import type { AsyncFnMock } from "@async-fn/vitest";
 import type { DiContainer } from "@ogre-tools/injectable";

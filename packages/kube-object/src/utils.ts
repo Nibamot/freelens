@@ -12,7 +12,7 @@ import {
   isRecord,
   isString,
   isTypedArray,
-} from "@freelensapp/utilities";
+} from "@nibamot/utilities";
 
 import type {
   KubeJsonApiData,

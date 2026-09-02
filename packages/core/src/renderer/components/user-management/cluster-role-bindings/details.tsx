@@ -6,7 +6,7 @@
 
 import "./details.scss";
 
-import { ObservableHashSet, prevDefault } from "@freelensapp/utilities";
+import { ObservableHashSet, prevDefault } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import autoBindReact from "auto-bind/react";
 import { observer } from "mobx-react";
@@ -21,7 +21,7 @@ import { hashSubject } from "../hashers";
 import openClusterRoleBindingDialogInjectable from "./dialog/open.injectable";
 import clusterRoleBindingStoreInjectable from "./store.injectable";
 
-import type { ClusterRoleBinding } from "@freelensapp/kube-object";
+import type { ClusterRoleBinding } from "@nibamot/kube-object";
 
 import type { OpenConfirmDialog } from "../../confirm-dialog/open.injectable";
 import type { KubeObjectDetailsProps } from "../../kube-object-details";

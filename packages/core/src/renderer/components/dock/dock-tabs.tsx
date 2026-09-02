@@ -9,7 +9,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { cssVar } from "@freelensapp/utilities";
+import { cssVar } from "@nibamot/utilities";
 import React, { Fragment, useEffect, useRef, useState } from "react";
 import { useResizeObserver } from "../../hooks";
 import { Tabs } from "../tabs/tabs";

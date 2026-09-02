@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { getGlobalOverride } from "@freelensapp/test-utils";
+import { getGlobalOverride } from "@nibamot/test-utils";
 import validateWeblinkInjectable from "./validate-weblink.injectable";
 
 export default getGlobalOverride(validateWeblinkInjectable, () => async () => "available");

@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { ErrorBoundary } from "@freelensapp/error-boundary";
-import { rootFrameChildComponentInjectionToken } from "@freelensapp/react-application";
+import { ErrorBoundary } from "@nibamot/error-boundary";
+import { rootFrameChildComponentInjectionToken } from "@nibamot/react-application";
 import { getInjectable } from "@ogre-tools/injectable";
 import { computed } from "mobx";
 import { ClusterManager } from "./cluster-manager";

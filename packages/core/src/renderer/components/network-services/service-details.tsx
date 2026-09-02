@@ -6,10 +6,10 @@
 
 import "./service-details.scss";
 
-import { Icon } from "@freelensapp/icon";
-import { type PortStatus, Service } from "@freelensapp/kube-object";
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { formatDuration } from "@freelensapp/utilities";
+import { Icon } from "@nibamot/icon";
+import { type PortStatus, Service } from "@nibamot/kube-object";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { formatDuration } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
 import React from "react";
@@ -23,7 +23,7 @@ import { WithTooltip } from "../with-tooltip";
 import { ServiceDetailsEndpointSlices } from "./service-details-endpoint-slices";
 import { ServicePortComponent } from "./service-port-component";
 
-import type { Logger } from "@freelensapp/logger";
+import type { Logger } from "@nibamot/logger";
 
 import type { SubscribeStores } from "../../kube-watch-api/kube-watch-api";
 import type { PortForwardStore } from "../../port-forward";

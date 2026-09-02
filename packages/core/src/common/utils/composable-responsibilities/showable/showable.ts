@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { isBoolean } from "@freelensapp/utilities";
+import { isBoolean } from "@nibamot/utilities";
 
 import type { IComputedValue } from "mobx";
 

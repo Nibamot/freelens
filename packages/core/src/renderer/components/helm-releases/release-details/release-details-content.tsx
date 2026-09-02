@@ -6,10 +6,10 @@
 
 import "./release-details.scss";
 
-import { Button } from "@freelensapp/button";
-import { Link } from "@freelensapp/routing";
-import { Spinner } from "@freelensapp/spinner";
-import { stopPropagation } from "@freelensapp/utilities";
+import { Button } from "@nibamot/button";
+import { Link } from "@nibamot/routing";
+import { Spinner } from "@nibamot/spinner";
+import { stopPropagation } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { kebabCase } from "es-toolkit";
 import { observer } from "mobx-react";

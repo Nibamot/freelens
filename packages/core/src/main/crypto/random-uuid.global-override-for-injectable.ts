@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { getGlobalOverride } from "@freelensapp/test-utils";
+import { getGlobalOverride } from "@nibamot/test-utils";
 import randomUUIDInjectable from "./random-uuid.injectable";
 
 export default getGlobalOverride(randomUUIDInjectable, () => () => {

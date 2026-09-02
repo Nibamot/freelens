@@ -4,12 +4,12 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { discoverFor } from "@freelensapp/react-testing-library-discovery";
+import { discoverFor } from "@nibamot/react-testing-library-discovery";
 import { act } from "@testing-library/react";
 import { getApplicationBuilder } from "../../renderer/components/test-utils/get-application-builder";
 import navigateInjectable from "../../renderer/navigation/navigate.injectable";
 
-import type { Discover } from "@freelensapp/react-testing-library-discovery";
+import type { Discover } from "@nibamot/react-testing-library-discovery";
 
 import type { RenderResult } from "@testing-library/react";
 

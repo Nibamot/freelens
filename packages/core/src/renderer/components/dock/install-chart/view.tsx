@@ -6,10 +6,10 @@
 
 import "./install-chart.scss";
 
-import { Button } from "@freelensapp/button";
-import { Icon } from "@freelensapp/icon";
-import { Spinner } from "@freelensapp/spinner";
-import { prevDefault } from "@freelensapp/utilities";
+import { Button } from "@nibamot/button";
+import { Icon } from "@nibamot/icon";
+import { Spinner } from "@nibamot/spinner";
+import { prevDefault } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
 import { Badge } from "../../badge";

@@ -1,40 +1,40 @@
 {
-  "name": "@freelensapp/keyboard-shortcuts",
+  "name": "@nibamot/keyboard-shortcuts",
   "version": "2.0.0-5",
   "private": true,
-  "description": "Keyboard shortcuts for Freelens",
-  "homepage": "https://freelens.app",
+  "description": "Keyboard shortcuts for IMS-Scope",
+  "homepage": "https://github.com/Nibamot/ims-scope",
   "bugs": {
-    "url": "https://github.com/freelensapp/freelens/issues"
+    "url": "https://github.com/Nibamot/ims-scope/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/freelensapp/freelens.git"
+    "url": "git+https://github.com/Nibamot/ims-scope.git"
   },
   "license": "MIT",
   "type": "module",
   "author": {
     "name": "Freelens Authors",
-    "email": "freelens@freelens.app"
+    "email": "ims-scope@ims-scope.app"
   },
   "main": "./index.ts",
   "types": "./index.ts",
   "scripts": {
     "clean:dist": "pnpm dlx rimraf@6.1.3 dist",
-    "test:unit": "vitest run -c ../../../vitest.config.ts --project @freelensapp/keyboard-shortcuts"
+    "test:unit": "vitest run -c ../../../vitest.config.ts --project @nibamot/keyboard-shortcuts"
   },
   "dependencies": {
-    "@freelensapp/feature-core": "workspace:^",
-    "@freelensapp/react-application": "workspace:^",
+    "@nibamot/feature-core": "workspace:^",
+    "@nibamot/react-application": "workspace:^",
     "@ogre-tools/injectable": "catalog:",
     "@ogre-tools/injectable-react": "catalog:",
     "react": "catalog:"
   },
   "devDependencies": {
-    "@freelensapp/application": "workspace:^",
-    "@freelensapp/react-testing-library-discovery": "workspace:^",
-    "@freelensapp/typescript": "workspace:^",
-    "@freelensapp/utilities": "workspace:^",
+    "@nibamot/application": "workspace:^",
+    "@nibamot/react-testing-library-discovery": "workspace:^",
+    "@nibamot/typescript": "workspace:^",
+    "@nibamot/utilities": "workspace:^",
     "@ogre-tools/injectable-extension-for-mobx": "catalog:",
     "@testing-library/react": "catalog:",
     "@testing-library/user-event": "catalog:",

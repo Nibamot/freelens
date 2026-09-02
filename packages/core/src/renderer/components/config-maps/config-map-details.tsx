@@ -6,10 +6,10 @@
 
 import "./config-map-details.scss";
 
-import { Button } from "@freelensapp/button";
-import { ConfigMap } from "@freelensapp/kube-object";
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { showErrorNotificationInjectable, showSuccessNotificationInjectable } from "@freelensapp/notifications";
+import { Button } from "@nibamot/button";
+import { ConfigMap } from "@nibamot/kube-object";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { showErrorNotificationInjectable, showSuccessNotificationInjectable } from "@nibamot/notifications";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { autorun, makeObservable, observable } from "mobx";
 import { observer } from "mobx-react";
@@ -18,8 +18,8 @@ import { DrawerTitle } from "../drawer";
 import { MonacoEditor } from "../monaco-editor";
 import configMapStoreInjectable from "./store.injectable";
 
-import type { Logger } from "@freelensapp/logger";
-import type { ShowNotification } from "@freelensapp/notifications";
+import type { Logger } from "@nibamot/logger";
+import type { ShowNotification } from "@nibamot/notifications";
 
 import type { KubeObjectDetailsProps } from "../kube-object-details";
 import type { ConfigMapStore } from "./store";

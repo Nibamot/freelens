@@ -6,7 +6,7 @@
 
 import "./spinner.scss";
 
-import { cssNames } from "@freelensapp/utilities";
+import { cssNames } from "@nibamot/utilities";
 import React from "react";
 
 export interface SpinnerProps extends React.HTMLProps<any> {

@@ -8,7 +8,7 @@ import { getDiForUnitTesting } from "../../getDiForUnitTesting";
 import selectedMetricsTimeRangeInjectable from "../cluster/overview/selected-metrics-time-range.injectable";
 import ingressMetricsInjectable from "./metrics.injectable";
 
-import type { Ingress } from "@freelensapp/kube-object";
+import type { Ingress } from "@nibamot/kube-object";
 
 describe("ingress-metrics injectable", () => {
   it("requests ingress metrics with the selected time range", () => {

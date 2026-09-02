@@ -6,8 +6,8 @@
 
 import "./add-helm-repo-dialog.scss";
 
-import { Button } from "@freelensapp/button";
-import { Icon } from "@freelensapp/icon";
+import { Button } from "@nibamot/button";
+import { Icon } from "@nibamot/icon";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { action } from "mobx";
 import { observer } from "mobx-react";

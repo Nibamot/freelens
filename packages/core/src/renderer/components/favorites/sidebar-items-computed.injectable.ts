@@ -2,7 +2,7 @@
  * Copyright (c) Freelens Authors. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
-import { SidebarItemDeclaration, sidebarItemsInjectable } from "@freelensapp/cluster-sidebar";
+import { SidebarItemDeclaration, sidebarItemsInjectable } from "@nibamot/cluster-sidebar";
 import { getInjectable } from "@ogre-tools/injectable";
 import { computed } from "mobx";
 import favoritesSidebarItemInjectable from "./sidebar-item.injectable";

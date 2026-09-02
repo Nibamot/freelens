@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { hasDefinedTupleValue, isDefined, object } from "@freelensapp/utilities";
+import { hasDefinedTupleValue, isDefined, object } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import { groupBy, reduce } from "es-toolkit/compat";
 import { clusterMetadataDetectorInjectionToken } from "./token";

@@ -7,7 +7,7 @@
 import requestPodMetricsForReplicaSetsInjectable from "../../../common/k8s-api/endpoints/metrics.api/request-pod-metrics-for-replica-sets.injectable";
 import { createTimeRangedMetricsInjectable } from "../resource-metrics/create-time-ranged-metrics";
 
-import type { ReplicaSet } from "@freelensapp/kube-object";
+import type { ReplicaSet } from "@nibamot/kube-object";
 
 interface ReplicaSetMetricsInjectableParams {
   replicaSet: ReplicaSet;

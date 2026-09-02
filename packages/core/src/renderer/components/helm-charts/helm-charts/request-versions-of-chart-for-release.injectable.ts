@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { sortBySemverVersion } from "@freelensapp/utilities";
+import { sortBySemverVersion } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import requestHelmChartVersionsInjectable from "../../../../common/k8s-api/endpoints/helm-charts.api/request-versions.injectable";
 

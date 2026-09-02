@@ -6,7 +6,7 @@
 
 import React from "react";
 
-import type { StrictReactNode } from "@freelensapp/utilities";
+import type { StrictReactNode } from "@nibamot/utilities";
 
 interface FormControlLabelProps {
   control: React.ReactElement<any, any>;

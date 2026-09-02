@@ -6,10 +6,10 @@
 
 import "./cronjob-details.scss";
 
-import { Icon } from "@freelensapp/icon";
-import { CronJob } from "@freelensapp/kube-object";
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { formatDuration } from "@freelensapp/utilities";
+import { Icon } from "@nibamot/icon";
+import { CronJob } from "@nibamot/kube-object";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { formatDuration } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { kebabCase } from "es-toolkit";
 import { observer } from "mobx-react";
@@ -24,8 +24,8 @@ import jobStoreInjectable from "../workloads-jobs/store.injectable";
 import cronJobStoreInjectable from "./store.injectable";
 import { getScheduleFullDescription } from "./utils";
 
-import type { Job } from "@freelensapp/kube-object";
-import type { Logger } from "@freelensapp/logger";
+import type { Job } from "@nibamot/kube-object";
+import type { Logger } from "@nibamot/logger";
 
 import type { SubscribeStores } from "../../kube-watch-api/kube-watch-api";
 import type { KubeObjectDetailsProps } from "../kube-object-details";

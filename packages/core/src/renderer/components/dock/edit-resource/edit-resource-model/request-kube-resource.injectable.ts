@@ -4,14 +4,14 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { parseKubeApi } from "@freelensapp/kube-api";
-import { KubeObject } from "@freelensapp/kube-object";
+import { parseKubeApi } from "@nibamot/kube-api";
+import { KubeObject } from "@nibamot/kube-object";
 import { getInjectable } from "@ogre-tools/injectable";
 import { getErrorMessage } from "../../../../../common/utils/get-error-message";
 import apiKubeGetInjectable from "../../../../k8s/api-kube-get.injectable";
 
-import type { KubeJsonApiData, KubeObjectMetadata, KubeObjectScope } from "@freelensapp/kube-object";
-import type { AsyncResult } from "@freelensapp/utilities";
+import type { KubeJsonApiData, KubeObjectMetadata, KubeObjectScope } from "@nibamot/kube-object";
+import type { AsyncResult } from "@nibamot/utilities";
 
 import type { Writable } from "type-fest";
 

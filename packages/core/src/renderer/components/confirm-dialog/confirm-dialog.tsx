@@ -6,10 +6,10 @@
 
 import "./confirm-dialog.scss";
 
-import { Button } from "@freelensapp/button";
-import { Icon } from "@freelensapp/icon";
-import { showErrorNotificationInjectable } from "@freelensapp/notifications";
-import { cssNames, noop, prevDefault } from "@freelensapp/utilities";
+import { Button } from "@nibamot/button";
+import { Icon } from "@nibamot/icon";
+import { showErrorNotificationInjectable } from "@nibamot/notifications";
+import { cssNames, noop, prevDefault } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { makeObservable, observable } from "mobx";
 import { observer } from "mobx-react";
@@ -17,9 +17,9 @@ import React from "react";
 import { Dialog } from "../dialog";
 import confirmDialogStateInjectable from "./state.injectable";
 
-import type { ButtonProps } from "@freelensapp/button";
-import type { ShowNotification } from "@freelensapp/notifications";
-import type { StrictReactNode } from "@freelensapp/utilities";
+import type { ButtonProps } from "@nibamot/button";
+import type { ShowNotification } from "@nibamot/notifications";
+import type { StrictReactNode } from "@nibamot/utilities";
 
 import type { IObservableValue } from "mobx";
 

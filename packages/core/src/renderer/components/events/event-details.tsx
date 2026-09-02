@@ -6,10 +6,10 @@
 
 import "./event-details.scss";
 
-import { KubeEvent } from "@freelensapp/kube-object";
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { Link } from "@freelensapp/routing";
-import { cssNames } from "@freelensapp/utilities";
+import { KubeEvent } from "@nibamot/kube-object";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { Link } from "@nibamot/routing";
+import { cssNames } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { kebabCase } from "es-toolkit/compat";
 import { observer } from "mobx-react";
@@ -19,7 +19,7 @@ import getDetailsUrlInjectable from "../kube-detail-params/get-details-url.injec
 import { Table, TableCell, TableHead, TableRow } from "../table";
 import { DurationAbsoluteTimestamp } from "./duration-absolute";
 
-import type { Logger } from "@freelensapp/logger";
+import type { Logger } from "@nibamot/logger";
 
 import type { ApiManager } from "../../../common/k8s-api/api-manager";
 import type { GetDetailsUrl } from "../kube-detail-params/get-details-url.injectable";

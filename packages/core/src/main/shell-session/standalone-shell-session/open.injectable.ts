@@ -1,9 +1,9 @@
 /**
- * Copyright (c) Freelens Authors. All rights reserved.
+ * Copyright (c) IMS-Scope Authors. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { loggerInjectionToken } from "@freelensapp/logger";
+import { loggerInjectionToken } from "@nibamot/logger";
 import { getInjectable } from "@ogre-tools/injectable";
 import emitAppEventInjectable from "../../../common/app-event-bus/emit-event.injectable";
 import directoryForBinariesInjectable from "../../../common/app-paths/directory-for-binaries/directory-for-binaries.injectable";
@@ -42,7 +42,7 @@ export type OpenStandaloneShellSession = (args: OpenStandaloneShellSessionArgs) 
 /**
  * A shell that belongs to no cluster: it runs with the user's own kubeconfig
  * and the user's own tools, so it needs neither a proxy kubeconfig nor a
- * version-matched kubectl. Freelens' bundled kubectl and helm are only
+ * version-matched kubectl. IMS-Scope' bundled kubectl and helm are only
  * appended to `PATH`, as a fallback for a machine that has neither.
  */
 const openStandaloneShellSessionInjectable = getInjectable({

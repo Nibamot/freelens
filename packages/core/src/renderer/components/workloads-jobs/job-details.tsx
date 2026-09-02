@@ -6,9 +6,9 @@
 
 import "./job-details.scss";
 
-import { Job } from "@freelensapp/kube-object";
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { formatDuration } from "@freelensapp/utilities";
+import { Job } from "@nibamot/kube-object";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { formatDuration } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
 import React from "react";
@@ -25,7 +25,7 @@ import podStoreInjectable from "../workloads-pods/store.injectable";
 import { getStatusClass, getStatusText } from "./jobs";
 import jobStoreInjectable from "./store.injectable";
 
-import type { Logger } from "@freelensapp/logger";
+import type { Logger } from "@nibamot/logger";
 
 import type { SubscribeStores } from "../../kube-watch-api/kube-watch-api";
 import type { KubeObjectDetailsProps } from "../kube-object-details";

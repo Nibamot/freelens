@@ -6,12 +6,12 @@
 
 import os from "node:os";
 import path from "node:path";
-import { getOrInsertWith } from "@freelensapp/utilities";
+import { getOrInsertWith } from "@nibamot/utilities";
 import { TerminalChannels, type TerminalMessage } from "../../common/terminal/channels";
 import { clearKubeconfigEnvVars } from "../utils/clear-kube-env-vars";
 import { type TerminalStatusReporter, terminalStatusReporterFor } from "./send-terminal-status";
 
-import type { Logger } from "@freelensapp/logger";
+import type { Logger } from "@nibamot/logger";
 
 import type { IComputedValue } from "mobx";
 import type * as pty from "node-pty";

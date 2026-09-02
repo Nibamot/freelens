@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { getRequestChannelListenerInjectable } from "@freelensapp/messaging";
+import { getRequestChannelListenerInjectable } from "@nibamot/messaging";
 import askUserForFilePathsInjectable from "../../../main/ipc/ask-user-for-file-paths.injectable";
 import { openPathPickingDialogChannel } from "../common/channel";
 

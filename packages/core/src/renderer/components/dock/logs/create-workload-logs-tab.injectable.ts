@@ -9,7 +9,7 @@ import getPodsByOwnerIdInjectable from "../../workloads-pods/get-pods-by-owner-i
 import createLogsTabInjectable from "./create-logs-tab.injectable";
 import { findOptimalDefaultContainerOfPod } from "./default-container-helper";
 
-import type { DaemonSet, Deployment, Job, ReplicaSet, StatefulSet } from "@freelensapp/kube-object";
+import type { DaemonSet, Deployment, Job, ReplicaSet, StatefulSet } from "@nibamot/kube-object";
 
 import type { GetPodsByOwnerId } from "../../workloads-pods/get-pods-by-owner-id.injectable";
 import type { TabId } from "../dock/store";

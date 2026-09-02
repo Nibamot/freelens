@@ -5,12 +5,12 @@
  */
 
 import { stringify } from "node:querystring";
-import { EventEmitter } from "@freelensapp/event-emitter";
-import { isObject, isString, json } from "@freelensapp/utilities";
+import { EventEmitter } from "@nibamot/event-emitter";
+import { isObject, isString, json } from "@nibamot/utilities";
 import { merge } from "es-toolkit/compat";
 
-import type { Logger } from "@freelensapp/logger";
-import type { Defaulted } from "@freelensapp/utilities";
+import type { Logger } from "@nibamot/logger";
+import type { Defaulted } from "@nibamot/utilities";
 
 import type { Patch } from "rfc6902";
 import type { PartialDeep, ValueOf } from "type-fest";

@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import type { KubeObject } from "@freelensapp/kube-object";
-import type { StrictReactNode } from "@freelensapp/utilities";
+import type { KubeObject } from "@nibamot/kube-object";
+import type { StrictReactNode } from "@nibamot/utilities";
 
 import type { SearchFilter, TableCellProps, TableSortCallback } from "./list-layout-column";
 

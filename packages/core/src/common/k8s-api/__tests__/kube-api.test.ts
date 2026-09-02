@@ -5,8 +5,8 @@
  */
 
 import asyncFn from "@async-fn/vitest";
-import { PodApi } from "@freelensapp/kube-api";
-import { podApiInjectable } from "@freelensapp/kube-api-specifics";
+import { PodApi } from "@nibamot/kube-api";
+import { podApiInjectable } from "@nibamot/kube-api-specifics";
 import setupAutoRegistrationInjectable from "../../../renderer/before-frame-starts/runnables/setup-auto-registration.injectable";
 import hostedClusterInjectable from "../../../renderer/cluster-frame-context/hosted-cluster.injectable";
 import { getDiForUnitTesting } from "../../../renderer/getDiForUnitTesting";
@@ -19,8 +19,8 @@ import { Cluster } from "../../cluster/cluster";
 import fetchInjectable from "../../fetch/fetch.injectable";
 import createKubeJsonApiInjectable from "../create-kube-json-api.injectable";
 
-import type { Fetch } from "@freelensapp/json-api";
-import type { KubeStatusData } from "@freelensapp/kube-object";
+import type { Fetch } from "@nibamot/json-api";
+import type { KubeStatusData } from "@nibamot/kube-object";
 
 import type { AsyncFnMock } from "@async-fn/vitest";
 import type { DiContainer } from "@ogre-tools/injectable";

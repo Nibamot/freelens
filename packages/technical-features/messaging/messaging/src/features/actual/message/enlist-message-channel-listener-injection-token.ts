@@ -1,6 +1,6 @@
 import { getInjectionToken } from "@ogre-tools/injectable";
 
-import type { Disposer } from "@freelensapp/utilities";
+import type { Disposer } from "@nibamot/utilities";
 
 import type { MessageChannel, MessageChannelListener } from "./message-channel-listener-injection-token";
 

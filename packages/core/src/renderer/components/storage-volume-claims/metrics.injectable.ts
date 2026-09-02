@@ -7,7 +7,7 @@
 import requestPersistentVolumeClaimMetricsInjectable from "../../../common/k8s-api/endpoints/metrics.api/request-persistent-volume-claim-metrics.injectable";
 import { createTimeRangedMetricsInjectable } from "../resource-metrics/create-time-ranged-metrics";
 
-import type { PersistentVolumeClaim } from "@freelensapp/kube-object";
+import type { PersistentVolumeClaim } from "@nibamot/kube-object";
 
 interface PersistentVolumeClaimMetricsInjectableParams {
   persistentVolumeClaim: PersistentVolumeClaim;

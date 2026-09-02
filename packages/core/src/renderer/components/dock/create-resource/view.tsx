@@ -4,10 +4,10 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { showCheckedErrorNotificationInjectable, showSuccessNotificationInjectable } from "@freelensapp/notifications";
-import { Spinner } from "@freelensapp/spinner";
-import { isObject, prevDefault } from "@freelensapp/utilities";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { showCheckedErrorNotificationInjectable, showSuccessNotificationInjectable } from "@nibamot/notifications";
+import { Spinner } from "@nibamot/spinner";
+import { isObject, prevDefault } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import * as yaml from "js-yaml";
 import { makeObservable, observable } from "mobx";
@@ -24,8 +24,8 @@ import { InfoPanel } from "../info-panel";
 import createResourceTemplatesInjectable from "./create-resource-templates.injectable";
 import createResourceTabStoreInjectable from "./store.injectable";
 
-import type { Logger } from "@freelensapp/logger";
-import type { ShowCheckedErrorNotification, ShowNotification } from "@freelensapp/notifications";
+import type { Logger } from "@nibamot/logger";
+import type { ShowCheckedErrorNotification, ShowNotification } from "@nibamot/notifications";
 
 import type { IComputedValue } from "mobx";
 import type { GroupBase } from "react-select";

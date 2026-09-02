@@ -1,16 +1,16 @@
 /**
- * Copyright (c) Freelens Authors. All rights reserved.
+ * Copyright (c) IMS-Scope Authors. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 /**
- * The request/response contract shared by both fetch implementations Freelens
+ * The request/response contract shared by both fetch implementations IMS-Scope
  * runs.
  *
  * The two processes reach lens-proxy differently and cannot share one client:
  *
  * - the **renderer** uses Chromium's `fetch`. Its frame is served from
- *   `https://<clusterId>.renderer.freelens.app:<port>`, which Chromium's
+ *   `https://<clusterId>.renderer.ims-scope.app:<port>`, which Chromium's
  *   host-resolver rules map to 127.0.0.1 and whose certificate the session
  *   already trusts, so a request to the frame's own origin is routed to the
  *   right cluster by the `Host` header the browser sends on its own.
@@ -25,7 +25,7 @@
  * compiling on its own — to load the library that declares it.
  *
  * So the types below are **structural**: a supertype of both implementations,
- * covering exactly the members Freelens uses. `AbortSignal` and
+ * covering exactly the members IMS-Scope uses. `AbortSignal` and
  * `ReadableStream` are left as ambient names because `lib.dom` and
  * `@types/node` both declare them, so they cost a consumer nothing that
  * inventing stand-ins would save.
@@ -56,7 +56,7 @@ export interface FetchRequestHeaders extends FetchResponseHeaders {
 export type FetchHeadersInit = [string, string][] | FetchRequestHeaders | Record<string, string>;
 
 /**
- * Request bodies Freelens sends. Deliberately narrower than the DOM's
+ * Request bodies IMS-Scope sends. Deliberately narrower than the DOM's
  * `BodyInit`, which also admits `Blob`, `FormData` and `URLSearchParams`.
  *
  * Not because those name DOM-only types — `@types/node` declares all three as

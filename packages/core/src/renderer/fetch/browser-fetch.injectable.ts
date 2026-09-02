@@ -1,25 +1,25 @@
 /**
- * Copyright (c) Freelens Authors. All rights reserved.
+ * Copyright (c) IMS-Scope Authors. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
 import { getInjectable, type Injectable } from "@ogre-tools/injectable";
 import { fetchImplementationInjectionToken } from "../../common/fetch/fetch-injection-token";
 
-import type { Fetch } from "@freelensapp/json-api";
+import type { Fetch } from "@nibamot/json-api";
 
 /**
  * Chromium's `fetch`, which is the client the renderer uses.
  *
  * Not because a Node client is impossible here — the renderer is
- * node-integrated, and Freelens 1.x ran every `KubeJsonApi` call in this very
+ * node-integrated, and IMS-Scope 1.x ran every `KubeJsonApi` call in this very
  * process through a CJS build of `node-fetch`. It is undici specifically that
  * cannot: it needs Node's global `setTimeout` (for `.unref()`) and
  * `performance.markResourceTiming`, and a module required in the renderer
  * shares the page's globals, which are Chromium's.
  *
  * It is also all the renderer needs. Requests go to the frame's own origin
- * (`https://<clusterId>.renderer.freelens.app:<port>`), which Chromium's
+ * (`https://<clusterId>.renderer.ims-scope.app:<port>`), which Chromium's
  * host-resolver rules map to 127.0.0.1 and whose certificate the window's
  * session already trusts, so lens-proxy gets the `Host` header it routes on
  * without anyone setting it.

@@ -6,7 +6,7 @@
 
 import EventEmitter from "node:events";
 import asyncFn from "@async-fn/vitest";
-import { iter, strictGet } from "@freelensapp/utilities";
+import { iter, strictGet } from "@nibamot/utilities";
 import { ObservableMap, observable, runInAction } from "mobx";
 import directoryForTempInjectable from "../../../common/app-paths/directory-for-temp/directory-for-temp.injectable";
 import directoryForUserDataInjectable from "../../../common/app-paths/directory-for-user-data/directory-for-user-data.injectable";
@@ -28,7 +28,7 @@ import kubeconfigSyncLoggerInjectable from "../kubeconfig-sync/logger.injectable
 import kubeconfigSyncManagerInjectable from "../kubeconfig-sync/manager.injectable";
 import type { ReadStream, Stats } from "node:fs";
 
-import type { Logger } from "@freelensapp/logger";
+import type { Logger } from "@nibamot/logger";
 
 import type { AsyncFnMock } from "@async-fn/vitest";
 import type { DiContainer } from "@ogre-tools/injectable";

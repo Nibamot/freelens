@@ -12,7 +12,7 @@ import { Badge } from "../badge";
 import { DrawerItem } from "../drawer";
 import { RuntimeClassDetailsTolerations } from "./runtime-classes-details-tolerations";
 
-import type { RuntimeClass } from "@freelensapp/kube-object";
+import type { RuntimeClass } from "@nibamot/kube-object";
 
 import type { KubeObjectDetailsProps } from "../kube-object-details";
 

@@ -4,11 +4,11 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { configMapApiInjectable } from "@freelensapp/kube-api-specifics";
+import { configMapApiInjectable } from "@nibamot/kube-api-specifics";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { LocalRef } from "../variant-helpers";
 
-import type { ConfigMapApi } from "@freelensapp/kube-api";
+import type { ConfigMapApi } from "@nibamot/kube-api";
 
 import type { PodVolumeVariantSpecificProps } from "../variant-helpers";
 

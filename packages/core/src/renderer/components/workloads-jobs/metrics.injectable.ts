@@ -7,7 +7,7 @@
 import requestPodMetricsForJobsInjectable from "../../../common/k8s-api/endpoints/metrics.api/request-pod-metrics-for-jobs.injectable";
 import { createTimeRangedMetricsInjectable } from "../resource-metrics/create-time-ranged-metrics";
 
-import type { Job } from "@freelensapp/kube-object";
+import type { Job } from "@nibamot/kube-object";
 
 interface JobMetricsInjectableParams {
   job: Job;

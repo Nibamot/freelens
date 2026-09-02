@@ -3,9 +3,9 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { EndpointSlice } from "@freelensapp/kube-object";
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { prevDefault } from "@freelensapp/utilities";
+import { EndpointSlice } from "@nibamot/kube-object";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { prevDefault } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
 import React from "react";
@@ -13,7 +13,7 @@ import showDetailsInjectable from "../kube-detail-params/show-details.injectable
 import { Table, TableCell, TableHead, TableRow } from "../table";
 import { WithTooltip } from "../with-tooltip";
 
-import type { Logger } from "@freelensapp/logger";
+import type { Logger } from "@nibamot/logger";
 
 import type { ShowDetails } from "../kube-detail-params/show-details.injectable";
 

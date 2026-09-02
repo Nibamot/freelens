@@ -5,8 +5,8 @@
 
 import "../../../renderer/components/dock/terminal/terminal-window.scss";
 
-import { Icon } from "@freelensapp/icon";
-import { cssNames } from "@freelensapp/utilities";
+import { Icon } from "@nibamot/icon";
+import { cssNames } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
 import { useCallback, useEffect, useState } from "react";

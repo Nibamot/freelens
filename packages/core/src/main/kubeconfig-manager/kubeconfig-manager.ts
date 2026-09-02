@@ -4,10 +4,10 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { isErrnoException } from "@freelensapp/utilities";
+import { isErrnoException } from "@nibamot/utilities";
 import { dumpConfigYaml } from "../../common/kube-helpers";
 
-import type { Logger } from "@freelensapp/logger";
+import type { Logger } from "@nibamot/logger";
 
 import type { KubeConfig } from "@kubernetes/client-node";
 import type { PartialDeep } from "type-fest";

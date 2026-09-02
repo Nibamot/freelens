@@ -2,11 +2,11 @@
 // Freelens v2 — Phase 5 codemod: flip internal packages to private (plan D4).
 //
 // Since v2 consumes every workspace package as TypeScript source and publishes
-// exactly one package (@freelensapp/extensions), all other @freelensapp/*
+// exactly one package (@nibamot/extensions), all other @nibamot/*
 // packages become `"private": true` so they are never published to npm.
 //
-// For each @freelensapp/* workspace package under packages/ (except
-// @freelensapp/extensions) the script sets `"private": true`, replacing any
+// For each @nibamot/* workspace package under packages/ (except
+// @nibamot/extensions) the script sets `"private": true`, replacing any
 // existing `"private": false`. When the key is absent it is inserted right
 // after `"version"` to match the repo's field order. The freelens application
 // manifest is already private and is left untouched.
@@ -22,7 +22,7 @@
 //     packages/extensions/webpack/, packages/infrastructure/webpack and
 //     repoint freelens/package.json scripts (build/dev/start) from webpack to
 //     electron-vite.
-//   - Prune @freelensapp/* from the electron-builder file lists.
+//   - Prune @nibamot/* from the electron-builder file lists.
 //   - Drop the circular-dependency-plugin pnpm patch (patches/ +
 //     pnpm-workspace.yaml) once webpack no longer consumes it.
 //   - Decide Turbo's fate (removed or kept only as a script runner, D3).
@@ -39,7 +39,7 @@ const repoRoot = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const write = process.argv.includes("--write");
 
 // The only package that stays publishable (plan D4/D5).
-const PUBLISHED = "@freelensapp/extensions";
+const PUBLISHED = "@nibamot/extensions";
 
 /** Recursively collect package.json paths under a dir, skipping node_modules and dist. */
 function findPackageJsons(dir, acc = []) {
@@ -79,8 +79,8 @@ for (const pkgPath of findPackageJsons(join(repoRoot, "packages"))) {
   const raw = readFileSync(pkgPath, "utf8");
   const pkg = JSON.parse(raw);
 
-  // Only touch @freelensapp/* workspace packages, and never the published one.
-  if (!pkg.name?.startsWith("@freelensapp/")) continue;
+  // Only touch @nibamot/* workspace packages, and never the published one.
+  if (!pkg.name?.startsWith("@nibamot/")) continue;
   if (pkg.name === PUBLISHED) continue;
   if (pkg.private === true) continue;
 

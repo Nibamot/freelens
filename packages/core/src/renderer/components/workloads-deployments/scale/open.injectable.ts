@@ -7,7 +7,7 @@
 import { getInjectable } from "@ogre-tools/injectable";
 import deploymentScaleDialogStateInjectable from "./dialog-state.injectable";
 
-import type { Deployment } from "@freelensapp/kube-object";
+import type { Deployment } from "@nibamot/kube-object";
 
 export type OpenDeploymentScaleDialog = (obj: Deployment) => void;
 

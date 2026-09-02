@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Freelens Authors. All rights reserved.
+ * Copyright (c) IMS-Scope Authors. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
@@ -11,7 +11,7 @@
  * License:  MIT (c) 2014 Blake Embrey (hello@blakeembrey.com)
  *
  * `path-to-regexp` v1 is the engine `react-router` 5 bundled internally and the
- * dialect Freelens' route schemas are authored against (`/:param?` optionals and
+ * dialect IMS-Scope' route schemas are authored against (`/:param?` optionals and
  * inline `/:param(regex)` patterns, neither of which `path-to-regexp` v8 can
  * express). Rather than depend on an unmaintained package — and to close the
  * whole class of Vite version-collision bugs where a single bare `path-to-regexp`

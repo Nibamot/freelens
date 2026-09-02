@@ -111,7 +111,7 @@ jobs:
 
       - name: Get Electron version
         shell: bash
-        run: echo "electron_version=$(yq -py -oy -r .importers.freelens.devDependencies.electron.version pnpm-lock.yaml | sed 's/(.*)//')" | tee -a $GITHUB_ENV
+        run: echo "electron_version=$(yq -py -oy -r .importers['ims-scope'].devDependencies.electron.version pnpm-lock.yaml | sed 's/(.*)//')" | tee -a $GITHUB_ENV
 
       # electron-builder's Electron zip downloader doesn't accept a cache
       # directory override (no ELECTRON_CACHE / electron_config_cache is read
@@ -151,7 +151,7 @@ jobs:
         uses: actions/cache@v6
         with:
           path: ${{ env.TURBOREPO_CACHE }}
-          key: ${{ matrix.runs-on }}-${{ matrix.arch }}-turborepo-${{ hashFiles('package.json', 'freelens/package.json', 'packages/**/package.json', 'pnpm-lock.yaml','turbo.json','tsconfig*.json','packages/infrastructure/typescript/config/*.json') }}
+          key: ${{ matrix.runs-on }}-${{ matrix.arch }}-turborepo-${{ hashFiles('package.json', 'ims-scope/package.json', 'packages/**/package.json', 'pnpm-lock.yaml','turbo.json','tsconfig*.json','packages/infrastructure/typescript/config/*.json') }}
           restore-keys: |
             ${{ matrix.runs-on }}-${{ matrix.arch }}-turborepo-
 
@@ -174,7 +174,7 @@ jobs:
         if: runner.os == 'Linux' && github.event_name != 'schedule'
         uses: helm/kind-action@v1
         with:
-          cluster_name: freelens
+          cluster_name: ims-scope
           version: v${{ env.kind_version }}
           node_image: kindest/node:v${{ env.kubernetes_version }}
           wait: 5m
@@ -220,7 +220,7 @@ jobs:
           # project-local dirs (see the APT cache step above); dpkg's status stays
           # at the system default, so packages still install into the runner.
           mkdir -p .apt/cache/archives/partial .apt/state/lists/partial
-          sudo tee /etc/apt/apt.conf.d/00freelens-cache >/dev/null <<EOF
+          sudo tee /etc/apt/apt.conf.d/00ims-scope-cache >/dev/null <<EOF
           Dir::Cache::archives "$PWD/.apt/cache/archives";
           Dir::State::lists "$PWD/.apt/state/lists";
           EOF
@@ -263,20 +263,20 @@ jobs:
       - name: Get electron-builder path
         shell: bash
         run: |
-          EB_PATH=$(cd freelens && node -e "console.log(require.resolve('electron-builder/cli'))")
+          EB_PATH=$(cd ims-scope && node -e "console.log(require.resolve('electron-builder/cli'))")
           echo "ELECTRON_BUILDER_PATH=$EB_PATH" | tee -a $GITHUB_ENV
 
       - name: Deploy production node_modules
         shell: bash
         run: |
-          pnpm deploy --legacy --prod --filter=freelens freelens/node_modules_prod
-          mv freelens/node_modules freelens/node_modules_dev
-          mv freelens/node_modules_prod freelens/node_modules
+          pnpm deploy --legacy --prod --filter=ims-scope ims-scope/node_modules_prod
+          mv ims-scope/node_modules ims-scope/node_modules_dev
+          mv ims-scope/node_modules_prod ims-scope/node_modules
 
       - name: Build Electron app
         id: build-electron-app
         shell: bash
-        working-directory: freelens
+        working-directory: ims-scope
         run: node "$ELECTRON_BUILDER_PATH" --publish never --${{ matrix.os }} dir --${{ matrix.arch }}
         env:
           npm_config_user_agent: pnpm
@@ -284,7 +284,7 @@ jobs:
 
       - name: Build Electron app (retry)
         shell: bash
-        working-directory: freelens
+        working-directory: ims-scope
         if: steps.build-electron-app.outcome == 'failure'
         run: node "$ELECTRON_BUILDER_PATH" --publish never --${{ matrix.os }} dir --${{ matrix.arch }}
         env:
@@ -316,17 +316,17 @@ jobs:
             echo "::endgroup::"
             rm -rf "${tmpdir}"
             found=$((found + 1))
-          done < <(find freelens/dist -type f -name app.asar)
+          done < <(find ims-scope/dist -type f -name app.asar)
           if [[ "${found}" -eq 0 ]]; then
-            echo "No app.asar found under freelens/dist" >&2
+            echo "No app.asar found under ims-scope/dist" >&2
             exit 1
           fi
 
       - name: Restore dev node_modules
         shell: bash
         run: |
-          mv freelens/node_modules freelens/node_modules_prod
-          mv freelens/node_modules_dev freelens/node_modules
+          mv ims-scope/node_modules ims-scope/node_modules_prod
+          mv ims-scope/node_modules_dev ims-scope/node_modules
 
       # Produce the SBOM and runtime package list only for the real branch build
       # (push/dispatch/schedule on main), never for PRs. The combine-and-scan
@@ -336,7 +336,7 @@ jobs:
         uses: anchore/sbom-action@v0
         with:
           format: spdx-json
-          output-file: "freelens/dist/${{ github.event.repository.name }}-${{ matrix.os }}-${{ matrix.arch == 'x64' && 'amd64' || matrix.arch }}-sbom.spdx.json"
+          output-file: "ims-scope/dist/${{ github.event.repository.name }}-${{ matrix.os }}-${{ matrix.arch == 'x64' && 'amd64' || matrix.arch }}-sbom.spdx.json"
           github-token: ${{ secrets.GITHUB_TOKEN }}
           artifact-name: "${{ github.event.repository.name }}-${{ matrix.os }}-${{ matrix.arch == 'x64' && 'amd64' || matrix.arch }}-sbom.spdx.json"
           upload-release-assets: false
@@ -353,12 +353,12 @@ jobs:
           # paths as the code-scanning location for npm findings (grype otherwise
           # reports them against pnpm-lock.yaml). --legacy is required because the
           # workspace does not set inject-workspace-packages.
-          deploy_dir="$RUNNER_TEMP/freelens-prod"
+          deploy_dir="$RUNNER_TEMP/ims-scope-prod"
           rm -rf "$deploy_dir"
-          pnpm --filter freelens deploy --prod --legacy --ignore-scripts "$deploy_dir"
+          pnpm --filter ims-scope deploy --prod --legacy --ignore-scripts "$deploy_dir"
           os="${{ matrix.os }}"
           arch="${{ matrix.arch == 'x64' && 'amd64' || matrix.arch }}"
-          out="freelens/dist/${{ github.event.repository.name }}-${os}-${arch}-prod-packages.json"
+          out="ims-scope/dist/${{ github.event.repository.name }}-${os}-${arch}-prod-packages.json"
           (
             cd "$deploy_dir"
             printf 'key\tvalue\n'
@@ -380,25 +380,25 @@ jobs:
         uses: actions/upload-artifact@v7
         with:
           name: "${{ github.event.repository.name }}-${{ matrix.os }}-${{ matrix.arch == 'x64' && 'amd64' || matrix.arch }}-prod-packages.json"
-          path: "freelens/dist/${{ github.event.repository.name }}-${{ matrix.os }}-${{ matrix.arch == 'x64' && 'amd64' || matrix.arch }}-prod-packages.json"
+          path: "ims-scope/dist/${{ github.event.repository.name }}-${{ matrix.os }}-${{ matrix.arch == 'x64' && 'amd64' || matrix.arch }}-prod-packages.json"
 
       - name: Run integration tests (Linux)
         id: integration-tests-linux
         if: runner.os == 'Linux' && github.event_name != 'schedule'
         run: |
-          sudo chown root:root freelens/dist/linux*-unpacked/chrome-sandbox
-          sudo chmod 4755 freelens/dist/linux*-unpacked/chrome-sandbox
+          sudo chown root:root ims-scope/dist/linux*-unpacked/chrome-sandbox
+          sudo chmod 4755 ims-scope/dist/linux*-unpacked/chrome-sandbox
           timeout 600 xvfb-run -a pnpm --color=always test:integration --reporter=verbose --reporter=github-actions --includeTaskLocation
         env:
           DEBUG: pw:browser
-          TEST_KIND_CLUSTER_NAME: freelens
+          TEST_KIND_CLUSTER_NAME: ims-scope
         continue-on-error: true
 
       - name: Run integration tests (Linux) (retry)
         if: runner.os == 'Linux' && steps.integration-tests-linux.outcome == 'failure'
         run: |
-          sudo chown root:root freelens/dist/linux*-unpacked/chrome-sandbox
-          sudo chmod 4755 freelens/dist/linux*-unpacked/chrome-sandbox
+          sudo chown root:root ims-scope/dist/linux*-unpacked/chrome-sandbox
+          sudo chmod 4755 ims-scope/dist/linux*-unpacked/chrome-sandbox
           timeout 600 xvfb-run -a pnpm --color=always test:integration --reporter=verbose --reporter=github-actions --includeTaskLocation
         env:
           DEBUG: pw:browser
@@ -509,8 +509,8 @@ jobs:
           # Merge the per-arch runtime package maps (from test-integration) into
           # one <name>@<version> -> pnpm-store-path object. Only runtime findings
           # are reported: npm packages in this map, plus non-npm packages (Go
-          # modules, native binaries) shipped under freelens/dist or
-          # freelens/binaries. This drops build-time dev tools (esbuild,
+          # modules, native binaries) shipped under ims-scope/dist or
+          # ims-scope/binaries. This drops build-time dev tools (esbuild,
           # typescript, ...) and the Go binaries bundled with them, which never
           # reach users.
           yq ea -pj -oj '. as $i ireduce ({}; . * $i)' prod/*-prod-packages.json > prod-set.json
@@ -523,7 +523,7 @@ jobs:
             name=$(basename "$sbom" .spdx.json)
             # Reduce the SBOM to runtime packages before scanning.
             # sub("\x5c"; "/"): the Windows SBOM records sourceInfo paths with
-            # backslashes, which the /freelens/... test below would never match -
+            # backslashes, which the /ims-scope/... test below would never match -
             # every shipped non-npm package (Electron DLLs, node-pty, the bundled
             # Go CLIs) would silently drop out of the scan. \x5c rather than a
             # literal backslash because yq unescapes the string first, leaving
@@ -537,7 +537,7 @@ jobs:
                 select(
                   (($purl | test("^pkg:npm/")) and ($set[$key] != null))
                   or
-                  (($purl | test("^pkg:npm/") | not) and ($path | test("^/freelens/(dist|binaries)/")))
+                  (($purl | test("^pkg:npm/") | not) and ($path | test("^/ims-scope/(dist|binaries)/")))
                 )
               )
             ' "$sbom" > "runtime-${name}.spdx.json"

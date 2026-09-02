@@ -1,19 +1,19 @@
-# @freelensapp/notifications
+# @nibamot/notifications
 
 This package contains stuff related to creating Lens-applications. 
 
 ## Usage
 
 ```sh
-npm install @freelensapp/notifications
+npm install @nibamot/notifications
 ```
 
 ```typescript
-export type { notificationsName, notificationsProps } from "@freelensapp/button";
-export type { notifications } from "@freelensapp/button";
-export { defaultEnterDurationFornotificationsdInjectable } from "@freelensapp/button";
-export { defaultLeaveDurationFornotificationsdInjectable } from "@freelensapp/button";
-export { requestAnimationFrameInjectable } from "@freelensapp/button";
+export type { notificationsName, notificationsProps } from "@nibamot/button";
+export type { notifications } from "@nibamot/button";
+export { defaultEnterDurationFornotificationsdInjectable } from "@nibamot/button";
+export { defaultLeaveDurationFornotificationsdInjectable } from "@nibamot/button";
+export { requestAnimationFrameInjectable } from "@nibamot/button";
 ```
 
 ## Extendability

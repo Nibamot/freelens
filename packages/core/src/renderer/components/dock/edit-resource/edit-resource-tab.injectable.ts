@@ -11,7 +11,7 @@ import dockStoreInjectable from "../dock/store.injectable";
 import getRandomIdForEditResourceTabInjectable from "./get-random-id-for-edit-resource-tab.injectable";
 import editResourceTabStoreInjectable from "./store.injectable";
 
-import type { KubeObject } from "@freelensapp/kube-object";
+import type { KubeObject } from "@nibamot/kube-object";
 
 import type { DockTabCreateSpecific, TabId } from "../dock/store";
 

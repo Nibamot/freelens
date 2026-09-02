@@ -4,12 +4,12 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { KubeObject } from "@freelensapp/kube-object";
-import { noop } from "@freelensapp/utilities";
+import { KubeObject } from "@nibamot/kube-object";
+import { noop } from "@nibamot/utilities";
 import { KubeObjectStore } from "../kube-object.store";
 
-import type { FetchRequestInit as RequestInit } from "@freelensapp/json-api";
-import type { KubeApi } from "@freelensapp/kube-api";
+import type { FetchRequestInit as RequestInit } from "@nibamot/json-api";
+import type { KubeApi } from "@nibamot/kube-api";
 
 import type { KubeObjectStoreLoadingParams } from "../kube-object.store";
 

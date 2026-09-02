@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Spinner } from "@freelensapp/spinner";
+import { Spinner } from "@nibamot/spinner";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { autorun, computed, makeObservable, observable } from "mobx";
 import { observer } from "mobx-react";

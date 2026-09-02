@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { sendMessageToChannelInjectionToken } from "@freelensapp/messaging";
+import { sendMessageToChannelInjectionToken } from "@nibamot/messaging";
 import { getInjectable } from "@ogre-tools/injectable";
 import { computed } from "mobx";
 import { toJS } from "../toJS";

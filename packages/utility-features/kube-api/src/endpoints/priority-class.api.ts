@@ -4,10 +4,10 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { PriorityClass } from "@freelensapp/kube-object";
+import { PriorityClass } from "@nibamot/kube-object";
 import { KubeApi } from "../kube-api";
 
-import type { PriorityClassData } from "@freelensapp/kube-object";
+import type { PriorityClassData } from "@nibamot/kube-object";
 
 import type { DerivedKubeApiOptions, KubeApiDependencies } from "../kube-api";
 

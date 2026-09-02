@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { KubeObject } from "@freelensapp/kube-object";
+import { KubeObject } from "@nibamot/kube-object";
 import { getInjectable } from "@ogre-tools/injectable";
 import { act } from "@testing-library/react";
 import { computed, observable, runInAction } from "mobx";

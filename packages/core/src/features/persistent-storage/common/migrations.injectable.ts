@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { getOrInsert, iter, object } from "@freelensapp/utilities";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { getOrInsert, iter, object } from "@nibamot/utilities";
 import { getInjectable, lifecycleEnum } from "@ogre-tools/injectable";
 
 import type { InjectionToken } from "@ogre-tools/injectable";

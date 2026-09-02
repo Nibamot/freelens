@@ -4,14 +4,14 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { ConfigMap, Pod, Secret, SecretType } from "@freelensapp/kube-object";
+import { ConfigMap, Pod, Secret, SecretType } from "@nibamot/kube-object";
 import { getDiForUnitTesting } from "../../../getDiForUnitTesting";
 import configMapStoreInjectable from "../../config-maps/store.injectable";
 import secretStoreInjectable from "../../config-secrets/store.injectable";
 import { renderFor } from "../../test-utils/renderFor";
 import { ContainerEnvironment } from "../pod-container-env";
 
-import type { Container } from "@freelensapp/kube-object";
+import type { Container } from "@nibamot/kube-object";
 
 import type { Mocked } from "vitest";
 

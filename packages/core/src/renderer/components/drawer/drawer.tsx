@@ -6,20 +6,20 @@
 
 import "./drawer.scss";
 
-import { Animate } from "@freelensapp/animate";
-import { Icon } from "@freelensapp/icon";
-import { ResizeDirection, ResizeGrowthDirection, ResizeSide, ResizingAnchor } from "@freelensapp/resizing-anchor";
-import { historyInjectionToken } from "@freelensapp/routing";
-import { cssNames, noop } from "@freelensapp/utilities";
+import { Animate } from "@nibamot/animate";
+import { Icon } from "@nibamot/icon";
+import { ResizeDirection, ResizeGrowthDirection, ResizeSide, ResizingAnchor } from "@nibamot/resizing-anchor";
+import { historyInjectionToken } from "@nibamot/routing";
+import { cssNames, noop } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { clipboard } from "electron";
 import React from "react";
 import { createPortal } from "react-dom";
 import drawerStorageInjectable, { defaultDrawerWidth } from "./drawer-storage/drawer-storage.injectable";
 
-import type { AnimateName } from "@freelensapp/animate";
-import type { History } from "@freelensapp/routing";
-import type { StrictReactNode } from "@freelensapp/utilities";
+import type { AnimateName } from "@nibamot/animate";
+import type { History } from "@nibamot/routing";
+import type { StrictReactNode } from "@nibamot/utilities";
 
 import type { StorageLayer } from "../../utils/storage-helper";
 

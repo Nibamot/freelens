@@ -10,7 +10,7 @@ import { kebabCase } from "es-toolkit";
 import { countBy } from "es-toolkit/compat";
 import React from "react";
 
-import type { Pod } from "@freelensapp/kube-object";
+import type { Pod } from "@nibamot/kube-object";
 
 export interface PodDetailsStatusesProps {
   pods: Pod[];

@@ -2,7 +2,7 @@ name: Binaries Lock Check
 
 # Only on pull requests, never on push: verifying the lock means downloading
 # every bundled binary, so it runs once per change rather than again on merge.
-# These paths are a coarse filter - freelens/package.json changes on every
+# These paths are a coarse filter - ims-scope/package.json changes on every
 # dependency bump - and the first step narrows it down to changes that can
 # actually affect the lock.
 on:
@@ -11,8 +11,8 @@ on:
       - main
     paths:
       - .github/workflows/binaries-lock-check.yaml
-      - freelens/binaries.lock.json
-      - freelens/package.json
+      - ims-scope/binaries.lock.json
+      - ims-scope/package.json
       - packages/ensure-binaries/**
   workflow_dispatch: {}
 
@@ -52,9 +52,9 @@ jobs:
           fi
 
           # A bundled version bump shows up as a changed line in the config
-          # block. Every other edit to freelens/package.json - a dependency
+          # block. Every other edit to ims-scope/package.json - a dependency
           # bump, a script - leaves the lock valid and must not cost a download.
-          if git diff "$BASE_SHA...HEAD" -- freelens/package.json |
+          if git diff "$BASE_SHA...HEAD" -- ims-scope/package.json |
             grep -qE '^[-+][[:space:]]*"(k8sProxyVersion|bundledKubectlVersion|bundledHelmVersion)"'; then
             echo "needed=true" | tee -a "$GITHUB_OUTPUT"
             echo "A bundled version changed, verifying."
@@ -63,7 +63,7 @@ jobs:
 
           # The lock itself, or the code that writes it.
           if [ -n "$(git diff --name-only "$BASE_SHA...HEAD" -- \
-            freelens/binaries.lock.json \
+            ims-scope/binaries.lock.json \
             packages/ensure-binaries \
             .github/workflows/binaries-lock-check.yaml)" ]; then
             echo "needed=true" | tee -a "$GITHUB_OUTPUT"
@@ -116,13 +116,13 @@ jobs:
       - name: Check the lock is up to date
         if: steps.decide.outputs.needed == 'true'
         run: |-
-          if git diff --exit-code --stat freelens/binaries.lock.json; then
-            echo "freelens/binaries.lock.json is up to date."
+          if git diff --exit-code --stat ims-scope/binaries.lock.json; then
+            echo "ims-scope/binaries.lock.json is up to date."
             exit 0
           fi
 
-          echo "::error::freelens/binaries.lock.json is out of date. Run \`pnpm update-binaries-lock\` and commit the result." >&2
-          git --no-pager diff freelens/binaries.lock.json
+          echo "::error::ims-scope/binaries.lock.json is out of date. Run \`pnpm update-binaries-lock\` and commit the result." >&2
+          git --no-pager diff ims-scope/binaries.lock.json
           exit 1
 
       # The check above proves the lock matches what the vendors serve today. It
@@ -158,13 +158,13 @@ jobs:
             ' "$1" | tail -n +2 | sort
           }
 
-          if ! git show "$BASE_SHA:freelens/binaries.lock.json" > base.lock.json 2> /dev/null; then
+          if ! git show "$BASE_SHA:ims-scope/binaries.lock.json" > base.lock.json 2> /dev/null; then
             echo "No binaries.lock.json on the base commit, nothing to compare."
             exit 0
           fi
 
           flatten base.lock.json > base.tsv
-          flatten freelens/binaries.lock.json > head.tsv
+          flatten ims-scope/binaries.lock.json > head.tsv
 
           awk -F'\t' '
             NR == FNR { base[$1 FS $2 FS $3] = $4; next }

@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { noop } from "@freelensapp/utilities";
+import { noop } from "@nibamot/utilities";
 import { runInAction } from "mobx";
 import * as uuid from "uuid";
 import directoryForUserDataInjectable from "../../../common/app-paths/directory-for-user-data/directory-for-user-data.injectable";
@@ -62,20 +62,20 @@ describe("protocol router tests", () => {
   });
 
   it("should broadcast invalid host on non internal or non extension URLs", async () => {
-    await lpr.route("freelens://foobar");
-    expect(broadcastMessageMock).toBeCalledWith(ProtocolHandlerInvalid, "invalid host", "freelens://foobar");
+    await lpr.route("ims-scope://foobar");
+    expect(broadcastMessageMock).toBeCalledWith(ProtocolHandlerInvalid, "invalid host", "ims-scope://foobar");
   });
 
   it("should broadcast internal route when called with valid host", async () => {
     lpr.addInternalHandler("/", noop);
 
     try {
-      expect(await lpr.route("freelens://app")).toBeUndefined();
+      expect(await lpr.route("ims-scope://app")).toBeUndefined();
     } catch (error) {
       expect(throwIfDefined(error)).not.toThrow();
     }
 
-    expect(broadcastMessageMock).toHaveBeenCalledWith(ProtocolHandlerInternal, "freelens://app", "matched");
+    expect(broadcastMessageMock).toHaveBeenCalledWith(ProtocolHandlerInternal, "ims-scope://app", "matched");
   });
 
   it("should broadcast external route when called with valid host", async () => {
@@ -86,7 +86,7 @@ describe("protocol router tests", () => {
       manifest: {
         name: "@mirantis/minikube",
         version: "0.1.1",
-        engines: { freelens: "^0.1.0" },
+        engines: { "ims-scope": "^0.1.0" },
       },
       isEnabled: true,
       isCompatible: true,
@@ -104,22 +104,22 @@ describe("protocol router tests", () => {
     lpr.addInternalHandler("/", noop);
 
     try {
-      expect(await lpr.route("freelens://app")).toBeUndefined();
+      expect(await lpr.route("ims-scope://app")).toBeUndefined();
     } catch (error) {
       expect(throwIfDefined(error)).not.toThrow();
     }
 
-    expect(broadcastMessageMock).toHaveBeenCalledWith(ProtocolHandlerInternal, "freelens://app", "matched");
+    expect(broadcastMessageMock).toHaveBeenCalledWith(ProtocolHandlerInternal, "ims-scope://app", "matched");
 
     try {
-      expect(await lpr.route("freelens://extension/@mirantis/minikube")).toBeUndefined();
+      expect(await lpr.route("ims-scope://extension/@mirantis/minikube")).toBeUndefined();
     } catch (error) {
       expect(throwIfDefined(error)).not.toThrow();
     }
 
     expect(broadcastMessageMock).toHaveBeenCalledWith(
       ProtocolHandlerExtension,
-      "freelens://extension/@mirantis/minikube",
+      "ims-scope://extension/@mirantis/minikube",
       "matched",
     );
   });
@@ -132,13 +132,13 @@ describe("protocol router tests", () => {
     });
 
     try {
-      expect(await lpr.route("freelens://app/page")).toBeUndefined();
+      expect(await lpr.route("ims-scope://app/page")).toBeUndefined();
     } catch (error) {
       expect(throwIfDefined(error)).not.toThrow();
     }
 
     expect(called).toBe(true);
-    expect(broadcastMessageMock).toBeCalledWith(ProtocolHandlerInternal, "freelens://app/page", "matched");
+    expect(broadcastMessageMock).toBeCalledWith(ProtocolHandlerInternal, "ims-scope://app/page", "matched");
   });
 
   it("should call most exact handler", async () => {
@@ -152,13 +152,13 @@ describe("protocol router tests", () => {
     });
 
     try {
-      expect(await lpr.route("freelens://app/page/foo")).toBeUndefined();
+      expect(await lpr.route("ims-scope://app/page/foo")).toBeUndefined();
     } catch (error) {
       expect(throwIfDefined(error)).not.toThrow();
     }
 
     expect(called).toBe("foo");
-    expect(broadcastMessageMock).toBeCalledWith(ProtocolHandlerInternal, "freelens://app/page/foo", "matched");
+    expect(broadcastMessageMock).toBeCalledWith(ProtocolHandlerInternal, "ims-scope://app/page/foo", "matched");
   });
 
   it("should call most exact handler for an extension", async () => {
@@ -171,7 +171,7 @@ describe("protocol router tests", () => {
       manifest: {
         name: "@foobar/icecream",
         version: "0.1.1",
-        engines: { freelens: "^0.1.0" },
+        engines: { "ims-scope": "^0.1.0" },
       },
       isEnabled: true,
       isCompatible: true,
@@ -197,7 +197,7 @@ describe("protocol router tests", () => {
     enabledExtensions.set(extId, { name: "@foobar/icecream", enabled: true });
 
     try {
-      expect(await lpr.route("freelens://extension/@foobar/icecream/page/foob")).toBeUndefined();
+      expect(await lpr.route("ims-scope://extension/@foobar/icecream/page/foob")).toBeUndefined();
     } catch (error) {
       expect(throwIfDefined(error)).not.toThrow();
     }
@@ -205,7 +205,7 @@ describe("protocol router tests", () => {
     expect(called).toBe("foob");
     expect(broadcastMessageMock).toBeCalledWith(
       ProtocolHandlerExtension,
-      "freelens://extension/@foobar/icecream/page/foob",
+      "ims-scope://extension/@foobar/icecream/page/foob",
       "matched",
     );
   });
@@ -221,7 +221,7 @@ describe("protocol router tests", () => {
         manifest: {
           name: "@foobar/icecream",
           version: "0.1.1",
-          engines: { freelens: "^0.1.0" },
+          engines: { "ims-scope": "^0.1.0" },
         },
         isEnabled: true,
         isCompatible: true,
@@ -247,7 +247,7 @@ describe("protocol router tests", () => {
         manifest: {
           name: "icecream",
           version: "0.1.1",
-          engines: { freelens: "^0.1.0" },
+          engines: { "ims-scope": "^0.1.0" },
         },
         isEnabled: true,
         isCompatible: true,
@@ -266,7 +266,7 @@ describe("protocol router tests", () => {
     }
 
     try {
-      expect(await lpr.route("freelens://extension/icecream/page")).toBeUndefined();
+      expect(await lpr.route("ims-scope://extension/icecream/page")).toBeUndefined();
     } catch (error) {
       expect(throwIfDefined(error)).not.toThrow();
     }
@@ -274,7 +274,7 @@ describe("protocol router tests", () => {
     expect(called).toBe(1);
     expect(broadcastMessageMock).toBeCalledWith(
       ProtocolHandlerExtension,
-      "freelens://extension/icecream/page",
+      "ims-scope://extension/icecream/page",
       "matched",
     );
   });
@@ -311,13 +311,13 @@ describe("protocol router tests", () => {
     });
 
     try {
-      expect(await lpr.route("freelens://app/page/foo/bar/bat")).toBeUndefined();
+      expect(await lpr.route("ims-scope://app/page/foo/bar/bat")).toBeUndefined();
     } catch (error) {
       expect(throwIfDefined(error)).not.toThrow();
     }
 
     expect(called).toBe(3);
-    expect(broadcastMessageMock).toBeCalledWith(ProtocolHandlerInternal, "freelens://app/page/foo/bar/bat", "matched");
+    expect(broadcastMessageMock).toBeCalledWith(ProtocolHandlerInternal, "ims-scope://app/page/foo/bar/bat", "matched");
   });
 
   it("should call most exact handler with 2 found handlers", async () => {
@@ -334,12 +334,12 @@ describe("protocol router tests", () => {
     });
 
     try {
-      expect(await lpr.route("freelens://app/page/foo/bar/bat")).toBeUndefined();
+      expect(await lpr.route("ims-scope://app/page/foo/bar/bat")).toBeUndefined();
     } catch (error) {
       expect(throwIfDefined(error)).not.toThrow();
     }
 
     expect(called).toBe(1);
-    expect(broadcastMessageMock).toBeCalledWith(ProtocolHandlerInternal, "freelens://app/page/foo/bar/bat", "matched");
+    expect(broadcastMessageMock).toBeCalledWith(ProtocolHandlerInternal, "ims-scope://app/page/foo/bar/bat", "matched");
   });
 });

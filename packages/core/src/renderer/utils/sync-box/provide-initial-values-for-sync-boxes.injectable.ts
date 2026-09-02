@@ -5,7 +5,7 @@
  */
 
 import assert from "node:assert";
-import { requestFromChannelInjectionToken } from "@freelensapp/messaging";
+import { requestFromChannelInjectionToken } from "@nibamot/messaging";
 import { getInjectable } from "@ogre-tools/injectable";
 import { runInAction } from "mobx";
 import { syncBoxInitialValueChannel } from "../../../common/utils/sync-box/channels";

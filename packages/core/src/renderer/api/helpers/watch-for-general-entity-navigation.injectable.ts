@@ -4,15 +4,15 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { observableHistoryInjectionToken } from "@freelensapp/routing";
-import { disposer } from "@freelensapp/utilities";
+import { observableHistoryInjectionToken } from "@nibamot/routing";
+import { disposer } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import { reaction, when } from "mobx";
 import generalCategoryInjectable from "../../../common/catalog/categories/general.injectable";
 import isActiveRouteInjectable from "../../navigation/is-route-active.injectable";
 import catalogEntityRegistryInjectable from "../catalog/entity/registry.injectable";
 
-import type { Disposer } from "@freelensapp/utilities";
+import type { Disposer } from "@nibamot/utilities";
 
 import type { GeneralEntity } from "../../../common/catalog-entities";
 

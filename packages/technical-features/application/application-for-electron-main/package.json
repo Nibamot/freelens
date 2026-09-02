@@ -1,37 +1,37 @@
 {
-  "name": "@freelensapp/application-for-electron-main",
+  "name": "@nibamot/application-for-electron-main",
   "version": "2.0.0-5",
   "private": true,
-  "description": "Electron's main specifics for creating Freelens applications",
-  "homepage": "https://freelens.app",
+  "description": "Electron's main specifics for creating IMS-Scope applications",
+  "homepage": "https://github.com/Nibamot/ims-scope",
   "bugs": {
-    "url": "https://github.com/freelensapp/freelens/issues"
+    "url": "https://github.com/Nibamot/ims-scope/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/freelensapp/freelens.git"
+    "url": "git+https://github.com/Nibamot/ims-scope.git"
   },
   "license": "MIT",
   "type": "module",
   "author": {
     "name": "Freelens Authors",
-    "email": "freelens@freelens.app"
+    "email": "ims-scope@ims-scope.app"
   },
   "main": "./index.ts",
   "types": "./index.ts",
   "scripts": {
     "clean:dist": "pnpm dlx rimraf@6.1.3 dist",
-    "test:unit": "vitest run -c ../../../../vitest.config.ts --project @freelensapp/application-for-electron-main"
+    "test:unit": "vitest run -c ../../../../vitest.config.ts --project @nibamot/application-for-electron-main"
   },
   "dependencies": {
-    "@freelensapp/application": "workspace:^",
-    "@freelensapp/feature-core": "workspace:^",
-    "@freelensapp/run-many": "workspace:^",
+    "@nibamot/application": "workspace:^",
+    "@nibamot/feature-core": "workspace:^",
+    "@nibamot/run-many": "workspace:^",
     "@ogre-tools/injectable": "catalog:"
   },
   "devDependencies": {
     "@async-fn/vitest": "catalog:",
-    "@freelensapp/typescript": "workspace:^",
+    "@nibamot/typescript": "workspace:^",
     "@ogre-tools/test-utils": "catalog:",
     "electron": "catalog:",
     "typescript": "catalog:",

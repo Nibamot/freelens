@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { NetworkPolicy } from "@freelensapp/kube-object";
+import { NetworkPolicy } from "@nibamot/kube-object";
 import { findByTestId, findByText } from "@testing-library/react";
 import { getDiForUnitTesting } from "../../../getDiForUnitTesting";
 import { renderFor } from "../../test-utils/renderFor";

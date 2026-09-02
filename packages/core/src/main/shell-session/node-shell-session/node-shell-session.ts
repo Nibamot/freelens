@@ -5,15 +5,15 @@
  */
 
 import assert from "node:assert";
-import { NodeApi } from "@freelensapp/kube-api";
 import { CoreV1Api, Watch } from "@kubernetes/client-node";
+import { NodeApi } from "@nibamot/kube-api";
 import { once } from "es-toolkit";
 import { get } from "es-toolkit/compat";
 import { v4 as uuid } from "uuid";
 import { initialNodeShellImage, initialNodeShellWindowsImage } from "../../../common/cluster-types";
 import { ShellOpenError, ShellSession } from "../shell-session";
 
-import type { Pod } from "@freelensapp/kube-object";
+import type { Pod } from "@nibamot/kube-object";
 
 import type { KubeConfig } from "@kubernetes/client-node";
 

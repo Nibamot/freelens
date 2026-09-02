@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import * as kubeApiSpecifics from "@freelensapp/kube-api-specifics";
+import * as kubeApiSpecifics from "@nibamot/kube-api-specifics";
 import requestMetricsInjectable from "../../common/k8s-api/endpoints/metrics.api/request-metrics.injectable";
 import { apiResourceRecord } from "../../common/rbac";
 import { shouldShowResourceInjectionToken } from "../../features/cluster/showing-kube-resources/common/allowed-resources-injection-token";
@@ -174,7 +174,7 @@ export type {
   StatefulSetApi,
   StorageClassApi,
   VerticalPodAutoscalerApi,
-} from "@freelensapp/kube-api";
+} from "@nibamot/kube-api";
 
 export const requestMetrics = asLazyInjectedFunctionForExtensionApi(requestMetricsInjectable);
 

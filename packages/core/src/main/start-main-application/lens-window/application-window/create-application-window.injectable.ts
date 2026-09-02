@@ -35,7 +35,7 @@ const createApplicationWindowInjectable = getInjectable({
           defaultHeight: 900,
           defaultWidth: 1440,
           getContentSource: () => ({
-            url: `https://renderer.freelens.app:${lensProxyPort.get()}`,
+            url: `https://renderer.ims-scope.app:${lensProxyPort.get()}`,
           }),
           resizable: true,
           windowFrameUtilitiesAreShown: isMac,

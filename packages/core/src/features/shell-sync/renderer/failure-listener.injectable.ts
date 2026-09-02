@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { getMessageChannelListenerInjectable } from "@freelensapp/messaging";
-import { showErrorNotificationInjectable } from "@freelensapp/notifications";
+import { getMessageChannelListenerInjectable } from "@nibamot/messaging";
+import { showErrorNotificationInjectable } from "@nibamot/notifications";
 import { shellSyncFailedChannel } from "../common/failure-channel";
 
 const shellSyncFailureListenerInjectable = getMessageChannelListenerInjectable({

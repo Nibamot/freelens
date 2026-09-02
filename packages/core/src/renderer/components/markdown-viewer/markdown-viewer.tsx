@@ -8,7 +8,7 @@
 // Source: https://www.npmjs.com/package/marked
 import "./markdown-viewer.scss";
 
-import { cssNames } from "@freelensapp/utilities";
+import { cssNames } from "@nibamot/utilities";
 import DOMPurify from "dompurify";
 import { marked } from "marked";
 import { Component } from "react";

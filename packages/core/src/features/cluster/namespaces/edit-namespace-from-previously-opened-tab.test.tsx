@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Namespace } from "@freelensapp/kube-object";
-import { asyncFn } from "@freelensapp/test-utils";
+import { Namespace } from "@nibamot/kube-object";
+import { asyncFn } from "@nibamot/test-utils";
 import { act } from "@testing-library/react";
 import directoryForLensLocalStorageInjectable from "../../../common/directory-for-lens-local-storage/directory-for-lens-local-storage.injectable";
 import writeJsonFileInjectable from "../../../common/fs/write-json-file.injectable";
@@ -13,7 +13,7 @@ import { TabKind } from "../../../renderer/components/dock/dock/store";
 import requestKubeResourceInjectable from "../../../renderer/components/dock/edit-resource/edit-resource-model/request-kube-resource.injectable";
 import { getApplicationBuilder } from "../../../renderer/components/test-utils/get-application-builder";
 
-import type { AsyncFnMock } from "@freelensapp/test-utils";
+import type { AsyncFnMock } from "@nibamot/test-utils";
 
 import type { RenderResult } from "@testing-library/react";
 

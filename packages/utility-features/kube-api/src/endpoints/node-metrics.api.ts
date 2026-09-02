@@ -4,10 +4,10 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { NodeMetrics } from "@freelensapp/kube-object";
+import { NodeMetrics } from "@nibamot/kube-object";
 import { KubeApi } from "../kube-api";
 
-import type { NodeMetricsData } from "@freelensapp/kube-object";
+import type { NodeMetricsData } from "@nibamot/kube-object";
 
 import type { DerivedKubeApiOptions, KubeApiDependencies } from "../kube-api";
 

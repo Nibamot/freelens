@@ -8,7 +8,7 @@ import { getDiForUnitTesting } from "../../getDiForUnitTesting";
 import selectedMetricsTimeRangeInjectable from "../cluster/overview/selected-metrics-time-range.injectable";
 import daemonSetMetricsInjectable from "./metrics.injectable";
 
-import type { DaemonSet } from "@freelensapp/kube-object";
+import type { DaemonSet } from "@nibamot/kube-object";
 
 describe("daemon-set-metrics injectable", () => {
   it("requests daemon set pod metrics with the selected time range", () => {

@@ -6,10 +6,10 @@
 
 import "./view.scss";
 
-import { Button } from "@freelensapp/button";
-import { Icon } from "@freelensapp/icon";
-import { resourceQuotaApiInjectable } from "@freelensapp/kube-api-specifics";
-import { showCheckedErrorNotificationInjectable } from "@freelensapp/notifications";
+import { Button } from "@nibamot/button";
+import { Icon } from "@nibamot/icon";
+import { resourceQuotaApiInjectable } from "@nibamot/kube-api-specifics";
+import { showCheckedErrorNotificationInjectable } from "@nibamot/notifications";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { computed, makeObservable, observable } from "mobx";
 import { observer } from "mobx-react";
@@ -24,9 +24,9 @@ import { Wizard, WizardStep } from "../../wizard";
 import closeAddQuotaDialogInjectable from "./close.injectable";
 import isAddQuotaDialogOpenInjectable from "./is-open.injectable";
 
-import type { ResourceQuotaApi } from "@freelensapp/kube-api";
-import type { ResourceQuotaValues } from "@freelensapp/kube-object";
-import type { ShowCheckedErrorNotification } from "@freelensapp/notifications";
+import type { ResourceQuotaApi } from "@nibamot/kube-api";
+import type { ResourceQuotaValues } from "@nibamot/kube-object";
+import type { ShowCheckedErrorNotification } from "@nibamot/notifications";
 
 import type { IComputedValue } from "mobx";
 

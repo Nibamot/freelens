@@ -1,5 +1,5 @@
 {
-  "extends": "@freelensapp/typescript/config/base.json",
+  "extends": "@nibamot/typescript/config/base.json",
   "files": ["assets/custom.d.ts", "assets/*.svg"],
   "include": ["**/*.ts", "**/*.tsx"]
 }

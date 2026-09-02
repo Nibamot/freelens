@@ -1,6 +1,6 @@
-# Styling conventions in Freelens v2
+# Styling conventions in IMS-Scope v2
 
-This document is the canonical guide for **how to style UI in Freelens v2**.
+This document is the canonical guide for **how to style UI in IMS-Scope v2**.
 It exists because the v2 Vite migration (see [`docs/v2-plan.md`](./v2-plan.md),
 decision **D11**) carried four different styling systems forward, and without a
 written contract new code drifts between them. Read this before adding or
@@ -23,7 +23,7 @@ role (see [Roles](#roles-which-mechanism-to-use)):
    (`.Pods`, `.Drawer`, `.IngressDetails`) with plain nested selectors inside.
 3. **CSS Modules** (`*.module.scss`). Mangled class names via
    `generateScopedName: "[name]__[local]--[hash:base64:5]"`
-   (`freelens/electron.vite.config.ts`). The component imports the generated
+   (`ims-scope/electron.vite.config.ts`). The component imports the generated
    name map and references `styles.someClass`.
 4. **Tailwind v4** utilities. `@import "tailwindcss"` + `@config` live only in
    `packages/core/src/renderer/components/app.scss`; utility classes appear
@@ -145,5 +145,5 @@ in a stylesheet.
   `.scss` for structurally identical components).
 - Pick **one** loading mechanism for `packages/ui-components` styles — the
   component-level side-effect import *or* the `/styles` entry re-import in
-  `freelens/src/renderer/index.ts`, not both.
+  `ims-scope/src/renderer/index.ts`, not both.
 - Inline the seven `@apply` usages.

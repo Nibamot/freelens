@@ -6,8 +6,8 @@
 
 import "./upgrade-chart.scss";
 
-import { Spinner } from "@freelensapp/spinner";
-import { cssNames } from "@freelensapp/utilities";
+import { Spinner } from "@nibamot/spinner";
+import { cssNames } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
 import React from "react";

@@ -5,8 +5,8 @@
  */
 
 import EventEmitter from "node:events";
-import { getGlobalOverride } from "@freelensapp/test-utils";
-import { getOrInsert } from "@freelensapp/utilities";
+import { getGlobalOverride } from "@nibamot/test-utils";
+import { getOrInsert } from "@nibamot/utilities";
 import { kebabCase } from "es-toolkit";
 import electronAppInjectable from "./electron-app.injectable";
 

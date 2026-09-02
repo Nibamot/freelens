@@ -4,10 +4,10 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { iter, put, sortBySemverVersion } from "@freelensapp/utilities";
+import { iter, put, sortBySemverVersion } from "@nibamot/utilities";
 import * as yaml from "js-yaml";
 
-import type { Logger } from "@freelensapp/logger";
+import type { Logger } from "@nibamot/logger";
 
 import type { ReadFile } from "../../common/fs/read-file.injectable";
 import type { Stat } from "../../common/fs/stat.injectable";

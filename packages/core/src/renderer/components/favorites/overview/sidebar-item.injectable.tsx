@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { sidebarItemInjectionToken } from "@freelensapp/cluster-sidebar";
+import { sidebarItemInjectionToken } from "@nibamot/cluster-sidebar";
 import { getInjectable } from "@ogre-tools/injectable";
 import favoritesOverviewRouteInjectable from "../../../../common/front-end-routing/routes/cluster/favorites/overview/favorites-overview-route.injectable";
 import navigateToFavoritesOverviewInjectable from "../../../../common/front-end-routing/routes/cluster/favorites/overview/navigate-to-favorites-overview.injectable";

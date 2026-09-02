@@ -6,7 +6,7 @@
 
 import { getInjectionToken } from "@ogre-tools/injectable";
 
-import type { ChannelRequester } from "@freelensapp/messaging";
+import type { ChannelRequester } from "@nibamot/messaging";
 
 import type { activateClusterChannel, deactivateClusterChannel } from "./channels";
 

@@ -18,7 +18,7 @@ const executeOnClusterHandler = asLazyInjectedFunctionForExtensionApi(executeOnC
  *
  * @example
  * ```typescript
- * import { K8s } from "@freelensapp/core/main";
+ * import { K8s } from "@nibamot/core/main";
  *
  * // Query pods from a cluster
  * const pods = await K8s.queryCluster<Pod>("my-cluster", {

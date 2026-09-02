@@ -5,8 +5,8 @@
  */
 
 import assert from "node:assert";
-import { prefixedLoggerInjectable } from "@freelensapp/logger";
-import { iter } from "@freelensapp/utilities";
+import { prefixedLoggerInjectable } from "@nibamot/logger";
+import { iter } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import { asyncComputed } from "../../../common/utils/async-computed";
 import requestListHelmReleasesInjectable from "../../../features/helm-releases/renderer/request-list-helm-releases.injectable";

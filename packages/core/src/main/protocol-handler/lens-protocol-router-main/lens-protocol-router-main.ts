@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { disposer, noop } from "@freelensapp/utilities";
+import { disposer, noop } from "@nibamot/utilities";
 import { observable, when } from "mobx";
 import * as proto from "../../../common/protocol-handler";
 import { ProtocolHandlerInvalid } from "../../../common/protocol-handler";
@@ -65,7 +65,7 @@ export class LensProtocolRouterMain extends proto.LensProtocolRouter {
     try {
       const url = new URL(rawUrl);
 
-      if (url.protocol.toLowerCase() !== "freelens:") {
+      if (url.protocol.toLowerCase() !== "ims-scope:") {
         throw new proto.RoutingError(proto.RoutingErrorType.INVALID_PROTOCOL, url);
       }
 

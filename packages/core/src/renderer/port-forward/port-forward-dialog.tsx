@@ -6,9 +6,9 @@
 
 import "./port-forward-dialog.scss";
 
-import { Icon } from "@freelensapp/icon";
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { cssNames } from "@freelensapp/utilities";
+import { Icon } from "@nibamot/icon";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { cssNames } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { makeObservable, observable } from "mobx";
 import { observer } from "mobx-react";
@@ -23,7 +23,7 @@ import openPortForwardInjectable from "./open-port-forward.injectable";
 import portForwardDialogModelInjectable from "./port-forward-dialog-model/port-forward-dialog-model.injectable";
 import portForwardStoreInjectable from "./port-forward-store/port-forward-store.injectable";
 
-import type { Logger } from "@freelensapp/logger";
+import type { Logger } from "@nibamot/logger";
 
 import type { DialogProps } from "../components/dialog";
 import type { OpenPortForward } from "./open-port-forward.injectable";

@@ -5,11 +5,11 @@
  */
 
 import EventEmitter from "node:events";
-import { iter } from "@freelensapp/utilities";
+import { iter } from "@nibamot/utilities";
 import { once } from "es-toolkit";
 import { makeObservable, observable } from "mobx";
 
-import type { Disposer, StrictReactNode, TypedEventEmitter } from "@freelensapp/utilities";
+import type { Disposer, StrictReactNode, TypedEventEmitter } from "@nibamot/utilities";
 
 import type {
   CategoryColumnRegistration,

@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { noop } from "@freelensapp/utilities";
+import { noop } from "@nibamot/utilities";
 import { createContainer } from "@ogre-tools/injectable";
 import { observe } from "mobx";
 import { advanceFakeTime, testUsingFakeTime } from "../../../test-utils/use-fake-time";

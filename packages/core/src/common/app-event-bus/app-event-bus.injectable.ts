@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { EventEmitter } from "@freelensapp/event-emitter";
+import { EventEmitter } from "@nibamot/event-emitter";
 import { getInjectable } from "@ogre-tools/injectable";
 
 import type { AppEvent } from "./event-bus";

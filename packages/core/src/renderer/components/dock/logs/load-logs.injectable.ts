@@ -7,7 +7,7 @@
 import { getInjectable } from "@ogre-tools/injectable";
 import logStoreInjectable from "./store.injectable";
 
-import type { Pod } from "@freelensapp/kube-object";
+import type { Pod } from "@nibamot/kube-object";
 
 import type { IComputedValue } from "mobx";
 

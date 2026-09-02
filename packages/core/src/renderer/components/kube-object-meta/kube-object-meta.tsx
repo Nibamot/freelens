@@ -4,9 +4,9 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { KubeObject } from "@freelensapp/kube-object";
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { Link } from "@freelensapp/routing";
+import { KubeObject } from "@nibamot/kube-object";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { Link } from "@nibamot/routing";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import * as yaml from "js-yaml";
 import { observer } from "mobx-react";
@@ -21,8 +21,8 @@ import { LocaleDate } from "../locale-date";
 import { MonacoEditor } from "../monaco-editor";
 import { WithTooltip } from "../with-tooltip";
 
-import type { KubeMetaField } from "@freelensapp/kube-object";
-import type { Logger } from "@freelensapp/logger";
+import type { KubeMetaField } from "@nibamot/kube-object";
+import type { Logger } from "@nibamot/logger";
 
 import type { ApiManager } from "../../../common/k8s-api/api-manager";
 import type { GetDetailsUrl } from "../kube-detail-params/get-details-url.injectable";

@@ -6,7 +6,7 @@
 
 import { getInjectionToken } from "@ogre-tools/injectable";
 
-import type { KubeApi } from "@freelensapp/kube-api";
+import type { KubeApi } from "@nibamot/kube-api";
 
 export const kubeApiInjectionToken = getInjectionToken<KubeApi<any, any>>({
   id: "kube-api-injection-token",

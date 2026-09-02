@@ -11,7 +11,7 @@ import { Badge } from "../badge";
 import { DrawerItem } from "../drawer";
 import { KubeObjectConditionsDrawer } from "../kube-object-conditions";
 
-import type { PodDisruptionBudget } from "@freelensapp/kube-object";
+import type { PodDisruptionBudget } from "@nibamot/kube-object";
 
 import type { KubeObjectDetailsProps } from "../kube-object-details";
 

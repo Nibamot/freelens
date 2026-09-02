@@ -18,7 +18,7 @@ import { NamespaceSelectBadge } from "../namespaces/namespace-select-badge";
 import { WithTooltip } from "../with-tooltip";
 import deploymentStoreInjectable from "./store.injectable";
 
-import type { Deployment } from "@freelensapp/kube-object";
+import type { Deployment } from "@nibamot/kube-object";
 
 import type { EventStore } from "../events/store";
 import type { DeploymentStore } from "./store";

@@ -6,7 +6,7 @@
 
 import { getInitializable } from "../../../../common/initializable-state/create";
 
-import type { RequestChannel } from "@freelensapp/messaging";
+import type { RequestChannel } from "@nibamot/messaging";
 
 export const buildVersionInitializable = getInitializable<string>("build-version");
 

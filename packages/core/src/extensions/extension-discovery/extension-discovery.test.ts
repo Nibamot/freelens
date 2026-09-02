@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { delay } from "@freelensapp/utilities";
+import { delay } from "@nibamot/utilities";
 import { observable, runInAction, when } from "mobx";
 import directoryForUserDataInjectable from "../../common/app-paths/directory-for-user-data/directory-for-user-data.injectable";
 import pathExistsInjectable from "../../common/fs/path-exists.injectable";
@@ -79,7 +79,7 @@ describe("ExtensionDiscovery", () => {
         name: "my-extension",
         version: "1.0.0",
         engines: {
-          freelens: "0.1.0",
+          "ims-scope": "0.1.0",
         },
       };
     });
@@ -111,7 +111,7 @@ describe("ExtensionDiscovery", () => {
           name: "my-extension",
           version: "1.0.0",
           engines: {
-            freelens: "0.1.0",
+            "ims-scope": "0.1.0",
           },
         },
         manifestPath: "/some-directory-for-user-data/node_modules/my-extension/package.json",

@@ -1,15 +1,15 @@
-# @freelensapp/resizing-anchor
+# @nibamot/resizing-anchor
 
 This package contains stuff related to creating Lens-applications. 
 
 ## Usage
 
 ```sh
-npm install @freelensapp/resizing-anchor
+npm install @nibamot/resizing-anchor
 ```
 
 ```typescript
-import { ResizeDirection, ResizeGrowthDirection, ResizeSide, ResizingAnchor } from "@freelensapp/resizing-anchor";
+import { ResizeDirection, ResizeGrowthDirection, ResizeSide, ResizingAnchor } from "@nibamot/resizing-anchor";
 ```
 
 ## Extendability

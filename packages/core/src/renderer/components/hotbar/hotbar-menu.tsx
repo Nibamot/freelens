@@ -19,7 +19,7 @@ import {
   useSensor,
   useSensors,
 } from "@dnd-kit/core";
-import { cssNames } from "@freelensapp/utilities";
+import { cssNames } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
 import { useEffect, useRef, useState } from "react";
@@ -34,7 +34,7 @@ import { HotbarEntityIcon } from "./hotbar-entity-icon";
 import { HotbarIcon } from "./hotbar-icon";
 import { HotbarSelector } from "./hotbar-selector";
 
-import type { IClassName, StrictReactNode } from "@freelensapp/utilities";
+import type { IClassName, StrictReactNode } from "@nibamot/utilities";
 
 import type { IComputedValue } from "mobx";
 

@@ -8,8 +8,8 @@
   // written against the enabled globals never import it directly.
   "ignoreDependencies": ["vitest"],
 
-  // Note: several ignoreDependencies entries below (electron for freelens,
-  // core, and the technical-feature packages; @freelensapp/core for extensions;
+  // Note: several ignoreDependencies entries below (electron for ims-scope,
+  // core, and the technical-feature packages; @nibamot/core for extensions;
   // react for the button package) are only needed in --production --strict
   // mode, where devDependency imports in production files count as unlisted. In
   // the plain development run these entries look redundant, so knip would report
@@ -22,7 +22,7 @@
       // Binaries the workflows and scripts call that no dependency provides:
       // jq comes with the runner image, yq from mise (see mise.toml), the rest
       // from the operating system.
-      "ignoreBinaries": [".*Freelens.exe", "jq", "open", "powershell", "xdg-open", "yq"],
+      "ignoreBinaries": [".*IMS-Scope.exe", "jq", "open", "powershell", "xdg-open", "yq"],
       "ignoreDependencies": [
         // used to run pnpm in monorepo workspaces from the root
         "pnpm"
@@ -42,7 +42,7 @@
     // field, which is how the third-party packages externalized from the ESM
     // main bundle by electron-vite's externalizeDepsPlugin are detected as
     // used dependencies.
-    "freelens": {
+    "ims-scope": {
       "entry": [
         "build/notarize.cjs",
         "electron.vite.config.ts",
@@ -60,10 +60,10 @@
         "integration/**/*.ts",
         "src/**/*.ts",
         "src/common/**/*.ts!",
-        "src/freelens-extension-api.ts!",
+        "src/ims-scope-extension-api.ts!",
         "src/main/**/*.ts!"
       ],
-      "ignoreBinaries": ["distwin-unpackedFreelens.exe"],
+      "ignoreBinaries": ["distwin-unpackedIMS-Scope.exe"],
       "ignoreDependencies": [
         // imported by the bundled static/build/main.js but declared as a
         // devDependency so electron-builder does not pack it into the app
@@ -84,7 +84,7 @@
       "ignoreDependencies": [
         // static YAML templates imported with a relative import.meta.glob in
         // lens-templates.injectable.ts, invisible to the module resolver
-        "@freelensapp/resource-templates",
+        "@nibamot/resource-templates",
         // provided by the Electron runtime and declared only as a
         // devDependency; production code imports it in both processes
         "electron",
@@ -113,10 +113,10 @@
         // the workspace entry re-exports core's API namespaces, but core is a
         // devDependency by design: the published package inlines all core
         // types into the bundled d.ts and consumes the runtime global instead
-        "@freelensapp/core",
+        "@nibamot/core",
         // type-level dependencies of the published bundled extension-api.d.ts:
         // extension projects resolve these packages for types through
-        // @freelensapp/extensions, so they must stay declared even though no
+        // @nibamot/extensions, so they must stay declared even though no
         // runtime code in this package imports them
         "@ogre-tools/injectable",
         "@ogre-tools/injectable-react",
@@ -143,7 +143,7 @@
       "project": ["bin/*.js!", "src/*.ts!"],
       "ignoreDependencies": [
         // source of the tray icon SVGs passed on the command line
-        "@freelensapp/icon"
+        "@nibamot/icon"
       ],
       "typescript": {
         "config": ["tsconfig.json"]
@@ -165,7 +165,7 @@
 
     // electron is provided by the host app at runtime, so it is declared only
     // as a devDependency; production code in these packages imports it, which
-    // the --production --strict pass reports as unlisted (same as freelens and
+    // the --production --strict pass reports as unlisted (same as ims-scope and
     // packages/core above)
     "packages/technical-features/application/application-for-electron-main": {
       "ignoreDependencies": ["electron"]

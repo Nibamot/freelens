@@ -6,7 +6,7 @@
 
 import "./vpa.scss";
 
-import { prevDefault } from "@freelensapp/utilities";
+import { prevDefault } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
 import React from "react";

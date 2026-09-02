@@ -7,7 +7,7 @@
 import requestPodMetricsInNamespaceInjectable from "../../../common/k8s-api/endpoints/metrics.api/request-pod-metrics-in-namespace.injectable";
 import { createTimeRangedMetricsInjectable } from "../resource-metrics/create-time-ranged-metrics";
 
-import type { Namespace } from "@freelensapp/kube-object";
+import type { Namespace } from "@nibamot/kube-object";
 
 interface NamespaceMetricsInjectableParams {
   namespace: Namespace;

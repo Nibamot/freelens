@@ -4,13 +4,13 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { CustomResourceDefinition, KubeObject } from "@freelensapp/kube-object";
+import { CustomResourceDefinition, KubeObject } from "@nibamot/kube-object";
 import navigateToCustomResourcesInjectable from "../../common/front-end-routing/routes/cluster/custom-resources/navigate-to-custom-resources.injectable";
 import apiManagerInjectable from "../../common/k8s-api/api-manager/manager.injectable";
 import customResourceDefinitionStoreInjectable from "../../renderer/components/custom-resource-definitions/store.injectable";
 import { getApplicationBuilder } from "../../renderer/components/test-utils/get-application-builder";
 
-import type { KubeObjectMetadata, KubeObjectScope } from "@freelensapp/kube-object";
+import type { KubeObjectMetadata, KubeObjectScope } from "@nibamot/kube-object";
 
 import type { RenderResult } from "@testing-library/react";
 

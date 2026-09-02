@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { getStartableStoppable } from "@freelensapp/startable-stoppable";
-import { delay, disposer } from "@freelensapp/utilities";
+import { getStartableStoppable } from "@nibamot/startable-stoppable";
+import { delay, disposer } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import { random } from "es-toolkit/compat";
 import { reaction, runInAction } from "mobx";
@@ -14,7 +14,7 @@ import weblinksInjectable from "../common/weblinks.injectable";
 import validateWeblinkInjectable from "./validate-weblink.injectable";
 import weblinkVerificationsInjectable from "./weblink-verifications.injectable";
 
-import type { Disposer } from "@freelensapp/utilities";
+import type { Disposer } from "@nibamot/utilities";
 
 const sixtyMinutes = 60 * 60 * 1000;
 

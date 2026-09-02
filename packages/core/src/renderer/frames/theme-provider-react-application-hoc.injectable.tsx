@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { reactApplicationHigherOrderComponentInjectionToken } from "@freelensapp/react-application";
 import { StyledEngineProvider, ThemeProvider } from "@mui/material";
+import { reactApplicationHigherOrderComponentInjectionToken } from "@nibamot/react-application";
 import { getInjectable } from "@ogre-tools/injectable";
 import { defaultMuiBaseTheme } from "../mui-base-theme";
 

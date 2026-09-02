@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { disposer } from "@freelensapp/utilities";
+import { disposer } from "@nibamot/utilities";
 import { action, computed, makeObservable, observable } from "mobx";
 
 import type { ProtocolHandlerRegistration } from "../common/protocol-handler/registration";

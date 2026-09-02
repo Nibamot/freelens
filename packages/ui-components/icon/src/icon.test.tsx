@@ -5,16 +5,16 @@
  */
 
 import "@testing-library/jest-dom/vitest";
-import { registerFeature } from "@freelensapp/feature-core";
-import { loggerFeature, loggerInjectionToken } from "@freelensapp/logger";
-import { renderFor } from "@freelensapp/test-utils";
+import { registerFeature } from "@nibamot/feature-core";
+import { loggerFeature, loggerInjectionToken } from "@nibamot/logger";
+import { renderFor } from "@nibamot/test-utils";
 import { createContainer } from "@ogre-tools/injectable";
 import { registerMobX } from "@ogre-tools/injectable-extension-for-mobx";
 import { runInAction } from "mobx";
 import { Icon } from "./icon";
 
-import type { Logger } from "@freelensapp/logger";
-import type { DiRender } from "@freelensapp/test-utils";
+import type { Logger } from "@nibamot/logger";
+import type { DiRender } from "@nibamot/test-utils";
 
 import type { MockedObject } from "vitest";
 

@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { storesAndApisCanBeCreatedInjectionToken } from "@freelensapp/kube-api-specifics";
+import { storesAndApisCanBeCreatedInjectionToken } from "@nibamot/kube-api-specifics";
 import { getInjectable } from "@ogre-tools/injectable";
 
 const storesAndApisCanBeCreatedInjectable = getInjectable({

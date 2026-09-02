@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { iter } from "@freelensapp/utilities";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { iter } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import { action, comparer } from "mobx";
 import { Cluster } from "../../../../common/cluster/cluster";

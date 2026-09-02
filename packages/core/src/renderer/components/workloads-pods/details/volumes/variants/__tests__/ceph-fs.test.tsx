@@ -4,13 +4,13 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Pod } from "@freelensapp/kube-object";
+import { Pod } from "@nibamot/kube-object";
 import { getDiForUnitTesting } from "../../../../../../getDiForUnitTesting";
 import storesAndApisCanBeCreatedInjectable from "../../../../../../stores-apis-can-be-created.injectable";
 import { renderFor } from "../../../../../test-utils/renderFor";
 import { CephFs } from "../ceph-fs";
 
-import type { CephfsSource } from "@freelensapp/kube-object";
+import type { CephfsSource } from "@nibamot/kube-object";
 
 import type { DiRender } from "../../../../../test-utils/renderFor";
 

@@ -2,7 +2,7 @@ import { withInjectables } from "@ogre-tools/injectable-react";
 import { useEffect } from "react";
 import invokeShortcutInjectable, { InvokeShortcut } from "./invoke-shortcut.injectable";
 
-import type { StrictReactNode } from "@freelensapp/utilities";
+import type { StrictReactNode } from "@nibamot/utilities";
 
 export interface KeyboardShortcutListenerProps {
   children: StrictReactNode;

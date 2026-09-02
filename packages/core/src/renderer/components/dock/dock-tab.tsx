@@ -4,9 +4,9 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Icon } from "@freelensapp/icon";
-import { Tooltip, TooltipPosition } from "@freelensapp/tooltip";
-import { cssNames, isMiddleClick, prevDefault } from "@freelensapp/utilities";
+import { Icon } from "@nibamot/icon";
+import { Tooltip, TooltipPosition } from "@nibamot/tooltip";
+import { cssNames, isMiddleClick, prevDefault } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import autoBindReact from "auto-bind/react";
 import { observable } from "mobx";
@@ -18,7 +18,7 @@ import { Tab } from "../tabs";
 import dockStoreInjectable from "./dock/store.injectable";
 import styles from "./dock-tab.module.scss";
 
-import type { StrictReactNode } from "@freelensapp/utilities";
+import type { StrictReactNode } from "@nibamot/utilities";
 
 import type { TabProps } from "../tabs";
 import type { DockStore, DockTab as DockTabModel } from "./dock/store";

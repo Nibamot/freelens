@@ -4,9 +4,9 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { CustomResourceDefinition } from "@freelensapp/kube-object";
+import { CustomResourceDefinition } from "@nibamot/kube-object";
 
-import type { CustomResourceDefinitionSpec } from "@freelensapp/kube-object";
+import type { CustomResourceDefinitionSpec } from "@nibamot/kube-object";
 
 describe("Crds", () => {
   describe("getVersion()", () => {

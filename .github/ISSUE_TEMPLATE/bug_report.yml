@@ -42,9 +42,9 @@ body:
       required: false
 
   - type: input
-    id: freelens-version
+    id: ims-scope-version
     attributes:
-      label: Freelens version
+      label: IMS-Scope version
     validations:
       required: true
 
@@ -69,7 +69,7 @@ body:
   - type: input
     id: kuernetes-version
     attributes:
-      label: Kubernetes cluster version used with Freelens
+      label: Kubernetes cluster version used with IMS-Scope
       description: |
         e.g. 1.33.0
     validations:

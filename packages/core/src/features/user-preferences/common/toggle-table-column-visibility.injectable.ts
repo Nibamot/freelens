@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { getOrInsertSet, toggle } from "@freelensapp/utilities";
+import { getOrInsertSet, toggle } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import { action } from "mobx";
 import userPreferencesStateInjectable from "./state.injectable";

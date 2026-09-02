@@ -6,7 +6,7 @@
 
 import "./view.scss";
 
-import { formatJSONValue, safeJSONPathValue } from "@freelensapp/utilities";
+import { formatJSONValue, safeJSONPathValue } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { startCase } from "es-toolkit";
 import { observer } from "mobx-react";
@@ -20,7 +20,7 @@ import { NamespaceSelectBadge } from "../namespaces/namespace-select-badge";
 import { WithTooltip } from "../with-tooltip";
 import customResourcesRouteParametersInjectable from "./route-parameters.injectable";
 
-import type { TableCellProps } from "@freelensapp/list-layout";
+import type { TableCellProps } from "@nibamot/list-layout";
 
 import type { IComputedValue } from "mobx";
 

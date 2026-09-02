@@ -7,7 +7,7 @@
 import { getInjectable } from "@ogre-tools/injectable";
 import prometheusProvidersInjectable from "./providers.injectable";
 
-import type { PrometheusProvider } from "@freelensapp/prometheus";
+import type { PrometheusProvider } from "@nibamot/prometheus";
 
 export type GetPrometheusProviderByKind = (kind: string) => PrometheusProvider;
 

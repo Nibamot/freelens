@@ -1,12 +1,12 @@
 import asyncFn from "@async-fn/vitest";
-import { registerFeature } from "@freelensapp/feature-core";
-import { getPromiseStatus } from "@freelensapp/test-utils";
+import { registerFeature } from "@nibamot/feature-core";
+import { getPromiseStatus } from "@nibamot/test-utils";
 import { createContainer } from "@ogre-tools/injectable";
 import { messagingFeatureForMain } from "../feature";
 import ipcMainInjectable from "../ipc-main/ipc-main.injectable";
 import enlistRequestChannelListenerInjectable from "./enlist-request-channel-listener.injectable";
 
-import type { RequestChannel, RequestChannelHandler } from "@freelensapp/messaging";
+import type { RequestChannel, RequestChannelHandler } from "@nibamot/messaging";
 
 import type { AsyncFnMock } from "@async-fn/vitest";
 import type { IpcMain, IpcMainInvokeEvent } from "electron";

@@ -10,7 +10,7 @@ import { TimeRangedResourceMetrics } from "../resource-metrics";
 import persistentVolumeClaimMetricsInjectable from "./metrics.injectable";
 import { VolumeClaimDiskChart } from "./volume-claim-disk-chart";
 
-import type { PersistentVolumeClaim } from "@freelensapp/kube-object";
+import type { PersistentVolumeClaim } from "@nibamot/kube-object";
 
 import type { PersistentVolumeClaimMetricData } from "../../../common/k8s-api/endpoints/metrics.api/request-persistent-volume-claim-metrics.injectable";
 import type { IAsyncComputed } from "../../../common/utils/async-computed";

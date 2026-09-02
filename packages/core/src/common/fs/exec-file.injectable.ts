@@ -8,7 +8,7 @@ import { execFile } from "node:child_process";
 import { getInjectable } from "@ogre-tools/injectable";
 import type { ExecFileException, ExecFileOptions } from "node:child_process";
 
-import type { AsyncResult } from "@freelensapp/utilities";
+import type { AsyncResult } from "@nibamot/utilities";
 
 export type ExecFileError = ExecFileException & { stderr: string };
 

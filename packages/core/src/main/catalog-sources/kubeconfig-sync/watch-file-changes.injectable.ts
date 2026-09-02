@@ -6,7 +6,7 @@
 
 import path from "node:path";
 import { inspect } from "node:util";
-import { getOrInsertWith, isErrnoException, iter } from "@freelensapp/utilities";
+import { getOrInsertWith, isErrnoException, iter } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import { computed, observable } from "mobx";
 import statInjectable from "../../../common/fs/stat.injectable";
@@ -14,7 +14,7 @@ import watchInjectable from "../../../common/fs/watch/watch.injectable";
 import diffChangedKubeconfigInjectable from "./diff-changed-kubeconfig.injectable";
 import kubeconfigSyncLoggerInjectable from "./logger.injectable";
 
-import type { Disposer } from "@freelensapp/utilities";
+import type { Disposer } from "@nibamot/utilities";
 
 import type { IComputedValue, ObservableMap } from "mobx";
 

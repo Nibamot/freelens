@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { getFeature } from "@freelensapp/feature-core";
+import { getFeature } from "@nibamot/feature-core";
 import {
   clusterOverviewUIBlockInjectionToken,
   daemonSetDetailsMetricsInjectionToken,
@@ -18,7 +18,7 @@ import {
   podDetailsMetricsInjectionToken,
   replicaSetDetailsMetricsInjectionToken,
   statefulSetDetailsMetricsInjectionToken,
-} from "@freelensapp/metrics";
+} from "@nibamot/metrics";
 import { getInjectable } from "@ogre-tools/injectable";
 import { ClusterMetrics } from "../../renderer/components/cluster/cluster-metrics";
 import { ClusterPieCharts } from "../../renderer/components/cluster/cluster-pie-charts";

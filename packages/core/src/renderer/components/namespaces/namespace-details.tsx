@@ -6,11 +6,11 @@
 
 import "./namespace-details.scss";
 
-import { Namespace } from "@freelensapp/kube-object";
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { Link } from "@freelensapp/routing";
-import { Spinner } from "@freelensapp/spinner";
-import { cssNames } from "@freelensapp/utilities";
+import { Namespace } from "@nibamot/kube-object";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { Link } from "@nibamot/routing";
+import { Spinner } from "@nibamot/spinner";
+import { cssNames } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
 import React from "react";
@@ -20,7 +20,7 @@ import resourceQuotaStoreInjectable from "../config-resource-quotas/store.inject
 import { DrawerItem } from "../drawer";
 import getDetailsUrlInjectable from "../kube-detail-params/get-details-url.injectable";
 
-import type { Logger } from "@freelensapp/logger";
+import type { Logger } from "@nibamot/logger";
 
 import type { SubscribeStores } from "../../kube-watch-api/kube-watch-api";
 import type { LimitRangeStore } from "../config-limit-ranges/store";

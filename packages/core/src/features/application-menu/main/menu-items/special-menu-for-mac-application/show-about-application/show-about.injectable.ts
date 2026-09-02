@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { loggerInjectionToken } from "@freelensapp/logger";
+import { loggerInjectionToken } from "@nibamot/logger";
 import { getInjectable } from "@ogre-tools/injectable";
 import * as semver from "semver";
 import openLinkInBrowserInjectable from "../../../../../../common/utils/open-link-in-browser.injectable";
@@ -49,7 +49,7 @@ const showAboutInjectable = getInjectable({
       const buttons = ["Close"];
 
       try {
-        const latestVersion = await getLatestVersion("@freelensapp/core");
+        const latestVersion = await getLatestVersion("@nibamot/core");
         if (latestVersion && semver.gt(latestVersion, buildVersion)) {
           newVersion = latestVersion;
           appInfo.push("", `Latest version: ${latestVersion}`);
@@ -70,7 +70,7 @@ const showAboutInjectable = getInjectable({
       );
 
       if (newVersion && returnValue.response === 1) {
-        await openLinkInBrowser(`https://github.com/freelensapp/freelens/releases/tag/v${newVersion}`);
+        await openLinkInBrowser(`https://github.com/Nibamot/ims-scope/releases/tag/v${newVersion}`);
       }
     };
   },

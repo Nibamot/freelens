@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Freelens v2 — Phase 2 codemod: source-only workspace packages (plan D3).
 //
-// Rewrites every built `@freelensapp/*` workspace package (those whose build
+// Rewrites every built `@nibamot/*` workspace package (those whose build
 // script is `lens-webpack-build`) so it is consumed directly from TypeScript
 // source instead of a transpiled `dist/`:
 //
@@ -32,7 +32,7 @@ const repoRoot = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const write = process.argv.includes("--write");
 
 // Packages excluded from the automated codemod (special-cased elsewhere).
-const EXCLUDED = new Set(["@freelensapp/core", "@freelensapp/extensions"]);
+const EXCLUDED = new Set(["@nibamot/core", "@nibamot/extensions"]);
 
 /**
  * The TypeScript source entry of a package: `./src/index.ts` when present,

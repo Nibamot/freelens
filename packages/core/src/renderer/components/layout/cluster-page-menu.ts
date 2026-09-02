@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import type { IconProps } from "@freelensapp/icon";
-import type { StrictReactNode } from "@freelensapp/utilities";
+import type { IconProps } from "@nibamot/icon";
+import type { StrictReactNode } from "@nibamot/utilities";
 
 import type { IComputedValue } from "mobx";
 import type React from "react";

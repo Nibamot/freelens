@@ -6,9 +6,9 @@
 
 import "./pod-details.scss";
 
-import { Pod } from "@freelensapp/kube-object";
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { cssNames, formatDuration } from "@freelensapp/utilities";
+import { Pod } from "@nibamot/kube-object";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { cssNames, formatDuration } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { kebabCase } from "es-toolkit";
 import { observer } from "mobx-react";
@@ -25,7 +25,7 @@ import { PodDetailsAffinities } from "./pod-details-affinities";
 import { PodDetailsSecrets } from "./pod-details-secrets";
 import { PodDetailsTolerations } from "./pod-details-tolerations";
 
-import type { Logger } from "@freelensapp/logger";
+import type { Logger } from "@nibamot/logger";
 
 import type { KubeObjectDetailsProps } from "../kube-object-details";
 

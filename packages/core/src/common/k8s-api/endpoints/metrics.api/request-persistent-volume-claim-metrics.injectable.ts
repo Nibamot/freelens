@@ -7,7 +7,7 @@
 import { getInjectable } from "@ogre-tools/injectable";
 import requestMetricsInjectable from "./request-metrics.injectable";
 
-import type { PersistentVolumeClaim } from "@freelensapp/kube-object";
+import type { PersistentVolumeClaim } from "@nibamot/kube-object";
 
 import type { MetricData } from "../metrics.api";
 import type { RequestMetricsParams } from "./request-metrics.injectable";

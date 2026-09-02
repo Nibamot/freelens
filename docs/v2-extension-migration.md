@@ -16,31 +16,31 @@ is ported (the validation vehicle named in the plan).
   both are accepted. The one restriction: the extension entrypoint graph must
   not use top-level `await`, which synchronous loading cannot express. An
   `import()`-based main-process loader may lift this later.
-- **One published package.** `@freelensapp/extensions` is the only published
-  package. Every other `@freelensapp/*` package is `private` and is consumed by
+- **One published package.** `@nibamot/extensions` is the only published
+  package. Every other `@nibamot/*` package is `private` and is consumed by
   the app as TypeScript source. Extensions must not depend on internal
-  `@freelensapp/*` packages directly.
+  `@nibamot/*` packages directly.
 - **Runtime-global API.** The app assigns the API object to a global at startup
   in each process:
 
   ```ts
-  // main process   (freelens/src/main/index.ts)
-  globalThis.FreelensExtensionApi = { Common, Main };
-  // renderer       (freelens/src/renderer/index.ts)
-  globalThis.FreelensExtensionApi = { Common, Renderer };
+  // main process   (ims-scope/src/main/index.ts)
+  globalThis.IMSScopeExtensionApi = { Common, Main };
+  // renderer       (ims-scope/src/renderer/index.ts)
+  globalThis.IMSScopeExtensionApi = { Common, Renderer };
   ```
 
-  `@freelensapp/extensions` is a thin shim that re-exports that global. At
+  `@nibamot/extensions` is a thin shim that re-exports that global. At
   runtime the members resolve to the global whether your bundle inlines the
   shim or marks it external.
 
 ## Import changes
 
 The import specifier is unchanged — you still import from
-`@freelensapp/extensions`:
+`@nibamot/extensions`:
 
 ```ts
-import { Common, Main, Renderer } from "@freelensapp/extensions";
+import { Common, Main, Renderer } from "@nibamot/extensions";
 ```
 
 What changed is what those names resolve to at runtime:
@@ -59,12 +59,12 @@ runtime.
 
 ## `package.json` for an extension
 
-- Depend on `@freelensapp/extensions` for **types**. You do not need to bundle
+- Depend on `@nibamot/extensions` for **types**. You do not need to bundle
   it; the API is provided by the host through the runtime global.
 - Author your entrypoints as ESM or CommonJS. If you ship ESM, set
   `"type": "module"` (or use `.mjs`); the loader handles both. Avoid top-level
   `await` in the entrypoint graph (see above).
-- Do not add any other `@freelensapp/*` package as a dependency — they are
+- Do not add any other `@nibamot/*` package as a dependency — they are
   private in v2 and are not published.
 - The package declares its ~30 type-level dependencies (react, mobx,
   monaco-editor, type-fest, ...) itself, so its bundled `.d.ts` type-checks in
@@ -87,7 +87,7 @@ through that shared instance.
   time, so it is easy to miss.
 - Declare `react` / `react-dom` (and `@types/react*`) as **peer dependencies**
   matching the host major — `^19` for this release — and keep them out of your
-  bundle (mark them external). The `@freelensapp/extensions` types already pin
+  bundle (mark them external). The `@nibamot/extensions` types already pin
   the React 19 major, so authoring against them keeps type-checking honest.
 - **This is a breaking change from the earlier React 18 preview.** Extensions
   built against React 18 types must move to React 19, because host-provided
@@ -103,7 +103,7 @@ through that shared instance.
 Freelens v2 bumps the `@ogre-tools/*` dependency-injection packages
 (`injectable`, `injectable-react`, …) from **17 to 23**. This is
 extension-facing because the `@ogre-tools/*` types leak through the
-`@freelensapp/*` packages and the extension API (injection tokens, `getInjectable`,
+`@nibamot/*` packages and the extension API (injection tokens, `getInjectable`,
 the React injection helpers). Re-check any code that constructs or consumes
 injectables against the `@ogre-tools/*` 23 type surface after upgrading.
 
@@ -133,7 +133,7 @@ package's `exports`.
 The API namespaces work in type positions exactly as in v1:
 
 ```ts
-import { Common, Renderer } from "@freelensapp/extensions";
+import { Common, Renderer } from "@nibamot/extensions";
 
 const manifest: Common.PackageJson = { name: "my-extension", version: "1.0.0" };
 
@@ -145,7 +145,7 @@ function renderIcon(props: Renderer.Component.IconProps) { /* ... */ }
 Because compatibility is already broken, the API namespaces are reorganized
 once, at this point (D5). If your v1 extension reached into a specific
 namespace path, re-check it against the current
-`@freelensapp/extensions` type surface after upgrading; a symbol may have moved
+`@nibamot/extensions` type surface after upgrading; a symbol may have moved
 between `Common`, `Main`, and `Renderer`. The concrete rename table is filled
 in from the freelens-example-extension port and will be appended here.
 
@@ -231,7 +231,7 @@ Request bodies are `string | Uint8Array | ArrayBuffer | ReadableStream<Uint8Arra
 `FetchRequestInit` used to carry an undici `dispatcher`. It required an
 extension to depend on `undici` in order to fill a slot it had no way to make
 use of, so the slot is gone and `undici` is no longer among the type
-dependencies `@freelensapp/extensions` declares. The capability it gestured at —
+dependencies `@nibamot/extensions` declares. The capability it gestured at —
 HTTP that respects the user's proxy and CA settings — is `Main.Util.fetch`.
 
 ## `K8sApi.forRemoteCluster` removed
@@ -271,7 +271,7 @@ can be applied at all.
 Freelens v2 dropped `react-router` 5, `react-router-dom` 5, and `history` v4
 from the host (Phase 2 routing modernization, #2261 — `react-router` 5 is
 unmaintained and blocked the React 19 upgrade). Navigation now runs on the
-in-house pieces in `@freelensapp/routing`. **This is an intended, extension-
+in-house pieces in `@nibamot/routing`. **This is an intended, extension-
 facing breaking change:** the `Common.ReactRouter` / `Renderer.ReactRouterDom`
 bundle re-exports no longer exist, so `import { Link } from "react-router-dom"`
 via the Freelens bundle will fail to resolve at runtime.
@@ -532,8 +532,8 @@ is still lighter than wiring up a Tailwind build.
 
 ## Checklist
 
-- [ ] Replace any direct `@freelensapp/*` internal dependency with
-      `@freelensapp/extensions` (types only).
+- [ ] Replace any direct `@nibamot/*` internal dependency with
+      `@nibamot/extensions` (types only).
 - [ ] Import stylesheets normally (side-effect or CSS-module import); drop any
       `?inline` + `<style>` CSS workaround, and make sure your build emits a
       single CSS asset next to the renderer entry.
@@ -557,7 +557,7 @@ is still lighter than wiring up a Tailwind build.
       [HTTP: `Main.Util.fetch` and `Renderer.Util.fetch`](#http-mainutilfetch-and-rendererutilfetch)).
 - [ ] Drop any `undici` dependency added for the `dispatcher` field of
       `reqInit` — the field is gone and `undici` is no longer a declared type
-      dependency of `@freelensapp/extensions`.
+      dependency of `@nibamot/extensions`.
 - [ ] Re-check anything annotated `Response` or `RequestInit` from the DOM: the
       shared fetch types are structural now, so `const r: Response = await
       fetch(...)` no longer compiles.
@@ -579,6 +579,6 @@ noted here so the guide is honest about what is not yet locked:
   is derived.
 
 The rolled-up, self-contained `.d.ts` for the published
-`@freelensapp/extensions` (no `@freelensapp/*` imports, declared type
+`@nibamot/extensions` (no `@nibamot/*` imports, declared type
 dependencies, namespaces usable in type positions) is done and verified
 against a strict-mode scratch consumer.

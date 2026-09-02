@@ -18,7 +18,7 @@ import clusterFrameHandlerInjectable from "./cluster-frame-handler.injectable";
 import { ClusterStatus } from "./cluster-status";
 import clusterViewRouteParametersInjectable from "./cluster-view-route-parameters.injectable";
 
-import type { StrictReactNode } from "@freelensapp/utilities";
+import type { StrictReactNode } from "@nibamot/utilities";
 
 import type { IComputedValue } from "mobx";
 

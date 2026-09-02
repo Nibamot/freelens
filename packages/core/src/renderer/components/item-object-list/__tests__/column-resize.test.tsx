@@ -7,7 +7,7 @@ import "@testing-library/jest-dom/vitest";
 
 import { NonInjectedItemListLayoutContent } from "../content";
 
-import type { ItemObject } from "@freelensapp/list-layout";
+import type { ItemObject } from "@nibamot/list-layout";
 
 import type { StorageLayer } from "../../../utils/storage-helper";
 import type { ItemListLayoutContentProps } from "../content";

@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Button } from "@freelensapp/button";
-import { Icon } from "@freelensapp/icon";
+import { Button } from "@nibamot/button";
+import { Icon } from "@nibamot/icon";
 
 export function ToBottom({ onClick }: { onClick: () => void }) {
   return (

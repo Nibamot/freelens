@@ -6,8 +6,8 @@
 
 import { CoreV1Api } from "@kubernetes/client-node";
 
-import type { Logger } from "@freelensapp/logger";
-import type { PrometheusProvider, PrometheusService } from "@freelensapp/prometheus";
+import type { Logger } from "@nibamot/logger";
+import type { PrometheusProvider, PrometheusService } from "@nibamot/prometheus";
 
 import type { IComputedValue } from "mobx";
 

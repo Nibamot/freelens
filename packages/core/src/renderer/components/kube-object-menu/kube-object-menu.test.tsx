@@ -10,7 +10,7 @@ import type { RenderResult } from "@testing-library/react";
 import type { Mocked } from "vitest";
 import "@testing-library/jest-dom/vitest";
 
-import { KubeObject } from "@freelensapp/kube-object";
+import { KubeObject } from "@nibamot/kube-object";
 import { getInjectable } from "@ogre-tools/injectable";
 import userEvent from "@testing-library/user-event";
 import { computed, runInAction } from "mobx";

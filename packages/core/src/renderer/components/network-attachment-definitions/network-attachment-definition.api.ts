@@ -3,10 +3,10 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { KubeApi } from "@freelensapp/kube-api";
+import { KubeApi } from "@nibamot/kube-api";
 import { NetworkAttachmentDefinition } from "./network-attachment-definition";
 
-import type { DerivedKubeApiOptions, KubeApiDependencies } from "@freelensapp/kube-api";
+import type { DerivedKubeApiOptions, KubeApiDependencies } from "@nibamot/kube-api";
 
 export class NetworkAttachmentDefinitionApi extends KubeApi<NetworkAttachmentDefinition> {
   constructor(deps: KubeApiDependencies, opts: DerivedKubeApiOptions = {}) {

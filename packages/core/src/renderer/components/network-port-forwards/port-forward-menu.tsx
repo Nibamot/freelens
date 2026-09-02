@@ -4,9 +4,9 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Icon } from "@freelensapp/icon";
-import { showErrorNotificationInjectable } from "@freelensapp/notifications";
-import { cssNames } from "@freelensapp/utilities";
+import { Icon } from "@nibamot/icon";
+import { showErrorNotificationInjectable } from "@nibamot/notifications";
+import { cssNames } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import autoBindReact from "auto-bind/react";
 import React from "react";
@@ -16,7 +16,7 @@ import portForwardStoreInjectable from "../../port-forward/port-forward-store/po
 import { MenuItem } from "../menu";
 import { MenuActions } from "../menu/menu-actions";
 
-import type { ShowNotification } from "@freelensapp/notifications";
+import type { ShowNotification } from "@nibamot/notifications";
 
 import type { PortForwardItem, PortForwardStore } from "../../port-forward";
 import type { OpenPortForward } from "../../port-forward/open-port-forward.injectable";

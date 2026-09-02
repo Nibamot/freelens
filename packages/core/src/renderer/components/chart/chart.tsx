@@ -7,7 +7,7 @@
 import "./chart.scss";
 import "./chartjs-adapter-native";
 
-import { cssNames } from "@freelensapp/utilities";
+import { cssNames } from "@nibamot/utilities";
 import { Chart as ChartJS, registerables, Tooltip } from "chart.js";
 import { merge, remove } from "es-toolkit/compat";
 import React from "react";

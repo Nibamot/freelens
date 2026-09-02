@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { clusterFrameChildComponentInjectionToken } from "@freelensapp/react-application";
+import { clusterFrameChildComponentInjectionToken } from "@nibamot/react-application";
 import { getInjectable } from "@ogre-tools/injectable";
 import { computed } from "mobx";
 import { Notifications } from "./notifications";

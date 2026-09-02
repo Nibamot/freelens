@@ -1,8 +1,8 @@
-import { requestFromChannelInjectionToken } from "@freelensapp/messaging";
+import { requestFromChannelInjectionToken } from "@nibamot/messaging";
 import { getInjectable } from "@ogre-tools/injectable";
 import invokeIpcInjectable from "./invoke-ipc.injectable";
 
-import type { RequestFromChannel } from "@freelensapp/messaging";
+import type { RequestFromChannel } from "@nibamot/messaging";
 
 const requestFromChannelInjectable = getInjectable({
   id: "request-from-channel",

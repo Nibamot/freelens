@@ -4,16 +4,16 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Icon } from "@freelensapp/icon";
-import { statefulSetApiInjectable } from "@freelensapp/kube-api-specifics";
-import { showCheckedErrorNotificationInjectable } from "@freelensapp/notifications";
+import { Icon } from "@nibamot/icon";
+import { statefulSetApiInjectable } from "@nibamot/kube-api-specifics";
+import { showCheckedErrorNotificationInjectable } from "@nibamot/notifications";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import openConfirmDialogInjectable from "../confirm-dialog/open.injectable";
 import { MenuItem } from "../menu";
 
-import type { StatefulSetApi } from "@freelensapp/kube-api";
-import type { StatefulSet } from "@freelensapp/kube-object";
-import type { ShowCheckedErrorNotification } from "@freelensapp/notifications";
+import type { StatefulSetApi } from "@nibamot/kube-api";
+import type { StatefulSet } from "@nibamot/kube-object";
+import type { ShowCheckedErrorNotification } from "@nibamot/notifications";
 
 import type { OpenConfirmDialog } from "../confirm-dialog/open.injectable";
 import type { KubeObjectMenuProps } from "../kube-object-menu";

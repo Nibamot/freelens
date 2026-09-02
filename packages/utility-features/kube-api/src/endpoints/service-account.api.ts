@@ -4,10 +4,10 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { ServiceAccount } from "@freelensapp/kube-object";
+import { ServiceAccount } from "@nibamot/kube-object";
 import { KubeApi } from "../kube-api";
 
-import type { ServiceAccountData } from "@freelensapp/kube-object";
+import type { ServiceAccountData } from "@nibamot/kube-object";
 
 import type { DerivedKubeApiOptions, KubeApiDependencies } from "../kube-api";
 

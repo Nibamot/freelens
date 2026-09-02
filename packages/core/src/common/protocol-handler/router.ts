@@ -4,14 +4,14 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { compileRoutePath, matchPath } from "@freelensapp/routing";
-import { isDefined, iter } from "@freelensapp/utilities";
+import { compileRoutePath, matchPath } from "@nibamot/routing";
+import { isDefined, iter } from "@nibamot/utilities";
 import { ipcRenderer } from "electron";
 import { when } from "mobx";
 import { RoutingError, RoutingErrorType } from "./error";
 
-import type { Logger } from "@freelensapp/logger";
-import type { Match } from "@freelensapp/routing";
+import type { Logger } from "@nibamot/logger";
+import type { Match } from "@nibamot/routing";
 
 import type { ExtensionLoader } from "../../extensions/extension-loader";
 import type { LensExtension } from "../../extensions/lens-extension";
@@ -81,7 +81,7 @@ export abstract class LensProtocolRouter {
 
   /**
    * Attempts to route the given URL to all internal routes that have been registered
-   * @param url the parsed URL that initiated the `freelens://` protocol
+   * @param url the parsed URL that initiated the `ims-scope://` protocol
    * @returns true if a route has been found
    */
   protected _routeToInternal(url: URL): RouteAttempt {
@@ -266,7 +266,7 @@ export abstract class LensProtocolRouter {
   }
 
   /**
-   * Add a handler under the `freelens://app` tree of routing.
+   * Add a handler under the `ims-scope://app` tree of routing.
    * @param pathSchema the URI path schema to match against for this handler
    * @param handler a function that will be called if a protocol path matches
    */

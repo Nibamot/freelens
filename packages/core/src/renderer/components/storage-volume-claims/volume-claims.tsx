@@ -6,9 +6,9 @@
 
 import "./volume-claims.scss";
 
-import { storageClassApiInjectable } from "@freelensapp/kube-api-specifics";
-import { Link } from "@freelensapp/routing";
-import { stopPropagation, unitsToBytes } from "@freelensapp/utilities";
+import { storageClassApiInjectable } from "@nibamot/kube-api-specifics";
+import { Link } from "@nibamot/routing";
+import { stopPropagation, unitsToBytes } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
 import React from "react";
@@ -21,7 +21,7 @@ import { WithTooltip } from "../with-tooltip";
 import podStoreInjectable from "../workloads-pods/store.injectable";
 import persistentVolumeClaimStoreInjectable from "./store.injectable";
 
-import type { StorageClassApi } from "@freelensapp/kube-api";
+import type { StorageClassApi } from "@nibamot/kube-api";
 
 import type { GetDetailsUrl } from "../kube-detail-params/get-details-url.injectable";
 import type { PodStore } from "../workloads-pods/store";

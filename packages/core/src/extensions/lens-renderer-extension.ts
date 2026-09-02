@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { loggerInjectionToken } from "@freelensapp/logger";
+import { loggerInjectionToken } from "@nibamot/logger";
 import catalogCategoryRegistryInjectable from "../common/catalog/category-registry.injectable";
 import navigateToPreferencesInjectable from "../features/preferences/common/navigate-to-preferences.injectable";
 import catalogEntityRegistryInjectable from "../renderer/api/catalog/entity/registry.injectable";
@@ -16,8 +16,8 @@ import { getEnvironmentSpecificDiForExtensionApi } from "./extension-api-di";
 import ensureHashedDirectoryForExtensionInjectable from "./extension-loader/file-system-provisioner-store/ensure-hashed-directory-for-extension.injectable";
 import { Disposers, LensExtension } from "./lens-extension";
 
-import type { ClusterFrameChildComponent } from "@freelensapp/react-application";
-import type { Disposer } from "@freelensapp/utilities";
+import type { ClusterFrameChildComponent } from "@nibamot/react-application";
+import type { Disposer } from "@nibamot/utilities";
 
 import type { IComputedValue } from "mobx";
 

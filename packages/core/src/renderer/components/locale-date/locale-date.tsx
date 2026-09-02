@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { formatInTimeZone } from "@freelensapp/utilities";
+import { formatInTimeZone } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
 import userPreferencesStateInjectable from "../../../features/user-preferences/common/state.injectable";

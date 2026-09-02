@@ -6,13 +6,13 @@
 
 import "./editable-list.scss";
 
-import { Icon } from "@freelensapp/icon";
+import { Icon } from "@nibamot/icon";
 import autoBindReact from "auto-bind/react";
 import { observer } from "mobx-react";
 import React from "react";
 import { Input } from "../input";
 
-import type { SingleOrMany, StrictReactNode } from "@freelensapp/utilities";
+import type { SingleOrMany, StrictReactNode } from "@nibamot/utilities";
 
 import type { InputProps, InputValidator } from "../input";
 

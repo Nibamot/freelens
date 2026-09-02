@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import type { RequestChannel } from "@freelensapp/messaging";
+import type { RequestChannel } from "@nibamot/messaging";
 
 import type { OpenDialogOptions } from "electron";
 

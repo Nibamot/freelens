@@ -9,8 +9,8 @@
 import "./slider.scss";
 
 import assert from "node:assert";
-import { cssNames } from "@freelensapp/utilities";
 import MaterialSlider from "@mui/material/Slider";
+import { cssNames } from "@nibamot/utilities";
 import { Component } from "react";
 
 import type { SyntheticEvent } from "react";

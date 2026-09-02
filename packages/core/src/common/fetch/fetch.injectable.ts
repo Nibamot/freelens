@@ -6,7 +6,7 @@
 import { getInjectable, type Injectable } from "@ogre-tools/injectable";
 import { fetchImplementationInjectionToken } from "./fetch-injection-token";
 
-import type { Fetch } from "@freelensapp/json-api";
+import type { Fetch } from "@nibamot/json-api";
 
 export type {
   Fetch,
@@ -16,7 +16,7 @@ export type {
   FetchRequestInit,
   FetchResponse,
   FetchResponseHeaders,
-} from "@freelensapp/json-api";
+} from "@nibamot/json-api";
 
 /**
  * The one `fetch` the application uses, in either process.

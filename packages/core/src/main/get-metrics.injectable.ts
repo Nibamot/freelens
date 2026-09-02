@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { object } from "@freelensapp/utilities";
+import { object } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import proxyFetchInjectable from "./fetch/proxy-fetch.injectable";
 import k8sRequestInjectable from "./k8s-request.injectable";

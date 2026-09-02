@@ -5,7 +5,7 @@
  */
 
 import EventEmitter from "node:events";
-import { flushPromises } from "@freelensapp/test-utils";
+import { flushPromises } from "@nibamot/test-utils";
 import MemoryStream from "memorystream";
 import spawnInjectable from "../../../main/child-process/spawn.injectable";
 import randomUUIDInjectable from "../../../main/crypto/random-uuid.injectable";

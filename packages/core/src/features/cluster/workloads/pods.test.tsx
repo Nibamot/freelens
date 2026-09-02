@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { podMetricsApiInjectable } from "@freelensapp/kube-api-specifics";
-import { Pod } from "@freelensapp/kube-object";
+import { podMetricsApiInjectable } from "@nibamot/kube-api-specifics";
+import { Pod } from "@nibamot/kube-object";
 import navigateToPodsInjectable from "../../../common/front-end-routing/routes/cluster/workloads/pods/navigate-to-pods.injectable";
 import requestMetricsInjectable from "../../../common/k8s-api/endpoints/metrics.api/request-metrics.injectable";
 import {
@@ -14,8 +14,8 @@ import {
 } from "../../../renderer/components/test-utils/get-application-builder";
 import podStoreInjectable from "../../../renderer/components/workloads-pods/store.injectable";
 
-import type { PodMetricsApi } from "@freelensapp/kube-api";
-import type { PodMetrics, PodStatus } from "@freelensapp/kube-object";
+import type { PodMetricsApi } from "@nibamot/kube-api";
+import type { PodMetrics, PodStatus } from "@nibamot/kube-object";
 
 import type { RenderResult } from "@testing-library/react";
 

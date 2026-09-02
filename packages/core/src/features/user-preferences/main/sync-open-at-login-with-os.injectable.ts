@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { onLoadOfApplicationInjectionToken } from "@freelensapp/application";
+import { onLoadOfApplicationInjectionToken } from "@nibamot/application";
 import { getInjectable } from "@ogre-tools/injectable";
 import { reaction } from "mobx";
 import setLoginItemSettingsInjectable from "../../../main/electron-app/features/set-login-item-settings.injectable";

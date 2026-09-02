@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { PodDisruptionBudget } from "@freelensapp/kube-object";
+import { PodDisruptionBudget } from "@nibamot/kube-object";
 import { getInjectable } from "@ogre-tools/injectable";
 import { computed } from "mobx";
 import { PodDisruptionBudgetDetails } from "../../../config-pod-disruption-budgets";

@@ -16,7 +16,7 @@ import { NamespaceSelectBadge } from "../namespaces/namespace-select-badge";
 import { WithTooltip } from "../with-tooltip";
 import serviceStoreInjectable from "./store.injectable";
 
-import type { Service } from "@freelensapp/kube-object";
+import type { Service } from "@nibamot/kube-object";
 
 import type { ServiceStore } from "./store";
 

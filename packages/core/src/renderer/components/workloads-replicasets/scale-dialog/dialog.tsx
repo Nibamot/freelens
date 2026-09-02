@@ -6,10 +6,10 @@
 
 import "./dialog.scss";
 
-import { Icon } from "@freelensapp/icon";
-import { replicaSetApiInjectable } from "@freelensapp/kube-api-specifics";
-import { showCheckedErrorNotificationInjectable } from "@freelensapp/notifications";
-import { cssNames } from "@freelensapp/utilities";
+import { Icon } from "@nibamot/icon";
+import { replicaSetApiInjectable } from "@nibamot/kube-api-specifics";
+import { showCheckedErrorNotificationInjectable } from "@nibamot/notifications";
+import { cssNames } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { computed, makeObservable, observable } from "mobx";
 import { observer } from "mobx-react";
@@ -19,9 +19,9 @@ import { Slider } from "../../slider";
 import { Wizard, WizardStep } from "../../wizard";
 import replicaSetScaleDialogStateInjectable from "./state.injectable";
 
-import type { ReplicaSetApi } from "@freelensapp/kube-api";
-import type { ReplicaSet } from "@freelensapp/kube-object";
-import type { ShowCheckedErrorNotification } from "@freelensapp/notifications";
+import type { ReplicaSetApi } from "@nibamot/kube-api";
+import type { ReplicaSet } from "@nibamot/kube-object";
+import type { ShowCheckedErrorNotification } from "@nibamot/notifications";
 
 import type { IObservableValue } from "mobx";
 

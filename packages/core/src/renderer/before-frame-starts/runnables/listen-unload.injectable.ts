@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { reactRootInjectionToken } from "@freelensapp/react-application";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { reactRootInjectionToken } from "@nibamot/react-application";
 import { getInjectable } from "@ogre-tools/injectable";
 import closeRendererLogFileInjectable from "../../../features/population-of-logs-to-a-file/renderer/close-renderer-log-file.injectable";
 import hostedClusterInjectable from "../../cluster-frame-context/hosted-cluster.injectable";

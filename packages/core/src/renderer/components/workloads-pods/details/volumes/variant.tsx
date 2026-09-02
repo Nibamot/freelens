@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Icon } from "@freelensapp/icon";
+import { Icon } from "@nibamot/icon";
 import { DrawerItem } from "../../../drawer";
 import { AwsElasticBlockStore } from "./variants/aws-elastic-block-store";
 import { AzureDisk } from "./variants/azure-disk";
@@ -38,7 +38,7 @@ import { Secret } from "./variants/secret";
 import { StorageOs } from "./variants/storage-os";
 import { VsphereVolume } from "./variants/vsphere-volume";
 
-import type { Pod, PodSpecVolume, PodVolumeKind } from "@freelensapp/kube-object";
+import type { Pod, PodSpecVolume, PodVolumeKind } from "@nibamot/kube-object";
 
 import type { JSX } from "react";
 

@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { observableHistoryInjectionToken } from "@freelensapp/routing";
+import { observableHistoryInjectionToken } from "@nibamot/routing";
 import { getInjectable } from "@ogre-tools/injectable";
 import { computed } from "mobx";
 

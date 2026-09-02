@@ -9,7 +9,7 @@ import { computed } from "mobx";
 import { Terminal } from "./terminal";
 import { getMacNaturalTextEditingMapping, handleMacNaturalTextEditingKey } from "./terminal-key-mapping";
 
-import type { Logger } from "@freelensapp/logger";
+import type { Logger } from "@nibamot/logger";
 
 import type { TerminalApi } from "../../../api/terminal-api";
 

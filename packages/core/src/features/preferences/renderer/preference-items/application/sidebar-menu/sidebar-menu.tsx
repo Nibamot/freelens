@@ -1,5 +1,5 @@
-import { Button } from "@freelensapp/button";
-import { ShowNotification, showSuccessNotificationInjectable } from "@freelensapp/notifications";
+import { Button } from "@nibamot/button";
+import { ShowNotification, showSuccessNotificationInjectable } from "@nibamot/notifications";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { useState } from "react";
 import { SubTitle } from "../../../../../../extensions/renderer-api/components";

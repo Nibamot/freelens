@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { showErrorNotificationInjectable } from "@freelensapp/notifications";
+import { showErrorNotificationInjectable } from "@nibamot/notifications";
 import { waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { Cluster } from "../../../../common/cluster/cluster";

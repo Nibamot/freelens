@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { formatDuration } from "@freelensapp/utilities";
+import { formatDuration } from "@nibamot/utilities";
 import { capitalize } from "es-toolkit";
 import { getMillisecondsFromUnixEpoch } from "../../../common/utils/date/get-current-date-time";
 

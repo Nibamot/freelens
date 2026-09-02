@@ -8,7 +8,7 @@ import { ipcRenderer } from "electron";
 import * as proto from "../../../common/protocol-handler";
 import { foldAttemptResults, ProtocolHandlerInvalid, RouteAttempt } from "../../../common/protocol-handler";
 
-import type { ShowNotification } from "@freelensapp/notifications";
+import type { ShowNotification } from "@nibamot/notifications";
 
 import type { LensProtocolRouterDependencies } from "../../../common/protocol-handler";
 

@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { getRequestChannel } from "@freelensapp/messaging";
+import { getRequestChannel } from "@nibamot/messaging";
 
 import type { ClusterId } from "../../../../common/cluster-types";
 

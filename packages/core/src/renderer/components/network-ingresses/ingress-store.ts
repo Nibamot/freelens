@@ -6,7 +6,7 @@
 
 import { KubeObjectStore } from "../../../common/k8s-api/kube-object.store";
 
-import type { IngressApi } from "@freelensapp/kube-api";
-import type { Ingress } from "@freelensapp/kube-object";
+import type { IngressApi } from "@nibamot/kube-api";
+import type { Ingress } from "@nibamot/kube-object";
 
 export class IngressStore extends KubeObjectStore<Ingress, IngressApi> {}

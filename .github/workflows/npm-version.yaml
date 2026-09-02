@@ -83,9 +83,9 @@ jobs:
         run: |
           set -eo pipefail
           pnpm bump-version "$newversion" | tee .github/update.log
-          yq -pj -oy -r .version freelens/package.json > .github/version.log
+          yq -pj -oy -r .version ims-scope/package.json > .github/version.log
           sed -e 's/\x1b\[[0-9;]*m//g' .github/update.log > .github/pr_body.log
-          sed -i 's/<release version="[^"]*" date="[^"]*">/<release version="'"$(cat .github/version.log)"'" date="'$(LC_ALL=C date +%Y-%m-%d)'">/' freelens/build/metainfo.xml
+          sed -i 's/<release version="[^"]*" date="[^"]*">/<release version="'"$(cat .github/version.log)"'" date="'$(LC_ALL=C date +%Y-%m-%d)'">/' ims-scope/build/metainfo.xml
         env:
           newversion: ${{ github.event.inputs.newversion || 'prerelease' }}
 

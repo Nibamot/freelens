@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { displayMode } from "@freelensapp/utilities";
+import { displayMode } from "@nibamot/utilities";
 import React from "react";
 import { DrawerItem, DrawerTitle } from "../../../../drawer";
 

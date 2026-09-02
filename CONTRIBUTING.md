@@ -1,6 +1,6 @@
-# Contributing to Freelens
+# Contributing to IMS-Scope
 
-Thank you for considering contributing to Freelens! We value your support and
+Thank you for considering contributing to IMS-Scope! We value your support and
 are open to collaboration. Here are some guidelines to help you get started.
 
 ## How to Contribute
@@ -8,12 +8,12 @@ are open to collaboration. Here are some guidelines to help you get started.
 ### Reporting Issues
 
 If you find a bug or have a feature request, please check the [existing
-issues](https://github.com/freelensapp/freelens/issues) to see if it has
+issues](https://github.com/Nibamot/ims-scope/issues) to see if it has
 already been reported. If not, you can create a new issue. Please provide as
 much detail as possible, including:
 
 - Steps to reproduce the issue
-- Your environment (OS, Freelens version, installation method)
+- Your environment (OS, IMS-Scope version, installation method)
 
 ### Submitting Pull Requests
 
@@ -55,5 +55,5 @@ Learn about the project from the
 
 ## Community
 
-Join our [Discussions](https://github.com/freelensapp/freelens/discussions)
+Join our [Discussions](https://github.com/Nibamot/ims-scope/discussions)
 for general questions and community support.

@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { isDefined, urlBuilderFor } from "@freelensapp/utilities";
+import { isDefined, urlBuilderFor } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import apiBaseInjectable from "../../api-base.injectable";
 import { HelmChart } from "../helm-charts.api";

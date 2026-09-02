@@ -10,7 +10,7 @@ import { makeObservable, observable } from "mobx";
 import { TerminalChannels, type TerminalMessage, type TerminalStatusLevel } from "../../common/terminal/channels";
 import { WebSocketApi } from "./websocket-api";
 
-import type { Logger } from "@freelensapp/logger";
+import type { Logger } from "@nibamot/logger";
 
 import type { WebSocketApiDependencies, WebSocketEvents } from "./websocket-api";
 

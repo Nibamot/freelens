@@ -9,8 +9,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { showErrorNotificationInjectable } from "@freelensapp/notifications";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { showErrorNotificationInjectable } from "@nibamot/notifications";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { action, makeObservable, observable, reaction, runInAction, when } from "mobx";
 import { observer } from "mobx-react";
@@ -39,8 +39,8 @@ import onCatalogEntityListClickInjectable from "./entity-details/on-catalog-clic
 import showEntityDetailsInjectable from "./entity-details/show.injectable";
 import { HotbarToggleMenuItem } from "./hotbar-toggle-menu-item";
 
-import type { Logger } from "@freelensapp/logger";
-import type { ShowNotification } from "@freelensapp/notifications";
+import type { Logger } from "@nibamot/logger";
+import type { ShowNotification } from "@nibamot/notifications";
 
 import type { IComputedValue } from "mobx";
 

@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { getGlobalOverrideForFunction } from "@freelensapp/test-utils";
+import { getGlobalOverrideForFunction } from "@nibamot/test-utils";
 import goForwardInjectable from "./go-forward.injectable";
 
 export default getGlobalOverrideForFunction(goForwardInjectable);

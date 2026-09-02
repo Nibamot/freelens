@@ -7,7 +7,7 @@
 import { getInjectable } from "@ogre-tools/injectable";
 import apiKubeInjectable from "./api-kube.injectable";
 
-import type { KubeJsonApi } from "@freelensapp/kube-api";
+import type { KubeJsonApi } from "@nibamot/kube-api";
 
 import type { Injectable } from "@ogre-tools/injectable";
 

@@ -6,16 +6,16 @@
 
 import "./drop-file-input.scss";
 
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { cssNames } from "@freelensapp/utilities";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { cssNames } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import autoBindReact from "auto-bind/react";
 import { makeObservable, observable } from "mobx";
 import { observer } from "mobx-react";
 import React from "react";
 
-import type { Logger } from "@freelensapp/logger";
-import type { IClassName } from "@freelensapp/utilities";
+import type { Logger } from "@nibamot/logger";
+import type { IClassName } from "@nibamot/utilities";
 
 export interface DropFileInputProps<T extends HTMLElement> extends React.DOMAttributes<T> {
   className?: IClassName;

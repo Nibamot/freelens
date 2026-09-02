@@ -32,7 +32,7 @@ jobs:
           install_args: yq
 
       - name: Check if package version matches
-        run: test "${GITHUB_REF_NAME}" = "v$(yq -pj -oy -r .version freelens/package.json)"
+        run: test "${GITHUB_REF_NAME}" = "v$(yq -pj -oy -r .version ims-scope/package.json)"
 
       - name: Create draft release
         run: |
@@ -144,11 +144,11 @@ jobs:
 
       - name: Get Electron version
         shell: bash
-        run: echo "electron_version=$(yq -py -oy -r .importers.freelens.devDependencies.electron.version pnpm-lock.yaml | sed 's/(.*)//')" | tee -a $GITHUB_ENV
+        run: echo "electron_version=$(yq -py -oy -r .importers['ims-scope'].devDependencies.electron.version pnpm-lock.yaml | sed 's/(.*)//')" | tee -a $GITHUB_ENV
 
       - name: Get Electron Builder version
         shell: bash
-        run: echo "electron_builder_version=$(yq -py -oy -r .importers.freelens.devDependencies.electron-builder.version pnpm-lock.yaml | sed 's/(.*)//')" | tee -a $GITHUB_ENV
+        run: echo "electron_builder_version=$(yq -py -oy -r .importers['ims-scope'].devDependencies.electron-builder.version pnpm-lock.yaml | sed 's/(.*)//')" | tee -a $GITHUB_ENV
 
       # electron-builder's Electron zip downloader doesn't accept a cache
       # directory override and always writes into the OS-default Electron cache
@@ -202,7 +202,7 @@ jobs:
 
       - name: Install Electron binary
         shell: bash
-        working-directory: freelens
+        working-directory: ims-scope
         env:
           electron_config_cache: ${{ env.electron_cache_dir }}
         run: node "$(node -p "require.resolve('electron/install.js')")"
@@ -287,10 +287,10 @@ jobs:
         if: runner.os == 'macOS'
         run: |
           if [[ -n $APPLEID && -n $APPLEIDPASS && -n $APPLETEAMID ]]; then
-            pkgname=$(ls -1 freelens/dist/IMS-Scope*.pkg | head -n1)
+            pkgname=$(ls -1 ims-scope/dist/IMS-Scope*.pkg | head -n1)
             auth="--apple-id $APPLEID --password $APPLEIDPASS --team-id $APPLETEAMID"
-            xcrun notarytool submit $pkgname $auth --wait 2>&1 | tee freelens/dist/notarytool.log
-            uuid=$(awk '/id: / { print $2; exit; }' freelens/dist/notarytool.log)
+            xcrun notarytool submit $pkgname $auth --wait 2>&1 | tee ims-scope/dist/notarytool.log
+            uuid=$(awk '/id: / { print $2; exit; }' ims-scope/dist/notarytool.log)
             sleep 60
             if [[ -n $uuid ]]; then
               xcrun notarytool log $uuid $auth
@@ -309,10 +309,10 @@ jobs:
         run: |
           if [[ -n $APPLEID && -n $APPLEIDPASS && -n $APPLETEAMID ]]; then
             sleep 600
-            pkgname=$(ls -1 freelens/dist/IMS-Scope*.pkg | head -n1)
+            pkgname=$(ls -1 ims-scope/dist/IMS-Scope*.pkg | head -n1)
             auth="--apple-id $APPLEID --password $APPLEIDPASS --team-id $APPLETEAMID"
-            xcrun notarytool submit $pkgname $auth --wait 2>&1 | tee freelens/dist/notarytool.log
-            uuid=$(awk '/id: / { print $2; exit; }' freelens/dist/notarytool.log)
+            xcrun notarytool submit $pkgname $auth --wait 2>&1 | tee ims-scope/dist/notarytool.log
+            uuid=$(awk '/id: / { print $2; exit; }' ims-scope/dist/notarytool.log)
             sleep 60
             if [[ -n $uuid ]]; then
               xcrun notarytool log $uuid $auth
@@ -330,10 +330,10 @@ jobs:
         run: |
           if [[ -n $APPLEID && -n $APPLEIDPASS && -n $APPLETEAMID ]]; then
             sleep 600
-            pkgname=$(ls -1 freelens/dist/IMS-Scope*.pkg | head -n1)
+            pkgname=$(ls -1 ims-scope/dist/IMS-Scope*.pkg | head -n1)
             auth="--apple-id $APPLEID --password $APPLEIDPASS --team-id $APPLETEAMID"
-            xcrun notarytool submit $pkgname $auth --wait 2>&1 | tee freelens/dist/notarytool.log
-            uuid=$(awk '/id: / { print $2; exit; }' freelens/dist/notarytool.log)
+            xcrun notarytool submit $pkgname $auth --wait 2>&1 | tee ims-scope/dist/notarytool.log
+            uuid=$(awk '/id: / { print $2; exit; }' ims-scope/dist/notarytool.log)
             sleep 60
             if [[ -n $uuid ]]; then
               xcrun notarytool log $uuid $auth
@@ -403,9 +403,9 @@ jobs:
             echo "::endgroup::"
             rm -rf "${tmpdir}"
             found=$((found + 1))
-          done < <(find freelens/dist -type f -name app.asar)
+          done < <(find ims-scope/dist -type f -name app.asar)
           if [[ "${found}" -eq 0 ]]; then
-            echo "No app.asar found under freelens/dist" >&2
+            echo "No app.asar found under ims-scope/dist" >&2
             exit 1
           fi
 
@@ -427,7 +427,7 @@ jobs:
             *) unpacked="win-unpacked" ;;
           esac
           ws='${{ github.workspace }}'
-          dir="freelens/dist/$unpacked"
+          dir="ims-scope/dist/$unpacked"
           list="$RUNNER_TEMP/sign-files.txt"
           : > "$list"
           while IFS= read -r -d '' f; do
@@ -471,7 +471,7 @@ jobs:
           esac
           pnpm --color=always build:app \
             msi nsis portable \
-            --prepackaged "$GITHUB_WORKSPACE/freelens/dist/$unpacked" \
+            --prepackaged "$GITHUB_WORKSPACE/ims-scope/dist/$unpacked" \
             --${{ matrix.arch }}
         env:
           DEBUG: electron-builder,electron-builder:*
@@ -491,7 +491,7 @@ jobs:
           esac
           pnpm --color=always build:app \
             msi nsis portable \
-            --prepackaged "$GITHUB_WORKSPACE/freelens/dist/$unpacked" \
+            --prepackaged "$GITHUB_WORKSPACE/ims-scope/dist/$unpacked" \
             --${{ matrix.arch }}
         env:
           DEBUG: electron-builder,electron-builder:*
@@ -528,20 +528,20 @@ jobs:
           endpoint: ${{ vars.AZURE_ENDPOINT }}
           trusted-signing-account-name: ${{ vars.AZURE_CODE_SIGNING_NAME }}
           certificate-profile-name: ${{ vars.AZURE_CERT_PROFILE_NAME }}
-          files-folder: ${{ github.workspace }}\freelens\dist
+          files-folder: ${{ github.workspace }}\ims-scope\dist
           files-folder-filter: exe,msi
 
       - name: Tweak binaries
         shell: bash
         run: |
           find . -name '*pty.node' -print0 | xargs -0 file
-          rm -f freelens/dist/*.blockmap
+          rm -f ims-scope/dist/*.blockmap
 
       - name: Normalize filenames before upload
         shell: bash
         run: |
           perl << 'END'
-          chdir "freelens/dist" or die $!;
+          chdir "ims-scope/dist" or die $!;
           my %arch = (x64 => "amd64", arm64 => "arm64");
           my $arch = $arch{$ENV{ARCH}};
           while (<IMS-Scope*>) {
@@ -572,8 +572,8 @@ jobs:
         if: runner.os == 'Linux' || runner.os == 'Windows'
         shell: bash
         run: |
-          for f in freelens/dist/IMS-Scope*.*; do
-            pushd freelens/dist > /dev/null
+          for f in ims-scope/dist/IMS-Scope*.*; do
+            pushd ims-scope/dist > /dev/null
             sha256sum $(basename $f) | tee $(basename $f).sha256
             popd > /dev/null
           done
@@ -582,8 +582,8 @@ jobs:
         if: runner.os == 'macOS'
         shell: bash
         run: |
-          for f in freelens/dist/IMS-Scope*.*; do
-            pushd freelens/dist > /dev/null
+          for f in ims-scope/dist/IMS-Scope*.*; do
+            pushd ims-scope/dist > /dev/null
             shasum -a 256 $(basename $f) | tee $(basename $f).sha256
             popd > /dev/null
           done
@@ -592,7 +592,7 @@ jobs:
         uses: anchore/sbom-action@v0
         with:
           format: spdx-json
-          output-file: "freelens/dist/${{ github.event.repository.name }}-${{ matrix.os }}-${{ matrix.arch == 'x64' && 'amd64' || matrix.arch }}-sbom.spdx.json"
+          output-file: "ims-scope/dist/${{ github.event.repository.name }}-${{ matrix.os }}-${{ matrix.arch == 'x64' && 'amd64' || matrix.arch }}-sbom.spdx.json"
           github-token: ${{ secrets.GITHUB_TOKEN }}
           artifact-name: "${{ github.event.repository.name }}-${{ matrix.os }}-${{ matrix.arch == 'x64' && 'amd64' || matrix.arch }}-sbom.spdx.json"
           upload-release-assets: false
@@ -612,12 +612,12 @@ jobs:
           # because the workspace does not set inject-workspace-packages. The
           # lowercase repo-name prefix keeps this file out of the IMS-Scope*.*
           # release-upload glob; it travels as a run artifact instead.
-          deploy_dir="$RUNNER_TEMP/freelens-prod"
+          deploy_dir="$RUNNER_TEMP/ims-scope-prod"
           rm -rf "$deploy_dir"
-          pnpm --filter freelens deploy --prod --legacy --ignore-scripts "$deploy_dir"
+          pnpm --filter ims-scope deploy --prod --legacy --ignore-scripts "$deploy_dir"
           os="${{ matrix.os }}"
           arch="${{ matrix.arch == 'x64' && 'amd64' || matrix.arch }}"
-          out="freelens/dist/${{ github.event.repository.name }}-${os}-${arch}-prod-packages.json"
+          out="ims-scope/dist/${{ github.event.repository.name }}-${os}-${arch}-prod-packages.json"
           (
             cd "$deploy_dir"
             printf 'key\tvalue\n'
@@ -638,7 +638,7 @@ jobs:
         uses: actions/upload-artifact@v7
         with:
           name: "${{ github.event.repository.name }}-${{ matrix.os }}-${{ matrix.arch == 'x64' && 'amd64' || matrix.arch }}-prod-packages.json"
-          path: "freelens/dist/${{ github.event.repository.name }}-${{ matrix.os }}-${{ matrix.arch == 'x64' && 'amd64' || matrix.arch }}-prod-packages.json"
+          path: "ims-scope/dist/${{ github.event.repository.name }}-${{ matrix.os }}-${{ matrix.arch == 'x64' && 'amd64' || matrix.arch }}-prod-packages.json"
 
       - name: Normalize SBOM filename
         shell: bash
@@ -646,8 +646,8 @@ jobs:
           version="${GITHUB_REF_NAME#v}"
           os="${{ matrix.os }}"
           arch="${{ matrix.arch == 'x64' && 'amd64' || matrix.arch }}"
-          for f in freelens/dist/*-sbom.spdx.json; do
-            newname="freelens/dist/IMS-Scope-${version}-${os}-${arch}-sbom.spdx.json"
+          for f in ims-scope/dist/*-sbom.spdx.json; do
+            newname="ims-scope/dist/IMS-Scope-${version}-${os}-${arch}-sbom.spdx.json"
             mv "$f" "$newname"
             if [ -f "${f}.sha256" ]; then
               mv "${f}.sha256" "${newname}.sha256"
@@ -658,8 +658,8 @@ jobs:
         if: runner.os == 'Linux' || runner.os == 'Windows'
         shell: bash
         run: |
-          for f in freelens/dist/*-sbom.spdx.json; do
-            pushd freelens/dist > /dev/null
+          for f in ims-scope/dist/*-sbom.spdx.json; do
+            pushd ims-scope/dist > /dev/null
             sha256sum $(basename $f) | tee $(basename $f).sha256
             popd > /dev/null
           done
@@ -668,8 +668,8 @@ jobs:
         if: runner.os == 'macOS'
         shell: bash
         run: |
-          for f in freelens/dist/*-sbom.spdx.json; do
-            pushd freelens/dist > /dev/null
+          for f in ims-scope/dist/*-sbom.spdx.json; do
+            pushd ims-scope/dist > /dev/null
             shasum -a 256 $(basename $f) | tee $(basename $f).sha256
             popd > /dev/null
           done
@@ -677,7 +677,7 @@ jobs:
       - name: List files before upload
         shell: bash
         run: |
-          for f in freelens/dist/IMS-Scope*.*; do
+          for f in ims-scope/dist/IMS-Scope*.*; do
             echo "$(ls -l "$f")" "|" "$(file -b "$f")"
           done
 
@@ -689,12 +689,12 @@ jobs:
         uses: actions/upload-artifact@v7
         with:
           name: "${{ github.event.repository.name }}-${{ matrix.os }}-${{ matrix.arch == 'x64' && 'amd64' || matrix.arch }}-checksums"
-          path: freelens/dist/IMS-Scope-*.sha256
+          path: ims-scope/dist/IMS-Scope-*.sha256
 
       - name: Upload files
         shell: bash
         run: |
-          gh release upload ${GITHUB_REF_NAME#sign/} freelens/dist/IMS-Scope*.*
+          gh release upload ${GITHUB_REF_NAME#sign/} ims-scope/dist/IMS-Scope*.*
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -1064,7 +1064,7 @@ jobs:
           gh release download ${GITHUB_REF_NAME} -p "*.deb" -D tmp
           pushd tmp
             apt-ftparchive packages . | tee Packages | xz > Packages.xz
-            apt-ftparchive release -c ../freelens/build/apt/release.conf . > Release
+            apt-ftparchive release -c ../ims-scope/build/apt/release.conf . > Release
             gpg --clearsign -o InRelease Release
             gpg --armor --detach-sign --sign -o Release.gpg Release
             gh release upload ${GITHUB_REF_NAME} InRelease Packages Packages.xz Release Release.gpg --clobber

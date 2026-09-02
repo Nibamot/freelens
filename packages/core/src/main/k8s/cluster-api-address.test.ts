@@ -49,7 +49,7 @@ describe("cluster-api-address in main", () => {
 
     expect(di.inject(clusterApiAddressInjectionToken)("some-cluster-id")).toEqual({
       serverAddress: "https://127.0.0.1:12345",
-      hostHeader: "some-cluster-id.renderer.freelens.app:12345",
+      hostHeader: "some-cluster-id.renderer.ims-scope.app:12345",
     });
   });
 });

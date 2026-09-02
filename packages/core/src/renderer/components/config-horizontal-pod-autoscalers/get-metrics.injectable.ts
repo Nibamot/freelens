@@ -13,7 +13,7 @@ import type {
   HorizontalPodAutoscaler,
   HorizontalPodAutoscalerMetricSpec,
   HorizontalPodAutoscalerMetricStatus,
-} from "@freelensapp/kube-object";
+} from "@nibamot/kube-object";
 
 type Parser = HorizontalPodAutoscalerV1MetricParser | HorizontalPodAutoscalerV2MetricParser;
 

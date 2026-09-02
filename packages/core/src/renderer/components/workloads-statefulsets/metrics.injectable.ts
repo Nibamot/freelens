@@ -7,7 +7,7 @@
 import requestPodMetricsForStatefulSetsInjectable from "../../../common/k8s-api/endpoints/metrics.api/request-pod-metrics-for-stateful-sets.injectable";
 import { createTimeRangedMetricsInjectable } from "../resource-metrics/create-time-ranged-metrics";
 
-import type { StatefulSet } from "@freelensapp/kube-object";
+import type { StatefulSet } from "@nibamot/kube-object";
 
 interface StatefulSetMetricsInjectableParams {
   statefulSet: StatefulSet;

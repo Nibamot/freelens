@@ -5,7 +5,7 @@
  */
 
 import asyncFn from "@async-fn/vitest";
-import { flushPromises } from "@freelensapp/test-utils";
+import { flushPromises } from "@nibamot/test-utils";
 import { KubeJsonApi } from "../kube-json-api";
 import { StatefulSetApi } from "./stateful-set.api";
 

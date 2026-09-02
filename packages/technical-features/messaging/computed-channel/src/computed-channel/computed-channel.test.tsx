@@ -1,9 +1,9 @@
 import "@testing-library/jest-dom/vitest";
-import { startApplicationInjectionToken } from "@freelensapp/application";
-import { registerFeature } from "@freelensapp/feature-core";
-import { getMessageChannelListenerInjectable, testUtils } from "@freelensapp/messaging";
-import { getMessageBridgeFake, MessageBridgeFake } from "@freelensapp/messaging-fake-bridge";
-import { renderFor, runWithThrownMobxReactions } from "@freelensapp/test-utils";
+import { startApplicationInjectionToken } from "@nibamot/application";
+import { registerFeature } from "@nibamot/feature-core";
+import { getMessageChannelListenerInjectable, testUtils } from "@nibamot/messaging";
+import { getMessageBridgeFake, MessageBridgeFake } from "@nibamot/messaging-fake-bridge";
+import { renderFor, runWithThrownMobxReactions } from "@nibamot/test-utils";
 import { createContainer, DiContainer, getInjectable } from "@ogre-tools/injectable";
 import { registerMobX } from "@ogre-tools/injectable-extension-for-mobx";
 import { act, RenderResult } from "@testing-library/react";
@@ -16,7 +16,7 @@ import {
   computedChannelAdministrationChannel,
 } from "./computed-channel-administration-channel.injectable";
 
-import type { MessageChannel } from "@freelensapp/messaging";
+import type { MessageChannel } from "@nibamot/messaging";
 
 const testChannel: MessageChannel<string> = { id: "some-channel-id" };
 const testChannel2: MessageChannel<string> = { id: "some-other-channel-id" };

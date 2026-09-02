@@ -7,8 +7,8 @@
 import "./file-picker.scss";
 
 import path from "node:path";
-import { Icon } from "@freelensapp/icon";
-import { Spinner } from "@freelensapp/spinner";
+import { Icon } from "@nibamot/icon";
+import { Spinner } from "@nibamot/spinner";
 import { sum } from "es-toolkit";
 import { orderBy } from "es-toolkit/compat";
 import fse from "fs-extra";
@@ -16,7 +16,7 @@ import { makeObservable, observable } from "mobx";
 import { observer } from "mobx-react";
 import React from "react";
 
-import type { StrictReactNode } from "@freelensapp/utilities";
+import type { StrictReactNode } from "@nibamot/utilities";
 
 export interface FileUploadProps {
   uploadDir: string;

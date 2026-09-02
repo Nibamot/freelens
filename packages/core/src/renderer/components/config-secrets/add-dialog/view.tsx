@@ -6,11 +6,11 @@
 
 import "./view.scss";
 
-import { Icon } from "@freelensapp/icon";
-import { secretApiInjectable } from "@freelensapp/kube-api-specifics";
-import { reverseSecretTypeMap, SecretType } from "@freelensapp/kube-object";
-import { showCheckedErrorNotificationInjectable } from "@freelensapp/notifications";
-import { base64, iter, object } from "@freelensapp/utilities";
+import { Icon } from "@nibamot/icon";
+import { secretApiInjectable } from "@nibamot/kube-api-specifics";
+import { reverseSecretTypeMap, SecretType } from "@nibamot/kube-object";
+import { showCheckedErrorNotificationInjectable } from "@nibamot/notifications";
+import { base64, iter, object } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { upperFirst } from "es-toolkit";
 import { makeObservable, observable } from "mobx";
@@ -27,8 +27,8 @@ import { Wizard, WizardStep } from "../../wizard";
 import closeAddSecretDialogInjectable from "./close.injectable";
 import isAddSecretDialogOpenInjectable from "./is-open.injectable";
 
-import type { SecretApi } from "@freelensapp/kube-api";
-import type { ShowCheckedErrorNotification } from "@freelensapp/notifications";
+import type { SecretApi } from "@nibamot/kube-api";
+import type { ShowCheckedErrorNotification } from "@nibamot/notifications";
 
 import type { IComputedValue } from "mobx";
 

@@ -6,8 +6,8 @@
 
 import { KubeObjectStore } from "../../../common/k8s-api/kube-object.store";
 
-import type { ValidatingWebhookConfigurationApi } from "@freelensapp/kube-api";
-import type { ValidatingWebhookConfiguration } from "@freelensapp/kube-object";
+import type { ValidatingWebhookConfigurationApi } from "@nibamot/kube-api";
+import type { ValidatingWebhookConfiguration } from "@nibamot/kube-object";
 
 export class ValidatingWebhookConfigurationStore extends KubeObjectStore<
   ValidatingWebhookConfiguration,

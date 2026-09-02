@@ -1,3 +1,3 @@
-# @freelensapp/test-utils
+# @nibamot/test-utils
 
 This package contains many useful utilities for testing.

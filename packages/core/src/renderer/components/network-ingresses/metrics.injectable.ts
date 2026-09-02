@@ -7,7 +7,7 @@
 import requestIngressMetricsInjectable from "../../../common/k8s-api/endpoints/metrics.api/request-ingress-metrics.injectable";
 import { createTimeRangedMetricsInjectable } from "../resource-metrics/create-time-ranged-metrics";
 
-import type { Ingress } from "@freelensapp/kube-object";
+import type { Ingress } from "@nibamot/kube-object";
 
 interface IngressMetricsInjectableParams {
   ingress: Ingress;

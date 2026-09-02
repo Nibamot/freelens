@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { getGlobalOverrideForFunction } from "@freelensapp/test-utils";
+import { getGlobalOverrideForFunction } from "@nibamot/test-utils";
 import logErrorInjectable from "./log-error.injectable";
 
 // Note: this should remain as it is, and throw if called. Logging error is something

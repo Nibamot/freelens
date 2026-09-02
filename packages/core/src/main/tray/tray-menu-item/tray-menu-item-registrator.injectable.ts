@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { getRandomIdInjectionToken } from "@freelensapp/random";
-import { isBoolean, isString } from "@freelensapp/utilities";
+import { getRandomIdInjectionToken } from "@nibamot/random";
+import { isBoolean, isString } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import { computed } from "mobx";
 import withErrorLoggingInjectable from "../../../common/utils/with-error-logging/with-error-logging.injectable";

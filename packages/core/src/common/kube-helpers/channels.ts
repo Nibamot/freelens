@@ -4,10 +4,10 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { getRequestChannel } from "@freelensapp/messaging";
+import { getRequestChannel } from "@nibamot/messaging";
 import { getInjectionToken } from "@ogre-tools/injectable";
 
-import type { AsyncResult, Result } from "@freelensapp/utilities";
+import type { AsyncResult, Result } from "@nibamot/utilities";
 
 import type { ClusterId } from "../cluster-types";
 

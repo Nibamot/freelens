@@ -7,8 +7,8 @@
 import { when } from "mobx";
 import { requestSetClusterFrameId } from "../../../ipc";
 
-import type { Logger } from "@freelensapp/logger";
-import type { ShowNotification } from "@freelensapp/notifications";
+import type { Logger } from "@nibamot/logger";
+import type { ShowNotification } from "@nibamot/notifications";
 
 import type { EmitAppEvent } from "../../../../common/app-event-bus/emit-event.injectable";
 import type { Cluster } from "../../../../common/cluster/cluster";

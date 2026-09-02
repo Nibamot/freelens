@@ -10,7 +10,7 @@ import rendererClusterEnumerationInjectable from "../../renderer/cluster-enumera
 import activeKubernetesClusterInjectable from "../../renderer/cluster-frame-context/active-kubernetes-cluster.injectable";
 import { asLazyInjectedForExtensionApi } from "../extension-api-di";
 
-import type { Disposer } from "@freelensapp/utilities";
+import type { Disposer } from "@nibamot/utilities";
 
 import type { CatalogCategory, CatalogEntity } from "../../common/catalog";
 import type { CatalogEntityOnBeforeRun } from "../../renderer/api/catalog/entity/registry";
@@ -70,7 +70,7 @@ const clusterEnumeration = asLazyInjectedForExtensionApi(rendererClusterEnumerat
  * @returns Array of cluster information objects
  * @example
  * ```typescript
- * import { Catalog } from "@freelensapp/core/renderer";
+ * import { Catalog } from "@nibamot/core/renderer";
  *
  * const clusters = Catalog.getAllClusters();
  * for (const cluster of clusters) {
@@ -89,7 +89,7 @@ export function getAllClusters(): ClusterInfo[] {
  * @returns The cluster information or undefined if not found
  * @example
  * ```typescript
- * import { Catalog } from "@freelensapp/core/renderer";
+ * import { Catalog } from "@nibamot/core/renderer";
  *
  * const cluster = Catalog.getClusterById("my-cluster-id");
  * if (cluster) {
@@ -107,7 +107,7 @@ export function getClusterById(id: ClusterId): ClusterInfo | undefined {
  * @returns The active cluster information or undefined if no cluster is active
  * @example
  * ```typescript
- * import { Catalog } from "@freelensapp/core/renderer";
+ * import { Catalog } from "@nibamot/core/renderer";
  *
  * const active = Catalog.getActiveCluster();
  * if (active) {

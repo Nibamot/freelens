@@ -6,8 +6,8 @@
 
 import "./button.scss";
 
-import { withTooltip } from "@freelensapp/tooltip";
-import { cssNames, type StrictReactNode } from "@freelensapp/utilities";
+import { withTooltip } from "@nibamot/tooltip";
+import { cssNames, type StrictReactNode } from "@nibamot/utilities";
 import { type ButtonHTMLAttributes } from "react";
 
 export interface ButtonProps extends ButtonHTMLAttributes<any> {

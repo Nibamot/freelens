@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { loggerInjectionToken } from "@freelensapp/logger";
+import { loggerInjectionToken } from "@nibamot/logger";
 import { getInjectable, lifecycleEnum } from "@ogre-tools/injectable";
 import emitAppEventInjectable from "../../common/app-event-bus/emit-event.injectable";
 import execFileInjectable from "../../common/fs/exec-file.injectable";

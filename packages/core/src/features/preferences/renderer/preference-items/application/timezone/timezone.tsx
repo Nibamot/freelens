@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { getAvailableTimezones } from "@freelensapp/utilities";
+import { getAvailableTimezones } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
 import currentTimezoneInjectable from "../../../../../../common/vars/current-timezone.injectable";

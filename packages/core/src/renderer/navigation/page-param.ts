@@ -7,7 +7,7 @@
 // Manage observable param from document's location.search
 import { action, makeObservable } from "mobx";
 
-import type { ObservableHistory } from "@freelensapp/routing";
+import type { ObservableHistory } from "@nibamot/routing";
 
 export interface PageParamInit<Value = any> {
   name: string;

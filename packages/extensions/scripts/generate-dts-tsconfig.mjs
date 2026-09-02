@@ -4,7 +4,7 @@
  */
 
 // Writes tsconfig.dts.generated.json: tsconfig.dts.json plus a `paths` entry
-// for every workspace package entry point. Resolving `@freelensapp/*` through
+// for every workspace package entry point. Resolving `@nibamot/*` through
 // `paths` (instead of node_modules symlinks) makes those sources part of the
 // tsc program, so `tsc -p tsconfig.dts.generated.json` emits declarations for
 // the whole reachable graph under dist-types/.

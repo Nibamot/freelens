@@ -1,19 +1,19 @@
-# @freelensapp/logger
+# @nibamot/logger
 
 This package contains stuff related to creating Lens-applications. 
 
 ## Usage
 
 ```sh
-npm install @freelensapp/logger
+npm install @nibamot/logger
 ```
 
 ```typescript
-import { loggerFeature } from "@freelensapp/logger";
-import type { Logger } from "@freelensapp/logger";
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { winstonLoggerInjectable } from "@freelensapp/logger";
-import { prefixedLoggerInjectable } from "@freelensapp/logger";
+import { loggerFeature } from "@nibamot/logger";
+import type { Logger } from "@nibamot/logger";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { winstonLoggerInjectable } from "@nibamot/logger";
+import { prefixedLoggerInjectable } from "@nibamot/logger";
 ```
 
 ## Extendability

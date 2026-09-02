@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { getGlobalOverride } from "@freelensapp/test-utils";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { getGlobalOverride } from "@nibamot/test-utils";
 
 export default getGlobalOverride(loggerInjectionToken, () => ({
   warn: () => {},

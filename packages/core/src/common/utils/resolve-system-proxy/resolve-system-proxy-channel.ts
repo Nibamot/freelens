@@ -4,6 +4,6 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { getRequestChannel } from "@freelensapp/messaging";
+import { getRequestChannel } from "@nibamot/messaging";
 
 export const resolveSystemProxyChannel = getRequestChannel<string, string>("resolve-system-proxy-channel");

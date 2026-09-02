@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { loggerInjectionToken } from "@freelensapp/logger";
-import { urlBuilderFor } from "@freelensapp/utilities";
+import { loggerInjectionToken } from "@nibamot/logger";
+import { urlBuilderFor } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import apiBaseInjectable from "../../../common/k8s-api/api-base.injectable";
 

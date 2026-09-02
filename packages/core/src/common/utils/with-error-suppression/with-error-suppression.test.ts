@@ -5,7 +5,7 @@
  */
 
 import asyncFn from "@async-fn/vitest";
-import { getPromiseStatus } from "@freelensapp/test-utils";
+import { getPromiseStatus } from "@nibamot/test-utils";
 import { withErrorSuppression } from "./with-error-suppression";
 
 import type { AsyncFnMock } from "@async-fn/vitest";

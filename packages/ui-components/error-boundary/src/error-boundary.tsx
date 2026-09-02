@@ -6,18 +6,18 @@
 
 import "./error-boundary.scss";
 
-import { Button } from "@freelensapp/button";
-import { observableHistoryInjectionToken } from "@freelensapp/routing";
+import { Button } from "@nibamot/button";
+import { observableHistoryInjectionToken } from "@nibamot/routing";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { observer } from "mobx-react";
 import React from "react";
 
-import type { ObservableHistory } from "@freelensapp/routing";
-import type { StrictReactNode } from "@freelensapp/utilities";
+import type { ObservableHistory } from "@nibamot/routing";
+import type { StrictReactNode } from "@nibamot/utilities";
 
 import type { ErrorInfo } from "react";
 
-const issuesTrackerUrl = "https://github.com/freelensapp/freelens/issues";
+const issuesTrackerUrl = "https://github.com/Nibamot/ims-scope/issues";
 
 export interface ErrorBoundaryProps {
   children?: StrictReactNode;

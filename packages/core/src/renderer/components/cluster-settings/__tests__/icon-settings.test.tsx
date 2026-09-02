@@ -7,7 +7,7 @@
 import {
   clusterIconSettingsComponentInjectionToken,
   clusterIconSettingsMenuInjectionToken,
-} from "@freelensapp/cluster-settings";
+} from "@nibamot/cluster-settings";
 import { type DiContainer, getInjectable } from "@ogre-tools/injectable";
 import { screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
@@ -18,7 +18,7 @@ import { getDiForUnitTesting } from "../../../getDiForUnitTesting";
 import { renderFor } from "../../test-utils/renderFor";
 import { ClusterIconSetting } from "../icon-settings";
 
-import type { ClusterIconSettingComponentProps } from "@freelensapp/cluster-settings";
+import type { ClusterIconSettingComponentProps } from "@nibamot/cluster-settings";
 
 import type { RenderResult } from "@testing-library/react";
 import type { UserEvent } from "@testing-library/user-event";

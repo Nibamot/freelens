@@ -3,7 +3,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import type { LogFunction } from "@freelensapp/logger";
+import type { LogFunction } from "@nibamot/logger";
 
 /**
  * The subset of `NodeJS.WriteStream` this module needs. Keeping it structural
@@ -21,7 +21,7 @@ export interface NamedStream {
 /**
  * `EPIPE` is what a write gets once the reader on the other end of the pipe is
  * gone (a launcher such as Amazon AppStream 2.0 tearing down the pipe it
- * captures our output with, or a plain `freelens | head`). `EIO` is the same
+ * captures our output with, or a plain `ims-scope | head`). `EIO` is the same
  * situation for a controlling terminal that went away. Neither says anything
  * about the health of the application, only that nobody is listening any more.
  */

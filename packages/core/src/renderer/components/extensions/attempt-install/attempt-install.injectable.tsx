@@ -4,9 +4,9 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Button } from "@freelensapp/button";
-import { showErrorNotificationInjectable, showInfoNotificationInjectable } from "@freelensapp/notifications";
-import { disposer } from "@freelensapp/utilities";
+import { Button } from "@nibamot/button";
+import { showErrorNotificationInjectable, showInfoNotificationInjectable } from "@nibamot/notifications";
+import { disposer } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import { shell } from "electron";
 import { remove as removeDir } from "fs-extra";
@@ -18,8 +18,8 @@ import createTempFilesAndValidateInjectable from "./create-temp-files-and-valida
 import getExtensionDestFolderInjectable from "./get-extension-dest-folder.injectable";
 import unpackExtensionInjectable from "./unpack-extension.injectable";
 
-import type { ShowNotification } from "@freelensapp/notifications";
-import type { Disposer } from "@freelensapp/utilities";
+import type { ShowNotification } from "@nibamot/notifications";
+import type { Disposer } from "@nibamot/utilities";
 
 import type { ExtensionInstallationStateStore } from "../../../../extensions/extension-installation-state-store/extension-installation-state-store";
 import type { ExtensionLoader } from "../../../../extensions/extension-loader";

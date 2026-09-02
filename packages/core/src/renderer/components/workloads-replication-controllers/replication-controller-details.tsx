@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { replicationControllerApiInjectable } from "@freelensapp/kube-api-specifics";
-import { showErrorNotificationInjectable } from "@freelensapp/notifications";
+import { replicationControllerApiInjectable } from "@nibamot/kube-api-specifics";
+import { showErrorNotificationInjectable } from "@nibamot/notifications";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { action, makeObservable, observable } from "mobx";
 import { observer } from "mobx-react";
@@ -15,9 +15,9 @@ import { DrawerItem, DrawerTitle } from "../drawer";
 import { Slider } from "../slider";
 import styles from "./replication-controller-details.module.scss";
 
-import type { ReplicationControllerApi } from "@freelensapp/kube-api";
-import type { ReplicationController } from "@freelensapp/kube-object";
-import type { ShowNotification } from "@freelensapp/notifications";
+import type { ReplicationControllerApi } from "@nibamot/kube-api";
+import type { ReplicationController } from "@nibamot/kube-object";
+import type { ShowNotification } from "@nibamot/notifications";
 
 import type { KubeObjectDetailsProps } from "../kube-object-details";
 

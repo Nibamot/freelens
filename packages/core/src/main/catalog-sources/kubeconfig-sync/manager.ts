@@ -4,11 +4,11 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { iter } from "@freelensapp/utilities";
+import { iter } from "@nibamot/utilities";
 import { action, computed, makeObservable, observable, reaction } from "mobx";
 
-import type { Logger } from "@freelensapp/logger";
-import type { Disposer } from "@freelensapp/utilities";
+import type { Logger } from "@nibamot/logger";
+import type { Disposer } from "@nibamot/utilities";
 
 import type { IComputedValue, ObservableMap } from "mobx";
 

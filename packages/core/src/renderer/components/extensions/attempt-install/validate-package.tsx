@@ -5,7 +5,7 @@
  */
 
 import path from "node:path";
-import { isObject, isString, listTarEntries, readFileFromTar } from "@freelensapp/utilities";
+import { isObject, isString, listTarEntries, readFileFromTar } from "@nibamot/utilities";
 import { manifestFilename } from "../../../../extensions/extension-discovery/extension-discovery";
 
 import type { LensExtensionManifest } from "../../../../extensions/installed-extension";
@@ -38,8 +38,8 @@ export async function validatePackage(filePath: string): Promise<LensExtensionMa
     throw new Error(`${manifestFilename} must specify "main" and/or "renderer" field`);
   }
 
-  if (!isObject(manifest.engines) || !isString(manifest.engines.freelens)) {
-    throw new Error(`${manifestFilename} must specify "freelens" in "engines" field`);
+  if (!isObject(manifest.engines) || !isString(manifest.engines["ims-scope"])) {
+    throw new Error(`${manifestFilename} must specify "ims-scope" in "engines" field`);
   }
 
   return manifest as unknown as LensExtensionManifest;

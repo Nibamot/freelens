@@ -6,9 +6,9 @@
 
 import "./view.scss";
 
-import { Icon } from "@freelensapp/icon";
-import { Link } from "@freelensapp/routing";
-import { iter, stopPropagation } from "@freelensapp/utilities";
+import { Icon } from "@nibamot/icon";
+import { Link } from "@nibamot/routing";
+import { iter, stopPropagation } from "@nibamot/utilities";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import { makeObservable, observable } from "mobx";
 import { observer } from "mobx-react";

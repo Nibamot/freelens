@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { sidebarItemInjectionToken } from "@freelensapp/cluster-sidebar";
-import { flushPromises } from "@freelensapp/test-utils";
+import { sidebarItemInjectionToken } from "@nibamot/cluster-sidebar";
+import { flushPromises } from "@nibamot/test-utils";
 import { getInjectable } from "@ogre-tools/injectable";
 import { fireEvent } from "@testing-library/react";
 import { noop } from "es-toolkit";

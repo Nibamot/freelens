@@ -4,13 +4,13 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { loggerInjectionToken } from "@freelensapp/logger";
+import { loggerInjectionToken } from "@nibamot/logger";
 import { getInjectable } from "@ogre-tools/injectable";
 import clusterFrameContextForNamespacedResourcesInjectable from "../../../renderer/cluster-frame-context/for-namespaced-resources.injectable";
 import { CustomResourceStore } from "./resource.store";
 
-import type { KubeApi } from "@freelensapp/kube-api";
-import type { KubeObject } from "@freelensapp/kube-object";
+import type { KubeApi } from "@nibamot/kube-api";
+import type { KubeObject } from "@nibamot/kube-object";
 
 import type { KubeObjectStoreDependencies } from "../kube-object.store";
 

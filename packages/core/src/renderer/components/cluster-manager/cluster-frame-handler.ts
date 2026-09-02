@@ -5,12 +5,12 @@
  */
 
 import assert from "node:assert";
-import { onceDefined } from "@freelensapp/utilities";
+import { onceDefined } from "@nibamot/utilities";
 import { action, makeObservable, observable, when } from "mobx";
 import { getClusterFrameUrl } from "../../../common/utils";
 
-import type { Logger } from "@freelensapp/logger";
-import type { Disposer } from "@freelensapp/utilities";
+import type { Logger } from "@nibamot/logger";
+import type { Disposer } from "@nibamot/utilities";
 
 import type { ClusterId } from "../../../common/cluster-types";
 import type { GetClusterById } from "../../../features/cluster/storage/common/get-by-id.injectable";

@@ -10,7 +10,7 @@ import cancelIdleCallbackInjectable from "./cancel-idle-callback.injectable";
 import idleCallbackTimeoutInjectable from "./idle-callback-timeout.injectable";
 import requestIdleCallbackInjectable from "./request-idle-callback.injectable";
 
-import type { StrictReactNode } from "@freelensapp/utilities";
+import type { StrictReactNode } from "@nibamot/utilities";
 
 import type { CancelIdleCallback } from "./cancel-idle-callback.injectable";
 import type { RequestIdleCallback } from "./request-idle-callback.injectable";

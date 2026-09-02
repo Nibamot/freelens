@@ -27,7 +27,7 @@ vi.mock("../chart", () => ({
   },
 }));
 
-vi.mock("@freelensapp/spinner", () => ({
+vi.mock("@nibamot/spinner", () => ({
   Spinner: () => <div data-testid="spinner" />,
 }));
 

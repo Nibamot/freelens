@@ -1,33 +1,33 @@
 {
-  "name": "@freelensapp/kubectl-versions",
+  "name": "@nibamot/kubectl-versions",
   "version": "2.0.0-5",
   "private": true,
   "description": "Package of kubectl versions at build time",
-  "homepage": "https://freelens.app",
+  "homepage": "https://github.com/Nibamot/ims-scope",
   "bugs": {
-    "url": "https://github.com/freelensapp/freelens/issues"
+    "url": "https://github.com/Nibamot/ims-scope/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/freelensapp/freelens.git"
+    "url": "git+https://github.com/Nibamot/ims-scope.git"
   },
   "license": "MIT",
   "type": "module",
   "author": {
     "name": "Freelens Authors",
-    "email": "freelens@freelens.app"
+    "email": "ims-scope@ims-scope.app"
   },
   "main": "./index.ts",
   "types": "./index.ts",
   "scripts": {
     "precompute-versions": "tsc --pretty --project build",
     "compute-versions": "node ./build/compute-versions.mjs",
-    "preupdate-kubectl-checksums": "pnpm --filter @freelensapp/ensure-binaries build",
+    "preupdate-kubectl-checksums": "pnpm --filter @nibamot/ensure-binaries build",
     "update-kubectl-checksums": "update-kubectl-checksums --versions build/versions.json --checksums build/checksums.json"
   },
   "devDependencies": {
-    "@freelensapp/ensure-binaries": "workspace:^",
-    "@freelensapp/typescript": "workspace:^",
+    "@nibamot/ensure-binaries": "workspace:^",
+    "@nibamot/typescript": "workspace:^",
     "@types/semver": "catalog:",
     "fast-xml-parser": "catalog:",
     "semver": "catalog:",

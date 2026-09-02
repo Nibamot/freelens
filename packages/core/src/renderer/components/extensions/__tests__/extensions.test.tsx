@@ -69,7 +69,7 @@ describe("Extensions", () => {
         manifest: {
           name: "test",
           version: "1.2.3",
-          engines: { freelens: "^0.1.0" },
+          engines: { "ims-scope": "^0.1.0" },
         },
         absolutePath: "/absolute/path",
         manifestPath: "/symlinked/path/package.json",

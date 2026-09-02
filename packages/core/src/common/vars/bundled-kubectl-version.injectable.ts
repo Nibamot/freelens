@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { applicationInformationToken } from "@freelensapp/application";
+import { applicationInformationToken } from "@nibamot/application";
 import { getInjectable } from "@ogre-tools/injectable";
 
 const bundledKubectlVersionInjectable = getInjectable({

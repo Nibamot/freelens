@@ -4,8 +4,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Button } from "@freelensapp/button";
-import { notificationsStoreInjectable, showSuccessNotificationInjectable } from "@freelensapp/notifications";
+import { Button } from "@nibamot/button";
+import { notificationsStoreInjectable, showSuccessNotificationInjectable } from "@nibamot/notifications";
 import { getInjectable } from "@ogre-tools/injectable";
 import navigateToEntitySettingsInjectable from "../../common/front-end-routing/routes/entity-settings/navigate-to-entity-settings.injectable";
 import { getMillisecondsFromUnixEpoch } from "../../common/utils/date/get-current-date-time";

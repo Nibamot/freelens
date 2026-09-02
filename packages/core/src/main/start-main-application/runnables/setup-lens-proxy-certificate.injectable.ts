@@ -4,7 +4,7 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { beforeApplicationIsLoadingInjectionToken } from "@freelensapp/application";
+import { beforeApplicationIsLoadingInjectionToken } from "@nibamot/application";
 import { getInjectable } from "@ogre-tools/injectable";
 import { generate } from "selfsigned";
 import lensProxyCertificateInjectable from "../../../common/certificate/lens-proxy-certificate.injectable";
@@ -37,8 +37,8 @@ const setupLensProxyCertificateInjectable = getInjectable({
             {
               name: "subjectAltName",
               altNames: [
-                { type: 2, value: "*.renderer.freelens.app" },
-                { type: 2, value: "renderer.freelens.app" },
+                { type: 2, value: "*.renderer.ims-scope.app" },
+                { type: 2, value: "renderer.ims-scope.app" },
                 { type: 2, value: "localhost" },
                 { type: 7, ip: "127.0.0.1" },
               ],

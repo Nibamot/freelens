@@ -1,10 +1,10 @@
-import { cssNames, isIso8601DateString } from "@freelensapp/utilities";
+import { cssNames, isIso8601DateString } from "@nibamot/utilities";
 import { upperFirst } from "es-toolkit";
 import * as yaml from "js-yaml";
 import { defaultYamlDumpOptions } from "../../../common/kube-helpers";
 import { DurationAbsoluteTimestamp } from "../events";
 
-import type { Condition } from "@freelensapp/kube-object";
+import type { Condition } from "@nibamot/kube-object";
 
 export function getTooltip(condition: Condition, id: string) {
   return (

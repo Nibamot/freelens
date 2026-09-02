@@ -5,7 +5,7 @@
 
 import { getGlobalDispatcher } from "undici";
 
-import type { FetchHeadersInit, FetchRequestHeaders } from "@freelensapp/json-api";
+import type { FetchHeadersInit, FetchRequestHeaders } from "@nibamot/json-api";
 
 import type { Dispatcher } from "undici";
 

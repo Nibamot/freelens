@@ -3,8 +3,8 @@
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
 
-import { Icon } from "@freelensapp/icon";
-import { podListLayoutColumnInjectionToken } from "@freelensapp/list-layout";
+import { Icon } from "@nibamot/icon";
+import { podListLayoutColumnInjectionToken } from "@nibamot/list-layout";
 import { getInjectable } from "@ogre-tools/injectable";
 import { withInjectables } from "@ogre-tools/injectable-react";
 import React from "react";
@@ -12,7 +12,7 @@ import createPodLogsTabInjectable from "../../dock/logs/create-pod-logs-tab.inje
 import { findOptimalDefaultContainer } from "../../dock/logs/default-container-helper";
 import { COLUMN_PRIORITY } from "./column-priority";
 
-import type { Pod } from "@freelensapp/kube-object";
+import type { Pod } from "@nibamot/kube-object";
 
 const columnId = "logs";
 
