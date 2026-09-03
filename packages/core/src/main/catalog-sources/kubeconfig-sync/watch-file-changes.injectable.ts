@@ -9,8 +9,11 @@ import { inspect } from "node:util";
 import { getOrInsertWith, isErrnoException, iter } from "@nibamot/utilities";
 import { getInjectable } from "@ogre-tools/injectable";
 import { computed, observable } from "mobx";
+import { isKubernetesCluster } from "../../../common/catalog-entities/kubernetes-cluster";
 import statInjectable from "../../../common/fs/stat.injectable";
 import watchInjectable from "../../../common/fs/watch/watch.injectable";
+import { getExcludedKubeconfigClusterKey } from "../../../features/user-preferences/common/preferences-helpers";
+import userPreferencesStateInjectable from "../../../features/user-preferences/common/state.injectable";
 import diffChangedKubeconfigInjectable from "./diff-changed-kubeconfig.injectable";
 import kubeconfigSyncLoggerInjectable from "./logger.injectable";
 
@@ -94,12 +97,27 @@ const watchKubeconfigFileChangesInjectable = getInjectable({
     const logger = di.inject(kubeconfigSyncLoggerInjectable);
     const stat = di.inject(statInjectable);
     const watch = di.inject(watchInjectable);
+    const userPreferencesState = di.inject(userPreferencesStateInjectable);
 
     return (filePath) => {
       const rootSource = observable.map<string, ObservableMap<string, [Cluster, CatalogEntity]>>();
-      const derivedSource = computed(() =>
-        Array.from(iter.flatMap(rootSource.values(), (from) => iter.map(from.values(), (child) => child[1]))),
-      );
+      const derivedSource = computed(() => {
+        // Read excludedKubeconfigClusters fresh on every recomputation rather than
+        // capturing the Set once: loading persisted preferences from disk replaces
+        // this property with a brand new Set, and a captured reference would keep
+        // observing the discarded one forever, silently ignoring all exclusions.
+        const excludedKubeconfigClusters = userPreferencesState.excludedKubeconfigClusters;
+
+        return Array.from(
+          iter.flatMap(rootSource.values(), (from) => iter.map(from.values(), (child) => child[1])),
+        ).filter(
+          (entity) =>
+            !isKubernetesCluster(entity) ||
+            !excludedKubeconfigClusters.has(
+              getExcludedKubeconfigClusterKey(entity.spec.kubeconfigPath, entity.spec.kubeconfigContext),
+            ),
+        );
+      });
 
       let watcher: Watcher<true>;
 

@@ -147,3 +147,13 @@
   flex-direction: column;
   height: 100%;
 }
+
+// The Clusters tab's bulk connect/disconnect/remove toolbar shares the
+// bottom-right corner with CatalogAddButton's floating "+" FAB (a MUI
+// SpeedDial, whose collapsed hit area reserves space well above the visible
+// button). Shifting this toolbar up isn't enough to clear it, so move it
+// left of the FAB's column instead, aligned to the same baseline.
+.clusterBulkActions {
+  right: 120px !important;
+  bottom: 30px !important;
+}

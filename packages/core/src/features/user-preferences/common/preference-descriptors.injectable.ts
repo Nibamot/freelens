@@ -148,6 +148,10 @@ const userPreferenceDescriptorsInjectable = getInjectable({
           return res.length ? res : undefined;
         },
       }),
+      excludedKubeconfigClusters: getPreferenceDescriptor<string[], Set<string>>({
+        fromStore: (val = []) => new Set(val),
+        toStore: (val) => (val.size ? Array.from(val) : undefined),
+      }),
       syncKubeconfigEntries: (() => {
         const map = observable.map<string, KubeconfigSyncValue>();
 

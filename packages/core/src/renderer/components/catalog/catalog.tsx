@@ -3,12 +3,9 @@
  * Copyright (c) OpenLens Authors. All rights reserved.
  * Licensed under MIT License. See LICENSE in root directory for more information.
  */
-/**
- * Copyright (c) Freelens Authors. All rights reserved.
- * Copyright (c) OpenLens Authors. All rights reserved.
- * Licensed under MIT License. See LICENSE in root directory for more information.
- */
 
+import { Button } from "@nibamot/button";
+import { Icon } from "@nibamot/icon";
 import { loggerInjectionToken } from "@nibamot/logger";
 import { showErrorNotificationInjectable } from "@nibamot/notifications";
 import { withInjectables } from "@ogre-tools/injectable-react";
@@ -18,6 +15,11 @@ import React from "react";
 import emitAppEventInjectable from "../../../common/app-event-bus/emit-event.injectable";
 import catalogCategoryRegistryInjectable from "../../../common/catalog/category-registry.injectable";
 import visitEntityContextMenuInjectable from "../../../common/catalog/visit-entity-context-menu.injectable";
+import {
+  isKubernetesCluster,
+  KubernetesCluster,
+  LensKubernetesClusterStatus,
+} from "../../../common/catalog-entities/kubernetes-cluster";
 import navigateToCatalogInjectable from "../../../common/front-end-routing/routes/catalog/navigate-to-catalog.injectable";
 import activeHotbarInjectable from "../../../features/hotbar/storage/common/active.injectable";
 import normalizeCatalogEntityContextMenuInjectable from "../../catalog/normalize-menu-item.injectable";
@@ -202,6 +204,30 @@ class NonInjectedCatalog extends React.Component<Dependencies> {
     this.props.activeHotbar.get()?.removeEntity(entity.getId());
   }
 
+  private getSelectedClusters(): KubernetesCluster[] {
+    const { catalogEntityStore } = this.props;
+
+    return catalogEntityStore.pickOnlySelected(catalogEntityStore.entities.get()).filter(isKubernetesCluster);
+  }
+
+  connectSelectedClusters = async () => {
+    const clusters = this.getSelectedClusters().filter(
+      (cluster) => cluster.status.phase === LensKubernetesClusterStatus.DISCONNECTED,
+    );
+
+    await Promise.all(clusters.map((cluster) => cluster.connect()));
+  };
+
+  disconnectSelectedClusters = async () => {
+    const clusters = this.getSelectedClusters().filter(
+      (cluster) =>
+        cluster.status.phase === LensKubernetesClusterStatus.CONNECTED ||
+        cluster.status.phase === LensKubernetesClusterStatus.CONNECTING,
+    );
+
+    await Promise.all(clusters.map((cluster) => cluster.disconnect()));
+  };
+
   onTabChange = action((tabId: string | null) => {
     const activeCategory = tabId ? this.props.catalogCategoryRegistry.getById(tabId) : undefined;
 
@@ -293,12 +319,26 @@ class NonInjectedCatalog extends React.Component<Dependencies> {
       return null;
     }
 
+    // Bulk connect/disconnect/remove only make sense for a single kind of
+    // entity with well-defined semantics, so this is scoped to the Clusters
+    // category tab rather than every catalog entity kind.
+    const isClusterCategory = activeCategory?.spec.names.kind === KubernetesCluster.kind;
+    const selectedClusters = isClusterCategory ? this.getSelectedClusters() : [];
+    const hasDisconnected = selectedClusters.some(
+      (cluster) => cluster.status.phase === LensKubernetesClusterStatus.DISCONNECTED,
+    );
+    const hasConnected = selectedClusters.some(
+      (cluster) =>
+        cluster.status.phase === LensKubernetesClusterStatus.CONNECTED ||
+        cluster.status.phase === LensKubernetesClusterStatus.CONNECTING,
+    );
+
     return (
       <ItemListLayout<CatalogEntity, false>
         className={styles.Catalog}
         tableId={tableId}
         renderHeaderTitle={activeCategory?.metadata.name ?? "Browse All"}
-        isSelectable={false}
+        isSelectable={isClusterCategory}
         isConfigurable={true}
         preloadStores={false}
         store={catalogEntityStore}
@@ -313,6 +353,51 @@ class NonInjectedCatalog extends React.Component<Dependencies> {
           customRowHeights: () => 36, // Entity avatar size + padding
         }}
         data-testid={`catalog-list-for-${activeCategory?.metadata.name ?? "browse-all"}`}
+        {...(isClusterCategory
+          ? {
+              customizeRemoveDialog: (selected: CatalogEntity[]) => ({
+                labelOk: "Remove",
+                message: (
+                  <p>
+                    {"Disconnect and remove "}
+                    <b>{selected.length}</b>
+                    {selected.length === 1 ? " cluster" : " clusters"}
+                    {" from IMS-Scope? The underlying kubeconfig file is not changed."}
+                  </p>
+                ),
+              }),
+              addRemoveButtons: {
+                className: styles.clusterBulkActions,
+                removeTooltip: `Disconnect & remove selected clusters (${selectedClusters.length})`,
+                extraButtons: [
+                  hasDisconnected && (
+                    <Button
+                      key="connect-selected"
+                      big
+                      round
+                      primary
+                      onClick={this.connectSelectedClusters}
+                      tooltip={`Connect selected clusters (${selectedClusters.length})`}
+                    >
+                      <Icon material="link" />
+                    </Button>
+                  ),
+                  hasConnected && (
+                    <Button
+                      key="disconnect-selected"
+                      big
+                      round
+                      primary
+                      onClick={this.disconnectSelectedClusters}
+                      tooltip={`Disconnect selected clusters (${selectedClusters.length})`}
+                    >
+                      <Icon material="link_off" />
+                    </Button>
+                  ),
+                ].filter(Boolean),
+              },
+            }
+          : {})}
       />
     );
   }

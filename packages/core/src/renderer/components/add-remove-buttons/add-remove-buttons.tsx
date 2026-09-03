@@ -18,6 +18,11 @@ export interface AddRemoveButtonsProps extends React.HTMLAttributes<any> {
   onRemove?: () => void;
   addTooltip?: StrictReactNode;
   removeTooltip?: StrictReactNode;
+  /**
+   * Additional buttons rendered alongside add/remove, for list-specific bulk
+   * actions that don't fit the add/remove vocabulary (e.g. connect/disconnect).
+   */
+  extraButtons?: StrictReactNode[];
 }
 
 export class AddRemoveButtons extends React.PureComponent<AddRemoveButtonsProps> {
@@ -47,6 +52,11 @@ export class AddRemoveButtons extends React.PureComponent<AddRemoveButtonsProps>
   }
 
   render() {
-    return <div className={cssNames("AddRemoveButtons flex gap-2", this.props.className)}>{this.renderButtons()}</div>;
+    return (
+      <div className={cssNames("AddRemoveButtons flex gap-2", this.props.className)}>
+        {this.props.extraButtons}
+        {this.renderButtons()}
+      </div>
+    );
   }
 }
