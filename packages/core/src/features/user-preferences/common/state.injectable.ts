@@ -24,6 +24,7 @@ const userPreferencesStateInjectable = getInjectable({
       // Default them to empty observable collections so a not-yet-loaded store
       // cannot crash those views; fromStore() reassigns the fields on load.
       hiddenTableColumns: observable.map<string, Set<string>>(),
+      excludedKubeconfigClusters: observable.set<string>(),
     } as unknown as UserPreferencesState),
 });
 

@@ -15,6 +15,15 @@ export interface KubeconfigSyncEntry extends KubeconfigSyncValue {
 }
 
 export interface KubeconfigSyncValue {}
+
+/**
+ * A stable key identifying one cluster entry within a synced kubeconfig, used
+ * to record that the entry should be excluded from the catalog without
+ * modifying the kubeconfig file itself.
+ */
+export function getExcludedKubeconfigClusterKey(kubeconfigPath: string, contextName: string): string {
+  return JSON.stringify([kubeconfigPath, contextName]);
+}
 export interface TerminalConfig {
   fontSize: number;
   fontFamily: string;

@@ -46,6 +46,9 @@ const userPreferencesPersistentStorageInjectable = getInjectable({
         state.downloadMirror = descriptors.downloadMirror.fromStore(preferences.downloadMirror);
         state.downloadCustomMirror = descriptors.downloadCustomMirror.fromStore(preferences.downloadCustomMirror);
         state.editorConfiguration = descriptors.editorConfiguration.fromStore(preferences.editorConfiguration);
+        state.excludedKubeconfigClusters = descriptors.excludedKubeconfigClusters.fromStore(
+          preferences.excludedKubeconfigClusters,
+        );
         state.extensionRegistryUrl = descriptors.extensionRegistryUrl.fromStore(preferences.extensionRegistryUrl);
         state.helmBinariesPath = descriptors.helmBinariesPath.fromStore(preferences.helmBinariesPath);
         state.helmServerSide = descriptors.helmServerSide.fromStore(preferences.helmServerSide);
@@ -76,6 +79,9 @@ const userPreferencesPersistentStorageInjectable = getInjectable({
             downloadMirror: descriptors.downloadMirror.toStore(state.downloadMirror),
             downloadCustomMirror: descriptors.downloadCustomMirror.toStore(state.downloadCustomMirror),
             editorConfiguration: descriptors.editorConfiguration.toStore(state.editorConfiguration),
+            excludedKubeconfigClusters: descriptors.excludedKubeconfigClusters.toStore(
+              state.excludedKubeconfigClusters,
+            ),
             extensionRegistryUrl: descriptors.extensionRegistryUrl.toStore(state.extensionRegistryUrl),
             helmBinariesPath: descriptors.helmBinariesPath.toStore(state.helmBinariesPath),
             helmServerSide: descriptors.helmServerSide.toStore(state.helmServerSide),
