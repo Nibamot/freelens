@@ -652,7 +652,12 @@ jobs:
     # table and replaces the tracking discussion's body with it, so the
     # discussion always reflects the latest main-branch scan. Runs for the
     # real branch build (push/dispatch/schedule on main) only, never for PRs.
-    if: github.ref_name == 'main' && github.event_name != 'pull_request'
+    #
+    # Disabled: discussion #2243 (DISCUSSION_NUMBER below) no longer exists,
+    # so this job fails every run with "Could not resolve to a Discussion".
+    # Re-enable by restoring the condition below once a valid tracking
+    # discussion number is set.
+    if: false && github.ref_name == 'main' && github.event_name != 'pull_request'
 
     needs:
       - security-scan
