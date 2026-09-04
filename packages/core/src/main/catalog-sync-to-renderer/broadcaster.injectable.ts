@@ -10,6 +10,7 @@ import broadcastMessageInjectable from "../../common/ipc/broadcast-message.injec
 import { catalogItemsChannel } from "../../common/ipc/catalog";
 
 import type { DebouncedFunc } from "es-toolkit/compat";
+
 import type { CatalogEntity } from "../../common/catalog";
 
 const catalogSyncBroadcasterInjectable = getInjectable({
