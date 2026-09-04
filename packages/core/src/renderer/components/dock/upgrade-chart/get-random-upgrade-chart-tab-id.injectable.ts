@@ -7,9 +7,11 @@
 import { getRandomIdInjectionToken } from "@nibamot/random";
 import { getInjectable } from "@ogre-tools/injectable";
 
+import type { GetRandomId } from "@nibamot/random";
+
 const getRandomUpgradeChartTabIdInjectable = getInjectable({
   id: "get-random-upgrade-chart-tab-id",
-  instantiate: (di) => di.inject(getRandomIdInjectionToken),
+  instantiate: (di): GetRandomId => di.inject(getRandomIdInjectionToken),
 });
 
 export default getRandomUpgradeChartTabIdInjectable;

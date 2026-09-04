@@ -7,9 +7,11 @@
 import { getRandomIdInjectionToken } from "@nibamot/random";
 import { getInjectable } from "@ogre-tools/injectable";
 
+import type { GetRandomId } from "@nibamot/random";
+
 const getRandomIdForEditResourceTabInjectable = getInjectable({
   id: "get-random-id-for-edit-resource-tab",
-  instantiate: (di) => di.inject(getRandomIdInjectionToken),
+  instantiate: (di): GetRandomId => di.inject(getRandomIdInjectionToken),
 });
 
 export default getRandomIdForEditResourceTabInjectable;
